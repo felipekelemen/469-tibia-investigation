@@ -219,3 +219,9 @@ Um resultado em idioma diferente exige o mesmo rigor. A alternativa científica
 não é provar que uma sequência não significa nada sob qualquer chave possível:
 é excluir classes explícitas com poder medido e comparar explicações gerativas.
 Nenhuma evidência desta revisão satisfaz ainda o critério de tradução.
+
+
+Atualização de execução: a [quarta rodada](round4.md) qualificou V2 em novos
+autores e aplicou a busca aos livros com controles completos. Prosa copiada
+ainda revelou falhas; a prioridade algorítmica passa a essa condição, mantendo
+novos dados de teste separados. Não houve tradução validada.

@@ -1,0 +1,2923 @@
+{
+  "complete": true,
+  "gate": {
+    "scenario_results": [
+      {
+        "codes": 52,
+        "distribution": "balanced",
+        "passed_fixtures": 30,
+        "required_passes": 27,
+        "fixtures": 30,
+        "passes_gate": true
+      },
+      {
+        "codes": 52,
+        "distribution": "skewed",
+        "passed_fixtures": 30,
+        "required_passes": 27,
+        "fixtures": 30,
+        "passes_gate": true
+      },
+      {
+        "codes": 75,
+        "distribution": "balanced",
+        "passed_fixtures": 30,
+        "required_passes": 27,
+        "fixtures": 30,
+        "passes_gate": true
+      },
+      {
+        "codes": 75,
+        "distribution": "skewed",
+        "passed_fixtures": 30,
+        "required_passes": 27,
+        "fixtures": 30,
+        "passes_gate": true
+      },
+      {
+        "codes": 99,
+        "distribution": "balanced",
+        "passed_fixtures": 30,
+        "required_passes": 27,
+        "fixtures": 30,
+        "passes_gate": true
+      },
+      {
+        "codes": 99,
+        "distribution": "skewed",
+        "passed_fixtures": 30,
+        "required_passes": 27,
+        "fixtures": 30,
+        "passes_gate": true
+      }
+    ],
+    "gate_passed": true,
+    "p04_status": "ELIGIBLE_FOR_MATCHED_NULL_EXPLORATION",
+    "decision_rule": "all six predeclared synthetic scenarios must pass; no rounding, tuning or post-hoc scenario removal",
+    "translation_status": "NO_VERIFIED_TRANSLATION",
+    "limits": [
+      "Passing is necessary for this pipeline, not sufficient to validate a real translation.",
+      "A failed synthetic gate does not reject homophonic substitution or demonstrate no meaning in469."
+    ],
+    "version": "p02-v2",
+    "protocol_sha256": "d9df87e43d0607fc380f5416d36b7bcc501eb5ac3ce8858815fc63c54f99bd79",
+    "result_sha256": "2742d58ebad5eebbf198c9251420b0f97b90d54c67a62b7a25c6ae33b3ed5d68"
+  },
+  "protocol_sha256": "92a50229f5ef93328bc516cd75d163a3e3503d9a89968cd793d39348ee534e0e",
+  "protocol": {
+    "version": "P04_V2_EXPLORATORY",
+    "frozen_at_utc": "2026-11-10T23:16:05.755304+00:00",
+    "gate": "all6freshV2synthetic scenarios pass>=27/30 at>=95% accuracy; otherwise noTibia fit",
+    "input_sha256": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+    "split_sha256": "0a0f9d3b60b4077bf9e3074919d35e754f6f77fd4ca4423b160e14e5a58ac3de",
+    "scorer": "Alice frozen first80% tetragrams, train regularization2.0; selection by training objective only",
+    "solver_budget": {
+      "banks": 2,
+      "restarts": 8,
+      "steps": 100000,
+      "num_codes": 100,
+      "max_temp": 12.0,
+      "frequency_weight": 2.0
+    },
+    "nulls": [
+      "shuffle",
+      "bigrams",
+      "blocks8"
+    ],
+    "replicates_each": 99,
+    "workers": 2,
+    "seed": 70469000,
+    "statistic": "weighted mean raw log10 tetragram score on previously exposed61-code holdout, map selected only on discovery",
+    "null_selection": "refit whole2-bank optimization on each null; fresh seeds, identical budget",
+    "transformation": "perbook reconstructed integer codes; each null preserves lengths; blocks8 uses one position permutation perbook",
+    "scope": "Exploratory screen only; no external plaintext, tiny correlated test; structural dependencies remain",
+    "acceptance": "No automatic translation, regardless of p; output literal without repairs",
+    "implementation_hashes": {
+      "scripts/qualified_tibia_search.py": "2c589f78cfaf14d8956698c1a2144e302f6490f56e79a7643967240e1aff69c3",
+      "scripts/qualification_gate_v2.py": "351dbe8c0368def1c7ee366d4af70ac6ae9fd057a3317e5dc41fc97c4ccdaa5b",
+      "scripts/robust_homophonic.py": "5927ce53f96035dd79930d721d6c43308be0c49180878f308aa0e47b533e2fd1",
+      "scripts/fast_homophonic.py": "a3d0cb37527f7fbec6069c193ba320a6464051b2c2a1f4f2cfbc777be68118cc",
+      "src/homophonic_solver.cpp": "0d71f35474df0e2c9f76a230ab67fb9c897440de280fabb53e782e01122132a1",
+      "scripts/cipher_battery.py": "0c7a22d739c7eb45eca6aaf339e3df7a61634a98b32316d2a04fe4e3ebd03139",
+      "scripts/homophonic_controls.py": "e777da5d02a4562b36274531e654547ff67056fbe24ed6bddbd41119d030a96e"
+    }
+  },
+  "observed": {
+    "train_score": -4.877077290181007,
+    "objective": -27760.904210749195,
+    "holdout_score": -5.835897841696173,
+    "mapping": [
+      13,
+      17,
+      6,
+      4,
+      7,
+      8,
+      4,
+      18,
+      0,
+      18,
+      4,
+      19,
+      13,
+      10,
+      14,
+      8,
+      4,
+      11,
+      4,
+      19,
+      8,
+      4,
+      20,
+      12,
+      1,
+      8,
+      4,
+      13,
+      7,
+      12,
+      12,
+      24,
+      0,
+      2,
+      4,
+      7,
+      3,
+      3,
+      10,
+      23,
+      15,
+      22,
+      5,
+      19,
+      2,
+      14,
+      14,
+      11,
+      8,
+      21,
+      4,
+      19,
+      0,
+      4,
+      3,
+      11,
+      19,
+      11,
+      0,
+      2,
+      18,
+      18,
+      14,
+      13,
+      4,
+      8,
+      22,
+      18,
+      15,
+      17,
+      24,
+      13,
+      20,
+      11,
+      19,
+      0,
+      13,
+      22,
+      17,
+      9,
+      7,
+      3,
+      0,
+      3,
+      3,
+      6,
+      13,
+      17,
+      0,
+      4,
+      22,
+      7,
+      4,
+      7,
+      2,
+      17,
+      4,
+      0,
+      7,
+      0
+    ],
+    "literal_holdout": [
+      "RTEIECEHHEWDHLINAREAIEDIGEEATHEE",
+      "HHHEWDHLINAREAIEDIGEEATHEESBY"
+    ],
+    "selected_bank": 0,
+    "runtime_seconds": 1.4821598470007302
+  },
+  "controls": {
+    "shuffle": {
+      "trials": [
+        {
+          "train_score": -6.017409743027854,
+          "objective": -33327.28857190053,
+          "holdout_score": -6.293754762285044,
+          "selected_bank": 0,
+          "runtime_seconds": 4.819951033998223,
+          "replicate": 0,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.021729607408072,
+          "objective": -33449.139117243896,
+          "holdout_score": -6.354021654583264,
+          "selected_bank": 1,
+          "runtime_seconds": 4.906888247998722,
+          "replicate": 1,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.023165198946842,
+          "objective": -33467.60557440549,
+          "holdout_score": -6.85585497183298,
+          "selected_bank": 0,
+          "runtime_seconds": 4.463129458003095,
+          "replicate": 2,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.992383383523304,
+          "objective": -33407.89462875902,
+          "holdout_score": -6.430140410524726,
+          "selected_bank": 1,
+          "runtime_seconds": 4.553993252997316,
+          "replicate": 3,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.036515282536745,
+          "objective": -33519.12465301593,
+          "holdout_score": -6.436337857420999,
+          "selected_bank": 0,
+          "runtime_seconds": 4.509708686000522,
+          "replicate": 4,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.0279645606867165,
+          "objective": -33476.13871395519,
+          "holdout_score": -6.31388871117262,
+          "selected_bank": 1,
+          "runtime_seconds": 4.407092479996209,
+          "replicate": 5,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.017284293796909,
+          "objective": -33473.74145231193,
+          "holdout_score": -6.056384047262339,
+          "selected_bank": 1,
+          "runtime_seconds": 4.625738820999686,
+          "replicate": 6,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.024275240071694,
+          "objective": -33456.04064708889,
+          "holdout_score": -6.4022145810642,
+          "selected_bank": 1,
+          "runtime_seconds": 4.589827027000865,
+          "replicate": 7,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.036849508797,
+          "objective": -33554.13323095182,
+          "holdout_score": -6.377766964547696,
+          "selected_bank": 0,
+          "runtime_seconds": 4.699569256998075,
+          "replicate": 8,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.027216789160706,
+          "objective": -33497.479973966474,
+          "holdout_score": -6.559019838084278,
+          "selected_bank": 1,
+          "runtime_seconds": 4.733056827994005,
+          "replicate": 9,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.046223792237961,
+          "objective": -33511.40165205888,
+          "holdout_score": -6.384588105887314,
+          "selected_bank": 0,
+          "runtime_seconds": 5.098547184999916,
+          "replicate": 10,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.019095462518652,
+          "objective": -33484.43712265913,
+          "holdout_score": -6.55342388772099,
+          "selected_bank": 1,
+          "runtime_seconds": 4.892527807001898,
+          "replicate": 11,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.0402606917853,
+          "objective": -33530.77521591471,
+          "holdout_score": -6.393923820295958,
+          "selected_bank": 0,
+          "runtime_seconds": 4.764936645999114,
+          "replicate": 12,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.021888900605884,
+          "objective": -33487.12252563509,
+          "holdout_score": -6.132285330457555,
+          "selected_bank": 0,
+          "runtime_seconds": 4.806865616999858,
+          "replicate": 13,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.044058512299789,
+          "objective": -33431.289383491225,
+          "holdout_score": -6.6011098155774715,
+          "selected_bank": 0,
+          "runtime_seconds": 4.415176051999879,
+          "replicate": 14,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.980070715866456,
+          "objective": -33391.93314328289,
+          "holdout_score": -6.520891150957527,
+          "selected_bank": 0,
+          "runtime_seconds": 4.507147501997679,
+          "replicate": 15,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.021294706810084,
+          "objective": -33432.104510209836,
+          "holdout_score": -6.311752714948997,
+          "selected_bank": 0,
+          "runtime_seconds": 4.387039788001857,
+          "replicate": 16,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.022750196036577,
+          "objective": -33423.61651548419,
+          "holdout_score": -6.877685887252999,
+          "selected_bank": 1,
+          "runtime_seconds": 4.568226583000069,
+          "replicate": 17,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.014724458576343,
+          "objective": -33434.99778016447,
+          "holdout_score": -6.263212054738585,
+          "selected_bank": 0,
+          "runtime_seconds": 4.692916558000434,
+          "replicate": 18,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.026428393454045,
+          "objective": -33406.429630277526,
+          "holdout_score": -6.240593778974766,
+          "selected_bank": 0,
+          "runtime_seconds": 4.730106895003701,
+          "replicate": 19,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.000272897749038,
+          "objective": -33338.28272716691,
+          "holdout_score": -6.556732802319074,
+          "selected_bank": 1,
+          "runtime_seconds": 4.8750993680005195,
+          "replicate": 20,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.050799255604145,
+          "objective": -33550.94274125338,
+          "holdout_score": -6.572308211189213,
+          "selected_bank": 1,
+          "runtime_seconds": 4.785966398001619,
+          "replicate": 21,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.046352079802064,
+          "objective": -33544.61427101828,
+          "holdout_score": -6.354993993666445,
+          "selected_bank": 1,
+          "runtime_seconds": 4.668768731004093,
+          "replicate": 22,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.021536826407962,
+          "objective": -33381.51101783305,
+          "holdout_score": -6.336883478714468,
+          "selected_bank": 0,
+          "runtime_seconds": 4.722167273004743,
+          "replicate": 23,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.020357436727743,
+          "objective": -33440.90049246172,
+          "holdout_score": -6.436786775525291,
+          "selected_bank": 1,
+          "runtime_seconds": 4.404567743997177,
+          "replicate": 24,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.036562799871342,
+          "objective": -33442.03788788495,
+          "holdout_score": -5.905195059842107,
+          "selected_bank": 1,
+          "runtime_seconds": 4.654687603000639,
+          "replicate": 25,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.028984089009011,
+          "objective": -33451.4820702299,
+          "holdout_score": -6.431787911441791,
+          "selected_bank": 0,
+          "runtime_seconds": 4.516756895998697,
+          "replicate": 26,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.026565577583621,
+          "objective": -33496.648131455426,
+          "holdout_score": -6.749762623450926,
+          "selected_bank": 0,
+          "runtime_seconds": 4.618704506003269,
+          "replicate": 27,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.0419027701525305,
+          "objective": -33463.80492043284,
+          "holdout_score": -6.429274911132965,
+          "selected_bank": 1,
+          "runtime_seconds": 4.504230083999573,
+          "replicate": 28,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.03212625201586,
+          "objective": -33496.93750940234,
+          "holdout_score": -6.045612619599458,
+          "selected_bank": 1,
+          "runtime_seconds": 4.728527605995623,
+          "replicate": 29,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.022757223095645,
+          "objective": -33440.6333529946,
+          "holdout_score": -6.488123886258393,
+          "selected_bank": 1,
+          "runtime_seconds": 6.786805112002185,
+          "replicate": 30,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.010489716233943,
+          "objective": -33449.81050404555,
+          "holdout_score": -6.695474853272759,
+          "selected_bank": 0,
+          "runtime_seconds": 6.762924098002259,
+          "replicate": 31,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.018993685070717,
+          "objective": -33436.384254291486,
+          "holdout_score": -6.573461415575625,
+          "selected_bank": 0,
+          "runtime_seconds": 6.74839061899911,
+          "replicate": 32,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.0193225602628,
+          "objective": -33490.13378651814,
+          "holdout_score": -6.477001780247401,
+          "selected_bank": 1,
+          "runtime_seconds": 6.814050155997393,
+          "replicate": 33,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.018422225517561,
+          "objective": -33414.54768047274,
+          "holdout_score": -6.183059766381368,
+          "selected_bank": 1,
+          "runtime_seconds": 6.008304457001941,
+          "replicate": 34,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.025560709495335,
+          "objective": -33597.34610270625,
+          "holdout_score": -6.169256302260085,
+          "selected_bank": 0,
+          "runtime_seconds": 6.268256824001583,
+          "replicate": 35,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.024967619376446,
+          "objective": -33503.19107933403,
+          "holdout_score": -6.529543828778496,
+          "selected_bank": 0,
+          "runtime_seconds": 6.361685387997568,
+          "replicate": 36,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.99538406553008,
+          "objective": -33428.57317418525,
+          "holdout_score": -6.091014187699075,
+          "selected_bank": 0,
+          "runtime_seconds": 6.545577052002045,
+          "replicate": 37,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.045072148159234,
+          "objective": -33519.39377156066,
+          "holdout_score": -6.40255496558993,
+          "selected_bank": 0,
+          "runtime_seconds": 6.236155220998626,
+          "replicate": 38,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.021466369257908,
+          "objective": -33498.02969995414,
+          "holdout_score": -6.274631651588897,
+          "selected_bank": 1,
+          "runtime_seconds": 6.013188648001233,
+          "replicate": 39,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.998292623794153,
+          "objective": -33408.199090186296,
+          "holdout_score": -6.499185292304779,
+          "selected_bank": 0,
+          "runtime_seconds": 5.74657624899919,
+          "replicate": 40,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.046267567720131,
+          "objective": -33496.183526994406,
+          "holdout_score": -6.471233864319704,
+          "selected_bank": 0,
+          "runtime_seconds": 5.535710727002879,
+          "replicate": 41,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.02306503553578,
+          "objective": -33391.88151239819,
+          "holdout_score": -6.4248693340252485,
+          "selected_bank": 1,
+          "runtime_seconds": 4.926064448998659,
+          "replicate": 42,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.033475941743377,
+          "objective": -33497.71179080043,
+          "holdout_score": -6.552380746641327,
+          "selected_bank": 0,
+          "runtime_seconds": 5.47527430700211,
+          "replicate": 43,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.028974902490118,
+          "objective": -33499.05597679056,
+          "holdout_score": -6.364976165760704,
+          "selected_bank": 0,
+          "runtime_seconds": 5.252149452997401,
+          "replicate": 44,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.022888919743074,
+          "objective": -33473.33904938831,
+          "holdout_score": -6.440063095066322,
+          "selected_bank": 1,
+          "runtime_seconds": 4.992490917000396,
+          "replicate": 45,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.997601821964893,
+          "objective": -33362.47169179574,
+          "holdout_score": -6.506038696188605,
+          "selected_bank": 0,
+          "runtime_seconds": 5.14667721799924,
+          "replicate": 46,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.040942770896862,
+          "objective": -33441.55437225413,
+          "holdout_score": -6.6491775415172985,
+          "selected_bank": 1,
+          "runtime_seconds": 5.102127875001315,
+          "replicate": 47,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.00459258330036,
+          "objective": -33387.632339703894,
+          "holdout_score": -6.32507599297098,
+          "selected_bank": 1,
+          "runtime_seconds": 4.81898966800145,
+          "replicate": 48,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.0298760930182125,
+          "objective": -33498.97683614675,
+          "holdout_score": -6.311975265021645,
+          "selected_bank": 0,
+          "runtime_seconds": 4.690665728998283,
+          "replicate": 49,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.017120644837581,
+          "objective": -33384.04394462133,
+          "holdout_score": -6.3256997041711305,
+          "selected_bank": 0,
+          "runtime_seconds": 6.80623392900452,
+          "replicate": 50,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.00954702099327,
+          "objective": -33413.84699819405,
+          "holdout_score": -5.959345582900873,
+          "selected_bank": 1,
+          "runtime_seconds": 7.712446306999482,
+          "replicate": 51,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.00724117929109,
+          "objective": -33447.726033342326,
+          "holdout_score": -6.6719609311025705,
+          "selected_bank": 0,
+          "runtime_seconds": 8.017116371996963,
+          "replicate": 52,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.005742739438588,
+          "objective": -33380.4279209711,
+          "holdout_score": -6.451778038202236,
+          "selected_bank": 1,
+          "runtime_seconds": 8.70092708300217,
+          "replicate": 53,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.030708253903924,
+          "objective": -33418.63891029992,
+          "holdout_score": -6.518854022856133,
+          "selected_bank": 1,
+          "runtime_seconds": 8.7111204990033,
+          "replicate": 54,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.0368570617057795,
+          "objective": -33430.42348407647,
+          "holdout_score": -6.51226777110964,
+          "selected_bank": 0,
+          "runtime_seconds": 8.618524753997917,
+          "replicate": 55,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.046355514986295,
+          "objective": -33594.11589929453,
+          "holdout_score": -6.456679873613324,
+          "selected_bank": 0,
+          "runtime_seconds": 7.773368572998152,
+          "replicate": 56,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.994132269757656,
+          "objective": -33366.614058630126,
+          "holdout_score": -6.406720044318117,
+          "selected_bank": 0,
+          "runtime_seconds": 7.631712741997035,
+          "replicate": 57,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.032955927804053,
+          "objective": -33482.59342447931,
+          "holdout_score": -6.499964513234991,
+          "selected_bank": 0,
+          "runtime_seconds": 7.476668292998511,
+          "replicate": 58,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.032354175686078,
+          "objective": -33516.86887094549,
+          "holdout_score": -6.526575937805247,
+          "selected_bank": 0,
+          "runtime_seconds": 7.604007710000587,
+          "replicate": 59,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.028021445933991,
+          "objective": -33502.04417596669,
+          "holdout_score": -6.470253887473478,
+          "selected_bank": 1,
+          "runtime_seconds": 7.119507000999874,
+          "replicate": 60,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.026106215950167,
+          "objective": -33469.90555523634,
+          "holdout_score": -6.323341587428097,
+          "selected_bank": 0,
+          "runtime_seconds": 5.727564164000796,
+          "replicate": 61,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.036084754714412,
+          "objective": -33528.801424788246,
+          "holdout_score": -6.503560109348372,
+          "selected_bank": 1,
+          "runtime_seconds": 4.792946294001013,
+          "replicate": 62,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.005644298779046,
+          "objective": -33346.765171603176,
+          "holdout_score": -6.501683367167712,
+          "selected_bank": 1,
+          "runtime_seconds": 5.0986540029989555,
+          "replicate": 63,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.057761907067237,
+          "objective": -33551.948040281764,
+          "holdout_score": -6.523219795849342,
+          "selected_bank": 0,
+          "runtime_seconds": 5.359112612000899,
+          "replicate": 64,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.0360646796803135,
+          "objective": -33466.30924728628,
+          "holdout_score": -6.522086712570198,
+          "selected_bank": 1,
+          "runtime_seconds": 5.068242723998992,
+          "replicate": 65,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.994841864803037,
+          "objective": -33448.05492876685,
+          "holdout_score": -6.1567719943854975,
+          "selected_bank": 0,
+          "runtime_seconds": 4.922052917001565,
+          "replicate": 66,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.015908725317733,
+          "objective": -33472.71621758097,
+          "holdout_score": -6.471437493698537,
+          "selected_bank": 0,
+          "runtime_seconds": 4.947918453999591,
+          "replicate": 67,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.007189998967051,
+          "objective": -33483.54618257277,
+          "holdout_score": -6.002589551523404,
+          "selected_bank": 1,
+          "runtime_seconds": 4.835096372004045,
+          "replicate": 68,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.03649808006151,
+          "objective": -33494.79171854845,
+          "holdout_score": -6.381788318099073,
+          "selected_bank": 0,
+          "runtime_seconds": 4.8673055229992315,
+          "replicate": 69,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.042415528452032,
+          "objective": -33522.70252168779,
+          "holdout_score": -6.614556098692043,
+          "selected_bank": 1,
+          "runtime_seconds": 4.598950060000789,
+          "replicate": 70,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.05178533152996,
+          "objective": -33440.253680076356,
+          "holdout_score": -5.984051519791818,
+          "selected_bank": 1,
+          "runtime_seconds": 4.6343988189983065,
+          "replicate": 71,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.019562332909509,
+          "objective": -33455.67660897426,
+          "holdout_score": -6.564678974042217,
+          "selected_bank": 1,
+          "runtime_seconds": 4.74052419399959,
+          "replicate": 72,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.031382518254516,
+          "objective": -33488.25760511587,
+          "holdout_score": -6.404214601038213,
+          "selected_bank": 0,
+          "runtime_seconds": 4.6738625149992,
+          "replicate": 73,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.983480070590569,
+          "objective": -33371.02757405472,
+          "holdout_score": -6.587230540536683,
+          "selected_bank": 1,
+          "runtime_seconds": 4.542704780000349,
+          "replicate": 74,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.012752042193418,
+          "objective": -33452.96894351492,
+          "holdout_score": -6.188454726389176,
+          "selected_bank": 1,
+          "runtime_seconds": 4.628788256999542,
+          "replicate": 75,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.026594352559084,
+          "objective": -33397.62734366898,
+          "holdout_score": -6.54184078633209,
+          "selected_bank": 1,
+          "runtime_seconds": 4.606794000002992,
+          "replicate": 76,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.013320269913103,
+          "objective": -33445.436928684314,
+          "holdout_score": -6.55011790612087,
+          "selected_bank": 0,
+          "runtime_seconds": 4.688258251000661,
+          "replicate": 77,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.049625855613041,
+          "objective": -33489.44730822506,
+          "holdout_score": -6.468759006471607,
+          "selected_bank": 0,
+          "runtime_seconds": 4.891125209000165,
+          "replicate": 78,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.009647848012238,
+          "objective": -33453.93447783714,
+          "holdout_score": -6.510579732983546,
+          "selected_bank": 0,
+          "runtime_seconds": 4.863037909999548,
+          "replicate": 79,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.998712087031482,
+          "objective": -33470.62389456175,
+          "holdout_score": -5.688893638485363,
+          "selected_bank": 0,
+          "runtime_seconds": 4.738817255001777,
+          "replicate": 80,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.0202962682132855,
+          "objective": -33456.02289827666,
+          "holdout_score": -6.349989381451975,
+          "selected_bank": 1,
+          "runtime_seconds": 4.726512052999169,
+          "replicate": 81,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.034672633709065,
+          "objective": -33528.52561099973,
+          "holdout_score": -6.496301074905525,
+          "selected_bank": 1,
+          "runtime_seconds": 4.900460898003075,
+          "replicate": 82,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.022320004358732,
+          "objective": -33462.545707717756,
+          "holdout_score": -6.255787076993185,
+          "selected_bank": 1,
+          "runtime_seconds": 4.775259170997742,
+          "replicate": 83,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.0289202996359075,
+          "objective": -33500.86145189955,
+          "holdout_score": -6.296018303515893,
+          "selected_bank": 1,
+          "runtime_seconds": 4.74818965400118,
+          "replicate": 84,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.017030993628041,
+          "objective": -33467.08419543416,
+          "holdout_score": -6.744062164522545,
+          "selected_bank": 1,
+          "runtime_seconds": 4.942754571999103,
+          "replicate": 85,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.017466792525588,
+          "objective": -33504.29558486332,
+          "holdout_score": -6.442819735839976,
+          "selected_bank": 1,
+          "runtime_seconds": 4.790767529000732,
+          "replicate": 86,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.009227043480613,
+          "objective": -33402.1951469397,
+          "holdout_score": -6.216734742644624,
+          "selected_bank": 0,
+          "runtime_seconds": 4.990512198000943,
+          "replicate": 87,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.027769533537592,
+          "objective": -33484.23590004209,
+          "holdout_score": -6.657853383739205,
+          "selected_bank": 1,
+          "runtime_seconds": 4.773478965002141,
+          "replicate": 88,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.020515035640163,
+          "objective": -33502.765262710345,
+          "holdout_score": -6.506613171298768,
+          "selected_bank": 1,
+          "runtime_seconds": 4.769696940998983,
+          "replicate": 89,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.048218110504598,
+          "objective": -33484.79551990125,
+          "holdout_score": -6.403373711138564,
+          "selected_bank": 1,
+          "runtime_seconds": 4.548636374001944,
+          "replicate": 90,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.020202440582095,
+          "objective": -33468.80644952982,
+          "holdout_score": -6.091254591192468,
+          "selected_bank": 1,
+          "runtime_seconds": 4.508209800998884,
+          "replicate": 91,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.0179306232634975,
+          "objective": -33475.2082557675,
+          "holdout_score": -6.142009441499641,
+          "selected_bank": 0,
+          "runtime_seconds": 4.708523029999924,
+          "replicate": 92,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.0005137596548765,
+          "objective": -33333.05984137796,
+          "holdout_score": -6.515768745514589,
+          "selected_bank": 0,
+          "runtime_seconds": 4.818689560001076,
+          "replicate": 93,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.034334498377748,
+          "objective": -33499.021951133065,
+          "holdout_score": -6.547621296749887,
+          "selected_bank": 0,
+          "runtime_seconds": 4.88484605600388,
+          "replicate": 94,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.05006990421942,
+          "objective": -33489.07589728392,
+          "holdout_score": -6.356787538244316,
+          "selected_bank": 0,
+          "runtime_seconds": 4.670011190999503,
+          "replicate": 95,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.037454208459889,
+          "objective": -33452.10283254474,
+          "holdout_score": -6.75749109655075,
+          "selected_bank": 1,
+          "runtime_seconds": 4.615259406000405,
+          "replicate": 96,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.026954306801048,
+          "objective": -33553.26695045443,
+          "holdout_score": -6.084702878213028,
+          "selected_bank": 1,
+          "runtime_seconds": 4.650502739998046,
+          "replicate": 97,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -6.034374081764881,
+          "objective": -33482.74527433364,
+          "holdout_score": -6.624631033418567,
+          "selected_bank": 1,
+          "runtime_seconds": 4.605671068002266,
+          "replicate": 98,
+          "changed_holdout_books": 2
+        }
+      ],
+      "replicates": 99,
+      "holdout_upper_tail_p": 0.02,
+      "mean_holdout_score": -6.407950136354707
+    },
+    "bigrams": {
+      "trials": [
+        {
+          "train_score": -5.018967702357308,
+          "objective": -28389.64968970139,
+          "holdout_score": -5.237047409147134,
+          "selected_bank": 1,
+          "runtime_seconds": 3.026062266999361,
+          "replicate": 0,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.031648719725211,
+          "objective": -28513.989058111085,
+          "holdout_score": -5.880452506230637,
+          "selected_bank": 0,
+          "runtime_seconds": 3.102702773998317,
+          "replicate": 1,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -4.992490591788753,
+          "objective": -28165.247373018537,
+          "holdout_score": -6.061768814966802,
+          "selected_bank": 0,
+          "runtime_seconds": 2.629796436001925,
+          "replicate": 2,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.029843770544963,
+          "objective": -28511.80653398219,
+          "holdout_score": -5.255669185741025,
+          "selected_bank": 1,
+          "runtime_seconds": 2.5814563509993604,
+          "replicate": 3,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.013721205011109,
+          "objective": -28327.73639660481,
+          "holdout_score": -5.939427549180206,
+          "selected_bank": 0,
+          "runtime_seconds": 2.7084016680018976,
+          "replicate": 4,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.021268967034945,
+          "objective": -28388.182013748064,
+          "holdout_score": -5.759952674506224,
+          "selected_bank": 0,
+          "runtime_seconds": 2.7730463849984517,
+          "replicate": 5,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.027874063957145,
+          "objective": -28354.731385890456,
+          "holdout_score": -5.497839186630306,
+          "selected_bank": 1,
+          "runtime_seconds": 2.657723762000387,
+          "replicate": 6,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.036227438595211,
+          "objective": -28464.718613112465,
+          "holdout_score": -5.7825911254519555,
+          "selected_bank": 1,
+          "runtime_seconds": 2.5869600600017293,
+          "replicate": 7,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -4.981780400131991,
+          "objective": -28516.318793311944,
+          "holdout_score": -5.5692307069407745,
+          "selected_bank": 0,
+          "runtime_seconds": 2.6891350580008293,
+          "replicate": 8,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -4.989284322854038,
+          "objective": -28168.968661631283,
+          "holdout_score": -5.59879787393834,
+          "selected_bank": 0,
+          "runtime_seconds": 2.755944640000962,
+          "replicate": 9,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -4.977467844929301,
+          "objective": -28097.729069319455,
+          "holdout_score": -5.386601955675246,
+          "selected_bank": 0,
+          "runtime_seconds": 2.645020864001708,
+          "replicate": 10,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.085203286207832,
+          "objective": -28516.568465917,
+          "holdout_score": -5.678849179991795,
+          "selected_bank": 1,
+          "runtime_seconds": 2.7870479310004157,
+          "replicate": 11,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.098050531941972,
+          "objective": -28554.619797893945,
+          "holdout_score": -5.266172106519236,
+          "selected_bank": 1,
+          "runtime_seconds": 2.7614370560004318,
+          "replicate": 12,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -4.981297761706388,
+          "objective": -28172.234635664696,
+          "holdout_score": -5.6168812494665,
+          "selected_bank": 1,
+          "runtime_seconds": 2.5739242080016993,
+          "replicate": 13,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.076886097666013,
+          "objective": -28642.711247649095,
+          "holdout_score": -5.180797578271002,
+          "selected_bank": 1,
+          "runtime_seconds": 2.5251653519990214,
+          "replicate": 14,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.042519645530744,
+          "objective": -28472.43811989848,
+          "holdout_score": -4.998510702205178,
+          "selected_bank": 0,
+          "runtime_seconds": 2.62601434899625,
+          "replicate": 15,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.019644306179658,
+          "objective": -28462.231947302436,
+          "holdout_score": -5.7082074082186365,
+          "selected_bank": 0,
+          "runtime_seconds": 2.8032489949982846,
+          "replicate": 16,
+          "changed_holdout_books": 0
+        },
+        {
+          "train_score": -5.044424879738128,
+          "objective": -28616.88031222413,
+          "holdout_score": -5.628167735667529,
+          "selected_bank": 0,
+          "runtime_seconds": 2.693832631997793,
+          "replicate": 17,
+          "changed_holdout_books": 0
+        },
+        {
+          "train_score": -5.009593864117908,
+          "objective": -28292.882039902088,
+          "holdout_score": -5.4530095291134755,
+          "selected_bank": 1,
+          "runtime_seconds": 2.8047344670012535,
+          "replicate": 18,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.044784156194142,
+          "objective": -28382.23438247438,
+          "holdout_score": -5.575629876811604,
+          "selected_bank": 0,
+          "runtime_seconds": 2.7978865160002897,
+          "replicate": 19,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.074575484456556,
+          "objective": -28469.577692753068,
+          "holdout_score": -5.002588589915585,
+          "selected_bank": 0,
+          "runtime_seconds": 3.230659333999938,
+          "replicate": 20,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.024540712448691,
+          "objective": -28478.44764188418,
+          "holdout_score": -6.01666437894581,
+          "selected_bank": 0,
+          "runtime_seconds": 3.266903348001506,
+          "replicate": 21,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.049402142153748,
+          "objective": -28457.8590854374,
+          "holdout_score": -5.922244905630021,
+          "selected_bank": 1,
+          "runtime_seconds": 2.851399182000023,
+          "replicate": 22,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.010137286480776,
+          "objective": -28434.48240564155,
+          "holdout_score": -5.388639521164632,
+          "selected_bank": 1,
+          "runtime_seconds": 2.784408858999086,
+          "replicate": 23,
+          "changed_holdout_books": 0
+        },
+        {
+          "train_score": -5.0872337744893406,
+          "objective": -28609.230411875702,
+          "holdout_score": -5.706826631678477,
+          "selected_bank": 1,
+          "runtime_seconds": 2.675619117999304,
+          "replicate": 24,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.052479811739378,
+          "objective": -28467.77455486181,
+          "holdout_score": -5.817329490850896,
+          "selected_bank": 0,
+          "runtime_seconds": 2.5589520940011425,
+          "replicate": 25,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.024395109432514,
+          "objective": -28510.29411171299,
+          "holdout_score": -4.906944317025998,
+          "selected_bank": 0,
+          "runtime_seconds": 2.7684029070005636,
+          "replicate": 26,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -4.999450744466597,
+          "objective": -28383.10182156598,
+          "holdout_score": -6.144426910887382,
+          "selected_bank": 1,
+          "runtime_seconds": 2.6880242859988357,
+          "replicate": 27,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.021452902394718,
+          "objective": -28595.027777084688,
+          "holdout_score": -5.0496401210914765,
+          "selected_bank": 0,
+          "runtime_seconds": 2.739022236997698,
+          "replicate": 28,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.046110982856003,
+          "objective": -28592.112438978296,
+          "holdout_score": -5.004677841417346,
+          "selected_bank": 0,
+          "runtime_seconds": 2.676149520004401,
+          "replicate": 29,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.090448573653124,
+          "objective": -28520.664154163416,
+          "holdout_score": -5.080530543411524,
+          "selected_bank": 0,
+          "runtime_seconds": 2.9144114930059004,
+          "replicate": 30,
+          "changed_holdout_books": 0
+        },
+        {
+          "train_score": -4.989870527967295,
+          "objective": -28350.75341693202,
+          "holdout_score": -5.351110734902138,
+          "selected_bank": 1,
+          "runtime_seconds": 2.77462198899957,
+          "replicate": 31,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -4.997270544330592,
+          "objective": -28412.457387474988,
+          "holdout_score": -5.350400856306729,
+          "selected_bank": 0,
+          "runtime_seconds": 2.6144767700025113,
+          "replicate": 32,
+          "changed_holdout_books": 0
+        },
+        {
+          "train_score": -4.96040904070014,
+          "objective": -28285.749126463197,
+          "holdout_score": -5.63984166001159,
+          "selected_bank": 1,
+          "runtime_seconds": 2.6174279369988653,
+          "replicate": 33,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.167658168522695,
+          "objective": -28942.410939801113,
+          "holdout_score": -5.457155299189191,
+          "selected_bank": 1,
+          "runtime_seconds": 2.5401723380018666,
+          "replicate": 34,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -4.946027818300323,
+          "objective": -28251.42051492469,
+          "holdout_score": -5.756869400952227,
+          "selected_bank": 1,
+          "runtime_seconds": 2.5124185499989835,
+          "replicate": 35,
+          "changed_holdout_books": 0
+        },
+        {
+          "train_score": -4.951940123243421,
+          "objective": -28107.832934002243,
+          "holdout_score": -5.750988430570615,
+          "selected_bank": 0,
+          "runtime_seconds": 2.4830325879993325,
+          "replicate": 36,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.118912259454484,
+          "objective": -28617.752159739623,
+          "holdout_score": -5.246694705295686,
+          "selected_bank": 0,
+          "runtime_seconds": 2.5511931880027987,
+          "replicate": 37,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -4.9839567656553685,
+          "objective": -28244.22539620213,
+          "holdout_score": -5.294961902858503,
+          "selected_bank": 1,
+          "runtime_seconds": 2.500082049999037,
+          "replicate": 38,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.0691860073418065,
+          "objective": -28675.739110199782,
+          "holdout_score": -5.547295530023664,
+          "selected_bank": 0,
+          "runtime_seconds": 2.5971112289989833,
+          "replicate": 39,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.047731041532645,
+          "objective": -28495.376435764934,
+          "holdout_score": -4.932998655897054,
+          "selected_bank": 0,
+          "runtime_seconds": 2.8008545260017854,
+          "replicate": 40,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.08798820050001,
+          "objective": -28515.480922164705,
+          "holdout_score": -5.336860561112467,
+          "selected_bank": 1,
+          "runtime_seconds": 2.8595180710035493,
+          "replicate": 41,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.042211926045799,
+          "objective": -28397.534375101604,
+          "holdout_score": -4.92126526131154,
+          "selected_bank": 0,
+          "runtime_seconds": 2.8075942380019114,
+          "replicate": 42,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.018756918035993,
+          "objective": -28367.732385022548,
+          "holdout_score": -5.422836107562061,
+          "selected_bank": 0,
+          "runtime_seconds": 2.737906495000061,
+          "replicate": 43,
+          "changed_holdout_books": 0
+        },
+        {
+          "train_score": -5.044697722328566,
+          "objective": -28515.09632568641,
+          "holdout_score": -5.428281814236962,
+          "selected_bank": 1,
+          "runtime_seconds": 2.6613034609981696,
+          "replicate": 44,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.004687601522807,
+          "objective": -28185.634655735597,
+          "holdout_score": -5.116256336123511,
+          "selected_bank": 1,
+          "runtime_seconds": 2.6419863349983643,
+          "replicate": 45,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.098455286772603,
+          "objective": -28721.798309350448,
+          "holdout_score": -5.1320121076459975,
+          "selected_bank": 1,
+          "runtime_seconds": 2.7197035669996694,
+          "replicate": 46,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.025004460837711,
+          "objective": -28255.573647132125,
+          "holdout_score": -5.342692962227236,
+          "selected_bank": 0,
+          "runtime_seconds": 2.748038297999301,
+          "replicate": 47,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -4.96732605637488,
+          "objective": -28196.94158780522,
+          "holdout_score": -5.375626470568566,
+          "selected_bank": 0,
+          "runtime_seconds": 2.6652199710006244,
+          "replicate": 48,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.106183989676372,
+          "objective": -28686.93907206604,
+          "holdout_score": -5.725096368130561,
+          "selected_bank": 0,
+          "runtime_seconds": 2.649425892999716,
+          "replicate": 49,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.045422308786393,
+          "objective": -28493.978256117687,
+          "holdout_score": -5.770332830941071,
+          "selected_bank": 0,
+          "runtime_seconds": 2.5846432789985556,
+          "replicate": 50,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -4.966149164920266,
+          "objective": -27854.336155577505,
+          "holdout_score": -5.623129721436933,
+          "selected_bank": 0,
+          "runtime_seconds": 2.6405695120010932,
+          "replicate": 51,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.0353599148951025,
+          "objective": -28400.555259792305,
+          "holdout_score": -5.71178184752427,
+          "selected_bank": 0,
+          "runtime_seconds": 2.5360491609972087,
+          "replicate": 52,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.109942788116182,
+          "objective": -28844.192553954806,
+          "holdout_score": -5.820749895389108,
+          "selected_bank": 0,
+          "runtime_seconds": 2.4925738890015054,
+          "replicate": 53,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.068903813132572,
+          "objective": -28472.44197149481,
+          "holdout_score": -5.6908302092731065,
+          "selected_bank": 1,
+          "runtime_seconds": 3.036883927998133,
+          "replicate": 54,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.054201263911096,
+          "objective": -28253.289485104462,
+          "holdout_score": -5.544947836846543,
+          "selected_bank": 1,
+          "runtime_seconds": 3.1460490040044533,
+          "replicate": 55,
+          "changed_holdout_books": 0
+        },
+        {
+          "train_score": -5.04449199314516,
+          "objective": -28485.232155907244,
+          "holdout_score": -5.559895383501909,
+          "selected_bank": 1,
+          "runtime_seconds": 3.018256756997289,
+          "replicate": 56,
+          "changed_holdout_books": 0
+        },
+        {
+          "train_score": -5.085549508528927,
+          "objective": -28636.5749108391,
+          "holdout_score": -5.417715762823064,
+          "selected_bank": 1,
+          "runtime_seconds": 2.967877546998352,
+          "replicate": 57,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.051696616699341,
+          "objective": -28563.736463466343,
+          "holdout_score": -5.623670480302203,
+          "selected_bank": 1,
+          "runtime_seconds": 2.84292802300115,
+          "replicate": 58,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.017725839876357,
+          "objective": -28248.363635134054,
+          "holdout_score": -5.929929722039761,
+          "selected_bank": 1,
+          "runtime_seconds": 2.869932472000073,
+          "replicate": 59,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.000823727502216,
+          "objective": -28343.56340311491,
+          "holdout_score": -5.737697587120325,
+          "selected_bank": 0,
+          "runtime_seconds": 3.2760484399987035,
+          "replicate": 60,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.146059857839461,
+          "objective": -28713.544954161458,
+          "holdout_score": -4.6013165225708885,
+          "selected_bank": 1,
+          "runtime_seconds": 3.18125068000154,
+          "replicate": 61,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.052722661574987,
+          "objective": -28543.54182084847,
+          "holdout_score": -5.780095114875314,
+          "selected_bank": 0,
+          "runtime_seconds": 3.919962542000576,
+          "replicate": 62,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -4.9617180630924755,
+          "objective": -28346.31110302153,
+          "holdout_score": -5.070200627056887,
+          "selected_bank": 1,
+          "runtime_seconds": 4.042690825997852,
+          "replicate": 63,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -4.976711632557442,
+          "objective": -28272.982339073787,
+          "holdout_score": -4.661765347425091,
+          "selected_bank": 1,
+          "runtime_seconds": 3.561817975998565,
+          "replicate": 64,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -4.978269828721364,
+          "objective": -28413.818607146517,
+          "holdout_score": -5.134489486103544,
+          "selected_bank": 1,
+          "runtime_seconds": 3.402963340005954,
+          "replicate": 65,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.00804133017852,
+          "objective": -28336.522367096484,
+          "holdout_score": -5.094826512475106,
+          "selected_bank": 1,
+          "runtime_seconds": 2.5361087650053378,
+          "replicate": 66,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.078357869977482,
+          "objective": -28460.819894393317,
+          "holdout_score": -5.19193804325333,
+          "selected_bank": 1,
+          "runtime_seconds": 2.611042805001489,
+          "replicate": 67,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.031739628770064,
+          "objective": -28229.30586079291,
+          "holdout_score": -5.5338448296202944,
+          "selected_bank": 1,
+          "runtime_seconds": 2.5058925340017595,
+          "replicate": 68,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.061411278149233,
+          "objective": -28515.35117596234,
+          "holdout_score": -5.449368591515999,
+          "selected_bank": 0,
+          "runtime_seconds": 2.561358093000308,
+          "replicate": 69,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.0768800494420425,
+          "objective": -28507.498361712976,
+          "holdout_score": -5.282034653613275,
+          "selected_bank": 1,
+          "runtime_seconds": 2.508775219001109,
+          "replicate": 70,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.070050675811686,
+          "objective": -28629.730361997732,
+          "holdout_score": -5.71302721153316,
+          "selected_bank": 1,
+          "runtime_seconds": 2.5596755080005096,
+          "replicate": 71,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.040853611306296,
+          "objective": -28409.600223212594,
+          "holdout_score": -5.742354669228948,
+          "selected_bank": 0,
+          "runtime_seconds": 2.478027656001359,
+          "replicate": 72,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.053607987235035,
+          "objective": -28493.685563566676,
+          "holdout_score": -5.331895543493732,
+          "selected_bank": 0,
+          "runtime_seconds": 2.596101416998863,
+          "replicate": 73,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.019505605358099,
+          "objective": -28528.968867565538,
+          "holdout_score": -5.448630365233845,
+          "selected_bank": 1,
+          "runtime_seconds": 2.531566733003274,
+          "replicate": 74,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.046106378317246,
+          "objective": -28435.112231531013,
+          "holdout_score": -5.697916406632864,
+          "selected_bank": 1,
+          "runtime_seconds": 2.4570938480028417,
+          "replicate": 75,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.101523558098745,
+          "objective": -28706.07159450266,
+          "holdout_score": -5.784819896363262,
+          "selected_bank": 0,
+          "runtime_seconds": 2.5180176149988256,
+          "replicate": 76,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.061848773086137,
+          "objective": -28337.383805839003,
+          "holdout_score": -5.557737960570456,
+          "selected_bank": 1,
+          "runtime_seconds": 2.4495917139975063,
+          "replicate": 77,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.016770685958014,
+          "objective": -28479.93357787235,
+          "holdout_score": -5.423469989091398,
+          "selected_bank": 0,
+          "runtime_seconds": 2.5230733989992586,
+          "replicate": 78,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.052456109091535,
+          "objective": -28569.312766777664,
+          "holdout_score": -5.5954879505406225,
+          "selected_bank": 0,
+          "runtime_seconds": 2.431979909000802,
+          "replicate": 79,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -4.990644942060853,
+          "objective": -28370.65645318909,
+          "holdout_score": -5.2676240906622835,
+          "selected_bank": 1,
+          "runtime_seconds": 2.5990380910006934,
+          "replicate": 80,
+          "changed_holdout_books": 0
+        },
+        {
+          "train_score": -4.9911789297209825,
+          "objective": -28192.82632963826,
+          "holdout_score": -5.231398408727938,
+          "selected_bank": 0,
+          "runtime_seconds": 2.506815092998295,
+          "replicate": 81,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.021851027079319,
+          "objective": -28434.95097211258,
+          "holdout_score": -5.469962996456955,
+          "selected_bank": 0,
+          "runtime_seconds": 2.552407981002034,
+          "replicate": 82,
+          "changed_holdout_books": 0
+        },
+        {
+          "train_score": -5.007685018703886,
+          "objective": -28337.324802613082,
+          "holdout_score": -4.950233496318749,
+          "selected_bank": 1,
+          "runtime_seconds": 2.5657382879981014,
+          "replicate": 83,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.006248942345401,
+          "objective": -28232.725008452206,
+          "holdout_score": -5.1848209096251985,
+          "selected_bank": 0,
+          "runtime_seconds": 2.9630822430008266,
+          "replicate": 84,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -4.98693879165924,
+          "objective": -28554.84600912803,
+          "holdout_score": -5.909588784793734,
+          "selected_bank": 0,
+          "runtime_seconds": 3.0173381739987235,
+          "replicate": 85,
+          "changed_holdout_books": 0
+        },
+        {
+          "train_score": -4.9780201240487285,
+          "objective": -28161.700235331864,
+          "holdout_score": -5.483562002938597,
+          "selected_bank": 0,
+          "runtime_seconds": 3.0205415610034834,
+          "replicate": 86,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.040807091120792,
+          "objective": -28548.833173606665,
+          "holdout_score": -5.003717588970288,
+          "selected_bank": 1,
+          "runtime_seconds": 2.9422311570015154,
+          "replicate": 87,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.068162755384704,
+          "objective": -28597.7702645085,
+          "holdout_score": -4.9045386327894365,
+          "selected_bank": 1,
+          "runtime_seconds": 2.774073086999124,
+          "replicate": 88,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.099431922335012,
+          "objective": -28700.152473500966,
+          "holdout_score": -5.026451226620122,
+          "selected_bank": 0,
+          "runtime_seconds": 2.6222493379973457,
+          "replicate": 89,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.053495571487013,
+          "objective": -28427.07277039111,
+          "holdout_score": -5.515371218637971,
+          "selected_bank": 0,
+          "runtime_seconds": 2.8253043690019695,
+          "replicate": 90,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.096406186633086,
+          "objective": -28704.33211331649,
+          "holdout_score": -5.601685813243489,
+          "selected_bank": 0,
+          "runtime_seconds": 2.858142846998817,
+          "replicate": 91,
+          "changed_holdout_books": 0
+        },
+        {
+          "train_score": -5.031952220091018,
+          "objective": -28285.10507606996,
+          "holdout_score": -4.916384101626911,
+          "selected_bank": 0,
+          "runtime_seconds": 2.642978245003178,
+          "replicate": 92,
+          "changed_holdout_books": 0
+        },
+        {
+          "train_score": -4.960636666565123,
+          "objective": -28115.479016134534,
+          "holdout_score": -5.401148331607167,
+          "selected_bank": 0,
+          "runtime_seconds": 2.622561981999752,
+          "replicate": 93,
+          "changed_holdout_books": 0
+        },
+        {
+          "train_score": -5.02327160846552,
+          "objective": -28368.63557896818,
+          "holdout_score": -5.591529982816182,
+          "selected_bank": 1,
+          "runtime_seconds": 2.64030361299956,
+          "replicate": 94,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.021402065403604,
+          "objective": -28327.509296571523,
+          "holdout_score": -5.280169265763726,
+          "selected_bank": 0,
+          "runtime_seconds": 2.6529289089994563,
+          "replicate": 95,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.041449351230851,
+          "objective": -28441.635223647067,
+          "holdout_score": -4.551640490048147,
+          "selected_bank": 1,
+          "runtime_seconds": 2.8899804829998175,
+          "replicate": 96,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -4.990218979483949,
+          "objective": -28226.370877988327,
+          "holdout_score": -5.605961880150724,
+          "selected_bank": 0,
+          "runtime_seconds": 2.9095530949998647,
+          "replicate": 97,
+          "changed_holdout_books": 0
+        },
+        {
+          "train_score": -5.096653569434375,
+          "objective": -28664.27545890551,
+          "holdout_score": -5.241371574930632,
+          "selected_bank": 0,
+          "runtime_seconds": 2.533193814000697,
+          "replicate": 98,
+          "changed_holdout_books": 2
+        }
+      ],
+      "replicates": 99,
+      "holdout_upper_tail_p": 0.92,
+      "mean_holdout_score": -5.433418429967109
+    },
+    "blocks8": {
+      "trials": [
+        {
+          "train_score": -5.106934658203,
+          "objective": -28786.47636861354,
+          "holdout_score": -5.357001493987728,
+          "selected_bank": 1,
+          "runtime_seconds": 2.57557880999957,
+          "replicate": 0,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.149648093133728,
+          "objective": -29019.293754463186,
+          "holdout_score": -5.9281793023870675,
+          "selected_bank": 0,
+          "runtime_seconds": 2.5682909930001188,
+          "replicate": 1,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.155278094872429,
+          "objective": -29148.161008223662,
+          "holdout_score": -5.537556010778113,
+          "selected_bank": 1,
+          "runtime_seconds": 2.753405315001146,
+          "replicate": 2,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.1133543283701375,
+          "objective": -29127.874087674976,
+          "holdout_score": -5.947242110191833,
+          "selected_bank": 0,
+          "runtime_seconds": 2.7384960379968106,
+          "replicate": 3,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.137750094297883,
+          "objective": -28810.200812705636,
+          "holdout_score": -5.334719477654276,
+          "selected_bank": 0,
+          "runtime_seconds": 2.9019921450017137,
+          "replicate": 4,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.093990443902115,
+          "objective": -28828.124479249418,
+          "holdout_score": -5.638092274372612,
+          "selected_bank": 0,
+          "runtime_seconds": 2.837983614001132,
+          "replicate": 5,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.124573484567533,
+          "objective": -28933.27605377719,
+          "holdout_score": -5.708613887319961,
+          "selected_bank": 0,
+          "runtime_seconds": 3.07825401500304,
+          "replicate": 6,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.219128845887627,
+          "objective": -29378.488604475762,
+          "holdout_score": -5.595694593836348,
+          "selected_bank": 0,
+          "runtime_seconds": 3.087661281999317,
+          "replicate": 7,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.100996642684715,
+          "objective": -28933.253630010993,
+          "holdout_score": -5.536560150499798,
+          "selected_bank": 0,
+          "runtime_seconds": 2.465087841002969,
+          "replicate": 8,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.182559319959988,
+          "objective": -29042.814794268455,
+          "holdout_score": -5.687396619832045,
+          "selected_bank": 1,
+          "runtime_seconds": 2.453674783002498,
+          "replicate": 9,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.214802305691806,
+          "objective": -29136.217746391387,
+          "holdout_score": -5.394090259999317,
+          "selected_bank": 1,
+          "runtime_seconds": 2.682138092997775,
+          "replicate": 10,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.170131427780926,
+          "objective": -29196.573112720394,
+          "holdout_score": -5.5518076253560675,
+          "selected_bank": 1,
+          "runtime_seconds": 2.564171471996815,
+          "replicate": 11,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.083078030772721,
+          "objective": -28832.55091253271,
+          "holdout_score": -5.665071343603321,
+          "selected_bank": 0,
+          "runtime_seconds": 2.6119429189966468,
+          "replicate": 12,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.17671998096074,
+          "objective": -29188.990935885304,
+          "holdout_score": -6.1932678870730165,
+          "selected_bank": 1,
+          "runtime_seconds": 2.671076989001449,
+          "replicate": 13,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.191362874897929,
+          "objective": -29207.76973829579,
+          "holdout_score": -5.683509799193253,
+          "selected_bank": 0,
+          "runtime_seconds": 2.672067481002159,
+          "replicate": 14,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.207146337069403,
+          "objective": -29106.881679250448,
+          "holdout_score": -5.76334548568755,
+          "selected_bank": 0,
+          "runtime_seconds": 2.783818119998614,
+          "replicate": 15,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.160251487482792,
+          "objective": -29106.180433528763,
+          "holdout_score": -5.71446901070188,
+          "selected_bank": 1,
+          "runtime_seconds": 4.030286907003756,
+          "replicate": 16,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.103052676176431,
+          "objective": -28899.897362441436,
+          "holdout_score": -5.534177314336177,
+          "selected_bank": 1,
+          "runtime_seconds": 4.360172910000983,
+          "replicate": 17,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.202166443150445,
+          "objective": -29243.148847665696,
+          "holdout_score": -5.478454911979743,
+          "selected_bank": 0,
+          "runtime_seconds": 3.255079744001705,
+          "replicate": 18,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.1850760025944105,
+          "objective": -29211.434793378372,
+          "holdout_score": -5.214059772629951,
+          "selected_bank": 0,
+          "runtime_seconds": 3.220122017999529,
+          "replicate": 19,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.135200680145133,
+          "objective": -29021.924097537478,
+          "holdout_score": -5.536299898215394,
+          "selected_bank": 0,
+          "runtime_seconds": 2.8333212600009574,
+          "replicate": 20,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.231448120965073,
+          "objective": -29343.453470463886,
+          "holdout_score": -5.903752493949556,
+          "selected_bank": 1,
+          "runtime_seconds": 2.5601531590000377,
+          "replicate": 21,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.147078347148209,
+          "objective": -28934.82259149432,
+          "holdout_score": -5.354516437687319,
+          "selected_bank": 1,
+          "runtime_seconds": 2.478297345998726,
+          "replicate": 22,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.113564844667942,
+          "objective": -29020.27358952705,
+          "holdout_score": -5.446753206234978,
+          "selected_bank": 1,
+          "runtime_seconds": 2.5587063359998865,
+          "replicate": 23,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.103410320311345,
+          "objective": -28942.396060070787,
+          "holdout_score": -5.758739114361672,
+          "selected_bank": 1,
+          "runtime_seconds": 2.9620939819978958,
+          "replicate": 24,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.196130080954904,
+          "objective": -29237.36054842844,
+          "holdout_score": -6.134775572470831,
+          "selected_bank": 1,
+          "runtime_seconds": 3.2606291030024295,
+          "replicate": 25,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.19670000491888,
+          "objective": -29259.621889592494,
+          "holdout_score": -5.749864218356705,
+          "selected_bank": 1,
+          "runtime_seconds": 3.2988503249980567,
+          "replicate": 26,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.211991939180754,
+          "objective": -29359.451899971613,
+          "holdout_score": -5.920874726752225,
+          "selected_bank": 1,
+          "runtime_seconds": 3.1872180350001145,
+          "replicate": 27,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.213051543591991,
+          "objective": -29160.086720090705,
+          "holdout_score": -5.703526519877706,
+          "selected_bank": 1,
+          "runtime_seconds": 2.8363967320001393,
+          "replicate": 28,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.212408787322292,
+          "objective": -29053.8796589928,
+          "holdout_score": -5.919726538413298,
+          "selected_bank": 0,
+          "runtime_seconds": 2.7610297219980566,
+          "replicate": 29,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.10271894677492,
+          "objective": -28980.380633110522,
+          "holdout_score": -6.1316600723886765,
+          "selected_bank": 1,
+          "runtime_seconds": 2.737888274001307,
+          "replicate": 30,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.111760234596839,
+          "objective": -28978.006857083565,
+          "holdout_score": -5.23096715430713,
+          "selected_bank": 0,
+          "runtime_seconds": 2.642165417000797,
+          "replicate": 31,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.1546785366336945,
+          "objective": -28958.341883358575,
+          "holdout_score": -5.862569963093982,
+          "selected_bank": 0,
+          "runtime_seconds": 2.7693868950009346,
+          "replicate": 32,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.156010807375216,
+          "objective": -28998.64586481949,
+          "holdout_score": -5.418632776105355,
+          "selected_bank": 1,
+          "runtime_seconds": 2.767108903000917,
+          "replicate": 33,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.163345914363663,
+          "objective": -29142.285909229075,
+          "holdout_score": -5.520172886693825,
+          "selected_bank": 1,
+          "runtime_seconds": 2.628175616995577,
+          "replicate": 34,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.1293080755508385,
+          "objective": -28945.187100093404,
+          "holdout_score": -5.557645339377413,
+          "selected_bank": 1,
+          "runtime_seconds": 2.600501633998647,
+          "replicate": 35,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.234263067355559,
+          "objective": -29202.53993263803,
+          "holdout_score": -5.663264425216396,
+          "selected_bank": 0,
+          "runtime_seconds": 2.7229651590023423,
+          "replicate": 36,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.072028564690107,
+          "objective": -29099.797520121527,
+          "holdout_score": -5.739525227714586,
+          "selected_bank": 1,
+          "runtime_seconds": 2.626576669001224,
+          "replicate": 37,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.1340138865499405,
+          "objective": -29033.40654781696,
+          "holdout_score": -5.565235359164647,
+          "selected_bank": 1,
+          "runtime_seconds": 2.7016164349988685,
+          "replicate": 38,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.149773837171297,
+          "objective": -29149.305757655562,
+          "holdout_score": -5.741751782978523,
+          "selected_bank": 0,
+          "runtime_seconds": 2.700870468004723,
+          "replicate": 39,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.158314753700485,
+          "objective": -29219.197147372415,
+          "holdout_score": -5.40774791871135,
+          "selected_bank": 0,
+          "runtime_seconds": 2.674510205997649,
+          "replicate": 40,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.095535414433078,
+          "objective": -28762.06328902055,
+          "holdout_score": -5.528628738882662,
+          "selected_bank": 1,
+          "runtime_seconds": 2.487876390998281,
+          "replicate": 41,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.1614208529168595,
+          "objective": -29064.801741231593,
+          "holdout_score": -5.06409008176842,
+          "selected_bank": 0,
+          "runtime_seconds": 2.468085747001169,
+          "replicate": 42,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.181432676548701,
+          "objective": -29171.37352546541,
+          "holdout_score": -5.152549461601519,
+          "selected_bank": 1,
+          "runtime_seconds": 2.6006441679965064,
+          "replicate": 43,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.1379777459067375,
+          "objective": -28944.201159977187,
+          "holdout_score": -5.506714316124558,
+          "selected_bank": 1,
+          "runtime_seconds": 2.4521127120024175,
+          "replicate": 44,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.150590064386859,
+          "objective": -28934.968308306143,
+          "holdout_score": -5.2751085203894466,
+          "selected_bank": 0,
+          "runtime_seconds": 2.5299863379987073,
+          "replicate": 45,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.1144044500143275,
+          "objective": -28866.85538539033,
+          "holdout_score": -5.928709188534553,
+          "selected_bank": 1,
+          "runtime_seconds": 2.4081786980023026,
+          "replicate": 46,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.1930787475417075,
+          "objective": -29052.345105219716,
+          "holdout_score": -5.947686062767957,
+          "selected_bank": 1,
+          "runtime_seconds": 2.58058453600097,
+          "replicate": 47,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.244080890182504,
+          "objective": -29230.397937912752,
+          "holdout_score": -4.97787420519091,
+          "selected_bank": 1,
+          "runtime_seconds": 2.4881402179998986,
+          "replicate": 48,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.207513870797543,
+          "objective": -29114.42853600133,
+          "holdout_score": -5.803429851713045,
+          "selected_bank": 0,
+          "runtime_seconds": 2.580597702995874,
+          "replicate": 49,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.078953976935691,
+          "objective": -28511.058679559916,
+          "holdout_score": -5.291538285827675,
+          "selected_bank": 0,
+          "runtime_seconds": 2.686509176000982,
+          "replicate": 50,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.133272108155016,
+          "objective": -28797.170844642536,
+          "holdout_score": -5.535164218910146,
+          "selected_bank": 1,
+          "runtime_seconds": 2.5742548990019714,
+          "replicate": 51,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.1751885575071,
+          "objective": -29039.09671139789,
+          "holdout_score": -5.687010068439597,
+          "selected_bank": 0,
+          "runtime_seconds": 2.5022537340009876,
+          "replicate": 52,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.149051814007306,
+          "objective": -29061.665932970944,
+          "holdout_score": -5.285218035351323,
+          "selected_bank": 0,
+          "runtime_seconds": 2.4541386119999515,
+          "replicate": 53,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.137656178322881,
+          "objective": -28964.316649570046,
+          "holdout_score": -5.247704987653881,
+          "selected_bank": 0,
+          "runtime_seconds": 2.5595694500007085,
+          "replicate": 54,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.1236659440103205,
+          "objective": -29017.37317603601,
+          "holdout_score": -5.816697546688405,
+          "selected_bank": 0,
+          "runtime_seconds": 2.5655277510013548,
+          "replicate": 55,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.152569552456143,
+          "objective": -29029.568448465427,
+          "holdout_score": -5.095690982739541,
+          "selected_bank": 0,
+          "runtime_seconds": 2.4967510320020665,
+          "replicate": 56,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.151908721863507,
+          "objective": -28945.66482743079,
+          "holdout_score": -5.50678309333525,
+          "selected_bank": 1,
+          "runtime_seconds": 2.4546470869972836,
+          "replicate": 57,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.174729411698371,
+          "objective": -29098.052208270146,
+          "holdout_score": -5.983295952633712,
+          "selected_bank": 0,
+          "runtime_seconds": 2.4473060549971706,
+          "replicate": 58,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.149069486641454,
+          "objective": -29049.876916651494,
+          "holdout_score": -5.661812471896484,
+          "selected_bank": 0,
+          "runtime_seconds": 2.5134719959969516,
+          "replicate": 59,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.215928068106863,
+          "objective": -29288.35903418612,
+          "holdout_score": -6.083401600232284,
+          "selected_bank": 0,
+          "runtime_seconds": 2.504914368997561,
+          "replicate": 60,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.035795477929418,
+          "objective": -28683.831994208835,
+          "holdout_score": -5.479784752568921,
+          "selected_bank": 1,
+          "runtime_seconds": 2.6469918739967397,
+          "replicate": 61,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.146219392734822,
+          "objective": -29040.7211902264,
+          "holdout_score": -5.435235184528878,
+          "selected_bank": 1,
+          "runtime_seconds": 2.6831436779975775,
+          "replicate": 62,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.1675488520300465,
+          "objective": -29318.34755670951,
+          "holdout_score": -5.6185365092144135,
+          "selected_bank": 0,
+          "runtime_seconds": 2.759467647996644,
+          "replicate": 63,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.171920914095731,
+          "objective": -29130.47498391052,
+          "holdout_score": -5.899282857271139,
+          "selected_bank": 1,
+          "runtime_seconds": 2.560252223000134,
+          "replicate": 64,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.220341052681945,
+          "objective": -29196.691120086165,
+          "holdout_score": -5.804745101541299,
+          "selected_bank": 1,
+          "runtime_seconds": 2.6127792980005324,
+          "replicate": 65,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.190233699820812,
+          "objective": -29172.89567719851,
+          "holdout_score": -6.209508411206544,
+          "selected_bank": 1,
+          "runtime_seconds": 2.5372012140032894,
+          "replicate": 66,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.25781882818383,
+          "objective": -29391.295395685007,
+          "holdout_score": -5.703512732769426,
+          "selected_bank": 0,
+          "runtime_seconds": 2.6127691689980566,
+          "replicate": 67,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.1832717878521875,
+          "objective": -29202.903983253396,
+          "holdout_score": -5.337984659928882,
+          "selected_bank": 0,
+          "runtime_seconds": 2.6497278259994346,
+          "replicate": 68,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.12298398755127,
+          "objective": -29064.6556671464,
+          "holdout_score": -5.706049817386434,
+          "selected_bank": 1,
+          "runtime_seconds": 2.7774675889995706,
+          "replicate": 69,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.219979381621756,
+          "objective": -29194.7080079327,
+          "holdout_score": -5.359892993539568,
+          "selected_bank": 0,
+          "runtime_seconds": 2.885591886995826,
+          "replicate": 70,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.16097244623119,
+          "objective": -28823.6044982697,
+          "holdout_score": -5.791015944375904,
+          "selected_bank": 1,
+          "runtime_seconds": 2.8528013309987728,
+          "replicate": 71,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.178972001832626,
+          "objective": -29240.587847507984,
+          "holdout_score": -5.604550084929042,
+          "selected_bank": 1,
+          "runtime_seconds": 2.6780296999968414,
+          "replicate": 72,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.225925310691442,
+          "objective": -29365.90167706343,
+          "holdout_score": -4.827816643172487,
+          "selected_bank": 1,
+          "runtime_seconds": 2.6730301050047274,
+          "replicate": 73,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.169575204949337,
+          "objective": -29121.596336065246,
+          "holdout_score": -5.8587640876501,
+          "selected_bank": 1,
+          "runtime_seconds": 2.496358534997853,
+          "replicate": 74,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.144694295728676,
+          "objective": -29008.27372118875,
+          "holdout_score": -5.553798422553911,
+          "selected_bank": 1,
+          "runtime_seconds": 2.549802888999693,
+          "replicate": 75,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.163569760832718,
+          "objective": -29204.026786052633,
+          "holdout_score": -5.387889661987587,
+          "selected_bank": 0,
+          "runtime_seconds": 2.5975093559973175,
+          "replicate": 76,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.088398504524825,
+          "objective": -28872.37382313818,
+          "holdout_score": -5.9744312243818305,
+          "selected_bank": 1,
+          "runtime_seconds": 2.6854045360050804,
+          "replicate": 77,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.168225915609502,
+          "objective": -29022.80811421751,
+          "holdout_score": -5.757587968690428,
+          "selected_bank": 1,
+          "runtime_seconds": 2.9286748459999217,
+          "replicate": 78,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.181357389024841,
+          "objective": -29133.93469425447,
+          "holdout_score": -5.428610360998209,
+          "selected_bank": 1,
+          "runtime_seconds": 3.064840766000998,
+          "replicate": 79,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.168532759698382,
+          "objective": -29135.744149140653,
+          "holdout_score": -5.383146815847114,
+          "selected_bank": 1,
+          "runtime_seconds": 2.904558663001808,
+          "replicate": 80,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.173058891614223,
+          "objective": -29062.11217814954,
+          "holdout_score": -6.100465056832048,
+          "selected_bank": 1,
+          "runtime_seconds": 3.0729299470003753,
+          "replicate": 81,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.161998259274984,
+          "objective": -29131.473100329917,
+          "holdout_score": -6.0328680231893115,
+          "selected_bank": 1,
+          "runtime_seconds": 2.967750875002821,
+          "replicate": 82,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.18994160322825,
+          "objective": -29192.692978991563,
+          "holdout_score": -5.573107609293647,
+          "selected_bank": 0,
+          "runtime_seconds": 2.8664303190016653,
+          "replicate": 83,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.17571228299586,
+          "objective": -29125.075748059215,
+          "holdout_score": -5.355050166776303,
+          "selected_bank": 1,
+          "runtime_seconds": 2.74604710100175,
+          "replicate": 84,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.1020712767308165,
+          "objective": -28928.26716459669,
+          "holdout_score": -5.547097987820938,
+          "selected_bank": 0,
+          "runtime_seconds": 2.904926498002169,
+          "replicate": 85,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.107766538660034,
+          "objective": -29114.17521169985,
+          "holdout_score": -5.520614305131812,
+          "selected_bank": 0,
+          "runtime_seconds": 3.1319840910000494,
+          "replicate": 86,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.088385459531486,
+          "objective": -28831.468669726513,
+          "holdout_score": -5.5876679838425956,
+          "selected_bank": 1,
+          "runtime_seconds": 2.994889362998947,
+          "replicate": 87,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.190009688678771,
+          "objective": -29171.434049647385,
+          "holdout_score": -5.744612202302258,
+          "selected_bank": 0,
+          "runtime_seconds": 2.610076093002135,
+          "replicate": 88,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.15437677375056,
+          "objective": -28981.77695935921,
+          "holdout_score": -5.909516021680057,
+          "selected_bank": 0,
+          "runtime_seconds": 2.4752601699983643,
+          "replicate": 89,
+          "changed_holdout_books": 1
+        },
+        {
+          "train_score": -5.162513012417194,
+          "objective": -29174.113048980635,
+          "holdout_score": -5.573893299621982,
+          "selected_bank": 0,
+          "runtime_seconds": 2.4437026739979046,
+          "replicate": 90,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.169400143339533,
+          "objective": -29175.710950019904,
+          "holdout_score": -5.730563783999228,
+          "selected_bank": 1,
+          "runtime_seconds": 2.437671916999534,
+          "replicate": 91,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.221631342201809,
+          "objective": -29270.292855840446,
+          "holdout_score": -5.880416322036965,
+          "selected_bank": 1,
+          "runtime_seconds": 2.5640190099984466,
+          "replicate": 92,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.114273158152917,
+          "objective": -28997.34277792679,
+          "holdout_score": -4.823942577123725,
+          "selected_bank": 1,
+          "runtime_seconds": 2.524872400001186,
+          "replicate": 93,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.061034837687237,
+          "objective": -28837.581180347686,
+          "holdout_score": -5.763318262353935,
+          "selected_bank": 0,
+          "runtime_seconds": 2.595735220998904,
+          "replicate": 94,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.101798862373667,
+          "objective": -29030.771463438414,
+          "holdout_score": -5.812021225497124,
+          "selected_bank": 0,
+          "runtime_seconds": 2.696057072997064,
+          "replicate": 95,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.1262757771003225,
+          "objective": -28808.443329491543,
+          "holdout_score": -5.610799586337596,
+          "selected_bank": 0,
+          "runtime_seconds": 2.494964131001325,
+          "replicate": 96,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.10279854015259,
+          "objective": -28770.1207398462,
+          "holdout_score": -6.132499069056633,
+          "selected_bank": 1,
+          "runtime_seconds": 2.5542640980020224,
+          "replicate": 97,
+          "changed_holdout_books": 2
+        },
+        {
+          "train_score": -5.181495162139311,
+          "objective": -29076.536475049357,
+          "holdout_score": -5.692960993486048,
+          "selected_bank": 1,
+          "runtime_seconds": 2.6068457550027233,
+          "replicate": 98,
+          "changed_holdout_books": 2
+        }
+      ],
+      "replicates": 99,
+      "holdout_upper_tail_p": 0.78,
+      "mean_holdout_score": -5.6224644176272465
+    }
+  },
+  "runtime_seconds": 539.1804977160027,
+  "verdict": "NO_VERIFIED_TRANSLATION",
+  "limits": [
+    "Old61-code dependent holdout is not prospective independent validation.",
+    "Null p values are exploratory and not probability of semantic correctness; multiple nulls are not independent tests.",
+    "Euler nulls are not uniform over valid trails; longer motifs not preserved; unchanged holdouts restrict variation.",
+    "Imported tokenization was learned using full public corpus; no known game English plaintext.",
+    "This finite English homophonic objective and code representation do not exhaust all469 algorithms."
+  ]
+}

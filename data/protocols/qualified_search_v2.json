@@ -1,0 +1,38 @@
+{
+  "version": "P04_V2_EXPLORATORY",
+  "frozen_at_utc": "2026-11-10T23:16:05.755304+00:00",
+  "gate": "all6freshV2synthetic scenarios pass>=27/30 at>=95% accuracy; otherwise noTibia fit",
+  "input_sha256": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+  "split_sha256": "0a0f9d3b60b4077bf9e3074919d35e754f6f77fd4ca4423b160e14e5a58ac3de",
+  "scorer": "Alice frozen first80% tetragrams, train regularization2.0; selection by training objective only",
+  "solver_budget": {
+    "banks": 2,
+    "restarts": 8,
+    "steps": 100000,
+    "num_codes": 100,
+    "max_temp": 12.0,
+    "frequency_weight": 2.0
+  },
+  "nulls": [
+    "shuffle",
+    "bigrams",
+    "blocks8"
+  ],
+  "replicates_each": 99,
+  "workers": 2,
+  "seed": 70469000,
+  "statistic": "weighted mean raw log10 tetragram score on previously exposed61-code holdout, map selected only on discovery",
+  "null_selection": "refit whole2-bank optimization on each null; fresh seeds, identical budget",
+  "transformation": "perbook reconstructed integer codes; each null preserves lengths; blocks8 uses one position permutation perbook",
+  "scope": "Exploratory screen only; no external plaintext, tiny correlated test; structural dependencies remain",
+  "acceptance": "No automatic translation, regardless of p; output literal without repairs",
+  "implementation_hashes": {
+    "scripts/qualified_tibia_search.py": "2c589f78cfaf14d8956698c1a2144e302f6490f56e79a7643967240e1aff69c3",
+    "scripts/qualification_gate_v2.py": "351dbe8c0368def1c7ee366d4af70ac6ae9fd057a3317e5dc41fc97c4ccdaa5b",
+    "scripts/robust_homophonic.py": "5927ce53f96035dd79930d721d6c43308be0c49180878f308aa0e47b533e2fd1",
+    "scripts/fast_homophonic.py": "a3d0cb37527f7fbec6069c193ba320a6464051b2c2a1f4f2cfbc777be68118cc",
+    "src/homophonic_solver.cpp": "0d71f35474df0e2c9f76a230ab67fb9c897440de280fabb53e782e01122132a1",
+    "scripts/cipher_battery.py": "0c7a22d739c7eb45eca6aaf339e3df7a61634a98b32316d2a04fe4e3ebd03139",
+    "scripts/homophonic_controls.py": "e777da5d02a4562b36274531e654547ff67056fbe24ed6bddbd41119d030a96e"
+  }
+}

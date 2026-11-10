@@ -1,0 +1,21 @@
+{
+  "role": "posthoc development diagnosis, worst of12 stress fixtures; exact repeated run, no new seed or tuning",
+  "fixture": 9,
+  "seed": 80469009,
+  "truth": {
+    "raw_tetragram_sum": -25249.965366196084,
+    "frequency_penalty": 215.90640255585998,
+    "objective": -25681.778171307804
+  },
+  "found": {
+    "raw_tetragram_sum": -28328.172184101502,
+    "frequency_penalty": 605.0033741519549,
+    "objective": -29538.17893240541
+  },
+  "holdout_accuracy": 0.4619140625,
+  "true_objective_minus_found": 3856.4007610976078,
+  "interpretation": "True key scores higher than returned key: search insufficiency",
+  "limits": [
+    "Only one selected development case; neither universal mechanism diagnosis nor independent qualification."
+  ]
+}

@@ -11,3 +11,6 @@ data/historical_refresh/
 data/private/
 
 results/homophonic_benchmark_checkpoint.json
+
+results/homophonic_benchmark_v2_checkpoint.json
+results/qualified_search_v2_checkpoint.json

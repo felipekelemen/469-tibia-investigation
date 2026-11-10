@@ -1,0 +1,288 @@
+{
+  "version": "p02-v2",
+  "frozen": true,
+  "frozen_at_utc": "2026-11-10T23:14:51.751676+00:00",
+  "data_scope": "fresh-author synthetic qualification; no Tibia input",
+  "development": "V1 old qualification fixtures now explicitly development; V1 preserved unchanged",
+  "qualification_authors": [
+    "H. G. Wells",
+    "Charles Dickens"
+  ],
+  "seed": 46940000,
+  "train_letters": 5668,
+  "holdout_letters": 1024,
+  "fixtures_per_scenario": 30,
+  "scenarios": [
+    {
+      "codes": 52,
+      "distribution": "balanced"
+    },
+    {
+      "codes": 52,
+      "distribution": "skewed"
+    },
+    {
+      "codes": 75,
+      "distribution": "balanced"
+    },
+    {
+      "codes": 75,
+      "distribution": "skewed"
+    },
+    {
+      "codes": 99,
+      "distribution": "balanced"
+    },
+    {
+      "codes": 99,
+      "distribution": "skewed"
+    }
+  ],
+  "gate": {
+    "minimum_holdout_character_accuracy": 0.95,
+    "minimum_pass_count": 27,
+    "minimum_fixture_pass_fraction": 0.9
+  },
+  "solver_budget": {
+    "banks": 2,
+    "restarts": 8,
+    "steps": 100000,
+    "num_codes": 100,
+    "max_temp": 12.0,
+    "frequency_weight": 2.0
+  },
+  "bank_selection": "highest training objective; ties first; never test accuracy; bank1 seed=bank0seed+1000003",
+  "baseline": "first bank only, paired on same fresh fixtures; secondary report, no influence on main selection",
+  "workers": 2,
+  "primary_scorer": "Alice first80% tetragrams, unchanged from V1",
+  "implementation_hashes": {
+    "scripts/homophonic_benchmark_v2.py": "f5e7a583d19b0748b2cc80bb6c4f10d00d09cd2c9db3a2f58e74fbb1c665c850",
+    "scripts/robust_homophonic.py": "5927ce53f96035dd79930d721d6c43308be0c49180878f308aa0e47b533e2fd1",
+    "scripts/fast_homophonic.py": "a3d0cb37527f7fbec6069c193ba320a6464051b2c2a1f4f2cfbc777be68118cc",
+    "src/homophonic_solver.cpp": "0d71f35474df0e2c9f76a230ab67fb9c897440de280fabb53e782e01122132a1",
+    "scripts/homophonic_benchmark.py": "759b096e9b5e9b354926fcdf5d5cedab66346fb5114aa1530d520b51a04baea7",
+    "scripts/cipher_battery.py": "0c7a22d739c7eb45eca6aaf339e3df7a61634a98b32316d2a04fe4e3ebd03139"
+  },
+  "source_hashes": {
+    "war_worlds": "8417469e3ab664749f7b36ebb85799075818207b0380b54c27d07d592a44117d",
+    "great_expectations": "9a637118af8e953e9764ec603d9b0a032883384d465acac2e27966a80cf1c6f8"
+  },
+  "alice_sha256": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+  "excerpt_manifest": [
+    {
+      "fixture": 0,
+      "source": "war_worlds",
+      "offset": 0,
+      "length": 6692,
+      "sha256": "b69fa2b9b8fa8fd19e310d88645f7a35a7179a281780b0dc85da575f1dd3643a"
+    },
+    {
+      "fixture": 1,
+      "source": "war_worlds",
+      "offset": 6692,
+      "length": 6692,
+      "sha256": "428b1f3459602e894c132ae084ba29ed693c33ae41fab58e2b502b8df205605c"
+    },
+    {
+      "fixture": 2,
+      "source": "war_worlds",
+      "offset": 13384,
+      "length": 6692,
+      "sha256": "25366915df09c5505793854e3bd369888a98e02b9c51e50fa77262b39822c263"
+    },
+    {
+      "fixture": 3,
+      "source": "war_worlds",
+      "offset": 20076,
+      "length": 6692,
+      "sha256": "4c83f7404ace04fed17eab68fc8b063ec84dfe4ef15937e5069b61da3d7bff16"
+    },
+    {
+      "fixture": 4,
+      "source": "war_worlds",
+      "offset": 26768,
+      "length": 6692,
+      "sha256": "119a0b03a8b65a40d808ae6381a3b25c8d037b2744abb6159c0fa1634d555477"
+    },
+    {
+      "fixture": 5,
+      "source": "war_worlds",
+      "offset": 33460,
+      "length": 6692,
+      "sha256": "35a2a35bcb8ea36a5589c2fec975199a66ef5681be69926b1d16f2fdc028389d"
+    },
+    {
+      "fixture": 6,
+      "source": "war_worlds",
+      "offset": 40152,
+      "length": 6692,
+      "sha256": "f8a41d5c17a14a69b91fbcdac321e23e21aec2bef6ebc53e528680599a9aad03"
+    },
+    {
+      "fixture": 7,
+      "source": "war_worlds",
+      "offset": 46844,
+      "length": 6692,
+      "sha256": "4deebbda137a56e67268a505ae3c4742c972bdf1f1730467ca98b7083f6e9c3a"
+    },
+    {
+      "fixture": 8,
+      "source": "war_worlds",
+      "offset": 53536,
+      "length": 6692,
+      "sha256": "5ae242fe047e02f89af60e0bcbd1fef26cf8962033147ff9249d84646b543b82"
+    },
+    {
+      "fixture": 9,
+      "source": "war_worlds",
+      "offset": 60228,
+      "length": 6692,
+      "sha256": "a2ffa269223c4e85068d3035f19b69d6cb4e17f2ab190986010eff094bbc994f"
+    },
+    {
+      "fixture": 10,
+      "source": "war_worlds",
+      "offset": 66920,
+      "length": 6692,
+      "sha256": "5d4e874cff7817417435b31449d104ae46c54332023b70d43f04d8caa51b3708"
+    },
+    {
+      "fixture": 11,
+      "source": "war_worlds",
+      "offset": 73612,
+      "length": 6692,
+      "sha256": "6093fb5c1c26af74a7757c582cd542efeee01f7f2fb41a3dd2b57497e27c73d4"
+    },
+    {
+      "fixture": 12,
+      "source": "war_worlds",
+      "offset": 80304,
+      "length": 6692,
+      "sha256": "a1ffdc74afbceb21c90694596dd0552c2d32b4a8abb781db33e178205e14506f"
+    },
+    {
+      "fixture": 13,
+      "source": "war_worlds",
+      "offset": 86996,
+      "length": 6692,
+      "sha256": "1ef4f70bb9c3ae4120cafc10337045d2c8a55db0306ba2cbdb674766960e4c06"
+    },
+    {
+      "fixture": 14,
+      "source": "war_worlds",
+      "offset": 93688,
+      "length": 6692,
+      "sha256": "9eeb47e681b8b7ed9a02c7e600f5df6caaabe2e352f40e6d9e899e56835208fa"
+    },
+    {
+      "fixture": 15,
+      "source": "great_expectations",
+      "offset": 0,
+      "length": 6692,
+      "sha256": "a70c63a9c3638d8fb9fa447b27191a5b5f10b326b8c536d81164695e3479d810"
+    },
+    {
+      "fixture": 16,
+      "source": "great_expectations",
+      "offset": 6692,
+      "length": 6692,
+      "sha256": "68e2825c8b742c3cb686028a4989d8a033036a81672daa9ff4a2c656f0d2874c"
+    },
+    {
+      "fixture": 17,
+      "source": "great_expectations",
+      "offset": 13384,
+      "length": 6692,
+      "sha256": "4956449585bbc5d4f73a136040961947d7e45c52f5d5fed18b859d4333d007ea"
+    },
+    {
+      "fixture": 18,
+      "source": "great_expectations",
+      "offset": 20076,
+      "length": 6692,
+      "sha256": "8d4def2fa9174573c340f508fa2f2a40d5ae5b3f38ecdbb7e744e816753e2524"
+    },
+    {
+      "fixture": 19,
+      "source": "great_expectations",
+      "offset": 26768,
+      "length": 6692,
+      "sha256": "ac7ac6d1a0be572a475c67a734480230495e08381815ca954294b7118e695227"
+    },
+    {
+      "fixture": 20,
+      "source": "great_expectations",
+      "offset": 33460,
+      "length": 6692,
+      "sha256": "65feae33999b7d4f484ad4df99be1aeb2bc639a27c6dbd40375eb21fc2edc9b0"
+    },
+    {
+      "fixture": 21,
+      "source": "great_expectations",
+      "offset": 40152,
+      "length": 6692,
+      "sha256": "6d7239f9565c2bbf7d27df3b72ce87520e49256746b557fcc768be0c3df2ecaa"
+    },
+    {
+      "fixture": 22,
+      "source": "great_expectations",
+      "offset": 46844,
+      "length": 6692,
+      "sha256": "ce51684a43533feb589de484a71baf65de430a2e0bb4f141d663f0aab5b06b29"
+    },
+    {
+      "fixture": 23,
+      "source": "great_expectations",
+      "offset": 53536,
+      "length": 6692,
+      "sha256": "9bae1e57f84f689bb08b7e552d908645582891f12e235b4807138c8282ce40d7"
+    },
+    {
+      "fixture": 24,
+      "source": "great_expectations",
+      "offset": 60228,
+      "length": 6692,
+      "sha256": "bddef72b3b72cfa7f87efe0ee6e39777c67d01ef1144b8b1838429757267599a"
+    },
+    {
+      "fixture": 25,
+      "source": "great_expectations",
+      "offset": 66920,
+      "length": 6692,
+      "sha256": "65f4757a360b6316d019cbfe94914b6ae58fdb21f836a1f4fd38783c6eba7846"
+    },
+    {
+      "fixture": 26,
+      "source": "great_expectations",
+      "offset": 73612,
+      "length": 6692,
+      "sha256": "29be0144ce3f66c70c998247997faf6e0686883a3c71132d4769008f1ebd876a"
+    },
+    {
+      "fixture": 27,
+      "source": "great_expectations",
+      "offset": 80304,
+      "length": 6692,
+      "sha256": "2789cb54fd66de5738dc75c794f8cded30e382ebdcb967d997701f4bd36a13c3"
+    },
+    {
+      "fixture": 28,
+      "source": "great_expectations",
+      "offset": 86996,
+      "length": 6692,
+      "sha256": "d96e9d5b99374349f26e3f6592ac777e1579f3786f1ba03d1be0cd924b14b038"
+    },
+    {
+      "fixture": 29,
+      "source": "great_expectations",
+      "offset": 93688,
+      "length": 6692,
+      "sha256": "16d93f97403387b3553930cf1c8ae596dc2fad7d7cb6bd9ce797667176113fed"
+    }
+  ],
+  "limits": [
+    "Thirty disjoint excerpts, two new authors; paired reuse of texts across six scenarios, not180 independenttexts.",
+    "Sequential study designed after V1 failure: operational qualification, not an alpha-controlled proof of90% population success.",
+    "No hyperparameter changes or additional attempts after openingV2 qualification."
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "role":"exploratory scope/sensitivity check, not a replacement qualification gate",
+  "frozen_before_stress_outputs":true,
+  "source":"Frankenstein, previously development only",
+  "fixtures":12,
+  "base_seed":80469000,
+  "codes":99,
+  "distribution":"skewed",
+  "motifs":8,
+  "letters_per_motif":256,
+  "assembly":"encode each English motif once under common key; concatenate randomly chosen encoded motifs; preserve copied numeric choices",
+  "train_letters":5668,
+  "test_letters":1024,
+  "solver":"unchanged V2 two banks,8restarts,100000steps,temperature12,frequency_weight2",
+  "metric":"true plaintext letter accuracy and unseen-code coverage;95%reference threshold only",
+  "interpretation":"Measures sensitivity to copied encrypted prose. No tuning after outputs; does not create new blinded evidence for Tibia. No part reads469."
+}

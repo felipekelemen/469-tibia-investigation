@@ -1,0 +1,26 @@
+[
+  {
+    "name": "war_worlds",
+    "book_id": 36,
+    "title": "The War of the Worlds",
+    "author": "H. G. Wells",
+    "role": "qualification_v2; no development use",
+    "url": "https://www.gutenberg.org/cache/epub/36/pg36.txt",
+    "retrieved_at_utc": "2026-11-10T23:12:49.295188+00:00",
+    "sha256": "8417469e3ab664749f7b36ebb85799075818207b0380b54c27d07d592a44117d",
+    "bytes": 366624,
+    "license_note": "Original full Gutenberg text with license; retained byte for byte."
+  },
+  {
+    "name": "great_expectations",
+    "book_id": 1400,
+    "title": "Great Expectations",
+    "author": "Charles Dickens",
+    "role": "qualification_v2; no development use",
+    "url": "https://www.gutenberg.org/cache/epub/1400/pg1400.txt",
+    "retrieved_at_utc": "2026-11-10T23:12:49.391519+00:00",
+    "sha256": "9a637118af8e953e9764ec603d9b0a032883384d465acac2e27966a80cf1c6f8",
+    "bytes": 1058204,
+    "license_note": "Original full Gutenberg text with license; retained byte for byte."
+  }
+]

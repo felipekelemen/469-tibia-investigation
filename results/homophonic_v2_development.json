@@ -1,0 +1,127 @@
+{
+  "stage": "DEVELOPMENT_ONLY_PREVIOUSLY_OPENED_QUALIFICATION",
+  "cases": [
+    {
+      "codes": 99,
+      "distribution": "skewed",
+      "fixture": 1,
+      "seed": 48421001,
+      "bank_accuracies": [
+        0.048828125,
+        0.9814453125
+      ],
+      "bank_training_objectives": [
+        -32053.110060155002,
+        -25946.14198890906
+      ],
+      "selected_bank": 1,
+      "selected_accuracy": 0.9814453125,
+      "seconds": 5.738823551000678
+    },
+    {
+      "codes": 99,
+      "distribution": "skewed",
+      "fixture": 2,
+      "seed": 48421002,
+      "bank_accuracies": [
+        0.0,
+        0.0
+      ],
+      "bank_training_objectives": [
+        -31583.436598676024,
+        -32083.065543504745
+      ],
+      "selected_bank": 0,
+      "selected_accuracy": 0.0,
+      "seconds": 5.399263050996524
+    },
+    {
+      "codes": 99,
+      "distribution": "skewed",
+      "fixture": 11,
+      "seed": 48421011,
+      "bank_accuracies": [
+        0.1142578125,
+        0.9853515625
+      ],
+      "bank_training_objectives": [
+        -32151.196178532682,
+        -25370.09133307491
+      ],
+      "selected_bank": 1,
+      "selected_accuracy": 0.9853515625,
+      "seconds": 5.033046624997951
+    },
+    {
+      "codes": 99,
+      "distribution": "skewed",
+      "fixture": 21,
+      "seed": 48421021,
+      "bank_accuracies": [
+        0.0029296875,
+        0.9853515625
+      ],
+      "bank_training_objectives": [
+        -32083.99618119156,
+        -25237.492132414547
+      ],
+      "selected_bank": 1,
+      "selected_accuracy": 0.9853515625,
+      "seconds": 5.418843135998031
+    },
+    {
+      "codes": 99,
+      "distribution": "balanced",
+      "fixture": 0,
+      "seed": 48420000,
+      "bank_accuracies": [
+        0.96875,
+        0.96875
+      ],
+      "bank_training_objectives": [
+        -26132.99891547429,
+        -26132.99891547429
+      ],
+      "selected_bank": 0,
+      "selected_accuracy": 0.96875,
+      "seconds": 5.588246207997145
+    },
+    {
+      "codes": 75,
+      "distribution": "skewed",
+      "fixture": 0,
+      "seed": 48181000,
+      "bank_accuracies": [
+        0.9765625,
+        0.9765625
+      ],
+      "bank_training_objectives": [
+        -26281.692035191023,
+        -26281.692035191023
+      ],
+      "selected_bank": 0,
+      "selected_accuracy": 0.9765625,
+      "seconds": 6.199654823998571
+    },
+    {
+      "codes": 52,
+      "distribution": "balanced",
+      "fixture": 0,
+      "seed": 47950000,
+      "bank_accuracies": [
+        0.9794921875,
+        0.0126953125
+      ],
+      "bank_training_objectives": [
+        -26258.780581433002,
+        -32224.305763362914
+      ],
+      "selected_bank": 0,
+      "selected_accuracy": 0.9794921875,
+      "seconds": 8.258623280002212
+    }
+  ],
+  "selection": "two independent8restart banks; select training objective only",
+  "runtime_seconds": 41.747435180997854,
+  "warning": "These seven selected cases do not requalify V1 and do not estimate prospective performance."
+}

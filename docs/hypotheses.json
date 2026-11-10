@@ -152,5 +152,33 @@
     "status": "overgeneralization_not_supported",
     "evidence": "Gritosbibliotecárioocorrem1/6vezesnoslivros,alémChayenne;modalidadeporfontenãoprovadoisalgoritmosuniversais",
     "artifact": "results/source_validation_inventory.json"
+  },
+  {
+    "id": "H23",
+    "hypothesis": "V2 dois bancos qualifica em prosa comum de novos autores",
+    "status": "passes_measured_synthetic_gate",
+    "evidence": "180/180fixtures;30/30emcada6cenários;baselinepareado170/180;custoduasbuscas",
+    "artifact": "results/homophonic_benchmark_v2.json"
+  },
+  {
+    "id": "H24",
+    "hypothesis": "Homofonia inglesa qualificada nos códigos importados dos livros",
+    "status": "no_verified_translation_no_advantage_over_structured_nulls",
+    "evidence": "1ajuste+297nulos,p shuffle.02,bigramas.92,blocos.78;saída incoerente;reservado61jáexposto",
+    "artifact": "results/qualified_tibia_search_v2.json"
+  },
+  {
+    "id": "H25",
+    "hypothesis": "Qualificação em prosa comum garante recuperar prosa cifrada copiada",
+    "status": "not_supported_in_development_stress",
+    "evidence": "8/12copiadosatingem95%;pior46.19%;cenárioexploratório não qualificação cega",
+    "artifact": "results/copied_prose_stress_v2.json"
+  },
+  {
+    "id": "H26",
+    "hypothesis": "Pior caso copiado falha apenas porque objetivo favorece chave errada",
+    "status": "contradicted_in_selected_case",
+    "evidence": "Chave verdadeira pontua3856.40acima encontrada;buscainsuficiente nessecaso selecionado",
+    "artifact": "results/copied_prose_diagnosis_v2.json"
   }
 ]

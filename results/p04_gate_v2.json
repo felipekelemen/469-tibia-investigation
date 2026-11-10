@@ -1,0 +1,63 @@
+{
+  "scenario_results": [
+    {
+      "codes": 52,
+      "distribution": "balanced",
+      "passed_fixtures": 30,
+      "required_passes": 27,
+      "fixtures": 30,
+      "passes_gate": true
+    },
+    {
+      "codes": 52,
+      "distribution": "skewed",
+      "passed_fixtures": 30,
+      "required_passes": 27,
+      "fixtures": 30,
+      "passes_gate": true
+    },
+    {
+      "codes": 75,
+      "distribution": "balanced",
+      "passed_fixtures": 30,
+      "required_passes": 27,
+      "fixtures": 30,
+      "passes_gate": true
+    },
+    {
+      "codes": 75,
+      "distribution": "skewed",
+      "passed_fixtures": 30,
+      "required_passes": 27,
+      "fixtures": 30,
+      "passes_gate": true
+    },
+    {
+      "codes": 99,
+      "distribution": "balanced",
+      "passed_fixtures": 30,
+      "required_passes": 27,
+      "fixtures": 30,
+      "passes_gate": true
+    },
+    {
+      "codes": 99,
+      "distribution": "skewed",
+      "passed_fixtures": 30,
+      "required_passes": 27,
+      "fixtures": 30,
+      "passes_gate": true
+    }
+  ],
+  "gate_passed": true,
+  "p04_status": "ELIGIBLE_FOR_MATCHED_NULL_EXPLORATION",
+  "decision_rule": "all six predeclared synthetic scenarios must pass; no rounding, tuning or post-hoc scenario removal",
+  "translation_status": "NO_VERIFIED_TRANSLATION",
+  "limits": [
+    "Passing is necessary for this pipeline, not sufficient to validate a real translation.",
+    "A failed synthetic gate does not reject homophonic substitution or demonstrate no meaning in469."
+  ],
+  "version": "p02-v2",
+  "protocol_sha256": "d9df87e43d0607fc380f5416d36b7bcc501eb5ac3ce8858815fc63c54f99bd79",
+  "result_sha256": "2742d58ebad5eebbf198c9251420b0f97b90d54c67a62b7a25c6ae33b3ed5d68"
+}
