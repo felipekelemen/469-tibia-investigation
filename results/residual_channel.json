@@ -1,0 +1,2203 @@
+{
+  "seed": 46920261110,
+  "replicates": 199,
+  "input_sha256": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+  "conditional_code_entropy": {
+    "code_given_symbol_bits": 2.8797262391567746,
+    "by_symbol": {
+      "*": {
+        "positions": 120,
+        "observed_codes": 1,
+        "entropy_bits": -0.0
+      },
+      "A": {
+        "positions": 488,
+        "observed_codes": 10,
+        "entropy_bits": 2.589212400198149
+      },
+      "B": {
+        "positions": 191,
+        "observed_codes": 2,
+        "entropy_bits": 0.9833062169291144
+      },
+      "C": {
+        "positions": 47,
+        "observed_codes": 2,
+        "entropy_bits": 0.9440870182837794
+      },
+      "E": {
+        "positions": 990,
+        "observed_codes": 17,
+        "entropy_bits": 3.6098911043290793
+      },
+      "F": {
+        "positions": 565,
+        "observed_codes": 6,
+        "entropy_bits": 2.202909249909759
+      },
+      "I": {
+        "positions": 1157,
+        "observed_codes": 15,
+        "entropy_bits": 3.645332872510759
+      },
+      "L": {
+        "positions": 212,
+        "observed_codes": 4,
+        "entropy_bits": 1.9118196314091342
+      },
+      "N": {
+        "positions": 708,
+        "observed_codes": 15,
+        "entropy_bits": 3.294561109535236
+      },
+      "O": {
+        "positions": 10,
+        "observed_codes": 2,
+        "entropy_bits": 0.4689955935892812
+      },
+      "R": {
+        "positions": 32,
+        "observed_codes": 2,
+        "entropy_bits": 0.8112781244591328
+      },
+      "S": {
+        "positions": 244,
+        "observed_codes": 2,
+        "entropy_bits": 0.999806132804711
+      },
+      "T": {
+        "positions": 595,
+        "observed_codes": 12,
+        "entropy_bits": 3.2158953894342965
+      },
+      "V": {
+        "positions": 370,
+        "observed_codes": 9,
+        "entropy_bits": 2.8114324489564617
+      }
+    }
+  },
+  "window_summaries": [
+    {
+      "length_symbols": 4,
+      "unique_symbol_windows": 1040,
+      "unique_cross_book_repeated_windows": 656,
+      "windows_with_multiple_code_variants": 249,
+      "max_code_variants": 8,
+      "mean_cross_book_exact_code_agreement_equal_window_weight": 0.7811199421631443,
+      "mean_within_window_variant_entropy_bits_equal_window_weight": 0.380719509825695,
+      "examples": []
+    },
+    {
+      "length_symbols": 8,
+      "unique_symbol_windows": 1802,
+      "unique_cross_book_repeated_windows": 779,
+      "windows_with_multiple_code_variants": 56,
+      "max_code_variants": 4,
+      "mean_cross_book_exact_code_agreement_equal_window_weight": 0.9626220722177077,
+      "mean_within_window_variant_entropy_bits_equal_window_weight": 0.060110306744838846,
+      "examples": [
+        {
+          "symbol_window": "SBASTFNE",
+          "code_variants": 2,
+          "occurrences": 11,
+          "variant_representatives": [
+            {
+              "book": "69",
+              "position": 44,
+              "codes": [
+                "72",
+                "43",
+                "14",
+                "27",
+                "89",
+                "04",
+                "31",
+                "51"
+              ]
+            },
+            {
+              "book": "6",
+              "position": 65,
+              "codes": [
+                "72",
+                "43",
+                "14",
+                "27",
+                "89",
+                "04",
+                "31",
+                "44"
+              ]
+            }
+          ]
+        },
+        {
+          "symbol_window": "ASIATNVI",
+          "code_variants": 2,
+          "occurrences": 9,
+          "variant_representatives": [
+            {
+              "book": "66",
+              "position": 56,
+              "codes": [
+                "97",
+                "27",
+                "81",
+                "67",
+                "05",
+                "46",
+                "71",
+                "18"
+              ]
+            },
+            {
+              "book": "42",
+              "position": 4,
+              "codes": [
+                "97",
+                "27",
+                "81",
+                "67",
+                "05",
+                "46",
+                "71",
+                "08"
+              ]
+            }
+          ]
+        },
+        {
+          "symbol_window": "EFIEIEFI",
+          "code_variants": 3,
+          "occurrences": 15,
+          "variant_representatives": [
+            {
+              "book": "66",
+              "position": 86,
+              "codes": [
+                "51",
+                "45",
+                "19",
+                "48",
+                "56",
+                "11",
+                "45",
+                "19"
+              ]
+            },
+            {
+              "book": "30",
+              "position": 67,
+              "codes": [
+                "51",
+                "21",
+                "06",
+                "48",
+                "56",
+                "11",
+                "45",
+                "19"
+              ]
+            },
+            {
+              "book": "57",
+              "position": 81,
+              "codes": [
+                "51",
+                "45",
+                "19",
+                "48",
+                "56",
+                "11",
+                "45",
+                "06"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "length_symbols": 12,
+      "unique_symbol_windows": 2008,
+      "unique_cross_book_repeated_windows": 789,
+      "windows_with_multiple_code_variants": 41,
+      "max_code_variants": 3,
+      "mean_cross_book_exact_code_agreement_equal_window_weight": 0.9711310447051892,
+      "mean_within_window_variant_entropy_bits_equal_window_weight": 0.04305757450392944,
+      "examples": []
+    },
+    {
+      "length_symbols": 16,
+      "unique_symbol_windows": 2109,
+      "unique_cross_book_repeated_windows": 765,
+      "windows_with_multiple_code_variants": 33,
+      "max_code_variants": 3,
+      "mean_cross_book_exact_code_agreement_equal_window_weight": 0.9764985994397759,
+      "mean_within_window_variant_entropy_bits_equal_window_weight": 0.03548117725998722,
+      "examples": []
+    },
+    {
+      "length_symbols": 24,
+      "unique_symbol_windows": 2167,
+      "unique_cross_book_repeated_windows": 664,
+      "windows_with_multiple_code_variants": 19,
+      "max_code_variants": 2,
+      "mean_cross_book_exact_code_agreement_equal_window_weight": 0.9829281411359725,
+      "mean_within_window_variant_entropy_bits_equal_window_weight": 0.0235657544758096,
+      "examples": []
+    }
+  ],
+  "homophone_transitions": {
+    "transitions": 4863,
+    "numeric_sorted_cycle_hits": 537,
+    "numeric_sorted_cycle_rate": 0.11042566317088218,
+    "fitted_modal_successor_rate": 0.3676742751388032,
+    "conditional_next_code_entropy_bits": 2.437581812674227
+  },
+  "null": "Independently shuffle code assignments inside each (book,symbol) stratum; exact per-stratum counts preserved; semantic window sequence fixed.",
+  "comparisons": {
+    "numeric_sorted_cycle_rate": {
+      "observed": 0.11042566317088218,
+      "null_mean": 0.11649446078841669,
+      "null_min": 0.10734114743985194,
+      "null_max": 0.126053876208102,
+      "upper_tail_p": 0.96,
+      "lower_tail_p": 0.045
+    },
+    "fitted_modal_successor_rate": {
+      "observed": 0.3676742751388032,
+      "null_mean": 0.2675799313243164,
+      "null_min": 0.25807114949619575,
+      "null_max": 0.2806909315237508,
+      "upper_tail_p": 0.005,
+      "lower_tail_p": 1.0
+    },
+    "conditional_next_code_entropy_bits": {
+      "observed": 2.437581812674227,
+      "null_mean": 2.8551085857981846,
+      "null_min": 2.8352600497457208,
+      "null_max": 2.8743969598822963,
+      "upper_tail_p": 1.0,
+      "lower_tail_p": 0.005
+    },
+    "window8_exact_code_agreement": {
+      "observed": 0.9626220722177077,
+      "null_mean": 8.146662470915313e-06,
+      "null_min": 0.0,
+      "null_max": 0.00042789901583226354,
+      "upper_tail_p": 0.005,
+      "lower_tail_p": 1.0
+    },
+    "window8_multiple_variant_count": {
+      "observed": 56,
+      "null_mean": 779.0,
+      "null_min": 779,
+      "null_max": 779,
+      "upper_tail_p": 1.0,
+      "lower_tail_p": 0.005
+    }
+  },
+  "omissions": {
+    "count": 195,
+    "by_code": {
+      "06": 37,
+      "04": 20,
+      "07": 50,
+      "08": 20,
+      "05": 12,
+      "03": 23,
+      "01": 21,
+      "09": 8,
+      "00": 4
+    },
+    "eligible_leading_zero_codes": {
+      "01": 86,
+      "06": 58,
+      "04": 93,
+      "00": 120,
+      "07": 50,
+      "05": 53,
+      "08": 58,
+      "03": 65,
+      "09": 43,
+      "02": 8
+    },
+    "ambiguous_book_ids": [
+      "2",
+      "10",
+      "13",
+      "14",
+      "19",
+      "27",
+      "35",
+      "57",
+      "67"
+    ]
+  },
+  "positive_controls": {
+    "sorted_rotation": {
+      "transitions": 599,
+      "numeric_sorted_cycle_hits": 599,
+      "numeric_sorted_cycle_rate": 1.0,
+      "fitted_modal_successor_rate": 1.0,
+      "conditional_next_code_entropy_bits": 0.0
+    },
+    "iid_homophones": {
+      "transitions": 599,
+      "numeric_sorted_cycle_hits": 148,
+      "numeric_sorted_cycle_rate": 0.24707846410684475,
+      "fitted_modal_successor_rate": 0.3021702838063439,
+      "conditional_next_code_entropy_bits": 1.9776563696184368
+    }
+  },
+  "divergence_classification": {
+    "minimum_match_symbols": 8,
+    "deduplicated_divergent_maximal_runs": 106,
+    "mismatch_counts_over_unique_maximal_runs": {
+      "other_homophone_pair": 130,
+      "other_digit_reversal": 51
+    },
+    "distinct_code_pair_types": 52,
+    "code_pairs": [
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "06",
+          "56"
+        ],
+        "maximal_run_hits": 17
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "06",
+          "19"
+        ],
+        "maximal_run_hits": 12
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "06",
+          "65"
+        ],
+        "maximal_run_hits": 12
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "48",
+          "85"
+        ],
+        "maximal_run_hits": 10
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "08",
+          "18"
+        ],
+        "maximal_run_hits": 8
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "03",
+          "36"
+        ],
+        "maximal_run_hits": 7
+      },
+      {
+        "kind": "other_digit_reversal",
+        "codes": [
+          "15",
+          "51"
+        ],
+        "maximal_run_hits": 7
+      },
+      {
+        "kind": "other_digit_reversal",
+        "codes": [
+          "59",
+          "95"
+        ],
+        "maximal_run_hits": 7
+      },
+      {
+        "kind": "other_digit_reversal",
+        "codes": [
+          "01",
+          "10"
+        ],
+        "maximal_run_hits": 5
+      },
+      {
+        "kind": "other_digit_reversal",
+        "codes": [
+          "46",
+          "64"
+        ],
+        "maximal_run_hits": 5
+      },
+      {
+        "kind": "other_digit_reversal",
+        "codes": [
+          "27",
+          "72"
+        ],
+        "maximal_run_hits": 5
+      },
+      {
+        "kind": "other_digit_reversal",
+        "codes": [
+          "34",
+          "43"
+        ],
+        "maximal_run_hits": 5
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "44",
+          "47"
+        ],
+        "maximal_run_hits": 4
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "21",
+          "45"
+        ],
+        "maximal_run_hits": 4
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "10",
+          "26"
+        ],
+        "maximal_run_hits": 4
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "01",
+          "26"
+        ],
+        "maximal_run_hits": 4
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "03",
+          "96"
+        ],
+        "maximal_run_hits": 4
+      },
+      {
+        "kind": "other_digit_reversal",
+        "codes": [
+          "06",
+          "60"
+        ],
+        "maximal_run_hits": 4
+      },
+      {
+        "kind": "other_digit_reversal",
+        "codes": [
+          "03",
+          "30"
+        ],
+        "maximal_run_hits": 4
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "05",
+          "61"
+        ],
+        "maximal_run_hits": 3
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "75",
+          "78"
+        ],
+        "maximal_run_hits": 3
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "48",
+          "58"
+        ],
+        "maximal_run_hits": 3
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "08",
+          "56"
+        ],
+        "maximal_run_hits": 2
+      },
+      {
+        "kind": "other_digit_reversal",
+        "codes": [
+          "07",
+          "70"
+        ],
+        "maximal_run_hits": 2
+      },
+      {
+        "kind": "other_digit_reversal",
+        "codes": [
+          "09",
+          "90"
+        ],
+        "maximal_run_hits": 2
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "11",
+          "33"
+        ],
+        "maximal_run_hits": 2
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "11",
+          "84"
+        ],
+        "maximal_run_hits": 2
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "01",
+          "13"
+        ],
+        "maximal_run_hits": 2
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "13",
+          "26"
+        ],
+        "maximal_run_hits": 2
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "81",
+          "95"
+        ],
+        "maximal_run_hits": 2
+      },
+      {
+        "kind": "other_digit_reversal",
+        "codes": [
+          "58",
+          "85"
+        ],
+        "maximal_run_hits": 2
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "11",
+          "75"
+        ],
+        "maximal_run_hits": 2
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "28",
+          "61"
+        ],
+        "maximal_run_hits": 2
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "09",
+          "83"
+        ],
+        "maximal_run_hits": 2
+      },
+      {
+        "kind": "other_digit_reversal",
+        "codes": [
+          "02",
+          "20"
+        ],
+        "maximal_run_hits": 2
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "31",
+          "46"
+        ],
+        "maximal_run_hits": 2
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "44",
+          "51"
+        ],
+        "maximal_run_hits": 1
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "08",
+          "19"
+        ],
+        "maximal_run_hits": 1
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "19",
+          "56"
+        ],
+        "maximal_run_hits": 1
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "10",
+          "13"
+        ],
+        "maximal_run_hits": 1
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "33",
+          "84"
+        ],
+        "maximal_run_hits": 1
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "58",
+          "84"
+        ],
+        "maximal_run_hits": 1
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "01",
+          "91"
+        ],
+        "maximal_run_hits": 1
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "01",
+          "94"
+        ],
+        "maximal_run_hits": 1
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "19",
+          "52"
+        ],
+        "maximal_run_hits": 1
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "29",
+          "91"
+        ],
+        "maximal_run_hits": 1
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "57",
+          "85"
+        ],
+        "maximal_run_hits": 1
+      },
+      {
+        "kind": "other_digit_reversal",
+        "codes": [
+          "26",
+          "62"
+        ],
+        "maximal_run_hits": 1
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "11",
+          "51"
+        ],
+        "maximal_run_hits": 1
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "11",
+          "57"
+        ],
+        "maximal_run_hits": 1
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "51",
+          "85"
+        ],
+        "maximal_run_hits": 1
+      },
+      {
+        "kind": "other_homophone_pair",
+        "codes": [
+          "64",
+          "94"
+        ],
+        "maximal_run_hits": 1
+      }
+    ],
+    "examples_longest": [
+      {
+        "length": 105,
+        "symbols": "ITVAETRFEVASTFFFEEINBLEIIFFTRVEIIVNTBBNNEITVAFENTEIEIISETBASEFAIFVI*NAESESTIENFATCTIVVTISETEIVIFASTFNEIEI",
+        "locations": [
+          {
+            "book": "46",
+            "start": 20,
+            "codes": [
+              "70",
+              "90",
+              "96",
+              "73",
+              "47",
+              "09",
+              "20",
+              "12",
+              "85",
+              "71",
+              "97",
+              "27",
+              "83",
+              "04",
+              "04",
+              "21",
+              "58",
+              "57",
+              "65",
+              "94",
+              "34",
+              "42",
+              "15",
+              "95",
+              "06",
+              "04",
+              "21",
+              "83",
+              "02",
+              "03",
+              "11",
+              "80",
+              "65",
+              "71",
+              "91",
+              "89",
+              "43",
+              "43",
+              "46",
+              "46",
+              "51",
+              "80",
+              "09",
+              "96",
+              "73",
+              "40",
+              "57",
+              "92",
+              "82",
+              "75",
+              "08",
+              "57",
+              "65",
+              "19",
+              "72",
+              "78",
+              "89",
+              "43",
+              "88",
+              "72",
+              "15",
+              "12",
+              "88",
+              "95",
+              "21",
+              "96",
+              "18",
+              "00",
+              "31",
+              "14",
+              "57",
+              "27",
+              "85",
+              "72",
+              "61",
+              "18",
+              "57",
+              "64",
+              "21",
+              "97",
+              "09",
+              "68",
+              "05",
+              "07",
+              "96",
+              "36",
+              "61",
+              "25",
+              "27",
+              "57",
+              "05",
+              "84",
+              "52",
+              "17",
+              "65",
+              "21",
+              "97",
+              "27",
+              "83",
+              "04",
+              "64",
+              "87",
+              "06",
+              "51",
+              "59"
+            ]
+          },
+          {
+            "book": "51",
+            "start": 25,
+            "codes": [
+              "70",
+              "90",
+              "96",
+              "73",
+              "47",
+              "09",
+              "20",
+              "12",
+              "85",
+              "71",
+              "97",
+              "27",
+              "83",
+              "04",
+              "04",
+              "21",
+              "58",
+              "57",
+              "65",
+              "94",
+              "34",
+              "42",
+              "15",
+              "95",
+              "06",
+              "04",
+              "21",
+              "83",
+              "02",
+              "03",
+              "11",
+              "80",
+              "65",
+              "71",
+              "91",
+              "89",
+              "43",
+              "43",
+              "46",
+              "46",
+              "51",
+              "80",
+              "09",
+              "96",
+              "73",
+              "40",
+              "57",
+              "92",
+              "82",
+              "75",
+              "08",
+              "57",
+              "65",
+              "19",
+              "72",
+              "78",
+              "89",
+              "43",
+              "88",
+              "72",
+              "15",
+              "12",
+              "88",
+              "95",
+              "21",
+              "96",
+              "18",
+              "00",
+              "31",
+              "14",
+              "57",
+              "27",
+              "85",
+              "72",
+              "61",
+              "18",
+              "57",
+              "64",
+              "21",
+              "97",
+              "09",
+              "68",
+              "05",
+              "07",
+              "96",
+              "36",
+              "61",
+              "25",
+              "27",
+              "57",
+              "05",
+              "84",
+              "52",
+              "17",
+              "65",
+              "21",
+              "97",
+              "27",
+              "83",
+              "04",
+              "64",
+              "87",
+              "65",
+              "15",
+              "95"
+            ]
+          }
+        ],
+        "mismatches": [
+          {
+            "offset": 102,
+            "symbol": "I",
+            "codes": [
+              "06",
+              "65"
+            ],
+            "kind": "other_homophone_pair"
+          },
+          {
+            "offset": 103,
+            "symbol": "E",
+            "codes": [
+              "51",
+              "15"
+            ],
+            "kind": "other_digit_reversal"
+          },
+          {
+            "offset": 104,
+            "symbol": "I",
+            "codes": [
+              "59",
+              "95"
+            ],
+            "kind": "other_digit_reversal"
+          }
+        ]
+      },
+      {
+        "length": 72,
+        "symbols": "VINVINSTAE*VTLRNEFIEAIFAIFAIFINEIIVNSENI*LEAENTNBBFIVITVAETRFEVASTFFFEEI",
+        "locations": [
+          {
+            "book": "61",
+            "start": 1,
+            "codes": [
+              "55",
+              "06",
+              "49",
+              "96",
+              "70",
+              "46",
+              "72",
+              "61",
+              "14",
+              "58",
+              "00",
+              "36",
+              "90",
+              "42",
+              "20",
+              "46",
+              "48",
+              "45",
+              "19",
+              "11",
+              "88",
+              "95",
+              "21",
+              "97",
+              "07",
+              "12",
+              "88",
+              "95",
+              "21",
+              "95",
+              "94",
+              "57",
+              "65",
+              "52",
+              "36",
+              "46",
+              "72",
+              "11",
+              "91",
+              "18",
+              "00",
+              "35",
+              "75",
+              "76",
+              "74",
+              "64",
+              "83",
+              "49",
+              "43",
+              "43",
+              "54",
+              "52",
+              "17",
+              "70",
+              "90",
+              "96",
+              "73",
+              "47",
+              "09",
+              "20",
+              "12",
+              "85",
+              "71",
+              "97",
+              "27",
+              "83",
+              "04",
+              "04",
+              "21",
+              "58",
+              "57",
+              "06"
+            ]
+          },
+          {
+            "book": "65",
+            "start": 2,
+            "codes": [
+              "55",
+              "06",
+              "49",
+              "96",
+              "70",
+              "46",
+              "72",
+              "61",
+              "14",
+              "58",
+              "00",
+              "36",
+              "90",
+              "42",
+              "20",
+              "46",
+              "48",
+              "45",
+              "19",
+              "11",
+              "88",
+              "95",
+              "21",
+              "97",
+              "07",
+              "12",
+              "88",
+              "95",
+              "21",
+              "95",
+              "94",
+              "57",
+              "65",
+              "52",
+              "36",
+              "46",
+              "72",
+              "11",
+              "91",
+              "18",
+              "00",
+              "35",
+              "75",
+              "76",
+              "74",
+              "64",
+              "83",
+              "49",
+              "43",
+              "43",
+              "54",
+              "52",
+              "17",
+              "70",
+              "90",
+              "96",
+              "73",
+              "47",
+              "09",
+              "20",
+              "12",
+              "85",
+              "71",
+              "97",
+              "27",
+              "83",
+              "04",
+              "04",
+              "21",
+              "58",
+              "57",
+              "65"
+            ]
+          }
+        ],
+        "mismatches": [
+          {
+            "offset": 71,
+            "symbol": "I",
+            "codes": [
+              "06",
+              "65"
+            ],
+            "kind": "other_homophone_pair"
+          }
+        ]
+      },
+      {
+        "length": 67,
+        "symbols": "BEIINIAVNALLBEEILEEIEFFIFTLEITELBENNAIFIININSBASTFNENIIFINI*LTASTTN",
+        "locations": [
+          {
+            "book": "9",
+            "start": 72,
+            "codes": [
+              "43",
+              "48",
+              "56",
+              "25",
+              "10",
+              "81",
+              "14",
+              "63",
+              "64",
+              "67",
+              "24",
+              "35",
+              "34",
+              "51",
+              "58",
+              "60",
+              "42",
+              "15",
+              "85",
+              "07",
+              "74",
+              "45",
+              "45",
+              "19",
+              "04",
+              "50",
+              "42",
+              "15",
+              "95",
+              "61",
+              "51",
+              "35",
+              "34",
+              "78",
+              "01",
+              "92",
+              "88",
+              "95",
+              "21",
+              "60",
+              "19",
+              "93",
+              "06",
+              "46",
+              "72",
+              "43",
+              "14",
+              "27",
+              "89",
+              "04",
+              "31",
+              "51",
+              "91",
+              "18",
+              "65",
+              "12",
+              "81",
+              "91",
+              "18",
+              "00",
+              "35",
+              "61",
+              "14",
+              "72",
+              "61",
+              "16",
+              "46"
+            ]
+          },
+          {
+            "book": "50",
+            "start": 5,
+            "codes": [
+              "34",
+              "85",
+              "06",
+              "25",
+              "10",
+              "81",
+              "14",
+              "63",
+              "64",
+              "67",
+              "24",
+              "35",
+              "34",
+              "51",
+              "58",
+              "60",
+              "42",
+              "15",
+              "85",
+              "07",
+              "74",
+              "45",
+              "45",
+              "19",
+              "04",
+              "50",
+              "42",
+              "15",
+              "95",
+              "61",
+              "51",
+              "35",
+              "34",
+              "78",
+              "01",
+              "92",
+              "88",
+              "95",
+              "21",
+              "60",
+              "19",
+              "93",
+              "06",
+              "46",
+              "72",
+              "43",
+              "14",
+              "27",
+              "89",
+              "04",
+              "31",
+              "51",
+              "91",
+              "18",
+              "65",
+              "12",
+              "81",
+              "91",
+              "18",
+              "00",
+              "35",
+              "61",
+              "14",
+              "72",
+              "61",
+              "16",
+              "46"
+            ]
+          }
+        ],
+        "mismatches": [
+          {
+            "offset": 0,
+            "symbol": "B",
+            "codes": [
+              "43",
+              "34"
+            ],
+            "kind": "other_digit_reversal"
+          },
+          {
+            "offset": 1,
+            "symbol": "E",
+            "codes": [
+              "48",
+              "85"
+            ],
+            "kind": "other_homophone_pair"
+          },
+          {
+            "offset": 2,
+            "symbol": "I",
+            "codes": [
+              "56",
+              "06"
+            ],
+            "kind": "other_homophone_pair"
+          }
+        ]
+      },
+      {
+        "length": 66,
+        "symbols": "EIINIAVNALLBEEILEEIEFFIFTLEITELBENNAIFIININSBASTFNENIIFINI*LTASTTN",
+        "locations": [
+          {
+            "book": "50",
+            "start": 6,
+            "codes": [
+              "85",
+              "06",
+              "25",
+              "10",
+              "81",
+              "14",
+              "63",
+              "64",
+              "67",
+              "24",
+              "35",
+              "34",
+              "51",
+              "58",
+              "60",
+              "42",
+              "15",
+              "85",
+              "07",
+              "74",
+              "45",
+              "45",
+              "19",
+              "04",
+              "50",
+              "42",
+              "15",
+              "95",
+              "61",
+              "51",
+              "35",
+              "34",
+              "78",
+              "01",
+              "92",
+              "88",
+              "95",
+              "21",
+              "60",
+              "19",
+              "93",
+              "06",
+              "46",
+              "72",
+              "43",
+              "14",
+              "27",
+              "89",
+              "04",
+              "31",
+              "51",
+              "91",
+              "18",
+              "65",
+              "12",
+              "81",
+              "91",
+              "18",
+              "00",
+              "35",
+              "61",
+              "14",
+              "72",
+              "61",
+              "16",
+              "46"
+            ]
+          },
+          {
+            "book": "69",
+            "start": 1,
+            "codes": [
+              "48",
+              "56",
+              "25",
+              "10",
+              "81",
+              "14",
+              "63",
+              "64",
+              "67",
+              "24",
+              "35",
+              "34",
+              "51",
+              "58",
+              "60",
+              "42",
+              "15",
+              "85",
+              "07",
+              "74",
+              "45",
+              "45",
+              "19",
+              "04",
+              "50",
+              "42",
+              "15",
+              "95",
+              "61",
+              "51",
+              "35",
+              "34",
+              "78",
+              "01",
+              "92",
+              "88",
+              "95",
+              "21",
+              "60",
+              "19",
+              "93",
+              "06",
+              "46",
+              "72",
+              "43",
+              "14",
+              "27",
+              "89",
+              "04",
+              "31",
+              "51",
+              "91",
+              "18",
+              "65",
+              "12",
+              "81",
+              "91",
+              "18",
+              "00",
+              "35",
+              "61",
+              "14",
+              "72",
+              "61",
+              "16",
+              "46"
+            ]
+          }
+        ],
+        "mismatches": [
+          {
+            "offset": 0,
+            "symbol": "E",
+            "codes": [
+              "85",
+              "48"
+            ],
+            "kind": "other_homophone_pair"
+          },
+          {
+            "offset": 1,
+            "symbol": "I",
+            "codes": [
+              "06",
+              "56"
+            ],
+            "kind": "other_homophone_pair"
+          }
+        ]
+      },
+      {
+        "length": 62,
+        "symbols": "IENVNSBLFSINNAIFALVNALVEEIIVIEITAIFASIATFTEIEFIINI*VNAIFEEIIET",
+        "locations": [
+          {
+            "book": "12",
+            "start": 8,
+            "codes": [
+              "18",
+              "57",
+              "64",
+              "36",
+              "46",
+              "72",
+              "43",
+              "53",
+              "45",
+              "27",
+              "56",
+              "01",
+              "92",
+              "88",
+              "95",
+              "21",
+              "97",
+              "35",
+              "03",
+              "64",
+              "67",
+              "24",
+              "96",
+              "84",
+              "75",
+              "60",
+              "19",
+              "96",
+              "08",
+              "47",
+              "70",
+              "90",
+              "88",
+              "95",
+              "21",
+              "97",
+              "27",
+              "81",
+              "67",
+              "05",
+              "12",
+              "16",
+              "48",
+              "56",
+              "11",
+              "45",
+              "19",
+              "19",
+              "91",
+              "18",
+              "00",
+              "36",
+              "46",
+              "88",
+              "95",
+              "21",
+              "99",
+              "11",
+              "80",
+              "06",
+              "51",
+              "28"
+            ]
+          },
+          {
+            "book": "26",
+            "start": 25,
+            "codes": [
+              "08",
+              "57",
+              "64",
+              "36",
+              "46",
+              "72",
+              "43",
+              "53",
+              "45",
+              "27",
+              "56",
+              "01",
+              "92",
+              "88",
+              "95",
+              "21",
+              "97",
+              "35",
+              "03",
+              "64",
+              "67",
+              "24",
+              "96",
+              "84",
+              "75",
+              "60",
+              "19",
+              "96",
+              "08",
+              "47",
+              "70",
+              "90",
+              "88",
+              "95",
+              "21",
+              "97",
+              "27",
+              "81",
+              "67",
+              "05",
+              "12",
+              "16",
+              "48",
+              "56",
+              "11",
+              "45",
+              "19",
+              "19",
+              "91",
+              "18",
+              "00",
+              "36",
+              "46",
+              "88",
+              "95",
+              "21",
+              "99",
+              "11",
+              "80",
+              "06",
+              "51",
+              "28"
+            ]
+          }
+        ],
+        "mismatches": [
+          {
+            "offset": 0,
+            "symbol": "I",
+            "codes": [
+              "18",
+              "08"
+            ],
+            "kind": "other_homophone_pair"
+          }
+        ]
+      },
+      {
+        "length": 62,
+        "symbols": "SETBASEFAIFVI*NAESESTIENFATCTIVVTISETEIVIFASTFNEIEINTAAETTAEFT",
+        "locations": [
+          {
+            "book": "2",
+            "start": 25,
+            "codes": [
+              "27",
+              "78",
+              "89",
+              "43",
+              "88",
+              "72",
+              "15",
+              "12",
+              "88",
+              "95",
+              "21",
+              "96",
+              "18",
+              "00",
+              "31",
+              "14",
+              "57",
+              "27",
+              "85",
+              "72",
+              "61",
+              "18",
+              "57",
+              "64",
+              "21",
+              "97",
+              "09",
+              "68",
+              "05",
+              "07",
+              "96",
+              "36",
+              "61",
+              "25",
+              "27",
+              "57",
+              "05",
+              "84",
+              "52",
+              "17",
+              "65",
+              "21",
+              "97",
+              "27",
+              "83",
+              "04",
+              "64",
+              "87",
+              "65",
+              "15",
+              "95",
+              "64",
+              "61",
+              "14",
+              "14",
+              "51",
+              "98",
+              "89",
+              "97",
+              "51",
+              "12",
+              "16"
+            ]
+          },
+          {
+            "book": "5",
+            "start": 5,
+            "codes": [
+              "72",
+              "78",
+              "89",
+              "43",
+              "88",
+              "72",
+              "15",
+              "12",
+              "88",
+              "95",
+              "21",
+              "96",
+              "18",
+              "00",
+              "31",
+              "14",
+              "57",
+              "27",
+              "85",
+              "72",
+              "61",
+              "18",
+              "57",
+              "64",
+              "21",
+              "97",
+              "09",
+              "68",
+              "05",
+              "07",
+              "96",
+              "36",
+              "61",
+              "25",
+              "27",
+              "57",
+              "05",
+              "84",
+              "52",
+              "17",
+              "65",
+              "21",
+              "97",
+              "27",
+              "83",
+              "04",
+              "64",
+              "87",
+              "65",
+              "15",
+              "95",
+              "64",
+              "61",
+              "14",
+              "14",
+              "51",
+              "98",
+              "89",
+              "97",
+              "51",
+              "12",
+              "16"
+            ]
+          }
+        ],
+        "mismatches": [
+          {
+            "offset": 0,
+            "symbol": "S",
+            "codes": [
+              "27",
+              "72"
+            ],
+            "kind": "other_digit_reversal"
+          }
+        ]
+      },
+      {
+        "length": 57,
+        "symbols": "SETBASEFAIFVI*NAESESTIENFATCTIVVTISETEIVIFASTFNEIEINTAAET",
+        "locations": [
+          {
+            "book": "2",
+            "start": 25,
+            "codes": [
+              "27",
+              "78",
+              "89",
+              "43",
+              "88",
+              "72",
+              "15",
+              "12",
+              "88",
+              "95",
+              "21",
+              "96",
+              "18",
+              "00",
+              "31",
+              "14",
+              "57",
+              "27",
+              "85",
+              "72",
+              "61",
+              "18",
+              "57",
+              "64",
+              "21",
+              "97",
+              "09",
+              "68",
+              "05",
+              "07",
+              "96",
+              "36",
+              "61",
+              "25",
+              "27",
+              "57",
+              "05",
+              "84",
+              "52",
+              "17",
+              "65",
+              "21",
+              "97",
+              "27",
+              "83",
+              "04",
+              "64",
+              "87",
+              "65",
+              "15",
+              "95",
+              "64",
+              "61",
+              "14",
+              "14",
+              "51",
+              "98"
+            ]
+          },
+          {
+            "book": "51",
+            "start": 79,
+            "codes": [
+              "72",
+              "78",
+              "89",
+              "43",
+              "88",
+              "72",
+              "15",
+              "12",
+              "88",
+              "95",
+              "21",
+              "96",
+              "18",
+              "00",
+              "31",
+              "14",
+              "57",
+              "27",
+              "85",
+              "72",
+              "61",
+              "18",
+              "57",
+              "64",
+              "21",
+              "97",
+              "09",
+              "68",
+              "05",
+              "07",
+              "96",
+              "36",
+              "61",
+              "25",
+              "27",
+              "57",
+              "05",
+              "84",
+              "52",
+              "17",
+              "65",
+              "21",
+              "97",
+              "27",
+              "83",
+              "04",
+              "64",
+              "87",
+              "65",
+              "15",
+              "95",
+              "64",
+              "61",
+              "14",
+              "14",
+              "51",
+              "98"
+            ]
+          }
+        ],
+        "mismatches": [
+          {
+            "offset": 0,
+            "symbol": "S",
+            "codes": [
+              "27",
+              "72"
+            ],
+            "kind": "other_digit_reversal"
+          }
+        ]
+      },
+      {
+        "length": 54,
+        "symbols": "EIISETBASEFAIFVI*NAESESTIENFATCTIVVTISETEIVIFASTFNEIEI",
+        "locations": [
+          {
+            "book": "5",
+            "start": 2,
+            "codes": [
+              "57",
+              "65",
+              "19",
+              "72",
+              "78",
+              "89",
+              "43",
+              "88",
+              "72",
+              "15",
+              "12",
+              "88",
+              "95",
+              "21",
+              "96",
+              "18",
+              "00",
+              "31",
+              "14",
+              "57",
+              "27",
+              "85",
+              "72",
+              "61",
+              "18",
+              "57",
+              "64",
+              "21",
+              "97",
+              "09",
+              "68",
+              "05",
+              "07",
+              "96",
+              "36",
+              "61",
+              "25",
+              "27",
+              "57",
+              "05",
+              "84",
+              "52",
+              "17",
+              "65",
+              "21",
+              "97",
+              "27",
+              "83",
+              "04",
+              "64",
+              "87",
+              "65",
+              "15",
+              "95"
+            ]
+          },
+          {
+            "book": "46",
+            "start": 71,
+            "codes": [
+              "57",
+              "65",
+              "19",
+              "72",
+              "78",
+              "89",
+              "43",
+              "88",
+              "72",
+              "15",
+              "12",
+              "88",
+              "95",
+              "21",
+              "96",
+              "18",
+              "00",
+              "31",
+              "14",
+              "57",
+              "27",
+              "85",
+              "72",
+              "61",
+              "18",
+              "57",
+              "64",
+              "21",
+              "97",
+              "09",
+              "68",
+              "05",
+              "07",
+              "96",
+              "36",
+              "61",
+              "25",
+              "27",
+              "57",
+              "05",
+              "84",
+              "52",
+              "17",
+              "65",
+              "21",
+              "97",
+              "27",
+              "83",
+              "04",
+              "64",
+              "87",
+              "06",
+              "51",
+              "59"
+            ]
+          }
+        ],
+        "mismatches": [
+          {
+            "offset": 51,
+            "symbol": "I",
+            "codes": [
+              "65",
+              "06"
+            ],
+            "kind": "other_homophone_pair"
+          },
+          {
+            "offset": 52,
+            "symbol": "E",
+            "codes": [
+              "15",
+              "51"
+            ],
+            "kind": "other_digit_reversal"
+          },
+          {
+            "offset": 53,
+            "symbol": "I",
+            "codes": [
+              "95",
+              "59"
+            ],
+            "kind": "other_digit_reversal"
+          }
+        ]
+      }
+    ],
+    "warning": "Maximal for each occurrence pair; deduplicated by(symbols,unordered code variants). Nested and overlapping runs across different pairs remain dependent."
+  },
+  "orientation_ascii_screen": {
+    "convention": "For unequal digits only, first<second bit0 elsebit1; equal-digit codes dropped. Big-endian bytes; reset per book; offsets0..7; also bit inversion. 16 predeclared candidates.",
+    "best": {
+      "offset": 5,
+      "invert": false,
+      "bytes": 581,
+      "english_ascii_fraction": 0.2977624784853701,
+      "printable_ascii_fraction": 0.39070567986230637,
+      "preview_hex": "3d30eb2c804688b1e80a243924b4467473850dd773633a7a363873d9b03a78a736263899d1ce14375dcd838d85a86e1e989959791cdc30d0e361a243ea01aeb5eb80bbb974a881161133a39c286ebb9b",
+      "preview_latin1": "=0\u00eb,\u0080F\u0088\u00b1\u00e8\n$9$\u00b4Fts\u0085\r\u00d7sc:z68s\u00d9\u00b0:x\u00a76&8\u0099\u00d1\u00ce\u00147]\u00cd\u0083\u008d\u0085\u00a8n\u001e\u0098\u0099Yy\u001c\u00dc0\u00d0\u00e3a\u00a2C\u00ea\u0001\u00ae\u00b5\u00eb\u0080\u00bb\u00b9t\u00a8\u0081\u0016\u00113\u00a3\u009c(n\u00bb\u009b"
+    },
+    "control": "Same within(book,symbol) code shuffle; full16-candidate selection repeated in99 controls.",
+    "comparison": {
+      "observed": 0.2977624784853701,
+      "null_mean": 0.2887878660270536,
+      "null_min": 0.26108374384236455,
+      "null_max": 0.3218390804597701,
+      "upper_tail_p": 0.28,
+      "lower_tail_p": 0.73
+    },
+    "limits": "Exploratory whole-corpus ASCII screen, no train/holdout claim; allowed-character rate is not English prose and not translation. Palindrome-dropping is one arbitrary convention; variants elsewhere not covered."
+  },
+  "limits": [
+    "All results conditional on imported row0 tokenization/map. No source authoring or plaintext attestation.",
+    "Overlapping windows and books are dependent. Averaging distinct contexts reduces occurrence pseudoreplication but does not make windows independent.",
+    "Entropy is descriptive uncertainty in observed code assignment, not channel capacity or message information.",
+    "Numeric sorted-cycle convention predeclared; a negative result would not exclude other permutations or phase models.",
+    "Fitted modal successors reselected for each null; only per-symbol global occurrence transitions measured, not a complete source model.",
+    "Null destroys contextual code reuse while retaining per-book homophone marginal frequencies. Significant values show contextual dependence, not hidden language.",
+    "Five statistics and both tails are exploratory with no multiplicity correction; minimum p=0.005.",
+    "Zero positions are conditional alignment choices and ambiguous in9 books. They do not independently establish authorship or a message."
+  ],
+  "verdict": "STRUCTURAL_CONTEXT_DEPENDENCE_ONLY_NO_TRANSLATION"
+}

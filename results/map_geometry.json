@@ -1,0 +1,392 @@
+{
+  "seed": 4692026,
+  "codes": 99,
+  "candidate_count": 53,
+  "features": {
+    "sum": {
+      "distinct_features": 19,
+      "majority_accuracy_all_codes": 0.4444444444444444,
+      "minimum_table_mismatches": 55,
+      "leave_one_code_out_covered": 97,
+      "leave_one_code_out_correct": 19
+    },
+    "product": {
+      "distinct_features": 37,
+      "majority_accuracy_all_codes": 0.7272727272727273,
+      "minimum_table_mismatches": 27,
+      "leave_one_code_out_covered": 93,
+      "leave_one_code_out_correct": 51
+    },
+    "xor": {
+      "distinct_features": 16,
+      "majority_accuracy_all_codes": 0.42424242424242425,
+      "minimum_table_mismatches": 57,
+      "leave_one_code_out_covered": 99,
+      "leave_one_code_out_correct": 20
+    },
+    "and": {
+      "distinct_features": 10,
+      "majority_accuracy_all_codes": 0.29292929292929293,
+      "minimum_table_mismatches": 70,
+      "leave_one_code_out_covered": 97,
+      "leave_one_code_out_correct": 9
+    },
+    "or": {
+      "distinct_features": 16,
+      "majority_accuracy_all_codes": 0.40404040404040403,
+      "minimum_table_mismatches": 59,
+      "leave_one_code_out_covered": 98,
+      "leave_one_code_out_correct": 19
+    },
+    "abs_difference": {
+      "distinct_features": 10,
+      "majority_accuracy_all_codes": 0.40404040404040403,
+      "minimum_table_mismatches": 59,
+      "leave_one_code_out_covered": 99,
+      "leave_one_code_out_correct": 34
+    },
+    "square_sum": {
+      "distinct_features": 51,
+      "majority_accuracy_all_codes": 0.9292929292929293,
+      "minimum_table_mismatches": 7,
+      "leave_one_code_out_covered": 89,
+      "leave_one_code_out_correct": 75
+    },
+    "sum_product": {
+      "distinct_features": 42,
+      "majority_accuracy_all_codes": 0.8080808080808081,
+      "minimum_table_mismatches": 19,
+      "leave_one_code_out_covered": 93,
+      "leave_one_code_out_correct": 56
+    },
+    "triangular_unordered_pair": {
+      "distinct_features": 55,
+      "majority_accuracy_all_codes": 0.98989898989899,
+      "minimum_table_mismatches": 1,
+      "leave_one_code_out_covered": 88,
+      "leave_one_code_out_correct": 86
+    },
+    "old_column_lookup_mod4": {
+      "distinct_features": 5,
+      "majority_accuracy_all_codes": 0.2222222222222222,
+      "minimum_table_mismatches": 77,
+      "leave_one_code_out_covered": 99,
+      "leave_one_code_out_correct": 8
+    },
+    "old_column_bit_bilinear_low_first_mod10": {
+      "distinct_features": 10,
+      "majority_accuracy_all_codes": 0.32323232323232326,
+      "minimum_table_mismatches": 67,
+      "leave_one_code_out_covered": 98,
+      "leave_one_code_out_correct": 18
+    },
+    "old_column_bit_bilinear_high_first_mod10": {
+      "distinct_features": 10,
+      "majority_accuracy_all_codes": 0.30303030303030304,
+      "minimum_table_mismatches": 69,
+      "leave_one_code_out_covered": 99,
+      "leave_one_code_out_correct": 13
+    },
+    "old_column_bit_bilinear_low_first_mod14": {
+      "distinct_features": 13,
+      "majority_accuracy_all_codes": 0.35353535353535354,
+      "minimum_table_mismatches": 64,
+      "leave_one_code_out_covered": 97,
+      "leave_one_code_out_correct": 18
+    },
+    "old_column_bit_bilinear_high_first_mod14": {
+      "distinct_features": 14,
+      "majority_accuracy_all_codes": 0.3434343434343434,
+      "minimum_table_mismatches": 65,
+      "leave_one_code_out_covered": 97,
+      "leave_one_code_out_correct": 16
+    },
+    "old_column_bit_bilinear_low_first_mod26": {
+      "distinct_features": 17,
+      "majority_accuracy_all_codes": 0.3838383838383838,
+      "minimum_table_mismatches": 61,
+      "leave_one_code_out_covered": 95,
+      "leave_one_code_out_correct": 17
+    },
+    "old_column_bit_bilinear_high_first_mod26": {
+      "distinct_features": 17,
+      "majority_accuracy_all_codes": 0.36363636363636365,
+      "minimum_table_mismatches": 63,
+      "leave_one_code_out_covered": 95,
+      "leave_one_code_out_correct": 16
+    },
+    "old_column_bit_bilinear_low_first_mod29": {
+      "distinct_features": 17,
+      "majority_accuracy_all_codes": 0.3838383838383838,
+      "minimum_table_mismatches": 61,
+      "leave_one_code_out_covered": 95,
+      "leave_one_code_out_correct": 17
+    },
+    "old_column_bit_bilinear_high_first_mod29": {
+      "distinct_features": 17,
+      "majority_accuracy_all_codes": 0.36363636363636365,
+      "minimum_table_mismatches": 63,
+      "leave_one_code_out_covered": 95,
+      "leave_one_code_out_correct": 16
+    },
+    "old_column_bit_bilinear_low_first_mod100": {
+      "distinct_features": 17,
+      "majority_accuracy_all_codes": 0.3838383838383838,
+      "minimum_table_mismatches": 61,
+      "leave_one_code_out_covered": 95,
+      "leave_one_code_out_correct": 17
+    },
+    "old_column_bit_bilinear_high_first_mod100": {
+      "distinct_features": 17,
+      "majority_accuracy_all_codes": 0.36363636363636365,
+      "minimum_table_mismatches": 63,
+      "leave_one_code_out_covered": 95,
+      "leave_one_code_out_correct": 16
+    },
+    "old_transpose_lookup_mod4": {
+      "distinct_features": 5,
+      "majority_accuracy_all_codes": 0.23232323232323232,
+      "minimum_table_mismatches": 76,
+      "leave_one_code_out_covered": 99,
+      "leave_one_code_out_correct": 8
+    },
+    "old_transpose_bit_bilinear_low_first_mod10": {
+      "distinct_features": 10,
+      "majority_accuracy_all_codes": 0.31313131313131315,
+      "minimum_table_mismatches": 68,
+      "leave_one_code_out_covered": 98,
+      "leave_one_code_out_correct": 18
+    },
+    "old_transpose_bit_bilinear_high_first_mod10": {
+      "distinct_features": 10,
+      "majority_accuracy_all_codes": 0.31313131313131315,
+      "minimum_table_mismatches": 68,
+      "leave_one_code_out_covered": 99,
+      "leave_one_code_out_correct": 22
+    },
+    "old_transpose_bit_bilinear_low_first_mod14": {
+      "distinct_features": 13,
+      "majority_accuracy_all_codes": 0.35353535353535354,
+      "minimum_table_mismatches": 64,
+      "leave_one_code_out_covered": 97,
+      "leave_one_code_out_correct": 19
+    },
+    "old_transpose_bit_bilinear_high_first_mod14": {
+      "distinct_features": 14,
+      "majority_accuracy_all_codes": 0.3333333333333333,
+      "minimum_table_mismatches": 66,
+      "leave_one_code_out_covered": 97,
+      "leave_one_code_out_correct": 11
+    },
+    "old_transpose_bit_bilinear_low_first_mod26": {
+      "distinct_features": 17,
+      "majority_accuracy_all_codes": 0.3838383838383838,
+      "minimum_table_mismatches": 61,
+      "leave_one_code_out_covered": 95,
+      "leave_one_code_out_correct": 18
+    },
+    "old_transpose_bit_bilinear_high_first_mod26": {
+      "distinct_features": 17,
+      "majority_accuracy_all_codes": 0.35353535353535354,
+      "minimum_table_mismatches": 64,
+      "leave_one_code_out_covered": 95,
+      "leave_one_code_out_correct": 11
+    },
+    "old_transpose_bit_bilinear_low_first_mod29": {
+      "distinct_features": 17,
+      "majority_accuracy_all_codes": 0.3838383838383838,
+      "minimum_table_mismatches": 61,
+      "leave_one_code_out_covered": 95,
+      "leave_one_code_out_correct": 18
+    },
+    "old_transpose_bit_bilinear_high_first_mod29": {
+      "distinct_features": 17,
+      "majority_accuracy_all_codes": 0.35353535353535354,
+      "minimum_table_mismatches": 64,
+      "leave_one_code_out_covered": 95,
+      "leave_one_code_out_correct": 11
+    },
+    "old_transpose_bit_bilinear_low_first_mod100": {
+      "distinct_features": 17,
+      "majority_accuracy_all_codes": 0.3838383838383838,
+      "minimum_table_mismatches": 61,
+      "leave_one_code_out_covered": 95,
+      "leave_one_code_out_correct": 18
+    },
+    "old_transpose_bit_bilinear_high_first_mod100": {
+      "distinct_features": 17,
+      "majority_accuracy_all_codes": 0.35353535353535354,
+      "minimum_table_mismatches": 64,
+      "leave_one_code_out_covered": 95,
+      "leave_one_code_out_correct": 11
+    },
+    "new_column_lookup_mod4": {
+      "distinct_features": 4,
+      "majority_accuracy_all_codes": 0.1919191919191919,
+      "minimum_table_mismatches": 80,
+      "leave_one_code_out_covered": 99,
+      "leave_one_code_out_correct": 7
+    },
+    "new_column_bit_bilinear_low_first_mod10": {
+      "distinct_features": 10,
+      "majority_accuracy_all_codes": 0.3333333333333333,
+      "minimum_table_mismatches": 66,
+      "leave_one_code_out_covered": 98,
+      "leave_one_code_out_correct": 26
+    },
+    "new_column_bit_bilinear_high_first_mod10": {
+      "distinct_features": 10,
+      "majority_accuracy_all_codes": 0.32323232323232326,
+      "minimum_table_mismatches": 67,
+      "leave_one_code_out_covered": 99,
+      "leave_one_code_out_correct": 19
+    },
+    "new_column_bit_bilinear_low_first_mod14": {
+      "distinct_features": 14,
+      "majority_accuracy_all_codes": 0.3333333333333333,
+      "minimum_table_mismatches": 66,
+      "leave_one_code_out_covered": 97,
+      "leave_one_code_out_correct": 16
+    },
+    "new_column_bit_bilinear_high_first_mod14": {
+      "distinct_features": 14,
+      "majority_accuracy_all_codes": 0.3434343434343434,
+      "minimum_table_mismatches": 65,
+      "leave_one_code_out_covered": 97,
+      "leave_one_code_out_correct": 16
+    },
+    "new_column_bit_bilinear_low_first_mod26": {
+      "distinct_features": 17,
+      "majority_accuracy_all_codes": 0.37373737373737376,
+      "minimum_table_mismatches": 62,
+      "leave_one_code_out_covered": 96,
+      "leave_one_code_out_correct": 18
+    },
+    "new_column_bit_bilinear_high_first_mod26": {
+      "distinct_features": 19,
+      "majority_accuracy_all_codes": 0.40404040404040403,
+      "minimum_table_mismatches": 59,
+      "leave_one_code_out_covered": 94,
+      "leave_one_code_out_correct": 20
+    },
+    "new_column_bit_bilinear_low_first_mod29": {
+      "distinct_features": 17,
+      "majority_accuracy_all_codes": 0.37373737373737376,
+      "minimum_table_mismatches": 62,
+      "leave_one_code_out_covered": 96,
+      "leave_one_code_out_correct": 18
+    },
+    "new_column_bit_bilinear_high_first_mod29": {
+      "distinct_features": 19,
+      "majority_accuracy_all_codes": 0.40404040404040403,
+      "minimum_table_mismatches": 59,
+      "leave_one_code_out_covered": 94,
+      "leave_one_code_out_correct": 20
+    },
+    "new_column_bit_bilinear_low_first_mod100": {
+      "distinct_features": 17,
+      "majority_accuracy_all_codes": 0.37373737373737376,
+      "minimum_table_mismatches": 62,
+      "leave_one_code_out_covered": 96,
+      "leave_one_code_out_correct": 18
+    },
+    "new_column_bit_bilinear_high_first_mod100": {
+      "distinct_features": 19,
+      "majority_accuracy_all_codes": 0.40404040404040403,
+      "minimum_table_mismatches": 59,
+      "leave_one_code_out_covered": 94,
+      "leave_one_code_out_correct": 20
+    },
+    "new_transpose_lookup_mod4": {
+      "distinct_features": 4,
+      "majority_accuracy_all_codes": 0.20202020202020202,
+      "minimum_table_mismatches": 79,
+      "leave_one_code_out_covered": 99,
+      "leave_one_code_out_correct": 7
+    },
+    "new_transpose_bit_bilinear_low_first_mod10": {
+      "distinct_features": 10,
+      "majority_accuracy_all_codes": 0.3333333333333333,
+      "minimum_table_mismatches": 66,
+      "leave_one_code_out_covered": 98,
+      "leave_one_code_out_correct": 26
+    },
+    "new_transpose_bit_bilinear_high_first_mod10": {
+      "distinct_features": 10,
+      "majority_accuracy_all_codes": 0.31313131313131315,
+      "minimum_table_mismatches": 68,
+      "leave_one_code_out_covered": 99,
+      "leave_one_code_out_correct": 21
+    },
+    "new_transpose_bit_bilinear_low_first_mod14": {
+      "distinct_features": 14,
+      "majority_accuracy_all_codes": 0.3333333333333333,
+      "minimum_table_mismatches": 66,
+      "leave_one_code_out_covered": 96,
+      "leave_one_code_out_correct": 17
+    },
+    "new_transpose_bit_bilinear_high_first_mod14": {
+      "distinct_features": 14,
+      "majority_accuracy_all_codes": 0.32323232323232326,
+      "minimum_table_mismatches": 67,
+      "leave_one_code_out_covered": 97,
+      "leave_one_code_out_correct": 15
+    },
+    "new_transpose_bit_bilinear_low_first_mod26": {
+      "distinct_features": 17,
+      "majority_accuracy_all_codes": 0.3838383838383838,
+      "minimum_table_mismatches": 61,
+      "leave_one_code_out_covered": 95,
+      "leave_one_code_out_correct": 19
+    },
+    "new_transpose_bit_bilinear_high_first_mod26": {
+      "distinct_features": 19,
+      "majority_accuracy_all_codes": 0.3838383838383838,
+      "minimum_table_mismatches": 61,
+      "leave_one_code_out_covered": 94,
+      "leave_one_code_out_correct": 19
+    },
+    "new_transpose_bit_bilinear_low_first_mod29": {
+      "distinct_features": 17,
+      "majority_accuracy_all_codes": 0.3838383838383838,
+      "minimum_table_mismatches": 61,
+      "leave_one_code_out_covered": 95,
+      "leave_one_code_out_correct": 19
+    },
+    "new_transpose_bit_bilinear_high_first_mod29": {
+      "distinct_features": 19,
+      "majority_accuracy_all_codes": 0.3838383838383838,
+      "minimum_table_mismatches": 61,
+      "leave_one_code_out_covered": 94,
+      "leave_one_code_out_correct": 19
+    },
+    "new_transpose_bit_bilinear_low_first_mod100": {
+      "distinct_features": 17,
+      "majority_accuracy_all_codes": 0.3838383838383838,
+      "minimum_table_mismatches": 61,
+      "leave_one_code_out_covered": 95,
+      "leave_one_code_out_correct": 19
+    },
+    "new_transpose_bit_bilinear_high_first_mod100": {
+      "distinct_features": 19,
+      "majority_accuracy_all_codes": 0.3838383838383838,
+      "minimum_table_mismatches": 61,
+      "leave_one_code_out_covered": 94,
+      "leave_one_code_out_correct": 19
+    }
+  },
+  "null": {
+    "kind": "Shuffle label assignments across the99 codes; preserves exact label multiplicities; reselect maximum accuracy across all features",
+    "replicates": 999,
+    "observed_best": 0.98989898989899,
+    "mean_best": 0.602794713905825,
+    "max_best": 0.6767676767676768,
+    "p_upper": 0.001
+  },
+  "interpretation": "Low mismatch counts describe structure of an imported code table, not English. Any exact feature-only map is refuted when mismatches>0. No probabilistic model or multiple-stage decoder is excluded.",
+  "limitations": [
+    "Imported code map learned from full public corpus; no external label ground truth.",
+    "Unordered-pair feature encodes a large near-identity table; it is a high-capacity symmetry test, not a short cipher algorithm.",
+    "Permutation tests here concern table-label geometry, not evidence of authorship or translation."
+  ]
+}

@@ -1,12 +1,18 @@
 # 469-tibia-investigation — investigação reproduzível
 
-**Estado: primeira rodada executada; nenhuma tradução verificável encontrada.**
+**Estado: duas rodadas executadas; nenhuma tradução verificável encontrada.**
 Não afirmamos que o corpus é indecifrável nem que qualquer solução comunitária
 foi confirmada. O alvo é um algoritmo integral que generalize para textos inéditos.
 
-Repositório público: https://github.com/felipekelemen/469-tibia-investigation
+Destino público: https://github.com/felipekelemen/469-tibia-investigation
 
-O [relatório](docs/report.md) distingue resultados demonstrados, indícios e
+**Publicação pendente:** a integração retorna HTTP403 mesmo após reconexão.
+O código e os resultados estão completos na entrega local; veja a segunda rodada.
+
+A [segunda rodada](docs/round2.md) testa Hill módulo29, homofonia com nulos de
+bigramas, o canal residual e a geometria do mapa.
+
+O [relatório da primeira rodada](docs/report.md) distingue resultados demonstrados, indícios e
 hipóteses. [Protocolo de validação](docs/validation_protocol.md).
 
 ## Reproduzir
@@ -17,6 +23,7 @@ Python3.11+ e NumPy2.3.5; os testes de corpus/matrizes/estrutura usam stdlib.
 python -m pip install -r requirements.txt
 python scripts/bootstrap_sources.py
 make experiments
+make round2
 make test
 ```
 

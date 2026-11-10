@@ -1,0 +1,1081 @@
+{
+  "seed": 290469,
+  "input_sha256": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+  "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ .?",
+  "modulus": 29,
+  "model": {
+    "type": "external English tetragrams over all29 output symbols, .01 additive smoothing; spaces/punctuation retained so punctuation cannot be dropped to improve score",
+    "source": "data/english_reference/alice.txt",
+    "source_sha256": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+    "train_first_fraction": 0.8,
+    "positive_last_fraction": 0.2,
+    "minimum_window_log10": -7.066153701843719,
+    "positive_control": -3.6714814786142482,
+    "shuffled_positive_control": -6.679835762807288
+  },
+  "conventions": {
+    "input_values": "all input values explicitly reduced mod29 after subtracting base0 or1; row0 letters A0 and mask*=28",
+    "offsets": "raw digit pairs offsets0/1 then block-symbol offsets0..3; restored codes and symbols offsets0..3; reset at each book",
+    "tail": "all incomplete blocks discarded in screening, no invented padding; positive roundtrip preserves trailing1..3 symbols unchanged, explicitly identified",
+    "scoring": "mean log10 tetragram probabilities, within books only, weighted by surviving window count; any space/period/question participates normally"
+  },
+  "split": {
+    "train_ids": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "60",
+      "61",
+      "62",
+      "63",
+      "64",
+      "65",
+      "66",
+      "67",
+      "68",
+      "69"
+    ],
+    "holdout_ids": [
+      "20",
+      "54"
+    ],
+    "criterion": "No exact shared substring of >=16 digits across book groups; shorter leakage remains possible.",
+    "holdout_codes": 61,
+    "limitation": "Two correlated held-out books, one component; only61 codes, globally imported row0 representation not discovered independently."
+  },
+  "candidate_count": 320,
+  "best_train": {
+    "score": -7.0022581621518505,
+    "candidate": {
+      "matrix": "new",
+      "orientation": "row",
+      "direction": "forward",
+      "layer": "digits1",
+      "input_base": 0,
+      "symbol_offset": 1,
+      "operator": [
+        [
+          1,
+          1,
+          1,
+          4
+        ],
+        [
+          1,
+          3,
+          1,
+          6
+        ],
+        [
+          1,
+          6,
+          4,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ]
+    }
+  },
+  "holdout_of_train_selected": -7.01562871144367,
+  "top10_train": [
+    {
+      "score": -7.0022581621518505,
+      "candidate": {
+        "matrix": "new",
+        "orientation": "row",
+        "direction": "forward",
+        "layer": "digits1",
+        "input_base": 0,
+        "symbol_offset": 1,
+        "operator": [
+          [
+            1,
+            1,
+            1,
+            4
+          ],
+          [
+            1,
+            3,
+            1,
+            6
+          ],
+          [
+            1,
+            6,
+            4,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "score": -7.00397386478717,
+      "candidate": {
+        "matrix": "old",
+        "orientation": "row",
+        "direction": "inverse",
+        "layer": "codes",
+        "input_base": 0,
+        "symbol_offset": 0,
+        "operator": [
+          [
+            26,
+            24,
+            12,
+            1
+          ],
+          [
+            27,
+            23,
+            11,
+            4
+          ],
+          [
+            22,
+            27,
+            14,
+            26
+          ],
+          [
+            12,
+            13,
+            21,
+            28
+          ]
+        ]
+      }
+    },
+    {
+      "score": -7.007423993560837,
+      "candidate": {
+        "matrix": "new",
+        "orientation": "row",
+        "direction": "inverse",
+        "layer": "digits2_offset1",
+        "input_base": 0,
+        "symbol_offset": 3,
+        "operator": [
+          [
+            12,
+            10,
+            19,
+            18
+          ],
+          [
+            4,
+            15,
+            0,
+            10
+          ],
+          [
+            3,
+            4,
+            10,
+            12
+          ],
+          [
+            10,
+            0,
+            0,
+            19
+          ]
+        ]
+      }
+    },
+    {
+      "score": -7.009799468147234,
+      "candidate": {
+        "matrix": "new",
+        "orientation": "row",
+        "direction": "forward",
+        "layer": "digits1",
+        "input_base": 0,
+        "symbol_offset": 0,
+        "operator": [
+          [
+            1,
+            1,
+            1,
+            4
+          ],
+          [
+            1,
+            3,
+            1,
+            6
+          ],
+          [
+            1,
+            6,
+            4,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "score": -7.009923461713777,
+      "candidate": {
+        "matrix": "old",
+        "orientation": "row",
+        "direction": "inverse",
+        "layer": "codes",
+        "input_base": 0,
+        "symbol_offset": 1,
+        "operator": [
+          [
+            26,
+            24,
+            12,
+            1
+          ],
+          [
+            27,
+            23,
+            11,
+            4
+          ],
+          [
+            22,
+            27,
+            14,
+            26
+          ],
+          [
+            12,
+            13,
+            21,
+            28
+          ]
+        ]
+      }
+    },
+    {
+      "score": -7.011577801191179,
+      "candidate": {
+        "matrix": "old",
+        "orientation": "row",
+        "direction": "inverse",
+        "layer": "codes",
+        "input_base": 0,
+        "symbol_offset": 3,
+        "operator": [
+          [
+            26,
+            24,
+            12,
+            1
+          ],
+          [
+            27,
+            23,
+            11,
+            4
+          ],
+          [
+            22,
+            27,
+            14,
+            26
+          ],
+          [
+            12,
+            13,
+            21,
+            28
+          ]
+        ]
+      }
+    },
+    {
+      "score": -7.011871988645151,
+      "candidate": {
+        "matrix": "new",
+        "orientation": "column",
+        "direction": "forward",
+        "layer": "digits1",
+        "input_base": 1,
+        "symbol_offset": 1,
+        "operator": [
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            3,
+            6,
+            1
+          ],
+          [
+            1,
+            1,
+            4,
+            1
+          ],
+          [
+            4,
+            6,
+            1,
+            1
+          ]
+        ]
+      }
+    },
+    {
+      "score": -7.011886566376737,
+      "candidate": {
+        "matrix": "new",
+        "orientation": "row",
+        "direction": "inverse",
+        "layer": "digits2_offset0",
+        "input_base": 0,
+        "symbol_offset": 1,
+        "operator": [
+          [
+            12,
+            10,
+            19,
+            18
+          ],
+          [
+            4,
+            15,
+            0,
+            10
+          ],
+          [
+            3,
+            4,
+            10,
+            12
+          ],
+          [
+            10,
+            0,
+            0,
+            19
+          ]
+        ]
+      }
+    },
+    {
+      "score": -7.012491978606109,
+      "candidate": {
+        "matrix": "old",
+        "orientation": "row",
+        "direction": "inverse",
+        "layer": "digits2_offset1",
+        "input_base": 0,
+        "symbol_offset": 3,
+        "operator": [
+          [
+            26,
+            24,
+            12,
+            1
+          ],
+          [
+            27,
+            23,
+            11,
+            4
+          ],
+          [
+            22,
+            27,
+            14,
+            26
+          ],
+          [
+            12,
+            13,
+            21,
+            28
+          ]
+        ]
+      }
+    },
+    {
+      "score": -7.0125193314047785,
+      "candidate": {
+        "matrix": "new",
+        "orientation": "row",
+        "direction": "inverse",
+        "layer": "symbols",
+        "input_base": 0,
+        "symbol_offset": 0,
+        "operator": [
+          [
+            12,
+            10,
+            19,
+            18
+          ],
+          [
+            4,
+            15,
+            0,
+            10
+          ],
+          [
+            3,
+            4,
+            10,
+            12
+          ],
+          [
+            10,
+            0,
+            0,
+            19
+          ]
+        ]
+      }
+    }
+  ],
+  "holdout_output": [
+    {
+      "id": "20",
+      "output": "HEHSC KTDTUUNKUSJZOR.MBPJESXOFYTUDTRJEGXNPFKKBPY.GEPXOKUU LL",
+      "symbols_used": 60
+    },
+    {
+      "id": "54",
+      "output": "NKUSJZOR.MBPJESXOFYTUDTRJEGXNPFKKBPY.GEPXOKUU LLPIDXNXKK",
+      "symbols_used": 56
+    }
+  ],
+  "controls": {
+    "type": "8-input-symbol block shuffle within books and layers, retaining within-block sequences, length and named-value counts; not a jointly consistent raw/code/symbol generative model",
+    "replicates": 39,
+    "selection": "Complete same candidate search in every control; select in train only, compare holdout score",
+    "trials": [
+      {
+        "replicate": 0,
+        "train_max": -7.013136653718254,
+        "holdout_of_train_selected": -7.0160842223345785,
+        "candidate": {
+          "matrix": "old",
+          "orientation": "column",
+          "direction": "inverse",
+          "layer": "digits2_offset0",
+          "input_base": 0,
+          "symbol_offset": 1
+        }
+      },
+      {
+        "replicate": 1,
+        "train_max": -7.012474085821165,
+        "holdout_of_train_selected": -6.797659974013232,
+        "candidate": {
+          "matrix": "old",
+          "orientation": "row",
+          "direction": "inverse",
+          "layer": "codes",
+          "input_base": 0,
+          "symbol_offset": 0
+        }
+      },
+      {
+        "replicate": 2,
+        "train_max": -7.005370718928757,
+        "holdout_of_train_selected": -7.06615370184372,
+        "candidate": {
+          "matrix": "new",
+          "orientation": "row",
+          "direction": "forward",
+          "layer": "symbols",
+          "input_base": 1,
+          "symbol_offset": 1
+        }
+      },
+      {
+        "replicate": 3,
+        "train_max": -7.007543055277126,
+        "holdout_of_train_selected": -7.06615370184372,
+        "candidate": {
+          "matrix": "new",
+          "orientation": "row",
+          "direction": "forward",
+          "layer": "codes",
+          "input_base": 0,
+          "symbol_offset": 1
+        }
+      },
+      {
+        "replicate": 4,
+        "train_max": -7.009506879687248,
+        "holdout_of_train_selected": -7.066153701843718,
+        "candidate": {
+          "matrix": "new",
+          "orientation": "row",
+          "direction": "inverse",
+          "layer": "digits2_offset0",
+          "input_base": 0,
+          "symbol_offset": 1
+        }
+      },
+      {
+        "replicate": 5,
+        "train_max": -7.010123891824093,
+        "holdout_of_train_selected": -6.9392210950746085,
+        "candidate": {
+          "matrix": "new",
+          "orientation": "row",
+          "direction": "inverse",
+          "layer": "codes",
+          "input_base": 1,
+          "symbol_offset": 0
+        }
+      },
+      {
+        "replicate": 6,
+        "train_max": -7.0082739145901085,
+        "holdout_of_train_selected": -7.066153701843719,
+        "candidate": {
+          "matrix": "new",
+          "orientation": "row",
+          "direction": "inverse",
+          "layer": "symbols",
+          "input_base": 0,
+          "symbol_offset": 0
+        }
+      },
+      {
+        "replicate": 7,
+        "train_max": -7.011894073896908,
+        "holdout_of_train_selected": -7.036187846256518,
+        "candidate": {
+          "matrix": "old",
+          "orientation": "row",
+          "direction": "forward",
+          "layer": "digits1",
+          "input_base": 0,
+          "symbol_offset": 3
+        }
+      },
+      {
+        "replicate": 8,
+        "train_max": -7.012858295305888,
+        "holdout_of_train_selected": -7.000137680558454,
+        "candidate": {
+          "matrix": "new",
+          "orientation": "row",
+          "direction": "forward",
+          "layer": "digits1",
+          "input_base": 0,
+          "symbol_offset": 1
+        }
+      },
+      {
+        "replicate": 9,
+        "train_max": -7.009553064902653,
+        "holdout_of_train_selected": -7.066153701843718,
+        "candidate": {
+          "matrix": "new",
+          "orientation": "row",
+          "direction": "inverse",
+          "layer": "digits2_offset0",
+          "input_base": 0,
+          "symbol_offset": 1
+        }
+      },
+      {
+        "replicate": 10,
+        "train_max": -7.005405986448866,
+        "holdout_of_train_selected": -6.993927048530546,
+        "candidate": {
+          "matrix": "old",
+          "orientation": "row",
+          "direction": "inverse",
+          "layer": "codes",
+          "input_base": 0,
+          "symbol_offset": 2
+        }
+      },
+      {
+        "replicate": 11,
+        "train_max": -7.00574892375537,
+        "holdout_of_train_selected": -7.022581498065835,
+        "candidate": {
+          "matrix": "old",
+          "orientation": "row",
+          "direction": "inverse",
+          "layer": "codes",
+          "input_base": 1,
+          "symbol_offset": 2
+        }
+      },
+      {
+        "replicate": 12,
+        "train_max": -7.0090092568269045,
+        "holdout_of_train_selected": -7.019953060667144,
+        "candidate": {
+          "matrix": "new",
+          "orientation": "row",
+          "direction": "forward",
+          "layer": "digits1",
+          "input_base": 0,
+          "symbol_offset": 0
+        }
+      },
+      {
+        "replicate": 13,
+        "train_max": -7.0087352766881175,
+        "holdout_of_train_selected": -7.066153701843718,
+        "candidate": {
+          "matrix": "new",
+          "orientation": "row",
+          "direction": "inverse",
+          "layer": "digits2_offset0",
+          "input_base": 0,
+          "symbol_offset": 1
+        }
+      },
+      {
+        "replicate": 14,
+        "train_max": -7.0073344213095545,
+        "holdout_of_train_selected": -7.0225814980658345,
+        "candidate": {
+          "matrix": "new",
+          "orientation": "row",
+          "direction": "inverse",
+          "layer": "symbols",
+          "input_base": 0,
+          "symbol_offset": 2
+        }
+      },
+      {
+        "replicate": 15,
+        "train_max": -7.009766715925774,
+        "holdout_of_train_selected": -7.066153701843718,
+        "candidate": {
+          "matrix": "new",
+          "orientation": "row",
+          "direction": "inverse",
+          "layer": "symbols",
+          "input_base": 0,
+          "symbol_offset": 3
+        }
+      },
+      {
+        "replicate": 16,
+        "train_max": -7.0075149011820725,
+        "holdout_of_train_selected": -6.743889001493153,
+        "candidate": {
+          "matrix": "old",
+          "orientation": "row",
+          "direction": "inverse",
+          "layer": "codes",
+          "input_base": 0,
+          "symbol_offset": 0
+        }
+      },
+      {
+        "replicate": 17,
+        "train_max": -7.008348343109438,
+        "holdout_of_train_selected": -6.7825511626704005,
+        "candidate": {
+          "matrix": "old",
+          "orientation": "row",
+          "direction": "inverse",
+          "layer": "codes",
+          "input_base": 0,
+          "symbol_offset": 0
+        }
+      },
+      {
+        "replicate": 18,
+        "train_max": -7.0121188551849425,
+        "holdout_of_train_selected": -6.878973914031599,
+        "candidate": {
+          "matrix": "old",
+          "orientation": "row",
+          "direction": "inverse",
+          "layer": "codes",
+          "input_base": 0,
+          "symbol_offset": 0
+        }
+      },
+      {
+        "replicate": 19,
+        "train_max": -7.01285467613232,
+        "holdout_of_train_selected": -6.982060215560284,
+        "candidate": {
+          "matrix": "old",
+          "orientation": "column",
+          "direction": "forward",
+          "layer": "digits1",
+          "input_base": 0,
+          "symbol_offset": 3
+        }
+      },
+      {
+        "replicate": 20,
+        "train_max": -7.007042367710966,
+        "holdout_of_train_selected": -7.066153701843718,
+        "candidate": {
+          "matrix": "new",
+          "orientation": "row",
+          "direction": "inverse",
+          "layer": "digits2_offset0",
+          "input_base": 0,
+          "symbol_offset": 3
+        }
+      },
+      {
+        "replicate": 21,
+        "train_max": -7.009804038819803,
+        "holdout_of_train_selected": -6.788085879034064,
+        "candidate": {
+          "matrix": "old",
+          "orientation": "row",
+          "direction": "inverse",
+          "layer": "codes",
+          "input_base": 0,
+          "symbol_offset": 0
+        }
+      },
+      {
+        "replicate": 22,
+        "train_max": -7.007291340201321,
+        "holdout_of_train_selected": -7.012156947326376,
+        "candidate": {
+          "matrix": "new",
+          "orientation": "row",
+          "direction": "inverse",
+          "layer": "digits2_offset0",
+          "input_base": 0,
+          "symbol_offset": 0
+        }
+      },
+      {
+        "replicate": 23,
+        "train_max": -7.008958295651193,
+        "holdout_of_train_selected": -6.98518940175184,
+        "candidate": {
+          "matrix": "old",
+          "orientation": "row",
+          "direction": "forward",
+          "layer": "symbols",
+          "input_base": 0,
+          "symbol_offset": 2
+        }
+      },
+      {
+        "replicate": 24,
+        "train_max": -7.010681152991247,
+        "holdout_of_train_selected": -7.066153701843718,
+        "candidate": {
+          "matrix": "old",
+          "orientation": "row",
+          "direction": "forward",
+          "layer": "digits2_offset0",
+          "input_base": 1,
+          "symbol_offset": 2
+        }
+      },
+      {
+        "replicate": 25,
+        "train_max": -7.011309611554598,
+        "holdout_of_train_selected": -7.06615370184372,
+        "candidate": {
+          "matrix": "new",
+          "orientation": "row",
+          "direction": "forward",
+          "layer": "digits1",
+          "input_base": 0,
+          "symbol_offset": 0
+        }
+      },
+      {
+        "replicate": 26,
+        "train_max": -7.009969705254123,
+        "holdout_of_train_selected": -6.980830262095519,
+        "candidate": {
+          "matrix": "new",
+          "orientation": "row",
+          "direction": "inverse",
+          "layer": "symbols",
+          "input_base": 0,
+          "symbol_offset": 0
+        }
+      },
+      {
+        "replicate": 27,
+        "train_max": -7.010565250937406,
+        "holdout_of_train_selected": -7.066153701843718,
+        "candidate": {
+          "matrix": "new",
+          "orientation": "row",
+          "direction": "inverse",
+          "layer": "digits2_offset1",
+          "input_base": 0,
+          "symbol_offset": 2
+        }
+      },
+      {
+        "replicate": 28,
+        "train_max": -7.007799275330485,
+        "holdout_of_train_selected": -6.709783199407854,
+        "candidate": {
+          "matrix": "old",
+          "orientation": "row",
+          "direction": "inverse",
+          "layer": "codes",
+          "input_base": 0,
+          "symbol_offset": 0
+        }
+      },
+      {
+        "replicate": 29,
+        "train_max": -7.008575671660336,
+        "holdout_of_train_selected": -6.752434978248975,
+        "candidate": {
+          "matrix": "old",
+          "orientation": "row",
+          "direction": "inverse",
+          "layer": "codes",
+          "input_base": 0,
+          "symbol_offset": 0
+        }
+      },
+      {
+        "replicate": 30,
+        "train_max": -7.003551009884335,
+        "holdout_of_train_selected": -6.749453596742488,
+        "candidate": {
+          "matrix": "old",
+          "orientation": "row",
+          "direction": "inverse",
+          "layer": "codes",
+          "input_base": 0,
+          "symbol_offset": 0
+        }
+      },
+      {
+        "replicate": 31,
+        "train_max": -7.012566660700363,
+        "holdout_of_train_selected": -6.878973914031599,
+        "candidate": {
+          "matrix": "old",
+          "orientation": "row",
+          "direction": "inverse",
+          "layer": "codes",
+          "input_base": 0,
+          "symbol_offset": 0
+        }
+      },
+      {
+        "replicate": 32,
+        "train_max": -7.009469897593597,
+        "holdout_of_train_selected": -7.066153701843718,
+        "candidate": {
+          "matrix": "old",
+          "orientation": "row",
+          "direction": "inverse",
+          "layer": "codes",
+          "input_base": 0,
+          "symbol_offset": 3
+        }
+      },
+      {
+        "replicate": 33,
+        "train_max": -7.0093693775691195,
+        "holdout_of_train_selected": -6.836322135190479,
+        "candidate": {
+          "matrix": "old",
+          "orientation": "row",
+          "direction": "inverse",
+          "layer": "codes",
+          "input_base": 0,
+          "symbol_offset": 0
+        }
+      },
+      {
+        "replicate": 34,
+        "train_max": -7.006662837518158,
+        "holdout_of_train_selected": -7.06615370184372,
+        "candidate": {
+          "matrix": "new",
+          "orientation": "column",
+          "direction": "forward",
+          "layer": "digits2_offset0",
+          "input_base": 0,
+          "symbol_offset": 0
+        }
+      },
+      {
+        "replicate": 35,
+        "train_max": -7.012089929128414,
+        "holdout_of_train_selected": -7.066153701843718,
+        "candidate": {
+          "matrix": "new",
+          "orientation": "column",
+          "direction": "inverse",
+          "layer": "symbols",
+          "input_base": 1,
+          "symbol_offset": 3
+        }
+      },
+      {
+        "replicate": 36,
+        "train_max": -7.012926256280488,
+        "holdout_of_train_selected": -6.9392210950746085,
+        "candidate": {
+          "matrix": "new",
+          "orientation": "row",
+          "direction": "inverse",
+          "layer": "codes",
+          "input_base": 1,
+          "symbol_offset": 0
+        }
+      },
+      {
+        "replicate": 37,
+        "train_max": -7.006623051427086,
+        "holdout_of_train_selected": -7.066153701843719,
+        "candidate": {
+          "matrix": "old",
+          "orientation": "row",
+          "direction": "inverse",
+          "layer": "symbols",
+          "input_base": 1,
+          "symbol_offset": 0
+        }
+      },
+      {
+        "replicate": 38,
+        "train_max": -7.008512177902059,
+        "holdout_of_train_selected": -7.066153701843718,
+        "candidate": {
+          "matrix": "old",
+          "orientation": "row",
+          "direction": "forward",
+          "layer": "symbols",
+          "input_base": 0,
+          "symbol_offset": 2
+        }
+      }
+    ],
+    "upper_tail_p": 0.475
+  },
+  "positive_cipher_roundtrips": [
+    {
+      "matrix": "old",
+      "orientation": "column",
+      "characters": 257,
+      "encrypted_blocks": 64,
+      "unencrypted_tail": 1,
+      "exact_roundtrip": true
+    },
+    {
+      "matrix": "old",
+      "orientation": "row",
+      "characters": 257,
+      "encrypted_blocks": 64,
+      "unencrypted_tail": 1,
+      "exact_roundtrip": true
+    },
+    {
+      "matrix": "new",
+      "orientation": "column",
+      "characters": 257,
+      "encrypted_blocks": 64,
+      "unencrypted_tail": 1,
+      "exact_roundtrip": true
+    },
+    {
+      "matrix": "new",
+      "orientation": "row",
+      "characters": 257,
+      "encrypted_blocks": 64,
+      "unencrypted_tail": 1,
+      "exact_roundtrip": true
+    }
+  ],
+  "status": "NO_VERIFIED_TRANSLATION",
+  "limits": [
+    "Finite family only, no exhaustive rejection of matrices or multilayer ciphers.",
+    "29-symbol alphabet and row0 mask assignment are explicit hypotheses, not established meanings.",
+    "Scorer calibrated on literary English; coherent game English and official paired plaintext remain required.",
+    "Holdout tiny and correlated; p is descriptive of local-language score, never probability of translation.",
+    "Block shuffling retains local motifs but neither all long repeats nor exact bigram counts."
+  ]
+}

@@ -1,0 +1,41 @@
+test_holdout_no_shared_16_digits (test_ciphers.CipherTests.test_holdout_no_shared_16_digits) ... ok
+test_ragged_columnar_known_vector (test_ciphers.CipherTests.test_ragged_columnar_known_vector) ... ok
+test_scorer_positive_control (test_ciphers.CipherTests.test_scorer_positive_control) ... ok
+test_vigenere_known_vector (test_ciphers.CipherTests.test_vigenere_known_vector) ... ok
+test_alignment_rejects_nonzero_deletion (test_corpus.CorpusTests.test_alignment_rejects_nonzero_deletion) ... ok
+test_components_include_transitive_reuse (test_corpus.CorpusTests.test_components_include_transitive_reuse) ... ok
+test_fragment_mask_removes_shared_context (test_corpus.CorpusTests.test_fragment_mask_removes_shared_context) ... ok
+test_fragment_split_has_no_shared_12grams (test_corpus.CorpusTests.test_fragment_split_has_no_shared_12grams) ... ok
+test_reported_book_split_has_no_shared_16grams (test_corpus.CorpusTests.test_reported_book_split_has_no_shared_16grams) ... ok
+test_zero_omission_is_lossless_for_every_book (test_corpus.CorpusTests.test_zero_omission_is_lossless_for_every_book) ... ok
+test_explicit_grid (test_hill29.Hill29Tests.test_explicit_grid) ... ok
+test_frozen_model_sensitive_to_english (test_hill29.Hill29Tests.test_frozen_model_sensitive_to_english) ... ok
+test_no_silent_padding_in_screen (test_hill29.Hill29Tests.test_no_silent_padding_in_screen) ... ok
+test_punctuation_and_ragged_roundtrip (test_hill29.Hill29Tests.test_punctuation_and_ragged_roundtrip) ... ok
+test_bigram_null_records_preserve_original (test_homophonic_controls.HomophonicControlsTests.test_bigram_null_records_preserve_original) ... ok
+test_euler_can_randomize_branching_graph (test_homophonic_controls.HomophonicControlsTests.test_euler_can_randomize_branching_graph) ... ok
+test_euler_counts_and_endpoints (test_homophonic_controls.HomophonicControlsTests.test_euler_counts_and_endpoints) ... ok
+test_synthetic_known_key_exact_recovery (test_homophonic_controls.HomophonicControlsTests.test_synthetic_known_key_exact_recovery) ... ok
+test_bilinear_basis_vectors_and_orientation (test_map_geometry.GeometryTests.test_bilinear_basis_vectors_and_orientation) ... ok
+test_conflict_requires_error (test_map_geometry.GeometryTests.test_conflict_requires_error) ... ok
+test_consistent_feature_can_recover_labels (test_map_geometry.GeometryTests.test_consistent_feature_can_recover_labels) ... ok
+test_composite_modulus_roundtrip (test_matrix.MatrixTests.test_composite_modulus_roundtrip) ... ok
+test_hill_known_vector (test_matrix.MatrixTests.test_hill_known_vector) ... ok
+test_no_implicit_padding (test_matrix.MatrixTests.test_no_implicit_padding) ... ok
+test_noninvertibility (test_matrix.MatrixTests.test_noninvertibility) ... ok
+test_context_variation_detected (test_residual_channel.ResidualControls.test_context_variation_detected) ... ok
+test_cross_book_only (test_residual_channel.ResidualControls.test_cross_book_only) ... ok
+test_entropy (test_residual_channel.ResidualControls.test_entropy) ... ok
+test_maximal_match_deduplicates_window_shifts (test_residual_channel.ResidualControls.test_maximal_match_deduplicates_window_shifts) ... ok
+test_mismatch_classes (test_residual_channel.ResidualControls.test_mismatch_classes) ... ok
+test_orientation_known_ascii (test_residual_channel.ResidualControls.test_orientation_known_ascii) ... ok
+test_rotation_positive_vs_iid (test_residual_channel.ResidualControls.test_rotation_positive_vs_iid) ... ok
+test_shuffle_conserves_conditional_marginals (test_residual_channel.ResidualControls.test_shuffle_conserves_conditional_marginals) ... ok
+test_lcg_positive_and_perturbation (test_structural.GeneratorControls.test_lcg_positive_and_perturbation) ... ok
+test_overlap_counts (test_structural.GeneratorControls.test_overlap_counts) ... ok
+test_second_order_positive (test_structural.GeneratorControls.test_second_order_positive) ... ok
+
+----------------------------------------------------------------------
+Ran 36 tests in 0.133s
+
+OK

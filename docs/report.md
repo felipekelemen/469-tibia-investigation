@@ -107,3 +107,8 @@ foi tentada por GraphQL e REST e recusada por permissão da integração
 (CreateRepository/HTTP403). Não há repositório remoto criado ou publicação
 comprovada. A publicação depende de um repositório vazio acessível ou de
 credencial com a permissão necessária, configurada fora do chat.
+
+
+Atualização: a [segunda rodada executada](round2.md) testa as prioridades
+matemáticas e controles mais fortes; também registra o novo destino remoto
+e o bloqueio de escrita verificado após reconexão.

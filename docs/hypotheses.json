@@ -89,5 +89,33 @@
     "status": "not_established",
     "evidence": "sem traduções paralelas atestadas; ausência de strings não prova sistemas distintos",
     "artifact": "docs/history.md"
+  },
+  {
+    "id": "H14",
+    "hypothesis": "Hill com caveiras em modulo29 nas convencoes enumeradas",
+    "status": "no_translation_found",
+    "evidence": "320 variantes;39 controles block8;holdout p=.475",
+    "artifact": "results/hill29.json"
+  },
+  {
+    "id": "H15",
+    "hypothesis": "Homofonia com vantagem sobre controle que preserva bigramas",
+    "status": "not_supported_with_insufficient_power",
+    "evidence": "19 controles Euler e19 shuffle com reotimizacao igual;holdout p=.45/.20;positivo somente42.6% letras",
+    "artifact": "results/homophonic_controls.json"
+  },
+  {
+    "id": "H16",
+    "hypothesis": "Escolha de homofones independente do contexto condicionado ao simbolo/livro",
+    "status": "rejected_for_measured_null",
+    "evidence": "199 nulos preservando marginais;forte acordo em fragmentos;nao identifica mecanismo ou mensagem",
+    "artifact": "results/residual_channel.json"
+  },
+  {
+    "id": "H17",
+    "hypothesis": "Funcao aritmetica predefinida dos dois digitos explica exatamente a tabela row0",
+    "status": "rejected_for_tested_features",
+    "evidence": "53 funcoes;nenhuma exata;melhor funcao derivada das caveiras deixa59 erros minimos",
+    "artifact": "results/map_geometry.json"
   }
 ]
