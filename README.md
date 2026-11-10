@@ -1,8 +1,10 @@
-# Tibia 469 — investigação reproduzível
+# 469-tibia-investigation — investigação reproduzível
 
 **Estado: primeira rodada executada; nenhuma tradução verificável encontrada.**
 Não afirmamos que o corpus é indecifrável nem que qualquer solução comunitária
 foi confirmada. O alvo é um algoritmo integral que generalize para textos inéditos.
+
+Repositório público: https://github.com/felipekelemen/469-tibia-investigation
 
 O [relatório](docs/report.md) distingue resultados demonstrados, indícios e
 hipóteses. [Protocolo de validação](docs/validation_protocol.md).
