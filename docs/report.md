@@ -112,3 +112,7 @@ credencial com a permissão necessária, configurada fora do chat.
 Atualização: a [segunda rodada executada](round2.md) testa as prioridades
 matemáticas e controles mais fortes; também registra o novo destino remoto
 e o bloqueio de escrita verificado após reconexão.
+
+Atualização de publicação: após nova reconexão, as duas rodadas foram publicadas
+em https://github.com/felipekelemen/469-tibia-investigation, branch `main`,
+preservando o histórico inicial. Os registros de HTTP403 acima são históricos.

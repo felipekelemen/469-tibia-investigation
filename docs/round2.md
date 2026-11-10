@@ -94,7 +94,12 @@ longos e prever ocorrências externas, em vez de procurar palavras curtas.
 Novos fragmentos e pares número/inglês atestados continuam sendo a melhor
 forma de reduzir a ambiguidade e obter validação verdadeiramente independente.
 
-## Publicação: bloqueio verificado após reconexão
+## Histórico da publicação: bloqueio superado
+
+**Atualização:** após nova reconexão com acesso a todos os repositórios, o push
+foi bem-sucedido. O commit científico `b2936ab` chegou à branch `main`,
+preservando o commit inicial do usuário. O relato abaixo registra as tentativas
+anteriores e não descreve mais o estado atual.
 
 O destino informado pelo usuário é
 https://github.com/felipekelemen/469-tibia-investigation . O commit inicial

@@ -6,8 +6,8 @@ foi confirmada. O alvo é um algoritmo integral que generalize para textos inéd
 
 Destino público: https://github.com/felipekelemen/469-tibia-investigation
 
-**Publicação pendente:** a integração retorna HTTP403 mesmo após reconexão.
-O código e os resultados estão completos na entrega local; veja a segunda rodada.
+**Publicado:** corpus normalizado, código, testes e resultados das duas rodadas
+disponíveis neste repositório. O acesso de escrita foi confirmado após nova reconexão.
 
 A [segunda rodada](docs/round2.md) testa Hill módulo29, homofonia com nulos de
 bigramas, o canal residual e a geometria do mapa.
