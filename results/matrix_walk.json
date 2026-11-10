@@ -1,0 +1,965 @@
+{
+  "protocol": {
+    "id": "P07_MATRIX_WALK_V1",
+    "status": "frozen_before_current_scores; exploratory on previously exposed public corpus",
+    "hypothesis": "Skull counts rank positions in a16-symbol block; D4 scan breaks ties deterministically",
+    "matrices": [
+      "old",
+      "new"
+    ],
+    "geometries": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "rank_direction": [
+      "ascending",
+      "descending"
+    ],
+    "transform_direction": [
+      "forward",
+      "inverse"
+    ],
+    "representations": [
+      "symbols_A0_mask26_mod26",
+      "codes_mod26",
+      "codes_minus1_mod26"
+    ],
+    "incomplete_tail": "unchanged",
+    "reset": "each_book",
+    "selection": "discovery68 only; source split from normalized_splits.json",
+    "scorer": "existing frozen Alice log10 tetragrams; no name or lore-word bonus",
+    "nulls": {
+      "block8": 39,
+      "symbol_conditional_homophones": 39
+    },
+    "second_null_scope": "Preserves every book symbol string and counts per code per(book,symbol), tests whether numerical code choices add evidence; symbol-layer candidates are identical by construction",
+    "positive_controls": "external English known block16 permutations, encryption+blind family search; scorer not fitted on positive test text",
+    "parameters_are_not_modified_after_scores": true,
+    "acceptance": "No translation accepted from scoring alone; no general matrix-family rejection; no date/name relation proven",
+    "historical_support": "unverified; matrix-as-order is explicit conjecture, not lore-attested"
+  },
+  "protocol_sha256": "3ef211db5f7d62303753a90fde2c567f259bc67580a49d0efc05054e95a0dd64",
+  "seed": 7346926,
+  "candidate_count": 192,
+  "observed": {
+    "config": [
+      "new",
+      6,
+      false,
+      false,
+      "symbols"
+    ],
+    "train_score": -6.345664987233047,
+    "holdout_score": -6.595400493321551
+  },
+  "controls": {
+    "block8": {
+      "trials": [
+        {
+          "config": [
+            "new",
+            5,
+            true,
+            true,
+            "symbols"
+          ],
+          "train_score": -6.351928525656447,
+          "holdout_score": -6.295616315278313
+        },
+        {
+          "config": [
+            "old",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.358610008497602,
+          "holdout_score": -6.515840597504495
+        },
+        {
+          "config": [
+            "old",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.35185275168899,
+          "holdout_score": -6.437821150748668
+        },
+        {
+          "config": [
+            "new",
+            6,
+            true,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.344217374398613,
+          "holdout_score": -6.6907946289658184
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345294297794587,
+          "holdout_score": -6.699273507978792
+        },
+        {
+          "config": [
+            "old",
+            6,
+            true,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.348404441361638,
+          "holdout_score": -6.4165919806168334
+        },
+        {
+          "config": [
+            "old",
+            4,
+            false,
+            true,
+            "symbols"
+          ],
+          "train_score": -6.354912609478759,
+          "holdout_score": -6.496535040396122
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.34751322289787,
+          "holdout_score": -6.553291289369066
+        },
+        {
+          "config": [
+            "old",
+            6,
+            true,
+            true,
+            "symbols"
+          ],
+          "train_score": -6.3414565117875545,
+          "holdout_score": -6.3344943461401115
+        },
+        {
+          "config": [
+            "new",
+            0,
+            false,
+            true,
+            "symbols"
+          ],
+          "train_score": -6.347237272342732,
+          "holdout_score": -6.614910822787893
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.364565296312039,
+          "holdout_score": -6.622987149539827
+        },
+        {
+          "config": [
+            "new",
+            6,
+            true,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.359387008084027,
+          "holdout_score": -6.6983108520857275
+        },
+        {
+          "config": [
+            "old",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.349159352526339,
+          "holdout_score": -6.470500469930469
+        },
+        {
+          "config": [
+            "old",
+            6,
+            true,
+            true,
+            "symbols"
+          ],
+          "train_score": -6.337814602333927,
+          "holdout_score": -6.6928463324049465
+        },
+        {
+          "config": [
+            "old",
+            6,
+            true,
+            true,
+            "symbols"
+          ],
+          "train_score": -6.351660275656527,
+          "holdout_score": -6.488120046009398
+        },
+        {
+          "config": [
+            "old",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.344643266002374,
+          "holdout_score": -6.577301135734565
+        },
+        {
+          "config": [
+            "old",
+            4,
+            true,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.357077868695206,
+          "holdout_score": -6.490270019997802
+        },
+        {
+          "config": [
+            "old",
+            6,
+            true,
+            true,
+            "symbols"
+          ],
+          "train_score": -6.350867378989278,
+          "holdout_score": -6.398079296515932
+        },
+        {
+          "config": [
+            "old",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.353730188152502,
+          "holdout_score": -6.58151334439756
+        },
+        {
+          "config": [
+            "new",
+            7,
+            false,
+            true,
+            "symbols"
+          ],
+          "train_score": -6.369327669542058,
+          "holdout_score": -6.390681167482057
+        },
+        {
+          "config": [
+            "old",
+            6,
+            true,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.3560222678436915,
+          "holdout_score": -6.51302757824063
+        },
+        {
+          "config": [
+            "old",
+            1,
+            true,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.353212895229646,
+          "holdout_score": -6.54949990069108
+        },
+        {
+          "config": [
+            "old",
+            6,
+            true,
+            true,
+            "symbols"
+          ],
+          "train_score": -6.3604674887743045,
+          "holdout_score": -6.503645087820599
+        },
+        {
+          "config": [
+            "new",
+            5,
+            true,
+            true,
+            "symbols"
+          ],
+          "train_score": -6.347635037316433,
+          "holdout_score": -6.799341328635286
+        },
+        {
+          "config": [
+            "new",
+            5,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.354034664448817,
+          "holdout_score": -6.543871477374838
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.342973267242027,
+          "holdout_score": -6.730951830227277
+        },
+        {
+          "config": [
+            "old",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.335375165678269,
+          "holdout_score": -6.48748484481276
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            true,
+            "symbols"
+          ],
+          "train_score": -6.362602049122183,
+          "holdout_score": -6.575089627798965
+        },
+        {
+          "config": [
+            "old",
+            6,
+            true,
+            true,
+            "symbols"
+          ],
+          "train_score": -6.36102689037754,
+          "holdout_score": -6.547077505220754
+        },
+        {
+          "config": [
+            "old",
+            6,
+            false,
+            true,
+            "symbols"
+          ],
+          "train_score": -6.3657934291990035,
+          "holdout_score": -6.589212481864181
+        },
+        {
+          "config": [
+            "old",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.346522814642655,
+          "holdout_score": -6.483163492074823
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.363516084993007,
+          "holdout_score": -6.660536913239972
+        },
+        {
+          "config": [
+            "new",
+            4,
+            true,
+            true,
+            "symbols"
+          ],
+          "train_score": -6.359767513174672,
+          "holdout_score": -6.844432233878284
+        },
+        {
+          "config": [
+            "new",
+            0,
+            false,
+            true,
+            "symbols"
+          ],
+          "train_score": -6.356899570229734,
+          "holdout_score": -6.576593622019972
+        },
+        {
+          "config": [
+            "old",
+            0,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.351412053056595,
+          "holdout_score": -6.466528758492993
+        },
+        {
+          "config": [
+            "new",
+            5,
+            true,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.350829123801595,
+          "holdout_score": -6.59525012901122
+        },
+        {
+          "config": [
+            "old",
+            2,
+            true,
+            true,
+            "symbols"
+          ],
+          "train_score": -6.348310085454638,
+          "holdout_score": -6.372618194388489
+        },
+        {
+          "config": [
+            "old",
+            1,
+            true,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.36113637243941,
+          "holdout_score": -6.533384250043559
+        },
+        {
+          "config": [
+            "old",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.365727522738858,
+          "holdout_score": -6.351783993959049
+        }
+      ],
+      "holdout_upper_tail_p": 0.75
+    },
+    "symbol_conditional_homophones": {
+      "trials": [
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        },
+        {
+          "config": [
+            "new",
+            6,
+            false,
+            false,
+            "symbols"
+          ],
+          "train_score": -6.345664987233047,
+          "holdout_score": -6.595400493321551
+        }
+      ],
+      "holdout_upper_tail_p": 1.0
+    }
+  },
+  "positive": {
+    "config": [
+      "old",
+      3,
+      false,
+      false,
+      "symbols"
+    ],
+    "train_score": -4.1634373584447015,
+    "holdout_score": -4.078547468703493,
+    "holdout_characters": 1000,
+    "character_accuracy": 1.0,
+    "known_key_roundtrip": true,
+    "warning": "Controlled family-member positive only, no arbitrary-key transposition power claim."
+  },
+  "literal_holdout": [
+    {
+      "id": "20",
+      "output": "IFTFTBLNEIENFNEBVNETEIIAIFANENII"
+    },
+    {
+      "id": "54",
+      "output": "INIFINEFLTFTFAAFIIETNEEIVNALN"
+    }
+  ],
+  "runtime_seconds": 15.227232865000587,
+  "verdict": "NO_VERIFIED_TRANSLATION",
+  "limits": [
+    "Existing public corpus and tiny dependent holdout are already exposed; no prospective confirmation.",
+    "A ranking of skull counts as positions is a conjecture, not an attested key.",
+    "Conditional null leaves every symbols representation unchanged, so not all candidate families have variation in that null.",
+    "192 finite variants only; mod26 projection loses code information; symbol labels carry no established meaning.",
+    "One synthetic family positive is not the homophonic P02 qualification gate."
+  ]
+}

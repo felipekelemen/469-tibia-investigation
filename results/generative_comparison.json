@@ -1,0 +1,3201 @@
+{
+  "seed": 304692026,
+  "input_sha256": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+  "model_conventions": {
+    "copy": "Dictionary fit on discovery only; candidates repeated>=2 at lengths4,8,12,16,24,32; greedy nonoverlap coverage max128; dictionarysize selected in0,1,2,4,8,16,32,64,128 by discovery totalbits only;4bit selector charged; exactDP parsing; flag+fixedwidth tokens; gamma lengths; dictionary charged.",
+    "markov1": "Discovery start/transition counts serialized with gamma(count+1), alpha=.5 predictive probabilities; ideal arithmetic length+2bits perbook; counts frozen forholdout.",
+    "uniform": "Fixedwidthceil(log2K) literals+gamma booklength; alphabet description common/omitted;2bit family selector.",
+    "bit_measurement": "Explicit ideal two-part description estimates, not measured gzip bytes. Fixedwidth copy tokens have exact integer lengths; Markov arithmetic contribution is fractional with stated overhead."
+  },
+  "split": {
+    "train_ids": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "60",
+      "61",
+      "62",
+      "63",
+      "64",
+      "65",
+      "66",
+      "67",
+      "68",
+      "69"
+    ],
+    "reserved_ids": [
+      "20",
+      "54"
+    ],
+    "prior_exposure": true
+  },
+  "comparisons": {
+    "digits": {
+      "alphabet_size": 10,
+      "dictionary_entries": 128,
+      "dictionary_bits": 5469,
+      "dictionary_size_selected": 128,
+      "discovery_dictionary_size_trials": [
+        {
+          "max_entries": 0,
+          "dictionary_plus_discovery_bits": 56722
+        },
+        {
+          "max_entries": 1,
+          "dictionary_plus_discovery_bits": 54637
+        },
+        {
+          "max_entries": 2,
+          "dictionary_plus_discovery_bits": 52736
+        },
+        {
+          "max_entries": 4,
+          "dictionary_plus_discovery_bits": 49370
+        },
+        {
+          "max_entries": 8,
+          "dictionary_plus_discovery_bits": 43742
+        },
+        {
+          "max_entries": 16,
+          "dictionary_plus_discovery_bits": 35648
+        },
+        {
+          "max_entries": 32,
+          "dictionary_plus_discovery_bits": 26452
+        },
+        {
+          "max_entries": 64,
+          "dictionary_plus_discovery_bits": 21596
+        },
+        {
+          "max_entries": 128,
+          "dictionary_plus_discovery_bits": 20918
+        }
+      ],
+      "dictionary": [
+        "04215956151353478019288952160199",
+        "21765219727830464876515956461141",
+        "19118651281911800356114726116467",
+        "114519199118003646889521",
+        "11451451948561145190830457651228",
+        "67046726114580036904220464845191",
+        "00311457278572611857642197096805",
+        "18895219771288952195945765523646",
+        "345158604215857744545190",
+        "00140152551751911801894452295345",
+        "27830404215857659434421595604218",
+        "97858576519729219727816705467118",
+        "36467243",
+        "11431288950036249684756019965855",
+        "090889524348561121648006",
+        "121128883046467972783160",
+        "788943887215128895219618",
+        "0311806571918943",
+        "5372434856251081",
+        "4519",
+        "211911800357",
+        "6366125275705845",
+        "7090967347092012",
+        "177350843485",
+        "8899751121615180",
+        "01996847709088952197278167051216",
+        "3646",
+        "5611",
+        "673405792827",
+        "27894315",
+        "1800",
+        "5219",
+        "5727857261185764",
+        "2889",
+        "5765",
+        "27446472",
+        "519118018944",
+        "51353478",
+        "86756356",
+        "121648006586",
+        "464834943435",
+        "08124348",
+        "5345",
+        "54600361",
+        "0421",
+        "2611",
+        "4612",
+        "6019",
+        "7278",
+        "9118",
+        "01525517",
+        "24968475",
+        "4646",
+        "125275705845",
+        "6499",
+        "35084348",
+        "84350819",
+        "2847",
+        "5719",
+        "5956",
+        "2127",
+        "6114",
+        "8997",
+        "00362151",
+        "59537243",
+        "91103651",
+        "1586",
+        "1670",
+        "1972",
+        "4600",
+        "4856",
+        "7563",
+        "576421970968",
+        "0464",
+        "1216",
+        "1991",
+        "5128",
+        "8577",
+        "8943",
+        "1427",
+        "1601",
+        "1978",
+        "2747",
+        "3435",
+        "3645",
+        "4521",
+        "5065",
+        "5229",
+        "7118",
+        "8302",
+        "9434",
+        "9735",
+        "9911",
+        "09088952",
+        "11519141",
+        "46190186",
+        "53478019",
+        "66125275",
+        "0014",
+        "0036",
+        "0450",
+        "1211",
+        "4348",
+        "4458",
+        "5458",
+        "5767",
+        "6889",
+        "8550",
+        "8872",
+        "0189",
+        "0365",
+        "0579",
+        "0830",
+        "1188",
+        "1228",
+        "2197",
+        "2510",
+        "2827",
+        "2888",
+        "4504",
+        "4648",
+        "4671",
+        "4672",
+        "4726",
+        "6847",
+        "7211",
+        "7271",
+        "9967"
+      ],
+      "markov_model_bits": 1319,
+      "discovery": {
+        "symbols": 11143,
+        "copy_data_bits": 15453,
+        "uniform_data_bits": 45578,
+        "markov_data_bits": 33670.30795735785,
+        "reference_tokens": 1024,
+        "reference_symbol_fraction": 0.8877322085614286
+      },
+      "reserved": {
+        "symbols": 120,
+        "copy_data_bits": 372,
+        "uniform_data_bits": 504,
+        "markov_data_bits": 395.1378084921819,
+        "reference_tokens": 16,
+        "reference_symbol_fraction": 0.6333333333333333
+      },
+      "total_two_part_bits": {
+        "copy": 21296,
+        "markov1": 35386.44576585003,
+        "uniform": 46084
+      },
+      "copy_minus_markov_bits_per_symbol": -1.2510384236748675
+    },
+    "symbols": {
+      "alphabet_size": 14,
+      "dictionary_entries": 120,
+      "dictionary_bits": 4905,
+      "dictionary_size_selected": 128,
+      "discovery_dictionary_size_trials": [
+        {
+          "max_entries": 0,
+          "dictionary_plus_discovery_bits": 29227
+        },
+        {
+          "max_entries": 1,
+          "dictionary_plus_discovery_bits": 27937
+        },
+        {
+          "max_entries": 2,
+          "dictionary_plus_discovery_bits": 26753
+        },
+        {
+          "max_entries": 4,
+          "dictionary_plus_discovery_bits": 24855
+        },
+        {
+          "max_entries": 8,
+          "dictionary_plus_discovery_bits": 22173
+        },
+        {
+          "max_entries": 16,
+          "dictionary_plus_discovery_bits": 19170
+        },
+        {
+          "max_entries": 32,
+          "dictionary_plus_discovery_bits": 16319
+        },
+        {
+          "max_entries": 64,
+          "dictionary_plus_discovery_bits": 14522
+        },
+        {
+          "max_entries": 128,
+          "dictionary_plus_discovery_bits": 14391
+        }
+      ],
+      "dictionary": [
+        "BENNAIFIININSBASTFNENIIFINI*LTAS",
+        "ISETEIVIFASTFNEIEINTAAET",
+        "*VLVEEIIVEVINVINSTAE*VTLRNEFIEAI",
+        "ETBASEFAIFVI*NAESESTIENFATCTIVVT",
+        "NVVNNFIEEEIIINFASIATNVI*",
+        "NSTAEFIEIEFI",
+        "AETRFEVASTFFFEEINBLEIIFFTRVEIIVN",
+        "ALBENEIENVNSBVN*VAENFFATFNAASTTN",
+        "BEEILEEIEFFIFTLE",
+        "EITAILBETFTE*ICEVIEFIINI*VNCTIIN",
+        "AIFAIFINEIIVNSEN",
+        "ANIVVENINTEINLFS",
+        "AIFALVNALVEEIIVIEITAIFASIATFTEIE",
+        "FATFTFNLIBEI",
+        "ILTAENEEIVNCTIIN",
+        "ENVNSBLFSINN",
+        "ITELBENNAIFI",
+        "*FEIEALVNSBEIEFIANEFIVEI",
+        "TVAFENTE",
+        "INSTAE*VTLRNEFIE",
+        "TAEFTEI*ILSBEIIN",
+        "IEFI",
+        "*LEAENTNBBFIVITVAETRFEVASTFFFEEI",
+        "AFIEIVEINLET",
+        "INBLEIILIVRN",
+        "ITAILBETFTE*",
+        "IVFAEATVATEB",
+        "*ICEBFAI",
+        "INI*",
+        "*LEAFIVNANI*ANIV",
+        "FFASFAIFINEIFAI*VFETTIIT",
+        "IINIBTILBETAENFFATFNAAST",
+        "ENIN",
+        "AIFAIFTIFAVO",
+        "EEII",
+        "ITEL",
+        "TTNVVNNF",
+        "IEII",
+        "EENE",
+        "TIIN",
+        "*NAESESTIENFATCT",
+        "NVETTAFSETBASEFA",
+        "ASTF",
+        "BEIE",
+        "TAESESTI",
+        "TBBNNEIT",
+        "FTEI",
+        "IFAI",
+        "LFSE",
+        "VNAL",
+        "EANFASIATNVI",
+        "EIISETBTBTIL",
+        "ETTA",
+        "NAIF",
+        "NEFI",
+        "TAEN",
+        "TTII",
+        "EEIL",
+        "EEIN",
+        "EIVI",
+        "ENII",
+        "FIFT",
+        "IEIN",
+        "ININ",
+        "LTAS",
+        "NIVV",
+        "ASIATFTE",
+        "ENTNBBFI",
+        "ITVAETRF",
+        "NBLFFAFS",
+        "ALBE",
+        "BBNN",
+        "BTII",
+        "EEIV",
+        "EFTN",
+        "EITE",
+        "EITV",
+        "ELBE",
+        "FFEE",
+        "FIEI",
+        "FTNI",
+        "IFBE",
+        "INTE",
+        "IVNT",
+        "NEIA",
+        "NSEN",
+        "TAET",
+        "*LEA",
+        "*VNC",
+        "*VNV",
+        "AEEA",
+        "AIBI",
+        "ASTE",
+        "AVNE",
+        "BFAI",
+        "EFAE",
+        "EIFA",
+        "EIIL",
+        "EIIS",
+        "EIIV",
+        "EINF",
+        "ENNE",
+        "ESTI",
+        "EVIN",
+        "FATC",
+        "FATF",
+        "FNAA",
+        "IEVN",
+        "IFVI",
+        "IINI",
+        "ILSB",
+        "ISET",
+        "ITAI",
+        "ITNE",
+        "IVVT",
+        "NNAL",
+        "NNTE",
+        "NTTA",
+        "TEIN",
+        "VNSB"
+      ],
+      "markov_model_bits": 1281,
+      "discovery": {
+        "symbols": 5668,
+        "copy_data_bits": 9490,
+        "uniform_data_bits": 23558,
+        "markov_data_bits": 17665.31412086596,
+        "reference_tokens": 503,
+        "reference_symbol_fraction": 0.8383909668313339
+      },
+      "reserved": {
+        "symbols": 61,
+        "copy_data_bits": 253,
+        "uniform_data_bits": 264,
+        "markov_data_bits": 209.31289838517176,
+        "reference_tokens": 6,
+        "reference_symbol_fraction": 0.39344262295081966
+      },
+      "total_two_part_bits": {
+        "copy": 14650,
+        "markov1": 19157.627019251133,
+        "uniform": 23824
+      },
+      "copy_minus_markov_bits_per_symbol": -0.786808695976808
+    }
+  },
+  "positive_negative_controls": {
+    "reference": "Last20% of Alice; no Tibia-derived plaintext",
+    "replicates": 12,
+    "summary": {
+      "prose_ciphertext": {
+        "replicates": 12,
+        "mean_copy_minus_markov_bits_per_symbol": 0.4708086712643565,
+        "min": 0.3289598528875434,
+        "max": 0.5247945564109514,
+        "copy_beats_markov_count": 0
+      },
+      "copied_prose_ciphertext": {
+        "replicates": 12,
+        "mean_copy_minus_markov_bits_per_symbol": -1.9016048572161237,
+        "min": -2.05220784058588,
+        "max": -1.7353193028731884,
+        "copy_beats_markov_count": 12
+      },
+      "shuffled_module_assembly": {
+        "replicates": 12,
+        "mean_copy_minus_markov_bits_per_symbol": -2.4675795232271405,
+        "min": -2.5732122700687623,
+        "max": -2.356519106440085,
+        "copy_beats_markov_count": 12
+      },
+      "proposed_copy_dominance_discriminator": {
+        "rule": "Predict non-linguistic assembly if total copy code beats Markov1",
+        "false_positive_rate_on_copied_prose": 1.0,
+        "true_positive_rate_on_shuffled_modules": 1.0,
+        "warning": "This is a structural, predeclared illustrative rule, not a learned semantic classifier."
+      }
+    },
+    "trials": [
+      {
+        "seed": 304692026,
+        "prose_ciphertext": {
+          "alphabet_size": 26,
+          "dictionary_entries": 128,
+          "dictionary_bits": 3643,
+          "dictionary_size_selected": 128,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 33841
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 33363
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 32576
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 31519
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 29972
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 28323
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 26916
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 26085
+            }
+          ],
+          "markov_model_bits": 2881,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 22446,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 20552.371437802358,
+            "reference_tokens": 688,
+            "reference_symbol_fraction": 0.5278757939308398
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 354,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 246.338728903132,
+            "reference_tokens": 2,
+            "reference_symbol_fraction": 0.13114754098360656
+          },
+          "total_two_part_bits": {
+            "copy": 26445,
+            "markov1": 23681.71016670549,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": 0.4823337115193771
+        },
+        "copied_prose_ciphertext": {
+          "alphabet_size": 26,
+          "dictionary_entries": 49,
+          "dictionary_bits": 4610,
+          "dictionary_size_selected": 64,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 32776
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 31071
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 28227
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 23503
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 16487
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 10779
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 10305
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 10305
+            }
+          ],
+          "markov_model_bits": 2463,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 5699,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 19009.87299272825,
+            "reference_tokens": 259,
+            "reference_symbol_fraction": 0.9117854622441779
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 136,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 209.56516861432897,
+            "reference_tokens": 2,
+            "reference_symbol_fraction": 0.7213114754098361
+          },
+          "total_two_part_bits": {
+            "copy": 10447,
+            "markov1": 21684.43816134258,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": -1.9615008136398289
+        },
+        "shuffled_module_assembly": {
+          "alphabet_size": 26,
+          "dictionary_entries": 49,
+          "dictionary_bits": 4670,
+          "dictionary_size_selected": 64,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 32776
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 31071
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 28227
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 23503
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 16339
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 10987
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 10611
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 10611
+            }
+          ],
+          "markov_model_bits": 2759,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 5945,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 21677.815966199378,
+            "reference_tokens": 253,
+            "reference_symbol_fraction": 0.903316866619619
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 112,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 248.6569572678128,
+            "reference_tokens": 2,
+            "reference_symbol_fraction": 0.7868852459016393
+          },
+          "total_two_part_bits": {
+            "copy": 10729,
+            "markov1": 24687.47292346719,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": -2.436458879990782
+        }
+      },
+      {
+        "seed": 304692027,
+        "prose_ciphertext": {
+          "alphabet_size": 26,
+          "dictionary_entries": 128,
+          "dictionary_bits": 3799,
+          "dictionary_size_selected": 128,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 34325
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 33765
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 32950
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 31831
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 30440
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 28823
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 27355
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 26353
+            }
+          ],
+          "markov_model_bits": 2875,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 22558,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 20698.245166237662,
+            "reference_tokens": 645,
+            "reference_symbol_fraction": 0.5144671841919548
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 338,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 238.55396682722647,
+            "reference_tokens": 3,
+            "reference_symbol_fraction": 0.19672131147540983
+          },
+          "total_two_part_bits": {
+            "copy": 26697,
+            "markov1": 23813.799133064887,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": 0.5032642462794751
+        },
+        "copied_prose_ciphertext": {
+          "alphabet_size": 26,
+          "dictionary_entries": 61,
+          "dictionary_bits": 4744,
+          "dictionary_size_selected": 64,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 33158
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 31629
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 28887
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 24159
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 17048
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 11999
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 11191
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 11191
+            }
+          ],
+          "markov_model_bits": 2511,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 6451,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 18689.229469823982,
+            "reference_tokens": 339,
+            "reference_symbol_fraction": 0.9061397318278053
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 270,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 206.41481633651296,
+            "reference_tokens": 4,
+            "reference_symbol_fraction": 0.39344262295081966
+          },
+          "total_two_part_bits": {
+            "copy": 11467,
+            "markov1": 21408.644286160496,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": -1.7353193028731884
+        },
+        "shuffled_module_assembly": {
+          "alphabet_size": 26,
+          "dictionary_entries": 55,
+          "dictionary_bits": 4890,
+          "dictionary_size_selected": 64,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 33158
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 31629
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 28887
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 24159
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 17112
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 11935
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 11139
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 11139
+            }
+          ],
+          "markov_model_bits": 2905,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 6253,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 21916.129893378635,
+            "reference_tokens": 273,
+            "reference_symbol_fraction": 0.8983768525052929
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 280,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 257.4346072121052,
+            "reference_tokens": 2,
+            "reference_symbol_fraction": 0.32786885245901637
+          },
+          "total_two_part_bits": {
+            "copy": 11425,
+            "markov1": 25080.56450059074,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": -2.3835860535155766
+        }
+      },
+      {
+        "seed": 304692028,
+        "prose_ciphertext": {
+          "alphabet_size": 26,
+          "dictionary_entries": 128,
+          "dictionary_bits": 3781,
+          "dictionary_size_selected": 128,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 34140
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 33693
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 32879
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 31741
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 30263
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 28555
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 27025
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 26015
+            }
+          ],
+          "markov_model_bits": 2827,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 22238,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 20454.263913564595,
+            "reference_tokens": 665,
+            "reference_symbol_fraction": 0.5285815102328864
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 346,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 244.38445829950035,
+            "reference_tokens": 1,
+            "reference_symbol_fraction": 0.13114754098360656
+          },
+          "total_two_part_bits": {
+            "copy": 26367,
+            "markov1": 23527.648371864096,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": 0.49561033830265394
+        },
+        "copied_prose_ciphertext": {
+          "alphabet_size": 26,
+          "dictionary_entries": 61,
+          "dictionary_bits": 5702,
+          "dictionary_size_selected": 64,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 32585
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 31249
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 28590
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 24637
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 19027
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 13213
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 11843
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 11843
+            }
+          ],
+          "markov_model_bits": 2605,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 6145,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 19544.272862214897,
+            "reference_tokens": 285,
+            "reference_symbol_fraction": 0.9040225829216655
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 167,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 225.2857843701533,
+            "reference_tokens": 3,
+            "reference_symbol_fraction": 0.6557377049180327
+          },
+          "total_two_part_bits": {
+            "copy": 12016,
+            "markov1": 22376.55864658505,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": -1.8084410275065543
+        },
+        "shuffled_module_assembly": {
+          "alphabet_size": 26,
+          "dictionary_entries": 62,
+          "dictionary_bits": 6059,
+          "dictionary_size_selected": 64,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 33158
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 31819
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 29157
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 24719
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 19022
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 13023
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 11829
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 11829
+            }
+          ],
+          "markov_model_bits": 2931,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 5774,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 22303.94069404757,
+            "reference_tokens": 256,
+            "reference_symbol_fraction": 0.9089625970359916
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 160,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 258.55726674767675,
+            "reference_tokens": 2,
+            "reference_symbol_fraction": 0.6557377049180327
+          },
+          "total_two_part_bits": {
+            "copy": 11995,
+            "markov1": 25495.49796079525,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": -2.356519106440085
+        }
+      },
+      {
+        "seed": 304692029,
+        "prose_ciphertext": {
+          "alphabet_size": 26,
+          "dictionary_entries": 128,
+          "dictionary_bits": 3737,
+          "dictionary_size_selected": 128,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 34071
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 33649
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 32981
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 31851
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 30449
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 28937
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 27333
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 26451
+            }
+          ],
+          "markov_model_bits": 2877,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 22718,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 20578.393183905853,
+            "reference_tokens": 665,
+            "reference_symbol_fraction": 0.5144671841919548
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 234,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 227.05880241580695,
+            "reference_tokens": 8,
+            "reference_symbol_fraction": 0.5901639344262295
+          },
+          "total_two_part_bits": {
+            "copy": 26691,
+            "markov1": 23684.45198632166,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": 0.5247945564109514
+        },
+        "copied_prose_ciphertext": {
+          "alphabet_size": 26,
+          "dictionary_entries": 48,
+          "dictionary_bits": 4089,
+          "dictionary_size_selected": 64,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 32203
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 30109
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 26511
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 20277
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 11966
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 8825
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 8636
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 8636
+            }
+          ],
+          "markov_model_bits": 2307,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 4551,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 18063.032477783174,
+            "reference_tokens": 263,
+            "reference_symbol_fraction": 0.9463655610444601
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 181,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 208.066240933335,
+            "reference_tokens": 5,
+            "reference_symbol_fraction": 0.6557377049180327
+          },
+          "total_two_part_bits": {
+            "copy": 8823,
+            "markov1": 20580.09871871651,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": -2.05220784058588
+        },
+        "shuffled_module_assembly": {
+          "alphabet_size": 26,
+          "dictionary_entries": 47,
+          "dictionary_bits": 4044,
+          "dictionary_size_selected": 64,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 32203
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 30109
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 26511
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 20277
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 11966
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 8847
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 8678
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 8678
+            }
+          ],
+          "markov_model_bits": 2589,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 4638,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 20808.99983898522,
+            "reference_tokens": 272,
+            "reference_symbol_fraction": 0.9456598447424136
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 215,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 240.93325623871897,
+            "reference_tokens": 3,
+            "reference_symbol_fraction": 0.5245901639344263
+          },
+          "total_two_part_bits": {
+            "copy": 8899,
+            "markov1": 23640.93309522394,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": -2.5732122700687623
+        }
+      },
+      {
+        "seed": 304692030,
+        "prose_ciphertext": {
+          "alphabet_size": 26,
+          "dictionary_entries": 128,
+          "dictionary_bits": 3711,
+          "dictionary_size_selected": 128,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 34396
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 33879
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 33061
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 31935
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 30375
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 28721
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 27167
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 26249
+            }
+          ],
+          "markov_model_bits": 2861,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 22542,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 20593.163676720847,
+            "reference_tokens": 661,
+            "reference_symbol_fraction": 0.5187014820042343
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 306,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 243.96552536023097,
+            "reference_tokens": 5,
+            "reference_symbol_fraction": 0.32786885245901637
+          },
+          "total_two_part_bits": {
+            "copy": 26561,
+            "markov1": 23700.12920208108,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": 0.4993665208446361
+        },
+        "copied_prose_ciphertext": {
+          "alphabet_size": 26,
+          "dictionary_entries": 63,
+          "dictionary_bits": 5164,
+          "dictionary_size_selected": 64,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 32776
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 30869
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 28023
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 23499
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 17184
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 12087
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 11052
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 11052
+            }
+          ],
+          "markov_model_bits": 2579,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 5892,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 19415.972064640326,
+            "reference_tokens": 290,
+            "reference_symbol_fraction": 0.9124911785462244
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 47,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 207.8522282118276,
+            "reference_tokens": 3,
+            "reference_symbol_fraction": 0.9836065573770492
+          },
+          "total_two_part_bits": {
+            "copy": 11105,
+            "markov1": 22204.824292852154,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": -1.9374802396320743
+        },
+        "shuffled_module_assembly": {
+          "alphabet_size": 26,
+          "dictionary_entries": 56,
+          "dictionary_bits": 4831,
+          "dictionary_size_selected": 64,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 32776
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 30869
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 28023
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 23653
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 17492
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 12483
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 10832
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 10832
+            }
+          ],
+          "markov_model_bits": 2881,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 6005,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 21924.474569936596,
+            "reference_tokens": 313,
+            "reference_symbol_fraction": 0.9139026111503176
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 150,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 232.30316543825887,
+            "reference_tokens": 4,
+            "reference_symbol_fraction": 0.7213114754098361
+          },
+          "total_two_part_bits": {
+            "copy": 10988,
+            "markov1": 25039.777735374853,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": -2.452745284582799
+        }
+      },
+      {
+        "seed": 304692031,
+        "prose_ciphertext": {
+          "alphabet_size": 26,
+          "dictionary_entries": 128,
+          "dictionary_bits": 3715,
+          "dictionary_size_selected": 128,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 34002
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 33539
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 32934
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 31777
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 30224
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 28527
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 27029
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 25973
+            }
+          ],
+          "markov_model_bits": 2879,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 22262,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 20648.05992806317,
+            "reference_tokens": 686,
+            "reference_symbol_fraction": 0.5328158080451658
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 338,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 246.6177965326715,
+            "reference_tokens": 3,
+            "reference_symbol_fraction": 0.19672131147540983
+          },
+          "total_two_part_bits": {
+            "copy": 26317,
+            "markov1": 23775.67772459584,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": 0.4435891561187223
+        },
+        "copied_prose_ciphertext": {
+          "alphabet_size": 26,
+          "dictionary_entries": 60,
+          "dictionary_bits": 5283,
+          "dictionary_size_selected": 64,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 32967
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 31545
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 28887
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 24655
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 17860
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 11533
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 10685
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 10685
+            }
+          ],
+          "markov_model_bits": 2559,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 5406,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 19434.069353602117,
+            "reference_tokens": 272,
+            "reference_symbol_fraction": 0.9230769230769231
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 198,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 223.18187753860406,
+            "reference_tokens": 4,
+            "reference_symbol_fraction": 0.5901639344262295
+          },
+          "total_two_part_bits": {
+            "copy": 10889,
+            "markov1": 22218.251231140723,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": -1.9775268338524563
+        },
+        "shuffled_module_assembly": {
+          "alphabet_size": 26,
+          "dictionary_entries": 59,
+          "dictionary_bits": 5466,
+          "dictionary_size_selected": 64,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 32967
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 31545
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 28887
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 24655
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 17641
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 11637
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 10947
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 10947
+            }
+          ],
+          "markov_model_bits": 2889,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 5485,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 22018.693208835663,
+            "reference_tokens": 249,
+            "reference_symbol_fraction": 0.9160197600564574
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 112,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 232.63728606551973,
+            "reference_tokens": 2,
+            "reference_symbol_fraction": 0.7868852459016393
+          },
+          "total_two_part_bits": {
+            "copy": 11065,
+            "markov1": 25142.330494901184,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": -2.457205532361875
+        }
+      },
+      {
+        "seed": 304692032,
+        "prose_ciphertext": {
+          "alphabet_size": 26,
+          "dictionary_entries": 128,
+          "dictionary_bits": 3625,
+          "dictionary_size_selected": 128,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 34002
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 33473
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 32726
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 31609
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 30120
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 28569
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 27099
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 26195
+            }
+          ],
+          "markov_model_bits": 2875,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 22574,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 20571.537074207838,
+            "reference_tokens": 683,
+            "reference_symbol_fraction": 0.5229357798165137
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 354,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 257.71322685482704,
+            "reference_tokens": 2,
+            "reference_symbol_fraction": 0.13114754098360656
+          },
+          "total_two_part_bits": {
+            "copy": 26555,
+            "markov1": 23706.250301062664,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": 0.4972507765643805
+        },
+        "copied_prose_ciphertext": {
+          "alphabet_size": 26,
+          "dictionary_entries": 58,
+          "dictionary_bits": 4963,
+          "dictionary_size_selected": 64,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 32776
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 31059
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 27816
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 22923
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 17058
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 11883
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 10925
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 10925
+            }
+          ],
+          "markov_model_bits": 2477,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 5966,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 19034.169815556786,
+            "reference_tokens": 304,
+            "reference_symbol_fraction": 0.913196894848271
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 215,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 220.97736373436732,
+            "reference_tokens": 3,
+            "reference_symbol_fraction": 0.5245901639344263
+          },
+          "total_two_part_bits": {
+            "copy": 11146,
+            "markov1": 21734.147179291154,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": -1.8481667270537885
+        },
+        "shuffled_module_assembly": {
+          "alphabet_size": 26,
+          "dictionary_entries": 53,
+          "dictionary_bits": 4654,
+          "dictionary_size_selected": 64,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 32776
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 31059
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 27816
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 22923
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 17059
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 11811
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 10927
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 10927
+            }
+          ],
+          "markov_model_bits": 2893,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 6277,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 22153.9921751654,
+            "reference_tokens": 297,
+            "reference_symbol_fraction": 0.9026111503175723
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 215,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 269.99376855469757,
+            "reference_tokens": 3,
+            "reference_symbol_fraction": 0.5245901639344263
+          },
+          "total_two_part_bits": {
+            "copy": 11148,
+            "markov1": 25318.985943720098,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": -2.4735531408134226
+        }
+      },
+      {
+        "seed": 304692033,
+        "prose_ciphertext": {
+          "alphabet_size": 26,
+          "dictionary_entries": 128,
+          "dictionary_bits": 3739,
+          "dictionary_size_selected": 128,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 34048
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 33605
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 32894
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 31727
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 30321
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 28771
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 27101
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 26173
+            }
+          ],
+          "markov_model_bits": 2877,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 22438,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 20582.45451947792,
+            "reference_tokens": 669,
+            "reference_symbol_fraction": 0.5236414961185604
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 210,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 225.59627954993087,
+            "reference_tokens": 8,
+            "reference_symbol_fraction": 0.6557377049180327
+          },
+          "total_two_part_bits": {
+            "copy": 26389,
+            "markov1": 23687.050799027853,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": 0.4716266714910363
+        },
+        "copied_prose_ciphertext": {
+          "alphabet_size": 26,
+          "dictionary_entries": 57,
+          "dictionary_bits": 5164,
+          "dictionary_size_selected": 64,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 33158
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 31629
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 28698
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 23971
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 17007
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 11619
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 10792
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 10792
+            }
+          ],
+          "markov_model_bits": 2553,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 5632,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 19074.0791043672,
+            "reference_tokens": 270,
+            "reference_symbol_fraction": 0.9160197600564574
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 201,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 208.2309085915422,
+            "reference_tokens": 1,
+            "reference_symbol_fraction": 0.5245901639344263
+          },
+          "total_two_part_bits": {
+            "copy": 10999,
+            "markov1": 21837.310012958744,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": -1.8918327828519363
+        },
+        "shuffled_module_assembly": {
+          "alphabet_size": 26,
+          "dictionary_entries": 53,
+          "dictionary_bits": 4998,
+          "dictionary_size_selected": 64,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 33158
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 31629
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 28698
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 23971
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 17146
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 11283
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 10711
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 10711
+            }
+          ],
+          "markov_model_bits": 2949,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 5717,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 22213.006086528923,
+            "reference_tokens": 265,
+            "reference_symbol_fraction": 0.9124911785462244
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 201,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 249.87855278292605,
+            "reference_tokens": 1,
+            "reference_symbol_fraction": 0.5245901639344263
+          },
+          "total_two_part_bits": {
+            "copy": 10918,
+            "markov1": 25413.88463931185,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": -2.530264381098246
+        }
+      },
+      {
+        "seed": 304692034,
+        "prose_ciphertext": {
+          "alphabet_size": 26,
+          "dictionary_entries": 128,
+          "dictionary_bits": 3929,
+          "dictionary_size_selected": 128,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 34094
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 33671
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 32862
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 31597
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 30103
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 28435
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 26786
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 25835
+            }
+          ],
+          "markov_model_bits": 2865,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 21910,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 20581.859915268735,
+            "reference_tokens": 645,
+            "reference_symbol_fraction": 0.5335215243472125
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 290,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 233.42797810260979,
+            "reference_tokens": 6,
+            "reference_symbol_fraction": 0.39344262295081966
+          },
+          "total_two_part_bits": {
+            "copy": 26131,
+            "markov1": 23682.287893371344,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": 0.4274240018552376
+        },
+        "copied_prose_ciphertext": {
+          "alphabet_size": 26,
+          "dictionary_entries": 55,
+          "dictionary_bits": 4804,
+          "dictionary_size_selected": 64,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 32967
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 31249
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 28401
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 23861
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 17187
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 11503
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 10521
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 10521
+            }
+          ],
+          "markov_model_bits": 2547,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 5721,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 19365.857470372324,
+            "reference_tokens": 293,
+            "reference_symbol_fraction": 0.918136908962597
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 78,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 222.07393876519671,
+            "reference_tokens": 4,
+            "reference_symbol_fraction": 0.9180327868852459
+          },
+          "total_two_part_bits": {
+            "copy": 10605,
+            "markov1": 22136.93140913752,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": -2.012904766824493
+        },
+        "shuffled_module_assembly": {
+          "alphabet_size": 26,
+          "dictionary_entries": 53,
+          "dictionary_bits": 4754,
+          "dictionary_size_selected": 64,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 32967
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 31249
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 28401
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 23861
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 17059
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 11365
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 10603
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 10603
+            }
+          ],
+          "markov_model_bits": 2883,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 5853,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 21988.548233742735,
+            "reference_tokens": 281,
+            "reference_symbol_fraction": 0.9117854622441779
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 232,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 244.3550629779254,
+            "reference_tokens": 2,
+            "reference_symbol_fraction": 0.45901639344262296
+          },
+          "total_two_part_bits": {
+            "copy": 10841,
+            "markov1": 25117.90329672066,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": -2.4920410711678582
+        }
+      },
+      {
+        "seed": 304692035,
+        "prose_ciphertext": {
+          "alphabet_size": 26,
+          "dictionary_entries": 128,
+          "dictionary_bits": 3949,
+          "dictionary_size_selected": 128,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 33864
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 33407
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 32642
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 31345
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 29986
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 28421
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 26853
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 26007
+            }
+          ],
+          "markov_model_bits": 2837,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 22062,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 20357.309627956063,
+            "reference_tokens": 649,
+            "reference_symbol_fraction": 0.5299929428369795
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 290,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 243.93105476823686,
+            "reference_tokens": 6,
+            "reference_symbol_fraction": 0.39344262295081966
+          },
+          "total_two_part_bits": {
+            "copy": 26303,
+            "markov1": 23440.2406827243,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": 0.4996961629037704
+        },
+        "copied_prose_ciphertext": {
+          "alphabet_size": 26,
+          "dictionary_entries": 61,
+          "dictionary_bits": 5436,
+          "dictionary_size_selected": 64,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 33158
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 31735
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 29076
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 24689
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 18738
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 12967
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 11471
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 11471
+            }
+          ],
+          "markov_model_bits": 2567,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 6039,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 19418.684176691186,
+            "reference_tokens": 287,
+            "reference_symbol_fraction": 0.9075511644318984
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 311,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 207.6550883803398,
+            "reference_tokens": 3,
+            "reference_symbol_fraction": 0.26229508196721313
+          },
+          "total_two_part_bits": {
+            "copy": 11788,
+            "markov1": 22195.339265071525,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": -1.8166066093683932
+        },
+        "shuffled_module_assembly": {
+          "alphabet_size": 26,
+          "dictionary_entries": 60,
+          "dictionary_bits": 5577,
+          "dictionary_size_selected": 64,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 33158
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 31735
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 29076
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 24549
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 18346
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 12727
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 11074
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 11074
+            }
+          ],
+          "markov_model_bits": 2915,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 5501,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 22434.220279837962,
+            "reference_tokens": 289,
+            "reference_symbol_fraction": 0.9237826393789696
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 311,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 252.61976408305358,
+            "reference_tokens": 3,
+            "reference_symbol_fraction": 0.26229508196721313
+          },
+          "total_two_part_bits": {
+            "copy": 11391,
+            "markov1": 25603.840043921016,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": -2.4808587962857422
+        }
+      },
+      {
+        "seed": 304692036,
+        "prose_ciphertext": {
+          "alphabet_size": 26,
+          "dictionary_entries": 128,
+          "dictionary_bits": 4015,
+          "dictionary_size_selected": 128,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 33956
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 33429
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 32576
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 31443
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 30082
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 28451
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 26835
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 25913
+            }
+          ],
+          "markov_model_bits": 2857,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 21902,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 20426.95117811254,
+            "reference_tokens": 632,
+            "reference_symbol_fraction": 0.5306986591390261
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 322,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 229.25902617900175,
+            "reference_tokens": 4,
+            "reference_symbol_fraction": 0.26229508196721313
+          },
+          "total_two_part_bits": {
+            "copy": 26241,
+            "markov1": 23515.210204291543,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": 0.47578805999449414
+        },
+        "copied_prose_ciphertext": {
+          "alphabet_size": 26,
+          "dictionary_entries": 59,
+          "dictionary_bits": 5588,
+          "dictionary_size_selected": 64,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 33158
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 31629
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 28779
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 24251
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 17906
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 12155
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 11182
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 11182
+            }
+          ],
+          "markov_model_bits": 2559,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 5598,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 19088.562949950072,
+            "reference_tokens": 272,
+            "reference_symbol_fraction": 0.9174311926605505
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 318,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 220.890328195567,
+            "reference_tokens": 4,
+            "reference_symbol_fraction": 0.26229508196721313
+          },
+          "total_two_part_bits": {
+            "copy": 11506,
+            "markov1": 21870.45327814564,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": -1.8091208375188759
+        },
+        "shuffled_module_assembly": {
+          "alphabet_size": 26,
+          "dictionary_entries": 58,
+          "dictionary_bits": 5587,
+          "dictionary_size_selected": 64,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 33158
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 31629
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 28779
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 24425
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 18124
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 12589
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 11339
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 11339
+            }
+          ],
+          "markov_model_bits": 2933,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 5756,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 22127.41328837285,
+            "reference_tokens": 274,
+            "reference_symbol_fraction": 0.913196894848271
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 184,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 245.74183586494726,
+            "reference_tokens": 2,
+            "reference_symbol_fraction": 0.5901639344262295
+          },
+          "total_two_part_bits": {
+            "copy": 11529,
+            "markov1": 25308.155124237797,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": -2.4051588626702385
+        }
+      },
+      {
+        "seed": 304692037,
+        "prose_ciphertext": {
+          "alphabet_size": 26,
+          "dictionary_entries": 128,
+          "dictionary_bits": 3967,
+          "dictionary_size_selected": 128,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 34041
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 33227
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 32318
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 31047
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 29582
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 27975
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 26538
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 25393
+            }
+          ],
+          "markov_model_bits": 2877,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 21430,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 20674.65747391169,
+            "reference_tokens": 639,
+            "reference_symbol_fraction": 0.5462244177840508
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 274,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 234.73152889557065,
+            "reference_tokens": 7,
+            "reference_symbol_fraction": 0.45901639344262296
+          },
+          "total_two_part_bits": {
+            "copy": 25673,
+            "markov1": 23788.389002807264,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": 0.3289598528875434
+        },
+        "copied_prose_ciphertext": {
+          "alphabet_size": 26,
+          "dictionary_entries": 52,
+          "dictionary_bits": 4687,
+          "dictionary_size_selected": 64,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 31630
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 29729
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 26337
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 21059
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 13794
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 10537
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 9964
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 9964
+            }
+          ],
+          "markov_model_bits": 2483,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 5281,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 18649.103032351723,
+            "reference_tokens": 261,
+            "reference_symbol_fraction": 0.9244883556810163
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 112,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 223.43121014026798,
+            "reference_tokens": 2,
+            "reference_symbol_fraction": 0.7868852459016393
+          },
+          "total_two_part_bits": {
+            "copy": 10082,
+            "markov1": 21357.53424249199,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": -1.9681505048860168
+        },
+        "shuffled_module_assembly": {
+          "alphabet_size": 26,
+          "dictionary_entries": 54,
+          "dictionary_bits": 5027,
+          "dictionary_size_selected": 64,
+          "discovery_dictionary_size_trials": [
+            {
+              "max_entries": 0,
+              "dictionary_plus_discovery_bits": 34895
+            },
+            {
+              "max_entries": 1,
+              "dictionary_plus_discovery_bits": 32776
+            },
+            {
+              "max_entries": 2,
+              "dictionary_plus_discovery_bits": 30869
+            },
+            {
+              "max_entries": 4,
+              "dictionary_plus_discovery_bits": 27471
+            },
+            {
+              "max_entries": 8,
+              "dictionary_plus_discovery_bits": 22187
+            },
+            {
+              "max_entries": 16,
+              "dictionary_plus_discovery_bits": 14686
+            },
+            {
+              "max_entries": 32,
+              "dictionary_plus_discovery_bits": 10505
+            },
+            {
+              "max_entries": 64,
+              "dictionary_plus_discovery_bits": 9970
+            },
+            {
+              "max_entries": 128,
+              "dictionary_plus_discovery_bits": 9970
+            }
+          ],
+          "markov_model_bits": 2837,
+          "discovery": {
+            "symbols": 5668,
+            "copy_data_bits": 4947,
+            "uniform_data_bits": 29226,
+            "markov_data_bits": 21700.06583503566,
+            "reference_tokens": 251,
+            "reference_symbol_fraction": 0.9322512350035286
+          },
+          "reserved": {
+            "symbols": 61,
+            "copy_data_bits": 112,
+            "uniform_data_bits": 325,
+            "markov_data_bits": 268.745469519209,
+            "reference_tokens": 2,
+            "reference_symbol_fraction": 0.7868852459016393
+          },
+          "total_two_part_bits": {
+            "copy": 10088,
+            "markov1": 24807.81130455487,
+            "uniform": 29553
+          },
+          "copy_minus_markov_bits_per_symbol": -2.569350899730297
+        }
+      }
+    ],
+    "limit": "Different random windows overlap across seeds; fixtures are synthetic replicates, not independent source authors."
+  },
+  "variant_prediction": {
+    "fixed_discovery_split": {
+      "symbol_marginal": {
+        "bits": 204.24012536307197,
+        "correct": 6,
+        "positions": 61,
+        "bits_per_code": 3.3481987764438026,
+        "accuracy": 0.09836065573770492
+      },
+      "previous_homophone": {
+        "bits": 204.1713159141513,
+        "correct": 17,
+        "positions": 61,
+        "bits_per_code": 3.347070752691005,
+        "accuracy": 0.2786885245901639
+      },
+      "previous2_symbols": {
+        "bits": 160.12773882175784,
+        "correct": 21,
+        "positions": 61,
+        "bits_per_code": 2.625044898717342,
+        "accuracy": 0.3442622950819672
+      }
+    },
+    "components_symbol8": [
+      [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "55",
+        "56",
+        "57",
+        "58",
+        "59",
+        "60",
+        "61",
+        "62",
+        "63",
+        "64",
+        "65",
+        "66",
+        "67",
+        "68",
+        "69"
+      ],
+      [
+        "20",
+        "54"
+      ]
+    ],
+    "note": "Fixed split was already exposed. Imported row0 and allowed code lists use entire public corpus. No fresh semantic holdout.",
+    "leave_component_out": {
+      "status": "COMPUTED_CONDITIONAL",
+      "folds": [
+        {
+          "held_ids": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45",
+            "46",
+            "47",
+            "48",
+            "49",
+            "50",
+            "51",
+            "52",
+            "53",
+            "55",
+            "56",
+            "57",
+            "58",
+            "59",
+            "60",
+            "61",
+            "62",
+            "63",
+            "64",
+            "65",
+            "66",
+            "67",
+            "68",
+            "69"
+          ],
+          "result": {
+            "symbol_marginal": {
+              "bits": 19852.237854487594,
+              "correct": 1090,
+              "positions": 5668,
+              "bits_per_code": 3.5025119715045157,
+              "accuracy": 0.19230769230769232
+            },
+            "previous_homophone": {
+              "bits": 19698.148306046034,
+              "correct": 1139,
+              "positions": 5668,
+              "bits_per_code": 3.4753260949269644,
+              "accuracy": 0.20095271700776288
+            },
+            "previous2_symbols": {
+              "bits": 19783.855010047515,
+              "correct": 1134,
+              "positions": 5668,
+              "bits_per_code": 3.4904472494790957,
+              "accuracy": 0.20007057163020467
+            }
+          }
+        },
+        {
+          "held_ids": [
+            "20",
+            "54"
+          ],
+          "result": {
+            "symbol_marginal": {
+              "bits": 204.24012536307197,
+              "correct": 6,
+              "positions": 61,
+              "bits_per_code": 3.3481987764438026,
+              "accuracy": 0.09836065573770492
+            },
+            "previous_homophone": {
+              "bits": 204.1713159141513,
+              "correct": 17,
+              "positions": 61,
+              "bits_per_code": 3.347070752691005,
+              "accuracy": 0.2786885245901639
+            },
+            "previous2_symbols": {
+              "bits": 160.12773882175784,
+              "correct": 21,
+              "positions": 61,
+              "bits_per_code": 2.625044898717342,
+              "accuracy": 0.3442622950819672
+            }
+          }
+        }
+      ],
+      "limit": "Only exact8-symbol edges removed; shorter/transformed dependencies persist."
+    }
+  },
+  "runtime_seconds": 2.041412290000153,
+  "verdict": "STRUCTURAL_COMPARISON_ONLY_NO_TRANSLATION",
+  "limitations": [
+    "No test here establishes authorial origin, message absence or plaintext. A short generator can describe encrypted language as well as nonsemantic motifs.",
+    "No prospective external Tibia plaintext pair; tiny reserved component and shorter/transformed reuse remain.",
+    "row0 is imported and inferred on the full public corpus; label alphabet and permissible codes are global conditions, not independently learned truth.",
+    "Control positives use one author and overlapping windows; copied prose contains real English fragments, not necessarily coherent whole-book essays.",
+    "Dictionary candidate frequency uses overlapping windows as a heuristic; exactDP and paid dictionary prevent counting those overlaps as achieved savings.",
+    "Comparisons cover three fixed finite coding models, not all linguistic tokenizations or every generative model."
+  ]
+}

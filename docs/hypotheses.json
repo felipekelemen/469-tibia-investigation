@@ -117,5 +117,40 @@
     "status": "rejected_for_tested_features",
     "evidence": "53 funcoes;nenhuma exata;melhor funcao derivada das caveiras deixa59 erros minimos",
     "artifact": "results/map_geometry.json"
+  },
+  {
+    "id": "H18",
+    "hypothesis": "Solucionador P02-v1 satisfaz qualificação global95%letras em27/30fixtures por cenário",
+    "status": "failed_global_qualification",
+    "evidence": "5cenáriospassam;99desigual26/30contra27.180fits,protocoloantesqualificação;P04bloqueado",
+    "artifact": "results/p04_gate.json"
+  },
+  {
+    "id": "H19",
+    "hypothesis": "Vantagem de cópia noMDL identifica ausência de mensagem",
+    "status": "not_discriminating_in_tested_controls",
+    "evidence": "Cópia vence12/12montagenssemsemântica e12/12positivosinglêscifradocopiado;semseparação comestecritério",
+    "artifact": "results/generative_comparison.json"
+  },
+  {
+    "id": "H20",
+    "hypothesis": "Quantidadecaveiras ordena blocos16comdesempatesD4congelados",
+    "status": "no_translation_found",
+    "evidence": "192variantes;39nulosblocosp=.75;39condicionaisp=1;positivoplantadorecuperado100%",
+    "artifact": "results/matrix_walk.json"
+  },
+  {
+    "id": "H21",
+    "hypothesis": "Matriz antiga é uma descrição histórica anterior aorenomeio",
+    "status": "textual_attestation_strengthened_not_map_authenticated",
+    "evidence": "Postcomdataexibida26/12/2007transcreve16células;HTMLatualeditável;semdata mudança",
+    "artifact": "results/p06_history.json"
+  },
+  {
+    "id": "H22",
+    "hypothesis": "Toda fala NPC usaencodingdiferentedoslivros",
+    "status": "overgeneralization_not_supported",
+    "evidence": "Gritosbibliotecárioocorrem1/6vezesnoslivros,alémChayenne;modalidadeporfontenãoprovadoisalgoritmosuniversais",
+    "artifact": "results/source_validation_inventory.json"
   }
 ]

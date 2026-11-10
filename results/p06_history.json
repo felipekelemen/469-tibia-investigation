@@ -1,0 +1,183 @@
+{
+  "executed_at_utc": "2026-11-10T19:00:27.754734+00:00",
+  "plan": "P06 historical dating, bounded source execution",
+  "source_operations": 25,
+  "consultation_log": "data/history_round3/query_log.json",
+  "new_evidence": [
+    {
+      "id": "HIST3_01",
+      "url": "https://forums.tibiabr.com/printthread.php?t=203250&pp=40",
+      "source_kind": "Dated community forum testimony quoting another forum, not primary game capture",
+      "author": "Jacky pumpkin",
+      "displayed_post_date": "2007-12-26 11:21; timezone unspecified",
+      "post_number": 7,
+      "matrix": [
+        [
+          3,
+          1,
+          6,
+          1
+        ],
+        [
+          1,
+          2,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          3,
+          1
+        ],
+        [
+          4,
+          6,
+          1,
+          1
+        ]
+      ],
+      "matrix_matches_user_old": true,
+      "http": {
+        "url": "https://forums.tibiabr.com/printthread.php?t=203250&pp=40",
+        "requested_utc": "2026-11-10T18:58:46.397881+00:00",
+        "status": 200,
+        "final_url": "https://forums.tibiabr.com/printthread.php?t=203250&pp=40",
+        "sha256": "e86e4bec67c0ff778e5f40924a77507dedfb2d355dc95cf8c8fac58a27b43a23",
+        "bytes": 34290
+      },
+      "finding": "The exact old16-cell matrix is explicitly transcribed in this displayed2007 post and later quoted replies in the same thread.",
+      "limits": [
+        "Current forum page was fetched in2026; displayed2007 timestamp is not an immutable contemporaneous archive.",
+        "No original screenshot or object-stack look log is attached to the relevant printthread post.",
+        "The author reports another forum; quoted replies are dependent copies, not independent observations.",
+        "This supports old-matrix textual attestation, not the exact state of CipSoft map objects or the change date."
+      ]
+    },
+    {
+      "id": "HIST3_02",
+      "url": "https://tibiasecrets.com/article160",
+      "source_kind": "Community research article dated2024-05-06",
+      "title": "The Great Tibian Cipher: Unraveling the Mystery of the Bonelord Language",
+      "author": "Antonio Stradivarius",
+      "matrix": [
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          3,
+          6,
+          1
+        ],
+        [
+          1,
+          1,
+          4,
+          1
+        ],
+        [
+          4,
+          6,
+          1,
+          1
+        ]
+      ],
+      "finding": "The later matrix is explicitly listed. Article includes a linked illustration.",
+      "limits": [
+        "Publication timestamp is not capture timestamp for the illustration.",
+        "No primary dating of2010 object edits is supplied in the inspected section.",
+        "Article uses manual repairs/anagrams in candidate translations; not accepted as translation evidence."
+      ]
+    },
+    {
+      "id": "HIST3_03",
+      "url": "https://tibiacams.com/watch/e15cded1cdfb?t=0",
+      "source_kind": "Recording catalog metadata; playback not inspected",
+      "title": "Tetuni in a PvP fight in Hellgate",
+      "recorded_date_claim": "2007-01-10",
+      "client_version_claim": "7.80",
+      "duration_claim": "9:54",
+      "file_metadata": "165KB.rec massacre16743",
+      "finding": "A cataloged pre-rename recording in Hellgate exists as a useful next archival lead.",
+      "limits": [
+        "No scene showing the skull room was verified.",
+        "Playback depends on client assets and JS; retrieved text showed loading state.",
+        "Catalog metadata alone does not establish a16-cell matrix."
+      ]
+    }
+  ],
+  "failed_or_inadequate_sources": [
+    {
+      "url": "https://tibia.fandom.com/wiki/Talk:Hellgate_Library/Possible_Solutions",
+      "outcome": "Tool fetch restricted; search snippets show2008 discussion but no original matrix image verified."
+    },
+    {
+      "url": "https://www.tibiawiki.com.br/wiki/469",
+      "outcome": "Web open403; older stableid128690 could be opened through indexed extraction."
+    },
+    {
+      "url": "https://www.tibiawiki.com.br/index.php?stableid=128690&title=469",
+      "outcome": "Historical revision content refers to Hellgate Misterio01.jpg but extractor did not return a resolvable historical image/capture date."
+    },
+    {
+      "url": "https://www.tibiawiki.com.br/api.php?action=query&titles=Arquivo:Hellgate_Misterio01.jpg&prop=imageinfo&iiprop=timestamp%7Curl%7Csize%7Csha1%7Cuser&format=json&iilimit=50",
+      "http": {
+        "url": "https://www.tibiawiki.com.br/api.php?action=query&titles=Arquivo:Hellgate_Misterio01.jpg&prop=imageinfo&iiprop=timestamp%7Curl%7Csize%7Csha1%7Cuser&format=json&iilimit=50",
+        "requested_utc": "2026-11-10T18:58:46.724480+00:00",
+        "status": 200,
+        "final_url": "https://www.tibiawiki.com.br/api.php?action=query&titles=Arquivo:Hellgate_Misterio01.jpg&prop=imageinfo&iiprop=timestamp%7Curl%7Csize%7Csha1%7Cuser&format=json&iilimit=50",
+        "sha256": "0c8bb0588414663f462acd1463ace69852d67bee1271b612bb5b5b4ea86d5ec6",
+        "bytes": 227
+      },
+      "outcome": "MediaWiki API returned missing page for normalized Arquivo:Hellgate Misterio01.jpg. This one filename query does not establish absence of all historical images."
+    },
+    {
+      "url": "https://www.tibiawiki.com.br/wiki/Arquivo:Hellgate_Misterio01.jpg",
+      "outcome": "Web tool URL inaccessible."
+    },
+    {
+      "url": "https://tibia.fandom.com/wiki/File:Hellgate_Misterio01.jpg",
+      "outcome": "Web tool URL inaccessible."
+    },
+    {
+      "url": "https://forums.tibiabr.com/threads/203250-469",
+      "outcome": "Web first page accessible; later find/open403; printthread direct HTTP200 recovered full text."
+    },
+    {
+      "url": "https://tibiacams.com/recordings?query=Hellgate",
+      "outcome": "Search route inaccessible via web tool; one recording-specific catalog entry was available."
+    }
+  ],
+  "window_assessment": {
+    "before_2010_08_23": {
+      "textual_old_matrix_attestation": "Found displayed2007 forum post with exact matrix.",
+      "authenticated_visual_or_object_evidence": false
+    },
+    "between_2010_08_23_and_2010_12_08": {
+      "dated_room_capture_found": false
+    },
+    "after_2010_12_08": {
+      "later_matrix_text": "Found2024 article, not an immediately-post-update capture.",
+      "immediately_post_update_visual_evidence": false
+    }
+  },
+  "change_date": "UNRESOLVED",
+  "rename_coincidence": "NOT_DEMONSTRATED",
+  "gate": "P06_PARTIAL_TEXTUAL_ATTESTATION; PAIRED_ERA_MATRIX_KEY_NOT_QUALIFIED_BY_HISTORY",
+  "not_repeated": [
+    "Previously observed official-news1437/1557 direct403 requests were not repeated without new route.",
+    "No proprietary server-map leak was acquired.",
+    "No minimap was treated as an object inventory."
+  ],
+  "next_action": "Inspect the recording through authorized viewer or supplied screenshots and obtain independently dated room captures in the middle window; preserve version and raw look/stack evidence.",
+  "scientific_limits": [
+    "An unavailable source is not evidence that the event did not occur.",
+    "Current HTML with old post timestamps does not prove immutability since2007.",
+    "No book-recoding timeline was established from these sources.",
+    "No cryptographic algorithm or translation is claimed."
+  ]
+}

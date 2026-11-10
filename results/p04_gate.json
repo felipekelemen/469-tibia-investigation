@@ -1,0 +1,62 @@
+{
+  "scenario_results": [
+    {
+      "codes": 52,
+      "distribution": "balanced",
+      "passed_fixtures": 30,
+      "required_passes": 27,
+      "fixtures": 30,
+      "passes_gate": true
+    },
+    {
+      "codes": 52,
+      "distribution": "skewed",
+      "passed_fixtures": 29,
+      "required_passes": 27,
+      "fixtures": 30,
+      "passes_gate": true
+    },
+    {
+      "codes": 75,
+      "distribution": "balanced",
+      "passed_fixtures": 29,
+      "required_passes": 27,
+      "fixtures": 30,
+      "passes_gate": true
+    },
+    {
+      "codes": 75,
+      "distribution": "skewed",
+      "passed_fixtures": 30,
+      "required_passes": 27,
+      "fixtures": 30,
+      "passes_gate": true
+    },
+    {
+      "codes": 99,
+      "distribution": "balanced",
+      "passed_fixtures": 30,
+      "required_passes": 27,
+      "fixtures": 30,
+      "passes_gate": true
+    },
+    {
+      "codes": 99,
+      "distribution": "skewed",
+      "passed_fixtures": 26,
+      "required_passes": 27,
+      "fixtures": 30,
+      "passes_gate": false
+    }
+  ],
+  "gate_passed": false,
+  "p04_status": "BLOCKED_INSUFFICIENT_QUALIFICATION",
+  "decision_rule": "all six predeclared synthetic scenarios must pass; no rounding, tuning or post-hoc scenario removal",
+  "translation_status": "NO_VERIFIED_TRANSLATION",
+  "limits": [
+    "Passing is necessary for this pipeline, not sufficient to validate a real translation.",
+    "A failed synthetic gate does not reject homophonic substitution or demonstrate no meaning in469."
+  ],
+  "protocol_sha256": "47785e3a5f9ccba073d8ad41fcfae912510762ce14e4da04b4756d3358996286",
+  "result_sha256": "7fb91bb233725f7e99bdef09fb2496ca14b11a4364f82117e78ca8404d5e1454"
+}

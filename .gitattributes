@@ -1,0 +1,2 @@
+# Preserve exact source bytes (including original CRLF) used by frozen hashes.
+data/benchmark_reference/*.txt -text -diff

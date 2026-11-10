@@ -1,5 +1,5 @@
 PYTHON ?= python3
-.PHONY: sources audit experiments round2 research-audit test reproduce
+.PHONY: sources audit experiments round2 round3 research-audit test reproduce
 sources:
 	$(PYTHON) scripts/bootstrap_sources.py
 audit:
@@ -15,6 +15,12 @@ round2: audit
 	$(PYTHON) scripts/homophonic_controls.py
 	$(PYTHON) scripts/residual_channel.py
 	$(PYTHON) scripts/map_geometry.py
+round3:
+	$(PYTHON) scripts/source_validation_inventory.py
+	$(PYTHON) scripts/homophonic_benchmark.py --run
+	$(PYTHON) scripts/qualification_gate.py
+	$(PYTHON) scripts/generative_comparison.py
+	$(PYTHON) scripts/matrix_walk_experiment.py
 research-audit:
 	$(PYTHON) scripts/audit_external_samples.py
 test:

@@ -1,0 +1,20 @@
+{
+  "id":"P07_MATRIX_WALK_V1",
+  "status":"frozen_before_current_scores; exploratory on previously exposed public corpus",
+  "hypothesis":"Skull counts rank positions in a16-symbol block; D4 scan breaks ties deterministically",
+  "matrices":["old","new"],
+  "geometries":[0,1,2,3,4,5,6,7],
+  "rank_direction":["ascending","descending"],
+  "transform_direction":["forward","inverse"],
+  "representations":["symbols_A0_mask26_mod26","codes_mod26","codes_minus1_mod26"],
+  "incomplete_tail":"unchanged",
+  "reset":"each_book",
+  "selection":"discovery68 only; source split from normalized_splits.json",
+  "scorer":"existing frozen Alice log10 tetragrams; no name or lore-word bonus",
+  "nulls":{"block8":39,"symbol_conditional_homophones":39},
+  "second_null_scope":"Preserves every book symbol string and counts per code per(book,symbol), tests whether numerical code choices add evidence; symbol-layer candidates are identical by construction",
+  "positive_controls":"external English known block16 permutations, encryption+blind family search; scorer not fitted on positive test text",
+  "parameters_are_not_modified_after_scores":true,
+  "acceptance":"No translation accepted from scoring alone; no general matrix-family rejection; no date/name relation proven",
+  "historical_support":"unverified; matrix-as-order is explicit conjecture, not lore-attested"
+}

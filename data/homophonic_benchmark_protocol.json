@@ -1,0 +1,284 @@
+{
+  "version": "p02-v1",
+  "frozen": true,
+  "frozen_at_utc": "2026-11-10T19:02:05.080948+00:00",
+  "data_scope": "synthetic positive-control qualification only; no Tibia input",
+  "seed": 46930000,
+  "train_letters": 5668,
+  "holdout_letters": 1024,
+  "fixtures_per_scenario": 30,
+  "scenarios": [
+    {
+      "codes": 52,
+      "distribution": "balanced"
+    },
+    {
+      "codes": 52,
+      "distribution": "skewed"
+    },
+    {
+      "codes": 75,
+      "distribution": "balanced"
+    },
+    {
+      "codes": 75,
+      "distribution": "skewed"
+    },
+    {
+      "codes": 99,
+      "distribution": "balanced"
+    },
+    {
+      "codes": 99,
+      "distribution": "skewed"
+    }
+  ],
+  "solver_budget": {
+    "restarts": 8,
+    "steps_each": 100000,
+    "num_codes": 100,
+    "max_temp": 12.0,
+    "frequency_weight": 2.0
+  },
+  "workers": 2,
+  "gate": {
+    "minimum_holdout_character_accuracy": 0.95,
+    "minimum_fixture_pass_fraction": 0.9,
+    "minimum_pass_count": 27
+  },
+  "selection": "Budget chosen on development only; qualification measured once; no parameter adjustment from its outcomes.",
+  "development_author": "Mary Shelley / Frankenstein, separate from qualification authors",
+  "qualification_authors": [
+    "Jane Austen",
+    "Arthur Conan Doyle"
+  ],
+  "scorers": {
+    "primary": "Frozen Alice first80% tetragrams used for fitting",
+    "secondary": "Frankenstein first80% tetragrams used for evaluation only, never key selection"
+  },
+  "source_hashes": {
+    "frankenstein": "2b97b7f8aad508649481d8dd4f6b54f9b965ddb3ba634e9151c815f537b49e42",
+    "pride_prejudice": "3f6bb9d6f78e0293b56acd4714dd68cb7d6d1d293402031ce9d5a216bcaf9d75",
+    "sherlock_holmes": "922e2a12ccb43a4c9544c260b2166c6ad2097aeb5957faeee113f173bb857cd0"
+  },
+  "alice_sha256": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+  "implementation_hashes": {
+    "scripts/fast_homophonic.py": "a3d0cb37527f7fbec6069c193ba320a6464051b2c2a1f4f2cfbc777be68118cc",
+    "src/homophonic_solver.cpp": "0d71f35474df0e2c9f76a230ab67fb9c897440de280fabb53e782e01122132a1",
+    "scripts/homophonic_benchmark.py": "759b096e9b5e9b354926fcdf5d5cedab66346fb5114aa1530d520b51a04baea7"
+  },
+  "qualification_excerpt_manifest": [
+    {
+      "fixture": 0,
+      "source": "pride_prejudice",
+      "start": 0,
+      "length": 6692,
+      "sha256": "2042028d517cc66b3f405c750890654bf5bc8c2c6a8f8b086f1b505205a9219b"
+    },
+    {
+      "fixture": 1,
+      "source": "pride_prejudice",
+      "start": 6692,
+      "length": 6692,
+      "sha256": "e4e4eb1ef9bf0df78c390ec1559094ac8117bcdbdb0c32550035407d05d63c1a"
+    },
+    {
+      "fixture": 2,
+      "source": "pride_prejudice",
+      "start": 13384,
+      "length": 6692,
+      "sha256": "4aa4304b61528e4fb7d930fe3f0844ee1c46de0a70088923ed32470a34b48d7b"
+    },
+    {
+      "fixture": 3,
+      "source": "pride_prejudice",
+      "start": 20076,
+      "length": 6692,
+      "sha256": "08219d1398864758852a9a7f9c0b5f89386bfae676a2125e73f1c85bd4195b5a"
+    },
+    {
+      "fixture": 4,
+      "source": "pride_prejudice",
+      "start": 26768,
+      "length": 6692,
+      "sha256": "adf950623ee152c034467fd6bd2d0dbbdc84c06ccb8a626302d81af0faf3ff34"
+    },
+    {
+      "fixture": 5,
+      "source": "pride_prejudice",
+      "start": 33460,
+      "length": 6692,
+      "sha256": "b6e536acc34ea85659436817640f2765ca19cbe1b0fbad491dee18d311bbef18"
+    },
+    {
+      "fixture": 6,
+      "source": "pride_prejudice",
+      "start": 40152,
+      "length": 6692,
+      "sha256": "fbf4dc5125b0c761e502d8bc04e108eabda2f715950d27c36db13de76b85f3dc"
+    },
+    {
+      "fixture": 7,
+      "source": "pride_prejudice",
+      "start": 46844,
+      "length": 6692,
+      "sha256": "c99a1db1b8e8c8aa207f494d169c40c5db0f12f2a635d61a9733d44547937f80"
+    },
+    {
+      "fixture": 8,
+      "source": "pride_prejudice",
+      "start": 53536,
+      "length": 6692,
+      "sha256": "f644e427588fddf8147c43af8d8dc8ce5fe94c964ae811267be264f427e919c2"
+    },
+    {
+      "fixture": 9,
+      "source": "pride_prejudice",
+      "start": 60228,
+      "length": 6692,
+      "sha256": "65a1f98f13d2198a3a9ce1c5c01b6e45fbf0429fc6eaf98a2ea6382d829ede35"
+    },
+    {
+      "fixture": 10,
+      "source": "pride_prejudice",
+      "start": 66920,
+      "length": 6692,
+      "sha256": "17745fbdacb99ca5e38db60a8539d2cc21278666509778081f99af959dfd4b19"
+    },
+    {
+      "fixture": 11,
+      "source": "pride_prejudice",
+      "start": 73612,
+      "length": 6692,
+      "sha256": "b373191b09be98ac3beba49c1bd0dff32d0e14ed6159654f38f696279280a9a1"
+    },
+    {
+      "fixture": 12,
+      "source": "pride_prejudice",
+      "start": 80304,
+      "length": 6692,
+      "sha256": "18878af942b25b6a70c0dd67813bdd323165597d353b3d4c3d2df08ed41e652e"
+    },
+    {
+      "fixture": 13,
+      "source": "pride_prejudice",
+      "start": 86996,
+      "length": 6692,
+      "sha256": "fe3508c2bf65c469f7c345af1b168135abc7d09edb4d4a38f0f8d76f9a90b146"
+    },
+    {
+      "fixture": 14,
+      "source": "pride_prejudice",
+      "start": 93688,
+      "length": 6692,
+      "sha256": "a524d61b3da5e56dc7b07d7ef831c2db1a32fed69234a67166a58a32d60031ab"
+    },
+    {
+      "fixture": 15,
+      "source": "sherlock_holmes",
+      "start": 0,
+      "length": 6692,
+      "sha256": "e3606fe611370b6d415aca08a1aa4c02d6250167a0c0387352b5d0fcc829cc4c"
+    },
+    {
+      "fixture": 16,
+      "source": "sherlock_holmes",
+      "start": 6692,
+      "length": 6692,
+      "sha256": "382ef963aab082a58ce969e69a717aad3eb61d6f7841056d829f017e413f10a4"
+    },
+    {
+      "fixture": 17,
+      "source": "sherlock_holmes",
+      "start": 13384,
+      "length": 6692,
+      "sha256": "a7e03b91e832c98601a5cd458463d17b133f6eb300ea6ee87bad6ed67c944af0"
+    },
+    {
+      "fixture": 18,
+      "source": "sherlock_holmes",
+      "start": 20076,
+      "length": 6692,
+      "sha256": "54ee6b5533a1947bf0e8de8d7fc57b19b1c47f36797a5f02a81f89b7472da341"
+    },
+    {
+      "fixture": 19,
+      "source": "sherlock_holmes",
+      "start": 26768,
+      "length": 6692,
+      "sha256": "5de594b50888abcef1d86b0f59bee565fdb353ea006817e72250200692adfd8c"
+    },
+    {
+      "fixture": 20,
+      "source": "sherlock_holmes",
+      "start": 33460,
+      "length": 6692,
+      "sha256": "d572e1fc81ebfdacd06b4b297866473c1ac71b9caca1a28f6e4c28a4949f47ff"
+    },
+    {
+      "fixture": 21,
+      "source": "sherlock_holmes",
+      "start": 40152,
+      "length": 6692,
+      "sha256": "2c42524dd0798b6bfea27afc70cbc1029fad3cbc396f1e8b3a37d9a1feeaf02f"
+    },
+    {
+      "fixture": 22,
+      "source": "sherlock_holmes",
+      "start": 46844,
+      "length": 6692,
+      "sha256": "97fa69ecc1fd4b7052089ae24eaf531fcccaaf79a38be9a251d819b896440e26"
+    },
+    {
+      "fixture": 23,
+      "source": "sherlock_holmes",
+      "start": 53536,
+      "length": 6692,
+      "sha256": "0305c2bfe05b70ff05de134b5a90ea1682d8cc2ffd646fb5b0ffe0592accb373"
+    },
+    {
+      "fixture": 24,
+      "source": "sherlock_holmes",
+      "start": 60228,
+      "length": 6692,
+      "sha256": "6e9607bb6c31aa6740b04d149f1befb1e0a119b66e30f77c23e38e8f2c81ec9c"
+    },
+    {
+      "fixture": 25,
+      "source": "sherlock_holmes",
+      "start": 66920,
+      "length": 6692,
+      "sha256": "ca3f0997652709cae63e262ffc4ef25b05c9c13d0007633c23c8ef267c8023ba"
+    },
+    {
+      "fixture": 26,
+      "source": "sherlock_holmes",
+      "start": 73612,
+      "length": 6692,
+      "sha256": "44019886500bc885d4f879e008ff22f9041de1be0bfee98c86ea19a3b9805025"
+    },
+    {
+      "fixture": 27,
+      "source": "sherlock_holmes",
+      "start": 80304,
+      "length": 6692,
+      "sha256": "9d63771604d1f5d91a5b1032b8400a6d85c79c3b9f46689af949d78d2d832a4c"
+    },
+    {
+      "fixture": 28,
+      "source": "sherlock_holmes",
+      "start": 86996,
+      "length": 6692,
+      "sha256": "56449e52812e45a87306b2a5a63dd47b44ad2cb6630b584f457df130a37e9dcf"
+    },
+    {
+      "fixture": 29,
+      "source": "sherlock_holmes",
+      "start": 93688,
+      "length": 6692,
+      "sha256": "24c175d88e7bb6cb3d4fad3393f199fde8a4c0d8689d5beb3cdc59196a9776a3"
+    }
+  ],
+  "independence": "Thirty disjoint plaintext excerpts shared across six scenarios. Adjacent same-author excerpts may share phrases/style; thirty excerpts are not thirty authors. No independent-pool claim across scenarios.",
+  "identifiability": "Report unknown-code positions explicitly. seen-code fraction is coverage, not proof that unseen mappings could never be inferred from language."
+}

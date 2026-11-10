@@ -1,0 +1,33 @@
+{
+  "observed": {
+    "config": [
+      "new",
+      6,
+      false,
+      false,
+      "symbols"
+    ],
+    "train_score": -6.345664987233047,
+    "holdout_score": -6.595400493321551
+  },
+  "p": {
+    "block8": 0.75,
+    "symbol_conditional_homophones": 1.0
+  },
+  "positive": {
+    "config": [
+      "old",
+      3,
+      false,
+      false,
+      "symbols"
+    ],
+    "train_score": -4.1634373584447015,
+    "holdout_score": -4.078547468703493,
+    "holdout_characters": 1000,
+    "character_accuracy": 1.0,
+    "known_key_roundtrip": true,
+    "warning": "Controlled family-member positive only, no arbitrary-key transposition power claim."
+  },
+  "runtime": 15.227232865000587
+}

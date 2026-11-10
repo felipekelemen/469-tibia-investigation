@@ -1,0 +1,8 @@
+{
+  "url": "https://www.tibiawiki.com.br/api.php?action=query&titles=Arquivo:Hellgate_Misterio01.jpg&prop=imageinfo&iiprop=timestamp%7Curl%7Csize%7Csha1%7Cuser&format=json&iilimit=50",
+  "requested_utc": "2026-11-10T18:58:46.724480+00:00",
+  "status": 200,
+  "final_url": "https://www.tibiawiki.com.br/api.php?action=query&titles=Arquivo:Hellgate_Misterio01.jpg&prop=imageinfo&iiprop=timestamp%7Curl%7Csize%7Csha1%7Cuser&format=json&iilimit=50",
+  "sha256": "0c8bb0588414663f462acd1463ace69852d67bee1271b612bb5b5b4ea86d5ec6",
+  "bytes": 227
+}

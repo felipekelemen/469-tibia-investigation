@@ -1,0 +1,18 @@
+{
+  "search_queries": [
+    "\"Hellgate\" \"skulls\" \"2010\"",
+    "\"Hellgate\" \"skulls\" \"2009\"",
+    "\"Hellgate\" \"matrix\" \"2008\"",
+    "\"Hellgate\" \"caveiras\" \"2010\"",
+    "Tibia Hellgate skull matrix screenshot 2009 2010",
+    "Tibia Hellgate skulls matrix 3 1 6 1 2007",
+    "Tibia Hellgate library skull room 2008 screenshot",
+    "site:youtube.com Tibia Hellgate 2009 library",
+    "\"Tibia\" \"Hellgate\" \"skulls\" \"2011\" screenshot"
+  ],
+  "web_open_operations": 12,
+  "web_find_operations": 2,
+  "direct_http_operations": 2,
+  "operation_count": 25,
+  "counting_note": "9 search queries + 12 open + 2 find + 2 HTTP requests. Query results are discovery leads; unrelated search hits were discarded. Repeated opens count as consultations, not independent sources."
+}

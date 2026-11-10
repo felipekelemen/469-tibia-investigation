@@ -1,0 +1,57 @@
+{
+  "executed_at_utc": "2026-11-10T22:23:52.395543+00:00",
+  "basis_commit": "5a46d9e",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "passed": 60,
+    "failed": 0,
+    "log": "results/tests_round3.log"
+  },
+  "frozen_implementations_verified": true,
+  "scoring_support_module": {
+    "path": "scripts/cipher_battery.py",
+    "sha256": "0c7a22d739c7eb45eca6aaf339e3df7a61634a98b32316d2a04fe4e3ebd03139",
+    "unchanged_relative_to_commit": "5a46d9e"
+  },
+  "translation_count": 0,
+  "stages": {
+    "P01": {
+      "status": "EXECUTED_NO_NEW_BLIND_DATA",
+      "artifact": "results/source_validation_inventory.json"
+    },
+    "P02": {
+      "status": "EXECUTED_GLOBAL_GATE_FAILED_5_OF_6_SCENARIOS_PASS",
+      "fits": 180,
+      "artifact": "results/homophonic_benchmark.json"
+    },
+    "P03": {
+      "status": "EXECUTED_COPY_COMPRESSION_NOT_SEMANTICALLY_DISCRIMINATING",
+      "artifact": "results/generative_comparison.json"
+    },
+    "P04": {
+      "status": "BLOCKED_BY_FROZEN_QUALIFICATION_RULE",
+      "new_homophonic_fits_on_Tibia": 0,
+      "artifact": "results/p04_gate.json"
+    },
+    "P05": {
+      "status": "INVENTORY_IDENTIFIABILITY_EXECUTED_NO_ATTESTED_PHRASE_PLAINTEXT",
+      "artifact": "results/source_validation_inventory.json"
+    },
+    "P06": {
+      "status": "EXECUTED_OLD_MATRIX_TEXTUAL_ATTESTATION_2007_CHANGE_DATE_UNRESOLVED",
+      "artifact": "results/p06_history.json"
+    },
+    "P07": {
+      "status": "EXECUTED_BOUNDED_EXPLORATORY_192_VARIANTS_NO_TRANSLATION",
+      "artifact": "results/matrix_walk.json"
+    }
+  },
+  "limits": [
+    "No stage demonstrates a translation or universal absence of a message.",
+    "Positive qualification texts were reused across scenarios;180fits are not180independentplaintexts.",
+    "Historical forum timestamp is not an authenticated immutable2007 game capture."
+  ]
+}
