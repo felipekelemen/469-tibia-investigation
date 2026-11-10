@@ -1,0 +1,639 @@
+{
+  "scope": "Exploratory whole-corpus screen; no semantic holdout claim",
+  "input_sha256": "3442402335f33e2124a0d1e05658a1d78d044ac4383c3c84442ac21c350a7eef",
+  "book_count": 70,
+  "matrices": {
+    "old": {
+      "values": [
+        [
+          3,
+          1,
+          6,
+          1
+        ],
+        [
+          1,
+          2,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          3,
+          1
+        ],
+        [
+          4,
+          6,
+          1,
+          1
+        ]
+      ],
+      "determinant": -7,
+      "moduli": {
+        "10": {
+          "gcd": 1,
+          "invertible": true
+        },
+        "26": {
+          "gcd": 1,
+          "invertible": true
+        },
+        "27": {
+          "gcd": 1,
+          "invertible": true
+        },
+        "29": {
+          "gcd": 1,
+          "invertible": true
+        },
+        "256": {
+          "gcd": 1,
+          "invertible": true
+        }
+      }
+    },
+    "new": {
+      "values": [
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          3,
+          6,
+          1
+        ],
+        [
+          1,
+          1,
+          4,
+          1
+        ],
+        [
+          4,
+          6,
+          1,
+          1
+        ]
+      ],
+      "determinant": -18,
+      "moduli": {
+        "10": {
+          "gcd": 2,
+          "invertible": false
+        },
+        "26": {
+          "gcd": 2,
+          "invertible": false
+        },
+        "27": {
+          "gcd": 9,
+          "invertible": false
+        },
+        "29": {
+          "gcd": 1,
+          "invertible": true
+        },
+        "256": {
+          "gcd": 2,
+          "invertible": false
+        }
+      },
+      "mod26_collision_witness": {
+        "input1": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "input2": [
+          13,
+          13,
+          0,
+          0
+        ],
+        "output1": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "output2": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "A0_plaintexts": [
+          "AAAA",
+          "NNAA"
+        ]
+      }
+    }
+  },
+  "crib_tests": [
+    {
+      "matrix": "old",
+      "plaintext": "BEHOLDER",
+      "alphabet_base": 0,
+      "modulus": 26,
+      "column_vector_cipher": [
+        11,
+        4,
+        14,
+        23,
+        25,
+        12,
+        17,
+        5
+      ],
+      "row_vector_cipher": [
+        18,
+        22,
+        19,
+        0,
+        4,
+        19,
+        20,
+        9
+      ]
+    },
+    {
+      "matrix": "new",
+      "plaintext": "BONELORD",
+      "alphabet_base": 0,
+      "modulus": 26,
+      "column_vector_cipher": [
+        6,
+        21,
+        19,
+        1,
+        19,
+        2,
+        18,
+        18
+      ],
+      "row_vector_cipher": [
+        18,
+        2,
+        11,
+        6,
+        2,
+        10,
+        10,
+        19
+      ]
+    },
+    {
+      "alphabet_base": 0,
+      "old_BEHOLDER_equals_new_BONELORD_column_cipher": false
+    },
+    {
+      "matrix": "old",
+      "plaintext": "BEHOLDER",
+      "alphabet_base": 1,
+      "modulus": 26,
+      "column_vector_cipher": [
+        22,
+        9,
+        20,
+        9,
+        10,
+        17,
+        23,
+        17
+      ],
+      "row_vector_cipher": [
+        1,
+        6,
+        4,
+        4,
+        13,
+        3,
+        5,
+        13
+      ]
+    },
+    {
+      "matrix": "new",
+      "plaintext": "BONELORD",
+      "alphabet_base": 1,
+      "modulus": 26,
+      "column_vector_cipher": [
+        10,
+        6,
+        0,
+        13,
+        23,
+        13,
+        25,
+        4
+      ],
+      "row_vector_cipher": [
+        25,
+        13,
+        23,
+        10,
+        9,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "alphabet_base": 1,
+      "old_BEHOLDER_equals_new_BONELORD_column_cipher": false
+    }
+  ],
+  "crib_3478": {
+    "assumption": "Treat 3478 as exactly one digit vector, rather than variable-length identifier",
+    "transforms": {
+      "old": {
+        "10": {
+          "forward": [
+            3,
+            6,
+            6,
+            1
+          ],
+          "inverse": [
+            0,
+            1,
+            2,
+            0
+          ]
+        },
+        "26": {
+          "forward": [
+            11,
+            0,
+            10,
+            25
+          ],
+          "inverse": [
+            22,
+            17,
+            10,
+            16
+          ]
+        },
+        "27": {
+          "forward": [
+            9,
+            26,
+            9,
+            24
+          ],
+          "inverse": [
+            4,
+            25,
+            14,
+            17
+          ]
+        },
+        "29": {
+          "forward": [
+            5,
+            26,
+            7,
+            22
+          ],
+          "inverse": [
+            1,
+            22,
+            27,
+            19
+          ]
+        },
+        "256": {
+          "forward": [
+            63,
+            26,
+            36,
+            51
+          ],
+          "inverse": [
+            208,
+            229,
+            116,
+            246
+          ]
+        }
+      },
+      "new": {
+        "10": {
+          "forward": [
+            2,
+            5,
+            3,
+            1
+          ],
+          "inverse": null
+        },
+        "26": {
+          "forward": [
+            22,
+            13,
+            17,
+            25
+          ],
+          "inverse": null
+        },
+        "27": {
+          "forward": [
+            22,
+            11,
+            16,
+            24
+          ],
+          "inverse": null
+        },
+        "29": {
+          "forward": [
+            22,
+            7,
+            14,
+            22
+          ],
+          "inverse": [
+            8,
+            2,
+            11,
+            11
+          ]
+        },
+        "256": {
+          "forward": [
+            22,
+            65,
+            43,
+            51
+          ],
+          "inverse": null
+        }
+      }
+    },
+    "limitation": "One 4-symbol Hill block cannot decode to an 8-letter name without an extra expansion layer. A numeral 3478 or variable-length code is a separate hypothesis."
+  },
+  "hill_screen": {
+    "candidate_count": 144,
+    "score": "fraction of positions matching 26 fixed common English trigrams; weak screening statistic only",
+    "best": [
+      {
+        "matrix": "old",
+        "orientation": "row",
+        "direction": "forward",
+        "digit_width": 1,
+        "digit_offset": 0,
+        "block_offset": 0,
+        "input_base": 1,
+        "output_base": 0,
+        "retained_digits": 11160,
+        "score": 0.004453549478934711,
+        "preview": "HVPREEIKREOSJNTIABZAEAUFYKISVACTIJPGSBSRDQFNUMWMCRAQIJWIAYDPOXDEBXHIYNAMCRTNOMVNLULQHYJJFOKYNTXTSCBPFGFRBEKUHKWKSZWSDBUGWWCBVHLJIIUOIQIIWVWNUPMS|CJJORSCKSTBRKUGPTBNHHKPHYTYWBXHIQGVLICSLNTXTETLJHRENLZUMQAKPUFNRRPPOGDXVPJGQGNOQTLFGKDVPRAMH|WV"
+      },
+      {
+        "matrix": "new",
+        "orientation": "row",
+        "direction": "forward",
+        "digit_width": 1,
+        "digit_offset": 0,
+        "block_offset": 1,
+        "input_base": 0,
+        "output_base": 0,
+        "retained_digits": 11100,
+        "score": 0.004387928718545715,
+        "preview": "GCYRVHQMTHATSATUEAGYLZMITXDBZPSTYMEMBHHACSFNPJIMXLNUVDLUKMNKGYSOIYENNBRKSOJXAOVOUEDROEZTPJXAWKMTCIQBOEZTVLZSHFBSVJRSJZXJJTAGGUQRRHMORJBTTNVS|CABTNLXSEUESTZSQOYULUWVTPRAXAMCLQYLSBLYMWKMTUCWOBVWSDLPRJBMUGSCUYEGXAILZXHKOPRAXIMQFSAKS|QQWYSEGPOY"
+      },
+      {
+        "matrix": "old",
+        "orientation": "row",
+        "direction": "forward",
+        "digit_width": 1,
+        "digit_offset": 0,
+        "block_offset": 2,
+        "input_base": 1,
+        "output_base": 0,
+        "retained_digits": 11012,
+        "score": 0.004061738424045491,
+        "preview": "TJQJYEZLYTOMIHZXDRDNUZLMRJQSIKQPNLWGTUSYKGYGAYDPXTJKDPOPCHDFPPFLNSWKJJJKUTPOITFPSTYJQMHVVGXVZJQRFWKQSCBPTYWSHAYMVRKLTEMFYZVGLNWJCKWSDBUGBOIS|QKJRFEUOPAMRILLGZDZKGEZPEUJQHKPHMZSQCTPMXTJKLQQJQSASPCMLOZQTLCCRVGGMABZAUBSJEUJQVGGGLKVI|JFFRRODJTH"
+      },
+      {
+        "matrix": "new",
+        "orientation": "row",
+        "direction": "forward",
+        "digit_width": 1,
+        "digit_offset": 0,
+        "block_offset": 2,
+        "input_base": 0,
+        "output_base": 0,
+        "retained_digits": 11012,
+        "score": 0.0038812167163101365,
+        "preview": "QUHNBTXPTLEQZTJBUGWRRJTQIWDWFBITQWBKOMRCNREKRJBTUIQOWAZTJZXJSEGPUGDOGUWOVJRSLJJTTJUNXFNZUYCZWYXVAIFUZVHTOQNWCKFQSIBPMOJJZJNKQCBNXZYWKMNKIGLW|HZDVEQXSQQLVNBRKASQOFPZTXJLUOYULDJSULHZQUIQOQIHNLJOWYUPPPRAXQUVVQQRQTTTEZPQNXJLUCSXKMCAM|EUMVQEUNUW"
+      },
+      {
+        "matrix": "new",
+        "orientation": "row",
+        "direction": "forward",
+        "digit_width": 1,
+        "digit_offset": 0,
+        "block_offset": 0,
+        "input_base": 0,
+        "output_base": 0,
+        "retained_digits": 11160,
+        "score": 0.0038300525518838516,
+        "preview": "YKMVDPCOUSLWSYSMTTTEJLGJFDQWSOJXNXNKTNAVUEURTXWQJJAUPVUMRJBTXHRIYIUMTZSQJHHRJXFRMKKUOKANAGFCMKYXZVHTWSIVWQDYOANORNIWKMNKFHWFCWSNHTSSPJIMPFURLDCW|HVDSUGXONHBVLLITAMCLOYULPHSAYIUMPRVPBPEPMKYXLFDNMCRROOPQRNUTTVFVSGWSXNXZGYZUJBMUQWSKRTJTAKDL|PL"
+      },
+      {
+        "matrix": "new",
+        "orientation": "row",
+        "direction": "forward",
+        "digit_width": 1,
+        "digit_offset": 0,
+        "block_offset": 3,
+        "input_base": 0,
+        "output_base": 0,
+        "retained_digits": 10940,
+        "score": 0.0038157536113382394,
+        "preview": "TJMKOIUTTLVSCKNBGWBOUOZTLJJTZJMQJFOOHFDYRTSQIWTQOGBQPJIMUALLQEUNLLITYIJMAUDRGWGUNRVKSQKDSOUARHCWRLNOUWOZRHTWHDAPPHZRRZIFOUCINLUSTXWQNFYKLLEZ|GWSRDZMRZLITYIUMEQGPUCBWQEUNUWVTLBILOKQWQWVKNFFSPVTPFVWTBPMVVRPAPXKREAGYRNUTQEUNZJKNGSOO|IEGTYIUMTX"
+      },
+      {
+        "matrix": "old",
+        "orientation": "row",
+        "direction": "forward",
+        "digit_width": 1,
+        "digit_offset": 0,
+        "block_offset": 3,
+        "input_base": 1,
+        "output_base": 0,
+        "retained_digits": 10940,
+        "score": 0.003724902334877805,
+        "preview": "MUGGPVPPABXOXSQXHKEKLDAPITFPEXWMCRMKOMJUKEMMBLAMPVIMIQIIBQOHRODJKUGPRXSIDDMNJIZQQGHGBZBZZZRWSWCSMSRKDFLVYWLSYOMLUWRNIPWBFJHEOWIOUMWMGNEGSSKV|HJNNYIYNCXAPBXHIFFLLNJYSRODJTHEPCJGHNVTSRLCGUTXOUIXLMHCPIAKRCDRWGEGNLHLUQAKPRODJUYYJNIRK|JONPBXHIUM"
+      },
+      {
+        "matrix": "old",
+        "orientation": "column",
+        "direction": "inverse",
+        "digit_width": 1,
+        "digit_offset": 0,
+        "block_offset": 1,
+        "input_base": 0,
+        "output_base": 0,
+        "retained_digits": 11100,
+        "score": 0.0029551356675920123,
+        "preview": "VXWVSGEVTXMIPVHXRSHBVWVYLEMEEJFFZOTJYPIXGWXIGAWHLXLQJNDWZHHHXQJRAVZMXBLWZISXLFRRJMUDYQZYGPWZVJEPMLDWYQZYUDCFQHADXBBGWODHNWJQBNITUQUNVMGCUNKX|GUVUODALYISYRAPWVDCBQCZMQHPPMFRORNPDBUZMVJEPUYCKGOUFWETDNKHQUSMMIBXAJAAZBGRYQHPPMRJYAMIY|FWXNEJFEVD"
+      }
+    ],
+    "controls": {
+      "seed": 469,
+      "null": "independent within-book digit permutations, preserving counts and lengths",
+      "replicates": 39,
+      "max_statistic_scores": [
+        0.002404290734233401,
+        0.0028163895702734624,
+        0.00291598323309641,
+        0.002959127057518032,
+        0.0029309397325517493,
+        0.003373945641986879,
+        0.0025758969641214353,
+        0.0025514853289593585,
+        0.002850271666518215,
+        0.002788622420524261,
+        0.0028116213683223993,
+        0.003561387066541706,
+        0.002493987708203438,
+        0.002867897472665352,
+        0.0026241799437675727,
+        0.003329017939707786,
+        0.003297307199120718,
+        0.002959127057518032,
+        0.0026241799437675727,
+        0.0029309397325517493,
+        0.0026241799437675727,
+        0.0027598896044158236,
+        0.0029309397325517493,
+        0.0029309397325517493,
+        0.0031278748850045997,
+        0.0031141234658362336,
+        0.0027598896044158236,
+        0.0038468583989741713,
+        0.002959127057518032,
+        0.0025758969641214353,
+        0.002959127057518032,
+        0.0026241799437675727,
+        0.003373945641986879,
+        0.00261756476216265,
+        0.0030647196682891654,
+        0.003244997295835587,
+        0.0028116213683223993,
+        0.0028116213683223993,
+        0.002733734281027884
+      ],
+      "familywise_empirical_p": 0.025,
+      "interpretation": "Small p establishes structure relative to this null only, never English or a translation. Shared book fragments invalidate naive independent-book inference."
+    },
+    "label_controls": {
+      "seed": 3478,
+      "null": "one global bijective digit relabeling, preserving all exact repeat/overlap/equality patterns and frequency spectrum (not named-digit counts)",
+      "replicates": 39,
+      "max_statistic_scores": [
+        0.004967801287948482,
+        0.0036055525509284298,
+        0.004047838086476541,
+        0.0030982321851649353,
+        0.0026886538806237675,
+        0.003339651593104071,
+        0.0034252749233820083,
+        0.0025969374048535865,
+        0.00394335902491486,
+        0.0030471410647069366,
+        0.0034804909324052022,
+        0.0037641154328732747,
+        0.004332520985648524,
+        0.004498594189315839,
+        0.003971477570177814,
+        0.0034627300893019866,
+        0.004477478284230322,
+        0.003724902334877805,
+        0.0039040713887339654,
+        0.005967756301772513,
+        0.0037488284910965324,
+        0.003634051058417371,
+        0.0036989088218975404,
+        0.0035139633808026634,
+        0.005820721769499418,
+        0.004945960798681077,
+        0.002747755999267265,
+        0.005054607816589945,
+        0.003249390739236393,
+        0.006408520624605109,
+        0.0042758877114705334,
+        0.0052351295243253,
+        0.0038468583989741713,
+        0.004088307440719542,
+        0.004122602616956444,
+        0.00338469760399038,
+        0.0034924330616996507,
+        0.004835676546968747,
+        0.003561387066541706
+      ],
+      "familywise_empirical_p": 0.275,
+      "interpretation": "Tests whether the specific digit values outperform relabelings while corpus duplication remains intact. No semantic holdout or English validation."
+    },
+    "block_controls": {
+      "seed": 160469,
+      "null": "shuffle nonoverlapping 16-digit blocks within each book, including one possible short final block; preserves named-digit counts and all within-block motifs, not inter-block boundaries or cross-book synchronization",
+      "block_digits": 16,
+      "replicates": 39,
+      "max_statistic_scores": [
+        0.004275407499777322,
+        0.004631691458092099,
+        0.004097265520619934,
+        0.004275407499777322,
+        0.004603303547251557,
+        0.004631691458092099,
+        0.005255188385142959,
+        0.004364478489356016,
+        0.004631691458092099,
+        0.004453549478934711,
+        0.0041791587171799765,
+        0.004422781839516202,
+        0.004151999277913169,
+        0.004513042693383879,
+        0.004631691458092099,
+        0.003971477570177814,
+        0.004364478489356016,
+        0.004451712546561279,
+        0.004477478284230322,
+        0.004242260131780847,
+        0.004242260131780847,
+        0.003919123541462546,
+        0.004186336510198629,
+        0.004364478489356016,
+        0.0047207624476707935,
+        0.004332520985648524,
+        0.004453549478934711,
+        0.004275407499777322,
+        0.004364478489356016,
+        0.004242260131780847,
+        0.004453549478934711,
+        0.004809833437249488,
+        0.004097265520619934,
+        0.0046334150994821474,
+        0.004275407499777322,
+        0.004275407499777322,
+        0.004387928718545715,
+        0.004422781839516202,
+        0.004186336510198629
+      ],
+      "familywise_empirical_p": 0.375,
+      "interpretation": "Exploratory whole-corpus comparison; no semantic holdout. Tests against a null retaining many local motifs, not all repeated modules."
+    }
+  },
+  "status": "No independently verified translation produced; bounded family only. Not a proof against all matrix or multi-layer ciphers."
+}

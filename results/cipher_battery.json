@@ -1,0 +1,583 @@
+{
+  "seed": 4693478,
+  "numpy_version": "2.3.5",
+  "scorer": {
+    "source": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+    "sha256": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+    "model": "log10 tetragrams with .01 additive smoothing; first80% model, last20% positive control; A-Z only; averaged within books"
+  },
+  "split": {
+    "train_ids": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "60",
+      "61",
+      "62",
+      "63",
+      "64",
+      "65",
+      "66",
+      "67",
+      "68",
+      "69"
+    ],
+    "holdout_ids": [
+      "20",
+      "54"
+    ],
+    "criterion": "No exact shared substring of >=16 digits across book groups; shorter leakage remains possible.",
+    "holdout_code_count": 61,
+    "warning": "Tiny holdout, no verified plaintext, short/transformed repeats may remain; historical public exposure means not prospectively blind."
+  },
+  "candidate_count": 1092,
+  "best_train_candidate": {
+    "family": "columnar",
+    "base": "symbols",
+    "width": 15,
+    "inverse": false
+  },
+  "train_best": -6.307687004863919,
+  "holdout_of_train_selected": -6.30735774514831,
+  "top10_train": [
+    {
+      "score": -6.307687004863919,
+      "candidate": {
+        "family": "columnar",
+        "base": "symbols",
+        "width": 15,
+        "inverse": false
+      }
+    },
+    {
+      "score": -6.348085939900629,
+      "candidate": {
+        "family": "columnar",
+        "base": "symbols",
+        "width": 7,
+        "inverse": false
+      }
+    },
+    {
+      "score": -6.360621521208567,
+      "candidate": {
+        "family": "columnar",
+        "base": "symbols",
+        "width": 11,
+        "inverse": false
+      }
+    },
+    {
+      "score": -6.363218572422815,
+      "candidate": {
+        "family": "affine",
+        "base": "digits",
+        "a": 15,
+        "b": 3
+      }
+    },
+    {
+      "score": -6.365713565624692,
+      "candidate": {
+        "family": "columnar",
+        "base": "symbols",
+        "width": 2,
+        "inverse": false
+      }
+    },
+    {
+      "score": -6.365713565624692,
+      "candidate": {
+        "family": "rail",
+        "base": "symbols",
+        "rails": 2,
+        "inverse": false
+      }
+    },
+    {
+      "score": -6.366361349900623,
+      "candidate": {
+        "family": "rail",
+        "base": "symbols",
+        "rails": 6,
+        "inverse": false
+      }
+    },
+    {
+      "score": -6.368259330384487,
+      "candidate": {
+        "family": "columnar",
+        "base": "symbols",
+        "width": 7,
+        "inverse": true
+      }
+    },
+    {
+      "score": -6.371688787191491,
+      "candidate": {
+        "family": "rail",
+        "base": "symbols",
+        "rails": 4,
+        "inverse": false
+      }
+    },
+    {
+      "score": -6.374421531681173,
+      "candidate": {
+        "family": "columnar",
+        "base": "symbols",
+        "width": 13,
+        "inverse": true
+      }
+    }
+  ],
+  "controls": {
+    "uniform": {
+      "replicates": 19,
+      "trials": [
+        {
+          "train_best": -6.469480843238169,
+          "holdout_of_train_selected": -6.59921545042705
+        },
+        {
+          "train_best": -6.463940142642462,
+          "holdout_of_train_selected": -6.425761823960168
+        },
+        {
+          "train_best": -6.452562438626287,
+          "holdout_of_train_selected": -6.374992190989636
+        },
+        {
+          "train_best": -6.448332230163484,
+          "holdout_of_train_selected": -6.406298506164214
+        },
+        {
+          "train_best": -6.4555049186941185,
+          "holdout_of_train_selected": -6.5526926285761355
+        },
+        {
+          "train_best": -6.458170873259479,
+          "holdout_of_train_selected": -6.441833469680933
+        },
+        {
+          "train_best": -6.471125372608277,
+          "holdout_of_train_selected": -6.544023743179901
+        },
+        {
+          "train_best": -6.452106805546695,
+          "holdout_of_train_selected": -6.319647162029826
+        },
+        {
+          "train_best": -6.462011330146677,
+          "holdout_of_train_selected": -6.301451263295119
+        },
+        {
+          "train_best": -6.467904288673261,
+          "holdout_of_train_selected": -6.269469018656153
+        },
+        {
+          "train_best": -6.463800538940927,
+          "holdout_of_train_selected": -6.280993819618785
+        },
+        {
+          "train_best": -6.4439997839564755,
+          "holdout_of_train_selected": -6.494741054740728
+        },
+        {
+          "train_best": -6.4569584963378475,
+          "holdout_of_train_selected": -6.46638114516761
+        },
+        {
+          "train_best": -6.452011646783911,
+          "holdout_of_train_selected": -6.639113120117715
+        },
+        {
+          "train_best": -6.44473466256622,
+          "holdout_of_train_selected": -6.225260041690545
+        },
+        {
+          "train_best": -6.459729215414819,
+          "holdout_of_train_selected": -6.450262220098736
+        },
+        {
+          "train_best": -6.466615250832822,
+          "holdout_of_train_selected": -6.483764583656328
+        },
+        {
+          "train_best": -6.448429397695401,
+          "holdout_of_train_selected": -6.40086035822384
+        },
+        {
+          "train_best": -6.448760375554642,
+          "holdout_of_train_selected": -6.57296031309823
+        }
+      ],
+      "holdout_mean": -6.434195890177455,
+      "holdout_sd": 0.11528571692191592,
+      "empirical_upper_tail_p": 0.25
+    },
+    "shuffle": {
+      "replicates": 19,
+      "trials": [
+        {
+          "train_best": -6.364278007133706,
+          "holdout_of_train_selected": -5.986119118839928
+        },
+        {
+          "train_best": -6.367594502285115,
+          "holdout_of_train_selected": -6.300232554738374
+        },
+        {
+          "train_best": -6.373971857474257,
+          "holdout_of_train_selected": -6.572477329312917
+        },
+        {
+          "train_best": -6.369830684658498,
+          "holdout_of_train_selected": -6.22669696990189
+        },
+        {
+          "train_best": -6.354113126446641,
+          "holdout_of_train_selected": -6.59731390189497
+        },
+        {
+          "train_best": -6.373025231465004,
+          "holdout_of_train_selected": -6.509767680126788
+        },
+        {
+          "train_best": -6.365428925041408,
+          "holdout_of_train_selected": -6.531857898217279
+        },
+        {
+          "train_best": -6.369662064487656,
+          "holdout_of_train_selected": -6.2672796946100275
+        },
+        {
+          "train_best": -6.36892127490451,
+          "holdout_of_train_selected": -6.3593363466779405
+        },
+        {
+          "train_best": -6.35756492020761,
+          "holdout_of_train_selected": -6.221862780074625
+        },
+        {
+          "train_best": -6.364935993945774,
+          "holdout_of_train_selected": -6.296713402434249
+        },
+        {
+          "train_best": -6.3812183427699285,
+          "holdout_of_train_selected": -6.459975975703409
+        },
+        {
+          "train_best": -6.378487028931195,
+          "holdout_of_train_selected": -6.5066557145834745
+        },
+        {
+          "train_best": -6.364531778396714,
+          "holdout_of_train_selected": -6.444302062615804
+        },
+        {
+          "train_best": -6.380560480095798,
+          "holdout_of_train_selected": -6.315922626787303
+        },
+        {
+          "train_best": -6.371626655203612,
+          "holdout_of_train_selected": -6.130378350152678
+        },
+        {
+          "train_best": -6.373163363525908,
+          "holdout_of_train_selected": -6.406080902585538
+        },
+        {
+          "train_best": -6.370380664855935,
+          "holdout_of_train_selected": -6.4715764830077385
+        },
+        {
+          "train_best": -6.3636804611405235,
+          "holdout_of_train_selected": -6.533965015695055
+        }
+      ],
+      "holdout_mean": -6.375711305682105,
+      "holdout_sd": 0.15888902403275962,
+      "empirical_upper_tail_p": 0.4
+    },
+    "blocks": {
+      "replicates": 19,
+      "trials": [
+        {
+          "train_best": -6.361348969410291,
+          "holdout_of_train_selected": -6.4308652803398205
+        },
+        {
+          "train_best": -6.373187200284463,
+          "holdout_of_train_selected": -6.381540369360329
+        },
+        {
+          "train_best": -6.360827499177615,
+          "holdout_of_train_selected": -6.481383731445158
+        },
+        {
+          "train_best": -6.363054733270642,
+          "holdout_of_train_selected": -6.333029912829621
+        },
+        {
+          "train_best": -6.370221626011484,
+          "holdout_of_train_selected": -6.038211624790671
+        },
+        {
+          "train_best": -6.373462326064707,
+          "holdout_of_train_selected": -6.3745582408362145
+        },
+        {
+          "train_best": -6.373854994969849,
+          "holdout_of_train_selected": -6.769124910195192
+        },
+        {
+          "train_best": -6.353687583167935,
+          "holdout_of_train_selected": -6.707832553974933
+        },
+        {
+          "train_best": -6.359305903193568,
+          "holdout_of_train_selected": -6.329505125353894
+        },
+        {
+          "train_best": -6.356495837968437,
+          "holdout_of_train_selected": -6.452620132374018
+        },
+        {
+          "train_best": -6.366188313856729,
+          "holdout_of_train_selected": -6.457318512079153
+        },
+        {
+          "train_best": -6.375253377192736,
+          "holdout_of_train_selected": -6.506258641311416
+        },
+        {
+          "train_best": -6.358281269219304,
+          "holdout_of_train_selected": -6.596136801018685
+        },
+        {
+          "train_best": -6.35404902253792,
+          "holdout_of_train_selected": -6.398595211745553
+        },
+        {
+          "train_best": -6.341708152683139,
+          "holdout_of_train_selected": -6.56633814876174
+        },
+        {
+          "train_best": -6.371275144967518,
+          "holdout_of_train_selected": -6.438969174772316
+        },
+        {
+          "train_best": -6.367555272317085,
+          "holdout_of_train_selected": -6.4943309919476
+        },
+        {
+          "train_best": -6.360462500387863,
+          "holdout_of_train_selected": -6.207852844476804
+        },
+        {
+          "train_best": -6.350401609519322,
+          "holdout_of_train_selected": -6.357664071545165
+        }
+      ],
+      "holdout_mean": -6.438007172587278,
+      "holdout_sd": 0.1597847349367426,
+      "empirical_upper_tail_p": 0.15
+    }
+  },
+  "positive_control_score": -4.143703333748963,
+  "shuffled_positive_control_score": -6.454145352961184,
+  "homophonic": {
+    "train_score": -5.616941790111061,
+    "holdout_score": -6.029118319499643,
+    "mapping": {
+      "00": "S",
+      "01": "D",
+      "02": "B",
+      "03": "W",
+      "04": "T",
+      "05": "O",
+      "06": "A",
+      "07": "N",
+      "08": "T",
+      "09": "E",
+      "10": "E",
+      "11": "L",
+      "12": "R",
+      "13": "E",
+      "14": "A",
+      "15": "O",
+      "16": "A",
+      "17": "B",
+      "18": "N",
+      "19": "E",
+      "20": "T",
+      "21": "I",
+      "22": "C",
+      "23": "T",
+      "24": "I",
+      "25": "S",
+      "26": "I",
+      "27": "I",
+      "28": "A",
+      "29": "D",
+      "30": "O",
+      "31": "T",
+      "32": "X",
+      "33": "T",
+      "34": "E",
+      "35": "I",
+      "36": "A",
+      "37": "N",
+      "38": "U",
+      "39": "H",
+      "40": "R",
+      "41": "C",
+      "42": "N",
+      "43": "S",
+      "44": "T",
+      "45": "L",
+      "46": "S",
+      "47": "T",
+      "48": "S",
+      "49": "N",
+      "50": "I",
+      "51": "S",
+      "52": "T",
+      "53": "N",
+      "54": "O",
+      "55": "N",
+      "56": "A",
+      "57": "S",
+      "58": "S",
+      "59": "U",
+      "60": "S",
+      "61": "E",
+      "62": "E",
+      "63": "S",
+      "64": "A",
+      "65": "E",
+      "66": "E",
+      "67": "S",
+      "68": "Y",
+      "69": "O",
+      "70": "A",
+      "71": "S",
+      "72": "T",
+      "73": "B",
+      "74": "F",
+      "75": "E",
+      "76": "O",
+      "77": "F",
+      "78": "T",
+      "79": "Z",
+      "80": "A",
+      "81": "S",
+      "82": "E",
+      "83": "N",
+      "84": "W",
+      "85": "R",
+      "86": "P",
+      "87": "D",
+      "88": "T",
+      "89": "I",
+      "90": "N",
+      "91": "E",
+      "92": "P",
+      "93": "C",
+      "94": "V",
+      "95": "R",
+      "96": "T",
+      "97": "K",
+      "98": "L",
+      "99": "P"
+    },
+    "holdout_output": [
+      {
+        "id": "20",
+        "output": "DFASEVEIAIFNTSERTRIKSESERIAPLAWA"
+      },
+      {
+        "id": "54",
+        "output": "TIAIFNTSERTRIKSESERIAPLAWASIT"
+      }
+    ],
+    "restarts": 4,
+    "steps_each": 5000,
+    "warning": "Limited stochastic search, not an exhaustive homophonic attack. No optimizer-matched null calibration; output is not a translation."
+  },
+  "selected_holdout_output": [
+    {
+      "id": "20",
+      "output": "NFVEANIIEFBANIBNLITIFENTTNFEEEII"
+    },
+    {
+      "id": "54",
+      "output": "FNLITIFENTTNFEEEIIFVANIAFLANI"
+    }
+  ],
+  "verdict": "NO_VERIFIED_TRANSLATION",
+  "limits": [
+    "Finite parameter grids only; no rejection of complete cipher families.",
+    "No paired game English ground truth.",
+    "English reference is literary English, not specifically Tibia language.",
+    "All interpretations of symbol letters are arbitrary; * maps to26 then mod26 in simple tests.",
+    "Control p values concern a scoring statistic only, with coarse resolution; no evidence of semantic accuracy.",
+    "Uniform, per-book per-layer symbol-shuffle and eight-symbol-block-shuffle nulls used. Block null retains within-block sequences but is not an exact bigram-preserving null."
+  ]
+}

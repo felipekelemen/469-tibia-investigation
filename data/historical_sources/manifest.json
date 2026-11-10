@@ -1,0 +1,178 @@
+[
+  {
+    "url": "https://www.tibiawiki.com.br/wiki/469",
+    "retrieved_at": "2026-11-10T17:04:52.611218+00:00",
+    "final_url": "https://www.tibiawiki.com.br/wiki/469",
+    "status": 200,
+    "sha256": "0faa21d79034e5adb511bc0294967f48f2cdf675dc3acf47bf0413a672ba17b5",
+    "bytes": 80403
+  },
+  {
+    "url": "https://tibia.fandom.com/wiki/Bonelord",
+    "retrieved_at": "2026-11-10T17:04:16.588181+00:00",
+    "final_url": "https://tibia.fandom.com/wiki/Bonelord",
+    "status": 402,
+    "sha256": "35e642f0e1bd426b9d8b0ee0284aefe801873dc13c18819fbeeaf2bf47136664",
+    "bytes": 55
+  },
+  {
+    "url": "https://tibia.fandom.com/wiki/Hellgate",
+    "retrieved_at": "2026-11-10T17:04:16.588885+00:00",
+    "final_url": "https://tibia.fandom.com/wiki/Hellgate",
+    "status": 402,
+    "sha256": "35e642f0e1bd426b9d8b0ee0284aefe801873dc13c18819fbeeaf2bf47136664",
+    "bytes": 55
+  },
+  {
+    "url": "https://web.archive.org/web/20090220222638id_/http://tibia.wikia.com/wiki/Hellgate",
+    "retrieved_at": "2026-11-10T17:06:15.891030+00:00",
+    "final_url": "https://web.archive.org/web/20090220222638id_/http://tibia.wikia.com/wiki/Hellgate",
+    "status": 429,
+    "sha256": "e859c18f0c0cc71ffed35c4e7ebc87cbb4f136116156f2de1588aeb71449533e",
+    "bytes": 620
+  },
+  {
+    "url": "https://web.archive.org/web/20110829055702id_/http://tibia.wikia.com/wiki/Hellgate",
+    "retrieved_at": "2026-11-10T17:06:15.891879+00:00",
+    "final_url": "https://web.archive.org/web/20110829055702id_/http://tibia.wikia.com/wiki/Hellgate",
+    "status": 429,
+    "sha256": "e859c18f0c0cc71ffed35c4e7ebc87cbb4f136116156f2de1588aeb71449533e",
+    "bytes": 620
+  },
+  {
+    "url": "https://www.tibiawiki.com.br/wiki/Hellgate",
+    "retrieved_at": "2026-11-10T17:04:52.610717+00:00",
+    "final_url": "https://www.tibiawiki.com.br/wiki/Hellgate",
+    "status": 200,
+    "sha256": "2632eee38b870432e4e368b52fa7561604c6322425c39f63c6e2e252f7b0d023",
+    "bytes": 177466
+  },
+  {
+    "url": "https://tibia.fandom.com/wiki/The_Honeminas_Formula_(Book)",
+    "retrieved_at": "2026-11-10T17:04:16.589497+00:00",
+    "final_url": "https://tibia.fandom.com/wiki/The_Honeminas_Formula_(Book)",
+    "status": 402,
+    "sha256": "35e642f0e1bd426b9d8b0ee0284aefe801873dc13c18819fbeeaf2bf47136664",
+    "bytes": 55
+  },
+  {
+    "url": "https://www.tibiawiki.com.br/wiki/The_Honeminas_Formula_(Book)",
+    "retrieved_at": "2026-11-10T17:04:52.611676+00:00",
+    "final_url": "https://www.tibiawiki.com.br/wiki/The_Honeminas_Formula_(Book)",
+    "status": 200,
+    "sha256": "48e8f94b7917e5cd9a2426df19c001fc61f833ad052f007b253ef554a50d0cc7",
+    "bytes": 68908
+  },
+  {
+    "url": "https://tibiawiki.com/wiki/The_Honeminas_Formula_(Book)",
+    "retrieved_at": "2026-11-10T17:06:15.892859+00:00",
+    "final_url": "https://sawsells.com/domain/tibiawiki.com",
+    "status": 200,
+    "sha256": "c9379c5442947faa4fb24e8deb191db50cd3ec1535ca2ee6fd6ca50808e58c86",
+    "bytes": 12654
+  },
+  {
+    "url": "https://tibia.fandom.com/wiki/469",
+    "retrieved_at": "2026-11-10T17:04:16.589827+00:00",
+    "final_url": "https://tibia.fandom.com/wiki/469",
+    "status": 402,
+    "sha256": "35e642f0e1bd426b9d8b0ee0284aefe801873dc13c18819fbeeaf2bf47136664",
+    "bytes": 55
+  },
+  {
+    "url": "https://www.tibia.com/forum/?action=thread&threadid=4141645&pagenumber=1",
+    "retrieved_at": "2026-11-10T17:05:40.672547+00:00",
+    "final_url": "https://www.tibia.com/forum/?action=thread&threadid=4141645&pagenumber=1",
+    "status": 200,
+    "sha256": "6f85425c3a0562512655a4e80ddc10e62f21f85eae1f0d68126467fc8af1d189",
+    "bytes": 166659
+  },
+  {
+    "url": "https://www.tibiawiki.com.br/wiki/3478",
+    "retrieved_at": "2026-11-10T17:05:40.671986+00:00",
+    "final_url": "https://www.tibiawiki.com.br/wiki/3478",
+    "status": 200,
+    "sha256": "cc3df33e073197a0887098edaa8ac023c067bfcfd0fa56fa12b7048af90dca39",
+    "bytes": 89395
+  },
+  {
+    "url": "https://www.tibia.com/news/?subtopic=newsarchive&id=1437",
+    "retrieved_at": "2026-11-10T17:05:40.671252+00:00",
+    "final_url": "https://www.tibia.com/news/?subtopic=newsarchive&id=1437",
+    "status": 403,
+    "sha256": "614c6910a06b51b4c4017e6ccb661dd5109d11efca261c145830c2aff08119a6",
+    "bytes": 6122
+  },
+  {
+    "url": "https://www.tibiawiki.com.br/wiki/Patches/8.61",
+    "retrieved_at": "2026-11-10T17:04:52.609762+00:00",
+    "final_url": "https://www.tibiawiki.com.br/wiki/Patches/8.61",
+    "status": 200,
+    "sha256": "2c1c02c3db1c6109bf6985a1c474420eafa103c955dffebd0768b23d192da1e9",
+    "bytes": 86518
+  },
+  {
+    "url": "https://tibiasecrets.com/articles",
+    "retrieved_at": "2026-11-10T17:06:15.892413+00:00",
+    "final_url": "https://tibiasecrets.com/articles",
+    "status": 200,
+    "sha256": "bb77ca987b6ed9958949211677d29df632e266a79478cba8e8396d6544c95795",
+    "bytes": 53969
+  },
+  {
+    "url": "https://tibiasecrets.com/",
+    "retrieved_at": "2026-11-10T17:04:16.590177+00:00",
+    "final_url": "https://tibiasecrets.com/",
+    "status": 200,
+    "sha256": "bb77ca987b6ed9958949211677d29df632e266a79478cba8e8396d6544c95795",
+    "bytes": 53969
+  },
+  {
+    "url": "https://tibiasecrets.com/?s=469",
+    "retrieved_at": "2026-11-10T17:04:52.612806+00:00",
+    "final_url": "https://tibiasecrets.com/?s=469",
+    "status": 200,
+    "sha256": "bb77ca987b6ed9958949211677d29df632e266a79478cba8e8396d6544c95795",
+    "bytes": 53969
+  },
+  {
+    "url": "https://tibiasecrets.com/sitemap.xml",
+    "retrieved_at": "2026-11-10T17:05:40.674529+00:00",
+    "final_url": "https://tibiasecrets.com/sitemap.xml",
+    "status": 200,
+    "sha256": "bb77ca987b6ed9958949211677d29df632e266a79478cba8e8396d6544c95795",
+    "bytes": 53969
+  },
+  {
+    "url": "https://tibiasecrets.com/bonelord_tome.html",
+    "retrieved_at": "2026-11-10T17:04:52.612212+00:00",
+    "final_url": "https://tibiasecrets.com/bonelord_tome",
+    "status": 200,
+    "sha256": "54dfa9ce0fb7cf130cfb3edc044a61d96f9a51a5869d5e7ea6c8c6cdb9071175",
+    "bytes": 44374
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=tibia.fandom.com/wiki/Hellgate&output=json&filter=statuscode:200&collapse=timestamp:4&filter=mimetype:text/html",
+    "retrieved_at": "2026-11-10T17:04:52.622755+00:00",
+    "final_url": "https://web.archive.org/cdx/search/cdx?url=tibia.fandom.com/wiki/Hellgate&output=json&filter=statuscode:200&collapse=timestamp:4&filter=mimetype:text/html",
+    "status": 200,
+    "sha256": "86d4feedd0b2665c250a30a6f665aa71bc810b31a396c9b92bdd75d307ca39d5",
+    "bytes": 1171
+  },
+  {
+    "url": "https://web.archive.org/cdx/search/cdx?url=tibia.wikia.com/wiki/Hellgate&output=json&filter=statuscode:200&collapse=timestamp:4&filter=mimetype:text/html",
+    "retrieved_at": "2026-11-10T17:05:40.672952+00:00",
+    "final_url": "https://web.archive.org/cdx/search/cdx?url=tibia.wikia.com/wiki/Hellgate&output=json&filter=statuscode:200&collapse=timestamp:4&filter=mimetype:text/html",
+    "status": 200,
+    "sha256": "e9b9920370dd510ec8c478ccbae25413bf9bc4fa992fff9cc449e7e693c9f570",
+    "bytes": 1314
+  },
+  {
+    "url": "https://www.tibiawiki.com.br/wiki/Bonelord",
+    "retrieved_at": "2026-11-10T17:04:16.590867+00:00",
+    "final_url": "https://www.tibiawiki.com.br/wiki/Bonelord",
+    "status": 200,
+    "sha256": "42eaf210473c282ec20be8aceec329280b802f55951a0ffea0fdde0b315fc642",
+    "bytes": 125313
+  }
+]

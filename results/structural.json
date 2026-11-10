@@ -1,0 +1,205 @@
+{
+  "seed": 4693478,
+  "replicates": 999,
+  "generator_tests": {
+    "domain": "imported reconstructed 00..99 codes; no arbitrary coordinate remapping; per-book resets",
+    "lcg_mod100": [],
+    "affine_order2_mod100": []
+  },
+  "honeminas": {
+    "vectors": [
+      [
+        4,
+        3,
+        1,
+        5,
+        3
+      ],
+      [
+        3,
+        4,
+        7,
+        8,
+        4
+      ]
+    ],
+    "dot_product": 83,
+    "limit": "Literal dot-product convention only. Undefined g,a,m,p and gate energy equation do not specify a decoder."
+  },
+  "substring_tests": {
+    "3478": {
+      "observed_raw": 24,
+      "digit_shuffle": {
+        "mean": 0.6036036036036037,
+        "min": 0,
+        "max": 4,
+        "p_upper_one_sided": 0.001,
+        "p_lower_one_sided": 1.0
+      },
+      "code_shuffle_padded": {
+        "mean": 1.2802802802802802,
+        "min": 0,
+        "max": 6,
+        "p_upper_one_sided": 0.001,
+        "p_lower_one_sided": 1.0
+      },
+      "block16_shuffle": {
+        "mean": 19.1021021021021,
+        "min": 18,
+        "max": 23,
+        "p_upper_one_sided": 0.001,
+        "p_lower_one_sided": 1.0
+      }
+    },
+    "43153": {
+      "observed_raw": 0,
+      "digit_shuffle": {
+        "mean": 0.12012012012012012,
+        "min": 0,
+        "max": 2,
+        "p_upper_one_sided": 1.0,
+        "p_lower_one_sided": 0.884
+      },
+      "code_shuffle_padded": {
+        "mean": 0.12012012012012012,
+        "min": 0,
+        "max": 2,
+        "p_upper_one_sided": 1.0,
+        "p_lower_one_sided": 0.887
+      },
+      "block16_shuffle": {
+        "mean": 0.24624624624624625,
+        "min": 0,
+        "max": 1,
+        "p_upper_one_sided": 1.0,
+        "p_lower_one_sided": 0.754
+      }
+    },
+    "34784": {
+      "observed_raw": 0,
+      "digit_shuffle": {
+        "mean": 0.06306306306306306,
+        "min": 0,
+        "max": 2,
+        "p_upper_one_sided": 1.0,
+        "p_lower_one_sided": 0.941
+      },
+      "code_shuffle_padded": {
+        "mean": 0.16016016016016016,
+        "min": 0,
+        "max": 3,
+        "p_upper_one_sided": 1.0,
+        "p_lower_one_sided": 0.849
+      },
+      "block16_shuffle": {
+        "mean": 0.0,
+        "min": 0,
+        "max": 0,
+        "p_upper_one_sided": 1.0,
+        "p_lower_one_sided": 1.0
+      }
+    },
+    "653": {
+      "observed_raw": 0,
+      "digit_shuffle": {
+        "mean": 8.333333333333334,
+        "min": 2,
+        "max": 18,
+        "p_upper_one_sided": 1.0,
+        "p_lower_one_sided": 0.001
+      },
+      "code_shuffle_padded": {
+        "mean": 8.357357357357357,
+        "min": 1,
+        "max": 22,
+        "p_upper_one_sided": 1.0,
+        "p_lower_one_sided": 0.001
+      },
+      "block16_shuffle": {
+        "mean": 0.6106106106106106,
+        "min": 0,
+        "max": 3,
+        "p_upper_one_sided": 1.0,
+        "p_lower_one_sided": 0.527
+      }
+    },
+    "768": {
+      "observed_raw": 0,
+      "digit_shuffle": {
+        "mean": 9.72872872872873,
+        "min": 2,
+        "max": 20,
+        "p_upper_one_sided": 1.0,
+        "p_lower_one_sided": 0.001
+      },
+      "code_shuffle_padded": {
+        "mean": 5.882882882882883,
+        "min": 0,
+        "max": 15,
+        "p_upper_one_sided": 1.0,
+        "p_lower_one_sided": 0.006
+      },
+      "block16_shuffle": {
+        "mean": 1.2882882882882882,
+        "min": 0,
+        "max": 4,
+        "p_upper_one_sided": 1.0,
+        "p_lower_one_sided": 0.21
+      }
+    },
+    "90871": {
+      "observed_raw": 0,
+      "digit_shuffle": {
+        "mean": 0.12612612612612611,
+        "min": 0,
+        "max": 2,
+        "p_upper_one_sided": 1.0,
+        "p_lower_one_sided": 0.883
+      },
+      "code_shuffle_padded": {
+        "mean": 0.02702702702702703,
+        "min": 0,
+        "max": 1,
+        "p_upper_one_sided": 1.0,
+        "p_lower_one_sided": 0.973
+      },
+      "block16_shuffle": {
+        "mean": 0.0,
+        "min": 0,
+        "max": 0,
+        "p_upper_one_sided": 1.0,
+        "p_lower_one_sided": 1.0
+      }
+    },
+    "97664": {
+      "observed_raw": 0,
+      "digit_shuffle": {
+        "mean": 0.09309309309309309,
+        "min": 0,
+        "max": 2,
+        "p_upper_one_sided": 1.0,
+        "p_lower_one_sided": 0.911
+      },
+      "code_shuffle_padded": {
+        "mean": 0.05805805805805806,
+        "min": 0,
+        "max": 2,
+        "p_upper_one_sided": 1.0,
+        "p_lower_one_sided": 0.944
+      },
+      "block16_shuffle": {
+        "mean": 0.0,
+        "min": 0,
+        "max": 0,
+        "p_upper_one_sided": 1.0,
+        "p_lower_one_sided": 1.0
+      }
+    }
+  },
+  "limitations": [
+    "Code-shuffle uses padded reconstructed digits (11458 versus11263), a sensitivity check, not calibrated identical-sample inference.",
+    "Repeated motifs inflate effective sample size; raw substring enrichment is not semantic evidence.",
+    "Seven prelisted needles and two tails; p values exploratory, uncorrected; no translation claimed.",
+    "LCG rejections cover these exact recurrences only, not nonlinear, hidden-state or remapped generators."
+  ]
+}

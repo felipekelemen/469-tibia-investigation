@@ -1,0 +1,256 @@
+{
+  "book_count": 70,
+  "digits": 11263,
+  "unique_books": 70,
+  "odd_length_books": 37,
+  "source_copies": {
+    "s2ward": {
+      "url": "https://github.com/s2ward/469.git",
+      "commit": "4b1c4d3d2b07ed373f4cca44ac1270638614cef5",
+      "corpus_path": "books.json",
+      "sha256": "3442402335f33e2124a0d1e05658a1d78d044ac4383c3c84442ac21c350a7eef",
+      "same_order_and_content": true,
+      "differences_at_book_ids": [],
+      "book_count": 70
+    },
+    "arturo": {
+      "url": "https://github.com/arturoornelasb/tibia-bonelord-469-cipher.git",
+      "commit": "007dcf1707acc9b991642e68bcac08214a5bb38c",
+      "corpus_path": "data/books.json",
+      "sha256": "3442402335f33e2124a0d1e05658a1d78d044ac4383c3c84442ac21c350a7eef",
+      "same_order_and_content": true,
+      "differences_at_book_ids": [],
+      "book_count": 70
+    },
+    "kimlage": {
+      "url": "https://github.com/kimlage/tibia-469-cipher-casestudy.git",
+      "commit": "4d726a8de7af1f2216bd48d9b86165e0c50616b6",
+      "corpus_path": "analysis/audit_20260609/books_digits.json",
+      "sha256": "3153ff6407005bd5642ec853e1c903f97d2d8b82965fc89bf51859c2649259b2",
+      "same_order_and_content": true,
+      "differences_at_book_ids": [],
+      "book_count": 70
+    }
+  },
+  "source_independence": "Copies share lineage; agreement does not verify against live game or historical screenshots.",
+  "reconstruction": {
+    "valid_books": 70,
+    "symbol_count": 5729,
+    "inserted_leading_zeros": 195,
+    "ambiguous_alignment_book_ids": [
+      "2",
+      "10",
+      "13",
+      "14",
+      "19",
+      "27",
+      "35",
+      "57",
+      "67"
+    ],
+    "observed_codes": 99,
+    "map_codes": 99,
+    "alphabet": [
+      "*",
+      "A",
+      "B",
+      "C",
+      "E",
+      "F",
+      "I",
+      "L",
+      "N",
+      "O",
+      "R",
+      "S",
+      "T",
+      "V"
+    ],
+    "symbol_counts": {
+      "I": 1157,
+      "T": 595,
+      "E": 990,
+      "L": 212,
+      "B": 191,
+      "N": 708,
+      "A": 488,
+      "F": 565,
+      "S": 244,
+      "*": 120,
+      "V": 370,
+      "C": 47,
+      "R": 32,
+      "O": 10
+    },
+    "token_input_sha256": "61e2ba8d897b20c9adca2f810b3946cc26111e0161da90f242f3449a8e7148c5",
+    "map_input_sha256": "405eff8a2331c6e953d80ccfbdde94be5b4caa6fecd51e3380ae686faed22235",
+    "limitation": "Upstream token stream and labels imported; zero omission alignment independently checked. No semantic validity implied. Workbook decodedbase not independently compared: XLSX files are Git LFS pointers."
+  },
+  "containment_pairs": [
+    [
+      0,
+      10
+    ],
+    [
+      0,
+      35
+    ],
+    [
+      0,
+      66
+    ],
+    [
+      1,
+      10
+    ],
+    [
+      1,
+      35
+    ],
+    [
+      11,
+      58
+    ],
+    [
+      12,
+      21
+    ],
+    [
+      12,
+      26
+    ],
+    [
+      22,
+      2
+    ],
+    [
+      25,
+      39
+    ],
+    [
+      27,
+      10
+    ],
+    [
+      27,
+      35
+    ],
+    [
+      28,
+      48
+    ],
+    [
+      32,
+      58
+    ],
+    [
+      33,
+      10
+    ],
+    [
+      33,
+      35
+    ],
+    [
+      33,
+      66
+    ],
+    [
+      43,
+      58
+    ],
+    [
+      43,
+      59
+    ],
+    [
+      44,
+      52
+    ],
+    [
+      46,
+      51
+    ],
+    [
+      47,
+      5
+    ],
+    [
+      47,
+      9
+    ],
+    [
+      50,
+      9
+    ],
+    [
+      61,
+      65
+    ],
+    [
+      62,
+      3
+    ],
+    [
+      62,
+      17
+    ],
+    [
+      66,
+      10
+    ],
+    [
+      66,
+      35
+    ],
+    [
+      68,
+      17
+    ],
+    [
+      69,
+      9
+    ]
+  ],
+  "contained_book_count": 20,
+  "overlap_component_sizes": {
+    "8": [
+      70
+    ],
+    "12": [
+      70
+    ],
+    "16": [
+      68,
+      2
+    ],
+    "24": [
+      67,
+      2,
+      1
+    ],
+    "32": [
+      65,
+      2,
+      2,
+      1
+    ],
+    "48": [
+      55,
+      4,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "book_holdout_count_at_16": 2,
+  "novel_fragment_count_at_12": 3,
+  "novel_fragment_digit_count": 58
+}

@@ -1,0 +1,9 @@
+sources/arturo/
+sources/s2ward/
+sources/kimlage/
+__pycache__/
+*.pyc
+.venv/
+data/historical_sources/*.html
+data/historical_sources/*.txt
+data/historical_refresh/

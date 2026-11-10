@@ -1,0 +1,14 @@
+{
+  "seed": 469,
+  "controls": 100,
+  "random_mapping_passes": {
+    "test_overlap_consistency": 100,
+    "test_repeating_sequences": 100
+  },
+  "interpretation": "These source tests compare the same substring decoded with the same mapping against itself. They must pass for any deterministic mapping; zero ability to distinguish translations from random assignments.",
+  "other_limitations": [
+    "Upstream IC measures nonuniformity, not German identification.",
+    "Upstream permutation control compares a fitted mapping to unfitted random maps on reused books; does not account for mapping search, manual repairs or holdout.",
+    "Original validation suite reproduced verbatim with fixed seed; its PASS conclusions are not endorsed."
+  ]
+}

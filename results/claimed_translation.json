@@ -1,0 +1,38 @@
+{
+  "method": "Published mapping_v7 applied to kimlage reconstruction; spaces only removed in exact phrase matching. Tokenization differs from Arturo CADST, so this is a transfer test, not reproduction of its training score.",
+  "unmapped_symbols": 51,
+  "exact_claimed_phrase_counts": {
+    "TUN DIE REIST EN ER": 0,
+    "IM MIN HEIME DIE URALTE STEIN": 0,
+    "TRAUT IST LEICH AN BERUCHTIG": 0,
+    "DEN EN DE REDER KOENIG": 4,
+    "SALZBERG": 0,
+    "ORANGENSTRASSE": 0,
+    "GOTTDIENER": 0,
+    "WEICHSTEIN": 0
+  },
+  "literal_examples": [
+    {
+      "book_id": "0",
+      "text": "EURALTESTEINENHIRUNEAMARSCISTSCHAUNRUIINWIISETNHIE?EIGETESINCHNESRERSCERHD"
+    },
+    {
+      "book_id": "1",
+      "text": "KELSEMTRUNRDENENDEREDESSDIZARUNEDDUNTERLAUSINHI"
+    },
+    {
+      "book_id": "2",
+      "text": "MTDENDEESCHETRASESRWRDAEIETAUTRISTEILCHANHEARUCHTIGERS?LWUOEHSGSEIIGEAMTWIIETUNNRTAGRSIERG"
+    },
+    {
+      "book_id": "3",
+      "text": "TIURIHNHIMNUSTEHWRLGTNELNRHELUIRUNNHWNDFINDENTEIG?STEIEHHISWIRNSCHATEMN"
+    },
+    {
+      "book_id": "4",
+      "text": "HHISLUIRUNNSSINHIMNUSTEHWRLGTNEESTEIEETIG?STEIERGEHHIIHULNRHINDFINDENTE"
+    }
+  ],
+  "holdout_status": "Mapping was fitted on the public corpus. No part of these books is independent validation of this mapping.",
+  "conclusion": "A mapping application and word coverage do not establish readable prose. Anagrams, substitutions, deletions and narrative repairs require separately specified deterministic rules and independent holdout."
+}

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "H01",
+    "hypothesis": "Camada publicada de5729 símbolos",
+    "status": "reproduced_conditionally",
+    "evidence": "70/70 roundtrips;195 zeros; tokenização e mapa importados; não unicidade ou significado",
+    "artifact": "results/audit.json"
+  },
+  {
+    "id": "H02",
+    "hypothesis": "Matriz posterior como chave Hill mod26 ou10",
+    "status": "rejected_in_full_domain",
+    "evidence": "det=-18; matriz singular; subconjuntos e outras camadas não excluídos",
+    "artifact": "results/matrix.json"
+  },
+  {
+    "id": "H03",
+    "hypothesis": "Matriz antiga como Hill mod26 nas convenções enumeradas",
+    "status": "no_translation_found",
+    "evidence": "144 variantes no conjunto matricial; triagem sem promoção semântica",
+    "artifact": "results/matrix.json"
+  },
+  {
+    "id": "H04",
+    "hypothesis": "Antiga BEHOLDER e posterior BONELORD produzem mesmo criptograma",
+    "status": "rejected_for_tested_conventions",
+    "evidence": "vetores linha/coluna A0/A1 mod26; equivalência testada específica",
+    "artifact": "results/matrix.json"
+  },
+  {
+    "id": "H05",
+    "hypothesis": "Mudança matriz coincide com renomeação",
+    "status": "unresolved",
+    "evidence": "rename8.61=23/08/2010 em fonte secundária; mudança matriz sem data demonstrada",
+    "artifact": "docs/history.md"
+  },
+  {
+    "id": "H06",
+    "hypothesis": "3478 significa criatura",
+    "status": "circumstantial_only",
+    "evidence": "identificador nostalgia e24 ocorrências; sem gloss lexical atestado",
+    "artifact": "results/structural.json"
+  },
+  {
+    "id": "H07",
+    "hypothesis": "Honeminas define decodificador",
+    "status": "not_specified",
+    "evidence": "produto escalar83; variáveis restantes não especificadas para livros",
+    "artifact": "results/structural.json"
+  },
+  {
+    "id": "H08",
+    "hypothesis": "Gerador afim de primeira ordem mod100",
+    "status": "rejected_exact_model",
+    "evidence": "nenhum par a,c em 100x100 satisfaz todos códigos reconstruídos",
+    "artifact": "results/structural.json"
+  },
+  {
+    "id": "H09",
+    "hypothesis": "Recorrência linear afim de ordem2 mod100",
+    "status": "rejected_exact_model",
+    "evidence": "nenhuma tripla a,b,c satisfaz todos códigos reconstruídos",
+    "artifact": "results/structural.json"
+  },
+  {
+    "id": "H10",
+    "hypothesis": "Testes de consistência upstream validam tradução alemã",
+    "status": "validation_failure",
+    "evidence": "dois testes passam100/100 mapas aleatórios; não discriminam semântica",
+    "artifact": "results/upstream_validation_audit.json"
+  },
+  {
+    "id": "H11",
+    "hypothesis": "Mapa v7 transfere literalmente à camada row0",
+    "status": "transfer_not_supported",
+    "evidence": "51 posições não mapeadas; não é reprodução de CADST nem da pontuação94,6%",
+    "artifact": "results/claimed_translation.json"
+  },
+  {
+    "id": "H12",
+    "hypothesis": "Afins, Vigenere, transposições e busca homofônica limitada",
+    "status": "bounded_screen",
+    "evidence": "ver bateria e controles; falha não exclui famílias completas",
+    "artifact": "results/cipher_battery.json"
+  },
+  {
+    "id": "H13",
+    "hypothesis": "Poema/NPC/livros necessariamente usam mesma cifra",
+    "status": "not_established",
+    "evidence": "sem traduções paralelas atestadas; ausência de strings não prova sistemas distintos",
+    "artifact": "docs/history.md"
+  }
+]

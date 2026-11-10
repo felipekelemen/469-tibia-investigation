@@ -1,0 +1,144 @@
+BONELORD 469 CIPHER - SOLUTION VALIDATION SUITE
+======================================================================
+Testing whether mapping v7 is a legitimate solution
+or an artifact of force-fitting.
+
+
+======================================================================
+TEST 1: BOOK OVERLAP CONSISTENCY
+======================================================================
+If overlapping books decode differently at overlap points,
+the mapping is WRONG.
+
+Overlaps found (>= 10 digits): 164
+Consistent: 164
+Inconsistent: 0
+Total overlap characters verified: 5991
+
+RESULT: PASS - All 164 overlaps decode consistently
+        This is strong evidence the mapping is correct.
+
+======================================================================
+TEST 2: DECODED LETTER FREQUENCY vs GERMAN
+======================================================================
+If decoded letter frequencies don't match German, the mapping
+is either wrong or the plaintext isn't German.
+
+Letter  Observed%    German%      Delta     Status
+----------------------------------------------------
+     E      17.50      17.40      +0.10         OK
+     N      10.81       9.78      +1.03         OK
+     I      10.81       7.55      +3.26       WARN
+     S       7.42       7.27      +0.15         OK
+     R       8.04       7.00      +1.04         OK
+     A       5.79       6.51      -0.72         OK
+     T       6.55       6.15      +0.40         OK
+     D       6.65       5.08      +1.57         OK
+     H       4.64       4.76      -0.12         OK
+     U       5.68       4.35      +1.33         OK
+     L       2.11       3.44      -1.33         OK
+     C       1.73       3.06      -1.33         OK
+     G       3.85       3.01      +0.84         OK
+     M       2.49       2.53      -0.04         OK
+     O       2.36       2.51      -0.15         OK
+     B       0.45       1.89      -1.44         OK
+     W       2.04       1.89      +0.15         OK
+     F       0.21       1.66      -1.45         OK
+     K       0.42       1.21      -0.79         OK
+     Z       0.45       1.13      -0.68         OK
+     V       0.00       0.67      -0.67         OK
+     P       0.00       0.67      -0.67         OK
+
+Max absolute delta: 3.26%
+Chi-squared statistic: 8.66
+
+RESULT: PASS - Frequencies closely match German
+
+======================================================================
+TEST 3: INDEX OF COINCIDENCE (mapping-independent)
+======================================================================
+IC proves what language and code length the cipher uses
+WITHOUT needing a specific mapping.
+
+  1-digit units: IC = 0.108252, normalized = 1.083, alphabet = 10 unique units
+  2-digit units: IC = 0.016474, normalized = 1.647, alphabet = 100 unique units
+  3-digit units: IC = 0.005347, normalized = 2.411, alphabet = 451 unique units
+
+Interpretation:
+  - 2-digit normalized IC near 1.67 = German text (CONFIRMS cipher type)
+  - 1-digit or 3-digit IC near 1.67 would mean different code length
+  - IC = 1.0 would mean random/no structure
+
+RESULT: PASS - 2-digit IC confirms structured German text
+
+======================================================================
+TEST 4: PERMUTATION TEST (v7 vs 200 random mappings)
+======================================================================
+If random mappings produce similar word coverage as v7,
+then v7's coverage is meaningless.
+
+V7 mapping German word hits: 383
+Random mappings avg: 169.8
+Random mappings max: 259
+Random mappings >= v7: 0/200
+P-value: 0.0000
+V7 / random ratio: 2.3x
+
+RESULT: PASS - v7 is better than all 200 random mappings
+        p < 0.0050
+
+======================================================================
+TEST 5: REPEATING SEQUENCE CONSISTENCY
+======================================================================
+If identical digit sequences in different books decode to
+different text, the cipher model is broken.
+
+Unique 20-digit sequences appearing in 2+ books: 999
+
+Sequence occurrences checked: 2378
+Inconsistencies: 0
+
+RESULT: PASS - All 2378 sequence occurrences decode consistently
+
+======================================================================
+WHAT WOULD DISPROVE THIS SOLUTION?
+======================================================================
+
+1. IN-GAME VERIFICATION FAILURES:
+   - Book transcriptions don't match current in-game text
+   - NPC dialogues used as cribs don't actually exist
+   - Decoded words produce no NPC reactions when tested
+
+2. COMPUTATIONAL RED FLAGS:
+   - Book overlaps decode inconsistently (Test 1)
+   - Letter frequencies don't match German (Test 2)
+   - IC doesn't indicate German homophonic cipher (Test 3)
+   - Random mappings perform as well as v7 (Test 4)
+
+3. LINGUISTIC FAILURES:
+   - A native German speaker says the text is nonsensical
+   - The "Middle High German" vocabulary doesn't check out
+   - Proper noun anagrams (SALZBERG, WEICHSTEIN) are coincidental
+
+STRONGEST INDEPENDENT EVIDENCE:
+   - IC is calculated from raw digits, no mapping needed
+   - Book overlaps are structural, can't be faked
+   - 12x repeating phrases across books = real language, not noise
+
+======================================================================
+SUMMARY
+======================================================================
+               overlap: PASS
+             frequency: PASS
+                    ic: PASS
+           permutation: PASS
+             repeating: PASS
+
+  Total: 5/5 tests passed
+
+  CONCLUSION: All computational tests PASS.
+  The mapping is internally consistent and statistically significant.
+  Force-fitting is extremely unlikely.
+
+  REMAINING QUESTION: Does the content match Tibia lore?
+  This can ONLY be verified in-game or by CipSoft.
