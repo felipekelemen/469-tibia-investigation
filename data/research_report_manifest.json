@@ -1,0 +1,14 @@
+{
+  "title": "Tibia 469: Evidence, Hypotheses, and a Reproducible Path Toward Translation",
+  "source": "user supplied pasted report",
+  "sha256": "0d8d1c61d34912b5e7d0a4aa0b234c1b14253cc59ca22adea9f2ab69f5bb9e9d",
+  "bytes": 39182,
+  "ingested_utc": "2026-11-10T18:01:46.458853+00:00",
+  "citation_markers": 73,
+  "resolved_bibliography_in_upload": false,
+  "raw_report_publication": "not included; local data/private/deep_research_received.txt",
+  "limitations": [
+    "Report includes internal citation IDs but no resolved source bibliography. IDs cannot be independently fetched as source URLs.",
+    "Claims selected for planning were crosschecked against local artifacts and independently rediscovered sources; remaining source claims stay unverified."
+  ]
+}

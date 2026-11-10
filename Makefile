@@ -1,5 +1,5 @@
 PYTHON ?= python3
-.PHONY: sources audit experiments round2 test reproduce
+.PHONY: sources audit experiments round2 research-audit test reproduce
 sources:
 	$(PYTHON) scripts/bootstrap_sources.py
 audit:
@@ -15,6 +15,8 @@ round2: audit
 	$(PYTHON) scripts/homophonic_controls.py
 	$(PYTHON) scripts/residual_channel.py
 	$(PYTHON) scripts/map_geometry.py
+research-audit:
+	$(PYTHON) scripts/audit_external_samples.py
 test:
 	$(PYTHON) -m unittest discover -s tests -v
 reproduce: sources experiments test

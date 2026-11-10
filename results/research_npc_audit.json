@@ -1,0 +1,1099 @@
+{
+  "audit_date_utc": "2026-11-10T18:01:22.994094+00:00",
+  "scope": "Deep Research NPC/developer/phrase claims; audit, not cipher discovery",
+  "corpus_sha256": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+  "report_sha256": "0d8d1c61d34912b5e7d0a4aa0b234c1b14253cc59ca22adea9f2ab69f5bb9e9d",
+  "indexing": "Zero-based book IDs and digit offsets; exact overlapping raw substring matches; no padding or normalization beyond corpus file.",
+  "substring_audit": {
+    "chayenne_part1": {
+      "needle": "114514519485611451908304576512282177",
+      "digit_length": 36,
+      "total_occurrences": 11,
+      "book_count": 11,
+      "books": [
+        {
+          "book_id": "1",
+          "occurrence_count": 1,
+          "digit_offsets": [
+            16
+          ]
+        },
+        {
+          "book_id": "8",
+          "occurrence_count": 1,
+          "digit_offsets": [
+            6
+          ]
+        },
+        {
+          "book_id": "10",
+          "occurrence_count": 1,
+          "digit_offsets": [
+            165
+          ]
+        },
+        {
+          "book_id": "19",
+          "occurrence_count": 1,
+          "digit_offsets": [
+            48
+          ]
+        },
+        {
+          "book_id": "27",
+          "occurrence_count": 1,
+          "digit_offsets": [
+            13
+          ]
+        },
+        {
+          "book_id": "31",
+          "occurrence_count": 1,
+          "digit_offsets": [
+            143
+          ]
+        },
+        {
+          "book_id": "35",
+          "occurrence_count": 1,
+          "digit_offsets": [
+            172
+          ]
+        },
+        {
+          "book_id": "37",
+          "occurrence_count": 1,
+          "digit_offsets": [
+            55
+          ]
+        },
+        {
+          "book_id": "41",
+          "occurrence_count": 1,
+          "digit_offsets": [
+            72
+          ]
+        },
+        {
+          "book_id": "63",
+          "occurrence_count": 1,
+          "digit_offsets": [
+            53
+          ]
+        },
+        {
+          "book_id": "66",
+          "occurrence_count": 1,
+          "digit_offsets": [
+            165
+          ]
+        }
+      ]
+    },
+    "chayenne_part2": {
+      "needle": "6612527570584",
+      "digit_length": 13,
+      "total_occurrences": 9,
+      "book_count": 9,
+      "books": [
+        {
+          "book_id": "2",
+          "occurrence_count": 1,
+          "digit_offsets": [
+            111
+          ]
+        },
+        {
+          "book_id": "5",
+          "occurrence_count": 1,
+          "digit_offsets": [
+            72
+          ]
+        },
+        {
+          "book_id": "9",
+          "occurrence_count": 1,
+          "digit_offsets": [
+            70
+          ]
+        },
+        {
+          "book_id": "22",
+          "occurrence_count": 1,
+          "digit_offsets": [
+            73
+          ]
+        },
+        {
+          "book_id": "28",
+          "occurrence_count": 1,
+          "digit_offsets": [
+            21
+          ]
+        },
+        {
+          "book_id": "46",
+          "occurrence_count": 1,
+          "digit_offsets": [
+            207
+          ]
+        },
+        {
+          "book_id": "48",
+          "occurrence_count": 1,
+          "digit_offsets": [
+            44
+          ]
+        },
+        {
+          "book_id": "51",
+          "occurrence_count": 1,
+          "digit_offsets": [
+            217
+          ]
+        },
+        {
+          "book_id": "53",
+          "occurrence_count": 1,
+          "digit_offsets": [
+            188
+          ]
+        }
+      ]
+    },
+    "chayenne_concatenated": {
+      "needle": "1145145194856114519083045765122821776612527570584",
+      "digit_length": 49,
+      "total_occurrences": 0,
+      "book_count": 0,
+      "books": []
+    },
+    "knightmare_concatenated": {
+      "needle": "347867908719766434660345",
+      "digit_length": 24,
+      "total_occurrences": 0,
+      "book_count": 0,
+      "books": []
+    },
+    "evil_eye": {
+      "needle": "653768764",
+      "digit_length": 9,
+      "total_occurrences": 0,
+      "book_count": 0,
+      "books": []
+    },
+    "herrera_hex": {
+      "needle": "62792068657272657261",
+      "digit_length": 20,
+      "total_occurrences": 0,
+      "book_count": 0,
+      "books": []
+    },
+    "knightmare_token_3478": {
+      "needle": "3478",
+      "digit_length": 4,
+      "total_occurrences": 24,
+      "book_count": 24,
+      "books": [
+        {
+          "book_id": "0",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "5",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "6",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "7",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "9",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "10",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "11",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "13",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "19",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "21",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "24",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "32",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "35",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "36",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "38",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "40",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "43",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "47",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "50",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "56",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "58",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "59",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "66",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "69",
+          "occurrence_count": 1
+        }
+      ]
+    },
+    "knightmare_token_67": {
+      "needle": "67",
+      "digit_length": 2,
+      "total_occurrences": 189,
+      "book_count": 64,
+      "books": [
+        {
+          "book_id": "0",
+          "occurrence_count": 4
+        },
+        {
+          "book_id": "2",
+          "occurrence_count": 2
+        },
+        {
+          "book_id": "3",
+          "occurrence_count": 4
+        },
+        {
+          "book_id": "4",
+          "occurrence_count": 4
+        },
+        {
+          "book_id": "5",
+          "occurrence_count": 2
+        },
+        {
+          "book_id": "6",
+          "occurrence_count": 2
+        },
+        {
+          "book_id": "7",
+          "occurrence_count": 2
+        },
+        {
+          "book_id": "8",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "9",
+          "occurrence_count": 3
+        },
+        {
+          "book_id": "10",
+          "occurrence_count": 5
+        },
+        {
+          "book_id": "11",
+          "occurrence_count": 2
+        },
+        {
+          "book_id": "12",
+          "occurrence_count": 3
+        },
+        {
+          "book_id": "13",
+          "occurrence_count": 3
+        },
+        {
+          "book_id": "14",
+          "occurrence_count": 2
+        },
+        {
+          "book_id": "15",
+          "occurrence_count": 2
+        },
+        {
+          "book_id": "16",
+          "occurrence_count": 3
+        },
+        {
+          "book_id": "17",
+          "occurrence_count": 6
+        },
+        {
+          "book_id": "18",
+          "occurrence_count": 2
+        },
+        {
+          "book_id": "19",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "21",
+          "occurrence_count": 4
+        },
+        {
+          "book_id": "22",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "23",
+          "occurrence_count": 2
+        },
+        {
+          "book_id": "24",
+          "occurrence_count": 2
+        },
+        {
+          "book_id": "26",
+          "occurrence_count": 3
+        },
+        {
+          "book_id": "27",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "28",
+          "occurrence_count": 2
+        },
+        {
+          "book_id": "29",
+          "occurrence_count": 5
+        },
+        {
+          "book_id": "30",
+          "occurrence_count": 3
+        },
+        {
+          "book_id": "31",
+          "occurrence_count": 2
+        },
+        {
+          "book_id": "32",
+          "occurrence_count": 3
+        },
+        {
+          "book_id": "33",
+          "occurrence_count": 4
+        },
+        {
+          "book_id": "34",
+          "occurrence_count": 3
+        },
+        {
+          "book_id": "35",
+          "occurrence_count": 5
+        },
+        {
+          "book_id": "36",
+          "occurrence_count": 2
+        },
+        {
+          "book_id": "37",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "38",
+          "occurrence_count": 3
+        },
+        {
+          "book_id": "40",
+          "occurrence_count": 4
+        },
+        {
+          "book_id": "42",
+          "occurrence_count": 4
+        },
+        {
+          "book_id": "43",
+          "occurrence_count": 3
+        },
+        {
+          "book_id": "44",
+          "occurrence_count": 4
+        },
+        {
+          "book_id": "45",
+          "occurrence_count": 2
+        },
+        {
+          "book_id": "46",
+          "occurrence_count": 2
+        },
+        {
+          "book_id": "47",
+          "occurrence_count": 2
+        },
+        {
+          "book_id": "48",
+          "occurrence_count": 2
+        },
+        {
+          "book_id": "49",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "50",
+          "occurrence_count": 3
+        },
+        {
+          "book_id": "51",
+          "occurrence_count": 3
+        },
+        {
+          "book_id": "52",
+          "occurrence_count": 4
+        },
+        {
+          "book_id": "53",
+          "occurrence_count": 2
+        },
+        {
+          "book_id": "54",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "56",
+          "occurrence_count": 6
+        },
+        {
+          "book_id": "57",
+          "occurrence_count": 2
+        },
+        {
+          "book_id": "58",
+          "occurrence_count": 7
+        },
+        {
+          "book_id": "59",
+          "occurrence_count": 7
+        },
+        {
+          "book_id": "60",
+          "occurrence_count": 2
+        },
+        {
+          "book_id": "61",
+          "occurrence_count": 5
+        },
+        {
+          "book_id": "62",
+          "occurrence_count": 3
+        },
+        {
+          "book_id": "63",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "64",
+          "occurrence_count": 2
+        },
+        {
+          "book_id": "65",
+          "occurrence_count": 5
+        },
+        {
+          "book_id": "66",
+          "occurrence_count": 4
+        },
+        {
+          "book_id": "67",
+          "occurrence_count": 2
+        },
+        {
+          "book_id": "68",
+          "occurrence_count": 4
+        },
+        {
+          "book_id": "69",
+          "occurrence_count": 3
+        }
+      ]
+    },
+    "knightmare_token_90871": {
+      "needle": "90871",
+      "digit_length": 5,
+      "total_occurrences": 0,
+      "book_count": 0,
+      "books": []
+    },
+    "knightmare_token_97664": {
+      "needle": "97664",
+      "digit_length": 5,
+      "total_occurrences": 0,
+      "book_count": 0,
+      "books": []
+    },
+    "knightmare_token_3466": {
+      "needle": "3466",
+      "digit_length": 4,
+      "total_occurrences": 0,
+      "book_count": 0,
+      "books": []
+    },
+    "knightmare_token_0": {
+      "needle": "0",
+      "digit_length": 1,
+      "total_occurrences": 855,
+      "book_count": 70,
+      "books": [
+        {
+          "book_id": "0",
+          "occurrence_count": 9
+        },
+        {
+          "book_id": "1",
+          "occurrence_count": 7
+        },
+        {
+          "book_id": "2",
+          "occurrence_count": 10
+        },
+        {
+          "book_id": "3",
+          "occurrence_count": 15
+        },
+        {
+          "book_id": "4",
+          "occurrence_count": 15
+        },
+        {
+          "book_id": "5",
+          "occurrence_count": 16
+        },
+        {
+          "book_id": "6",
+          "occurrence_count": 11
+        },
+        {
+          "book_id": "7",
+          "occurrence_count": 4
+        },
+        {
+          "book_id": "8",
+          "occurrence_count": 8
+        },
+        {
+          "book_id": "9",
+          "occurrence_count": 17
+        },
+        {
+          "book_id": "10",
+          "occurrence_count": 20
+        },
+        {
+          "book_id": "11",
+          "occurrence_count": 11
+        },
+        {
+          "book_id": "12",
+          "occurrence_count": 9
+        },
+        {
+          "book_id": "13",
+          "occurrence_count": 10
+        },
+        {
+          "book_id": "14",
+          "occurrence_count": 12
+        },
+        {
+          "book_id": "15",
+          "occurrence_count": 9
+        },
+        {
+          "book_id": "16",
+          "occurrence_count": 13
+        },
+        {
+          "book_id": "17",
+          "occurrence_count": 32
+        },
+        {
+          "book_id": "18",
+          "occurrence_count": 10
+        },
+        {
+          "book_id": "19",
+          "occurrence_count": 9
+        },
+        {
+          "book_id": "20",
+          "occurrence_count": 6
+        },
+        {
+          "book_id": "21",
+          "occurrence_count": 13
+        },
+        {
+          "book_id": "22",
+          "occurrence_count": 6
+        },
+        {
+          "book_id": "23",
+          "occurrence_count": 10
+        },
+        {
+          "book_id": "24",
+          "occurrence_count": 9
+        },
+        {
+          "book_id": "25",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "26",
+          "occurrence_count": 13
+        },
+        {
+          "book_id": "27",
+          "occurrence_count": 9
+        },
+        {
+          "book_id": "28",
+          "occurrence_count": 8
+        },
+        {
+          "book_id": "29",
+          "occurrence_count": 15
+        },
+        {
+          "book_id": "30",
+          "occurrence_count": 11
+        },
+        {
+          "book_id": "31",
+          "occurrence_count": 18
+        },
+        {
+          "book_id": "32",
+          "occurrence_count": 13
+        },
+        {
+          "book_id": "33",
+          "occurrence_count": 8
+        },
+        {
+          "book_id": "34",
+          "occurrence_count": 12
+        },
+        {
+          "book_id": "35",
+          "occurrence_count": 21
+        },
+        {
+          "book_id": "36",
+          "occurrence_count": 11
+        },
+        {
+          "book_id": "37",
+          "occurrence_count": 9
+        },
+        {
+          "book_id": "38",
+          "occurrence_count": 8
+        },
+        {
+          "book_id": "39",
+          "occurrence_count": 2
+        },
+        {
+          "book_id": "40",
+          "occurrence_count": 12
+        },
+        {
+          "book_id": "41",
+          "occurrence_count": 6
+        },
+        {
+          "book_id": "42",
+          "occurrence_count": 13
+        },
+        {
+          "book_id": "43",
+          "occurrence_count": 10
+        },
+        {
+          "book_id": "44",
+          "occurrence_count": 12
+        },
+        {
+          "book_id": "45",
+          "occurrence_count": 20
+        },
+        {
+          "book_id": "46",
+          "occurrence_count": 23
+        },
+        {
+          "book_id": "47",
+          "occurrence_count": 8
+        },
+        {
+          "book_id": "48",
+          "occurrence_count": 10
+        },
+        {
+          "book_id": "49",
+          "occurrence_count": 10
+        },
+        {
+          "book_id": "50",
+          "occurrence_count": 10
+        },
+        {
+          "book_id": "51",
+          "occurrence_count": 25
+        },
+        {
+          "book_id": "52",
+          "occurrence_count": 13
+        },
+        {
+          "book_id": "53",
+          "occurrence_count": 23
+        },
+        {
+          "book_id": "54",
+          "occurrence_count": 5
+        },
+        {
+          "book_id": "55",
+          "occurrence_count": 12
+        },
+        {
+          "book_id": "56",
+          "occurrence_count": 16
+        },
+        {
+          "book_id": "57",
+          "occurrence_count": 11
+        },
+        {
+          "book_id": "58",
+          "occurrence_count": 21
+        },
+        {
+          "book_id": "59",
+          "occurrence_count": 21
+        },
+        {
+          "book_id": "60",
+          "occurrence_count": 13
+        },
+        {
+          "book_id": "61",
+          "occurrence_count": 14
+        },
+        {
+          "book_id": "62",
+          "occurrence_count": 13
+        },
+        {
+          "book_id": "63",
+          "occurrence_count": 11
+        },
+        {
+          "book_id": "64",
+          "occurrence_count": 13
+        },
+        {
+          "book_id": "65",
+          "occurrence_count": 16
+        },
+        {
+          "book_id": "66",
+          "occurrence_count": 13
+        },
+        {
+          "book_id": "67",
+          "occurrence_count": 7
+        },
+        {
+          "book_id": "68",
+          "occurrence_count": 16
+        },
+        {
+          "book_id": "69",
+          "occurrence_count": 8
+        }
+      ]
+    },
+    "knightmare_token_345": {
+      "needle": "345",
+      "digit_length": 3,
+      "total_occurrences": 40,
+      "book_count": 37,
+      "books": [
+        {
+          "book_id": "1",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "5",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "6",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "7",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "9",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "10",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "11",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "12",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "17",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "19",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "21",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "24",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "26",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "27",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "30",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "31",
+          "occurrence_count": 2
+        },
+        {
+          "book_id": "32",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "34",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "35",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "36",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "41",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "43",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "45",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "46",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "47",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "49",
+          "occurrence_count": 2
+        },
+        {
+          "book_id": "50",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "51",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "53",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "56",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "57",
+          "occurrence_count": 2
+        },
+        {
+          "book_id": "58",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "59",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "60",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "63",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "66",
+          "occurrence_count": 1
+        },
+        {
+          "book_id": "69",
+          "occurrence_count": 1
+        }
+      ]
+    }
+  },
+  "hex_check": {
+    "hex": "62792068657272657261",
+    "encoding": "base16 bytes then ASCII",
+    "decoded": "by herrera",
+    "meaning_status": "Exact mechanical decoding; does not independently establish domain compromise, author identity or CipSoft provenance."
+  },
+  "sources": [
+    {
+      "url": "https://forum.portaltibia.com.br/topic/11420-entrevista-com-chayenne/",
+      "status": "Read successfully via web tool",
+      "kind": "Contemporaneous interview publisher; posted May15,2009; attributed developer speech",
+      "verified": "English interview section contains exact two numeric fragments; no English plaintext for numeric response.",
+      "locator": "English question about Beholder language followed by numeric reply; web extracted lines279–281"
+    },
+    {
+      "url": "https://www.reddit.com/r/TibiaMMO/comments/qh0nvd/469_language/",
+      "status": "Read successfully; redirects to deleted_by_user; comments remain",
+      "kind": "Community discussion",
+      "verified": "Comment identifies altered fragment; later elkolorado comment mechanically decodes by herrera and hypothesizes third-party modification.",
+      "limits": "Original post deleted; visible comment says likely, not direct verified confession; screenshot referenced by s2ward not independently authenticated."
+    },
+    {
+      "url": "https://www.tibia.com/community/?subtopic=polls&page=show&questionaireid=1009",
+      "status": "Not accessible via web tool",
+      "kind": "Official poll target",
+      "verified": null,
+      "fallback": "Pinned s2ward transcript lists optionC663 902073 7223 67538 467 80097 with meaning???; no plaintext attested."
+    },
+    {
+      "url": "https://github.com/s2ward/469/blob/main/00-timeline.md",
+      "status": "Pinned local file read",
+      "commit": "4b1c4d3d2b07ed373f4cca44ac1270638614cef5",
+      "kind": "Community compilation",
+      "verified": "Chayenne quote, poll transcription, AvarTar modification and claimed later confession."
+    },
+    {
+      "url": "https://github.com/kimlage/tibia-469-cipher-casestudy/blob/main/docs/469_final_report.md",
+      "status": "Pinned local file read",
+      "commit": "4d726a8de7af1f2216bd48d9b86165e0c50616b6",
+      "kind": "Community computational research",
+      "verified": "Section3.2 explicitly distinguishes in-DB and doc-level word assignments; says these are community analysis, never CipSoft-confirmed, and validation gates compare own decoder output."
+    }
+  ],
+  "planning_implications": [
+    "Remove Chayenne numeric fragments from any claim of independent book-content holdout: exact fragments reused11 and9 times. External provenance attestation is still useful.",
+    "Do not infer one-word tokens simply from spaces across all material. Chayenne long groups duplicate book snippets; modality/speaker/era need separate model tests.",
+    "Keep unknown NPC/poll plaintext unknown. Community codebook assignments are hypotheses, not official training labels or ground truth.",
+    "Absence of entire Knightmare sentence or long tokens in books is structural observation only, not proof of separate encodings or absence of language.",
+    "Quarantine altered tibia.org material from canonical cribs; hex mechanics are demonstrable but identity/security history remains attributed rather than independently proved here.",
+    "A historically later source is not independent holdout if ciphertext is copied from earlier corpus or already explored during method development."
+  ],
+  "input_files": [
+    {
+      "path": "data/normalized_books.json",
+      "sha256": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862"
+    },
+    {
+      "path": "sources/s2ward/README.md",
+      "sha256": "5ba1a0008f5df5ce29b7c90a22d69858fcbd204ea4afc165981ce2d451359c28"
+    },
+    {
+      "path": "sources/s2ward/00-timeline.md",
+      "sha256": "29a37e128e4659b84e24c0ab1dd66a210ff85b7a634fad3386b50fad9bad89e9"
+    },
+    {
+      "path": "sources/kimlage/docs/469_final_report.md",
+      "sha256": "354dfc7a3d8e19caac89b34d8c08e646729424f6335266f63907659293141f07"
+    }
+  ],
+  "reproduction": {
+    "working_directory": "Repository root",
+    "command": "python - <<'PY'\nimport json\nbooks=json.load(open(\"data/normalized_books.json\"))\nfor needle in [\"114514519485611451908304576512282177\",\"6612527570584\"]:\n    rows=[]\n    for book in books:\n        digits=book[\"digits\"]\n        positions=[i for i in range(len(digits)-len(needle)+1) if digits.startswith(needle,i)]\n        if positions: rows.append({\"book_id\":book[\"id\"],\"offsets\":positions})\n    print(needle,sum(len(row[\"offsets\"]) for row in rows),rows)\nprint(bytes.fromhex(\"62792068657272657261\").decode(\"ascii\"))\nPY"
+  }
+}

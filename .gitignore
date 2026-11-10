@@ -7,3 +7,5 @@ __pycache__/
 data/historical_sources/*.html
 data/historical_sources/*.txt
 data/historical_refresh/
+
+data/private/

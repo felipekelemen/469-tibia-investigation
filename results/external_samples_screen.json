@@ -1,0 +1,153 @@
+{
+  "input_books_sha256": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+  "samples": [
+    {
+      "id": "chayenne_2009_part1",
+      "digits": "114514519485611451908304576512282177",
+      "digit_count": 36,
+      "literal_matches": [
+        {
+          "book_id": "1",
+          "raw_digit_start": 16
+        },
+        {
+          "book_id": "8",
+          "raw_digit_start": 6
+        },
+        {
+          "book_id": "10",
+          "raw_digit_start": 165
+        },
+        {
+          "book_id": "19",
+          "raw_digit_start": 48
+        },
+        {
+          "book_id": "27",
+          "raw_digit_start": 13
+        },
+        {
+          "book_id": "31",
+          "raw_digit_start": 143
+        },
+        {
+          "book_id": "35",
+          "raw_digit_start": 172
+        },
+        {
+          "book_id": "37",
+          "raw_digit_start": 55
+        },
+        {
+          "book_id": "41",
+          "raw_digit_start": 72
+        },
+        {
+          "book_id": "63",
+          "raw_digit_start": 53
+        },
+        {
+          "book_id": "66",
+          "raw_digit_start": 165
+        }
+      ],
+      "literal_match_count": 11,
+      "positions_covered_by_shared_kgrams": {
+        "8": 36,
+        "12": 36,
+        "16": 36,
+        "24": 36
+      },
+      "content_novelty_status": "REUSED_CONTENT_NOT_INDEPENDENT",
+      "previously_exposed": true
+    },
+    {
+      "id": "chayenne_2009_part2",
+      "digits": "6612527570584",
+      "digit_count": 13,
+      "literal_matches": [
+        {
+          "book_id": "2",
+          "raw_digit_start": 111
+        },
+        {
+          "book_id": "5",
+          "raw_digit_start": 72
+        },
+        {
+          "book_id": "9",
+          "raw_digit_start": 70
+        },
+        {
+          "book_id": "22",
+          "raw_digit_start": 73
+        },
+        {
+          "book_id": "28",
+          "raw_digit_start": 21
+        },
+        {
+          "book_id": "46",
+          "raw_digit_start": 207
+        },
+        {
+          "book_id": "48",
+          "raw_digit_start": 44
+        },
+        {
+          "book_id": "51",
+          "raw_digit_start": 217
+        },
+        {
+          "book_id": "53",
+          "raw_digit_start": 188
+        }
+      ],
+      "literal_match_count": 9,
+      "positions_covered_by_shared_kgrams": {
+        "8": 13,
+        "12": 13,
+        "16": 0,
+        "24": 0
+      },
+      "content_novelty_status": "REUSED_CONTENT_NOT_INDEPENDENT",
+      "previously_exposed": true
+    },
+    {
+      "id": "knightmare_2012_phrase",
+      "digits": "347867908719766434660345",
+      "digit_count": 24,
+      "literal_matches": [],
+      "literal_match_count": 0,
+      "positions_covered_by_shared_kgrams": {
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "content_novelty_status": "WHOLE_STRING_ABSENT_NOT_PROOF_OF_INDEPENDENCE",
+      "previously_exposed": true
+    },
+    {
+      "id": "avar_tar_poem",
+      "digits": "2963946781906337629032220116778032242967538148053946880326677633781293370117268314963043784536395783009863722953639",
+      "digit_count": 115,
+      "literal_matches": [],
+      "literal_match_count": 0,
+      "positions_covered_by_shared_kgrams": {
+        "8": 0,
+        "12": 0,
+        "16": 0,
+        "24": 0
+      },
+      "content_novelty_status": "WHOLE_STRING_ABSENT_NOT_PROOF_OF_INDEPENDENCE",
+      "previously_exposed": true
+    }
+  ],
+  "limits": [
+    "A distinct historical source can independently attest reused content without supplying independent holdout content.",
+    "No full match does not establish novelty, common code, plaintext or temporal independence.",
+    "Only raw exact matches and raw kgram coverage are checked; transformed/motif-level dependencies remain.",
+    "These samples have already been publicly discussed; none is a prospective blind test."
+  ]
+}

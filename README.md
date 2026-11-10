@@ -12,6 +12,10 @@ disponíveis neste repositório. O acesso de escrita foi confirmado após nova r
 A [segunda rodada](docs/round2.md) testa Hill módulo29, homofonia com nulos de
 bigramas, o canal residual e a geometria do mapa.
 
+A [auditoria do Deep Research](docs/research_crosswalk.md) corrige as pistas de
+mapas e validação externa. O [plano atualizado](docs/next_experiments.md) define
+os próximos experimentos e seus critérios de avanço.
+
 O [relatório da primeira rodada](docs/report.md) distingue resultados demonstrados, indícios e
 hipóteses. [Protocolo de validação](docs/validation_protocol.md).
 

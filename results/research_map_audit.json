@@ -1,0 +1,108 @@
+{
+  "audit_date_utc": "2026-11-10T18:01:52.308946+00:00",
+  "scope": "Suitability of tibiamaps historical dataset for object-level skull counts, and primary date claims in supplied Deep Research",
+  "historical_map_repository": {
+    "url": "https://github.com/tibiamaps/tibia-historical-map-data",
+    "inspected_commit": "8885f3f3fb103cd47f8944df77f06868ee025d5d",
+    "root_tree_sha": "d352bd651e8d3b32bea6e682cb038e3e6207b3d4",
+    "readme_blob_sha": "b22524fa536fa9b590f73ecb3a9f81ecb34d63f3",
+    "root_entries": [
+      "7.3",
+      "7.4",
+      "7.5",
+      "7.7",
+      "README.md"
+    ],
+    "inspected_directory": "7.7",
+    "directory_tree_sha": "7ac1912090b7662bdc1839645f800a3986051dad",
+    "directory_entries": [
+      "floor-00-map.png",
+      "floor-01-map.png",
+      "floor-02-map.png",
+      "floor-03-map.png",
+      "floor-04-map.png",
+      "floor-05-map.png",
+      "floor-06-map.png",
+      "floor-07-map.png",
+      "floor-08-map.png",
+      "floor-09-map.png",
+      "floor-10-map.png",
+      "floor-11-map.png",
+      "floor-12-map.png",
+      "floor-13-map.png",
+      "floor-14-map.png",
+      "floor-15-map.png"
+    ],
+    "provides_object_ids_or_stack_counts": false,
+    "provides_versions_8_60_through_8_70": false,
+    "conclusion": "Inspected snapshot contains PNG minimap layers, not object placements or stack counts. Cannot perform the proposed extraction or date the 2010 matrix edit from this snapshot.",
+    "provenance_note": "README states7.7 PNGs generated from leaked official files. Derivation does not imply source object records are included; claim not independently audited."
+  },
+  "source_registry": [
+    {
+      "url": "https://api.github.com/repos/tibiamaps/tibia-historical-map-data/contents/",
+      "access": "GitHub connector GET success",
+      "supports": "Available directories, absent2010-era folders"
+    },
+    {
+      "url": "https://api.github.com/repos/tibiamaps/tibia-historical-map-data/contents/7.7",
+      "access": "GitHub connector GET success",
+      "supports": "16floor-map PNG entries; no object database in inspected directory"
+    },
+    {
+      "url": "https://tibiamaps.io/guides/map-file-format",
+      "access": "web open success",
+      "supports": "Client automap consists of color pixels,pathfinding and markers; not per-tile item inventory"
+    },
+    {
+      "url": "https://tibiamaps.io/guides/minimap-file-format",
+      "access": "web open success",
+      "supports": "Color and waypoint PNGs plus map markers are minimap representations"
+    },
+    {
+      "url": "https://www.tibia.com/news/?id=1437&subtopic=newsarchive",
+      "title": "Content Fixes and Changes",
+      "publication_date": "2010-08-23",
+      "access": "Official-domain indexed text found; direct open403",
+      "supports": "Announcement explicitly renames beholders to bonelords; alludes to wizards of coast/dungeons and dragons",
+      "does_not_support": "Date of skull matrix edit or formal legal reason"
+    },
+    {
+      "url": "https://www.tibia.com/news/?id=1557&subtopic=newsarchive",
+      "title": "Major Game Update8.7",
+      "publication_date": "2010-12-08",
+      "access": "Official-domain indexed text found; direct open403",
+      "supports": "Release of update8.7 on date",
+      "does_not_support": "Indexed article body inspected does not name Hellgate or skull matrix"
+    },
+    {
+      "url": "https://www.tibia.com/news/?id=1525&subtopic=newsarchive",
+      "title": "Of Robbers and Spirithunters",
+      "publication_date": "2010-11-11",
+      "access": "Official-domain indexed text found",
+      "supports": "Winter update teaser references bonelord homes in Drefia and whole Necropolis",
+      "does_not_support": "Exact Hellgate skull room, matrix counts or edit date"
+    },
+    {
+      "url": "https://tibia.fandom.com/wiki/Updates",
+      "access": "Search indexed text available",
+      "supports": "Community update chronology associates8.7 with Hellgate revamp",
+      "status": "secondary; not proof of object-level edit"
+    }
+  ],
+  "date_difference_days": 107,
+  "date_interpretation": "107days separates rename and update dates; no date was established for the matrix edit itself. Not simultaneity.",
+  "recommended_evidence": [
+    "Versioned in-game screenshot/video showing cells with provenance",
+    "Contemporary recording covering the room before/after update",
+    "Authenticated object-level map extract with positions/item IDs/stack counts and original version"
+  ],
+  "client_vs_map_warning": "Client DAT/SPR assets identify definitions/sprites, not authoritative placement or stack count in a room; item IDs are version-specific.",
+  "limitations": [
+    "No binary PNG was decoded into object data; such inverse recovery is unsupported by dataset representation.",
+    "No proprietary source map was obtained.",
+    "README provenance is author assertion.",
+    "Official news was available through search index; direct open403 is retained rather than described as direct fetch.",
+    "Entire Git history and all forks not audited; conclusion applies to inspected snapshot."
+  ]
+}
