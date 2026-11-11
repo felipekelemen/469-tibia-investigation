@@ -14,3 +14,9 @@ results/homophonic_benchmark_checkpoint.json
 
 results/homophonic_benchmark_v2_checkpoint.json
 results/qualified_search_v2_checkpoint.json
+
+results/copied_v3_development_checkpoint.json
+results/copied_v3_qualification_checkpoint.json
+results/copied_v4_qualification_checkpoint.json
+results/qualified_search_v3_checkpoint.json
+results/qualified_search_v4_checkpoint.json

@@ -1,0 +1,26 @@
+[
+  {
+    "name": "dracula",
+    "book_id": 345,
+    "title": "Dracula",
+    "author": "Bram Stoker",
+    "role": "V3qualification only; notdevelopment or modeltraining",
+    "url": "https://www.gutenberg.org/cache/epub/345/pg345.txt",
+    "sha256": "96cd16eacdbfebae8fdda5591f66e0cc8ee76be18e0cd1aca02bc00615782d28",
+    "bytes": 890348,
+    "retrieved_at_utc": "2026-11-11T17:25:48.586688+00:00",
+    "license": "Full Gutenberg source header/license retained byte for byte."
+  },
+  {
+    "name": "moby_dick",
+    "book_id": 2701,
+    "title": "Moby Dick",
+    "author": "Herman Melville",
+    "role": "V3qualification only; notdevelopment or modeltraining",
+    "url": "https://www.gutenberg.org/cache/epub/2701/pg2701.txt",
+    "sha256": "b5e88b71a1cda068e9ab1d94344c9d932338ba6da1a66def97a1aecd9cfcc87d",
+    "bytes": 1276315,
+    "retrieved_at_utc": "2026-11-11T17:25:48.617083+00:00",
+    "license": "Full Gutenberg source header/license retained byte for byte."
+  }
+]

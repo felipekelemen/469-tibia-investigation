@@ -1,0 +1,1344 @@
+{
+  "version": "P02_COPIED_V3",
+  "frozen": true,
+  "frozen_at_utc": "2026-11-11T17:28:48.444483+00:00",
+  "development": "old12Frankenstein copied fixtures already opened; fixed four-configuration grid",
+  "development_selected": {
+    "config": {
+      "banks": 2,
+      "frequency_weight": 2.0
+    },
+    "passes95": 12,
+    "mean_accuracy": 0.9925944010416666,
+    "min_accuracy": 0.9775390625
+  },
+  "model": {
+    "training_sources": [
+      {
+        "path": "data/english_reference/alice.txt",
+        "source_sha256": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+        "letters": 86465,
+        "text_sha256": "ea6dcf57321f818b5e3c20d3395e1a40ecd9b3e946defd0941fd130b78aef795"
+      },
+      {
+        "path": "data/benchmark_reference/frankenstein.txt",
+        "source_sha256": "2b97b7f8aad508649481d8dd4f6b54f9b965ddb3ba634e9151c815f537b49e42",
+        "letters": 100000,
+        "text_sha256": "d710a6deeaffecc51e8edfb39be377cef38b80e447b758dd07dc77237b42c9c2"
+      },
+      {
+        "path": "data/benchmark_reference/pride_prejudice.txt",
+        "source_sha256": "3f6bb9d6f78e0293b56acd4714dd68cb7d6d1d293402031ce9d5a216bcaf9d75",
+        "letters": 100000,
+        "text_sha256": "8110f8ab47a4beef19fe1ae58570dee9486c1a7fc00999b858cfe03aa5542c61"
+      },
+      {
+        "path": "data/benchmark_reference/sherlock_holmes.txt",
+        "source_sha256": "922e2a12ccb43a4c9544c260b2166c6ad2097aeb5957faeee113f173bb857cd0",
+        "letters": 100000,
+        "text_sha256": "623b19a0392d5d66b3a2c07a36456de09158f706f06a99e87f50ecfdb6ab51ff"
+      },
+      {
+        "path": "data/benchmark_reference_v2/war_worlds.txt",
+        "source_sha256": "8417469e3ab664749f7b36ebb85799075818207b0380b54c27d07d592a44117d",
+        "letters": 100000,
+        "text_sha256": "b34014c51d8962ae7510acd28563929ddc65c81ffd5a030a06291c44d2f4e5d9"
+      },
+      {
+        "path": "data/benchmark_reference_v2/great_expectations.txt",
+        "source_sha256": "9a637118af8e953e9764ec603d9b0a032883384d465acac2e27966a80cf1c6f8",
+        "letters": 100000,
+        "text_sha256": "5bb20665aa05333acb41036cd7fc6b5f8d88769c48c111bfc76f7d047a6d1dea"
+      }
+    ],
+    "tetragrams": 586447,
+    "observed_tetragrams": 41988,
+    "model_sha256": "f47c563ca563fa6c055871205f89675e21664809fc9f9d5756d7bef78c6416ee",
+    "alpha": 0.01,
+    "scope": "Previous development and opened qualification authors now training; no V3qualification author used."
+  },
+  "solver_config": {
+    "banks": 2,
+    "frequency_weight": 2.0
+  },
+  "budget_each_bank": {
+    "restarts": 8,
+    "steps": 100000,
+    "num_codes": 100,
+    "max_temp": 12
+  },
+  "modes": [
+    "copied_static_codes",
+    "copied_fresh_homophones",
+    "ordinary"
+  ],
+  "fixtures_per_mode": 30,
+  "train_letters": 5668,
+  "holdout_letters": 1024,
+  "gate": {
+    "minimum_holdout_character_accuracy": 0.95,
+    "minimum_pass_count": 27,
+    "minimum_fixture_pass_fraction": 0.9
+  },
+  "codes": 99,
+  "distribution": "skewed",
+  "seed": 90690000,
+  "workers": 2,
+  "qualification_authors": [
+    "Bram Stoker",
+    "Herman Melville"
+  ],
+  "baseline": "V2 Alice2banks on static copied mode only; same ciphertext and seed; evaluation never affects V3key selection",
+  "source_hashes": {
+    "dracula": "96cd16eacdbfebae8fdda5591f66e0cc8ee76be18e0cd1aca02bc00615782d28",
+    "moby_dick": "b5e88b71a1cda068e9ab1d94344c9d932338ba6da1a66def97a1aecd9cfcc87d"
+  },
+  "implementation_hashes": {
+    "scripts/copied_benchmark_v3.py": "46a528ee26ff1a79753dcd7181633fddc67cae89fe1fa0a1b235ddca73f08679",
+    "scripts/copied_homophonic_v3.py": "f37ed2623143e583ec81bf9bb747f4ae972e5be07c2e95a27ece8e1ab496338f",
+    "scripts/robust_homophonic.py": "5927ce53f96035dd79930d721d6c43308be0c49180878f308aa0e47b533e2fd1",
+    "scripts/fast_homophonic.py": "a3d0cb37527f7fbec6069c193ba320a6464051b2c2a1f4f2cfbc777be68118cc",
+    "src/homophonic_solver.cpp": "0d71f35474df0e2c9f76a230ab67fb9c897440de280fabb53e782e01122132a1",
+    "scripts/homophonic_benchmark.py": "759b096e9b5e9b354926fcdf5d5cedab66346fb5114aa1530d520b51a04baea7",
+    "scripts/cipher_battery.py": "0c7a22d739c7eb45eca6aaf339e3df7a61634a98b32316d2a04fe4e3ebd03139"
+  },
+  "development_result_sha256": "1c8eda7c4d0a227343b67b823b1d110fc299697e8595ded11e92d8b0bbc0925d",
+  "input_manifest": [
+    {
+      "fixture": 0,
+      "mode": "copied_static_codes",
+      "source": "dracula",
+      "offsets": [
+        0,
+        1024,
+        2048,
+        3072,
+        4096,
+        5120,
+        6144,
+        7168
+      ],
+      "sha256": "a7d43b4ae774900737c9165795f3d98b9523354c22b464e2dd1e8775c323c1a5"
+    },
+    {
+      "fixture": 1,
+      "mode": "copied_static_codes",
+      "source": "dracula",
+      "offsets": [
+        8192,
+        9216,
+        10240,
+        11264,
+        12288,
+        13312,
+        14336,
+        15360
+      ],
+      "sha256": "bb0d165631c13bdd925fb1391b19273725af4939da476c148dcfc678bb97c3f5"
+    },
+    {
+      "fixture": 2,
+      "mode": "copied_static_codes",
+      "source": "dracula",
+      "offsets": [
+        16384,
+        17408,
+        18432,
+        19456,
+        20480,
+        21504,
+        22528,
+        23552
+      ],
+      "sha256": "a662bf825b34a05503c94e298fa03024e7a9aa5e59bd78f5e02b0fc0ae02573c"
+    },
+    {
+      "fixture": 3,
+      "mode": "copied_static_codes",
+      "source": "dracula",
+      "offsets": [
+        24576,
+        25600,
+        26624,
+        27648,
+        28672,
+        29696,
+        30720,
+        31744
+      ],
+      "sha256": "3f1319a369bca31c8e40a968c76c3e48b6b3db08a0becdd085a59da2d7df45d3"
+    },
+    {
+      "fixture": 4,
+      "mode": "copied_static_codes",
+      "source": "dracula",
+      "offsets": [
+        32768,
+        33792,
+        34816,
+        35840,
+        36864,
+        37888,
+        38912,
+        39936
+      ],
+      "sha256": "d95bd8b64fe834afea5c0c0bb066e3d4b835fd1872e804a53091832410f37ec2"
+    },
+    {
+      "fixture": 5,
+      "mode": "copied_static_codes",
+      "source": "dracula",
+      "offsets": [
+        40960,
+        41984,
+        43008,
+        44032,
+        45056,
+        46080,
+        47104,
+        48128
+      ],
+      "sha256": "73cb7b99f5763852317168e3b37a6903a65336f8b94ab4a1310b514cce75e8ae"
+    },
+    {
+      "fixture": 6,
+      "mode": "copied_static_codes",
+      "source": "dracula",
+      "offsets": [
+        49152,
+        50176,
+        51200,
+        52224,
+        53248,
+        54272,
+        55296,
+        56320
+      ],
+      "sha256": "f22bbe888dcee86acf33f0da3cf1802f3879d5a23618b181c627fa709d2307ba"
+    },
+    {
+      "fixture": 7,
+      "mode": "copied_static_codes",
+      "source": "dracula",
+      "offsets": [
+        57344,
+        58368,
+        59392,
+        60416,
+        61440,
+        62464,
+        63488,
+        64512
+      ],
+      "sha256": "22fb2c8d9380cdfcec2948edf9a9535a5177a0f76224c66fe02e190366d40bbc"
+    },
+    {
+      "fixture": 8,
+      "mode": "copied_static_codes",
+      "source": "dracula",
+      "offsets": [
+        65536,
+        66560,
+        67584,
+        68608,
+        69632,
+        70656,
+        71680,
+        72704
+      ],
+      "sha256": "b75be9afcd7625dd629e9bb2e3de999d0954f312998ff4b5586961610bf2e4cc"
+    },
+    {
+      "fixture": 9,
+      "mode": "copied_static_codes",
+      "source": "dracula",
+      "offsets": [
+        73728,
+        74752,
+        75776,
+        76800,
+        77824,
+        78848,
+        79872,
+        80896
+      ],
+      "sha256": "5b428a2d573cc5e6fc052c18692a6b498174754a24f26fe76caaa481f9fcff89"
+    },
+    {
+      "fixture": 10,
+      "mode": "copied_static_codes",
+      "source": "dracula",
+      "offsets": [
+        81920,
+        82944,
+        83968,
+        84992,
+        86016,
+        87040,
+        88064,
+        89088
+      ],
+      "sha256": "1dc0f37fc9c1123870f8a3198ab7b72f7572c0a533d8a275e62cfc03f0b735c5"
+    },
+    {
+      "fixture": 11,
+      "mode": "copied_static_codes",
+      "source": "dracula",
+      "offsets": [
+        90112,
+        91136,
+        92160,
+        93184,
+        94208,
+        95232,
+        96256,
+        97280
+      ],
+      "sha256": "361f79570d5ff956694478c07393fafcf1951042a773a31665574355b6d02693"
+    },
+    {
+      "fixture": 12,
+      "mode": "copied_static_codes",
+      "source": "dracula",
+      "offsets": [
+        98304,
+        99328,
+        100352,
+        101376,
+        102400,
+        103424,
+        104448,
+        105472
+      ],
+      "sha256": "94bc9c022984fed5bdb04a20e82b4e2bf29829f29eab3358dc7b8d5e00c3e707"
+    },
+    {
+      "fixture": 13,
+      "mode": "copied_static_codes",
+      "source": "dracula",
+      "offsets": [
+        106496,
+        107520,
+        108544,
+        109568,
+        110592,
+        111616,
+        112640,
+        113664
+      ],
+      "sha256": "643e56503d1cbc82901563d57f53dfe09174146029d9741bd1a162d7d6ffda67"
+    },
+    {
+      "fixture": 14,
+      "mode": "copied_static_codes",
+      "source": "dracula",
+      "offsets": [
+        114688,
+        115712,
+        116736,
+        117760,
+        118784,
+        119808,
+        120832,
+        121856
+      ],
+      "sha256": "9136d4f5a1aee7fb09aeab55075d1de9c255d9306b3bc6ed58fced71469007ad"
+    },
+    {
+      "fixture": 15,
+      "mode": "copied_static_codes",
+      "source": "moby_dick",
+      "offsets": [
+        0,
+        1024,
+        2048,
+        3072,
+        4096,
+        5120,
+        6144,
+        7168
+      ],
+      "sha256": "62881baad580b64a97e9db895ca273d20c2ca40896a309c68707c9a050f9bf9e"
+    },
+    {
+      "fixture": 16,
+      "mode": "copied_static_codes",
+      "source": "moby_dick",
+      "offsets": [
+        8192,
+        9216,
+        10240,
+        11264,
+        12288,
+        13312,
+        14336,
+        15360
+      ],
+      "sha256": "98a1c959118585de1aebd6240f99cbc39ac3221913feb5b5f05def7cda4b27fe"
+    },
+    {
+      "fixture": 17,
+      "mode": "copied_static_codes",
+      "source": "moby_dick",
+      "offsets": [
+        16384,
+        17408,
+        18432,
+        19456,
+        20480,
+        21504,
+        22528,
+        23552
+      ],
+      "sha256": "82749a02c8ffcffea837970bd88864993e3cd3fa7a10fc7c6421a556cabd9b14"
+    },
+    {
+      "fixture": 18,
+      "mode": "copied_static_codes",
+      "source": "moby_dick",
+      "offsets": [
+        24576,
+        25600,
+        26624,
+        27648,
+        28672,
+        29696,
+        30720,
+        31744
+      ],
+      "sha256": "c4d4b7803bdc87ac98d897f61fe2899f2206cf7b6188260960bee3cfd3f3b553"
+    },
+    {
+      "fixture": 19,
+      "mode": "copied_static_codes",
+      "source": "moby_dick",
+      "offsets": [
+        32768,
+        33792,
+        34816,
+        35840,
+        36864,
+        37888,
+        38912,
+        39936
+      ],
+      "sha256": "86ac1e6783d4130313101f62f137a0bbf1f5785b0c3513f4ac9e1a8033bf96b9"
+    },
+    {
+      "fixture": 20,
+      "mode": "copied_static_codes",
+      "source": "moby_dick",
+      "offsets": [
+        40960,
+        41984,
+        43008,
+        44032,
+        45056,
+        46080,
+        47104,
+        48128
+      ],
+      "sha256": "a7fe45a3858ce8836e5c2d005fb14352044dfebd2e1611c05e00ffb19f2b9f36"
+    },
+    {
+      "fixture": 21,
+      "mode": "copied_static_codes",
+      "source": "moby_dick",
+      "offsets": [
+        49152,
+        50176,
+        51200,
+        52224,
+        53248,
+        54272,
+        55296,
+        56320
+      ],
+      "sha256": "e3e827539deae5a3eae5b3411ad2c86d8b337ca47be0b2876639b2413892fef9"
+    },
+    {
+      "fixture": 22,
+      "mode": "copied_static_codes",
+      "source": "moby_dick",
+      "offsets": [
+        57344,
+        58368,
+        59392,
+        60416,
+        61440,
+        62464,
+        63488,
+        64512
+      ],
+      "sha256": "a92ef9b6ac60bc146dbad75af6bfddc3f18a1339db1b98561d1585e1c6153334"
+    },
+    {
+      "fixture": 23,
+      "mode": "copied_static_codes",
+      "source": "moby_dick",
+      "offsets": [
+        65536,
+        66560,
+        67584,
+        68608,
+        69632,
+        70656,
+        71680,
+        72704
+      ],
+      "sha256": "a27cfd689a01e8a002ea40294b6bfa4fdb36eb9148f45b03b7c856e6c1cd25e5"
+    },
+    {
+      "fixture": 24,
+      "mode": "copied_static_codes",
+      "source": "moby_dick",
+      "offsets": [
+        73728,
+        74752,
+        75776,
+        76800,
+        77824,
+        78848,
+        79872,
+        80896
+      ],
+      "sha256": "d03038d2195146807fc3efa347044690852d5507edbcbb1bf3f37426ea2213f4"
+    },
+    {
+      "fixture": 25,
+      "mode": "copied_static_codes",
+      "source": "moby_dick",
+      "offsets": [
+        81920,
+        82944,
+        83968,
+        84992,
+        86016,
+        87040,
+        88064,
+        89088
+      ],
+      "sha256": "27f3b741bd256a22b3bee1f39f62e61756cb1b8ecfd70d04acdbacbe89ea4e91"
+    },
+    {
+      "fixture": 26,
+      "mode": "copied_static_codes",
+      "source": "moby_dick",
+      "offsets": [
+        90112,
+        91136,
+        92160,
+        93184,
+        94208,
+        95232,
+        96256,
+        97280
+      ],
+      "sha256": "9ad31babaeec6c1df83bf8fd00ed3a7417bf08fdd574fa43a19d50365ee16831"
+    },
+    {
+      "fixture": 27,
+      "mode": "copied_static_codes",
+      "source": "moby_dick",
+      "offsets": [
+        98304,
+        99328,
+        100352,
+        101376,
+        102400,
+        103424,
+        104448,
+        105472
+      ],
+      "sha256": "035da3c51013e86569b1959f44cd4ea83647622bfa58cf63b94ab3a1e5d0878b"
+    },
+    {
+      "fixture": 28,
+      "mode": "copied_static_codes",
+      "source": "moby_dick",
+      "offsets": [
+        106496,
+        107520,
+        108544,
+        109568,
+        110592,
+        111616,
+        112640,
+        113664
+      ],
+      "sha256": "46d026fb761a36cb476b69c2223e487708d322fafeee2e90ba9635fb378e572d"
+    },
+    {
+      "fixture": 29,
+      "mode": "copied_static_codes",
+      "source": "moby_dick",
+      "offsets": [
+        114688,
+        115712,
+        116736,
+        117760,
+        118784,
+        119808,
+        120832,
+        121856
+      ],
+      "sha256": "023efe7ae608cf831c7cedc7c7b32d6233f269382298168a6748f87ab56d42a0"
+    },
+    {
+      "fixture": 0,
+      "mode": "copied_fresh_homophones",
+      "source": "dracula",
+      "offsets": [
+        0,
+        1024,
+        2048,
+        3072,
+        4096,
+        5120,
+        6144,
+        7168
+      ],
+      "sha256": "ed591a4336694d7a4752b77de28c118e135efc803455f7e7e47bcf72aa22d44a"
+    },
+    {
+      "fixture": 1,
+      "mode": "copied_fresh_homophones",
+      "source": "dracula",
+      "offsets": [
+        8192,
+        9216,
+        10240,
+        11264,
+        12288,
+        13312,
+        14336,
+        15360
+      ],
+      "sha256": "d34584d26de6e0254ca179e32b9e49430c84a9bc6a1bde847e862c15ebc66d64"
+    },
+    {
+      "fixture": 2,
+      "mode": "copied_fresh_homophones",
+      "source": "dracula",
+      "offsets": [
+        16384,
+        17408,
+        18432,
+        19456,
+        20480,
+        21504,
+        22528,
+        23552
+      ],
+      "sha256": "670b80f6c5eb3a558fae25390b4187993e5861b2d24963f0d46dc08db63c5fef"
+    },
+    {
+      "fixture": 3,
+      "mode": "copied_fresh_homophones",
+      "source": "dracula",
+      "offsets": [
+        24576,
+        25600,
+        26624,
+        27648,
+        28672,
+        29696,
+        30720,
+        31744
+      ],
+      "sha256": "ee3d0bd95e17f0ccdf3aa9c7fe87fcab5358df332b1149dfa96706b828448212"
+    },
+    {
+      "fixture": 4,
+      "mode": "copied_fresh_homophones",
+      "source": "dracula",
+      "offsets": [
+        32768,
+        33792,
+        34816,
+        35840,
+        36864,
+        37888,
+        38912,
+        39936
+      ],
+      "sha256": "1e4f73ffa91d7565311081d5ff1ceda5b2297760107f8ad2492a17a803c05b70"
+    },
+    {
+      "fixture": 5,
+      "mode": "copied_fresh_homophones",
+      "source": "dracula",
+      "offsets": [
+        40960,
+        41984,
+        43008,
+        44032,
+        45056,
+        46080,
+        47104,
+        48128
+      ],
+      "sha256": "773c34b7d1bc24ddd3f63473640085867909435351e5f5a94d3b9434be0a2ec7"
+    },
+    {
+      "fixture": 6,
+      "mode": "copied_fresh_homophones",
+      "source": "dracula",
+      "offsets": [
+        49152,
+        50176,
+        51200,
+        52224,
+        53248,
+        54272,
+        55296,
+        56320
+      ],
+      "sha256": "4af9a8b192cc3776e89a99d7f2810010f3a0d287f0e36a912e0068d880c9f1d0"
+    },
+    {
+      "fixture": 7,
+      "mode": "copied_fresh_homophones",
+      "source": "dracula",
+      "offsets": [
+        57344,
+        58368,
+        59392,
+        60416,
+        61440,
+        62464,
+        63488,
+        64512
+      ],
+      "sha256": "7cf15627d595cf7a444e4e5bb72279b98cce0e500c42e37ab74cb0a9e5c2da32"
+    },
+    {
+      "fixture": 8,
+      "mode": "copied_fresh_homophones",
+      "source": "dracula",
+      "offsets": [
+        65536,
+        66560,
+        67584,
+        68608,
+        69632,
+        70656,
+        71680,
+        72704
+      ],
+      "sha256": "9369847e166a3e18a4d3aa8b4712b0e8c8edb17e6603a297614f6e091a4cfefb"
+    },
+    {
+      "fixture": 9,
+      "mode": "copied_fresh_homophones",
+      "source": "dracula",
+      "offsets": [
+        73728,
+        74752,
+        75776,
+        76800,
+        77824,
+        78848,
+        79872,
+        80896
+      ],
+      "sha256": "9b5b5310f6cda584dae71ca672e616e9e74956b2ff34dc3326af476072686547"
+    },
+    {
+      "fixture": 10,
+      "mode": "copied_fresh_homophones",
+      "source": "dracula",
+      "offsets": [
+        81920,
+        82944,
+        83968,
+        84992,
+        86016,
+        87040,
+        88064,
+        89088
+      ],
+      "sha256": "56de0a0a115f135272308b927f58ce74234627405bfbf8af7db282633ee0ff22"
+    },
+    {
+      "fixture": 11,
+      "mode": "copied_fresh_homophones",
+      "source": "dracula",
+      "offsets": [
+        90112,
+        91136,
+        92160,
+        93184,
+        94208,
+        95232,
+        96256,
+        97280
+      ],
+      "sha256": "8006bb0fa43b0c601c07fbd3380c1e852d3733e8b5e78ab77e1c91f3b014530a"
+    },
+    {
+      "fixture": 12,
+      "mode": "copied_fresh_homophones",
+      "source": "dracula",
+      "offsets": [
+        98304,
+        99328,
+        100352,
+        101376,
+        102400,
+        103424,
+        104448,
+        105472
+      ],
+      "sha256": "9fb064ab4afd2c4da40988a894cbc29a1df1d56926ef05f0e47f2b789e3177ae"
+    },
+    {
+      "fixture": 13,
+      "mode": "copied_fresh_homophones",
+      "source": "dracula",
+      "offsets": [
+        106496,
+        107520,
+        108544,
+        109568,
+        110592,
+        111616,
+        112640,
+        113664
+      ],
+      "sha256": "950a5497ae63acd588b885b03e489b8aadc2b8e738e68cc604850bb4e237d9de"
+    },
+    {
+      "fixture": 14,
+      "mode": "copied_fresh_homophones",
+      "source": "dracula",
+      "offsets": [
+        114688,
+        115712,
+        116736,
+        117760,
+        118784,
+        119808,
+        120832,
+        121856
+      ],
+      "sha256": "1ea53219885d2dd8fd98ff28e1b48e8890363380116642b9f1fdaffae56d2314"
+    },
+    {
+      "fixture": 15,
+      "mode": "copied_fresh_homophones",
+      "source": "moby_dick",
+      "offsets": [
+        0,
+        1024,
+        2048,
+        3072,
+        4096,
+        5120,
+        6144,
+        7168
+      ],
+      "sha256": "fbc919b54189a6f38f7a297914a8c7ffdab2d5d7d1b872f7826af7a258270deb"
+    },
+    {
+      "fixture": 16,
+      "mode": "copied_fresh_homophones",
+      "source": "moby_dick",
+      "offsets": [
+        8192,
+        9216,
+        10240,
+        11264,
+        12288,
+        13312,
+        14336,
+        15360
+      ],
+      "sha256": "4875629c6db7f2a5f8e30e2255f02d9b617e311a08dcf122cddd948e3fd4f5ed"
+    },
+    {
+      "fixture": 17,
+      "mode": "copied_fresh_homophones",
+      "source": "moby_dick",
+      "offsets": [
+        16384,
+        17408,
+        18432,
+        19456,
+        20480,
+        21504,
+        22528,
+        23552
+      ],
+      "sha256": "625fecedf1b36f63c3d08fb269e108c4a0efa747e5a4e19f5d03fb64da67a8d4"
+    },
+    {
+      "fixture": 18,
+      "mode": "copied_fresh_homophones",
+      "source": "moby_dick",
+      "offsets": [
+        24576,
+        25600,
+        26624,
+        27648,
+        28672,
+        29696,
+        30720,
+        31744
+      ],
+      "sha256": "5a678060dac08bdb8d1f68b9958de30fc6609c5309036b6773a8f7eb1bdbf655"
+    },
+    {
+      "fixture": 19,
+      "mode": "copied_fresh_homophones",
+      "source": "moby_dick",
+      "offsets": [
+        32768,
+        33792,
+        34816,
+        35840,
+        36864,
+        37888,
+        38912,
+        39936
+      ],
+      "sha256": "12d2eb8b471276e6534d7745d4a125eef070b0b355a85b37ca4e8f54177d810b"
+    },
+    {
+      "fixture": 20,
+      "mode": "copied_fresh_homophones",
+      "source": "moby_dick",
+      "offsets": [
+        40960,
+        41984,
+        43008,
+        44032,
+        45056,
+        46080,
+        47104,
+        48128
+      ],
+      "sha256": "5ea2115dc6e213d2ca6ce7a1108c32d5187532fb35daddc389d1f690d57d247b"
+    },
+    {
+      "fixture": 21,
+      "mode": "copied_fresh_homophones",
+      "source": "moby_dick",
+      "offsets": [
+        49152,
+        50176,
+        51200,
+        52224,
+        53248,
+        54272,
+        55296,
+        56320
+      ],
+      "sha256": "86af945f43c470e5f1b9cb0eca9f38b4f7f704bad883889304c09b9a68717b5d"
+    },
+    {
+      "fixture": 22,
+      "mode": "copied_fresh_homophones",
+      "source": "moby_dick",
+      "offsets": [
+        57344,
+        58368,
+        59392,
+        60416,
+        61440,
+        62464,
+        63488,
+        64512
+      ],
+      "sha256": "5bb09cd371e4e91220d6cf7bc37c6330fad14a5d28076edf06612088d5f28794"
+    },
+    {
+      "fixture": 23,
+      "mode": "copied_fresh_homophones",
+      "source": "moby_dick",
+      "offsets": [
+        65536,
+        66560,
+        67584,
+        68608,
+        69632,
+        70656,
+        71680,
+        72704
+      ],
+      "sha256": "38f41e870655ce3e2a522f9465fd797b8e868b57a43b1f2f7b7c9a53cc74f96a"
+    },
+    {
+      "fixture": 24,
+      "mode": "copied_fresh_homophones",
+      "source": "moby_dick",
+      "offsets": [
+        73728,
+        74752,
+        75776,
+        76800,
+        77824,
+        78848,
+        79872,
+        80896
+      ],
+      "sha256": "b95d980906b082f8c0cff137818e84d3abd47463135179c86ee5e744eb1e7488"
+    },
+    {
+      "fixture": 25,
+      "mode": "copied_fresh_homophones",
+      "source": "moby_dick",
+      "offsets": [
+        81920,
+        82944,
+        83968,
+        84992,
+        86016,
+        87040,
+        88064,
+        89088
+      ],
+      "sha256": "68e5ffec8167e09ff72354e271571eea01f7c41d278c69c7aee384c7174a648a"
+    },
+    {
+      "fixture": 26,
+      "mode": "copied_fresh_homophones",
+      "source": "moby_dick",
+      "offsets": [
+        90112,
+        91136,
+        92160,
+        93184,
+        94208,
+        95232,
+        96256,
+        97280
+      ],
+      "sha256": "f480006fd6b8452dc47c91fb2c772dad9b6ad1bff32d761ba44f1499e077694d"
+    },
+    {
+      "fixture": 27,
+      "mode": "copied_fresh_homophones",
+      "source": "moby_dick",
+      "offsets": [
+        98304,
+        99328,
+        100352,
+        101376,
+        102400,
+        103424,
+        104448,
+        105472
+      ],
+      "sha256": "2ab3de28ec595ebbbfb52615633ce99bdb96103c14217f22d809cb3df6c28ae4"
+    },
+    {
+      "fixture": 28,
+      "mode": "copied_fresh_homophones",
+      "source": "moby_dick",
+      "offsets": [
+        106496,
+        107520,
+        108544,
+        109568,
+        110592,
+        111616,
+        112640,
+        113664
+      ],
+      "sha256": "5bbb1c889b6966bd95a621c8b49d77fd18fb468952dfe39df32c8929475ac5bf"
+    },
+    {
+      "fixture": 29,
+      "mode": "copied_fresh_homophones",
+      "source": "moby_dick",
+      "offsets": [
+        114688,
+        115712,
+        116736,
+        117760,
+        118784,
+        119808,
+        120832,
+        121856
+      ],
+      "sha256": "7e40edc02ee986a0f7fc6cabdba182199249aef199a6f30aeed0ba0f6c35fc8d"
+    },
+    {
+      "fixture": 0,
+      "mode": "ordinary",
+      "source": "dracula",
+      "offsets": [
+        122880
+      ],
+      "sha256": "897aa4d01efa028137a1973541208b2b0a413c052d26b07a6f2352f9e7dc82d6"
+    },
+    {
+      "fixture": 1,
+      "mode": "ordinary",
+      "source": "dracula",
+      "offsets": [
+        129572
+      ],
+      "sha256": "bfaee462647fe183e83b03fe8db5f3a6faa89b015b13261c41a3db4f81bc4a45"
+    },
+    {
+      "fixture": 2,
+      "mode": "ordinary",
+      "source": "dracula",
+      "offsets": [
+        136264
+      ],
+      "sha256": "ba72addf76a16eb4609997cabd9aea2a1c061da3fde5c46057725900499810f3"
+    },
+    {
+      "fixture": 3,
+      "mode": "ordinary",
+      "source": "dracula",
+      "offsets": [
+        142956
+      ],
+      "sha256": "1e60bda5afe533ca7a143c3f9afd91b32ed61c1e71299ba04367caa7f5759eb7"
+    },
+    {
+      "fixture": 4,
+      "mode": "ordinary",
+      "source": "dracula",
+      "offsets": [
+        149648
+      ],
+      "sha256": "1ec2bf7f54f3509b62c75de5076d8b06951bba05bea78d29ab595e836fa9ce39"
+    },
+    {
+      "fixture": 5,
+      "mode": "ordinary",
+      "source": "dracula",
+      "offsets": [
+        156340
+      ],
+      "sha256": "4caae778aa4034ea27ef4f5484e18a896fe52988a512e02c865e45114f7ac94c"
+    },
+    {
+      "fixture": 6,
+      "mode": "ordinary",
+      "source": "dracula",
+      "offsets": [
+        163032
+      ],
+      "sha256": "08de511dce83ec42bd62456276427779693ce7b32d036c5c5f2ae524446d590a"
+    },
+    {
+      "fixture": 7,
+      "mode": "ordinary",
+      "source": "dracula",
+      "offsets": [
+        169724
+      ],
+      "sha256": "e42bdffbe807b2ad53041dd80c9272b40e3bbdfb9ace150f6cac2545560ad113"
+    },
+    {
+      "fixture": 8,
+      "mode": "ordinary",
+      "source": "dracula",
+      "offsets": [
+        176416
+      ],
+      "sha256": "fe03891d3071fc609ab59b0c38261e23c684b28970bd521def1a3bbec7b37ba2"
+    },
+    {
+      "fixture": 9,
+      "mode": "ordinary",
+      "source": "dracula",
+      "offsets": [
+        183108
+      ],
+      "sha256": "8be6d9e1ba224c28b5e4fb0ac2cb3c6daa32b5ea0a65e01ee46be4ccc8f14ca6"
+    },
+    {
+      "fixture": 10,
+      "mode": "ordinary",
+      "source": "dracula",
+      "offsets": [
+        189800
+      ],
+      "sha256": "28f7e162b2dbd8d046486b33b7da8bf774c8c650426087ee438b8a34fa902983"
+    },
+    {
+      "fixture": 11,
+      "mode": "ordinary",
+      "source": "dracula",
+      "offsets": [
+        196492
+      ],
+      "sha256": "a420ea05461c4b0833e97d68d2e12051b970d9047065d55bd8739ea7cca53fa5"
+    },
+    {
+      "fixture": 12,
+      "mode": "ordinary",
+      "source": "dracula",
+      "offsets": [
+        203184
+      ],
+      "sha256": "b8bd203b88fd31550093bedf92e4b0480ce100d2fd9707842cc83e83a1be94d2"
+    },
+    {
+      "fixture": 13,
+      "mode": "ordinary",
+      "source": "dracula",
+      "offsets": [
+        209876
+      ],
+      "sha256": "5743e587c82d4cf7000c0eae11cdebe114ff852e22ff1048e87f3d54f0abf64e"
+    },
+    {
+      "fixture": 14,
+      "mode": "ordinary",
+      "source": "dracula",
+      "offsets": [
+        216568
+      ],
+      "sha256": "437e17970cb34b62dbda2f2aa08fc0efe8cd3f259cb8fda59d96ec0f9fe3ff48"
+    },
+    {
+      "fixture": 15,
+      "mode": "ordinary",
+      "source": "moby_dick",
+      "offsets": [
+        122880
+      ],
+      "sha256": "1059f2d4efdffdf2599fd1e635cb0d931ca42effe8276897951a69fc18fc5963"
+    },
+    {
+      "fixture": 16,
+      "mode": "ordinary",
+      "source": "moby_dick",
+      "offsets": [
+        129572
+      ],
+      "sha256": "7e4cf667341bfba0eb651c19e260fbf398ef53a43470ec52629d8189bce3cd6d"
+    },
+    {
+      "fixture": 17,
+      "mode": "ordinary",
+      "source": "moby_dick",
+      "offsets": [
+        136264
+      ],
+      "sha256": "3fdbf4d310fe8876d2404b90e84dd07c09313cbe5088ae2d2cf42978bcab212c"
+    },
+    {
+      "fixture": 18,
+      "mode": "ordinary",
+      "source": "moby_dick",
+      "offsets": [
+        142956
+      ],
+      "sha256": "1755a367c17c9e8736c950b9c62e884bdb106b988ca40d4e59850337cc655a7e"
+    },
+    {
+      "fixture": 19,
+      "mode": "ordinary",
+      "source": "moby_dick",
+      "offsets": [
+        149648
+      ],
+      "sha256": "0cb23052afa9ef97a5e33a0039590ab3efe9defa9266a41251225ae035ac65c5"
+    },
+    {
+      "fixture": 20,
+      "mode": "ordinary",
+      "source": "moby_dick",
+      "offsets": [
+        156340
+      ],
+      "sha256": "71ad286be050652dcad84ad5bfb44009b970d0d5747b3e1e73eeeb796b351f76"
+    },
+    {
+      "fixture": 21,
+      "mode": "ordinary",
+      "source": "moby_dick",
+      "offsets": [
+        163032
+      ],
+      "sha256": "bcf275fa555cafc6195e3e18ed2a6182c14925985b8e86e90880b8d620441327"
+    },
+    {
+      "fixture": 22,
+      "mode": "ordinary",
+      "source": "moby_dick",
+      "offsets": [
+        169724
+      ],
+      "sha256": "68c3edd19812333b60a64e6f86eca67b7dfd3d20881ef143f775378bcc39c2ee"
+    },
+    {
+      "fixture": 23,
+      "mode": "ordinary",
+      "source": "moby_dick",
+      "offsets": [
+        176416
+      ],
+      "sha256": "07882aa84c2f1ed254b96ce5f3479252c296ea6a749a2d62c41037f3c4f50046"
+    },
+    {
+      "fixture": 24,
+      "mode": "ordinary",
+      "source": "moby_dick",
+      "offsets": [
+        183108
+      ],
+      "sha256": "476908c69c73d44f67d56f1541ee65fdd4c1cc49e1a632e38b326eeab2fa148d"
+    },
+    {
+      "fixture": 25,
+      "mode": "ordinary",
+      "source": "moby_dick",
+      "offsets": [
+        189800
+      ],
+      "sha256": "79ab292d25a423f6b9f6faf88017bf6669b715e1723e290b590a783742550f95"
+    },
+    {
+      "fixture": 26,
+      "mode": "ordinary",
+      "source": "moby_dick",
+      "offsets": [
+        196492
+      ],
+      "sha256": "ce6fe5f0a35a2db61ef9a6772f0651cf9fd67fa880ef193c6fe5bef75d6070c6"
+    },
+    {
+      "fixture": 27,
+      "mode": "ordinary",
+      "source": "moby_dick",
+      "offsets": [
+        203184
+      ],
+      "sha256": "ff2915d4069def9a33ed6480a8bf718a32b62c94805f094cbbe8c8798054a4e3"
+    },
+    {
+      "fixture": 28,
+      "mode": "ordinary",
+      "source": "moby_dick",
+      "offsets": [
+        209876
+      ],
+      "sha256": "8c67cc0db8c3a03c90db8d2f0d4fabb46cdef84a134ab79a815075b7ab5a802e"
+    },
+    {
+      "fixture": 29,
+      "mode": "ordinary",
+      "source": "moby_dick",
+      "offsets": [
+        216568
+      ],
+      "sha256": "df3168518827ccff6643c5eb2b86501ec4699e1ab782c3283286fe3c082929e1"
+    }
+  ],
+  "limits": [
+    "Copied modes intentionally share underlying English motifs within each fixture and across the two copied modes. They are paired, not60independentcontents.",
+    "Intervals across different fixtures do not overlap within a source. Only two authors, shared style remains.",
+    "Operational gate in a sequential research program, not universal cryptanalytic power or proof of translation.",
+    "No hyperparameter tuning after qualification results. No469reads in qualification."
+  ]
+}

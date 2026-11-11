@@ -180,5 +180,33 @@
     "status": "contradicted_in_selected_case",
     "evidence": "Chave verdadeira pontua3856.40acima encontrada;buscainsuficiente nessecaso selecionado",
     "artifact": "results/copied_prose_diagnosis_v2.json"
+  },
+  {
+    "id": "H27",
+    "hypothesis": "Pontuador V3amplo qualifica em prosa copiada com99códigos",
+    "status": "improves_but_global_gate_fails",
+    "evidence": "24/30staticcopied vs13/30pairedV2;othermodes30/30;threshold27notmet",
+    "artifact": "results/copied_benchmark_v3.json"
+  },
+  {
+    "id": "H28",
+    "hypothesis": "Falhas V3 decorrem somente de objetivo linguístico inadequado",
+    "status": "true_higher_objective_witness_in_all_six_opened_failures",
+    "evidence": "Truekeybeatsreturnedby1336.57..6281.19;zeroadditionalfits;notproofglobaloptimality",
+    "artifact": "results/copied_v3_diagnosis.json"
+  },
+  {
+    "id": "H29",
+    "hypothesis": "Temperatura120V4qualifica99desigual emcópias eprosa comum",
+    "status": "passes_current_synthetic_gate",
+    "evidence": "30/30each3modesnewauthors;pairedstaticbaseline29/30;notuniversalpower",
+    "artifact": "results/copied_benchmark_v4.json"
+  },
+  {
+    "id": "H30",
+    "hypothesis": "AplicaçãoV4noslivros contém tradução inglesa validada",
+    "status": "score_enrichment_without_verified_translation",
+    "evidence": "p=.01shuffle,.01bigrams,.02blocks;literalincoherent;oldexposed61codes;297fullrefits",
+    "artifact": "results/qualified_tibia_search_v4.json"
   }
 ]

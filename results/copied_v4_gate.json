@@ -1,0 +1,26 @@
+{
+  "gate_passed": true,
+  "summaries": [
+    {
+      "mode": "copied_static_codes",
+      "passed": 30,
+      "required": 27,
+      "passes": true
+    },
+    {
+      "mode": "copied_fresh_homophones",
+      "passed": 30,
+      "required": 27,
+      "passes": true
+    },
+    {
+      "mode": "ordinary",
+      "passed": 30,
+      "required": 27,
+      "passes": true
+    }
+  ],
+  "scope": "99skewed copiedstatic, copiedresampled, ordinary literarypositives only; no translation inferred",
+  "protocol_sha256": "5f2471fe7620d0151d7f4bfc21d71a37b4ce6d7a0a3f6822bcf88907e8aa968a",
+  "result_sha256": "a33216ed021b7a36fbee12c8aca01fe61b46b533f22f112909040fe2170551bd"
+}

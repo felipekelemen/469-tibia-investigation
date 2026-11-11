@@ -1,0 +1,26 @@
+[
+  {
+    "name": "tom_sawyer",
+    "book_id": 74,
+    "title": "The Adventures of Tom Sawyer",
+    "author": "Mark Twain",
+    "role": "V4qualification only; notdevelopment or modeltraining",
+    "url": "https://www.gutenberg.org/cache/epub/74/pg74.txt",
+    "sha256": "74d77384b123a6360db9ab58463cff8b38df8525fbdc6000c81ee388e1f3cf10",
+    "bytes": 434357,
+    "retrieved_at_utc": "2026-11-11T17:34:08.419061+00:00",
+    "license": "Full Gutenberg header/license retained byte for byte."
+  },
+  {
+    "name": "jane_eyre",
+    "book_id": 1260,
+    "title": "Jane Eyre",
+    "author": "Charlotte Bronte",
+    "role": "V4qualification only; notdevelopment or modeltraining",
+    "url": "https://www.gutenberg.org/cache/epub/1260/pg1260.txt",
+    "sha256": "13414dee2951c3ee731d76d2ffd822016b2479c892162760c5d0eb2aa5fa7631",
+    "bytes": 1084803,
+    "retrieved_at_utc": "2026-11-11T17:34:08.467606+00:00",
+    "license": "Full Gutenberg header/license retained byte for byte."
+  }
+]

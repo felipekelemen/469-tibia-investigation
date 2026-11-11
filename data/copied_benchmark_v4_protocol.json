@@ -1,0 +1,1343 @@
+{
+  "version": "P02_COPIED_V4",
+  "frozen": true,
+  "frozen_at_utc": "2026-11-11T17:35:26.431251+00:00",
+  "development": "V3 opened failures+guards; fixed three-temperature grid, no qualification source used",
+  "development_selected": {
+    "temperature": 120,
+    "passes95": 9,
+    "mean": 0.9807942708333334,
+    "minimum": 0.951171875
+  },
+  "model": {
+    "training_sources": [
+      {
+        "path": "data/english_reference/alice.txt",
+        "source_sha256": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+        "letters": 86465,
+        "text_sha256": "ea6dcf57321f818b5e3c20d3395e1a40ecd9b3e946defd0941fd130b78aef795"
+      },
+      {
+        "path": "data/benchmark_reference/frankenstein.txt",
+        "source_sha256": "2b97b7f8aad508649481d8dd4f6b54f9b965ddb3ba634e9151c815f537b49e42",
+        "letters": 100000,
+        "text_sha256": "d710a6deeaffecc51e8edfb39be377cef38b80e447b758dd07dc77237b42c9c2"
+      },
+      {
+        "path": "data/benchmark_reference/pride_prejudice.txt",
+        "source_sha256": "3f6bb9d6f78e0293b56acd4714dd68cb7d6d1d293402031ce9d5a216bcaf9d75",
+        "letters": 100000,
+        "text_sha256": "8110f8ab47a4beef19fe1ae58570dee9486c1a7fc00999b858cfe03aa5542c61"
+      },
+      {
+        "path": "data/benchmark_reference/sherlock_holmes.txt",
+        "source_sha256": "922e2a12ccb43a4c9544c260b2166c6ad2097aeb5957faeee113f173bb857cd0",
+        "letters": 100000,
+        "text_sha256": "623b19a0392d5d66b3a2c07a36456de09158f706f06a99e87f50ecfdb6ab51ff"
+      },
+      {
+        "path": "data/benchmark_reference_v2/war_worlds.txt",
+        "source_sha256": "8417469e3ab664749f7b36ebb85799075818207b0380b54c27d07d592a44117d",
+        "letters": 100000,
+        "text_sha256": "b34014c51d8962ae7510acd28563929ddc65c81ffd5a030a06291c44d2f4e5d9"
+      },
+      {
+        "path": "data/benchmark_reference_v2/great_expectations.txt",
+        "source_sha256": "9a637118af8e953e9764ec603d9b0a032883384d465acac2e27966a80cf1c6f8",
+        "letters": 100000,
+        "text_sha256": "5bb20665aa05333acb41036cd7fc6b5f8d88769c48c111bfc76f7d047a6d1dea"
+      }
+    ],
+    "tetragrams": 586447,
+    "observed_tetragrams": 41988,
+    "model_sha256": "f47c563ca563fa6c055871205f89675e21664809fc9f9d5756d7bef78c6416ee",
+    "alpha": 0.01,
+    "scope": "Previous development and opened qualification authors now training; no V3qualification author used."
+  },
+  "solver_config": {
+    "banks": 2,
+    "frequency_weight": 2.0,
+    "max_temp": 120
+  },
+  "budget_each_bank": {
+    "restarts": 8,
+    "steps": 100000,
+    "num_codes": 100,
+    "max_temp": 120
+  },
+  "modes": [
+    "copied_static_codes",
+    "copied_fresh_homophones",
+    "ordinary"
+  ],
+  "fixtures_per_mode": 30,
+  "train_letters": 5668,
+  "holdout_letters": 1024,
+  "gate": {
+    "minimum_holdout_character_accuracy": 0.95,
+    "minimum_pass_count": 27,
+    "minimum_fixture_pass_fraction": 0.9
+  },
+  "codes": 99,
+  "distribution": "skewed",
+  "seed": 110690000,
+  "workers": 2,
+  "qualification_authors": [
+    "Mark Twain",
+    "Charlotte Bronte"
+  ],
+  "baseline": "V3 same broad scorer2banks temperature12 on static copied mode only; same ciphertext/seed; no test-based selection",
+  "source_hashes": {
+    "tom_sawyer": "74d77384b123a6360db9ab58463cff8b38df8525fbdc6000c81ee388e1f3cf10",
+    "jane_eyre": "13414dee2951c3ee731d76d2ffd822016b2479c892162760c5d0eb2aa5fa7631"
+  },
+  "implementation_hashes": {
+    "scripts/copied_benchmark_v4.py": "61b7c71d940d19f1f620a59e35b45c3f64e0827e1d49ac867cf4e3dabc85fc79",
+    "scripts/copied_homophonic_v3.py": "f37ed2623143e583ec81bf9bb747f4ae972e5be07c2e95a27ece8e1ab496338f",
+    "scripts/robust_homophonic.py": "5927ce53f96035dd79930d721d6c43308be0c49180878f308aa0e47b533e2fd1",
+    "scripts/fast_homophonic.py": "a3d0cb37527f7fbec6069c193ba320a6464051b2c2a1f4f2cfbc777be68118cc",
+    "src/homophonic_solver.cpp": "0d71f35474df0e2c9f76a230ab67fb9c897440de280fabb53e782e01122132a1",
+    "scripts/homophonic_benchmark.py": "759b096e9b5e9b354926fcdf5d5cedab66346fb5114aa1530d520b51a04baea7",
+    "scripts/cipher_battery.py": "0c7a22d739c7eb45eca6aaf339e3df7a61634a98b32316d2a04fe4e3ebd03139"
+  },
+  "development_result_sha256": "7839c872699eefde638de705ab6af599d5646aa6043b1c0e07217c1bf7edfbdf",
+  "input_manifest": [
+    {
+      "fixture": 0,
+      "mode": "copied_static_codes",
+      "source": "tom_sawyer",
+      "offsets": [
+        0,
+        1024,
+        2048,
+        3072,
+        4096,
+        5120,
+        6144,
+        7168
+      ],
+      "sha256": "a7154f369d2c41818119ccbc3fb701027ee394c2d269cdf21ac62d49df44114b"
+    },
+    {
+      "fixture": 1,
+      "mode": "copied_static_codes",
+      "source": "tom_sawyer",
+      "offsets": [
+        8192,
+        9216,
+        10240,
+        11264,
+        12288,
+        13312,
+        14336,
+        15360
+      ],
+      "sha256": "abc513d7dd683dde49b25f7641077ede7c7336e73dc2be6aae9de358a95ab40a"
+    },
+    {
+      "fixture": 2,
+      "mode": "copied_static_codes",
+      "source": "tom_sawyer",
+      "offsets": [
+        16384,
+        17408,
+        18432,
+        19456,
+        20480,
+        21504,
+        22528,
+        23552
+      ],
+      "sha256": "b7af22a275f3e0e9e862ac5b80a5e2a3244f59cac4c61bcef5e3d9c3d69dbae2"
+    },
+    {
+      "fixture": 3,
+      "mode": "copied_static_codes",
+      "source": "tom_sawyer",
+      "offsets": [
+        24576,
+        25600,
+        26624,
+        27648,
+        28672,
+        29696,
+        30720,
+        31744
+      ],
+      "sha256": "f6582036b5186076bd20460ebb39521c42caa1a05d300f5740c4b6b2d97a44f3"
+    },
+    {
+      "fixture": 4,
+      "mode": "copied_static_codes",
+      "source": "tom_sawyer",
+      "offsets": [
+        32768,
+        33792,
+        34816,
+        35840,
+        36864,
+        37888,
+        38912,
+        39936
+      ],
+      "sha256": "23bd49dc61574d149cfa36a6df123216e42d3a90a9dac254f3dd9f9f8301f616"
+    },
+    {
+      "fixture": 5,
+      "mode": "copied_static_codes",
+      "source": "tom_sawyer",
+      "offsets": [
+        40960,
+        41984,
+        43008,
+        44032,
+        45056,
+        46080,
+        47104,
+        48128
+      ],
+      "sha256": "19f240c1ec88f2b90b47185794273dbbe82e9812cc90cf763e659dd3178ed54e"
+    },
+    {
+      "fixture": 6,
+      "mode": "copied_static_codes",
+      "source": "tom_sawyer",
+      "offsets": [
+        49152,
+        50176,
+        51200,
+        52224,
+        53248,
+        54272,
+        55296,
+        56320
+      ],
+      "sha256": "08dab1eb8d70a3fa427e92d8f9649e6248160a00c6b0bc41129d280bed2ae9d9"
+    },
+    {
+      "fixture": 7,
+      "mode": "copied_static_codes",
+      "source": "tom_sawyer",
+      "offsets": [
+        57344,
+        58368,
+        59392,
+        60416,
+        61440,
+        62464,
+        63488,
+        64512
+      ],
+      "sha256": "2cf1ceede4982e6a826bff09be1cb406b553d075c280a4507d9c32e6546a0cb3"
+    },
+    {
+      "fixture": 8,
+      "mode": "copied_static_codes",
+      "source": "tom_sawyer",
+      "offsets": [
+        65536,
+        66560,
+        67584,
+        68608,
+        69632,
+        70656,
+        71680,
+        72704
+      ],
+      "sha256": "340e04249686b657f7b3674719aa798893c0bf303d3f0efb7fe7093d6c10da2a"
+    },
+    {
+      "fixture": 9,
+      "mode": "copied_static_codes",
+      "source": "tom_sawyer",
+      "offsets": [
+        73728,
+        74752,
+        75776,
+        76800,
+        77824,
+        78848,
+        79872,
+        80896
+      ],
+      "sha256": "2c41805d7a75405899fa19752b721657a49c5990962c9c939920bfcf5f1ab1d3"
+    },
+    {
+      "fixture": 10,
+      "mode": "copied_static_codes",
+      "source": "tom_sawyer",
+      "offsets": [
+        81920,
+        82944,
+        83968,
+        84992,
+        86016,
+        87040,
+        88064,
+        89088
+      ],
+      "sha256": "26b067efdf702aa66cdb0273a4cb81fdf25a221dfcfd88df7a11f25604c6c847"
+    },
+    {
+      "fixture": 11,
+      "mode": "copied_static_codes",
+      "source": "tom_sawyer",
+      "offsets": [
+        90112,
+        91136,
+        92160,
+        93184,
+        94208,
+        95232,
+        96256,
+        97280
+      ],
+      "sha256": "31e02bf4fa49971c2124bf6b1c42e5cc0a68bf2152f990968938fadccd08ff82"
+    },
+    {
+      "fixture": 12,
+      "mode": "copied_static_codes",
+      "source": "tom_sawyer",
+      "offsets": [
+        98304,
+        99328,
+        100352,
+        101376,
+        102400,
+        103424,
+        104448,
+        105472
+      ],
+      "sha256": "8f77d41664a5265ffe9b52ab79b418d5c92a0e84e475a00c7a2d5174ee8acfe9"
+    },
+    {
+      "fixture": 13,
+      "mode": "copied_static_codes",
+      "source": "tom_sawyer",
+      "offsets": [
+        106496,
+        107520,
+        108544,
+        109568,
+        110592,
+        111616,
+        112640,
+        113664
+      ],
+      "sha256": "f26e73af925427389e0f6b2e8453ad0937198c3acd3ee41a9181e2ba98df6768"
+    },
+    {
+      "fixture": 14,
+      "mode": "copied_static_codes",
+      "source": "tom_sawyer",
+      "offsets": [
+        114688,
+        115712,
+        116736,
+        117760,
+        118784,
+        119808,
+        120832,
+        121856
+      ],
+      "sha256": "20708d58a5dbf1217fec545c41423fc5829dfe36ff555a72a7902913436c8694"
+    },
+    {
+      "fixture": 15,
+      "mode": "copied_static_codes",
+      "source": "jane_eyre",
+      "offsets": [
+        0,
+        1024,
+        2048,
+        3072,
+        4096,
+        5120,
+        6144,
+        7168
+      ],
+      "sha256": "b5d447d938bd7123e568231509cda0c370ff39c12e1e6a661bca5341e97ede3f"
+    },
+    {
+      "fixture": 16,
+      "mode": "copied_static_codes",
+      "source": "jane_eyre",
+      "offsets": [
+        8192,
+        9216,
+        10240,
+        11264,
+        12288,
+        13312,
+        14336,
+        15360
+      ],
+      "sha256": "738f6ac8eaf43e65814dcade5060f1bf6488808940d977843141d3f8b40e9f1f"
+    },
+    {
+      "fixture": 17,
+      "mode": "copied_static_codes",
+      "source": "jane_eyre",
+      "offsets": [
+        16384,
+        17408,
+        18432,
+        19456,
+        20480,
+        21504,
+        22528,
+        23552
+      ],
+      "sha256": "e2a27e148c93adf3b51d8e79c8fd2510fd2a8fc814d11be9aa815d04bb24d993"
+    },
+    {
+      "fixture": 18,
+      "mode": "copied_static_codes",
+      "source": "jane_eyre",
+      "offsets": [
+        24576,
+        25600,
+        26624,
+        27648,
+        28672,
+        29696,
+        30720,
+        31744
+      ],
+      "sha256": "738edf3ddd5cc35b536a674c7ae443dc913fff2b8ee9e2c5c7a0c363234b301a"
+    },
+    {
+      "fixture": 19,
+      "mode": "copied_static_codes",
+      "source": "jane_eyre",
+      "offsets": [
+        32768,
+        33792,
+        34816,
+        35840,
+        36864,
+        37888,
+        38912,
+        39936
+      ],
+      "sha256": "feff2807817eab381eebf3cef5bef0db537cafaea491cdb35da65e3ef158a310"
+    },
+    {
+      "fixture": 20,
+      "mode": "copied_static_codes",
+      "source": "jane_eyre",
+      "offsets": [
+        40960,
+        41984,
+        43008,
+        44032,
+        45056,
+        46080,
+        47104,
+        48128
+      ],
+      "sha256": "1b8e4941cb438f7fc8712b5ab027981a2883a83aa5087041740d2954d3a8914d"
+    },
+    {
+      "fixture": 21,
+      "mode": "copied_static_codes",
+      "source": "jane_eyre",
+      "offsets": [
+        49152,
+        50176,
+        51200,
+        52224,
+        53248,
+        54272,
+        55296,
+        56320
+      ],
+      "sha256": "35b3fc9d3289378f1c7a23eb0ce04911c5dbc7326cb8d2266dad2401dd3b627c"
+    },
+    {
+      "fixture": 22,
+      "mode": "copied_static_codes",
+      "source": "jane_eyre",
+      "offsets": [
+        57344,
+        58368,
+        59392,
+        60416,
+        61440,
+        62464,
+        63488,
+        64512
+      ],
+      "sha256": "4aa9611e60f62ea2d04f857603eb973c5411dacda1f697cfa0f3b6cdbb118241"
+    },
+    {
+      "fixture": 23,
+      "mode": "copied_static_codes",
+      "source": "jane_eyre",
+      "offsets": [
+        65536,
+        66560,
+        67584,
+        68608,
+        69632,
+        70656,
+        71680,
+        72704
+      ],
+      "sha256": "9f88edf43fb6647e173e9c9b2bae934f5706d70434df01cb9af31ee316bb5d06"
+    },
+    {
+      "fixture": 24,
+      "mode": "copied_static_codes",
+      "source": "jane_eyre",
+      "offsets": [
+        73728,
+        74752,
+        75776,
+        76800,
+        77824,
+        78848,
+        79872,
+        80896
+      ],
+      "sha256": "04af2acc3ebea88a4caedf9f70671d7a1fd111b973efbf616e77998a13584ab4"
+    },
+    {
+      "fixture": 25,
+      "mode": "copied_static_codes",
+      "source": "jane_eyre",
+      "offsets": [
+        81920,
+        82944,
+        83968,
+        84992,
+        86016,
+        87040,
+        88064,
+        89088
+      ],
+      "sha256": "96b988fdeeabeec721ec5f5be773306b1a4ea90e50eaee3086445a4bf081bb37"
+    },
+    {
+      "fixture": 26,
+      "mode": "copied_static_codes",
+      "source": "jane_eyre",
+      "offsets": [
+        90112,
+        91136,
+        92160,
+        93184,
+        94208,
+        95232,
+        96256,
+        97280
+      ],
+      "sha256": "3f9cc564b08e2d89875b0557cf8cf894779592c4a5b8921d16040d9325f3030f"
+    },
+    {
+      "fixture": 27,
+      "mode": "copied_static_codes",
+      "source": "jane_eyre",
+      "offsets": [
+        98304,
+        99328,
+        100352,
+        101376,
+        102400,
+        103424,
+        104448,
+        105472
+      ],
+      "sha256": "d5d62f604d185803e8f6629134654f58afc4d8f301cfde6423b854c3f1a673ec"
+    },
+    {
+      "fixture": 28,
+      "mode": "copied_static_codes",
+      "source": "jane_eyre",
+      "offsets": [
+        106496,
+        107520,
+        108544,
+        109568,
+        110592,
+        111616,
+        112640,
+        113664
+      ],
+      "sha256": "4d41152748a1cebc516d02a764e5146b378b3bd5c90d9694787c2fd0544fc4d0"
+    },
+    {
+      "fixture": 29,
+      "mode": "copied_static_codes",
+      "source": "jane_eyre",
+      "offsets": [
+        114688,
+        115712,
+        116736,
+        117760,
+        118784,
+        119808,
+        120832,
+        121856
+      ],
+      "sha256": "667b9a3b8861684819b0390d85a0bc02a57cd0d7db959b0a207f161199e462a7"
+    },
+    {
+      "fixture": 0,
+      "mode": "copied_fresh_homophones",
+      "source": "tom_sawyer",
+      "offsets": [
+        0,
+        1024,
+        2048,
+        3072,
+        4096,
+        5120,
+        6144,
+        7168
+      ],
+      "sha256": "77e810a052566d1db2d51282079a1cc5f03d5f9d9029f5770679bad7e4aff2c6"
+    },
+    {
+      "fixture": 1,
+      "mode": "copied_fresh_homophones",
+      "source": "tom_sawyer",
+      "offsets": [
+        8192,
+        9216,
+        10240,
+        11264,
+        12288,
+        13312,
+        14336,
+        15360
+      ],
+      "sha256": "8a2c6d8cac1caa886d85820d9ee0da66e45ff46164d672cda13daf8cf02b3026"
+    },
+    {
+      "fixture": 2,
+      "mode": "copied_fresh_homophones",
+      "source": "tom_sawyer",
+      "offsets": [
+        16384,
+        17408,
+        18432,
+        19456,
+        20480,
+        21504,
+        22528,
+        23552
+      ],
+      "sha256": "678915d6295cb6bedf80e1cc2d305201cad8eee24750143cf39c9c1f2abab489"
+    },
+    {
+      "fixture": 3,
+      "mode": "copied_fresh_homophones",
+      "source": "tom_sawyer",
+      "offsets": [
+        24576,
+        25600,
+        26624,
+        27648,
+        28672,
+        29696,
+        30720,
+        31744
+      ],
+      "sha256": "1318de3ddf8d6a51e4593f54239e449ccbea29a7df00ad065522ca5788b695a2"
+    },
+    {
+      "fixture": 4,
+      "mode": "copied_fresh_homophones",
+      "source": "tom_sawyer",
+      "offsets": [
+        32768,
+        33792,
+        34816,
+        35840,
+        36864,
+        37888,
+        38912,
+        39936
+      ],
+      "sha256": "fb518314b66e5d18395a3c9437bed6855170ae8a1b463e136f7c52c27da228aa"
+    },
+    {
+      "fixture": 5,
+      "mode": "copied_fresh_homophones",
+      "source": "tom_sawyer",
+      "offsets": [
+        40960,
+        41984,
+        43008,
+        44032,
+        45056,
+        46080,
+        47104,
+        48128
+      ],
+      "sha256": "2d91fe09c36509ab599ca239130490fa56e4ce35d8dc86881ba628aeabf4536c"
+    },
+    {
+      "fixture": 6,
+      "mode": "copied_fresh_homophones",
+      "source": "tom_sawyer",
+      "offsets": [
+        49152,
+        50176,
+        51200,
+        52224,
+        53248,
+        54272,
+        55296,
+        56320
+      ],
+      "sha256": "7457b8da238bb501ef4dfdc5dba42b0fda9b877fdd560bcfa1406821c0dcf22d"
+    },
+    {
+      "fixture": 7,
+      "mode": "copied_fresh_homophones",
+      "source": "tom_sawyer",
+      "offsets": [
+        57344,
+        58368,
+        59392,
+        60416,
+        61440,
+        62464,
+        63488,
+        64512
+      ],
+      "sha256": "090ce194a383ba4a35a0112b6122424c15e50a037b6a02aa699634cf05db4fb6"
+    },
+    {
+      "fixture": 8,
+      "mode": "copied_fresh_homophones",
+      "source": "tom_sawyer",
+      "offsets": [
+        65536,
+        66560,
+        67584,
+        68608,
+        69632,
+        70656,
+        71680,
+        72704
+      ],
+      "sha256": "d89744f8b2c444cd190ba4d294107ba4d79fde8a48f98ad8f0380dd631b6e0be"
+    },
+    {
+      "fixture": 9,
+      "mode": "copied_fresh_homophones",
+      "source": "tom_sawyer",
+      "offsets": [
+        73728,
+        74752,
+        75776,
+        76800,
+        77824,
+        78848,
+        79872,
+        80896
+      ],
+      "sha256": "3002d56192ec751b20b09c69d0db38ba26ad3ed8fce137c36888b686fe01b2f6"
+    },
+    {
+      "fixture": 10,
+      "mode": "copied_fresh_homophones",
+      "source": "tom_sawyer",
+      "offsets": [
+        81920,
+        82944,
+        83968,
+        84992,
+        86016,
+        87040,
+        88064,
+        89088
+      ],
+      "sha256": "9c86db0bc3d22ab0d127938c3aa13ffabdfdc57061efdc4513502c8a2f441ebc"
+    },
+    {
+      "fixture": 11,
+      "mode": "copied_fresh_homophones",
+      "source": "tom_sawyer",
+      "offsets": [
+        90112,
+        91136,
+        92160,
+        93184,
+        94208,
+        95232,
+        96256,
+        97280
+      ],
+      "sha256": "770c7ac6b77fafe757b2a366b25cbba5afe57e2d367766242de20b88ec2ccd76"
+    },
+    {
+      "fixture": 12,
+      "mode": "copied_fresh_homophones",
+      "source": "tom_sawyer",
+      "offsets": [
+        98304,
+        99328,
+        100352,
+        101376,
+        102400,
+        103424,
+        104448,
+        105472
+      ],
+      "sha256": "8343318cff509bc26de02b7862d1e14374777cb2a50b72c6130f898aada67f0a"
+    },
+    {
+      "fixture": 13,
+      "mode": "copied_fresh_homophones",
+      "source": "tom_sawyer",
+      "offsets": [
+        106496,
+        107520,
+        108544,
+        109568,
+        110592,
+        111616,
+        112640,
+        113664
+      ],
+      "sha256": "2942698d1e2f3a9f1017f288c029bc1e43455f2844f5b365c4bf0fba6c05e267"
+    },
+    {
+      "fixture": 14,
+      "mode": "copied_fresh_homophones",
+      "source": "tom_sawyer",
+      "offsets": [
+        114688,
+        115712,
+        116736,
+        117760,
+        118784,
+        119808,
+        120832,
+        121856
+      ],
+      "sha256": "31cfb79bb2cfa3ae9e9315298cc376ef49caa0d09449a1c4c16070964dd9f475"
+    },
+    {
+      "fixture": 15,
+      "mode": "copied_fresh_homophones",
+      "source": "jane_eyre",
+      "offsets": [
+        0,
+        1024,
+        2048,
+        3072,
+        4096,
+        5120,
+        6144,
+        7168
+      ],
+      "sha256": "5e4901976aec2a11fa0515f576f3e6afe8d5f3390d194a1abd832bfc32c57c51"
+    },
+    {
+      "fixture": 16,
+      "mode": "copied_fresh_homophones",
+      "source": "jane_eyre",
+      "offsets": [
+        8192,
+        9216,
+        10240,
+        11264,
+        12288,
+        13312,
+        14336,
+        15360
+      ],
+      "sha256": "1031b94306cf89087bfa6ec1197988b45bb766437e20ff6a7c01ddc33de056cd"
+    },
+    {
+      "fixture": 17,
+      "mode": "copied_fresh_homophones",
+      "source": "jane_eyre",
+      "offsets": [
+        16384,
+        17408,
+        18432,
+        19456,
+        20480,
+        21504,
+        22528,
+        23552
+      ],
+      "sha256": "9e01c0ab621b5d5a5d45775c1253bdfaeb7eac2c6a8ef9c8b91a5854495391f3"
+    },
+    {
+      "fixture": 18,
+      "mode": "copied_fresh_homophones",
+      "source": "jane_eyre",
+      "offsets": [
+        24576,
+        25600,
+        26624,
+        27648,
+        28672,
+        29696,
+        30720,
+        31744
+      ],
+      "sha256": "fe9c9cbdc788fdd7c5f3b46fb1e8ea004fbe2537a5139913657b7d2820039120"
+    },
+    {
+      "fixture": 19,
+      "mode": "copied_fresh_homophones",
+      "source": "jane_eyre",
+      "offsets": [
+        32768,
+        33792,
+        34816,
+        35840,
+        36864,
+        37888,
+        38912,
+        39936
+      ],
+      "sha256": "564aeeaf18c5212226eac12120b98d9f46118dc7b46af3f411436a67920e906c"
+    },
+    {
+      "fixture": 20,
+      "mode": "copied_fresh_homophones",
+      "source": "jane_eyre",
+      "offsets": [
+        40960,
+        41984,
+        43008,
+        44032,
+        45056,
+        46080,
+        47104,
+        48128
+      ],
+      "sha256": "c30234a341110adb3cc14e0ce4a6eb9fd4bf85007484a6ada12cfb5c35f02246"
+    },
+    {
+      "fixture": 21,
+      "mode": "copied_fresh_homophones",
+      "source": "jane_eyre",
+      "offsets": [
+        49152,
+        50176,
+        51200,
+        52224,
+        53248,
+        54272,
+        55296,
+        56320
+      ],
+      "sha256": "5977be02c77c1a7f657a7edb1ffbbcff81b155a8dda926aa6ef29fe2f16e4b1a"
+    },
+    {
+      "fixture": 22,
+      "mode": "copied_fresh_homophones",
+      "source": "jane_eyre",
+      "offsets": [
+        57344,
+        58368,
+        59392,
+        60416,
+        61440,
+        62464,
+        63488,
+        64512
+      ],
+      "sha256": "a4992e376a4edaa220dd63e6088593407306a5b518c7c6d50030b47271a7f1ad"
+    },
+    {
+      "fixture": 23,
+      "mode": "copied_fresh_homophones",
+      "source": "jane_eyre",
+      "offsets": [
+        65536,
+        66560,
+        67584,
+        68608,
+        69632,
+        70656,
+        71680,
+        72704
+      ],
+      "sha256": "51d19606936c3eb8e621ba9b2293a5214993828bfef337384af822e42a1d196e"
+    },
+    {
+      "fixture": 24,
+      "mode": "copied_fresh_homophones",
+      "source": "jane_eyre",
+      "offsets": [
+        73728,
+        74752,
+        75776,
+        76800,
+        77824,
+        78848,
+        79872,
+        80896
+      ],
+      "sha256": "a5af78420b7c0b0bc57a99e7d971d3a97364660569a04ed43dd87a0aeebcae57"
+    },
+    {
+      "fixture": 25,
+      "mode": "copied_fresh_homophones",
+      "source": "jane_eyre",
+      "offsets": [
+        81920,
+        82944,
+        83968,
+        84992,
+        86016,
+        87040,
+        88064,
+        89088
+      ],
+      "sha256": "5e837135f3d1cdb671219627ddd70a34bda5c8ad9608cf1b877d1352a203247c"
+    },
+    {
+      "fixture": 26,
+      "mode": "copied_fresh_homophones",
+      "source": "jane_eyre",
+      "offsets": [
+        90112,
+        91136,
+        92160,
+        93184,
+        94208,
+        95232,
+        96256,
+        97280
+      ],
+      "sha256": "7390eafd49d607f60c5ea61faf0f8d3ace1c36e1d1e44520fc1d32c65814dbd0"
+    },
+    {
+      "fixture": 27,
+      "mode": "copied_fresh_homophones",
+      "source": "jane_eyre",
+      "offsets": [
+        98304,
+        99328,
+        100352,
+        101376,
+        102400,
+        103424,
+        104448,
+        105472
+      ],
+      "sha256": "9564f433229c5c0fd5f20f20e7a6593bb040eca65f7c832483feb980dcfa2f74"
+    },
+    {
+      "fixture": 28,
+      "mode": "copied_fresh_homophones",
+      "source": "jane_eyre",
+      "offsets": [
+        106496,
+        107520,
+        108544,
+        109568,
+        110592,
+        111616,
+        112640,
+        113664
+      ],
+      "sha256": "4f9ad6c5ccda63729f9281717fef6e9fada8caa69c79346a4ee5cfd80056d61b"
+    },
+    {
+      "fixture": 29,
+      "mode": "copied_fresh_homophones",
+      "source": "jane_eyre",
+      "offsets": [
+        114688,
+        115712,
+        116736,
+        117760,
+        118784,
+        119808,
+        120832,
+        121856
+      ],
+      "sha256": "4df714586648274fb40af2ddc3f3fac1e5f71ef7a817c3d92368120ad3b8b7cf"
+    },
+    {
+      "fixture": 0,
+      "mode": "ordinary",
+      "source": "tom_sawyer",
+      "offsets": [
+        122880
+      ],
+      "sha256": "02c372c434700d926912ca9f49326798f1f0d7011da73b541cf968a9752e0627"
+    },
+    {
+      "fixture": 1,
+      "mode": "ordinary",
+      "source": "tom_sawyer",
+      "offsets": [
+        129572
+      ],
+      "sha256": "b2b10b6e198b72bdb019c4a2c812168a4fefec2583cc0dfb9661515b7c44ae08"
+    },
+    {
+      "fixture": 2,
+      "mode": "ordinary",
+      "source": "tom_sawyer",
+      "offsets": [
+        136264
+      ],
+      "sha256": "763c34a70854ffd3e853c6bc8f49b74294074f1fb5c3db151eaa8019f92016c4"
+    },
+    {
+      "fixture": 3,
+      "mode": "ordinary",
+      "source": "tom_sawyer",
+      "offsets": [
+        142956
+      ],
+      "sha256": "0a5ded72495fb7deabaca24d6932f6a56c2024080be905f2fe18ec4e151bb986"
+    },
+    {
+      "fixture": 4,
+      "mode": "ordinary",
+      "source": "tom_sawyer",
+      "offsets": [
+        149648
+      ],
+      "sha256": "87fdd6e5cf706abc30c7e13da111bbf354fffebed6ed93ef067d49106f6bec28"
+    },
+    {
+      "fixture": 5,
+      "mode": "ordinary",
+      "source": "tom_sawyer",
+      "offsets": [
+        156340
+      ],
+      "sha256": "1bd002bf09f5d1a2a05d69d131ad58f1249881ee04a18d03bb2e2ecfa416a4e5"
+    },
+    {
+      "fixture": 6,
+      "mode": "ordinary",
+      "source": "tom_sawyer",
+      "offsets": [
+        163032
+      ],
+      "sha256": "b2c1ecb4e782b09a615ff380e6d2095d98d5a4c7fb21ed9b4e3166482f9d4199"
+    },
+    {
+      "fixture": 7,
+      "mode": "ordinary",
+      "source": "tom_sawyer",
+      "offsets": [
+        169724
+      ],
+      "sha256": "95c0d934c518169cfcb0c1118023e4c6b1f6f3e65dbd0f9b14c0c75da17eb1e9"
+    },
+    {
+      "fixture": 8,
+      "mode": "ordinary",
+      "source": "tom_sawyer",
+      "offsets": [
+        176416
+      ],
+      "sha256": "235f08a9d9a0116b373a6b9a36cd532c734e255ad5df2c83368cf698d50be0dc"
+    },
+    {
+      "fixture": 9,
+      "mode": "ordinary",
+      "source": "tom_sawyer",
+      "offsets": [
+        183108
+      ],
+      "sha256": "7f3ea3c4fdcbc3591dc10c5cea830940d377ff3fbdd37a704af14c26345d3e2a"
+    },
+    {
+      "fixture": 10,
+      "mode": "ordinary",
+      "source": "tom_sawyer",
+      "offsets": [
+        189800
+      ],
+      "sha256": "5cc46a1c0dc9f194f74418dc443c9c1a48beb2856caba2824a1b01c96dba05b8"
+    },
+    {
+      "fixture": 11,
+      "mode": "ordinary",
+      "source": "tom_sawyer",
+      "offsets": [
+        196492
+      ],
+      "sha256": "e4601534838e5cc0c4fd95dc7d9154310d66ac675cc47379508fe39409c40da1"
+    },
+    {
+      "fixture": 12,
+      "mode": "ordinary",
+      "source": "tom_sawyer",
+      "offsets": [
+        203184
+      ],
+      "sha256": "e14fc15cd2c4c3e8f3fe8bcd7dd270eadbc85b1436b9b778f694c1668d1db2ce"
+    },
+    {
+      "fixture": 13,
+      "mode": "ordinary",
+      "source": "tom_sawyer",
+      "offsets": [
+        209876
+      ],
+      "sha256": "ec70bb922b864bd2fadbb7af0f60ccfcfd825551afcd3aa9c83de13ca4855bef"
+    },
+    {
+      "fixture": 14,
+      "mode": "ordinary",
+      "source": "tom_sawyer",
+      "offsets": [
+        216568
+      ],
+      "sha256": "a833d067202d3f40c09fe8902afb9e16bf60d3e4c252c74b611b26e8107809a8"
+    },
+    {
+      "fixture": 15,
+      "mode": "ordinary",
+      "source": "jane_eyre",
+      "offsets": [
+        122880
+      ],
+      "sha256": "ee2c919f9555ddb524c7426af6530b5bdb2465eb29d49a8a408df30110f246be"
+    },
+    {
+      "fixture": 16,
+      "mode": "ordinary",
+      "source": "jane_eyre",
+      "offsets": [
+        129572
+      ],
+      "sha256": "c0d971a9003b2f276c1a613dafde2c6141b614e406003a9e49c3272cd07efb51"
+    },
+    {
+      "fixture": 17,
+      "mode": "ordinary",
+      "source": "jane_eyre",
+      "offsets": [
+        136264
+      ],
+      "sha256": "9e8accadf97be8b78c33a479ddcd7ae770fd0af48423b77db991fc02a49458ef"
+    },
+    {
+      "fixture": 18,
+      "mode": "ordinary",
+      "source": "jane_eyre",
+      "offsets": [
+        142956
+      ],
+      "sha256": "40cb84a1316d6f78bab08d4900969bb239d610a84688c3500aafc9fb9668bf79"
+    },
+    {
+      "fixture": 19,
+      "mode": "ordinary",
+      "source": "jane_eyre",
+      "offsets": [
+        149648
+      ],
+      "sha256": "16080b5f2cbf67e5c58fbc5498d28fe9c8a02d2e6924894ac24c972a86764664"
+    },
+    {
+      "fixture": 20,
+      "mode": "ordinary",
+      "source": "jane_eyre",
+      "offsets": [
+        156340
+      ],
+      "sha256": "407439bb3b7ebb2f466883ffb1797157ea34715ef64ca6ebb6ed040b9fee29b9"
+    },
+    {
+      "fixture": 21,
+      "mode": "ordinary",
+      "source": "jane_eyre",
+      "offsets": [
+        163032
+      ],
+      "sha256": "8b5614373dbec5d80419ab284a994f04f9c7e8b6af0a1c3f3636b8a5b88d1ed1"
+    },
+    {
+      "fixture": 22,
+      "mode": "ordinary",
+      "source": "jane_eyre",
+      "offsets": [
+        169724
+      ],
+      "sha256": "0369c41b71f50b82e74cbbff4cb4c24d2b7bd3071eed1fc20bd175d91b108ca6"
+    },
+    {
+      "fixture": 23,
+      "mode": "ordinary",
+      "source": "jane_eyre",
+      "offsets": [
+        176416
+      ],
+      "sha256": "b2f61c2c9bd780911b3386be302a1d62850f4025b4a3f645a709d77c31de3d2e"
+    },
+    {
+      "fixture": 24,
+      "mode": "ordinary",
+      "source": "jane_eyre",
+      "offsets": [
+        183108
+      ],
+      "sha256": "a16924a1147ba06a17e744219bcaf76ccd7e1383fe3917f8628eb31402bc0320"
+    },
+    {
+      "fixture": 25,
+      "mode": "ordinary",
+      "source": "jane_eyre",
+      "offsets": [
+        189800
+      ],
+      "sha256": "faa1d153c1225d0e95c783b92f7e48497aa799c5a16c1c888654dbca62b368b2"
+    },
+    {
+      "fixture": 26,
+      "mode": "ordinary",
+      "source": "jane_eyre",
+      "offsets": [
+        196492
+      ],
+      "sha256": "ce91c48ef73b71a8212633600fd80ee03f45ff3f9ae38eeab348942e32e1f955"
+    },
+    {
+      "fixture": 27,
+      "mode": "ordinary",
+      "source": "jane_eyre",
+      "offsets": [
+        203184
+      ],
+      "sha256": "4816976f3841dd2ad329a632cb2d3f6a2378330281807b859c18fcb23716cff9"
+    },
+    {
+      "fixture": 28,
+      "mode": "ordinary",
+      "source": "jane_eyre",
+      "offsets": [
+        209876
+      ],
+      "sha256": "2a9d6c0f70e1314866fff4a7ea533090bd7d90b9e234fc5626959086f29dfe5e"
+    },
+    {
+      "fixture": 29,
+      "mode": "ordinary",
+      "source": "jane_eyre",
+      "offsets": [
+        216568
+      ],
+      "sha256": "334acfc643a168079f242e652f3ca099ab04663975c1dee17d41db877a8684be"
+    }
+  ],
+  "limits": [
+    "Copied modes intentionally share underlying English motifs within each fixture and across the two copied modes. They are paired, not60independentcontents.",
+    "Intervals across different fixtures do not overlap within a source. Only two authors, shared style remains.",
+    "Operational gate in a sequential research program, not universal cryptanalytic power or proof of translation.",
+    "No hyperparameter tuning after qualification results. No469reads in qualification.",
+    "Modes share motifs but use different schedules and keys; their difference is not an isolated causal experiment."
+  ]
+}

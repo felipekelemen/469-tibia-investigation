@@ -225,3 +225,10 @@ Atualização de execução: a [quarta rodada](round4.md) qualificou V2 em novos
 autores e aplicou a busca aos livros com controles completos. Prosa copiada
 ainda revelou falhas; a prioridade algorítmica passa a essa condição, mantendo
 novos dados de teste separados. Não houve tradução validada.
+
+
+Atualização após a [quinta rodada](round5.md): a nova qualificação em cenários
+copiados passou, e a estatística dos livros superou os três nulos locais.
+Ainda não há prosa legível validada. Priorizar separação do sinal por módulos,
+critério de coerência independente dos tetragramas e dados externos inéditos;
+não transformar pontuação alta no mesmo reservado exposto em tradução.

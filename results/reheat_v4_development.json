@@ -1,0 +1,422 @@
+{
+  "complete": true,
+  "role": "development onV3openedqualification, notindependentvalidation",
+  "cases": [
+    [
+      0,
+      "copied_static_codes"
+    ],
+    [
+      2,
+      "copied_static_codes"
+    ],
+    [
+      15,
+      "copied_static_codes"
+    ],
+    [
+      16,
+      "copied_static_codes"
+    ],
+    [
+      23,
+      "copied_static_codes"
+    ],
+    [
+      27,
+      "copied_static_codes"
+    ],
+    [
+      1,
+      "copied_static_codes"
+    ],
+    [
+      0,
+      "ordinary"
+    ],
+    [
+      16,
+      "ordinary"
+    ]
+  ],
+  "trials": [
+    {
+      "correct_letters": 1007,
+      "letters": 1024,
+      "accuracy": 0.9833984375,
+      "preview": "EWILLBEMADEMANIFESTINTHEREADINGOFTHEMALLNEEDLESSTATTERSHAVEBEENELITINATEDSOTHATAHISTORYALTOSTATVARIANCEWITHTHEPOSSIBILIT",
+      "truth_preview": "EWILLBEMADEMANIFESTINTHEREADINGOFTHEMALLNEEDLESSMATTERSHAVEBEENELIMINATEDSOTHATAHISTORYALMOSTATVARIANCEWITHTHEPOSSIBILIT",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 0,
+      "mode": "copied_static_codes",
+      "temperature": 40,
+      "seconds": 2.2357412860146724
+    },
+    {
+      "correct_letters": 987,
+      "letters": 1024,
+      "accuracy": 0.9638671875,
+      "preview": "AUSEFORITFORTHEHOWLINGOFTHEWOLVETHADCEASEDALTOGETHERBUTMUSTTHENTHEMOONSAILINGTHROUGHTHEBLACKCLOUDSAPPEAREDASHINDTHEMAGGE",
+      "truth_preview": "AUSEFORITFORTHEHOWLINGOFTHEWOLVESHADCEASEDALTOGETHERBUTJUSTTHENTHEMOONSAILINGTHROUGHTHEBLACKCLOUDSAPPEAREDBEHINDTHEJAGGE",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 2,
+      "mode": "copied_static_codes",
+      "temperature": 40,
+      "seconds": 1.755672688013874
+    },
+    {
+      "correct_letters": 969,
+      "letters": 1024,
+      "accuracy": 0.9462890625,
+      "preview": "STATHIRGINIATECHANDONEFROMPROVECTGUTENDERGEARCHIMESTHEPROOFREADERSOFTHISMERSIONAREINDEBTEDTOTHEUNIVERSITYOFADELAIDELIERA",
+      "truth_preview": "CTATVIRGINIATECHANDONEFROMPROJECTGUTENBERGSARCHIVESTHEPROOFREADERSOFTHISVERSIONAREINDEBTEDTOTHEUNIVERSITYOFADELAIDELIBRA",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 15,
+      "mode": "copied_static_codes",
+      "temperature": 40,
+      "seconds": 2.2214919479883974
+    },
+    {
+      "correct_letters": 1008,
+      "letters": 1024,
+      "accuracy": 0.984375,
+      "preview": "SSFULLINGUPTHEWATERTHROUGHTHEIRPIPESANDVENTSWHICHNATUREHASPLANEDONTHEIRSHOULDERSSIRTHERBERTSVOYAGESINTOASIAANDAFRICAHARR",
+      "truth_preview": "SSFUZZINGUPTHEWATERTHROUGHTHEIRPIPESANDVENTSWHICHNATUREHASPLACEDONTHEIRSHOULDERSSIRTHERBERTSVOYAGESINTOASIAANDAFRICAHARR",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 16,
+      "mode": "copied_static_codes",
+      "temperature": 40,
+      "seconds": 2.5386330960172927
+    },
+    {
+      "correct_letters": 553,
+      "letters": 1024,
+      "accuracy": 0.5400390625,
+      "preview": "ITESNOTHTENEEAMOTHTSAEATEACHEDBITINWEEDONONHOMONTHECEPUSEDOELEDATHORTSTISSSONTIRFATREMOCTAWRRATSSOTHTSERSEACHEDWOTHASHED",
+      "truth_preview": "ADESLIGHTERYOUMIGHTSAYATOUCHOFSATINWOODISINHIMINTHECOMPLEXIONOFATHIRDSTILLLINGERSATROPICTAWNBUTSLIGHTLYBLEACHEDWITHALHED",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 23,
+      "mode": "copied_static_codes",
+      "temperature": 40,
+      "seconds": 2.213183220999781
+    },
+    {
+      "correct_letters": 467,
+      "letters": 1024,
+      "accuracy": 0.4560546875,
+      "preview": "OSOFSOMESOLICEISSOWRWHETHHISIDAYIWERILERTRROBITHANTNEYITWEDONTEREMONTOSAERYEATYNTHOODIDONTOEPPIEPPITWERTIORTEHISEENTTINT",
+      "truth_preview": "OPEFROMABOVETHEBROWSWHICHWERELIKEWISEVERYPROJECTINGLIKETWOLONGPROMONTORIESTHICKLYWOODEDONTOPQUEEQUEGWASGEORGEWASHINGTONC",
+      "unseen_positions": 2,
+      "known_key_exact": true,
+      "fixture": 27,
+      "mode": "copied_static_codes",
+      "temperature": 40,
+      "seconds": 2.207906659998116
+    },
+    {
+      "correct_letters": 1017,
+      "letters": 1024,
+      "accuracy": 0.9931640625,
+      "preview": "AMOUNTAINWHICHSEEMEDASWEWOUNDONOURSERPENTINEWAYTOBERIGHTBEFOREUSLOOKISTENSHEKGODSSEATANDHECROSSEDHIMSELFREVERENTLYASWEWO",
+      "truth_preview": "AMOUNTAINWHICHSEEMEDASWEWOUNDONOURSERPENTINEWAYTOBERIGHTBEFOREUSLOOKISTENSZEKGODSSEATANDHECROSSEDHIMSELFREVERENTLYASWEWO",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 1,
+      "mode": "copied_static_codes",
+      "temperature": 40,
+      "seconds": 2.301021975988988
+    },
+    {
+      "correct_letters": 1016,
+      "letters": 1024,
+      "accuracy": 0.9921875,
+      "preview": "ANTOEXPECTANDIMSONIGHITTHATTHEAUDMANISALREADYWHETTINHISSCYTHEYESEEICANTGETOUTOTHEHABITOFCAFFINABOUTITALLATONCETHECHAFTSW",
+      "truth_preview": "ANTOEXPECTANDIMSONIGHITTHATTHEAUDMANISALREADYWHETTINHISSCYTHEYESEEICANTGETOUTOTHEHABITOFCAFFINABOUTITALLATONCETHECHAFTSW",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 0,
+      "mode": "ordinary",
+      "temperature": 40,
+      "seconds": 5.391401989996666
+    },
+    {
+      "correct_letters": 1014,
+      "letters": 1024,
+      "accuracy": 0.990234375,
+      "preview": "ESANDRATHERDISTRUSTFULOFALLALIENSUNLESSTHEYHAILEDFROMCAPECODORTHEVINEYARDBUTWHATTAKESTHEEAWHALINGITANTTOKNOWTHATBEFOREIT",
+      "truth_preview": "ESANDRATHERDISTRUSTFULOFALLALIENSUNLESSTHEYHAILEDFROMCAPECODORTHEVINEYARDBUTWHATTAKESTHEEAWHALINGIWANTTOKNOWTHATBEFOREIT",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 16,
+      "mode": "ordinary",
+      "temperature": 40,
+      "seconds": 5.2320705250022
+    },
+    {
+      "correct_letters": 1007,
+      "letters": 1024,
+      "accuracy": 0.9833984375,
+      "preview": "EWILLBEMADEMANIFESTINTHEREADINGOFTHEMALLNEEDLESSTATTERSHAVEBEENELITINATEDSOTHATAHISTORYALTOSTATVARIANCEWITHTHEPOSSIBILIT",
+      "truth_preview": "EWILLBEMADEMANIFESTINTHEREADINGOFTHEMALLNEEDLESSMATTERSHAVEBEENELIMINATEDSOTHATAHISTORYALMOSTATVARIANCEWITHTHEPOSSIBILIT",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 0,
+      "mode": "copied_static_codes",
+      "temperature": 80,
+      "seconds": 2.418415134001407
+    },
+    {
+      "correct_letters": 197,
+      "letters": 1024,
+      "accuracy": 0.1923828125,
+      "preview": "IARITOSATTALTEIEAHEANSETHEDHERBEDEITVEILETORHASATEASLUCTURTCEANCEAGEENTEARANSTECAUSEHEALLIMPMROUTTITTYESITHEEANTHEITOSSI",
+      "truth_preview": "AUSEFORITFORTHEHOWLINGOFTHEWOLVESHADCEASEDALTOGETHERBUTJUSTTHENTHEMOONSAILINGTHROUGHTHEBLACKCLOUDSAPPEAREDBEHINDTHEJAGGE",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 2,
+      "mode": "copied_static_codes",
+      "temperature": 80,
+      "seconds": 1.9236649090016726
+    },
+    {
+      "correct_letters": 969,
+      "letters": 1024,
+      "accuracy": 0.9462890625,
+      "preview": "STATHIRGINIATECHANDONEFROMPROVECTGUTENDERGEARCHIMESTHEPROOFREADERSOFTHISMERSIONAREINDEBTEDTOTHEUNIVERSITYOFADELAIDELIERA",
+      "truth_preview": "CTATVIRGINIATECHANDONEFROMPROJECTGUTENBERGSARCHIVESTHEPROOFREADERSOFTHISVERSIONAREINDEBTEDTOTHEUNIVERSITYOFADELAIDELIBRA",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 15,
+      "mode": "copied_static_codes",
+      "temperature": 80,
+      "seconds": 2.3331764890172053
+    },
+    {
+      "correct_letters": 1008,
+      "letters": 1024,
+      "accuracy": 0.984375,
+      "preview": "SSFULLINGUPTHEWATERTHROUGHTHEIRPIPESANDVENTSWHICHNATUREHASPLANEDONTHEIRSHOULDERSSIRTHERBERTSVOYAGESINTOASIAANDAFRICAHARR",
+      "truth_preview": "SSFUZZINGUPTHEWATERTHROUGHTHEIRPIPESANDVENTSWHICHNATUREHASPLACEDONTHEIRSHOULDERSSIRTHERBERTSVOYAGESINTOASIAANDAFRICAHARR",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 16,
+      "mode": "copied_static_codes",
+      "temperature": 80,
+      "seconds": 2.8736363389907638
+    },
+    {
+      "correct_letters": 1009,
+      "letters": 1024,
+      "accuracy": 0.9853515625,
+      "preview": "ADESLIGHTERYOUMIGHTSAYATOUCHOFNATINWOODISINHIMINTHECOMPLETIONOFATHIRDSTILLLINGERSATROPICTAWNBUTSLIGHTLYBLEACHEDWITHALHED",
+      "truth_preview": "ADESLIGHTERYOUMIGHTSAYATOUCHOFSATINWOODISINHIMINTHECOMPLEXIONOFATHIRDSTILLLINGERSATROPICTAWNBUTSLIGHTLYBLEACHEDWITHALHED",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 23,
+      "mode": "copied_static_codes",
+      "temperature": 80,
+      "seconds": 2.0435198769991985
+    },
+    {
+      "correct_letters": 1003,
+      "letters": 1024,
+      "accuracy": 0.9794921875,
+      "preview": "OSEFROMABOVETHEBROWSWHECHWERELIKEWISEVERYPROTECTINGLEKETWOLONGPROMONTORIESTHICKLYWOODEDONTOPQUEEQUEGWASGEORGEWASHINGTONC",
+      "truth_preview": "OPEFROMABOVETHEBROWSWHICHWERELIKEWISEVERYPROJECTINGLIKETWOLONGPROMONTORIESTHICKLYWOODEDONTOPQUEEQUEGWASGEORGEWASHINGTONC",
+      "unseen_positions": 2,
+      "known_key_exact": true,
+      "fixture": 27,
+      "mode": "copied_static_codes",
+      "temperature": 80,
+      "seconds": 2.4555291420110734
+    },
+    {
+      "correct_letters": 1017,
+      "letters": 1024,
+      "accuracy": 0.9931640625,
+      "preview": "AMOUNTAINWHICHSEEMEDASWEWOUNDONOURSERPENTINEWAYTOBERIGHTBEFOREUSLOOKISTENSHEKGODSSEATANDHECROSSEDHIMSELFREVERENTLYASWEWO",
+      "truth_preview": "AMOUNTAINWHICHSEEMEDASWEWOUNDONOURSERPENTINEWAYTOBERIGHTBEFOREUSLOOKISTENSZEKGODSSEATANDHECROSSEDHIMSELFREVERENTLYASWEWO",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 1,
+      "mode": "copied_static_codes",
+      "temperature": 80,
+      "seconds": 2.358965070990962
+    },
+    {
+      "correct_letters": 1016,
+      "letters": 1024,
+      "accuracy": 0.9921875,
+      "preview": "ANTOEXPECTANDIMSONIGHITTHATTHEAUDMANISALREADYWHETTINHISSCYTHEYESEEICANTGETOUTOTHEHABITOFCAFFINABOUTITALLATONCETHECHAFTSW",
+      "truth_preview": "ANTOEXPECTANDIMSONIGHITTHATTHEAUDMANISALREADYWHETTINHISSCYTHEYESEEICANTGETOUTOTHEHABITOFCAFFINABOUTITALLATONCETHECHAFTSW",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 0,
+      "mode": "ordinary",
+      "temperature": 80,
+      "seconds": 5.693573201002437
+    },
+    {
+      "correct_letters": 1014,
+      "letters": 1024,
+      "accuracy": 0.990234375,
+      "preview": "ESANDRATHERDISTRUSTFULOFALLALIENSUNLESSTHEYHAILEDFROMCAPECODORTHEVINEYARDBUTWHATTAKESTHEEAWHALINGITANTTOKNOWTHATBEFOREIT",
+      "truth_preview": "ESANDRATHERDISTRUSTFULOFALLALIENSUNLESSTHEYHAILEDFROMCAPECODORTHEVINEYARDBUTWHATTAKESTHEEAWHALINGIWANTTOKNOWTHATBEFOREIT",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 16,
+      "mode": "ordinary",
+      "temperature": 80,
+      "seconds": 5.758294853003463
+    },
+    {
+      "correct_letters": 1007,
+      "letters": 1024,
+      "accuracy": 0.9833984375,
+      "preview": "EWILLBEMADEMANIFESTINTHEREADINGOFTHEMALLNEEDLESSTATTERSHAVEBEENELITINATEDSOTHATAHISTORYALTOSTATVARIANCEWITHTHEPOSSIBILIT",
+      "truth_preview": "EWILLBEMADEMANIFESTINTHEREADINGOFTHEMALLNEEDLESSMATTERSHAVEBEENELIMINATEDSOTHATAHISTORYALMOSTATVARIANCEWITHTHEPOSSIBILIT",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 0,
+      "mode": "copied_static_codes",
+      "temperature": 120,
+      "seconds": 2.2058911249914672
+    },
+    {
+      "correct_letters": 991,
+      "letters": 1024,
+      "accuracy": 0.9677734375,
+      "preview": "AUSEFORITFORTHEHOWLINGOFTHEWOLVETHADCEASEDALTOGETHERBUTMUSTTHENTHESOONSAILINGTHROUGHTHEBLACKCLOUDSAPPEAREDBEHINDTHEMAGGE",
+      "truth_preview": "AUSEFORITFORTHEHOWLINGOFTHEWOLVESHADCEASEDALTOGETHERBUTJUSTTHENTHEMOONSAILINGTHROUGHTHEBLACKCLOUDSAPPEAREDBEHINDTHEJAGGE",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 2,
+      "mode": "copied_static_codes",
+      "temperature": 120,
+      "seconds": 1.6641644850024022
+    },
+    {
+      "correct_letters": 974,
+      "letters": 1024,
+      "accuracy": 0.951171875,
+      "preview": "STATHIRGINIATECHANDONEFROMPROVECTGUTENNERGEARCHIMESTHEPROOFREADERSOFTHISMERSIONAREINDEBTEDTOTHEUNIVERSITYOFADELAIDELIERA",
+      "truth_preview": "CTATVIRGINIATECHANDONEFROMPROJECTGUTENBERGSARCHIVESTHEPROOFREADERSOFTHISVERSIONAREINDEBTEDTOTHEUNIVERSITYOFADELAIDELIBRA",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 15,
+      "mode": "copied_static_codes",
+      "temperature": 120,
+      "seconds": 2.323304771009134
+    },
+    {
+      "correct_letters": 1008,
+      "letters": 1024,
+      "accuracy": 0.984375,
+      "preview": "SSFULLINGUPTHEWATERTHROUGHTHEIRPIPESANDVENTSWHICHNATUREHASPLANEDONTHEIRSHOULDERSSIRTHERBERTSVOYAGESINTOASIAANDAFRICAHARR",
+      "truth_preview": "SSFUZZINGUPTHEWATERTHROUGHTHEIRPIPESANDVENTSWHICHNATUREHASPLACEDONTHEIRSHOULDERSSIRTHERBERTSVOYAGESINTOASIAANDAFRICAHARR",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 16,
+      "mode": "copied_static_codes",
+      "temperature": 120,
+      "seconds": 2.590369371988345
+    },
+    {
+      "correct_letters": 1009,
+      "letters": 1024,
+      "accuracy": 0.9853515625,
+      "preview": "ADESLIGHTERYOUMIGHTSAYATOUCHOFNATINWOODISINHIMINTHECOMPLETIONOFATHIRDSTILLLINGERSATROPICTAWNBUTSLIGHTLYBLEACHEDWITHALHED",
+      "truth_preview": "ADESLIGHTERYOUMIGHTSAYATOUCHOFSATINWOODISINHIMINTHECOMPLEXIONOFATHIRDSTILLLINGERSATROPICTAWNBUTSLIGHTLYBLEACHEDWITHALHED",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 23,
+      "mode": "copied_static_codes",
+      "temperature": 120,
+      "seconds": 1.7862591299926862
+    },
+    {
+      "correct_letters": 1003,
+      "letters": 1024,
+      "accuracy": 0.9794921875,
+      "preview": "OSEFROMABOVETHEBROWSWHECHWERELIKEWISEVERYPROTECTINGLEKETWOLONGPROMONTORIESTHICKLYWOODEDONTOPQUEEQUEGWASGEORGEWASHINGTONC",
+      "truth_preview": "OPEFROMABOVETHEBROWSWHICHWERELIKEWISEVERYPROJECTINGLIKETWOLONGPROMONTORIESTHICKLYWOODEDONTOPQUEEQUEGWASGEORGEWASHINGTONC",
+      "unseen_positions": 2,
+      "known_key_exact": true,
+      "fixture": 27,
+      "mode": "copied_static_codes",
+      "temperature": 120,
+      "seconds": 2.178283361994545
+    },
+    {
+      "correct_letters": 1017,
+      "letters": 1024,
+      "accuracy": 0.9931640625,
+      "preview": "AMOUNTAINWHICHSEEMEDASWEWOUNDONOURSERPENTINEWAYTOBERIGHTBEFOREUSLOOKISTENSHEKGODSSEATANDHECROSSEDHIMSELFREVERENTLYASWEWO",
+      "truth_preview": "AMOUNTAINWHICHSEEMEDASWEWOUNDONOURSERPENTINEWAYTOBERIGHTBEFOREUSLOOKISTENSZEKGODSSEATANDHECROSSEDHIMSELFREVERENTLYASWEWO",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 1,
+      "mode": "copied_static_codes",
+      "temperature": 120,
+      "seconds": 2.3113012999965576
+    },
+    {
+      "correct_letters": 1016,
+      "letters": 1024,
+      "accuracy": 0.9921875,
+      "preview": "ANTOEXPECTANDIMSONIGHITTHATTHEAUDMANISALREADYWHETTINHISSCYTHEYESEEICANTGETOUTOTHEHABITOFCAFFINABOUTITALLATONCETHECHAFTSW",
+      "truth_preview": "ANTOEXPECTANDIMSONIGHITTHATTHEAUDMANISALREADYWHETTINHISSCYTHEYESEEICANTGETOUTOTHEHABITOFCAFFINABOUTITALLATONCETHECHAFTSW",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 0,
+      "mode": "ordinary",
+      "temperature": 120,
+      "seconds": 4.7648097919882275
+    },
+    {
+      "correct_letters": 1014,
+      "letters": 1024,
+      "accuracy": 0.990234375,
+      "preview": "ESANDRATHERDISTRUSTFULOFALLALIENSUNLESSTHEYHAILEDFROMCAPECODORTHEVINEYARDBUTWHATTAKESTHEEAWHALINGITANTTOKNOWTHATBEFOREIT",
+      "truth_preview": "ESANDRATHERDISTRUSTFULOFALLALIENSUNLESSTHEYHAILEDFROMCAPECODORTHEVINEYARDBUTWHATTAKESTHEEAWHALINGIWANTTOKNOWTHATBEFOREIT",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 16,
+      "mode": "ordinary",
+      "temperature": 120,
+      "seconds": 4.505199068997172
+    }
+  ],
+  "summary": [
+    {
+      "temperature": 40,
+      "passes95": 6,
+      "mean": 0.8721788194444444,
+      "minimum": 0.4560546875
+    },
+    {
+      "temperature": 80,
+      "passes95": 7,
+      "mean": 0.8940972222222222,
+      "minimum": 0.1923828125
+    },
+    {
+      "temperature": 120,
+      "passes95": 9,
+      "mean": 0.9807942708333334,
+      "minimum": 0.951171875
+    }
+  ],
+  "selected": {
+    "temperature": 120,
+    "passes95": 9,
+    "mean": 0.9807942708333334,
+    "minimum": 0.951171875
+  },
+  "runtime_seconds": 41.196104741000454
+}

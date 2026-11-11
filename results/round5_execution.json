@@ -1,0 +1,42 @@
+{
+  "executed_at_utc": "2026-11-11T17:53:05.313048+00:00",
+  "basis_commit": "222393d",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "earlier_frozen_sources_preserved": true,
+  "current_frozen_sources_verified": true,
+  "V3": {
+    "qualification": "24/30static;30/30resampled;30/30ordinary;globalfail",
+    "new_Tibia_fits": 0,
+    "paired_baseline_static_passes": 13
+  },
+  "V4": {
+    "qualification": "30/30eachof3modes;globalpass",
+    "paired_baseline_static_passes": 29,
+    "new_Tibia_fits": 1,
+    "fully_reoptimized_null_fits": 297,
+    "p": {
+      "shuffle": 0.01,
+      "bigrams": 0.01,
+      "blocks8": 0.02
+    },
+    "runtime_seconds_real_search": 515.1117903240083
+  },
+  "diagnosis": {
+    "known_true_keys_score_higher_in_opened_failures": 6,
+    "additional_optimization_fits": 0
+  },
+  "tests": {
+    "passed": 75,
+    "failed": 0,
+    "log": "results/tests_round5.log"
+  },
+  "verified_translations": 0,
+  "limits": [
+    "Synthetic qualification is necessary but not universal power; only99skewed and specified assembly regimes measured.",
+    "Pvalues are exploratory, lowest resolution.01, uncorrected for sequential studies; longmotifs notfullypreserved bynulls.",
+    "Repeated61-code dependent gameholdout and wholecorpus importedtokenization are not new independentsemanticvalidation.",
+    "Comparisons acrossqualifications changeauthorsandkeys; causalalgorithmcomparisons usepairedsameciphertext baselines."
+  ]
+}

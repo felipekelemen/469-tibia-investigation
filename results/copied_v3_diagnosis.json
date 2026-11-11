@@ -1,0 +1,152 @@
+{
+  "role": "posthoc audit ofopenedqualificationfailures; notqualification or tuning",
+  "input_sha256": "066db79483a61e1d122e322a57f7a7ae2d305e05cfba5819c4fd1863084a5886",
+  "additional_fits": 0,
+  "failures": [
+    {
+      "fixture": 0,
+      "mode": "copied_static_codes",
+      "source": "dracula",
+      "accuracy": 0.1376953125,
+      "unseen_test_positions": 0,
+      "true_key": {
+        "raw_score": -23595.165572655224,
+        "quad_mean": -4.264443443458381,
+        "frequency_penalty": 71.15425262481534,
+        "objective": -23737.474077904855
+      },
+      "returned_key": {
+        "raw_score": -29013.464078169454,
+        "quad_mean": -5.243713008886581,
+        "frequency_penalty": 488.71014958017787,
+        "objective": -29990.88437732981
+      },
+      "true_minus_returned_objective": 6253.410299424955,
+      "observed_codes": 97,
+      "latent_homophone_pairs_with_common_true_letter": 226,
+      "diagnosis": "search insufficiency: true key has higher training objective"
+    },
+    {
+      "fixture": 2,
+      "mode": "copied_static_codes",
+      "source": "dracula",
+      "accuracy": 0.185546875,
+      "unseen_test_positions": 0,
+      "true_key": {
+        "raw_score": -23257.537892219414,
+        "quad_mean": -4.203422716829824,
+        "frequency_penalty": 134.95741922199431,
+        "objective": -23527.452730663405
+      },
+      "returned_key": {
+        "raw_score": -28680.69961695616,
+        "quad_mean": -5.183571230246911,
+        "frequency_penalty": 563.9691350662345,
+        "objective": -29808.63788708863
+      },
+      "true_minus_returned_objective": 6281.185156425225,
+      "observed_codes": 99,
+      "latent_homophone_pairs_with_common_true_letter": 204,
+      "diagnosis": "search insufficiency: true key has higher training objective"
+    },
+    {
+      "fixture": 15,
+      "mode": "copied_static_codes",
+      "source": "moby_dick",
+      "accuracy": 0.6416015625,
+      "unseen_test_positions": 0,
+      "true_key": {
+        "raw_score": -24584.457264226854,
+        "quad_mean": -4.443241869551212,
+        "frequency_penalty": 399.86397535548974,
+        "objective": -25384.185214937832
+      },
+      "returned_key": {
+        "raw_score": -25713.183000051507,
+        "quad_mean": -4.647240737403128,
+        "frequency_penalty": 503.78839919954964,
+        "objective": -26720.759798450606
+      },
+      "true_minus_returned_objective": 1336.5745835127746,
+      "observed_codes": 98,
+      "latent_homophone_pairs_with_common_true_letter": 215,
+      "diagnosis": "search insufficiency: true key has higher training objective"
+    },
+    {
+      "fixture": 16,
+      "mode": "copied_static_codes",
+      "source": "moby_dick",
+      "accuracy": 0.3583984375,
+      "unseen_test_positions": 0,
+      "true_key": {
+        "raw_score": -23789.330383353798,
+        "quad_mean": -4.299535583472582,
+        "frequency_penalty": 116.1413898345694,
+        "objective": -24021.613163022936
+      },
+      "returned_key": {
+        "raw_score": -27398.155238329047,
+        "quad_mean": -4.95177213777861,
+        "frequency_penalty": 572.1563466339336,
+        "objective": -28542.467931596915
+      },
+      "true_minus_returned_objective": 4520.8547685739795,
+      "observed_codes": 99,
+      "latent_homophone_pairs_with_common_true_letter": 293,
+      "diagnosis": "search insufficiency: true key has higher training objective"
+    },
+    {
+      "fixture": 23,
+      "mode": "copied_static_codes",
+      "source": "moby_dick",
+      "accuracy": 0.318359375,
+      "unseen_test_positions": 0,
+      "true_key": {
+        "raw_score": -24109.429816400454,
+        "quad_mean": -4.357388363708739,
+        "frequency_penalty": 164.17872432100063,
+        "objective": -24437.787265042454
+      },
+      "returned_key": {
+        "raw_score": -27858.158652320115,
+        "quad_mean": -5.034910293208045,
+        "frequency_penalty": 493.5990822176419,
+        "objective": -28845.3568167554
+      },
+      "true_minus_returned_objective": 4407.569551712946,
+      "observed_codes": 96,
+      "latent_homophone_pairs_with_common_true_letter": 348,
+      "diagnosis": "search insufficiency: true key has higher training objective"
+    },
+    {
+      "fixture": 27,
+      "mode": "copied_static_codes",
+      "source": "moby_dick",
+      "accuracy": 0.45703125,
+      "unseen_test_positions": 2,
+      "true_key": {
+        "raw_score": -23654.14948562158,
+        "quad_mean": -4.275103828957452,
+        "frequency_penalty": 201.5994792346169,
+        "objective": -24057.348444090814
+      },
+      "returned_key": {
+        "raw_score": -26703.67309765366,
+        "quad_mean": -4.826255755946803,
+        "frequency_penalty": 541.6292897629867,
+        "objective": -27786.931677179633
+      },
+      "true_minus_returned_objective": 3729.583233088819,
+      "observed_codes": 96,
+      "latent_homophone_pairs_with_common_true_letter": 291,
+      "diagnosis": "search insufficiency: true key has higher training objective"
+    }
+  ],
+  "search_insufficiency_count": 6,
+  "objective_mismatch_count": 0,
+  "limits": [
+    "Known true key supplies a witness, not a proof of global optimality.",
+    "A true-higher witness isolates failure of this finite search, not an absence of other objective errors.",
+    "These qualification outcomes are now opened; future tuning requires a new qualification set."
+  ]
+}

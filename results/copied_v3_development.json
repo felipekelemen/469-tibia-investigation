@@ -1,0 +1,870 @@
+{
+  "complete": true,
+  "model": {
+    "training_sources": [
+      {
+        "path": "data/english_reference/alice.txt",
+        "source_sha256": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+        "letters": 86465,
+        "text_sha256": "ea6dcf57321f818b5e3c20d3395e1a40ecd9b3e946defd0941fd130b78aef795"
+      },
+      {
+        "path": "data/benchmark_reference/frankenstein.txt",
+        "source_sha256": "2b97b7f8aad508649481d8dd4f6b54f9b965ddb3ba634e9151c815f537b49e42",
+        "letters": 100000,
+        "text_sha256": "d710a6deeaffecc51e8edfb39be377cef38b80e447b758dd07dc77237b42c9c2"
+      },
+      {
+        "path": "data/benchmark_reference/pride_prejudice.txt",
+        "source_sha256": "3f6bb9d6f78e0293b56acd4714dd68cb7d6d1d293402031ce9d5a216bcaf9d75",
+        "letters": 100000,
+        "text_sha256": "8110f8ab47a4beef19fe1ae58570dee9486c1a7fc00999b858cfe03aa5542c61"
+      },
+      {
+        "path": "data/benchmark_reference/sherlock_holmes.txt",
+        "source_sha256": "922e2a12ccb43a4c9544c260b2166c6ad2097aeb5957faeee113f173bb857cd0",
+        "letters": 100000,
+        "text_sha256": "623b19a0392d5d66b3a2c07a36456de09158f706f06a99e87f50ecfdb6ab51ff"
+      },
+      {
+        "path": "data/benchmark_reference_v2/war_worlds.txt",
+        "source_sha256": "8417469e3ab664749f7b36ebb85799075818207b0380b54c27d07d592a44117d",
+        "letters": 100000,
+        "text_sha256": "b34014c51d8962ae7510acd28563929ddc65c81ffd5a030a06291c44d2f4e5d9"
+      },
+      {
+        "path": "data/benchmark_reference_v2/great_expectations.txt",
+        "source_sha256": "9a637118af8e953e9764ec603d9b0a032883384d465acac2e27966a80cf1c6f8",
+        "letters": 100000,
+        "text_sha256": "5bb20665aa05333acb41036cd7fc6b5f8d88769c48c111bfc76f7d047a6d1dea"
+      }
+    ],
+    "tetragrams": 586447,
+    "observed_tetragrams": 41988,
+    "model_sha256": "f47c563ca563fa6c055871205f89675e21664809fc9f9d5756d7bef78c6416ee",
+    "alpha": 0.01,
+    "scope": "Previous development and opened qualification authors now training; no V3qualification author used."
+  },
+  "trials": [
+    {
+      "correct_letters": 1019,
+      "letters": 1024,
+      "accuracy": 0.9951171875,
+      "preview": "FFORTOFTHESPIRITOFGOODBUTITWASINEFFECTUALDESTINYWASTOOPOTENTANDHERIMMUTABLELAWSHADDECREEDMYUTTERANDTERRIBLEDESTRUCTIONTH",
+      "truth_preview": "FFORTOFTHESPIRITOFGOODBUTITWASINEFFECTUALDESTINYWASTOOPOTENTANDHERIMMUTABLELAWSHADDECREEDMYUTTERANDTERRIBLEDESTRUCTIONCH",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 0,
+      "config": {
+        "banks": 2,
+        "frequency_weight": 2.0
+      },
+      "seconds": 2.0026960090035573,
+      "train_score": -4.130204194612363
+    },
+    {
+      "correct_letters": 1016,
+      "letters": 1024,
+      "accuracy": 0.9921875,
+      "preview": "OWNAHORRIBLECURSEUPONMYHEADASMORTALASTHATOFCRIMEIVISITEDEDINBURGHWITHLANGUIDEYESANDMINDANDYETTHATCITYMIGHTHAVEINTERESTED",
+      "truth_preview": "OWNAHORRIBLECURSEUPONMYHEADASMORTALASTHATOFCRIMEIVISITEDEDINBURGHWITHLANGUIDEYESANDMINDANDYETTHATCITYMIGHTHAVEINTERESTED",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 1,
+      "config": {
+        "banks": 2,
+        "frequency_weight": 2.0
+      },
+      "seconds": 1.804444744004286,
+      "train_score": -4.140857129721632
+    },
+    {
+      "correct_letters": 1017,
+      "letters": 1024,
+      "accuracy": 0.9931640625,
+      "preview": "ERTOINHABITEDTOSEEKFORONEWHERETHEFEWWANTSIEXPERIENCEDWOULDBEMOREEASILYSATISFIEDINTHISEMIGRATIONIEXCEEDINGLYLAMENTEDTHELO",
+      "truth_preview": "ERTOINHABITEDTOSEEKFORONEWHERETHEFEWWANTSIEXPERIENCEDWOULDBEMOREEASILYSATISFIEDINTHISEMIGRATIONIEXCEEDINGLYLAMENTEDTHELO",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 2,
+      "config": {
+        "banks": 2,
+        "frequency_weight": 2.0
+      },
+      "seconds": 2.0647278369870037,
+      "train_score": -4.116469317762951
+    },
+    {
+      "correct_letters": 1015,
+      "letters": 1024,
+      "accuracy": 0.9912109375,
+      "preview": "THIRTEENYEARSOFAGEWEALLSENTONEPARTYOFPLEASURETOTHEBATHSNEARTHONONTHEINCLEMENTYOFTHEWEATHEROBLIGEDUSTOREMAINADAYTONFINEDT",
+      "truth_preview": "THIRTEENYEARSOFAGEWEALLWENTONAPARTYOFPLEASURETOTHEBATHSNEARTHONONTHEINCLEMENCYOFTHEWEATHEROBLIGEDUSTOREMAINADAYCONFINEDT",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 3,
+      "config": {
+        "banks": 2,
+        "frequency_weight": 2.0
+      },
+      "seconds": 1.839609215996461,
+      "train_score": -4.110202954497262
+    },
+    {
+      "correct_letters": 1014,
+      "letters": 1024,
+      "accuracy": 0.990234375,
+      "preview": "RONTHETHIRDDAYMYMOTHERSICKENEDHERFEVERWASACCOMPANIEDBYTHEMOSTALARMINGSYMPTOMSANDTHELOOKSOFHERMEDICALATTENDANTSPROGNOSTIC",
+      "truth_preview": "RONTHETHIRDDAYMYMOTHERSICKENEDHERFEVERWASACCOMPANIEDBYTHEMOSTALARMINGSYMPTOMSANDTHELOOKSOFHERMEDICALATTENDANTSPROGNOSTIC",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 4,
+      "config": {
+        "banks": 2,
+        "frequency_weight": 2.0
+      },
+      "seconds": 1.9604445510049118,
+      "train_score": -4.113545455311905
+    },
+    {
+      "correct_letters": 1016,
+      "letters": 1024,
+      "accuracy": 0.9921875,
+      "preview": "MAPERSONINSCOTLANDWHOHADFORMERLYBEENOURVISITORATGENEVAHEMENTIONEDTHEBEAUTIESOFHISNATIVECOENTRYANDASKEDUSIFTHOSEWERENOTSU",
+      "truth_preview": "MAPERSONINSCOTLANDWHOHADFORMERLYBEENOURVISITORATGENEVAHEMENTIONEDTHEBEAUTIESOFHISNATIVECOUNTRYANDASKEDUSIFTHOSEWERENOTSU",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 5,
+      "config": {
+        "banks": 2,
+        "frequency_weight": 2.0
+      },
+      "seconds": 2.2825856170093175,
+      "train_score": -4.1150837297083305
+    },
+    {
+      "correct_letters": 1021,
+      "letters": 1024,
+      "accuracy": 0.9970703125,
+      "preview": "EATENABOUTFORMANYHOURSANDHADBEENOBLIGEDTORETURNNEARLYTOTHESAMESPOTFROMWHICHIHADDEPARTEDBESIDESTHEYOBSERVEDTHATITAPPEARED",
+      "truth_preview": "EATENABOUTFORMANYHOURSANDHADBEENOBLIGEDTORETURNNEARLYTOTHESAMESPOTFROMWHICHIHADDEPARTEDBESIDESTHEYOBSERVEDTHATITAPPEARED",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 6,
+      "config": {
+        "banks": 2,
+        "frequency_weight": 2.0
+      },
+      "seconds": 2.0632197389932116,
+      "train_score": -4.117710806084389
+    },
+    {
+      "correct_letters": 1019,
+      "letters": 1024,
+      "accuracy": 0.9951171875,
+      "preview": "REESITRIEDTHEREFORETODRESSMYFOODINTHESAMEMANNERSLACINGITONTHELIVEEMBERSIFOUNDTHATTHEBERRIESWERESPOILEDBYTHISOPERATIONAND",
+      "truth_preview": "REESITRIEDTHEREFORETODRESSMYFOODINTHESAMEMANNERPLACINGITONTHELIVEEMBERSIFOUNDTHATTHEBERRIESWERESPOILEDBYTHISOPERATIONAND",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 7,
+      "config": {
+        "banks": 2,
+        "frequency_weight": 2.0
+      },
+      "seconds": 2.074787967983866,
+      "train_score": -4.143012481400581
+    },
+    {
+      "correct_letters": 1001,
+      "letters": 1024,
+      "accuracy": 0.9775390625,
+      "preview": "KINGHISGUITARPLAYEDSOMEAIRSSOENTRANCINGLYBEAUTITULTHATTHEYATONCEDREWTEARSOTSORROWANDDELIGHTTROMMYEEESSHESANGANDHERVOICEF",
+      "truth_preview": "KINGHISGUITARPLAYEDSOMEAIRSSOENTRANCINGLYBEAUTIFULTHATTHEYATONCEDREWTEARSOFSORROWANDDELIGHTFROMMYEYESSHESANGANDHERVOICEF",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 8,
+      "config": {
+        "banks": 2,
+        "frequency_weight": 2.0
+      },
+      "seconds": 2.0897304550162517,
+      "train_score": -4.198115787285728
+    },
+    {
+      "correct_letters": 1023,
+      "letters": 1024,
+      "accuracy": 0.9990234375,
+      "preview": "RRIAGEWOULDATALLINTERFEREWITHANYFUTUREPLANSOFHONOURANDUTILITYTHATYOUMAYHAVEFORMEDDONOTSUPPOSEHOWEVERTHATIWISHTODICTATEHA",
+      "truth_preview": "RRIAGEWOULDATALLINTERFEREWITHANYFUTUREPLANSOFHONOURANDUTILITYTHATYOUMAYHAVEFORMEDDONOTSUPPOSEHOWEVERTHATIWISHTODICTATEHA",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 9,
+      "config": {
+        "banks": 2,
+        "frequency_weight": 2.0
+      },
+      "seconds": 2.1193633890070487,
+      "train_score": -4.1407861125358005
+    },
+    {
+      "correct_letters": 1021,
+      "letters": 1024,
+      "accuracy": 0.9970703125,
+      "preview": "ROTECTIONTHEYCONSULTEDTHEIRVILLAGEPRIESTANDTHERESULTWASTHATELIZABETHLAVENZABECAMETHEINMATEOFMYPARENTSHOUSEMYMORETHANSIST",
+      "truth_preview": "ROTECTIONTHEYCONSULTEDTHEIRVILLAGEPRIESTANDTHERESULTWASTHATELIZABETHLAVENZABECAMETHEINMATEOFMYPARENTSHOUSEMYMORETHANSIST",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 10,
+      "config": {
+        "banks": 2,
+        "frequency_weight": 2.0
+      },
+      "seconds": 1.6903272620111238,
+      "train_score": -4.063943066135532
+    },
+    {
+      "correct_letters": 1015,
+      "letters": 1024,
+      "accuracy": 0.9912109375,
+      "preview": "NSTANTMYFATHERENTEREDISATUNHAPPINESSDEEPLYIMPRESSEDONHISCOUNTENANCEBUTHEENDEAVOUREDTOWELCOMEMECHEERFULLYANDAFTERWEHADENC",
+      "truth_preview": "NSTANTMYFATHERENTEREDISAWUNHAPPINESSDEEPLYIMPRESSEDONHISCOUNTENANCEBUTHEENDEAVOUREDTOWELCOMEMECHEERFULLYANDAFTERWEHADEXC",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 11,
+      "config": {
+        "banks": 2,
+        "frequency_weight": 2.0
+      },
+      "seconds": 1.8727115290093934,
+      "train_score": -4.108772755781648
+    },
+    {
+      "correct_letters": 1013,
+      "letters": 1024,
+      "accuracy": 0.9892578125,
+      "preview": "FFORTOFTHESPIRITOFGOODBUTITWASINEFFECTUALDESTINYWASTOOPOTENTANDHERIMMUTABLELATSHADDECREEDMYUTTERANDTERRIBLEDESTRUCTIONTH",
+      "truth_preview": "FFORTOFTHESPIRITOFGOODBUTITWASINEFFECTUALDESTINYWASTOOPOTENTANDHERIMMUTABLELAWSHADDECREEDMYUTTERANDTERRIBLEDESTRUCTIONCH",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 0,
+      "config": {
+        "banks": 2,
+        "frequency_weight": 0.5
+      },
+      "seconds": 1.86193449300481,
+      "train_score": -4.12774283758106
+    },
+    {
+      "correct_letters": 1008,
+      "letters": 1024,
+      "accuracy": 0.984375,
+      "preview": "OWNAHORRIBLECURSEUPONMYHEADASMORTALASTHATOFCRIMEIVISITEDEDINBURGHWITHLANGUIDEYESANDMINDANDYETTHATCITYMIGHTHAVEINTERESTED",
+      "truth_preview": "OWNAHORRIBLECURSEUPONMYHEADASMORTALASTHATOFCRIMEIVISITEDEDINBURGHWITHLANGUIDEYESANDMINDANDYETTHATCITYMIGHTHAVEINTERESTED",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 1,
+      "config": {
+        "banks": 2,
+        "frequency_weight": 0.5
+      },
+      "seconds": 1.6054081519978354,
+      "train_score": -4.131639242613798
+    },
+    {
+      "correct_letters": 1019,
+      "letters": 1024,
+      "accuracy": 0.9951171875,
+      "preview": "ERTOINHABITEDTOSEEKFORONEWHERETHEFEWWANTSIEXPERIENCEDWOULDBEMOREEASILYSATISFIEDINTHISEMIGRATIONIEXCEEDINGLYLAMENTEDTHELO",
+      "truth_preview": "ERTOINHABITEDTOSEEKFORONEWHERETHEFEWWANTSIEXPERIENCEDWOULDBEMOREEASILYSATISFIEDINTHISEMIGRATIONIEXCEEDINGLYLAMENTEDTHELO",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 2,
+      "config": {
+        "banks": 2,
+        "frequency_weight": 0.5
+      },
+      "seconds": 1.8278012349910568,
+      "train_score": -4.116227814191832
+    },
+    {
+      "correct_letters": 1015,
+      "letters": 1024,
+      "accuracy": 0.9912109375,
+      "preview": "THIRTEENYEARSOFAGEWEALLSENTONEPARTYOFPLEASURETOTHEBATHSNEARTHONONTHEINCLEMENTYOFTHEWEATHEROBLIGEDUSTOREMAINADAYTONFINEDT",
+      "truth_preview": "THIRTEENYEARSOFAGEWEALLWENTONAPARTYOFPLEASURETOTHEBATHSNEARTHONONTHEINCLEMENCYOFTHEWEATHEROBLIGEDUSTOREMAINADAYCONFINEDT",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 3,
+      "config": {
+        "banks": 2,
+        "frequency_weight": 0.5
+      },
+      "seconds": 1.7609102290007286,
+      "train_score": -4.108759015385665
+    },
+    {
+      "correct_letters": 1015,
+      "letters": 1024,
+      "accuracy": 0.9912109375,
+      "preview": "RONTHETHIRDDAYMYMOTHERSICKENEDHERFEVERWASACCOMPANIEDBYTHEMOSTALARMINGSYMPTOMSANDTHELOOKSOFHERMEDICALATTENDANTSPROGNOSTIC",
+      "truth_preview": "RONTHETHIRDDAYMYMOTHERSICKENEDHERFEVERWASACCOMPANIEDBYTHEMOSTALARMINGSYMPTOMSANDTHELOOKSOFHERMEDICALATTENDANTSPROGNOSTIC",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 4,
+      "config": {
+        "banks": 2,
+        "frequency_weight": 0.5
+      },
+      "seconds": 1.8853172100061784,
+      "train_score": -4.111367742496158
+    },
+    {
+      "correct_letters": 1016,
+      "letters": 1024,
+      "accuracy": 0.9921875,
+      "preview": "MAPERSONINSCOTLANDWHOHADFORMERLYBEENOURVISITORATGENEVAHEMENTIONEDTHEBEAUTIESOFHISNATIVECOENTRYANDASKEDUSIFTHOSEWERENOTSU",
+      "truth_preview": "MAPERSONINSCOTLANDWHOHADFORMERLYBEENOURVISITORATGENEVAHEMENTIONEDTHEBEAUTIESOFHISNATIVECOUNTRYANDASKEDUSIFTHOSEWERENOTSU",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 5,
+      "config": {
+        "banks": 2,
+        "frequency_weight": 0.5
+      },
+      "seconds": 2.0358449750056025,
+      "train_score": -4.114278937554252
+    },
+    {
+      "correct_letters": 1013,
+      "letters": 1024,
+      "accuracy": 0.9892578125,
+      "preview": "EATENABOUTFORMANYHOURSANDHADBEENOBLIGEDTORETURNNEARLYTOTHESAMESPOTFROMWHICHIHADDEPARTEDBESIDESTHEYOBSERVEDTHATITAPPEARED",
+      "truth_preview": "EATENABOUTFORMANYHOURSANDHADBEENOBLIGEDTORETURNNEARLYTOTHESAMESPOTFROMWHICHIHADDEPARTEDBESIDESTHEYOBSERVEDTHATITAPPEARED",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 6,
+      "config": {
+        "banks": 2,
+        "frequency_weight": 0.5
+      },
+      "seconds": 1.9715095569990808,
+      "train_score": -4.106812238953016
+    },
+    {
+      "correct_letters": 1022,
+      "letters": 1024,
+      "accuracy": 0.998046875,
+      "preview": "REESITRIEDTHEREFORETODRESSMYFOODINTHESAMEMANNERPLACINGITONTHELIVEEMBERSIFOUNDTHATTHEBERRIESWERESPOILEDBYTHISOPERATIONAND",
+      "truth_preview": "REESITRIEDTHEREFORETODRESSMYFOODINTHESAMEMANNERPLACINGITONTHELIVEEMBERSIFOUNDTHATTHEBERRIESWERESPOILEDBYTHISOPERATIONAND",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 7,
+      "config": {
+        "banks": 2,
+        "frequency_weight": 0.5
+      },
+      "seconds": 2.032739902002504,
+      "train_score": -4.1420500930270485
+    },
+    {
+      "correct_letters": 777,
+      "letters": 1024,
+      "accuracy": 0.7587890625,
+      "preview": "TINGHISGAITARTRATEDSOSEAIRSSEENTRANTINTNTBEAUTIFATTHATTHETATONTEDREWTEARSOFSORSOWANDDETIGHTFROSSTEIESSHESANGANDHERVOITEN",
+      "truth_preview": "KINGHISGUITARPLAYEDSOMEAIRSSOENTRANCINGLYBEAUTIFULTHATTHEYATONCEDREWTEARSOFSORROWANDDELIGHTFROMMYEYESSHESANGANDHERVOICEF",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 8,
+      "config": {
+        "banks": 2,
+        "frequency_weight": 0.5
+      },
+      "seconds": 1.9246895400137873,
+      "train_score": -4.247130877812263
+    },
+    {
+      "correct_letters": 1023,
+      "letters": 1024,
+      "accuracy": 0.9990234375,
+      "preview": "RRIAGEWOULDATALLINTERFEREWITHANYFUTUREPLANSOFHONOURANDUTILITYTHATYOUMAYHAVEFORMEDDONOTSUPPOSEHOWEVERTHATIWISHTODICTATEHA",
+      "truth_preview": "RRIAGEWOULDATALLINTERFEREWITHANYFUTUREPLANSOFHONOURANDUTILITYTHATYOUMAYHAVEFORMEDDONOTSUPPOSEHOWEVERTHATIWISHTODICTATEHA",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 9,
+      "config": {
+        "banks": 2,
+        "frequency_weight": 0.5
+      },
+      "seconds": 2.0336466820008354,
+      "train_score": -4.1404035605030085
+    },
+    {
+      "correct_letters": 1016,
+      "letters": 1024,
+      "accuracy": 0.9921875,
+      "preview": "ROTECTIONTHEYCONSULTEDTHEIRVILLAGEPRIESTANDTHERESULTWASTHATELIZABETHLAVENZABECAMETHEINMATEOFMYPARENTSHOUSEMYMORETHANSIST",
+      "truth_preview": "ROTECTIONTHEYCONSULTEDTHEIRVILLAGEPRIESTANDTHERESULTWASTHATELIZABETHLAVENZABECAMETHEINMATEOFMYPARENTSHOUSEMYMORETHANSIST",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 10,
+      "config": {
+        "banks": 2,
+        "frequency_weight": 0.5
+      },
+      "seconds": 1.7883643940003822,
+      "train_score": -4.056824651793854
+    },
+    {
+      "correct_letters": 1015,
+      "letters": 1024,
+      "accuracy": 0.9912109375,
+      "preview": "NSTANTMYFATHERENTEREDISATUNHAPPINESSDEEPLYIMPRESSEDONHISCOUNTENANCEBUTHEENDEAVOUREDTOWELCOMEMECHEERFULLYANDAFTERWEHADENC",
+      "truth_preview": "NSTANTMYFATHERENTEREDISAWUNHAPPINESSDEEPLYIMPRESSEDONHISCOUNTENANCEBUTHEENDEAVOUREDTOWELCOMEMECHEERFULLYANDAFTERWEHADEXC",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 11,
+      "config": {
+        "banks": 2,
+        "frequency_weight": 0.5
+      },
+      "seconds": 2.063769901986234,
+      "train_score": -4.1087276333951674
+    },
+    {
+      "correct_letters": 1019,
+      "letters": 1024,
+      "accuracy": 0.9951171875,
+      "preview": "FFORTOFTHESPIRITOFGOODBUTITWASINEFFECTUALDESTINYWASTOOPOTENTANDHERIMMUTABLELAWSHADDECREEDMYUTTERANDTERRIBLEDESTRUCTIONTH",
+      "truth_preview": "FFORTOFTHESPIRITOFGOODBUTITWASINEFFECTUALDESTINYWASTOOPOTENTANDHERIMMUTABLELAWSHADDECREEDMYUTTERANDTERRIBLEDESTRUCTIONCH",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 0,
+      "config": {
+        "banks": 4,
+        "frequency_weight": 2.0
+      },
+      "seconds": 4.258856045009452,
+      "train_score": -4.130204194612363
+    },
+    {
+      "correct_letters": 1016,
+      "letters": 1024,
+      "accuracy": 0.9921875,
+      "preview": "OWNAHORRIBLECURSEUPONMYHEADASMORTALASTHATOFCRIMEIVISITEDEDINBURGHWITHLANGUIDEYESANDMINDANDYETTHATCITYMIGHTHAVEINTERESTED",
+      "truth_preview": "OWNAHORRIBLECURSEUPONMYHEADASMORTALASTHATOFCRIMEIVISITEDEDINBURGHWITHLANGUIDEYESANDMINDANDYETTHATCITYMIGHTHAVEINTERESTED",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 1,
+      "config": {
+        "banks": 4,
+        "frequency_weight": 2.0
+      },
+      "seconds": 4.010678424005164,
+      "train_score": -4.140857129721632
+    },
+    {
+      "correct_letters": 1017,
+      "letters": 1024,
+      "accuracy": 0.9931640625,
+      "preview": "ERTOINHABITEDTOSEEKFORONEWHERETHEFEWWANTSIEXPERIENCEDWOULDBEMOREEASILYSATISFIEDINTHISEMIGRATIONIEXCEEDINGLYLAMENTEDTHELO",
+      "truth_preview": "ERTOINHABITEDTOSEEKFORONEWHERETHEFEWWANTSIEXPERIENCEDWOULDBEMOREEASILYSATISFIEDINTHISEMIGRATIONIEXCEEDINGLYLAMENTEDTHELO",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 2,
+      "config": {
+        "banks": 4,
+        "frequency_weight": 2.0
+      },
+      "seconds": 3.88878522599407,
+      "train_score": -4.116469317762951
+    },
+    {
+      "correct_letters": 1015,
+      "letters": 1024,
+      "accuracy": 0.9912109375,
+      "preview": "THIRTEENYEARSOFAGEWEALLSENTONEPARTYOFPLEASURETOTHEBATHSNEARTHONONTHEINCLEMENTYOFTHEWEATHEROBLIGEDUSTOREMAINADAYTONFINEDT",
+      "truth_preview": "THIRTEENYEARSOFAGEWEALLWENTONAPARTYOFPLEASURETOTHEBATHSNEARTHONONTHEINCLEMENCYOFTHEWEATHEROBLIGEDUSTOREMAINADAYCONFINEDT",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 3,
+      "config": {
+        "banks": 4,
+        "frequency_weight": 2.0
+      },
+      "seconds": 3.419071348005673,
+      "train_score": -4.110202954497262
+    },
+    {
+      "correct_letters": 1014,
+      "letters": 1024,
+      "accuracy": 0.990234375,
+      "preview": "RONTHETHIRDDAYMYMOTHERSICKENEDHERFEVERWASACCOMPANIEDBYTHEMOSTALARMINGSYMPTOMSANDTHELOOKSOFHERMEDICALATTENDANTSPROGNOSTIC",
+      "truth_preview": "RONTHETHIRDDAYMYMOTHERSICKENEDHERFEVERWASACCOMPANIEDBYTHEMOSTALARMINGSYMPTOMSANDTHELOOKSOFHERMEDICALATTENDANTSPROGNOSTIC",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 4,
+      "config": {
+        "banks": 4,
+        "frequency_weight": 2.0
+      },
+      "seconds": 4.059698517987272,
+      "train_score": -4.113545455311905
+    },
+    {
+      "correct_letters": 1016,
+      "letters": 1024,
+      "accuracy": 0.9921875,
+      "preview": "MAPERSONINSCOTLANDWHOHADFORMERLYBEENOURVISITORATGENEVAHEMENTIONEDTHEBEAUTIESOFHISNATIVECOENTRYANDASKEDUSIFTHOSEWERENOTSU",
+      "truth_preview": "MAPERSONINSCOTLANDWHOHADFORMERLYBEENOURVISITORATGENEVAHEMENTIONEDTHEBEAUTIESOFHISNATIVECOUNTRYANDASKEDUSIFTHOSEWERENOTSU",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 5,
+      "config": {
+        "banks": 4,
+        "frequency_weight": 2.0
+      },
+      "seconds": 4.681001065982855,
+      "train_score": -4.1150837297083305
+    },
+    {
+      "correct_letters": 1021,
+      "letters": 1024,
+      "accuracy": 0.9970703125,
+      "preview": "EATENABOUTFORMANYHOURSANDHADBEENOBLIGEDTORETURNNEARLYTOTHESAMESPOTFROMWHICHIHADDEPARTEDBESIDESTHEYOBSERVEDTHATITAPPEARED",
+      "truth_preview": "EATENABOUTFORMANYHOURSANDHADBEENOBLIGEDTORETURNNEARLYTOTHESAMESPOTFROMWHICHIHADDEPARTEDBESIDESTHEYOBSERVEDTHATITAPPEARED",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 6,
+      "config": {
+        "banks": 4,
+        "frequency_weight": 2.0
+      },
+      "seconds": 4.362636747013312,
+      "train_score": -4.117710806084389
+    },
+    {
+      "correct_letters": 1019,
+      "letters": 1024,
+      "accuracy": 0.9951171875,
+      "preview": "REESITRIEDTHEREFORETODRESSMYFOODINTHESAMEMANNERSLACINGITONTHELIVEEMBERSIFOUNDTHATTHEBERRIESWERESPOILEDBYTHISOPERATIONAND",
+      "truth_preview": "REESITRIEDTHEREFORETODRESSMYFOODINTHESAMEMANNERPLACINGITONTHELIVEEMBERSIFOUNDTHATTHEBERRIESWERESPOILEDBYTHISOPERATIONAND",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 7,
+      "config": {
+        "banks": 4,
+        "frequency_weight": 2.0
+      },
+      "seconds": 4.193766859025345,
+      "train_score": -4.143012481400581
+    },
+    {
+      "correct_letters": 1001,
+      "letters": 1024,
+      "accuracy": 0.9775390625,
+      "preview": "KINGHISGUITARPLAYEDSOMEAIRSSOENTRANCINGLYBEAUTITULTHATTHEYATONCEDREWTEARSOTSORROWANDDELIGHTTROMMYEEESSHESANGANDHERVOICEF",
+      "truth_preview": "KINGHISGUITARPLAYEDSOMEAIRSSOENTRANCINGLYBEAUTIFULTHATTHEYATONCEDREWTEARSOFSORROWANDDELIGHTFROMMYEYESSHESANGANDHERVOICEF",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 8,
+      "config": {
+        "banks": 4,
+        "frequency_weight": 2.0
+      },
+      "seconds": 3.879534596009762,
+      "train_score": -4.198115787285728
+    },
+    {
+      "correct_letters": 1023,
+      "letters": 1024,
+      "accuracy": 0.9990234375,
+      "preview": "RRIAGEWOULDATALLINTERFEREWITHANYFUTUREPLANSOFHONOURANDUTILITYTHATYOUMAYHAVEFORMEDDONOTSUPPOSEHOWEVERTHATIWISHTODICTATEHA",
+      "truth_preview": "RRIAGEWOULDATALLINTERFEREWITHANYFUTUREPLANSOFHONOURANDUTILITYTHATYOUMAYHAVEFORMEDDONOTSUPPOSEHOWEVERTHATIWISHTODICTATEHA",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 9,
+      "config": {
+        "banks": 4,
+        "frequency_weight": 2.0
+      },
+      "seconds": 3.980839179988834,
+      "train_score": -4.1407861125358005
+    },
+    {
+      "correct_letters": 1021,
+      "letters": 1024,
+      "accuracy": 0.9970703125,
+      "preview": "ROTECTIONTHEYCONSULTEDTHEIRVILLAGEPRIESTANDTHERESULTWASTHATELIZABETHLAVENZABECAMETHEINMATEOFMYPARENTSHOUSEMYMORETHANSIST",
+      "truth_preview": "ROTECTIONTHEYCONSULTEDTHEIRVILLAGEPRIESTANDTHERESULTWASTHATELIZABETHLAVENZABECAMETHEINMATEOFMYPARENTSHOUSEMYMORETHANSIST",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 10,
+      "config": {
+        "banks": 4,
+        "frequency_weight": 2.0
+      },
+      "seconds": 3.650676507008029,
+      "train_score": -4.063943066135532
+    },
+    {
+      "correct_letters": 1015,
+      "letters": 1024,
+      "accuracy": 0.9912109375,
+      "preview": "NSTANTMYFATHERENTEREDISATUNHAPPINESSDEEPLYIMPRESSEDONHISCOUNTENANCEBUTHEENDEAVOUREDTOWELCOMEMECHEERFULLYANDAFTERWEHADENC",
+      "truth_preview": "NSTANTMYFATHERENTEREDISAWUNHAPPINESSDEEPLYIMPRESSEDONHISCOUNTENANCEBUTHEENDEAVOUREDTOWELCOMEMECHEERFULLYANDAFTERWEHADEXC",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 11,
+      "config": {
+        "banks": 4,
+        "frequency_weight": 2.0
+      },
+      "seconds": 4.171008975987206,
+      "train_score": -4.108772755781648
+    },
+    {
+      "correct_letters": 1013,
+      "letters": 1024,
+      "accuracy": 0.9892578125,
+      "preview": "FFORTOFTHESPIRITOFGOODBUTITWASINEFFECTUALDESTINYWASTOOPOTENTANDHERIMMUTABLELATSHADDECREEDMYUTTERANDTERRIBLEDESTRUCTIONTH",
+      "truth_preview": "FFORTOFTHESPIRITOFGOODBUTITWASINEFFECTUALDESTINYWASTOOPOTENTANDHERIMMUTABLELAWSHADDECREEDMYUTTERANDTERRIBLEDESTRUCTIONCH",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 0,
+      "config": {
+        "banks": 4,
+        "frequency_weight": 0.5
+      },
+      "seconds": 3.7567553210101323,
+      "train_score": -4.12774283758106
+    },
+    {
+      "correct_letters": 1008,
+      "letters": 1024,
+      "accuracy": 0.984375,
+      "preview": "OWNAHORRIBLECURSEUPONMYHEADASMORTALASTHATOFCRIMEIVISITEDEDINBURGHWITHLANGUIDEYESANDMINDANDYETTHATCITYMIGHTHAVEINTERESTED",
+      "truth_preview": "OWNAHORRIBLECURSEUPONMYHEADASMORTALASTHATOFCRIMEIVISITEDEDINBURGHWITHLANGUIDEYESANDMINDANDYETTHATCITYMIGHTHAVEINTERESTED",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 1,
+      "config": {
+        "banks": 4,
+        "frequency_weight": 0.5
+      },
+      "seconds": 3.250966225998127,
+      "train_score": -4.131639242613798
+    },
+    {
+      "correct_letters": 1019,
+      "letters": 1024,
+      "accuracy": 0.9951171875,
+      "preview": "ERTOINHABITEDTOSEEKFORONEWHERETHEFEWWANTSIEXPERIENCEDWOULDBEMOREEASILYSATISFIEDINTHISEMIGRATIONIEXCEEDINGLYLAMENTEDTHELO",
+      "truth_preview": "ERTOINHABITEDTOSEEKFORONEWHERETHEFEWWANTSIEXPERIENCEDWOULDBEMOREEASILYSATISFIEDINTHISEMIGRATIONIEXCEEDINGLYLAMENTEDTHELO",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 2,
+      "config": {
+        "banks": 4,
+        "frequency_weight": 0.5
+      },
+      "seconds": 3.6071152340009576,
+      "train_score": -4.116227814191832
+    },
+    {
+      "correct_letters": 1015,
+      "letters": 1024,
+      "accuracy": 0.9912109375,
+      "preview": "THIRTEENYEARSOFAGEWEALLSENTONEPARTYOFPLEASURETOTHEBATHSNEARTHONONTHEINCLEMENTYOFTHEWEATHEROBLIGEDUSTOREMAINADAYTONFINEDT",
+      "truth_preview": "THIRTEENYEARSOFAGEWEALLWENTONAPARTYOFPLEASURETOTHEBATHSNEARTHONONTHEINCLEMENCYOFTHEWEATHEROBLIGEDUSTOREMAINADAYCONFINEDT",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 3,
+      "config": {
+        "banks": 4,
+        "frequency_weight": 0.5
+      },
+      "seconds": 3.513987023019581,
+      "train_score": -4.108759015385665
+    },
+    {
+      "correct_letters": 1015,
+      "letters": 1024,
+      "accuracy": 0.9912109375,
+      "preview": "RONTHETHIRDDAYMYMOTHERSICKENEDHERFEVERWASACCOMPANIEDBYTHEMOSTALARMINGSYMPTOMSANDTHELOOKSOFHERMEDICALATTENDANTSPROGNOSTIC",
+      "truth_preview": "RONTHETHIRDDAYMYMOTHERSICKENEDHERFEVERWASACCOMPANIEDBYTHEMOSTALARMINGSYMPTOMSANDTHELOOKSOFHERMEDICALATTENDANTSPROGNOSTIC",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 4,
+      "config": {
+        "banks": 4,
+        "frequency_weight": 0.5
+      },
+      "seconds": 3.771727888000896,
+      "train_score": -4.111367742496158
+    },
+    {
+      "correct_letters": 1016,
+      "letters": 1024,
+      "accuracy": 0.9921875,
+      "preview": "MAPERSONINSCOTLANDWHOHADFORMERLYBEENOURVISITORATGENEVAHEMENTIONEDTHEBEAUTIESOFHISNATIVECOENTRYANDASKEDUSIFTHOSEWERENOTSU",
+      "truth_preview": "MAPERSONINSCOTLANDWHOHADFORMERLYBEENOURVISITORATGENEVAHEMENTIONEDTHEBEAUTIESOFHISNATIVECOUNTRYANDASKEDUSIFTHOSEWERENOTSU",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 5,
+      "config": {
+        "banks": 4,
+        "frequency_weight": 0.5
+      },
+      "seconds": 4.106379959994229,
+      "train_score": -4.114278937554252
+    },
+    {
+      "correct_letters": 1013,
+      "letters": 1024,
+      "accuracy": 0.9892578125,
+      "preview": "EATENABOUTFORMANYHOURSANDHADBEENOBLIGEDTORETURNNEARLYTOTHESAMESPOTFROMWHICHIHADDEPARTEDBESIDESTHEYOBSERVEDTHATITAPPEARED",
+      "truth_preview": "EATENABOUTFORMANYHOURSANDHADBEENOBLIGEDTORETURNNEARLYTOTHESAMESPOTFROMWHICHIHADDEPARTEDBESIDESTHEYOBSERVEDTHATITAPPEARED",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 6,
+      "config": {
+        "banks": 4,
+        "frequency_weight": 0.5
+      },
+      "seconds": 3.990021916019032,
+      "train_score": -4.106812238953016
+    },
+    {
+      "correct_letters": 1022,
+      "letters": 1024,
+      "accuracy": 0.998046875,
+      "preview": "REESITRIEDTHEREFORETODRESSMYFOODINTHESAMEMANNERPLACINGITONTHELIVEEMBERSIFOUNDTHATTHEBERRIESWERESPOILEDBYTHISOPERATIONAND",
+      "truth_preview": "REESITRIEDTHEREFORETODRESSMYFOODINTHESAMEMANNERPLACINGITONTHELIVEEMBERSIFOUNDTHATTHEBERRIESWERESPOILEDBYTHISOPERATIONAND",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 7,
+      "config": {
+        "banks": 4,
+        "frequency_weight": 0.5
+      },
+      "seconds": 4.184842957009096,
+      "train_score": -4.1420500930270485
+    },
+    {
+      "correct_letters": 984,
+      "letters": 1024,
+      "accuracy": 0.9609375,
+      "preview": "TINTHISTUITARPLAYEDSOMEAIRSSOENTRANCINGLYBEAUTIFULTHATTHEYATONCEDREWTEARSOFSORROWANDDELITHTFROMMYEEESSHESANTANDHERVOICEF",
+      "truth_preview": "KINGHISGUITARPLAYEDSOMEAIRSSOENTRANCINGLYBEAUTIFULTHATTHEYATONCEDREWTEARSOFSORROWANDDELIGHTFROMMYEYESSHESANGANDHERVOICEF",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 8,
+      "config": {
+        "banks": 4,
+        "frequency_weight": 0.5
+      },
+      "seconds": 4.098235844983719,
+      "train_score": -4.170223310342412
+    },
+    {
+      "correct_letters": 1023,
+      "letters": 1024,
+      "accuracy": 0.9990234375,
+      "preview": "RRIAGEWOULDATALLINTERFEREWITHANYFUTUREPLANSOFHONOURANDUTILITYTHATYOUMAYHAVEFORMEDDONOTSUPPOSEHOWEVERTHATIWISHTODICTATEHA",
+      "truth_preview": "RRIAGEWOULDATALLINTERFEREWITHANYFUTUREPLANSOFHONOURANDUTILITYTHATYOUMAYHAVEFORMEDDONOTSUPPOSEHOWEVERTHATIWISHTODICTATEHA",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 9,
+      "config": {
+        "banks": 4,
+        "frequency_weight": 0.5
+      },
+      "seconds": 4.047857615994872,
+      "train_score": -4.1404035605030085
+    },
+    {
+      "correct_letters": 1016,
+      "letters": 1024,
+      "accuracy": 0.9921875,
+      "preview": "ROTECTIONTHEYCONSULTEDTHEIRVILLAGEPRIESTANDTHERESULTWASTHATELIZABETHLAVENZABECAMETHEINMATEOFMYPARENTSHOUSEMYMORETHANSIST",
+      "truth_preview": "ROTECTIONTHEYCONSULTEDTHEIRVILLAGEPRIESTANDTHERESULTWASTHATELIZABETHLAVENZABECAMETHEINMATEOFMYPARENTSHOUSEMYMORETHANSIST",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 10,
+      "config": {
+        "banks": 4,
+        "frequency_weight": 0.5
+      },
+      "seconds": 3.6517220820096554,
+      "train_score": -4.056824651793854
+    },
+    {
+      "correct_letters": 1015,
+      "letters": 1024,
+      "accuracy": 0.9912109375,
+      "preview": "NSTANTMYFATHERENTEREDISATUNHAPPINESSDEEPLYIMPRESSEDONHISCOUNTENANCEBUTHEENDEAVOUREDTOWELCOMEMECHEERFULLYANDAFTERWEHADENC",
+      "truth_preview": "NSTANTMYFATHERENTEREDISAWUNHAPPINESSDEEPLYIMPRESSEDONHISCOUNTENANCEBUTHEENDEAVOUREDTOWELCOMEMECHEERFULLYANDAFTERWEHADEXC",
+      "unseen_positions": 0,
+      "known_key_exact": true,
+      "fixture": 11,
+      "config": {
+        "banks": 4,
+        "frequency_weight": 0.5
+      },
+      "seconds": 3.8979933800001163,
+      "train_score": -4.1087276333951674
+    }
+  ],
+  "summary": [
+    {
+      "config": {
+        "banks": 2,
+        "frequency_weight": 2.0
+      },
+      "passes95": 12,
+      "mean_accuracy": 0.9925944010416666,
+      "min_accuracy": 0.9775390625
+    },
+    {
+      "config": {
+        "banks": 2,
+        "frequency_weight": 0.5
+      },
+      "passes95": 11,
+      "mean_accuracy": 0.97265625,
+      "min_accuracy": 0.7587890625
+    },
+    {
+      "config": {
+        "banks": 4,
+        "frequency_weight": 2.0
+      },
+      "passes95": 12,
+      "mean_accuracy": 0.9925944010416666,
+      "min_accuracy": 0.9775390625
+    },
+    {
+      "config": {
+        "banks": 4,
+        "frequency_weight": 0.5
+      },
+      "passes95": 12,
+      "mean_accuracy": 0.989501953125,
+      "min_accuracy": 0.9609375
+    }
+  ],
+  "selected": {
+    "config": {
+      "banks": 2,
+      "frequency_weight": 2.0
+    },
+    "passes95": 12,
+    "mean_accuracy": 0.9925944010416666,
+    "min_accuracy": 0.9775390625
+  },
+  "runtime_seconds": 73.08597653500328,
+  "limits": [
+    "Development only; previous opened copied stress cases.",
+    "Choosing hyperparameters on these truths is explicitly training, not validation."
+  ]
+}
