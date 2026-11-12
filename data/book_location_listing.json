@@ -1,0 +1,503 @@
+{
+  "source_commit": "007dcf1707acc9b991642e68bcac08214a5bb38c",
+  "locations": [
+    {
+      "origin_book_id": "12",
+      "library_number": 1,
+      "label": "5611457278",
+      "shelf_name": "First Bookcase",
+      "shelf_ordinal": 1
+    },
+    {
+      "origin_book_id": "13",
+      "library_number": 2,
+      "label": "1800364688",
+      "shelf_name": "First Bookcase",
+      "shelf_ordinal": 1
+    },
+    {
+      "origin_book_id": "14",
+      "library_number": 3,
+      "label": "7830203118",
+      "shelf_name": "First Bookcase",
+      "shelf_ordinal": 1
+    },
+    {
+      "origin_book_id": "15",
+      "library_number": 4,
+      "label": "7278943151",
+      "shelf_name": "Second Bookcase",
+      "shelf_ordinal": 2
+    },
+    {
+      "origin_book_id": "16",
+      "library_number": 5,
+      "label": "3834350812",
+      "shelf_name": "Second Bookcase",
+      "shelf_ordinal": 2
+    },
+    {
+      "origin_book_id": "20",
+      "library_number": 6,
+      "label": "0174648349",
+      "shelf_name": "Third Bookcase",
+      "shelf_ordinal": 3
+    },
+    {
+      "origin_book_id": "21",
+      "library_number": 7,
+      "label": "5084348561",
+      "shelf_name": "Third Bookcase",
+      "shelf_ordinal": 3
+    },
+    {
+      "origin_book_id": "24",
+      "library_number": 8,
+      "label": "5727857261",
+      "shelf_name": "Fourth Bookcase",
+      "shelf_ordinal": 4
+    },
+    {
+      "origin_book_id": "25",
+      "library_number": 9,
+      "label": "2197278943",
+      "shelf_name": "Fourth Bookcase",
+      "shelf_ordinal": 4
+    },
+    {
+      "origin_book_id": "26",
+      "library_number": 10,
+      "label": "4042158576",
+      "shelf_name": "Fourth Bookcase",
+      "shelf_ordinal": 4
+    },
+    {
+      "origin_book_id": "30",
+      "library_number": 11,
+      "label": "0943435084",
+      "shelf_name": "Fifth Bookcase",
+      "shelf_ordinal": 5
+    },
+    {
+      "origin_book_id": "38",
+      "library_number": 12,
+      "label": "2364672119",
+      "shelf_name": "Sixth Bookcase",
+      "shelf_ordinal": 6
+    },
+    {
+      "origin_book_id": "39",
+      "library_number": 13,
+      "label": "5765219727",
+      "shelf_name": "Sixth Bookcase",
+      "shelf_ordinal": 6
+    },
+    {
+      "origin_book_id": "54",
+      "library_number": 14,
+      "label": "4352821778",
+      "shelf_name": "Seventh Bookcase",
+      "shelf_ordinal": 7
+    },
+    {
+      "origin_book_id": "55",
+      "library_number": 15,
+      "label": "9457651288",
+      "shelf_name": "Seventh Bookcase",
+      "shelf_ordinal": 7
+    },
+    {
+      "origin_book_id": "56",
+      "library_number": 16,
+      "label": "6512889523",
+      "shelf_name": "Seventh Bookcase",
+      "shelf_ordinal": 7
+    },
+    {
+      "origin_book_id": "68",
+      "library_number": 17,
+      "label": "6114312889",
+      "shelf_name": "Eighth Bookcase",
+      "shelf_ordinal": 8
+    },
+    {
+      "origin_book_id": "69",
+      "library_number": 18,
+      "label": "3485625108",
+      "shelf_name": "Eighth Bookcase",
+      "shelf_ordinal": 8
+    },
+    {
+      "origin_book_id": "57",
+      "library_number": 19,
+      "label": "18003646889",
+      "shelf_name": "Ninth Bookcase",
+      "shelf_ordinal": 9
+    },
+    {
+      "origin_book_id": "0",
+      "library_number": 20,
+      "label": "9561513534",
+      "shelf_name": "Tenth Bookcase",
+      "shelf_ordinal": 10
+    },
+    {
+      "origin_book_id": "1",
+      "library_number": 21,
+      "label": "2295345274",
+      "shelf_name": "Tenth Bookcase",
+      "shelf_ordinal": 10
+    },
+    {
+      "origin_book_id": "2",
+      "library_number": 22,
+      "label": "8675635611",
+      "shelf_name": "Tenth Bookcase",
+      "shelf_ordinal": 10
+    },
+    {
+      "origin_book_id": "58",
+      "library_number": 23,
+      "label": "8576594344",
+      "shelf_name": "Eleventh Bookcase",
+      "shelf_ordinal": 11
+    },
+    {
+      "origin_book_id": "59",
+      "library_number": 24,
+      "label": "8195372434",
+      "shelf_name": "Eleventh Bookcase",
+      "shelf_ordinal": 11
+    },
+    {
+      "origin_book_id": "3",
+      "library_number": 25,
+      "label": "7816705121",
+      "shelf_name": "Twelfth Bookcase",
+      "shelf_ordinal": 12
+    },
+    {
+      "origin_book_id": "4",
+      "library_number": 26,
+      "label": "9457655996",
+      "shelf_name": "Twelfth Bookcase",
+      "shelf_ordinal": 12
+    },
+    {
+      "origin_book_id": "40",
+      "library_number": 27,
+      "label": "8577445451",
+      "shelf_name": "Thirteenth Bookcase",
+      "shelf_ordinal": 13
+    },
+    {
+      "origin_book_id": "41",
+      "library_number": 28,
+      "label": "0152551751",
+      "shelf_name": "Thirteenth Bookcase",
+      "shelf_ordinal": 13
+    },
+    {
+      "origin_book_id": "42",
+      "library_number": 29,
+      "label": "5197292197",
+      "shelf_name": "Thirteenth Bookcase",
+      "shelf_ordinal": 13
+    },
+    {
+      "origin_book_id": "60",
+      "library_number": 30,
+      "label": "9746483494",
+      "shelf_name": "Fourteenth Bookcase",
+      "shelf_ordinal": 14
+    },
+    {
+      "origin_book_id": "22",
+      "library_number": 31,
+      "label": "6512889672",
+      "shelf_name": "Fifteenth Bookcase",
+      "shelf_ordinal": 15
+    },
+    {
+      "origin_book_id": "27",
+      "library_number": 32,
+      "label": "5345274464",
+      "shelf_name": "Sixteenth Bookcase",
+      "shelf_ordinal": 16
+    },
+    {
+      "origin_book_id": "31",
+      "library_number": 33,
+      "label": "5345274461",
+      "shelf_name": "Seventeenth Bookcase",
+      "shelf_ordinal": 17
+    },
+    {
+      "origin_book_id": "43",
+      "library_number": 34,
+      "label": "81953724348",
+      "shelf_name": "Eighteenth Bookcase",
+      "shelf_ordinal": 18
+    },
+    {
+      "origin_book_id": "61",
+      "library_number": 35,
+      "label": "8550649967",
+      "shelf_name": "Nineteenth Bookcase",
+      "shelf_ordinal": 19
+    },
+    {
+      "origin_book_id": "44",
+      "library_number": 36,
+      "label": "2197278167",
+      "shelf_name": "Twentieth Bookcase",
+      "shelf_ordinal": 20
+    },
+    {
+      "origin_book_id": "45",
+      "library_number": 37,
+      "label": "2119118003",
+      "shelf_name": "Twentieth Bookcase",
+      "shelf_ordinal": 20
+    },
+    {
+      "origin_book_id": "62",
+      "library_number": 38,
+      "label": "4800658611",
+      "shelf_name": "Twenty-First Bookcase",
+      "shelf_ordinal": 21
+    },
+    {
+      "origin_book_id": "63",
+      "library_number": 39,
+      "label": "4600364671",
+      "shelf_name": "Twenty-First Bookcase",
+      "shelf_ordinal": 21
+    },
+    {
+      "origin_book_id": "64",
+      "library_number": 40,
+      "label": "9521991184",
+      "shelf_name": "Twenty-First Bookcase",
+      "shelf_ordinal": 21
+    },
+    {
+      "origin_book_id": "5",
+      "library_number": 41,
+      "label": "2758576519",
+      "shelf_name": "Twenty-Second Bookcase",
+      "shelf_ordinal": 22
+    },
+    {
+      "origin_book_id": "6",
+      "library_number": 42,
+      "label": "3046484353",
+      "shelf_name": "Twenty-Second Bookcase",
+      "shelf_ordinal": 22
+    },
+    {
+      "origin_book_id": "7",
+      "library_number": 43,
+      "label": "8435345158",
+      "shelf_name": "Twenty-Second Bookcase",
+      "shelf_ordinal": 22
+    },
+    {
+      "origin_book_id": "28",
+      "library_number": 44,
+      "label": "1185764219",
+      "shelf_name": "Twenty-Third Bookcase",
+      "shelf_ordinal": 23
+    },
+    {
+      "origin_book_id": "29",
+      "library_number": 45,
+      "label": "1143128895",
+      "shelf_name": "Twenty-Third Bookcase",
+      "shelf_ordinal": 23
+    },
+    {
+      "origin_book_id": "36",
+      "library_number": 46,
+      "label": "8435081921",
+      "shelf_name": "Twenty-Fourth Bookcase",
+      "shelf_ordinal": 24
+    },
+    {
+      "origin_book_id": "37",
+      "library_number": 47,
+      "label": "5191186512",
+      "shelf_name": "Twenty-Fifth Bookcase",
+      "shelf_ordinal": 25
+    },
+    {
+      "origin_book_id": "61",
+      "library_number": 48,
+      "label": "85506499670",
+      "shelf_name": "Twenty-Sixth Bookcase",
+      "shelf_ordinal": 26
+    },
+    {
+      "origin_book_id": "46",
+      "library_number": 49,
+      "label": "1180014015",
+      "shelf_name": "Twenty-Seventh Bookcase",
+      "shelf_ordinal": 27
+    },
+    {
+      "origin_book_id": "47",
+      "library_number": 50,
+      "label": "4519889975",
+      "shelf_name": "Twenty-Seventh Bookcase",
+      "shelf_ordinal": 27
+    },
+    {
+      "origin_book_id": "65",
+      "library_number": 51,
+      "label": "9658550649",
+      "shelf_name": "Twenty-Eighth Bookcase",
+      "shelf_ordinal": 28
+    },
+    {
+      "origin_book_id": "17",
+      "library_number": 52,
+      "label": "7816705747",
+      "shelf_name": "Twenty-Ninth Bookcase",
+      "shelf_ordinal": 29
+    },
+    {
+      "origin_book_id": "32",
+      "library_number": 53,
+      "label": "6518009967",
+      "shelf_name": "Thirtieth Bookcase",
+      "shelf_ordinal": 30
+    },
+    {
+      "origin_book_id": "33",
+      "library_number": 54,
+      "label": "1928895216",
+      "shelf_name": "Thirtieth Bookcase",
+      "shelf_ordinal": 30
+    },
+    {
+      "origin_book_id": "48",
+      "library_number": 55,
+      "label": "9521961800",
+      "shelf_name": "Thirty-First Bookcase",
+      "shelf_ordinal": 31
+    },
+    {
+      "origin_book_id": "66",
+      "library_number": 56,
+      "label": "0421595615",
+      "shelf_name": "Thirty-Second Bookcase",
+      "shelf_ordinal": 32
+    },
+    {
+      "origin_book_id": "67",
+      "library_number": 57,
+      "label": "6284770908",
+      "shelf_name": "Thirty-Second Bookcase",
+      "shelf_ordinal": 32
+    },
+    {
+      "origin_book_id": "18",
+      "library_number": 58,
+      "label": "9785857651",
+      "shelf_name": "Thirty-Third Bookcase",
+      "shelf_ordinal": 33
+    },
+    {
+      "origin_book_id": "19",
+      "library_number": 59,
+      "label": "7563561145",
+      "shelf_name": "Thirty-Third Bookcase",
+      "shelf_ordinal": 33
+    },
+    {
+      "origin_book_id": "34",
+      "library_number": 60,
+      "label": "4672521977",
+      "shelf_name": "Thirty-Fourth Bookcase",
+      "shelf_ordinal": 34
+    },
+    {
+      "origin_book_id": "49",
+      "library_number": 61,
+      "label": "6797577144",
+      "shelf_name": "Thirty-Fifth Bookcase",
+      "shelf_ordinal": 35
+    },
+    {
+      "origin_book_id": "8",
+      "library_number": 62,
+      "label": "4647261145",
+      "shelf_name": "Thirty-Sixth Bookcase",
+      "shelf_ordinal": 36
+    },
+    {
+      "origin_book_id": "9",
+      "library_number": 63,
+      "label": "5857651972",
+      "shelf_name": "Thirty-Sixth Bookcase",
+      "shelf_ordinal": 36
+    },
+    {
+      "origin_book_id": "23",
+      "library_number": 64,
+      "label": "2196057963",
+      "shelf_name": "Thirty-Seventh Bookcase",
+      "shelf_ordinal": 37
+    },
+    {
+      "origin_book_id": "35",
+      "library_number": 65,
+      "label": "4519045042",
+      "shelf_name": "Thirty-Eighth Bookcase",
+      "shelf_ordinal": 38
+    },
+    {
+      "origin_book_id": "10",
+      "library_number": 66,
+      "label": "04215956151",
+      "shelf_name": "Thirty-Ninth Bookcase",
+      "shelf_ordinal": 39
+    },
+    {
+      "origin_book_id": "11",
+      "library_number": 67,
+      "label": "79282784350",
+      "shelf_name": "Thirty-Ninth Bookcase",
+      "shelf_ordinal": 39
+    },
+    {
+      "origin_book_id": "50",
+      "library_number": 68,
+      "label": "8005953724",
+      "shelf_name": "Fortieth Bookcase",
+      "shelf_ordinal": 40
+    },
+    {
+      "origin_book_id": "51",
+      "library_number": 69,
+      "label": "5460036467",
+      "shelf_name": "Fortieth Bookcase",
+      "shelf_ordinal": 40
+    },
+    {
+      "origin_book_id": "52",
+      "library_number": 70,
+      "label": "8952197278",
+      "shelf_name": "Fortieth Bookcase",
+      "shelf_ordinal": 40
+    },
+    {
+      "origin_book_id": "53",
+      "library_number": 71,
+      "label": "1801894452",
+      "shelf_name": "Fortieth Bookcase",
+      "shelf_ordinal": 40
+    }
+  ],
+  "scope": "Community shelf listing ordinal, not authenticated per-book x/y/z coordinates."
+}

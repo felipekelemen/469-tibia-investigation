@@ -306,5 +306,33 @@
     "status": "unidentified_unseen_features_no_predictive_validation",
     "evidence": "7eventosreservadostodossemcobertura;6/7entradasnovaspermitem64/128extensões;defaultcongeladoerra2/2;extensãoajustadaàsrespostasnãoéprevisão",
     "artifact": "results/zero_rule_identifiability.json"
+  },
+  {
+    "id": "H45",
+    "hypothesis": "book_positions.json fornece posições físicas dos livros como metadado criptográfico",
+    "status": "incorrect_metadata_description_not_physical_coordinates",
+    "evidence": "O gerador usa master.find. São 70 entradas, 56 offsets negativos e nenhuma correspondência com o master atual. O campo foi excluído como coordenada física.",
+    "artifact": "results/book_metadata_audit.json"
+  },
+  {
+    "id": "H46",
+    "hypothesis": "Comprimento e estado pequeno de contagem/soma/XOR/estante explicam deterministicamente os zeros",
+    "status": "rejected_for_all18specified_families_conditionally_on_imported_streams",
+    "evidence": "As 18 famílias são incompatíveis: 16 contradições forçadas e duas internas a um livro. Os 18 corpora positivos foram aceitos. Foram executados 39 embaralhamentos e 39 permutações de estantes; a grade não foi ampliada após o resultado.",
+    "artifact": "results/zero_state_constraints.json"
+  },
+  {
+    "id": "H47",
+    "hypothesis": "Transcrições adicionais corroboram os dígitos iniciais dos livros30/64",
+    "status": "indexed_transcription_agreement_not_independent_game_authentication",
+    "evidence": "As transcrições da Wiki BR coincidem nos 150 e 151 dígitos; revisões indicadas 403238 e 403321. A fonte pode compartilhar linhagem e não atesta glosses ou tokenização.",
+    "artifact": "data/metadata_web_evidence.json"
+  },
+  {
+    "id": "H48",
+    "hypothesis": "Gravação catalogada em2007 permite contar a matriz antiga nesta inspeção",
+    "status": "playback_blocked_no_frames_inspected",
+    "evidence": "O player foi aberto em Chromium: assets do cliente retornaram 200, reprodução 403 e janela de verificação humana. Zero quadros foram inspecionados; a data do catálogo não autentica a contagem da matriz.",
+    "artifact": "results/historical_cam_probe_round9.json"
   }
 ]

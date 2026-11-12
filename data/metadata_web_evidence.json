@@ -1,0 +1,38 @@
+{
+  "retrieval_mechanism": "Web tool indexed/readable text, not raw HTML or authenticated game captures",
+  "sources": [
+    {
+      "url": "https://www.tibiawiki.com.br/wiki/0943435084_%28Book%29",
+      "revision_reported": "403238",
+      "method": "indexed search excerpt; direct open403",
+      "raw_digits": "094343508434856118003641973536467249684756019968477090889521688952199118006512814572785726118576436467243534527560192889529727816705121648561145191991",
+      "matching_corpus_book_ids": [
+        "30"
+      ]
+    },
+    {
+      "url": "https://www.tibiawiki.com.br/wiki/9521991184_%28Book%29",
+      "revision_reported": "403321",
+      "method": "readable indexed page view",
+      "raw_digits": "9521991184350812434856114519121128883046467972783160174648349434354521972127770909673470920128571972783040421585765943442159560421830203118065719189434",
+      "matching_corpus_book_ids": [
+        "64"
+      ]
+    }
+  ],
+  "other_access": [
+    {
+      "url": "https://tibia.fandom.com/wiki/Hellgate_Library",
+      "result": "direct open402; indexed shelf excerpt available"
+    },
+    {
+      "url": "https://www.tibiawiki.com.br/wiki/Bibliotecas_de_Hellgate",
+      "result": "direct open403; indexed listing excerpts available"
+    }
+  ],
+  "limits": [
+    "Fan wikis may share transcription lineage; agreement is corroboration, not independence or a new holdout.",
+    "Book shelf ordinals and TIBN shelf identifiers are not necessarily the same numbering scheme.",
+    "No new attested English plaintext was obtained."
+  ]
+}

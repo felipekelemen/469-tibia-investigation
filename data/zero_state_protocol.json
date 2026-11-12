@@ -1,0 +1,156 @@
+{
+  "version": "ZERO_STATE_METADATA_V1",
+  "frozen_at_utc": "2026-11-12T12:05:48.490574+00:00",
+  "families": [
+    {
+      "name": "code_token_length_mod2",
+      "seed": "token_length",
+      "update": "constant",
+      "modulus": 2
+    },
+    {
+      "name": "code_token_length_mod4",
+      "seed": "token_length",
+      "update": "constant",
+      "modulus": 4
+    },
+    {
+      "name": "code_token_length_mod16",
+      "seed": "token_length",
+      "update": "constant",
+      "modulus": 16
+    },
+    {
+      "name": "code_raw_length_mod2",
+      "seed": "raw_length",
+      "update": "constant",
+      "modulus": 2
+    },
+    {
+      "name": "code_raw_length_mod4",
+      "seed": "raw_length",
+      "update": "constant",
+      "modulus": 4
+    },
+    {
+      "name": "code_raw_length_mod16",
+      "seed": "raw_length",
+      "update": "constant",
+      "modulus": 16
+    },
+    {
+      "name": "code_n_counter32",
+      "seed": "token_length",
+      "update": "token_counter",
+      "modulus": 32
+    },
+    {
+      "name": "code_m_raw16",
+      "seed": "raw_length",
+      "update": "raw_counter",
+      "modulus": 16
+    },
+    {
+      "name": "code_m_raw32",
+      "seed": "raw_length",
+      "update": "raw_counter",
+      "modulus": 32
+    },
+    {
+      "name": "code_n_raw16",
+      "seed": "token_length",
+      "update": "raw_counter",
+      "modulus": 16
+    },
+    {
+      "name": "code_n_sum16",
+      "seed": "token_length",
+      "update": "sum",
+      "modulus": 16
+    },
+    {
+      "name": "code_m_sum16",
+      "seed": "raw_length",
+      "update": "sum",
+      "modulus": 16
+    },
+    {
+      "name": "code_n_xor16",
+      "seed": "token_length",
+      "update": "xor",
+      "modulus": 16
+    },
+    {
+      "name": "code_m_xor16",
+      "seed": "raw_length",
+      "update": "xor",
+      "modulus": 16
+    },
+    {
+      "name": "code_n_cell16_blockparity",
+      "seed": "token_length",
+      "update": "block_phase",
+      "modulus": 2
+    },
+    {
+      "name": "code_shelf_mod16",
+      "seed": "shelf_ordinal",
+      "update": "constant",
+      "modulus": 16
+    },
+    {
+      "name": "code_shelf_sum16",
+      "seed": "shelf_ordinal",
+      "update": "sum",
+      "modulus": 16
+    },
+    {
+      "name": "code_shelf_raw16",
+      "seed": "shelf_ordinal",
+      "update": "raw_counter",
+      "modulus": 16
+    }
+  ],
+  "alignment_cap": 4096,
+  "search_node_cap": 100000,
+  "seed": 94690000,
+  "shuffle_replicates": 39,
+  "shelf_permutations": 39,
+  "positive_books_each_family": 8,
+  "positive_codes_each_book": 24,
+  "positive_retry_cap_per_book": 200,
+  "positive_generation": "Seeded shared hash action per state key. For raw-length-conditioned rules enumerate admissible final lengths and retain an actual fixed point; retry random synthetic code streams when none exists. This is not universal encoder qualification.",
+  "scope": "Existence of any deterministic Boolean state lookup that serializes the supplied code streams. Not token recovery, original author key discovery or translation.",
+  "available_inputs": {
+    "raw_length": "Observable from digits; may condition a noncausal consistency rule.",
+    "token_length": "Oracle input from imported tokenization, unavailable for raw-only decoding.",
+    "shelf_ordinal": "Community listing category, unverified physical geometry; all71occurrences retained."
+  },
+  "alignment_policy": "Recompute state from the complete prefix for every compatible alignment. Never pin an ambiguous occurrence to one recorded annotation.",
+  "fallbacks_frozen_before_results": [
+    "preserve_zero",
+    "code_majority_averaged_over_all_training_alignments; ties preserve"
+  ],
+  "validation": "Existing exposed68/2 split by content. Shelf models have69training occurrences because book61is duplicated; copies never split across train/test.",
+  "shuffle_control": "Within-code, within-book omission shuffles preserve every book raw length and per-code counts. Expand duplicated shelf occurrences only after shuffling unique source books.",
+  "shelf_control": "Permute the40source shelf ordinals bijectively, retaining bookcase membership and both occurrences of duplicated book61; fit only shelf families.",
+  "statistics": "Logical SAT/UNSAT compatibility, no semantic pvalues or claims of independent repeated windows.",
+  "stop_rule": "Execute this fixed18family batch. No larger lookup/state grid solely to absorb remaining exceptions; require new serialization/source evidence before expanding.",
+  "hashes": {
+    "data/normalized_books.json": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+    "data/normalized_splits.json": "0a0f9d3b60b4077bf9e3074919d35e754f6f77fd4ca4423b160e14e5a58ac3de",
+    "data/book_location_listing.json": "b389e1d2f72a004d570ef62a274cdd876e777eb6c4baeee7ba1ae3fbebcef3bd",
+    "results/book_metadata_audit.json": "070280436d423434b755bfd4fc56f1cec261670829c4057dbb0fb52a2dc9da00",
+    "scripts/zero_state_constraints.py": "a9401fd80bc4a794ddd6cac20a3c1941e310e101b8e4513a2c911f105fd6f2a5",
+    "scripts/zero_state_experiment.py": "aae9821f2ff3720916b680a63e69a8818c8f0de392729f0c98c084fd7ca4dc22",
+    "scripts/zero_rule_constraints.py": "1b2c29541fb49f8e0ddbbdb2f756c442b2f57faf984e1a94c80d29bcb3a4a34e",
+    "scripts/zero_rule_experiment.py": "fea3e77b71b94de9ee30ad35a04392efcc020e7cd517504f19209005145dd0d6"
+  },
+  "limits": [
+    "All results condition on the community code sequence; another tokenization can escape these exclusions.",
+    "Final raw-length-conditioned rules need fixed-point consistency and do not by themselves define an encoder for every input.",
+    "Shelf list numbers are not x/y/z coordinates or authenticated historical object positions.",
+    "A fitting table can memorize state labels and is not an English translation; reserved books are already exposed.",
+    "Alignment/search caps yield unresolved, not rejection."
+  ]
+}

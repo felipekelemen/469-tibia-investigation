@@ -1,0 +1,56 @@
+{
+  "round": 9,
+  "completed_at_utc": "2026-11-12T12:17:19.721241+00:00",
+  "conditional_on_imported_codes": true,
+  "state_families_tested": 18,
+  "state_families_incompatible": 18,
+  "positive_corpora": 18,
+  "positive_synthetic_books": 144,
+  "all_positive_controls_pass": true,
+  "within_book_code_shuffle_corpora": 39,
+  "shelf_ordinal_permutations": 39,
+  "community_listing": {
+    "occurrences": 71,
+    "unique_corpus_books": 70,
+    "shelves": 40,
+    "all_content_matches_exact": true,
+    "classification": "Community shelf listing ordinal, not authenticated per-book x/y/z coordinates.",
+    "duplicate_occurrences": [
+      {
+        "origin_book_id": "61",
+        "library_number": 35,
+        "label": "8550649967",
+        "shelf_name": "Nineteenth Bookcase",
+        "shelf_ordinal": 19
+      },
+      {
+        "origin_book_id": "61",
+        "library_number": 48,
+        "label": "85506499670",
+        "shelf_name": "Twenty-Sixth Bookcase",
+        "shelf_ordinal": 26
+      }
+    ]
+  },
+  "book_positions_accepted_as_physical_coordinates": false,
+  "wiki_transcriptions_matching": 2,
+  "historical_recording_frames_inspected": 0,
+  "historical_skull_count_verified": false,
+  "historical_limit": "Playback403and visible human verification; no frames inspected.",
+  "automated_tests": {
+    "count": 102,
+    "passed": true,
+    "log": "results/tests_round9.log"
+  },
+  "new_raw_decoders": 0,
+  "new_english_decodings": 0,
+  "verified_translations": 0,
+  "stop_rule_followed": true,
+  "limits": [
+    "All results condition on the community code sequence; another tokenization can escape these exclusions.",
+    "Final raw-length-conditioned rules need fixed-point consistency and do not by themselves define an encoder for every input.",
+    "Shelf list numbers are not x/y/z coordinates or authenticated historical object positions.",
+    "A fitting table can memorize state labels and is not an English translation; reserved books are already exposed.",
+    "Alignment/search caps yield unresolved, not rejection."
+  ]
+}

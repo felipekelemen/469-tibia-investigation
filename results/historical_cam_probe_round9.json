@@ -1,0 +1,39 @@
+{
+  "url": "https://tibiacams.com/watch/e15cded1cdfb?t=0",
+  "retrieved_at_utc": "2026-11-12T12:09:07.242099+00:00",
+  "method": "Fresh headless Chromium, normal public page load; screenshot visually inspected; no form submission or verification interaction.",
+  "page_title": "Tetuni in a PvP fight in Hellgate \u2013 Tibia 7.80 | TibiaCams",
+  "api_responses": [
+    {
+      "path": "/api/data/780/Tibia.dat",
+      "status": 200
+    },
+    {
+      "path": "/api/data/780/Tibia.spr",
+      "status": 200
+    },
+    {
+      "path": "/api/recordings/e15cded1cdfb/play",
+      "status": 403
+    },
+    {
+      "path": "/api/data/780/Tibia.pic",
+      "status": 200
+    }
+  ],
+  "human_check_modal_visible": true,
+  "play_request_status": 403,
+  "recording_frames_inspected": 0,
+  "skull_room_coverage_verified": false,
+  "catalog_date": "2007-01-10",
+  "catalog_client_version": "7.80",
+  "catalog_date_is_authenticated_capture_date": false,
+  "screenshot_sha256": "e3cf7ef55250d22bb0503369c37317ea77e067b6eee427eb5cda006e383ecd38",
+  "screenshot_location": "data/history_round9_local/initial.png",
+  "screenshot_published": false,
+  "limits": [
+    "Catalog metadata alone does not show the skull room or count objects.",
+    "No conclusion about a2010matrix change follows from this probe.",
+    "Player assets loading is not recording playback."
+  ]
+}

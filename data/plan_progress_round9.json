@@ -1,0 +1,21 @@
+{
+  "round": 9,
+  "base_plan_snapshot_sha256": "b53c80fcb8a5285fcac92fa660b1987327d2accd3dab6845059372724ec85897",
+  "workstreams_total": 7,
+  "pending_primary_deliverables": 4,
+  "verified_translation_found": false,
+  "updates": {
+    "P01": "Metadata source audit and two wiki digit comparisons completed; no attested plaintext obtained.",
+    "P02": "No new raw/unknown-key solver qualified.",
+    "P03": "Bounded state/metadata formatter extension tested and stopped after18incompatible families.",
+    "P05": "Attested meanings and external codebook predictions still pending.",
+    "P06": "Historical playback blocked by human check; no room frames inspected.",
+    "P07": "Only explicit format/state subsets were tested; arbitrary matrix ciphers remain outside the exclusions."
+  },
+  "formatter_grid_expansion_stopped_pending_new_evidence": true,
+  "next_priorities": [
+    "Primary sources and independently supported glosses by modality inP01/P05.",
+    "Alternative dated object-room captures or accessible recordings inP06.",
+    "Revisit serialization only with independently checkable mechanism evidence."
+  ]
+}

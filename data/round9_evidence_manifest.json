@@ -1,0 +1,30 @@
+{
+  "round": 9,
+  "purpose": "Freeze bounded conditional state tests, metadata provenance and documented historical playback limitation; no translation implied.",
+  "sha256": {
+    "data/book_location_listing.json": "b389e1d2f72a004d570ef62a274cdd876e777eb6c4baeee7ba1ae3fbebcef3bd",
+    "data/metadata_reference/arturo/LICENSE": "bdc7236cbefc3b7a41193466ac17f193430a8e5bf863fc8fcfca9c156a19dbd3",
+    "data/metadata_reference/arturo/data/README.md": "a4792d91f4b77d7857541a3d64d533f07db03bb6d851f87e34d9852f2f43c111",
+    "data/metadata_reference/arturo/data/book_positions.json": "af180d44697fa4bb5460cf6fa9df97f5a75d7ed547980e481d44248648cae125",
+    "data/metadata_reference/arturo/data/bookcase_mapping.json": "8b4ac2b571b52820ee8bf1a2e62fb8186d567bc9a9967de03c248d623a8becff",
+    "data/metadata_reference/arturo/data/master_text.txt": "7b8ae4738f6f4530e667f69f184341d22a55d32b33d5e05c72f426cdc62d79e5",
+    "data/metadata_reference/arturo/docs/archive/Hellgate_Library.txt": "2cac6747e356c0110b2c5e9ba0ac6fbe17f2dc3f22951d563f0cfb5202b84892",
+    "data/metadata_reference/arturo/scripts/experimental/master_text.py": "f1887aaf89a636298c91ea5a53f8515e0e3060d8ba76be036adc070f6e89ee23",
+    "data/metadata_web_evidence.json": "551807c5f35aa318a0a27afee8cfcd2cb6a2dfbe8bd09979697d5210553fdc5d",
+    "data/plan_progress_round9.json": "52f7c763c2a768b0ff75e580b36ead471748ac8300f0cb3965995cc0b2d3f805",
+    "data/zero_state_protocol.json": "e39492ad9e8d46668dd07d8ab375e785591b1ee55e0d9b9d759d2508c81ee354",
+    "docs/round9.md": "73e383ae7044c243a26c2ddef250c5a54648beef68e4a03f9b33156240d99903",
+    "results/book_metadata_audit.json": "070280436d423434b755bfd4fc56f1cec261670829c4057dbb0fb52a2dc9da00",
+    "results/historical_cam_probe_round9.json": "a09fa3a7080c63331f2413016b43e05caecc71daec738199b19d0fecfd45ceb4",
+    "results/round9_execution.json": "99dc4b6aca2318adb6b20d3108dafab4d2f7af95a8368416a40b991701ec355a",
+    "results/tests_round9.log": "3535505465f66cbdf80c354c9621d8319dd3b6f43d6451361022ea79a5caf78d",
+    "results/zero_state_constraints.json": "14e01a32c5cc8a5d38daf43a00db8790f466ed9b1e5d9800807d4a25bb33d6fa",
+    "scripts/book_metadata_audit.py": "812c4ccb5aa5a1b7d60fa884566c287af6c947b2ebbb60439bc64d0beca5e066",
+    "scripts/historical_cam_probe.py": "10623c1d392ed89a4447eb7d24407d6a4e5e71565e00254fac92cb951f5e49a8",
+    "scripts/run_round9.py": "7bd70375d8822f95f7f4d3a0ebb1faa676eb643b923632a1920212a5bba095e7",
+    "scripts/zero_state_constraints.py": "a9401fd80bc4a794ddd6cac20a3c1941e310e101b8e4513a2c911f105fd6f2a5",
+    "scripts/zero_state_experiment.py": "aae9821f2ff3720916b680a63e69a8818c8f0de392729f0c98c084fd7ca4dc22",
+    "sources/manifest.json": "d7771ae7c7ebd8f67810538a6e0c05bf73a9928e3848baff0b98706737820fdd",
+    "tests/test_zero_state_constraints.py": "91f859079f53fecf35c167db0abe1c7cd15166c1d210de1d4fb1f8ca0692babc"
+  }
+}

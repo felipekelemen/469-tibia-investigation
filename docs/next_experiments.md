@@ -270,3 +270,17 @@ adicional não foram excluídos. Priorizar proveniência de fronteiras/dígitos 
 hipóteses explícitas de estado inicial/comprimento, com complexidade e controles
 de cópia. A [posição no plano](plan_status.md) registra quatro frentes principais
 pendentes dentro de sete já iniciadas, além das dependências e validação final.
+
+Atualização após a [nona rodada](round9.md): as 18 famílias de estado/metadata
+foram incompatíveis, com todos os 18 controles positivos aceitos. Encerrar a
+expansão dessa grade até surgir uma regra de serialização verificável. O campo
+`book_positions` foi excluído como localização: seu gerador calcula offsets
+em texto, e as entradas também não correspondem ao master atual. A listagem
+de estantes permanece metadado comunitário, com cópias preservadas.
+
+P01 ganhou duas corroborações textuais dos dígitos, sem novo plaintext atestado.
+A tentativa de playback da gravação de 2007 ficou na verificação humana;
+nenhum quadro foi inspecionado e P06 continua aberto. Priorizar fontes primárias
+e glosses por modalidade em P01/P05, além de outra captura histórica acessível
+para P06. A contagem de quatro frentes principais pendentes permanece, sem
+estimativa garantida de rodadas até a tradução.

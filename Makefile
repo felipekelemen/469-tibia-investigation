@@ -1,5 +1,5 @@
 PYTHON ?= python3
-.PHONY: sources audit experiments round2 round3 round4 round5 round6 round7 round8 research-audit test reproduce
+.PHONY: sources audit experiments round2 round3 round4 round5 round6 round7 round8 round9 research-audit test reproduce
 sources:
 	$(PYTHON) scripts/bootstrap_sources.py
 audit:
@@ -31,6 +31,8 @@ round7:
 	$(PYTHON) scripts/run_round7.py
 round8:
 	$(PYTHON) scripts/run_round8.py
+round9:
+	$(PYTHON) scripts/run_round9.py
 research-audit:
 	$(PYTHON) scripts/audit_external_samples.py
 test:

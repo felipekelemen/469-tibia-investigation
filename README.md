@@ -1,13 +1,20 @@
 # 469-tibia-investigation — investigação reproduzível
 
-**Estado: oito rodadas executadas; nenhuma tradução verificável encontrada.**
+**Estado: nove rodadas executadas; nenhuma tradução verificável encontrada.**
 Não afirmamos que o corpus é indecifrável nem que qualquer solução comunitária
 foi confirmada. O alvo é um algoritmo integral que generalize para textos inéditos.
 
 Destino público: https://github.com/felipekelemen/469-tibia-investigation
 
-**Publicado:** corpus normalizado, código, testes e resultados das oito rodadas
+**Publicado:** corpus normalizado, código, testes e resultados das nove rodadas
 disponíveis neste repositório. O acesso de escrita foi confirmado após nova reconexão.
+
+A [nona rodada](docs/round9.md) excluiu 18 famílias adicionais de estado e
+comprimento para os zeros importados e auditou os metadados: `book_positions`
+contém offsets de texto, apesar de ser descrito como posição física. Duas
+transcrições da wiki coincidem com o corpus; uma gravação histórica exigiu
+verificação humana e não forneceu quadros. A expansão de tabelas foi encerrada
+até uma pista de serialização independente.
 
 A [oitava rodada](docs/round8.md) verificou 15 famílias de regras de zeros
 considerando todos os alinhamentos dos códigos importados. Treze têm
@@ -68,6 +75,7 @@ make round5
 make round6
 make round7
 make round8
+make round9
 make test
 ```
 

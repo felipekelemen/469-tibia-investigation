@@ -9,6 +9,7 @@ data/historical_sources/*.txt
 data/historical_refresh/
 
 data/private/
+data/history_round9_local/
 
 results/homophonic_benchmark_checkpoint.json
 
