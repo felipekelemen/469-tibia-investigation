@@ -1,0 +1,38 @@
+{
+  "round": 6,
+  "completed_at_utc": "2026-11-12T01:17:03.342593+00:00",
+  "input_key_version": "V4 fixed; no new fitting",
+  "new_cipher_key_fits": 0,
+  "module_null_status": "BLOCKED_NO_HELD_MODULE_COVERAGE",
+  "module_diagnostic_permutations": 99,
+  "module_fully_refitted_nulls": 0,
+  "lexical_qualification_score_rows": 600,
+  "lexical_qualification_passed": false,
+  "literal_books_audited": 70,
+  "literal_letters": 5729,
+  "substantive_candidates_identified": 0,
+  "raw_segmentation": {
+    "books": 70,
+    "books_with_multiple_raw_segmentation_paths": 70,
+    "smallest_count": "14930352",
+    "largest_count": "20038668997554240570909178165665757608500558774338041350112205",
+    "sum_minimum_tokens": 5652,
+    "sum_imported_tokens": 5729,
+    "sum_maximum_tokens": 11263
+  },
+  "code_only_zero_policies_enumerated": 1024,
+  "code_only_exact_discovery_policies": 0,
+  "automated_tests": {
+    "count": 86,
+    "passed": true,
+    "log": "results/tests_round6.log"
+  },
+  "verified_translations": 0,
+  "limits": [
+    "The lexical gate failed and cannot certify semantic presence or absence.",
+    "The module-preserving null was blocked on heldout; fixed-key diagnostic p values are not refitted-null results.",
+    "The imported intermediate code stream is conditional on per-book restoration and is not a raw-digit decoder.",
+    "Short repeated English fragments are exploratory and lack continuous grammatical context.",
+    "No new externally attested Tibia plaintext was found in this round."
+  ]
+}

@@ -1,0 +1,2523 @@
+{
+  "protocol": {
+    "lengths_codes": [
+      8,
+      12,
+      16,
+      24,
+      32
+    ],
+    "max_dictionary": 128,
+    "size_grid": [
+      64,
+      128
+    ],
+    "size_selection": "dictionary+discovery data prefix-code bits; no held input",
+    "encoding": "chr(256+integercode), injective and no semantics",
+    "mapping": "frozen V4 observed.mapping",
+    "seed": 60469026,
+    "permutations": 99
+  },
+  "books_sha256": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+  "model_sha256": "f47c563ca563fa6c055871205f89675e21664809fc9f9d5756d7bef78c6416ee",
+  "fitted_result_sha256": "05459a9d4c65a7dc8330298b005b2c46224839a625f8b84699fc033b8010c1b1",
+  "split_sha256": "0a0f9d3b60b4077bf9e3074919d35e754f6f77fd4ca4423b160e14e5a58ac3de",
+  "implementation_sha256": "b1f205baeef8e67da93c6c0e11f86bbfec561d27e61601a65ac9fa2da748fb5c",
+  "discovery_ids": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68",
+    "69"
+  ],
+  "heldout_ids": [
+    "20",
+    "54"
+  ],
+  "dictionary_selection_trials": [
+    {
+      "limit": 64,
+      "entries": 64,
+      "dictionary_plus_discovery_bits": 22959
+    },
+    {
+      "limit": 128,
+      "entries": 66,
+      "dictionary_plus_discovery_bits": 23152
+    }
+  ],
+  "selected": {
+    "limit": 64,
+    "entries": 64,
+    "dictionary_plus_discovery_bits": 22959
+  },
+  "dictionary": [
+    [
+      1,
+      92,
+      88,
+      95,
+      21,
+      60,
+      19,
+      93,
+      6,
+      46,
+      72,
+      43,
+      14,
+      27,
+      89,
+      4,
+      31,
+      51,
+      91,
+      18,
+      65,
+      12,
+      81,
+      91,
+      18,
+      0,
+      35,
+      61,
+      14,
+      72,
+      61,
+      16
+    ],
+    [
+      25,
+      27,
+      57,
+      5,
+      84,
+      52,
+      17,
+      65,
+      21,
+      97,
+      27,
+      83,
+      4,
+      64,
+      87,
+      65,
+      15,
+      95,
+      64,
+      61,
+      14,
+      14,
+      51,
+      98
+    ],
+    [
+      0,
+      36,
+      24,
+      96,
+      84,
+      75,
+      60,
+      19,
+      96,
+      58,
+      55,
+      6,
+      49,
+      96,
+      70,
+      46,
+      72,
+      61,
+      14,
+      58,
+      0,
+      36,
+      90,
+      42,
+      20,
+      46,
+      48,
+      45,
+      19,
+      11,
+      88,
+      95
+    ],
+    [
+      78,
+      89,
+      43,
+      88,
+      72,
+      15,
+      12,
+      88,
+      95,
+      21,
+      96,
+      18,
+      0,
+      31,
+      14,
+      57,
+      27,
+      85,
+      72,
+      61,
+      18,
+      57,
+      64,
+      21,
+      97,
+      9,
+      68,
+      5,
+      7,
+      96,
+      36,
+      61
+    ],
+    [
+      46,
+      71,
+      36,
+      46,
+      46,
+      12,
+      19,
+      78,
+      58,
+      57,
+      65,
+      19,
+      7,
+      29,
+      21,
+      97,
+      27,
+      81,
+      67,
+      5,
+      46,
+      71,
+      18,
+      0
+    ],
+    [
+      64,
+      72,
+      61,
+      14,
+      51,
+      45,
+      19,
+      48,
+      56,
+      11,
+      45,
+      19,
+      8,
+      30,
+      45,
+      76
+    ],
+    [
+      85,
+      7,
+      74,
+      45,
+      45,
+      19,
+      4,
+      50,
+      42,
+      15,
+      95,
+      61,
+      51,
+      35,
+      34,
+      78
+    ],
+    [
+      8,
+      11,
+      46,
+      36,
+      46,
+      72,
+      43,
+      55,
+      46,
+      0,
+      36,
+      14,
+      51,
+      91,
+      21,
+      12,
+      88,
+      83,
+      4,
+      64,
+      67,
+      97,
+      27,
+      83,
+      16,
+      1,
+      34,
+      51,
+      58,
+      60,
+      42,
+      15
+    ],
+    [
+      9,
+      20,
+      12,
+      85,
+      71,
+      97,
+      27,
+      83,
+      4,
+      4,
+      21,
+      58,
+      57,
+      65,
+      94,
+      34,
+      42,
+      15,
+      95,
+      6,
+      4,
+      21,
+      83,
+      2,
+      3,
+      11,
+      80,
+      65,
+      71,
+      91,
+      89,
+      43
+    ],
+    [
+      28,
+      47,
+      70,
+      90,
+      88,
+      95,
+      24,
+      34,
+      85,
+      61,
+      12,
+      16,
+      48,
+      0,
+      65,
+      86,
+      75,
+      63,
+      56,
+      11,
+      45,
+      19,
+      19,
+      91,
+      18,
+      0,
+      3,
+      64,
+      68,
+      89,
+      52,
+      19
+    ],
+    [
+      7,
+      12,
+      88,
+      95,
+      21,
+      95,
+      94,
+      57,
+      65,
+      52,
+      36,
+      46,
+      72,
+      11,
+      91,
+      18
+    ],
+    [
+      14,
+      1,
+      52,
+      55,
+      17,
+      51,
+      91,
+      18,
+      1,
+      89,
+      44,
+      52,
+      29,
+      53,
+      45,
+      27
+    ],
+    [
+      1,
+      92,
+      88,
+      95,
+      21,
+      97,
+      35,
+      3,
+      64,
+      67,
+      24,
+      96,
+      84,
+      75,
+      60,
+      19,
+      96,
+      8,
+      47,
+      70,
+      90,
+      88,
+      95,
+      21,
+      97,
+      27,
+      81,
+      67,
+      5,
+      12,
+      16,
+      48
+    ],
+    [
+      14,
+      51,
+      91,
+      99,
+      11,
+      80,
+      3,
+      64,
+      68,
+      89,
+      52,
+      19
+    ],
+    [
+      12,
+      28,
+      21,
+      77,
+      35,
+      8,
+      43,
+      48
+    ],
+    [
+      0,
+      54,
+      58,
+      56,
+      11,
+      97,
+      35,
+      36,
+      46,
+      72,
+      43,
+      48,
+      56,
+      11,
+      45,
+      19,
+      67,
+      26,
+      11,
+      45,
+      19,
+      3,
+      11,
+      80
+    ],
+    [
+      12,
+      16,
+      15,
+      18,
+      0,
+      59,
+      53,
+      72,
+      43,
+      48,
+      56,
+      25,
+      10,
+      81,
+      14,
+      63,
+      64,
+      67,
+      24,
+      35,
+      34,
+      51,
+      58,
+      60
+    ],
+    [
+      57,
+      27,
+      85,
+      72,
+      61,
+      18,
+      57,
+      64,
+      36,
+      46,
+      72,
+      43,
+      53,
+      45,
+      27,
+      56
+    ],
+    [
+      70,
+      46,
+      72,
+      61,
+      14,
+      58,
+      0,
+      36,
+      90,
+      42,
+      20,
+      46,
+      48,
+      45,
+      19,
+      11
+    ],
+    [
+      56,
+      11,
+      45,
+      19,
+      19,
+      91,
+      18,
+      0
+    ],
+    [
+      0,
+      65,
+      86,
+      11,
+      43,
+      12,
+      88,
+      95
+    ],
+    [
+      80,
+      9,
+      96,
+      73,
+      40,
+      57,
+      92,
+      82
+    ],
+    [
+      23,
+      64,
+      67,
+      21,
+      19,
+      11,
+      80,
+      3,
+      57,
+      65,
+      13,
+      53
+    ],
+    [
+      70,
+      90,
+      88,
+      95,
+      24,
+      34,
+      85,
+      61,
+      12,
+      16,
+      48,
+      0
+    ],
+    [
+      0,
+      35,
+      75,
+      76,
+      54,
+      60,
+      3,
+      64,
+      67,
+      1,
+      18,
+      0,
+      14,
+      1,
+      52,
+      55
+    ],
+    [
+      0,
+      35,
+      75,
+      76,
+      74,
+      64,
+      83,
+      49,
+      43,
+      43,
+      54,
+      52,
+      17,
+      70,
+      90,
+      96
+    ],
+    [
+      27,
+      83,
+      4,
+      4,
+      21,
+      58,
+      57,
+      65,
+      94,
+      34,
+      42,
+      15,
+      95,
+      60,
+      42,
+      18
+    ],
+    [
+      1,
+      92,
+      88,
+      95,
+      21,
+      60,
+      19,
+      93
+    ],
+    [
+      42,
+      15,
+      95,
+      61,
+      51,
+      35,
+      34,
+      78
+    ],
+    [
+      81,
+      95,
+      37,
+      24,
+      34,
+      85,
+      62,
+      51
+    ],
+    [
+      12,
+      88,
+      95,
+      0,
+      36,
+      21,
+      51,
+      28,
+      89,
+      52,
+      19,
+      61,
+      14,
+      3,
+      64,
+      58,
+      56,
+      11,
+      45,
+      19,
+      4,
+      50,
+      91,
+      18
+    ],
+    [
+      19,
+      91,
+      18,
+      43,
+      50,
+      81,
+      24,
+      34,
+      85,
+      61,
+      14,
+      51,
+      91,
+      21,
+      12,
+      88,
+      83,
+      4,
+      64,
+      67,
+      97,
+      27,
+      83,
+      16
+    ],
+    [
+      34,
+      35,
+      8,
+      43,
+      48,
+      56,
+      11,
+      45,
+      72,
+      78,
+      57,
+      26,
+      11,
+      8,
+      57,
+      64,
+      36,
+      46,
+      72,
+      43,
+      53,
+      45,
+      27,
+      56
+    ],
+    [
+      7,
+      12,
+      88,
+      95,
+      21,
+      9,
+      59,
+      45,
+      76,
+      55,
+      23,
+      64
+    ],
+    [
+      18,
+      65,
+      12,
+      81,
+      91,
+      18,
+      0,
+      35,
+      61,
+      14,
+      72,
+      61
+    ],
+    [
+      27,
+      44,
+      64,
+      72,
+      61,
+      14,
+      51,
+      45,
+      19,
+      48,
+      56,
+      11
+    ],
+    [
+      22,
+      82,
+      17,
+      73,
+      50,
+      84,
+      34,
+      85
+    ],
+    [
+      88,
+      95,
+      21,
+      99,
+      11,
+      80,
+      6,
+      51
+    ],
+    [
+      0,
+      31,
+      14,
+      57,
+      27,
+      85,
+      72,
+      61,
+      18,
+      57,
+      64,
+      21,
+      97,
+      9,
+      68,
+      5
+    ],
+    [
+      1,
+      89,
+      44,
+      52,
+      19,
+      72,
+      78,
+      89,
+      43,
+      83,
+      43,
+      50,
+      81,
+      24,
+      34,
+      85
+    ],
+    [
+      4,
+      64,
+      67,
+      97,
+      27,
+      83,
+      96,
+      73,
+      40,
+      57,
+      92,
+      82,
+      75,
+      85,
+      76,
+      51
+    ],
+    [
+      10,
+      36,
+      51,
+      28,
+      89,
+      67,
+      21,
+      27,
+      78,
+      89,
+      43,
+      88,
+      72,
+      15,
+      12,
+      88
+    ],
+    [
+      1,
+      52,
+      55,
+      17,
+      51,
+      91,
+      18,
+      1
+    ],
+    [
+      8,
+      12,
+      43,
+      48,
+      56,
+      11,
+      45,
+      19
+    ],
+    [
+      17,
+      65,
+      21,
+      97,
+      27,
+      83,
+      4,
+      64
+    ],
+    [
+      46,
+      71,
+      36,
+      46,
+      46,
+      12,
+      19,
+      78
+    ],
+    [
+      73,
+      47,
+      9,
+      20,
+      12,
+      85,
+      71,
+      97
+    ],
+    [
+      10,
+      81,
+      14,
+      63,
+      64,
+      67,
+      24,
+      35,
+      34,
+      51,
+      58,
+      60
+    ],
+    [
+      21,
+      97,
+      27,
+      89,
+      43,
+      15,
+      19,
+      11,
+      8,
+      51,
+      91,
+      18
+    ],
+    [
+      34,
+      42,
+      15,
+      95,
+      60,
+      42,
+      18,
+      3,
+      2,
+      46,
+      46,
+      51
+    ],
+    [
+      45,
+      21,
+      97,
+      27,
+      12,
+      88,
+      95,
+      21,
+      95,
+      94,
+      57,
+      65
+    ],
+    [
+      0,
+      3,
+      64,
+      68,
+      89,
+      52,
+      19,
+      91
+    ],
+    [
+      3,
+      64,
+      68,
+      89,
+      52,
+      19,
+      91,
+      10
+    ],
+    [
+      11,
+      45,
+      19,
+      8,
+      30,
+      45,
+      76,
+      5
+    ],
+    [
+      11,
+      80,
+      3,
+      56,
+      11,
+      47,
+      26,
+      11
+    ],
+    [
+      15,
+      19,
+      14,
+      14,
+      51,
+      98,
+      89,
+      97
+    ],
+    [
+      18,
+      1,
+      89,
+      44,
+      52,
+      29,
+      53,
+      45
+    ],
+    [
+      20,
+      31,
+      18,
+      6,
+      57,
+      19,
+      18,
+      94
+    ],
+    [
+      21,
+      19,
+      11,
+      80,
+      3,
+      57,
+      57,
+      65
+    ],
+    [
+      21,
+      97,
+      27,
+      81,
+      67,
+      5,
+      12,
+      16
+    ],
+    [
+      21,
+      97,
+      27,
+      81,
+      67,
+      5,
+      46,
+      71
+    ],
+    [
+      36,
+      21,
+      51,
+      28,
+      89,
+      52,
+      19,
+      61
+    ],
+    [
+      46,
+      72,
+      43,
+      14,
+      27,
+      89,
+      4,
+      31
+    ],
+    [
+      51,
+      58,
+      60,
+      42,
+      15,
+      85,
+      77,
+      44
+    ]
+  ],
+  "observed": {
+    "discovery": {
+      "characters": 5668,
+      "reference_characters": 4012,
+      "reference_tokens": 249,
+      "tokens": 1905,
+      "categories": {
+        "internal_module": {
+          "windows": 3265,
+          "score_sum": -14852.049777121512,
+          "mean_score": -4.548866700496634
+        },
+        "module_boundary": {
+          "windows": 1108,
+          "score_sum": -5187.617300234782,
+          "mean_score": -4.681965072414063
+        },
+        "residual": {
+          "windows": 1091,
+          "score_sum": -5714.91948872571,
+          "mean_score": -5.238239678025399
+        }
+      },
+      "windows": 5464,
+      "score_sum": -25754.586566082005,
+      "mean_score": -4.713504129956443,
+      "reference_fraction": 0.707833450952717,
+      "internal_window_fraction": 0.5975475841874085
+    },
+    "heldout": {
+      "characters": 61,
+      "reference_characters": 0,
+      "reference_tokens": 0,
+      "tokens": 61,
+      "categories": {
+        "internal_module": {
+          "windows": 0,
+          "score_sum": 0.0,
+          "mean_score": null
+        },
+        "module_boundary": {
+          "windows": 0,
+          "score_sum": 0.0,
+          "mean_score": null
+        },
+        "residual": {
+          "windows": 55,
+          "score_sum": -250.40276657605403,
+          "mean_score": -4.552777574110073
+        }
+      },
+      "windows": 55,
+      "score_sum": -250.40276657605403,
+      "mean_score": -4.552777574110073,
+      "reference_fraction": 0.0,
+      "internal_window_fraction": 0.0
+    }
+  },
+  "permutations": {
+    "discovery": {
+      "trials": [
+        {
+          "mean_score": -5.158150960537977,
+          "internal_score_sum": -14852.04977712151,
+          "boundary_score_sum": -6427.655909663707,
+          "residual_score_sum": -6904.431161594295
+        },
+        {
+          "mean_score": -5.136552733307495,
+          "internal_score_sum": -14852.04977712151,
+          "boundary_score_sum": -6375.911438622059,
+          "residual_score_sum": -6838.162919048584
+        },
+        {
+          "mean_score": -5.145264845127712,
+          "internal_score_sum": -14852.04977712151,
+          "boundary_score_sum": -6490.556568944984,
+          "residual_score_sum": -6771.120767711318
+        },
+        {
+          "mean_score": -5.161389923520754,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6622.278237892366,
+          "residual_score_sum": -6727.506527103519
+        },
+        {
+          "mean_score": -5.180778874377312,
+          "internal_score_sum": -14852.04977712151,
+          "boundary_score_sum": -6577.791582631521,
+          "residual_score_sum": -6877.9344098446
+        },
+        {
+          "mean_score": -5.154811589415097,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6581.242461824777,
+          "residual_score_sum": -6732.598285617799
+        },
+        {
+          "mean_score": -5.1658616097018495,
+          "internal_score_sum": -14852.04977712151,
+          "boundary_score_sum": -6600.553129339459,
+          "residual_score_sum": -6773.664928949936
+        },
+        {
+          "mean_score": -5.149468154771975,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6463.416447848978,
+          "residual_score_sum": -6821.227772703584
+        },
+        {
+          "mean_score": -5.1780199942414615,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6780.22082600135,
+          "residual_score_sum": -6660.430645412487
+        },
+        {
+          "mean_score": -5.158726775379703,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6596.595231307532,
+          "residual_score_sum": -6738.6380922456565
+        },
+        {
+          "mean_score": -5.1619900680800574,
+          "internal_score_sum": -14852.04977712151,
+          "boundary_score_sum": -6385.635900701658,
+          "residual_score_sum": -6967.428054166265
+        },
+        {
+          "mean_score": -5.164914544646044,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6659.524814319625,
+          "residual_score_sum": -6709.51848050485
+        },
+        {
+          "mean_score": -5.173270748347675,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6422.0691024187245,
+          "residual_score_sum": -6992.632489431455
+        },
+        {
+          "mean_score": -5.164678689546402,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6555.379281394652,
+          "residual_score_sum": -6812.375301165373
+        },
+        {
+          "mean_score": -5.173894895787634,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6434.115473182571,
+          "residual_score_sum": -6983.996460279549
+        },
+        {
+          "mean_score": -5.179838107536184,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6583.12295419813,
+          "residual_score_sum": -6867.462688258064
+        },
+        {
+          "mean_score": -5.154108632162299,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6522.309897215681,
+          "residual_score_sum": -6787.68989179761
+        },
+        {
+          "mean_score": -5.165959257342295,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6419.76586897991,
+          "residual_score_sum": -6954.985736016879
+        },
+        {
+          "mean_score": -5.151861054566858,
+          "internal_score_sum": -14852.04977712151,
+          "boundary_score_sum": -6608.732522026429,
+          "residual_score_sum": -6688.9865030053725
+        },
+        {
+          "mean_score": -5.151999240146133,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6568.2277596337235,
+          "residual_score_sum": -6730.246311403237
+        },
+        {
+          "mean_score": -5.140402877545159,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6498.741107929637,
+          "residual_score_sum": -6736.370437855599
+        },
+        {
+          "mean_score": -5.127545515743215,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6380.164986080863,
+          "residual_score_sum": -6784.693934818546
+        },
+        {
+          "mean_score": -5.1543216855980365,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6407.593125927166,
+          "residual_score_sum": -6903.5707870589995
+        },
+        {
+          "mean_score": -5.161299253365049,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6509.120266959835,
+          "residual_score_sum": -6840.169076305277
+        },
+        {
+          "mean_score": -5.185042582420141,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6860.118394065123,
+          "residual_score_sum": -6618.9044991570145
+        },
+        {
+          "mean_score": -5.164386842827895,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6420.107584282367,
+          "residual_score_sum": -6946.0523478077375
+        },
+        {
+          "mean_score": -5.170482996019527,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6713.955603605885,
+          "residual_score_sum": -6685.513709523299
+        },
+        {
+          "mean_score": -5.158458314973785,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6554.0644061088005,
+          "residual_score_sum": -6779.702049786449
+        },
+        {
+          "mean_score": -5.176505644066612,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6665.598222389019,
+          "residual_score_sum": -6766.778839669435
+        },
+        {
+          "mean_score": -5.169052357434725,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6531.868116823098,
+          "residual_score_sum": -6859.784187078728
+        },
+        {
+          "mean_score": -5.188404812002358,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6643.340076573039,
+          "residual_score_sum": -6854.054039086331
+        },
+        {
+          "mean_score": -5.164269984412425,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6626.137512551157,
+          "residual_score_sum": -6739.38390515682
+        },
+        {
+          "mean_score": -5.1431020638538065,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6466.5819467609235,
+          "residual_score_sum": -6783.277953014767
+        },
+        {
+          "mean_score": -5.127207601846465,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6473.554619012543,
+          "residual_score_sum": -6689.457940355033
+        },
+        {
+          "mean_score": -5.132716782168169,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6412.751288932972,
+          "residual_score_sum": -6780.36343171239
+        },
+        {
+          "mean_score": -5.154836281216347,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6501.757508423724,
+          "residual_score_sum": -6812.2181550208825
+        },
+        {
+          "mean_score": -5.150834584616453,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6584.063703549321,
+          "residual_score_sum": -6708.046689673466
+        },
+        {
+          "mean_score": -5.14856597262151,
+          "internal_score_sum": -14852.04977712151,
+          "boundary_score_sum": -6516.036800418426,
+          "residual_score_sum": -6763.6778968639965
+        },
+        {
+          "mean_score": -5.180565676053178,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6531.014530972844,
+          "residual_score_sum": -6923.54654586021
+        },
+        {
+          "mean_score": -5.168383303217181,
+          "internal_score_sum": -14852.04977712151,
+          "boundary_score_sum": -6622.5042711830865,
+          "residual_score_sum": -6765.492320474079
+        },
+        {
+          "mean_score": -5.180726825790407,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6713.457697563484,
+          "residual_score_sum": -6741.983901433786
+        },
+        {
+          "mean_score": -5.189849092988801,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6678.665415987673,
+          "residual_score_sum": -6826.620250981619
+        },
+        {
+          "mean_score": -5.142027614410852,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6593.455349612176,
+          "residual_score_sum": -6650.533758407206
+        },
+        {
+          "mean_score": -5.1657610547704245,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6765.540300406829,
+          "residual_score_sum": -6608.128325737258
+        },
+        {
+          "mean_score": -5.1585041544428485,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6543.343875166716,
+          "residual_score_sum": -6790.673047587497
+        },
+        {
+          "mean_score": -5.165628750924491,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6546.009291887454,
+          "residual_score_sum": -6826.936426042451
+        },
+        {
+          "mean_score": -5.155266240799333,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6453.349358017725,
+          "residual_score_sum": -6862.975604588318
+        },
+        {
+          "mean_score": -5.150509937309823,
+          "internal_score_sum": -14852.04977712151,
+          "boundary_score_sum": -6625.745191425502,
+          "residual_score_sum": -6664.5913289138625
+        },
+        {
+          "mean_score": -5.124164960880133,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6460.062886317583,
+          "residual_score_sum": -6686.32468280995
+        },
+        {
+          "mean_score": -5.174973584636904,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6609.970293237144,
+          "residual_score_sum": -6814.035596097387
+        },
+        {
+          "mean_score": -5.173580385411121,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6590.220725336367,
+          "residual_score_sum": -6826.172723428487
+        },
+        {
+          "mean_score": -5.177572396529713,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6708.864300993435,
+          "residual_score_sum": -6729.3414965234
+        },
+        {
+          "mean_score": -5.182103182667454,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6685.217875939628,
+          "residual_score_sum": -6777.744137033827
+        },
+        {
+          "mean_score": -5.146881678563121,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6629.234380807333,
+          "residual_score_sum": -6641.277333740047
+        },
+        {
+          "mean_score": -5.174622121920441,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6481.627139425393,
+          "residual_score_sum": -6940.458357626383
+        },
+        {
+          "mean_score": -5.206099125208709,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6571.435060890131,
+          "residual_score_sum": -7022.640782128745
+        },
+        {
+          "mean_score": -5.156986820497322,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6605.625130430896,
+          "residual_score_sum": -6720.101079644961
+        },
+        {
+          "mean_score": -5.16778758007194,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6549.83891618309,
+          "residual_score_sum": -6834.9026442084805
+        },
+        {
+          "mean_score": -5.152851879400545,
+          "internal_score_sum": -14852.04977712151,
+          "boundary_score_sum": -6397.350341890983,
+          "residual_score_sum": -6905.782550032085
+        },
+        {
+          "mean_score": -5.143709289578004,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6491.802828705401,
+          "residual_score_sum": -6761.3749524273
+        },
+        {
+          "mean_score": -5.147074832112659,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6569.003036224672,
+          "residual_score_sum": -6702.56406931738
+        },
+        {
+          "mean_score": -5.170794263545478,
+          "internal_score_sum": -14852.04977712151,
+          "boundary_score_sum": -6622.911117053089,
+          "residual_score_sum": -6778.258961837894
+        },
+        {
+          "mean_score": -5.161896048995016,
+          "internal_score_sum": -14852.04977712151,
+          "boundary_score_sum": -6762.732577284562,
+          "residual_score_sum": -6589.817657302694
+        },
+        {
+          "mean_score": -5.185199235324633,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6424.407455495803,
+          "residual_score_sum": -7055.471389196478
+        },
+        {
+          "mean_score": -5.176154239188557,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6700.980694123647,
+          "residual_score_sum": -6729.476291681118
+        },
+        {
+          "mean_score": -5.167193101098971,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6537.755107263611,
+          "residual_score_sum": -6843.73822001966
+        },
+        {
+          "mean_score": -5.165905093150053,
+          "internal_score_sum": -14852.04977712151,
+          "boundary_score_sum": -6469.783307615525,
+          "residual_score_sum": -6904.672344234854
+        },
+        {
+          "mean_score": -5.17624498405697,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6552.799152615313,
+          "residual_score_sum": -6878.153663150457
+        },
+        {
+          "mean_score": -5.155026159847669,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6479.201222725065,
+          "residual_score_sum": -6835.811937561085
+        },
+        {
+          "mean_score": -5.118493602393325,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6482.174094666477,
+          "residual_score_sum": -6633.2251716891415
+        },
+        {
+          "mean_score": -5.144220713884558,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6658.126989293393,
+          "residual_score_sum": -6597.845214250324
+        },
+        {
+          "mean_score": -5.155130397864306,
+          "internal_score_sum": -14852.04977712151,
+          "boundary_score_sum": -6594.1867831462205,
+          "residual_score_sum": -6721.395933662836
+        },
+        {
+          "mean_score": -5.153844776343663,
+          "internal_score_sum": -14852.04977712151,
+          "boundary_score_sum": -6622.41781110991,
+          "residual_score_sum": -6686.140269710355
+        },
+        {
+          "mean_score": -5.143337786873636,
+          "internal_score_sum": -14852.04977712151,
+          "boundary_score_sum": -6619.625962911575,
+          "residual_score_sum": -6631.521927444463
+        },
+        {
+          "mean_score": -5.15369499792446,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6587.152810500485,
+          "residual_score_sum": -6720.58688103725
+        },
+        {
+          "mean_score": -5.1745840782199375,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6583.993113995084,
+          "residual_score_sum": -6837.884512277144
+        },
+        {
+          "mean_score": -5.15445403768613,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6458.172482574435,
+          "residual_score_sum": -6853.714602221064
+        },
+        {
+          "mean_score": -5.135073129576848,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6597.495875844859,
+          "residual_score_sum": -6608.493927041528
+        },
+        {
+          "mean_score": -5.147321546823455,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6613.630341041843,
+          "residual_score_sum": -6659.284813680003
+        },
+        {
+          "mean_score": -5.1833623484481235,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6724.283125800085,
+          "residual_score_sum": -6745.558968998952
+        },
+        {
+          "mean_score": -5.164872909869842,
+          "internal_score_sum": -14852.04977712151,
+          "boundary_score_sum": -6638.0955596581825,
+          "residual_score_sum": -6730.720242749121
+        },
+        {
+          "mean_score": -5.1779835593465,
+          "internal_score_sum": -14852.04977712151,
+          "boundary_score_sum": -6480.248829241535,
+          "residual_score_sum": -6960.203561906229
+        },
+        {
+          "mean_score": -5.168059395101945,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6602.18307487569,
+          "residual_score_sum": -6784.043682839825
+        },
+        {
+          "mean_score": -5.131883894524407,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6472.868673349429,
+          "residual_score_sum": -6715.695149210415
+        },
+        {
+          "mean_score": -5.130997331979221,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6384.318969699465,
+          "residual_score_sum": -6799.400675113489
+        },
+        {
+          "mean_score": -5.136811227435158,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6565.064155474118,
+          "residual_score_sum": -6650.42261411007
+        },
+        {
+          "mean_score": -5.17095240518827,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6628.986126893866,
+          "residual_score_sum": -6773.04803793333
+        },
+        {
+          "mean_score": -5.194509609264744,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6798.455968057683,
+          "residual_score_sum": -6732.294759843364
+        },
+        {
+          "mean_score": -5.140648905231664,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6442.002665597288,
+          "residual_score_sum": -6794.453175467013
+        },
+        {
+          "mean_score": -5.159001517209561,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6607.599954563047,
+          "residual_score_sum": -6729.134558348482
+        },
+        {
+          "mean_score": -5.144201722575641,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6452.399523574373,
+          "residual_score_sum": -6803.468911457414
+        },
+        {
+          "mean_score": -5.159366594817548,
+          "internal_score_sum": -14852.04977712151,
+          "boundary_score_sum": -6597.970950856413,
+          "residual_score_sum": -6740.758346105154
+        },
+        {
+          "mean_score": -5.1323592160513645,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6685.190533957658,
+          "residual_score_sum": -6505.970445425487
+        },
+        {
+          "mean_score": -5.16854951429963,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6659.1315602791,
+          "residual_score_sum": -6729.773208732564
+        },
+        {
+          "mean_score": -5.1541421450795495,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6592.630892170629,
+          "residual_score_sum": -6717.552011422519
+        },
+        {
+          "mean_score": -5.137502863339062,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6437.758913959402,
+          "residual_score_sum": -6781.50695420372
+        },
+        {
+          "mean_score": -5.185699461430312,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6614.108343143744,
+          "residual_score_sum": -6868.50373698997
+        },
+        {
+          "mean_score": -5.151920733685712,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6499.203925049141,
+          "residual_score_sum": -6798.841186688078
+        },
+        {
+          "mean_score": -5.162022707924592,
+          "internal_score_sum": -14852.049777121512,
+          "boundary_score_sum": -6670.292825029787,
+          "residual_score_sum": -6682.94947394867
+        }
+      ],
+      "replicates": 99,
+      "mean_permuted_score": -5.1598790262127325,
+      "conditional_fixed_key_upper_tail_p": 0.01,
+      "calibration": "FIXED_V4_KEY: key selection not repeated, discovery key fitted on original order, descriptive diagnostic only"
+    },
+    "heldout": {
+      "trials": [
+        {
+          "mean_score": -6.304414996557884,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -346.7428248106836
+        },
+        {
+          "mean_score": -6.343479763076452,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -348.89138696920486
+        },
+        {
+          "mean_score": -6.32762927097027,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -348.0196099033649
+        },
+        {
+          "mean_score": -6.5310906603744945,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -359.2099863205972
+        },
+        {
+          "mean_score": -6.243997335880453,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -343.4198534734249
+        },
+        {
+          "mean_score": -6.296249833825516,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -346.2937408604034
+        },
+        {
+          "mean_score": -6.756151823435597,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -371.5883502889578
+        },
+        {
+          "mean_score": -6.104588105228661,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -335.75234578757636
+        },
+        {
+          "mean_score": -6.477752422607498,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -356.2763832434124
+        },
+        {
+          "mean_score": -6.424120341520313,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -353.3266187836172
+        },
+        {
+          "mean_score": -6.105656733487003,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -335.81112034178517
+        },
+        {
+          "mean_score": -6.49433909049797,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -357.18864997738837
+        },
+        {
+          "mean_score": -6.190659173894753,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -340.48625456421144
+        },
+        {
+          "mean_score": -6.2844101352862625,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -345.64255744074444
+        },
+        {
+          "mean_score": -6.400154490865994,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -352.00849699762966
+        },
+        {
+          "mean_score": -6.7637218232949845,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -372.00470028122413
+        },
+        {
+          "mean_score": -6.345665566990957,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -349.0116061845026
+        },
+        {
+          "mean_score": -6.390632373448857,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -351.4847805396871
+        },
+        {
+          "mean_score": -6.208855046314477,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -341.48702754729624
+        },
+        {
+          "mean_score": -6.347573344626809,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -349.1165339544745
+        },
+        {
+          "mean_score": -6.560274396178998,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -360.81509178984487
+        },
+        {
+          "mean_score": -5.697881993974806,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -313.38350966861435
+        },
+        {
+          "mean_score": -6.292304299694588,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -346.07673648320235
+        },
+        {
+          "mean_score": -6.561554466648077,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -360.8854956656442
+        },
+        {
+          "mean_score": -6.367139144040101,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -350.1926529222055
+        },
+        {
+          "mean_score": -6.3242439093113045,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -347.83341501212175
+        },
+        {
+          "mean_score": -6.167873496488187,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -339.2330423068503
+        },
+        {
+          "mean_score": -6.579454641265967,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -361.87000526962817
+        },
+        {
+          "mean_score": -6.431700421137361,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -353.7435231625548
+        },
+        {
+          "mean_score": -6.563694704375261,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -361.00320874063937
+        },
+        {
+          "mean_score": -6.058896899569511,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -333.2393294763231
+        },
+        {
+          "mean_score": -6.197223684915287,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -340.8473026703408
+        },
+        {
+          "mean_score": -6.6612318153400585,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -366.3677498437032
+        },
+        {
+          "mean_score": -6.452112402116168,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -354.86618211638927
+        },
+        {
+          "mean_score": -5.825433042520236,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -320.39881733861296
+        },
+        {
+          "mean_score": -6.424026043801026,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -353.32143240905646
+        },
+        {
+          "mean_score": -6.466450356672066,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -355.6547696169636
+        },
+        {
+          "mean_score": -6.444962970541564,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -354.472963379786
+        },
+        {
+          "mean_score": -6.321994449445128,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -347.70969471948206
+        },
+        {
+          "mean_score": -6.380130081034946,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -350.90715445692206
+        },
+        {
+          "mean_score": -6.304229537678212,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -346.73262457230163
+        },
+        {
+          "mean_score": -6.844027998178002,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -376.4215398997901
+        },
+        {
+          "mean_score": -6.6482570562377825,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -365.654138093078
+        },
+        {
+          "mean_score": -6.3031036639879225,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -346.67070151933575
+        },
+        {
+          "mean_score": -6.4303022695366945,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -353.6666248245182
+        },
+        {
+          "mean_score": -6.190033984595133,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -340.45186915273234
+        },
+        {
+          "mean_score": -6.021321516450404,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -331.1726834047722
+        },
+        {
+          "mean_score": -6.043683175571451,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -332.4025746564298
+        },
+        {
+          "mean_score": -6.055203463757262,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -333.0361905066494
+        },
+        {
+          "mean_score": -6.720378169406411,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -369.6207993173526
+        },
+        {
+          "mean_score": -6.457314490315467,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -355.15229696735065
+        },
+        {
+          "mean_score": -6.56331198602554,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -360.9821592314047
+        },
+        {
+          "mean_score": -6.2648667381735095,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -344.567670599543
+        },
+        {
+          "mean_score": -6.787469163127161,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -373.3108039719939
+        },
+        {
+          "mean_score": -6.353457107225803,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -349.44014089741916
+        },
+        {
+          "mean_score": -6.256980185699261,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -344.13391021345933
+        },
+        {
+          "mean_score": -6.486846930881604,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -356.7765811984882
+        },
+        {
+          "mean_score": -6.205425623766794,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -341.29840930717364
+        },
+        {
+          "mean_score": -6.3803631776452026,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -350.91997477048614
+        },
+        {
+          "mean_score": -6.2982259985538676,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -346.40242992046274
+        },
+        {
+          "mean_score": -6.387931408559594,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -351.33622747077766
+        },
+        {
+          "mean_score": -6.186938107919238,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -340.2815959355581
+        },
+        {
+          "mean_score": -6.293671850834049,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -346.1519517958727
+        },
+        {
+          "mean_score": -6.345510188140772,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -349.00306034774246
+        },
+        {
+          "mean_score": -5.776521563289434,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -317.70868598091886
+        },
+        {
+          "mean_score": -6.2021705743381865,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -341.1193815886003
+        },
+        {
+          "mean_score": -6.090613483872192,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -334.98374161297056
+        },
+        {
+          "mean_score": -6.355607543055718,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -349.55841486806446
+        },
+        {
+          "mean_score": -6.804055589108324,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -374.2230574009578
+        },
+        {
+          "mean_score": -6.401998493143824,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -352.10991712291036
+        },
+        {
+          "mean_score": -6.439413028394561,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -354.1677165617009
+        },
+        {
+          "mean_score": -6.52781648975674,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -359.0299069366207
+        },
+        {
+          "mean_score": -5.920775190012504,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -325.64263545068775
+        },
+        {
+          "mean_score": -6.572597298023976,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -361.4928513913187
+        },
+        {
+          "mean_score": -6.3096310074076225,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -347.0297054074192
+        },
+        {
+          "mean_score": -6.715898373418267,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -369.37441053800467
+        },
+        {
+          "mean_score": -6.558959559180779,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -360.74277575494284
+        },
+        {
+          "mean_score": -6.561001943915181,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -360.85510691533494
+        },
+        {
+          "mean_score": -6.245538829254919,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -343.5046356090205
+        },
+        {
+          "mean_score": -7.1077079814704325,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -390.9239389808738
+        },
+        {
+          "mean_score": -5.992713776904273,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -329.599257729735
+        },
+        {
+          "mean_score": -6.269561693497999,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -344.82589314238993
+        },
+        {
+          "mean_score": -6.543941923874782,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -359.916805813113
+        },
+        {
+          "mean_score": -6.275521475384976,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -345.1536811461737
+        },
+        {
+          "mean_score": -6.544376650176314,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -359.9407157596973
+        },
+        {
+          "mean_score": -6.851763964816926,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -376.8470180649309
+        },
+        {
+          "mean_score": -6.423811610919761,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -353.3096386005868
+        },
+        {
+          "mean_score": -6.142178530231824,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -337.8198191627503
+        },
+        {
+          "mean_score": -6.411894321634337,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -352.65418768988854
+        },
+        {
+          "mean_score": -6.007923071413552,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -330.43576892774536
+        },
+        {
+          "mean_score": -6.459604793749393,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -355.2782636562166
+        },
+        {
+          "mean_score": -5.465933064478658,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -300.62631854632616
+        },
+        {
+          "mean_score": -6.236465067039208,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -343.00557868715646
+        },
+        {
+          "mean_score": -6.37965211838339,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -350.8808665110865
+        },
+        {
+          "mean_score": -6.4641575777627285,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -355.52866677695005
+        },
+        {
+          "mean_score": -5.8217061105571615,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -320.1938360806439
+        },
+        {
+          "mean_score": -6.314813602734495,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -347.31474815039724
+        },
+        {
+          "mean_score": -6.49805807660637,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -357.39319421335034
+        },
+        {
+          "mean_score": -6.406366711169912,
+          "internal_score_sum": 0.0,
+          "boundary_score_sum": 0.0,
+          "residual_score_sum": -352.35016911434514
+        }
+      ],
+      "replicates": 99,
+      "mean_permuted_score": -6.35403364073234,
+      "conditional_fixed_key_upper_tail_p": 0.01,
+      "calibration": "FIXED_V4_KEY: key selection not repeated, discovery key fitted on original order, descriptive diagnostic only"
+    }
+  },
+  "module_null_feasibility": "BLOCKED_NO_HELD_MODULE_COVERAGE",
+  "fully_refitted_game_nulls_run": 0,
+  "positive_control": {
+    "role": "KNOWN_ENGLISH_PROPERTY_DEMONSTRATION_not_blind_qualification",
+    "source": "data/benchmark_reference_v4/tom_sawyer.txt",
+    "source_sha256": "74d77384b123a6360db9ab58463cff8b38df8525fbdc6000c81ee388e1f3cf10",
+    "known_english_modules": 24,
+    "unique_modules": 8,
+    "before": {
+      "characters": 3072,
+      "reference_characters": 3072,
+      "reference_tokens": 24,
+      "tokens": 24,
+      "categories": {
+        "internal_module": {
+          "windows": 3000,
+          "score_sum": -12839.991156491595,
+          "mean_score": -4.279997052163865
+        },
+        "module_boundary": {
+          "windows": 69,
+          "score_sum": -340.22441367586424,
+          "mean_score": -4.930788603998033
+        },
+        "residual": {
+          "windows": 0,
+          "score_sum": 0.0,
+          "mean_score": null
+        }
+      },
+      "windows": 3069,
+      "score_sum": -13180.215570167458,
+      "mean_score": -4.2946287292823255,
+      "reference_fraction": 1.0,
+      "internal_window_fraction": 0.9775171065493646
+    },
+    "after_one_permutation": {
+      "characters": 3072,
+      "reference_characters": 3072,
+      "reference_tokens": 24,
+      "tokens": 24,
+      "categories": {
+        "internal_module": {
+          "windows": 3000,
+          "score_sum": -12839.991156491658,
+          "mean_score": -4.279997052163886
+        },
+        "module_boundary": {
+          "windows": 69,
+          "score_sum": -356.74561960803004,
+          "mean_score": -5.1702263711308705
+        },
+        "residual": {
+          "windows": 0,
+          "score_sum": 0.0,
+          "mean_score": null
+        }
+      },
+      "windows": 3069,
+      "score_sum": -13196.736776099688,
+      "mean_score": -4.300011983088853,
+      "reference_fraction": 1.0,
+      "internal_window_fraction": 0.9775171065493646
+    },
+    "interpretation": "Whole English spans and every internal tetragram are preserved when their order changes. This null does not remove meaning inside modules."
+  },
+  "runtime_seconds": 0.7178136480069952,
+  "limits": [
+    "All data and V4 key were already exposed; no prospective language validation.",
+    "Inventory uses discovery only; minimum8codes may leave heldout completely uncovered. If so permutation is literal shuffle there, not module-preserving control.",
+    "Chosen64/128 inventory is one finite decomposition; not evidence of true author modules.",
+    "Internal sums are invariant by construction. The order diagnostic can only measure cross-token/residual contributions.",
+    "Fixed-key p is NOT comparable to earlier fully reoptimized null p; discovery key selection is not recalibrated.",
+    "Permuting whole modules may preserve a real message inside modules. No semantic null or universal absence claim."
+  ],
+  "verdict": "NO_VERIFIED_TRANSLATION"
+}

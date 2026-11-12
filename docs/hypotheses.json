@@ -208,5 +208,40 @@
     "status": "score_enrichment_without_verified_translation",
     "evidence": "p=.01shuffle,.01bigrams,.02blocks;literalincoherent;oldexposed61codes;297fullrefits",
     "artifact": "results/qualified_tibia_search_v4.json"
+  },
+  {
+    "id": "H31",
+    "hypothesis": "Permutar motivos aprendidos em descoberta permite testar ordem entre módulos no reservado V4",
+    "status": "blocked_no_held_module_coverage",
+    "evidence": "64motivos>=8códigos;train4012/5668;held0/61;99permutacoescomchavefixa,zero novosnulosreotimizados",
+    "artifact": "results/module_signal_audit.json"
+  },
+  {
+    "id": "H32",
+    "hypothesis": "Modelo de palavras e bigramas externo qualifica como juiz geral de coerência",
+    "status": "failed_external_qualification",
+    "evidence": "600condiçõespareadas;0/4comprimentospassam;aceitapermutaçõesdepalavras50/10/70/16.7%;semretuneapósabertura",
+    "artifact": "results/word_validator_audit.json"
+  },
+  {
+    "id": "H33",
+    "hypothesis": "Saídas literais da chave V4 oferecem candidata longa em inglês contextualizável na lore",
+    "status": "no_substantive_candidate_identified_in_fixed_outputs",
+    "evidence": "Inspeçãolinguística70livros5729letras;zerocandidatas>=6palavras25letras;BUTIWASéfragmentocurtoemcontextoincoerente;ALLTHESANDausente",
+    "artifact": "results/literal_candidate_audit.json"
+  },
+  {
+    "id": "H34",
+    "hypothesis": "Política determinística por código restaura os zeros dos streams importados",
+    "status": "rejected_for_imported_fixed_streams",
+    "evidence": "1024políticasexatas;nenhuma68/68train;melhortrain10/68e1/2hold;634zeros195omitidos439preservados;outrastokenizaçõesnãoexcluídas",
+    "artifact": "results/zero_restoration_audit.json"
+  },
+  {
+    "id": "H35",
+    "hypothesis": "Inventário e omissão permissiva identificam unicamente a tokenização de novos dígitos",
+    "status": "not_identified_under_permissive_model",
+    "evidence": "70/70rawcommúltiploscaminhos;min14930352max~2e61porlivro;contafronteiras/omissões,nãotraduções;semregraexternavalidada",
+    "artifact": "results/zero_restoration_audit.json"
   }
 ]

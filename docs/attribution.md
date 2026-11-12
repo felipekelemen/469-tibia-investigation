@@ -6,6 +6,7 @@
 - Tibia e seus livros/diálogos: CipSoft GmbH. Reprodução de pequenas fontes textuais para pesquisa, sem reivindicação de autoria ou afiliação.
 - Tibia Wiki BR, TibiaSecrets, arquivos históricos: links, hashes, datas de coleta e condições HTTP em data/historical_sources/manifest.json. Ver docs/history.md para o alcance real das fontes acessíveis.
 - Referência inglesa: Lewis Carroll, Alice's Adventures in Wonderland, Project Gutenberg; texto e metadados em data/english_reference. Material auxiliar de pontuação, não par cifra/plaintext.
+- Avaliação lexical da sexta rodada: Frances Hodgson Burnett, *The Secret Garden*; P.G. Wodehouse, *My Man Jeeves*; L. Frank Baum, *The Wonderful Wizard of Oz*; J.M. Barrie, *Peter Pan*. Fontes Project Gutenberg completas, com termos/cabeçalhos preservados, URLs e hashes em `data/word_validator_reference/SOURCES.json`. Treino e qualificação têm papéis separados; não são traduções de Tibia.
 
 Os commits exatos e hashes dos três repositórios estão em sources/manifest.json.
 Capturas completas de páginas de terceiros são mantidas apenas localmente;

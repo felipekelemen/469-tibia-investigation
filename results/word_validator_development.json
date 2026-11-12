@@ -1,0 +1,3323 @@
+{
+  "role": "development only, externalwordmodel authors last20%",
+  "model": {
+    "training_sources": [
+      {
+        "name": "secret_garden",
+        "source_sha256": "40709a2894f0816a97dd8a67d3082cfc4dac31e45b45ee55a908d62e1dd18c23",
+        "training_words": 65128,
+        "development_words": 16282
+      },
+      {
+        "name": "my_man_jeeves",
+        "source_sha256": "e8fff3273914c243fb8c0d35513e4397df4f64bf438e92c173d3ae13b000adb7",
+        "training_words": 41076,
+        "development_words": 10270
+      }
+    ],
+    "vocabulary": 3833,
+    "token_count": 106204,
+    "model_source_independence": "Wordtrain authors not used by previous charscorer; no Tibia terms or decodedbook output used for training."
+  },
+  "summary": [
+    {
+      "config": {
+        "unknown_cost": 2.5,
+        "backoff": 20
+      },
+      "thresholds": {
+        "32": 2.332056873214837,
+        "64": 2.085993519073874,
+        "128": 2.247585259589061,
+        "160": 2.00909715405259
+      },
+      "development_balanced_accuracy": 0.8520833333333333
+    },
+    {
+      "config": {
+        "unknown_cost": 2.5,
+        "backoff": 100
+      },
+      "thresholds": {
+        "32": 2.688650130141512,
+        "64": 2.02721560462301,
+        "128": 2.211679974014847,
+        "160": 2.005740597493612
+      },
+      "development_balanced_accuracy": 0.8302083333333333
+    },
+    {
+      "config": {
+        "unknown_cost": 3.0,
+        "backoff": 20
+      },
+      "thresholds": {
+        "32": 2.778038020964665,
+        "64": 2.2156783550471353,
+        "128": 2.4141185718946003,
+        "160": 2.2667047316223017
+      },
+      "development_balanced_accuracy": 0.8343750000000001
+    },
+    {
+      "config": {
+        "unknown_cost": 3.0,
+        "backoff": 100
+      },
+      "thresholds": {
+        "32": 2.843976318647072,
+        "64": 2.05846560462301,
+        "128": 2.3830890579173403,
+        "160": 2.1126421998769653
+      },
+      "development_balanced_accuracy": 0.821875
+    }
+  ],
+  "selected": {
+    "config": {
+      "unknown_cost": 2.5,
+      "backoff": 20
+    },
+    "thresholds": {
+      "32": 2.332056873214837,
+      "64": 2.085993519073874,
+      "128": 2.247585259589061,
+      "160": 2.00909715405259
+    },
+    "development_balanced_accuracy": 0.8520833333333333
+  },
+  "trials": [
+    {
+      "config": {
+        "unknown_cost": 2.5,
+        "backoff": 20
+      },
+      "rows": [
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.365717867194573,
+            "english_noisy3": 1.7565420760299257,
+            "shuffle_letters": 2.95477095451382,
+            "shuffle_words": 1.8457645839399683,
+            "quad_markov": 2.2081263591072178
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.123770524516211,
+            "english_noisy3": 2.403822727319837,
+            "shuffle_letters": 3.003929383694111,
+            "shuffle_words": 2.527102939529894,
+            "quad_markov": 2.3512651064269354
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.7212713243422915,
+            "english_noisy3": 2.1495525653517813,
+            "shuffle_letters": 2.993486160962401,
+            "shuffle_words": 2.345278801758315,
+            "quad_markov": 2.8472586112885807
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.100640806791858,
+            "english_noisy3": 1.5698300788493047,
+            "shuffle_letters": 3.034817264366709,
+            "shuffle_words": 1.247381711620263,
+            "quad_markov": 2.4444702767140556
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.249056316519412,
+            "english_noisy3": 2.6703001101893737,
+            "shuffle_letters": 3.034817264366709,
+            "shuffle_words": 2.4048810942889842,
+            "quad_markov": 2.7049899504346846
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.3027108968806376,
+            "english_noisy3": 2.5083413126775786,
+            "shuffle_letters": 3.015424362527794,
+            "shuffle_words": 2.1238283435137792,
+            "quad_markov": 2.88697771779052
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.731131034700761,
+            "english_noisy3": 2.0150207316524895,
+            "shuffle_letters": 2.944490413603308,
+            "shuffle_words": 2.1495656210864853,
+            "quad_markov": 2.6595768003792575
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.0417627435182744,
+            "english_noisy3": 2.516660729261209,
+            "shuffle_letters": 3.0170675295538167,
+            "shuffle_words": 2.5358430310202515,
+            "quad_markov": 2.8453598441566754
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.134499863588118,
+            "english_noisy3": 2.332056873214837,
+            "shuffle_letters": 3.0065717283449507,
+            "shuffle_words": 2.4141187537350186,
+            "quad_markov": 2.893549418732697
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.4739464063425,
+            "english_noisy3": 2.4739464063425,
+            "shuffle_letters": 3.034817264366709,
+            "shuffle_words": 2.608917104249683,
+            "quad_markov": 2.7741292805040056
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.7391199989029518,
+            "english_noisy3": 1.8484600862681062,
+            "shuffle_letters": 2.8860646785626547,
+            "shuffle_words": 2.2039989131038666,
+            "quad_markov": 2.6876384585046096
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.4729312266496495,
+            "english_noisy3": 1.693626572027026,
+            "shuffle_letters": 2.9224218027343256,
+            "shuffle_words": 1.8646203508738064,
+            "quad_markov": 2.505487604363893
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 2.0174806284371933,
+            "english_noisy3": 2.128333362297557,
+            "shuffle_letters": 2.930663737112506,
+            "shuffle_words": 2.205911811561581,
+            "quad_markov": 2.649531786873739
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.3126856683231634,
+            "english_noisy3": 1.770571144964487,
+            "shuffle_letters": 2.930663737112506,
+            "shuffle_words": 1.6865468095967096,
+            "quad_markov": 2.576110260665322
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.1431401266064203,
+            "english_noisy3": 1.5945908383115475,
+            "shuffle_letters": 2.9065822136384467,
+            "shuffle_words": 1.653260844373303,
+            "quad_markov": 2.5421958943640033
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.3140628683574915,
+            "english_noisy3": 1.9009246706023064,
+            "shuffle_letters": 2.9196128175722285,
+            "shuffle_words": 1.9899701263470497,
+            "quad_markov": 2.59527879839665
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.477450179660704,
+            "english_noisy3": 1.8535312785352882,
+            "shuffle_letters": 2.898920125719214,
+            "shuffle_words": 2.045575955853548,
+            "quad_markov": 2.620233851498328
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 2.067721780954862,
+            "english_noisy3": 2.085993519073874,
+            "shuffle_letters": 2.9195332953972972,
+            "shuffle_words": 2.4525596311373237,
+            "quad_markov": 2.150006866452112
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.8728317964079746,
+            "english_noisy3": 2.222884683339483,
+            "shuffle_letters": 2.9044786505588314,
+            "shuffle_words": 2.2140570607477392,
+            "quad_markov": 2.602588998640119
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 2.1942710267180523,
+            "english_noisy3": 2.407136931899882,
+            "shuffle_letters": 2.930663737112506,
+            "shuffle_words": 2.421995613882921,
+            "quad_markov": 2.3352465684941413
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.5190438102798138,
+            "english_noisy3": 1.888330171011424,
+            "shuffle_letters": 2.920465228029981,
+            "shuffle_words": 2.1303349345840514,
+            "quad_markov": 2.6616585335930476
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.567568385152434,
+            "english_noisy3": 1.889583140263539,
+            "shuffle_letters": 2.909939970449003,
+            "shuffle_words": 1.9056068676160027,
+            "quad_markov": 2.514438627121556
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.5874447374807035,
+            "english_noisy3": 1.9445949677896055,
+            "shuffle_letters": 2.865444291610949,
+            "shuffle_words": 2.0525757873124735,
+            "quad_markov": 2.662634437356625
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 2.2125771777140013,
+            "english_noisy3": 2.423426688688284,
+            "shuffle_letters": 2.8830526154472587,
+            "shuffle_words": 2.370912852629327,
+            "quad_markov": 2.5875343130889417
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.6013919307343258,
+            "english_noisy3": 1.8688428877566263,
+            "shuffle_letters": 2.9170091960354982,
+            "shuffle_words": 1.9610573907732622,
+            "quad_markov": 2.5132347540271254
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.7987382554408948,
+            "english_noisy3": 1.9263924288574095,
+            "shuffle_letters": 2.9073676414523355,
+            "shuffle_words": 2.236198806631554,
+            "quad_markov": 2.5892831820398956
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.657051362134046,
+            "english_noisy3": 2.0306550000990473,
+            "shuffle_letters": 2.909250660730893,
+            "shuffle_words": 1.9648476928088123,
+            "quad_markov": 2.51203514395332
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.5468823308427868,
+            "english_noisy3": 1.8345027516952945,
+            "shuffle_letters": 2.896555678579667,
+            "shuffle_words": 2.1265593296992376,
+            "quad_markov": 2.384809422504866
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.9632386682978205,
+            "english_noisy3": 2.215505184400544,
+            "shuffle_letters": 2.9050127851376626,
+            "shuffle_words": 2.2968599068271116,
+            "quad_markov": 2.627929228577047
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 2.057323164413734,
+            "english_noisy3": 2.1989606496614593,
+            "shuffle_letters": 2.8828108644686075,
+            "shuffle_words": 2.4475656764932516,
+            "quad_markov": 2.6099352847375235
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.89966759011233,
+            "english_noisy3": 1.9899321700276413,
+            "shuffle_letters": 2.885851669771686,
+            "shuffle_words": 2.437091295490789,
+            "quad_markov": 2.541258948951869
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.5371836336455318,
+            "english_noisy3": 1.8077813466213175,
+            "shuffle_letters": 2.8795374178511013,
+            "shuffle_words": 2.0071975302375593,
+            "quad_markov": 2.675370005345442
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.710005529221407,
+            "english_noisy3": 2.157420275417034,
+            "shuffle_letters": 2.882370365709277,
+            "shuffle_words": 2.043603001715649,
+            "quad_markov": 2.6756427567228487
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.4164139039125139,
+            "english_noisy3": 1.6128600504994708,
+            "shuffle_letters": 2.8614269107516237,
+            "shuffle_words": 1.9140687413398898,
+            "quad_markov": 2.5635004669521964
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.936851252640548,
+            "english_noisy3": 2.00909715405259,
+            "shuffle_letters": 2.880376558732616,
+            "shuffle_words": 2.1953038427865463,
+            "quad_markov": 2.7205342069713288
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.6061129114816342,
+            "english_noisy3": 1.9182689543556208,
+            "shuffle_letters": 2.894676460836746,
+            "shuffle_words": 2.0472359900576995,
+            "quad_markov": 2.367756785714035
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.57693000226297,
+            "english_noisy3": 1.8250340819709971,
+            "shuffle_letters": 2.88728415398752,
+            "shuffle_words": 2.070545908021425,
+            "quad_markov": 2.5120186638015283
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.7232362363029234,
+            "english_noisy3": 1.979378087480217,
+            "shuffle_letters": 2.9003842469463548,
+            "shuffle_words": 2.1847805986657445,
+            "quad_markov": 2.3796029847295497
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.3370177180585539,
+            "english_noisy3": 1.744916325388165,
+            "shuffle_letters": 2.8956334198611478,
+            "shuffle_words": 1.9814573040339316,
+            "quad_markov": 2.385421957291719
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.6443951093181064,
+            "english_noisy3": 2.006259953794324,
+            "shuffle_letters": 2.8697771196013226,
+            "shuffle_words": 2.3095805174022863,
+            "quad_markov": 2.3158675419454404
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.307879940240871,
+            "english_noisy3": 2.6497737528833314,
+            "shuffle_letters": 3.0063525944125886,
+            "shuffle_words": 2.299275565205163,
+            "quad_markov": 2.845728328987435
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.7760792146729718,
+            "english_noisy3": 2.2714659074687273,
+            "shuffle_letters": 2.9379745500490775,
+            "shuffle_words": 2.4619012737693184,
+            "quad_markov": 2.537895925989104
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.6514944503604307,
+            "english_noisy3": 2.6669530118882796,
+            "shuffle_letters": 3.034817264366709,
+            "shuffle_words": 2.411908080550666,
+            "quad_markov": 2.4973235005102663
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.928631351496842,
+            "english_noisy3": 2.5232659159180777,
+            "shuffle_letters": 2.9450665254685053,
+            "shuffle_words": 1.8465501430174762,
+            "quad_markov": 2.903067669848908
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.248877901847418,
+            "english_noisy3": 2.7352633825890416,
+            "shuffle_letters": 3.004857307592579,
+            "shuffle_words": 2.1941494037951816,
+            "quad_markov": 2.575367846394696
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.769713082083584,
+            "english_noisy3": 2.031556718569188,
+            "shuffle_letters": 3.0215349820151247,
+            "shuffle_words": 2.3536886444499214,
+            "quad_markov": 2.464340354613766
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.940413970955289,
+            "english_noisy3": 2.258864959974877,
+            "shuffle_letters": 3.034817264366709,
+            "shuffle_words": 1.9249947045330575,
+            "quad_markov": 2.76693195573831
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.037182591094988,
+            "english_noisy3": 1.90390875594989,
+            "shuffle_letters": 3.034817264366709,
+            "shuffle_words": 2.231052516443188,
+            "quad_markov": 2.1653712265413865
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.3114318598427555,
+            "english_noisy3": 2.434288020964665,
+            "shuffle_letters": 2.988047917250842,
+            "shuffle_words": 2.3631669826311814,
+            "quad_markov": 2.7897302721518065
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.5100495206516948,
+            "english_noisy3": 2.0090607157801346,
+            "shuffle_letters": 2.9835159709231966,
+            "shuffle_words": 2.0619828669412876,
+            "quad_markov": 2.924927605851141
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.6516683155495069,
+            "english_noisy3": 1.8048949301046782,
+            "shuffle_letters": 2.8357367002472524,
+            "shuffle_words": 2.0013565382075167,
+            "quad_markov": 2.514412761701601
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.6946380934483376,
+            "english_noisy3": 2.055774262615804,
+            "shuffle_letters": 2.920797652313488,
+            "shuffle_words": 2.1546828208706326,
+            "quad_markov": 2.5265911074307614
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.784897302462047,
+            "english_noisy3": 2.099352078408125,
+            "shuffle_letters": 2.9212243382248837,
+            "shuffle_words": 2.2229977407486983,
+            "quad_markov": 2.522343469959174
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.3899679309489132,
+            "english_noisy3": 1.7901038662938837,
+            "shuffle_letters": 2.921224338224884,
+            "shuffle_words": 1.8240585593279444,
+            "quad_markov": 2.560466104167338
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.7506160826636692,
+            "english_noisy3": 1.9581017366046076,
+            "shuffle_letters": 2.906081218823943,
+            "shuffle_words": 2.09112660428356,
+            "quad_markov": 2.6877564022881613
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.6551963952722528,
+            "english_noisy3": 1.8557652406272171,
+            "shuffle_letters": 2.930663737112506,
+            "shuffle_words": 2.102224077582878,
+            "quad_markov": 2.5435766923558965
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.4159446306211483,
+            "english_noisy3": 1.7469479537649302,
+            "shuffle_letters": 2.930663737112506,
+            "shuffle_words": 2.213276777662278,
+            "quad_markov": 2.5179255762400428
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.5150066130205475,
+            "english_noisy3": 1.6448899781227166,
+            "shuffle_letters": 2.930663737112506,
+            "shuffle_words": 1.8401654675541004,
+            "quad_markov": 2.727741388760335
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.468933800512275,
+            "english_noisy3": 1.9298811902027095,
+            "shuffle_letters": 2.915119227244265,
+            "shuffle_words": 2.3645687175792736,
+            "quad_markov": 2.398080442515143
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.472634519967672,
+            "english_noisy3": 1.8887050379239874,
+            "shuffle_letters": 2.930663737112506,
+            "shuffle_words": 2.091741239223627,
+            "quad_markov": 2.443129315470831
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.9718407387380297,
+            "english_noisy3": 2.353256921484339,
+            "shuffle_letters": 2.897393865353808,
+            "shuffle_words": 1.9923334071868215,
+            "quad_markov": 2.74000724900302
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.9601298587833893,
+            "english_noisy3": 2.171520170455279,
+            "shuffle_letters": 2.9168816423851354,
+            "shuffle_words": 2.3380377190214117,
+            "quad_markov": 2.4991691576540265
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.5431136860106474,
+            "english_noisy3": 1.7107193957912323,
+            "shuffle_letters": 2.889224162531483,
+            "shuffle_words": 1.9953990150050591,
+            "quad_markov": 2.5253669054696926
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 2.0757152328543453,
+            "english_noisy3": 2.379038126263595,
+            "shuffle_letters": 2.8618916294480226,
+            "shuffle_words": 2.4017179347137896,
+            "quad_markov": 2.487025881442831
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.5402694893864808,
+            "english_noisy3": 1.8765939942617729,
+            "shuffle_letters": 2.887175391027466,
+            "shuffle_words": 1.8717444255016837,
+            "quad_markov": 2.517603123681682
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.758710762983905,
+            "english_noisy3": 1.9663565333994826,
+            "shuffle_letters": 2.902172504342863,
+            "shuffle_words": 2.129621309156591,
+            "quad_markov": 2.4871829816402315
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 2.007818400487976,
+            "english_noisy3": 2.0766892351123354,
+            "shuffle_letters": 2.8678534647479665,
+            "shuffle_words": 2.429032074062736,
+            "quad_markov": 2.587525776768835
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.6475335592135287,
+            "english_noisy3": 2.025866328674399,
+            "shuffle_letters": 2.898830751892988,
+            "shuffle_words": 2.1104640471816305,
+            "quad_markov": 2.69444241852642
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.7107551585399992,
+            "english_noisy3": 2.1193715964013826,
+            "shuffle_letters": 2.908311291750894,
+            "shuffle_words": 2.111301489130457,
+            "quad_markov": 2.497250748036597
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 2.123428552189462,
+            "english_noisy3": 2.247585259589061,
+            "shuffle_letters": 2.896008242764009,
+            "shuffle_words": 2.342252593071175,
+            "quad_markov": 2.613267922201773
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.7014149284928615,
+            "english_noisy3": 1.9975338640656417,
+            "shuffle_letters": 2.877316796346678,
+            "shuffle_words": 2.2280971118668136,
+            "quad_markov": 2.595025354009684
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.5331271724221385,
+            "english_noisy3": 1.943580584193469,
+            "shuffle_letters": 2.892041615006022,
+            "shuffle_words": 2.031402037373135,
+            "quad_markov": 2.5982599213520365
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.3225823023996854,
+            "english_noisy3": 1.5692198712820935,
+            "shuffle_letters": 2.883209335305445,
+            "shuffle_words": 2.0286259514174567,
+            "quad_markov": 2.4804984450226297
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.6693336216160453,
+            "english_noisy3": 1.8707260355591484,
+            "shuffle_letters": 2.886454945262618,
+            "shuffle_words": 2.1229336823552987,
+            "quad_markov": 2.449186692918194
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.4158874237446366,
+            "english_noisy3": 1.9203761476291532,
+            "shuffle_letters": 2.895935406252126,
+            "shuffle_words": 2.103623583507016,
+            "quad_markov": 2.589181965718218
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.6624111267423838,
+            "english_noisy3": 2.0671515771326368,
+            "shuffle_letters": 2.894392255591529,
+            "shuffle_words": 2.0595860600226903,
+            "quad_markov": 2.548869902446446
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.7800086743250307,
+            "english_noisy3": 2.0078227107267717,
+            "shuffle_letters": 2.8926678414911184,
+            "shuffle_words": 2.239152656313757,
+            "quad_markov": 2.5893648783597274
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.4546156189980535,
+            "english_noisy3": 1.7835001712822667,
+            "shuffle_letters": 2.8916569692726872,
+            "shuffle_words": 1.8690737231451084,
+            "quad_markov": 2.386814289396824
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.5913558006251403,
+            "english_noisy3": 1.9369070230148389,
+            "shuffle_letters": 2.892291119219105,
+            "shuffle_words": 2.0685155012878926,
+            "quad_markov": 2.642606991343282
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.6031945217100252,
+            "english_noisy3": 1.9776665179964819,
+            "shuffle_letters": 2.890134880439948,
+            "shuffle_words": 1.899361775993891,
+            "quad_markov": 2.5158533722894236
+          }
+        }
+      ]
+    },
+    {
+      "config": {
+        "unknown_cost": 2.5,
+        "backoff": 100
+      },
+      "rows": [
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.3680007779401526,
+            "english_noisy3": 1.7556336301839814,
+            "shuffle_letters": 2.956346565479527,
+            "shuffle_words": 1.7422198669988778,
+            "quad_markov": 2.1415220306144493
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.089914882215904,
+            "english_noisy3": 2.3830326902122136,
+            "shuffle_letters": 3.004277728665949,
+            "shuffle_words": 2.3683309196696585,
+            "quad_markov": 2.3054856907063397
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.6524982069122998,
+            "english_noisy3": 2.0301936241153924,
+            "shuffle_letters": 2.989714030281672,
+            "shuffle_words": 2.1376132409932995,
+            "quad_markov": 2.8397845575240472
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.0672971408285543,
+            "english_noisy3": 1.5826861943574335,
+            "shuffle_letters": 3.0352546313565316,
+            "shuffle_words": 1.1627267436939634,
+            "quad_markov": 2.4736157830836296
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.2247494604938014,
+            "english_noisy3": 2.688650130141512,
+            "shuffle_letters": 3.0352546313565316,
+            "shuffle_words": 2.3660444619719407,
+            "quad_markov": 2.702487906789991
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.2181336311827096,
+            "english_noisy3": 2.4852574437296866,
+            "shuffle_letters": 3.0159501862022187,
+            "shuffle_words": 2.0945187006742327,
+            "quad_markov": 2.8890250559994817
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.6485464678055894,
+            "english_noisy3": 1.9496142225137,
+            "shuffle_letters": 2.8979905343559156,
+            "shuffle_words": 1.9909149124296093,
+            "quad_markov": 2.6593186447856323
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.084143555004923,
+            "english_noisy3": 2.530393396564037,
+            "shuffle_letters": 3.0214467176714797,
+            "shuffle_words": 2.5345131603877338,
+            "quad_markov": 2.7537403412028563
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.0104174897278915,
+            "english_noisy3": 2.2322154125718363,
+            "shuffle_letters": 3.0109509164626136,
+            "shuffle_words": 2.339726172006157,
+            "quad_markov": 2.8938042431383564
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.497109846623093,
+            "english_noisy3": 2.497109846623093,
+            "shuffle_letters": 3.0352546313565316,
+            "shuffle_words": 2.5429422767242293,
+            "quad_markov": 2.77692518419355
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.7716969620617598,
+            "english_noisy3": 1.8766554907305928,
+            "shuffle_letters": 2.8870738937932785,
+            "shuffle_words": 2.0921551361505015,
+            "quad_markov": 2.6878722078153916
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.449782882857493,
+            "english_noisy3": 1.6819164623178589,
+            "shuffle_letters": 2.9248300802880682,
+            "shuffle_words": 1.755528516802225,
+            "quad_markov": 2.502810180431422
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.9609048692354958,
+            "english_noisy3": 2.11897231490597,
+            "shuffle_letters": 2.9311011041023294,
+            "shuffle_words": 2.1056032068225576,
+            "quad_markov": 2.645482293011581
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.2858902360507367,
+            "english_noisy3": 1.7278101344624763,
+            "shuffle_letters": 2.9311011041023294,
+            "shuffle_words": 1.5921332854992711,
+            "quad_markov": 2.5378418120178923
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.1544307909128433,
+            "english_noisy3": 1.5616086064946493,
+            "shuffle_letters": 2.908443668207199,
+            "shuffle_words": 1.5163174106671224,
+            "quad_markov": 2.54510617819912
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.3425423295387422,
+            "english_noisy3": 1.8917477289857727,
+            "shuffle_letters": 2.9216508232182803,
+            "shuffle_words": 1.831053646237885,
+            "quad_markov": 2.5798442349529447
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.4757656261968424,
+            "english_noisy3": 1.8422809671290237,
+            "shuffle_letters": 2.914617904408568,
+            "shuffle_words": 1.9253434042990183,
+            "quad_markov": 2.5799165207457615
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 2.005341198375376,
+            "english_noisy3": 2.02721560462301,
+            "shuffle_letters": 2.9100536088082256,
+            "shuffle_words": 2.361143368714641,
+            "quad_markov": 2.1018880576631283
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.7648536627187255,
+            "english_noisy3": 2.147943332005375,
+            "shuffle_letters": 2.9052011321840556,
+            "shuffle_words": 2.0890603818314113,
+            "quad_markov": 2.574674679548207
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 2.1314339736628174,
+            "english_noisy3": 2.3450364379051116,
+            "shuffle_letters": 2.9311011041023294,
+            "shuffle_words": 2.3309988515648135,
+            "quad_markov": 2.2756563688001186
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.5210066258418837,
+            "english_noisy3": 1.8903740959832693,
+            "shuffle_letters": 2.92101193676726,
+            "shuffle_words": 1.9752812770110424,
+            "quad_markov": 2.6164935429718605
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.5162234177778968,
+            "english_noisy3": 1.830518325827125,
+            "shuffle_letters": 2.911198722975746,
+            "shuffle_words": 1.7734221328774982,
+            "quad_markov": 2.4952736319469615
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.5557095468536688,
+            "english_noisy3": 1.8958731220430791,
+            "shuffle_letters": 2.8613767101443224,
+            "shuffle_words": 1.9211041782959537,
+            "quad_markov": 2.649890010052324
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 2.181882645690432,
+            "english_noisy3": 2.3933576576418107,
+            "shuffle_letters": 2.88364316880395,
+            "shuffle_words": 2.2959086300409286,
+            "quad_markov": 2.522804228028928
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.6193080078770767,
+            "english_noisy3": 1.8625591314028767,
+            "shuffle_letters": 2.9167160284846707,
+            "shuffle_words": 1.8692888615420198,
+            "quad_markov": 2.4606799916569115
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.7450805406594418,
+            "english_noisy3": 1.8986895718517798,
+            "shuffle_letters": 2.9079596131724084,
+            "shuffle_words": 2.1506123471413714,
+            "quad_markov": 2.5655713191583795
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.5715895336566805,
+            "english_noisy3": 1.9528460189906598,
+            "shuffle_letters": 2.9088906962409413,
+            "shuffle_words": 1.8168366506460476,
+            "quad_markov": 2.462473381815534
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.533882876937961,
+            "english_noisy3": 1.8092351709781462,
+            "shuffle_letters": 2.8978596940892047,
+            "shuffle_words": 1.9894061459107153,
+            "quad_markov": 2.34301399280678
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.9342859505605121,
+            "english_noisy3": 2.1675696729825598,
+            "shuffle_letters": 2.9067264216630115,
+            "shuffle_words": 2.2038501704747864,
+            "quad_markov": 2.6006179472058757
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 2.0224495082401335,
+            "english_noisy3": 2.181116472316973,
+            "shuffle_letters": 2.882174769794353,
+            "shuffle_words": 2.349676368127982,
+            "quad_markov": 2.5730597348789215
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.839818173035234,
+            "english_noisy3": 1.9355043376531953,
+            "shuffle_letters": 2.888888111587283,
+            "shuffle_words": 2.26518327832302,
+            "quad_markov": 2.491341666126257
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.4873654115808699,
+            "english_noisy3": 1.7622357089058265,
+            "shuffle_letters": 2.8759517036395223,
+            "shuffle_words": 1.8554096765979504,
+            "quad_markov": 2.660174838336885
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.66550515420399,
+            "english_noisy3": 2.1055564947975114,
+            "shuffle_letters": 2.884034476160209,
+            "shuffle_words": 1.948111104555542,
+            "quad_markov": 2.6366859983861675
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.387216646359723,
+            "english_noisy3": 1.5944050992493168,
+            "shuffle_letters": 2.8627208643206123,
+            "shuffle_words": 1.7806136623020188,
+            "quad_markov": 2.5257722665110136
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.8719906906661425,
+            "english_noisy3": 1.9436370581937825,
+            "shuffle_letters": 2.8822576446544015,
+            "shuffle_words": 2.073713267164379,
+            "quad_markov": 2.6849576824702512
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.5537962041716809,
+            "english_noisy3": 1.8823905072111553,
+            "shuffle_letters": 2.8899943329896547,
+            "shuffle_words": 1.9277934262012235,
+            "quad_markov": 2.3179001196088853
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.531235587527001,
+            "english_noisy3": 1.7790429786514803,
+            "shuffle_letters": 2.883377707287541,
+            "shuffle_words": 1.9367651450141536,
+            "quad_markov": 2.4397367111333637
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.6703137772645096,
+            "english_noisy3": 1.9262465982039927,
+            "shuffle_letters": 2.900769906551942,
+            "shuffle_words": 2.0415698395764235,
+            "quad_markov": 2.356927368615878
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.3309487566464862,
+            "english_noisy3": 1.7345646671656472,
+            "shuffle_letters": 2.897256480300345,
+            "shuffle_words": 1.827165105375115,
+            "quad_markov": 2.3378396059099567
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.6257886146248601,
+            "english_noisy3": 2.005740597493612,
+            "shuffle_letters": 2.8711027925021737,
+            "shuffle_words": 2.1620926594677194,
+            "quad_markov": 2.2745301034678964
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.173179096552606,
+            "english_noisy3": 2.4927433124384755,
+            "shuffle_letters": 3.003096842241777,
+            "shuffle_words": 2.1590422958485473,
+            "quad_markov": 2.8642653200060746
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.8106451591289818,
+            "english_noisy3": 2.2548436361591944,
+            "shuffle_letters": 2.9370003334990455,
+            "shuffle_words": 2.3591164639553828,
+            "quad_markov": 2.5270583868240197
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.5757078771537416,
+            "english_noisy3": 2.6364408049749133,
+            "shuffle_letters": 3.0352546313565316,
+            "shuffle_words": 2.3388306278217335,
+            "quad_markov": 2.4619955252616137
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.8151286761142866,
+            "english_noisy3": 2.4099694457496637,
+            "shuffle_letters": 2.9497630651907025,
+            "shuffle_words": 1.7797701347321266,
+            "quad_markov": 2.791079142215821
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.193308436695928,
+            "english_noisy3": 2.682053528453431,
+            "shuffle_letters": 3.0050230408829184,
+            "shuffle_words": 2.1106809938564903,
+            "quad_markov": 2.527033872504107
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.7933083600574795,
+            "english_noisy3": 2.03008428338329,
+            "shuffle_letters": 3.0277403598582975,
+            "shuffle_words": 2.2358848992106104,
+            "quad_markov": 2.3614721917535393
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.89649065910491,
+            "english_noisy3": 2.1888827440141774,
+            "shuffle_letters": 3.0352546313565316,
+            "shuffle_words": 1.8457125862624701,
+            "quad_markov": 2.7734562965536904
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.9425786275491606,
+            "english_noisy3": 1.7739993652329453,
+            "shuffle_letters": 3.0352546313565316,
+            "shuffle_words": 2.0546994890689247,
+            "quad_markov": 2.034048534217071
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.32091032860752,
+            "english_noisy3": 2.4646869274026524,
+            "shuffle_letters": 2.9906814253747567,
+            "shuffle_words": 2.359278178364935,
+            "quad_markov": 2.7362964670786583
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.5396636628576066,
+            "english_noisy3": 2.0047577784000064,
+            "shuffle_letters": 2.9883042364359054,
+            "shuffle_words": 1.9105393403714233,
+            "quad_markov": 2.8797765303753127
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.6746983229535475,
+            "english_noisy3": 1.8245655434339292,
+            "shuffle_letters": 2.8376563239978045,
+            "shuffle_words": 1.9045791382398352,
+            "quad_markov": 2.518011571111673
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.653157728005967,
+            "english_noisy3": 1.9826554083273855,
+            "shuffle_letters": 2.923771072774484,
+            "shuffle_words": 2.0363704704178316,
+            "quad_markov": 2.526915777408483
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.7525875374077224,
+            "english_noisy3": 2.080781300845338,
+            "shuffle_letters": 2.9236326157786268,
+            "shuffle_words": 2.0913855630695597,
+            "quad_markov": 2.403075553717889
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.3794506115272478,
+            "english_noisy3": 1.7696113887612932,
+            "shuffle_letters": 2.9236326157786268,
+            "shuffle_words": 1.6936640366070683,
+            "quad_markov": 2.5430189655429305
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.6998540894565655,
+            "english_noisy3": 1.8922618521222954,
+            "shuffle_letters": 2.909578888868232,
+            "shuffle_words": 1.9224482221819976,
+            "quad_markov": 2.6868854354002245
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.642114566115827,
+            "english_noisy3": 1.8387422745738022,
+            "shuffle_letters": 2.9311011041023294,
+            "shuffle_words": 1.9797959590089573,
+            "quad_markov": 2.530282540818323
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.4695245439089009,
+            "english_noisy3": 1.7973287530580806,
+            "shuffle_letters": 2.9254527880096166,
+            "shuffle_words": 2.067957214675591,
+            "quad_markov": 2.483167080877824
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.4833557419787857,
+            "english_noisy3": 1.6248205861079816,
+            "shuffle_letters": 2.9311011041023294,
+            "shuffle_words": 1.7425954999368356,
+            "quad_markov": 2.6750612599003296
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.4478049681246281,
+            "english_noisy3": 1.8711747297066097,
+            "shuffle_letters": 2.9154207773843464,
+            "shuffle_words": 2.160058430571857,
+            "quad_markov": 2.3787587760801436
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.437369638972406,
+            "english_noisy3": 1.835493054057958,
+            "shuffle_letters": 2.9311011041023294,
+            "shuffle_words": 1.9196634010349038,
+            "quad_markov": 2.435064214263425
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.8759673064981637,
+            "english_noisy3": 2.2880176817592486,
+            "shuffle_letters": 2.8970878725824374,
+            "shuffle_words": 1.9031017141386595,
+            "quad_markov": 2.7272518077812675
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.9186062228336112,
+            "english_noisy3": 2.1517549265216265,
+            "shuffle_letters": 2.917254375144663,
+            "shuffle_words": 2.243495062430316,
+            "quad_markov": 2.4417351415977206
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.523698584455595,
+            "english_noisy3": 1.691848004535252,
+            "shuffle_letters": 2.8895457576518333,
+            "shuffle_words": 1.8963345823016584,
+            "quad_markov": 2.5130946065459523
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.9688248123672951,
+            "english_noisy3": 2.2980552702443813,
+            "shuffle_letters": 2.859394367355201,
+            "shuffle_words": 2.2653479689148575,
+            "quad_markov": 2.452249010503129
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.5047903138764624,
+            "english_noisy3": 1.845410008953491,
+            "shuffle_letters": 2.8891041729164875,
+            "shuffle_words": 1.7715502662054072,
+            "quad_markov": 2.4495065628071395
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.711775876191357,
+            "english_noisy3": 1.9377480927419501,
+            "shuffle_letters": 2.9005499274267073,
+            "shuffle_words": 1.9898725519238274,
+            "quad_markov": 2.479371770453541
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 2.0184611972060815,
+            "english_noisy3": 2.0896060009098902,
+            "shuffle_letters": 2.8636434485343925,
+            "shuffle_words": 2.371163032455405,
+            "quad_markov": 2.5496484245404463
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.6024445615242424,
+            "english_noisy3": 1.998933924589845,
+            "shuffle_letters": 2.886945854395572,
+            "shuffle_words": 1.9774749177977744,
+            "quad_markov": 2.6821065469202496
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.6498754934548607,
+            "english_noisy3": 2.0777787938407615,
+            "shuffle_letters": 2.9065500201244703,
+            "shuffle_words": 1.9494536668344695,
+            "quad_markov": 2.474194038092998
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 2.075129167821924,
+            "english_noisy3": 2.211679974014847,
+            "shuffle_letters": 2.9008839062102374,
+            "shuffle_words": 2.268741835747573,
+            "quad_markov": 2.577011243770044
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.6821715571284828,
+            "english_noisy3": 1.9891076746969851,
+            "shuffle_letters": 2.8743183194621222,
+            "shuffle_words": 2.1047225670071046,
+            "quad_markov": 2.534243082040994
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.537656372032278,
+            "english_noisy3": 1.961583165951732,
+            "shuffle_letters": 2.8931360904253816,
+            "shuffle_words": 1.916134270282636,
+            "quad_markov": 2.560721461465901
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.3038462036216278,
+            "english_noisy3": 1.5603882145368901,
+            "shuffle_letters": 2.8840309224635643,
+            "shuffle_words": 1.861351720734048,
+            "quad_markov": 2.458784990329052
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.6579032107316578,
+            "english_noisy3": 1.8492596392010363,
+            "shuffle_letters": 2.8868689354846078,
+            "shuffle_words": 2.003755569132615,
+            "quad_markov": 2.401832293913359
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.3877674163563996,
+            "english_noisy3": 1.8742832176561222,
+            "shuffle_letters": 2.8964059199000167,
+            "shuffle_words": 1.9328272543650886,
+            "quad_markov": 2.538403316354981
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.6072974445640607,
+            "english_noisy3": 1.9938529211120284,
+            "shuffle_letters": 2.89265337390878,
+            "shuffle_words": 1.9235072268420719,
+            "quad_markov": 2.512406398957585
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.6965868561869168,
+            "english_noisy3": 1.9591957511540077,
+            "shuffle_letters": 2.8937193923799147,
+            "shuffle_words": 2.0629891850013946,
+            "quad_markov": 2.565272171565443
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.4361585732796884,
+            "english_noisy3": 1.780874671133186,
+            "shuffle_letters": 2.8927514446920464,
+            "shuffle_words": 1.7595814735865751,
+            "quad_markov": 2.3442264875529126
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.5460684328224255,
+            "english_noisy3": 1.889782525329776,
+            "shuffle_letters": 2.8935499970925638,
+            "shuffle_words": 1.9567403812069792,
+            "quad_markov": 2.611691205692088
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.5565335889957355,
+            "english_noisy3": 1.9416898437018115,
+            "shuffle_letters": 2.8910981671205542,
+            "shuffle_words": 1.7879025478139474,
+            "quad_markov": 2.5103628475921895
+          }
+        }
+      ]
+    },
+    {
+      "config": {
+        "unknown_cost": 3.0,
+        "backoff": 20
+      },
+      "rows": [
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.412592867194573,
+            "english_noisy3": 1.8659170760299257,
+            "shuffle_letters": 3.3717127522696195,
+            "shuffle_words": 1.9238895839399683,
+            "quad_markov": 2.3175013591072178
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.233145524516211,
+            "english_noisy3": 2.5885337819284513,
+            "shuffle_letters": 3.441429383694111,
+            "shuffle_words": 2.6223918526035326,
+            "quad_markov": 2.5700151064269354
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.7212713243422915,
+            "english_noisy3": 2.1808025653517813,
+            "shuffle_letters": 3.430986160962401,
+            "shuffle_words": 2.345278801758315,
+            "quad_markov": 3.1912640122929803
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.116265806791858,
+            "english_noisy3": 1.7104550788493047,
+            "shuffle_letters": 3.534817264366709,
+            "shuffle_words": 1.247381711620263,
+            "quad_markov": 2.6944702767140556
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.375783568112393,
+            "english_noisy3": 2.8907773617823547,
+            "shuffle_letters": 3.518357912550282,
+            "shuffle_words": 2.605231563921338,
+            "quad_markov": 2.9481761820398615
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.3339608968806376,
+            "english_noisy3": 2.7114663126775786,
+            "shuffle_letters": 3.452924362527794,
+            "shuffle_words": 2.2488283435137792,
+            "quad_markov": 3.2816887398824286
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.731131034700761,
+            "english_noisy3": 2.0462707316524895,
+            "shuffle_letters": 3.319490413603308,
+            "shuffle_words": 2.1651906210864853,
+            "quad_markov": 2.979701624593262
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.166762743518275,
+            "english_noisy3": 2.7193165828158263,
+            "shuffle_letters": 3.4858175295538167,
+            "shuffle_words": 2.753933582844549,
+            "quad_markov": 3.0957781103856847
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.165749863588118,
+            "english_noisy3": 2.378931873214837,
+            "shuffle_letters": 3.4753217283449507,
+            "shuffle_words": 2.554743753735018,
+            "quad_markov": 3.346674418732697
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.6916723343161117,
+            "english_noisy3": 2.6916723343161117,
+            "shuffle_letters": 3.509112904420493,
+            "shuffle_words": 2.937042104249683,
+            "quad_markov": 3.1423651203696306
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.8484949989029518,
+            "english_noisy3": 2.004710086268106,
+            "shuffle_letters": 3.3470021785626547,
+            "shuffle_words": 2.284103867705569,
+            "quad_markov": 3.030220569184391
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.4729312266496495,
+            "english_noisy3": 1.748314072027026,
+            "shuffle_letters": 3.4067968027343256,
+            "shuffle_words": 1.8646203508738064,
+            "quad_markov": 2.7668181092528905
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 2.0487306284371933,
+            "english_noisy3": 2.281629962452953,
+            "shuffle_letters": 3.409521306558449,
+            "shuffle_words": 2.2749730508433643,
+            "quad_markov": 2.9464067868737387
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.3126856683231634,
+            "english_noisy3": 1.833071144964487,
+            "shuffle_letters": 3.4306637371125066,
+            "shuffle_words": 1.7021718095967096,
+            "quad_markov": 2.8445075567906364
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.1453655552118391,
+            "english_noisy3": 1.6124412669169663,
+            "shuffle_letters": 3.384926004271319,
+            "shuffle_words": 1.653260844373303,
+            "quad_markov": 2.8225921662193563
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.3453128683574915,
+            "english_noisy3": 1.9868621706023064,
+            "shuffle_letters": 3.383591608489397,
+            "shuffle_words": 2.0368451263470497,
+            "quad_markov": 2.89215379839665
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.477450179660704,
+            "english_noisy3": 1.897637207969568,
+            "shuffle_letters": 3.3442326257192145,
+            "shuffle_words": 2.061200955853548,
+            "quad_markov": 2.900620507283537
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 2.098971780954862,
+            "english_noisy3": 2.117566838644944,
+            "shuffle_letters": 3.3648457953972972,
+            "shuffle_words": 2.620935797371272,
+            "quad_markov": 2.2906817414591147
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.8884567964079746,
+            "english_noisy3": 2.340072183339483,
+            "shuffle_letters": 3.3760014705857233,
+            "shuffle_words": 2.2906893198491636,
+            "quad_markov": 2.8022232323060137
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 2.428646026718052,
+            "english_noisy3": 2.657136931899882,
+            "shuffle_letters": 3.4306637371125066,
+            "shuffle_words": 2.6009529441758423,
+            "quad_markov": 2.471443851705202
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.5557478111871221,
+            "english_noisy3": 2.0070654219187323,
+            "shuffle_letters": 3.39175953417711,
+            "shuffle_words": 2.198980765126188,
+            "quad_markov": 2.922911855294078
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.587099635152434,
+            "english_noisy3": 1.952083140263539,
+            "shuffle_letters": 3.393809621012523,
+            "shuffle_words": 1.9290443676160027,
+            "quad_markov": 2.7681810109002805
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.6499447374807035,
+            "english_noisy3": 2.055185363463253,
+            "shuffle_letters": 3.310723155772884,
+            "shuffle_words": 2.1343057951888205,
+            "quad_markov": 2.9976776958920857
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 2.3912632470885176,
+            "english_noisy3": 2.6664798370178824,
+            "shuffle_letters": 3.3669729594155244,
+            "shuffle_words": 2.5332639543478557,
+            "quad_markov": 2.81999849605268
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.6746320620090072,
+            "english_noisy3": 1.99319395267917,
+            "shuffle_letters": 3.387467985423768,
+            "shuffle_words": 2.039866946488045,
+            "quad_markov": 2.7155238378711055
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.8237235063482031,
+            "english_noisy3": 2.0099714297647178,
+            "shuffle_letters": 3.3708946287005626,
+            "shuffle_words": 2.3456930454506413,
+            "quad_markov": 2.873108212688018
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.688301362134046,
+            "english_noisy3": 2.1300210983025565,
+            "shuffle_letters": 3.378063721629798,
+            "shuffle_words": 1.9977477476236223,
+            "quad_markov": 2.730784006421646
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.5820385808427868,
+            "english_noisy3": 1.8981112738343167,
+            "shuffle_letters": 3.369211928579667,
+            "shuffle_words": 2.1788075951460106,
+            "quad_markov": 2.599802797381115
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 2.0526404976849855,
+            "english_noisy3": 2.3462190107504015,
+            "shuffle_letters": 3.385427631114589,
+            "shuffle_words": 2.4095341084569495,
+            "quad_markov": 2.930358891223023
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 2.1428853480523125,
+            "english_noisy3": 2.3288427119972446,
+            "shuffle_letters": 3.3554671144686075,
+            "shuffle_words": 2.56006337210285,
+            "quad_markov": 2.8354076110780837
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.9536724320393817,
+            "english_noisy3": 2.075187011954693,
+            "shuffle_letters": 3.3385726996900607,
+            "shuffle_words": 2.5680359620860025,
+            "quad_markov": 2.785759061622897
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.5528086336455318,
+            "english_noisy3": 1.8792506332196233,
+            "shuffle_letters": 3.3352378428720835,
+            "shuffle_words": 2.050233749530164,
+            "quad_markov": 2.9897935518282157
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.7225055292214069,
+            "english_noisy3": 2.2667047316223017,
+            "shuffle_letters": 3.3698703657092777,
+            "shuffle_words": 2.0952563691590798,
+            "quad_markov": 3.005676669828893
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.425788903912514,
+            "english_noisy3": 1.6576430312671182,
+            "shuffle_letters": 3.3128421419633653,
+            "shuffle_words": 1.9354551524356318,
+            "quad_markov": 2.851000466952196
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 2.0091728333263386,
+            "english_noisy3": 2.106418734738381,
+            "shuffle_letters": 3.357902478738397,
+            "shuffle_words": 2.308766818098867,
+            "quad_markov": 3.078755043926915
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.6217379114816342,
+            "english_noisy3": 2.024518954355621,
+            "shuffle_letters": 3.373819177672602,
+            "shuffle_words": 2.0879293492786077,
+            "quad_markov": 2.523319670178108
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.63318000226297,
+            "english_noisy3": 1.9375340819709972,
+            "shuffle_letters": 3.3685341539875204,
+            "shuffle_words": 2.1569268418317638,
+            "quad_markov": 2.750807758520466
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.7486661950819875,
+            "english_noisy3": 2.05372036514752,
+            "shuffle_letters": 3.3840943396748884,
+            "shuffle_words": 2.2890577712615325,
+            "quad_markov": 2.5747136992321904
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.3370177180585539,
+            "english_noisy3": 1.8324163253881651,
+            "shuffle_letters": 3.372691556857304,
+            "shuffle_words": 1.9877073040339315,
+            "quad_markov": 2.591466798470883
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.6761224076494763,
+            "english_noisy3": 2.1310945948190883,
+            "shuffle_letters": 3.354152119601322,
+            "shuffle_words": 2.4159561739062427,
+            "quad_markov": 2.5242250835828695
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.307879940240871,
+            "english_noisy3": 2.6810237528833314,
+            "shuffle_letters": 3.4438525944125886,
+            "shuffle_words": 2.299275565205163,
+            "quad_markov": 3.226143122888027
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.8542042146729718,
+            "english_noisy3": 2.3808409074687273,
+            "shuffle_letters": 3.3463062042500757,
+            "shuffle_words": 2.612095340426966,
+            "quad_markov": 2.819145925989104
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.8233694503604307,
+            "english_noisy3": 2.9740437965128597,
+            "shuffle_letters": 3.5209195159596898,
+            "shuffle_words": 2.536908080550666,
+            "quad_markov": 2.793770678832575
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.944256351496842,
+            "english_noisy3": 2.6638909159180777,
+            "shuffle_letters": 3.390706632131836,
+            "shuffle_words": 1.8621751430174762,
+            "quad_markov": 3.0741473960146983
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.4207529018474183,
+            "english_noisy3": 3.063388382589042,
+            "shuffle_letters": 3.4642927637534067,
+            "shuffle_words": 2.3660244037951816,
+            "quad_markov": 2.780420702824442
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.816588082083584,
+            "english_noisy3": 2.140931718569188,
+            "shuffle_letters": 3.4902849820151247,
+            "shuffle_words": 2.416188644449922,
+            "quad_markov": 2.542465354613766
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.987288970955289,
+            "english_noisy3": 2.337784944714397,
+            "shuffle_letters": 3.5133858990729014,
+            "shuffle_words": 1.9778869388148588,
+            "quad_markov": 3.09505695573831
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.103738018266105,
+            "english_noisy3": 1.90390875594989,
+            "shuffle_letters": 3.521573588262759,
+            "shuffle_words": 2.262302516443188,
+            "quad_markov": 2.2122462265413865
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.4543829232195344,
+            "english_noisy3": 2.778038020964665,
+            "shuffle_letters": 3.3866667048913253,
+            "shuffle_words": 2.5037919826311814,
+            "quad_markov": 2.9838412367046288
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.5100495206516948,
+            "english_noisy3": 2.0871857157801346,
+            "shuffle_letters": 3.4210159709231966,
+            "shuffle_words": 2.0619828669412876,
+            "quad_markov": 3.284302605851141
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.7141683155495069,
+            "english_noisy3": 1.920676172190651,
+            "shuffle_letters": 3.2890941292634808,
+            "shuffle_words": 2.0638565382075167,
+            "quad_markov": 2.76261271485577
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.736263493031593,
+            "english_noisy3": 2.1255730965155344,
+            "shuffle_letters": 3.389547652313488,
+            "shuffle_words": 2.248432820870632,
+            "quad_markov": 2.8606903262808765
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.8465360791010577,
+            "english_noisy3": 2.2156783550471353,
+            "shuffle_letters": 3.4055993382248837,
+            "shuffle_words": 2.3323727407486983,
+            "quad_markov": 2.6517183800879094
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.4055929309489132,
+            "english_noisy3": 1.8369788662938837,
+            "shuffle_letters": 3.3947496371799692,
+            "shuffle_words": 1.8396835593279444,
+            "quad_markov": 2.8490725146021028
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.7584285826636692,
+            "english_noisy3": 1.9893517366046076,
+            "shuffle_letters": 3.356924684079089,
+            "shuffle_words": 2.09893910428356,
+            "quad_markov": 2.9745952901851247
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.7367185135496346,
+            "english_noisy3": 1.960724858904599,
+            "shuffle_letters": 3.4306637371125066,
+            "shuffle_words": 2.2059643268611375,
+            "quad_markov": 2.796496103620747
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.4862571306211483,
+            "english_noisy3": 1.8875729537649302,
+            "shuffle_letters": 3.3816658981405423,
+            "shuffle_words": 2.283589277662278,
+            "quad_markov": 2.7171833870027733
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.5540691130205475,
+            "english_noisy3": 1.7464524781227166,
+            "shuffle_letters": 3.4289666035278135,
+            "shuffle_words": 1.9026867424915195,
+            "quad_markov": 3.0450675314451785
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.476746300512275,
+            "english_noisy3": 2.024384717482817,
+            "shuffle_letters": 3.399494227244265,
+            "shuffle_words": 2.434881217579273,
+            "quad_markov": 2.614330151815522
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.472634519967672,
+            "english_noisy3": 1.951146750420438,
+            "shuffle_letters": 3.408455834300878,
+            "shuffle_words": 2.099553739223627,
+            "quad_markov": 2.7040726550921184
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 2.038798758847243,
+            "english_noisy3": 2.543718317882452,
+            "shuffle_letters": 3.367148707663771,
+            "shuffle_words": 2.0650919438069004,
+            "quad_markov": 3.0908143163261816
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 2.0538798587833895,
+            "english_noisy3": 2.340960597564427,
+            "shuffle_letters": 3.4070014248600504,
+            "shuffle_words": 2.481733453752932,
+            "quad_markov": 2.6834207522890123
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.5528523217221692,
+            "english_noisy3": 1.7547869697441814,
+            "shuffle_letters": 3.369692912531483,
+            "shuffle_words": 2.0557874047582767,
+            "quad_markov": 2.7742577138110542
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 2.106965232854345,
+            "english_noisy3": 2.5217071218585927,
+            "shuffle_letters": 3.3146260294335352,
+            "shuffle_words": 2.4918137787508035,
+            "quad_markov": 2.7196329514771365
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.5598007393864808,
+            "english_noisy3": 1.9430002442617729,
+            "shuffle_letters": 3.344206641027466,
+            "shuffle_words": 1.8962794108895644,
+            "quad_markov": 2.7476658443638393
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.793706360102527,
+            "english_noisy3": 2.0641337191813562,
+            "shuffle_letters": 3.3756546620869186,
+            "shuffle_words": 2.172350362502566,
+            "quad_markov": 2.772339231640231
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 2.1790653219489897,
+            "english_noisy3": 2.273912162945664,
+            "shuffle_letters": 3.281915964747966,
+            "shuffle_words": 2.6743828036206567,
+            "quad_markov": 2.844285508380043
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.670971059213529,
+            "english_noisy3": 2.159522188682747,
+            "shuffle_letters": 3.367580751892988,
+            "shuffle_words": 2.1564190218260983,
+            "quad_markov": 3.052217988697475
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.7498176585399992,
+            "english_noisy3": 2.2345113609659304,
+            "shuffle_letters": 3.3895344519903956,
+            "shuffle_words": 2.150363989130457,
+            "quad_markov": 2.700163542866523
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 2.2361603978802664,
+            "english_noisy3": 2.4141185718946003,
+            "shuffle_letters": 3.3641713775284976,
+            "shuffle_words": 2.498195158005314,
+            "quad_markov": 2.867038442163383
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.7422482273773503,
+            "english_noisy3": 2.1164921629501317,
+            "shuffle_letters": 3.3335667963466777,
+            "shuffle_words": 2.30466004918621,
+            "quad_markov": 2.825073075971182
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.5855421773731895,
+            "english_noisy3": 2.1084955891445203,
+            "shuffle_letters": 3.382916380707897,
+            "shuffle_words": 2.087652037373135,
+            "quad_markov": 2.902454458946372
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.3507073023996854,
+            "english_noisy3": 1.6538391227858003,
+            "shuffle_letters": 3.3460512123514805,
+            "shuffle_words": 2.0703186610696758,
+            "quad_markov": 2.741540272442969
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.7474586216160453,
+            "english_noisy3": 1.9925291826142104,
+            "shuffle_letters": 3.362107236258587,
+            "shuffle_words": 2.210433682355299,
+            "quad_markov": 2.689528426272015
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.4190124237446367,
+            "english_noisy3": 1.9836248075522405,
+            "shuffle_letters": 3.3783987402096556,
+            "shuffle_words": 2.1187722525956447,
+            "quad_markov": 2.8545704008239055
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.6936611267423836,
+            "english_noisy3": 2.1601931401211774,
+            "shuffle_letters": 3.3677816287263544,
+            "shuffle_words": 2.1053221515156437,
+            "quad_markov": 2.8070681774492554
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.7956336743250307,
+            "english_noisy3": 2.1264527757406917,
+            "shuffle_letters": 3.37655523685863,
+            "shuffle_words": 2.266852200135128,
+            "quad_markov": 2.887186130684392
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.4546156189980535,
+            "english_noisy3": 1.9083597925916618,
+            "shuffle_letters": 3.373794082874224,
+            "shuffle_words": 1.8784487231451084,
+            "quad_markov": 2.5691483448535126
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.6257308006251403,
+            "english_noisy3": 2.036924288217472,
+            "shuffle_letters": 3.3645221097785494,
+            "shuffle_words": 2.1178960385400845,
+            "quad_markov": 2.8857613721088544
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.6377866997203145,
+            "english_noisy3": 2.112603936023336,
+            "shuffle_letters": 3.3745098804399483,
+            "shuffle_words": 1.9368741669272989,
+            "quad_markov": 2.790171754168232
+          }
+        }
+      ]
+    },
+    {
+      "config": {
+        "unknown_cost": 3.0,
+        "backoff": 100
+      },
+      "rows": [
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.4148757779401526,
+            "english_noisy3": 1.8650086301839814,
+            "shuffle_letters": 3.3468488707257285,
+            "shuffle_words": 1.8203448669988778,
+            "quad_markov": 2.2508970306144493
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.199289882215904,
+            "english_noisy3": 2.5769023568899456,
+            "shuffle_letters": 3.441777728665949,
+            "shuffle_words": 2.462080919669658,
+            "quad_markov": 2.5242356907063397
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.6524982069122998,
+            "english_noisy3": 2.0614436241153924,
+            "shuffle_letters": 3.427214030281672,
+            "shuffle_words": 2.1376132409932995,
+            "quad_markov": 3.1482022793768567
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.0829221408285543,
+            "english_noisy3": 1.7233111943574335,
+            "shuffle_letters": 3.530094482346686,
+            "shuffle_words": 1.1627267436939634,
+            "quad_markov": 2.6741478693982597
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.3520287654643273,
+            "english_noisy3": 2.909679435112038,
+            "shuffle_letters": 3.517579373284897,
+            "shuffle_words": 2.5486669532733965,
+            "quad_markov": 2.9505063595779166
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.261212205050198,
+            "english_noisy3": 2.6883824437296866,
+            "shuffle_letters": 3.4534501862022187,
+            "shuffle_words": 2.2195187006742327,
+            "quad_markov": 3.2429049812360486
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.6485464678055894,
+            "english_noisy3": 1.9808642225137,
+            "shuffle_letters": 3.2729905343559156,
+            "shuffle_words": 2.0065399124296093,
+            "quad_markov": 2.978636431232173
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.209143555004923,
+            "english_noisy3": 2.7243603815033133,
+            "shuffle_letters": 3.4901967176714797,
+            "shuffle_words": 2.7126632442183967,
+            "quad_markov": 2.9702317658962487
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.0260424897278915,
+            "english_noisy3": 2.2634654125718363,
+            "shuffle_letters": 3.4797009164626136,
+            "shuffle_words": 2.480351172006157,
+            "quad_markov": 3.3469292431383564
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.7152685428263315,
+            "english_noisy3": 2.7152685428263315,
+            "shuffle_letters": 3.508334365155108,
+            "shuffle_words": 2.8710672767242293,
+            "quad_markov": 3.085515696050506
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.8751330795573942,
+            "english_noisy3": 2.0269666082262274,
+            "shuffle_letters": 3.3480113937932785,
+            "shuffle_words": 2.1702801361505015,
+            "quad_markov": 3.0153007810373986
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.449782882857493,
+            "english_noisy3": 1.7366039623178589,
+            "shuffle_letters": 3.4092050802880687,
+            "shuffle_words": 1.755528516802225,
+            "quad_markov": 2.7127480370191623
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.9921548692354958,
+            "english_noisy3": 2.251214155861273,
+            "shuffle_letters": 3.409301920257599,
+            "shuffle_words": 2.1290407068225576,
+            "quad_markov": 2.942357293011581
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.2858902360507367,
+            "english_noisy3": 1.7876839403068414,
+            "shuffle_letters": 3.4301830309686503,
+            "shuffle_words": 1.6060148669761978,
+            "quad_markov": 2.796166857112132
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.1544307909128433,
+            "english_noisy3": 1.5772336064946493,
+            "shuffle_letters": 3.38752960412274,
+            "shuffle_words": 1.5163174106671224,
+            "quad_markov": 2.779530539648132
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.3737923295387422,
+            "english_noisy3": 1.9776852289857727,
+            "shuffle_letters": 3.3865877364992407,
+            "shuffle_words": 1.862303646237885,
+            "quad_markov": 2.86930300674908
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.4757656261968424,
+            "english_noisy3": 1.8735309671290237,
+            "shuffle_letters": 3.359930404408568,
+            "shuffle_words": 1.9253434042990183,
+            "quad_markov": 2.833873133131205
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 2.036591198375376,
+            "english_noisy3": 2.05846560462301,
+            "shuffle_letters": 3.3553661088082256,
+            "shuffle_words": 2.4511162005412923,
+            "quad_markov": 2.242513057663128
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.7804786627187255,
+            "english_noisy3": 2.2540115067646305,
+            "shuffle_letters": 3.3761159990833436,
+            "shuffle_words": 2.124324909492391,
+            "quad_markov": 2.7623256810880292
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 2.3658089736628174,
+            "english_noisy3": 2.5950364379051116,
+            "shuffle_letters": 3.4311011041023294,
+            "shuffle_words": 2.5028738515648135,
+            "quad_markov": 2.364797610429062
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.561206447318514,
+            "english_noisy3": 2.0082233211657217,
+            "shuffle_letters": 3.391664131916405,
+            "shuffle_words": 2.0280748998935985,
+            "quad_markov": 2.83605745019446
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.5357546677778968,
+            "english_noisy3": 1.893018325827125,
+            "shuffle_letters": 3.3891062186177936,
+            "shuffle_words": 1.7929533828774982,
+            "quad_markov": 2.7033919625073697
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.6182095468536692,
+            "english_noisy3": 2.005591716849162,
+            "shuffle_letters": 3.3033386005461116,
+            "shuffle_words": 2.0015875352952435,
+            "quad_markov": 2.9849044291185596
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 2.339950209956343,
+            "english_noisy3": 2.6175123012868133,
+            "shuffle_letters": 3.3672595362084143,
+            "shuffle_words": 2.4113855878521133,
+            "quad_markov": 2.7218166878123773
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.6859649511046093,
+            "english_noisy3": 1.9814514335860385,
+            "shuffle_letters": 3.3877458962061113,
+            "shuffle_words": 1.941455468649686,
+            "quad_markov": 2.640821135572243
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.7735616121360724,
+            "english_noisy3": 1.9756578170573196,
+            "shuffle_letters": 3.3665797206063797,
+            "shuffle_words": 2.197568392731881,
+            "quad_markov": 2.8227700500072377
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.6028395336566805,
+            "english_noisy3": 2.040398320980754,
+            "shuffle_letters": 3.375405453142147,
+            "shuffle_words": 1.8497061859920816,
+            "quad_markov": 2.6424297096756084
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.5656591617782496,
+            "english_noisy3": 1.8621260912155653,
+            "shuffle_letters": 3.366417608356986,
+            "shuffle_words": 2.0284686459107153,
+            "quad_markov": 2.5163993608010173
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 2.0031961484355003,
+            "english_noisy3": 2.2742330918824782,
+            "shuffle_letters": 3.3865226855718595,
+            "shuffle_words": 2.2897876704747864,
+            "quad_markov": 2.8843800967268907
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 2.1059281210854146,
+            "english_noisy3": 2.308914963859461,
+            "shuffle_letters": 3.354831019794353,
+            "shuffle_words": 2.4418250273160615,
+            "quad_markov": 2.7792754661351804
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.8866931730352345,
+            "english_noisy3": 2.013629337653195,
+            "shuffle_letters": 3.3355098351339505,
+            "shuffle_words": 2.3418074304348293,
+            "quad_markov": 2.7210130322702644
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.5029904115808699,
+            "english_noisy3": 1.8277248326111657,
+            "shuffle_letters": 3.3221101926916026,
+            "shuffle_words": 1.8710346765979504,
+            "quad_markov": 2.9470543144783568
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.67800515420399,
+            "english_noisy3": 2.2161551668238118,
+            "shuffle_letters": 3.371534476160209,
+            "shuffle_words": 1.9789643212289998,
+            "quad_markov": 2.9414757684278303
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.396591646359723,
+            "english_noisy3": 1.6241243211474203,
+            "shuffle_letters": 3.311266076687635,
+            "shuffle_words": 1.7934946163764134,
+            "quad_markov": 2.8074707129493657
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.9453463039086327,
+            "english_noisy3": 2.041992671436273,
+            "shuffle_letters": 3.3599700120977425,
+            "shuffle_words": 2.1581389785416984,
+            "quad_markov": 3.007584509370467
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.5694212041716809,
+            "english_noisy3": 1.9886405072111555,
+            "shuffle_letters": 3.3681193329896546,
+            "shuffle_words": 1.9528682365318104,
+            "quad_markov": 2.4406932299912123
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.5824671231510945,
+            "english_noisy3": 1.8865245142755742,
+            "shuffle_letters": 3.358960700194255,
+            "shuffle_words": 1.9841597181265365,
+            "quad_markov": 2.638779346662763
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.6893781301377033,
+            "english_noisy3": 1.9932409589409115,
+            "shuffle_letters": 3.3794154707425847,
+            "shuffle_words": 2.098281126481465,
+            "quad_markov": 2.5337960492273686
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.3309487566464862,
+            "english_noisy3": 1.8138868691054906,
+            "shuffle_letters": 3.3736875230236834,
+            "shuffle_words": 1.827165105375115,
+            "quad_markov": 2.5316166391036563
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.648625924522176,
+            "english_noisy3": 2.1012248528642785,
+            "shuffle_letters": 3.3554777925021733,
+            "shuffle_words": 2.200919275082274,
+            "quad_markov": 2.4188907602526486
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.173179096552606,
+            "english_noisy3": 2.5239933124384755,
+            "shuffle_letters": 3.440596842241777,
+            "shuffle_words": 2.1590422958485473,
+            "quad_markov": 3.2409102850906186
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.8887701591289818,
+            "english_noisy3": 2.3642186361591944,
+            "shuffle_letters": 3.345652123115782,
+            "shuffle_words": 2.4528664639553828,
+            "quad_markov": 2.80830838682402
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.69695153166769,
+            "english_noisy3": 2.843976318647072,
+            "shuffle_letters": 3.521908936327057,
+            "shuffle_words": 2.4638306278217335,
+            "quad_markov": 2.71660817111898
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.8307536761142866,
+            "english_noisy3": 2.5505944457496637,
+            "shuffle_letters": 3.394142205920688,
+            "shuffle_words": 1.7953951347321266,
+            "quad_markov": 2.9004541422158208
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.365183436695928,
+            "english_noisy3": 3.0101785284534306,
+            "shuffle_letters": 3.460977101613317,
+            "shuffle_words": 2.2825559938564903,
+            "quad_markov": 2.636408872504107
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.8401833600574795,
+            "english_noisy3": 2.13945928338329,
+            "shuffle_letters": 3.4964903598582975,
+            "shuffle_words": 2.2827598992106104,
+            "quad_markov": 2.4395971917535393
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.94336565910491,
+            "english_noisy3": 2.2670077440141774,
+            "shuffle_letters": 3.5125623001293786,
+            "shuffle_words": 1.8925875862624701,
+            "quad_markov": 3.0961164459351886
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.9738286275491606,
+            "english_noisy3": 1.7739993652329453,
+            "shuffle_letters": 3.5229431924403753,
+            "shuffle_words": 2.0859494890689247,
+            "quad_markov": 2.080923534217071
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 2.437987930237208,
+            "english_noisy3": 2.7913065121327536,
+            "shuffle_letters": 3.3893099553823305,
+            "shuffle_words": 2.499903178364935,
+            "quad_markov": 2.8925464670786583
+          }
+        },
+        {
+          "length": 32,
+          "scores": {
+            "english": 1.5396636628576066,
+            "english_noisy3": 2.0828827784000064,
+            "shuffle_letters": 3.4258042364359054,
+            "shuffle_words": 1.9105393403714233,
+            "quad_markov": 3.2391515303753127
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.7371983229535475,
+            "english_noisy3": 1.9373072950475463,
+            "shuffle_letters": 3.289469237252167,
+            "shuffle_words": 1.9670791382398352,
+            "quad_markov": 2.7406560271534905
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.684407728005967,
+            "english_noisy3": 2.040731922610282,
+            "shuffle_letters": 3.392521072774484,
+            "shuffle_words": 2.110833650479596,
+            "quad_markov": 2.7978172624121864
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.80578972844438,
+            "english_noisy3": 2.1886709918819953,
+            "shuffle_letters": 3.4068164330144595,
+            "shuffle_words": 2.192679709611582,
+            "quad_markov": 2.512450553717889
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.3950756115272478,
+            "english_noisy3": 1.8164863887612932,
+            "shuffle_letters": 3.3975599868774333,
+            "shuffle_words": 1.7092890366070683,
+            "quad_markov": 2.825568089279915
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.7076665894565655,
+            "english_noisy3": 1.9235118521222954,
+            "shuffle_letters": 3.360090427684547,
+            "shuffle_words": 1.9302607221819976,
+            "quad_markov": 2.956464641570796
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.704614566115827,
+            "english_noisy3": 1.9246797745738022,
+            "shuffle_letters": 3.4311011041023294,
+            "shuffle_words": 2.0735459590089573,
+            "quad_markov": 2.748343794341713
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.5398370439089009,
+            "english_noisy3": 1.9379537530580806,
+            "shuffle_letters": 3.361281643393227,
+            "shuffle_words": 2.138269714675591,
+            "quad_markov": 2.6545706771980804
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.5224182419787857,
+            "english_noisy3": 1.7263830861079816,
+            "shuffle_letters": 3.4281668063814785,
+            "shuffle_words": 1.8050954999368356,
+            "quad_markov": 2.9797487599003296
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.4556174681246281,
+            "english_noisy3": 1.9512175922020263,
+            "shuffle_letters": 3.3997957773843464,
+            "shuffle_words": 2.180128927281434,
+            "quad_markov": 2.5694659401763555
+          }
+        },
+        {
+          "length": 64,
+          "scores": {
+            "english": 1.437369638972406,
+            "english_noisy3": 1.8975187657552621,
+            "shuffle_letters": 3.4094553685166136,
+            "shuffle_words": 1.9196634010349038,
+            "quad_markov": 2.651345806342134
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.932255112948383,
+            "english_noisy3": 2.4568486319862064,
+            "shuffle_letters": 3.3504632457516212,
+            "shuffle_words": 1.9667452344464842,
+            "quad_markov": 3.035293754134269
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 2.011110499633791,
+            "english_noisy3": 2.3094718965661416,
+            "shuffle_letters": 3.4065767296061664,
+            "shuffle_words": 2.3577552292006976,
+            "quad_markov": 2.618086217840353
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.531511084455595,
+            "english_noisy3": 1.730910504535252,
+            "shuffle_letters": 3.3700145076518333,
+            "shuffle_words": 1.9061379560762293,
+            "quad_markov": 2.6991580066117833
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 2.000074812367295,
+            "english_noisy3": 2.4221153119900385,
+            "shuffle_letters": 3.3086659837021997,
+            "shuffle_words": 2.3005701932001648,
+            "quad_markov": 2.636297927093426
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.524047157181355,
+            "english_noisy3": 1.9052509650829084,
+            "shuffle_letters": 3.346204091237131,
+            "shuffle_words": 1.7846406640859822,
+            "quad_markov": 2.663843698455535
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.7315143238258084,
+            "english_noisy3": 2.00084017459206,
+            "shuffle_letters": 3.3692999274267073,
+            "shuffle_words": 2.0250288019238276,
+            "quad_markov": 2.7476372096602995
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 2.1620152817290537,
+            "english_noisy3": 2.272474437083745,
+            "shuffle_letters": 3.278262312169022,
+            "shuffle_words": 2.562737458296629,
+            "quad_markov": 2.76730627205355
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.6258820615242424,
+            "english_noisy3": 2.127980881307405,
+            "shuffle_letters": 3.355695854395572,
+            "shuffle_words": 2.012533111977664,
+            "quad_markov": 3.010861666244059
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 1.6889379934548607,
+            "english_noisy3": 2.1856312264349778,
+            "shuffle_letters": 3.3871401678193815,
+            "shuffle_words": 1.9875332727141208,
+            "quad_markov": 2.6525248846867977
+          }
+        },
+        {
+          "length": 128,
+          "scores": {
+            "english": 2.177268641064681,
+            "english_noisy3": 2.3830890579173403,
+            "shuffle_letters": 3.369537061782664,
+            "shuffle_words": 2.4143493737262895,
+            "quad_markov": 2.7933429343491056
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.7134215571284828,
+            "english_noisy3": 2.0963628930314036,
+            "shuffle_letters": 3.3305683194621225,
+            "shuffle_words": 2.1536384463693614,
+            "quad_markov": 2.726713974767248
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.5789588708164624,
+            "english_noisy3": 2.1126421998769653,
+            "shuffle_letters": 3.3845049079202907,
+            "shuffle_words": 1.9693253301492668,
+            "quad_markov": 2.840882303462833
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.3319712036216278,
+            "english_noisy3": 1.6454162435343047,
+            "shuffle_letters": 3.3444912029399854,
+            "shuffle_words": 1.8957267207340482,
+            "quad_markov": 2.689523487225538
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.7222158027553747,
+            "english_noisy3": 1.9707324369196513,
+            "shuffle_letters": 3.3633083945970483,
+            "shuffle_words": 2.081880050743215,
+            "quad_markov": 2.6255662543940064
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.3908924163563996,
+            "english_noisy3": 1.9367832176561222,
+            "shuffle_letters": 3.3790368806105953,
+            "shuffle_words": 1.9359522543650887,
+            "quad_markov": 2.788110191644317
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.6385474445640607,
+            "english_noisy3": 2.0719958407781585,
+            "shuffle_letters": 3.3634468390916097,
+            "shuffle_words": 1.957882226842072,
+            "quad_markov": 2.7406364242030117
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.7122118561869168,
+            "english_noisy3": 2.0765218916757284,
+            "shuffle_letters": 3.371244943774611,
+            "shuffle_words": 2.0829291474693084,
+            "quad_markov": 2.8487161602069593
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.4361585732796884,
+            "english_noisy3": 1.882995739664609,
+            "shuffle_letters": 3.3672913510680074,
+            "shuffle_words": 1.7661240372655471,
+            "quad_markov": 2.4942384850113823
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.5772228681759968,
+            "english_noisy3": 1.983532525329776,
+            "shuffle_letters": 3.369549459727397,
+            "shuffle_words": 1.9942009937152825,
+            "quad_markov": 2.8206809913305375
+          }
+        },
+        {
+          "length": 160,
+          "scores": {
+            "english": 1.5860032633429761,
+            "english_noisy3": 2.053995693759594,
+            "shuffle_letters": 3.3754731671205542,
+            "shuffle_words": 1.8196203322238405,
+            "quad_markov": 2.748474933724879
+          }
+        }
+      ]
+    }
+  ]
+}

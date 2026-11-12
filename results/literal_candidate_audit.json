@@ -1,0 +1,2066 @@
+{
+  "input_sha256": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+  "mapping_result_sha256": "05459a9d4c65a7dc8330298b005b2c46224839a625f8b84699fc033b8010c1b1",
+  "mapping": [
+    8,
+    19,
+    13,
+    19,
+    11,
+    4,
+    8,
+    24,
+    14,
+    5,
+    0,
+    19,
+    0,
+    11,
+    18,
+    3,
+    13,
+    7,
+    19,
+    13,
+    4,
+    4,
+    5,
+    7,
+    4,
+    12,
+    4,
+    4,
+    17,
+    12,
+    5,
+    18,
+    18,
+    3,
+    0,
+    22,
+    13,
+    1,
+    10,
+    9,
+    2,
+    14,
+    13,
+    17,
+    18,
+    14,
+    3,
+    8,
+    2,
+    6,
+    8,
+    14,
+    8,
+    15,
+    19,
+    18,
+    4,
+    7,
+    19,
+    12,
+    8,
+    0,
+    11,
+    21,
+    4,
+    4,
+    22,
+    17,
+    17,
+    8,
+    13,
+    0,
+    4,
+    19,
+    18,
+    4,
+    17,
+    24,
+    18,
+    11,
+    14,
+    1,
+    15,
+    0,
+    12,
+    11,
+    18,
+    21,
+    19,
+    0,
+    6,
+    20,
+    14,
+    6,
+    18,
+    7,
+    0,
+    17,
+    5,
+    18
+  ],
+  "book_count": 70,
+  "total_literal_letters": 5729,
+  "books": [
+    {
+      "book_id": "0",
+      "role": "discovery_used_for_mapping",
+      "code_count": 74,
+      "raw_digit_count": 144,
+      "literal": "HAOWASTOTHEINGIDERSEALSOUTEABUTIWASEANDANDDANSTHENYMEREBREDATISTISHOUTTOSO",
+      "source_digits_sha256": "d96c596e0aa62e16e5041e4f943a44285e71d5824d5fa536228e9d584f260dd2",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "1",
+      "role": "discovery_used_for_mapping",
+      "code_count": 47,
+      "raw_digit_count": 92,
+      "literal": "FHAISLEEASOONCETONOFOREAREYWORCERINGTHEALAANCIE",
+      "source_digits_sha256": "4cf08eb8f04ea0bad722be4982f3d179491fe19217c816753ac2f1ed4deb9a6b",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "2",
+      "role": "discovery_used_for_mapping",
+      "code_count": 90,
+      "raw_digit_count": 177,
+      "literal": "SEVETONNUTITERAINUANORAREESARTEDATHEATISSHELEATHEERFREYANAMEHEMIHEEREALEVEDHEASSOFAROANTOO",
+      "source_digits_sha256": "d4d44c2a0d4923a5ed78391e08382cc41c82cc6e0d67a3fbc065d618bd89c982",
+      "alignment_count_capped_2": 2
+    },
+    {
+      "book_id": "3",
+      "role": "discovery_used_for_mapping",
+      "code_count": 71,
+      "raw_digit_count": 140,
+      "literal": "SNNOEICIESTRATHINEAMEINATSIGANDEASTINGNEDCONTTHERYATHEHSHEINDETUTIWERTI",
+      "source_digits_sha256": "e699cf31fc90eb01cb9d82e89010d79df72c602e5f00be93972dad3e041fa465",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "4",
+      "role": "discovery_used_for_mapping",
+      "code_count": 71,
+      "raw_digit_count": 140,
+      "literal": "SHEMANDEASTEANCIESTRATHINEAMEINTHERENHBERYATHEFOOTHHEDINATSIDGNEDCONTTH",
+      "source_digits_sha256": "99616230b08c91c5bbdeb6a9e6683df9541e636890edf1735a3d3a6d63377ad4",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "5",
+      "role": "discovery_used_for_mapping",
+      "code_count": 138,
+      "raw_digit_count": 273,
+      "literal": "ETHENESARTEDATHEATISSHELEATHEERFREYANAMEHEMIHEEREALEVEDHEASSOFAROANDTIMPERCEMABSVEREWAOTINDLYSOONLINDHAOWASTOTHEINGIDERSEARDNTSORNTOTETIET",
+      "source_digits_sha256": "100c04293972b9b3b333a7eef87d7d8dfff820a3f0535a552749a68dd4e73b54",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "6",
+      "role": "discovery_used_for_mapping",
+      "code_count": 91,
+      "raw_digit_count": 175,
+      "literal": "TLEMWAOTINDYEDHEAGTISHBEALLOOSINDHAOWASTOTUDNSSOFARTDNDELYOANTOOIERSEALSSTEINTSNORNTOTETIET",
+      "source_digits_sha256": "2f8664c75e34053df5aae48e00b94db44c4c47d05366466ae0e2b35e79256526",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "7",
+      "role": "discovery_used_for_mapping",
+      "code_count": 55,
+      "raw_digit_count": 106,
+      "literal": "MWAOTROANYIALOCBMPIONRATDNSSOFARSVEELIOTEHEDHEAGTEMPERL",
+      "source_digits_sha256": "808b0fca8220c055198fea6fdfa2cf1cb400b16e0cf67b4c0096514f066b1dda",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "8",
+      "role": "discovery_used_for_mapping",
+      "code_count": 79,
+      "raw_digit_count": 155,
+      "literal": "LEEASOONCETONOFOROFPHTIMALLEIWASOUSTOTERAINUTMWOARCETONATRTFDDLESSIHDCASAWOEREE",
+      "source_digits_sha256": "8c5f67498fcb39adf51de402039a4d4fe8befc6a5e8d279b195bc9ab42347977",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "9",
+      "role": "discovery_used_for_mapping",
+      "code_count": 149,
+      "raw_digit_count": 294,
+      "literal": "THENESARTEDATHEATISSHELEATHEERFREYANAMEHEMIHEEREALEVEDHEASSOFAROANDTIMPERCEMABSVEREWAOTINDLYSOONLINDHAOWASTOTHEINGIDERSEALSOUTEABUTIWASEANDANDDANSTEA",
+      "source_digits_sha256": "80260a5598c4880456d8a7221d6e1ca21263400342a069996d859a6e74bbd4b6",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "10",
+      "role": "discovery_used_for_mapping",
+      "code_count": 144,
+      "raw_digit_count": 281,
+      "literal": "INDHAOWASTOTHEINGIDERSEALSOUTEABUTIWASEANDANDDANSTHENYMEREBREDATISTISHOUTTASIMPOESEEASOONCETONOFOREAREYWORCERINGTHEALAANCIESEVETONNUTITERAINUTTE",
+      "source_digits_sha256": "9865800cc4bc4d51970e93b3ef07083d2a54ad01dc8b5ad719785ff508d98a09",
+      "alignment_count_capped_2": 2
+    },
+    {
+      "book_id": "11",
+      "role": "discovery_used_for_mapping",
+      "code_count": 70,
+      "raw_digit_count": 137,
+      "literal": "YOPSRIBHBEALLOOTDNDERSDINSOUEATALERREANTAOTINDLYSOONLINDHAOWASTOTHEINF",
+      "source_digits_sha256": "1169025456b4d06625c6829fa56746f11b62446801ea372cc13cc4e0523c3ebb",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "12",
+      "role": "discovery_used_for_mapping",
+      "code_count": 70,
+      "raw_digit_count": 137,
+      "literal": "EASHELEATHENDERPOEETOTHERWTEREAMEINAOINGTHEREBREANCETONNUTINDTHESTOIOR",
+      "source_digits_sha256": "8663bd683aa53f4e33c1ce2fd9365562cf92e57cf4e13db1030c9ab871365979",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "13",
+      "role": "discovery_used_for_mapping",
+      "code_count": 71,
+      "raw_digit_count": 141,
+      "literal": "TITERAINUTIEATHHERENTOTHELPIALERREAATCHOPELROMEHEMIHEEREALEVEDHEASSOFAR",
+      "source_digits_sha256": "eddcada2f3616378c13f4469cc4a7f3845d052e3d19c8fbbd13cf53cdcb6b7f6",
+      "alignment_count_capped_2": 2
+    },
+    {
+      "book_id": "14",
+      "role": "discovery_used_for_mapping",
+      "code_count": 68,
+      "raw_digit_count": 133,
+      "literal": "YANTTOEAUARRDDOOFTDDITERATBUTIWASEANDANDDANSTEEEASOONCETONLEEHINDLRI",
+      "source_digits_sha256": "88d836f677880189c05413781594ee787d446e1b7258d8a1683beae7195b6c11",
+      "alignment_count_capped_2": 2
+    },
+    {
+      "book_id": "15",
+      "role": "discovery_used_for_mapping",
+      "code_count": 72,
+      "raw_digit_count": 143,
+      "literal": "ESSSOUTOUTTASINESARARIBEALITONANNDEASTINGNEDCONTOEREATHEHSHEATHINEORAINA",
+      "source_digits_sha256": "a6dabe14ee6eb29ff8f669b6bb0a2d6248c8f135fa5e81ad616182cdf4bc94e2",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "16",
+      "role": "discovery_used_for_mapping",
+      "code_count": 89,
+      "raw_digit_count": 174,
+      "literal": "KAWOARCETONANNDEASTINGNEDCONTOEREATHEHSHEATHINEORAINASTETETONLIUTISTINDLYETRVEALITONRETON",
+      "source_digits_sha256": "6eb2b1288dec40595850a8ea3fc3a882f2031f736f1d1bd99825ba82c6597a99",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "17",
+      "role": "discovery_used_for_mapping",
+      "code_count": 139,
+      "raw_digit_count": 274,
+      "literal": "SNNHINGAANCIESTRATHINEAMEINATSIGANDEASTINGNEDCONTTHERYATHEHSHEINDETUTIWERTITERTTISTISHOUTTOSOFHAITIFEALAREALLETHESANDHILEANTTOEAUARRDDOOFAT",
+      "source_digits_sha256": "4216870138b09a8580ee215043cf52e9d263ab0d6d2882be5e9c2119c2b22556",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "18",
+      "role": "discovery_used_for_mapping",
+      "code_count": 47,
+      "raw_digit_count": 93,
+      "literal": "RLLRORMEREBREDATISTISHOUTIWORCERINGTHEALAANCIES",
+      "source_digits_sha256": "0d4d568282e943c368db0f65a173f27d11e4a1806956bd158756dda982dc9c21",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "19",
+      "role": "discovery_used_for_mapping",
+      "code_count": 66,
+      "raw_digit_count": 129,
+      "literal": "EVETONNUTITERAINUADOESEEASOONCETONOFOREAREYONLINDHAOWASTOTHEINGIDE",
+      "source_digits_sha256": "3f1cc6b9abfee4dc2380ebb5d7ba7c99ef2c0d438ce38744a45653e33a0e39b5",
+      "alignment_count_capped_2": 2
+    },
+    {
+      "book_id": "20",
+      "role": "previously_exposed_reserved",
+      "code_count": 32,
+      "raw_digit_count": 63,
+      "literal": "TSICASAWREYALHEATHERMABELIESTOTE",
+      "source_digits_sha256": "dc224ab75155a8c08787d4bdce0c8e648f8f43f19499e6de4ec4e7da30780bfe",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "21",
+      "role": "discovery_used_for_mapping",
+      "code_count": 89,
+      "raw_digit_count": 176,
+      "literal": "IMALASHELEATHENDERPOEETOTHERWTEREAMEINAOINGTHEREBREANCETONNUTINDTHESTOIORAINDETUTIWROWASF",
+      "source_digits_sha256": "c1c520cae3404bbb4d774a733c50530bed6225c24375a5c2d1c3676f09e41955",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "22",
+      "role": "discovery_used_for_mapping",
+      "code_count": 70,
+      "raw_digit_count": 137,
+      "literal": "ETRAREESARTEDATHEATISSHELEATHEERFREYANAMEHEMIHEEREALEVEDHEASSOFAROANTO",
+      "source_digits_sha256": "e17e9c50fa46c6ed6d0bd7a53b1c5ebad4333c5698921c1084edca6ca1bc7c1f",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "23",
+      "role": "discovery_used_for_mapping",
+      "code_count": 90,
+      "raw_digit_count": 177,
+      "literal": "EFIHATWAIETGSHEDHEASSOFAROANDTOREWASOUSTOTERAINULTYEOESAOTEHORAREEEMIHEEREALEBOELEATHEERFR",
+      "source_digits_sha256": "edfa17ad483af29c811342cabf4a4598bbc01d2ef87c0d3bbfd075298bb01b29",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "24",
+      "role": "discovery_used_for_mapping",
+      "code_count": 60,
+      "raw_digit_count": 119,
+      "literal": "HELEATHENDERPOEETOLASOUSTOTERAINUTIEATHHERENTOTHELPIAEORCETL",
+      "source_digits_sha256": "7e87852bf4b277eee239c15cf2b28920c280618b5b715ab9d2a1f24b489b6a48",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "25",
+      "role": "discovery_used_for_mapping",
+      "code_count": 18,
+      "raw_digit_count": 35,
+      "literal": "EREARDNTOOUTTASINE",
+      "source_digits_sha256": "0dfd80499f8ec828940b1474d396198cfcc2b1e1e7434555651889025fe6d4d6",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "26",
+      "role": "discovery_used_for_mapping",
+      "code_count": 87,
+      "raw_digit_count": 170,
+      "literal": "CNDLYEANDTISAWORCETOESHETOHENDERPOEETOTHERWTEREAMEINAOINGTHEREBREANCETONNUTINDTHESTOIOR",
+      "source_digits_sha256": "36b2712c6d5338afafa9abdf0e19e9bd9f2aa27659a1249bce735ac41725b23a",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "27",
+      "role": "discovery_used_for_mapping",
+      "code_count": 63,
+      "raw_digit_count": 124,
+      "literal": "POESEEASOONCETONOFOREAREYWORCERINGTHEALAANCIESEVETONNUTITERAINU",
+      "source_digits_sha256": "84b0b4305e8cfcfc2359750e0355bb6f6d3382c733b6c527dbd08b3c72ac9aa2",
+      "alignment_count_capped_2": 2
+    },
+    {
+      "book_id": "28",
+      "role": "discovery_used_for_mapping",
+      "code_count": 74,
+      "raw_digit_count": 146,
+      "literal": "TLYEERFREYANAMEHEMIHEEREALEVEDHEASSOFAROANDTITTETRWNDERCETONRETONTTOEAUARR",
+      "source_digits_sha256": "eb58f4d5c1c9e02080347a04018127561b70580ac3a33f2946f220d9eda0f837",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "29",
+      "role": "discovery_used_for_mapping",
+      "code_count": 76,
+      "raw_digit_count": 151,
+      "literal": "TRATHINEAMEINATSIGANDEASTINGNEDCONTTHERYATHEHSHEINDETUTIWERSEAGRRTIHNGATIFEA",
+      "source_digits_sha256": "f9227c160f9cb4eafe8f62f3173c5a4c1db97746dc2811c6f30d5fba4e3018f5",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "30",
+      "role": "discovery_used_for_mapping",
+      "code_count": 77,
+      "raw_digit_count": 150,
+      "literal": "FRRIORCETOTETRWTEREAMEINAMYFOAINTHESTOIORSHELEATHENDERPOEETOTHMESNNOEICETONNU",
+      "source_digits_sha256": "fc09e7f34434d3da10a0db3b6b53f3d5654e69516de20e30eb6894d5245e9912",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "31",
+      "role": "discovery_used_for_mapping",
+      "code_count": 127,
+      "raw_digit_count": 248,
+      "literal": "POESAGALHEAREYWORCERIYFOAIRSTOTERAINUPOESEEASOONCETOITREWASOUSTOTERAINUETOSOSLITONOFOREAREYWORCERICETEICLYNGTHEALAANCIESEIWASOU",
+      "source_digits_sha256": "b1322c2e355dab961919a213197f47e3392de13e2bc62da7069a18d9ec1ac25c",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "32",
+      "role": "discovery_used_for_mapping",
+      "code_count": 69,
+      "raw_digit_count": 137,
+      "literal": "ETOFATCHOPSRIBHBEALLOOTDNDERSDINSOUEATALERREANTAOTINDLYSTOGOLEMEDLPIO",
+      "source_digits_sha256": "2c12647f99385548b413ceb2c3745cd597856881118653b2c4f2e04cf3fff1f5",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "33",
+      "role": "discovery_used_for_mapping",
+      "code_count": 68,
+      "raw_digit_count": 134,
+      "literal": "NRAINTSNDERSEALSOUTEABUTIWASEANDANDDANSTHENYMEREBREDATISTISHOUTTASIM",
+      "source_digits_sha256": "2d0b11f62bcca2d397a16d91bbaa0c2141d795519f8128aba146ff4562f2ca7e",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "34",
+      "role": "discovery_used_for_mapping",
+      "code_count": 63,
+      "raw_digit_count": 123,
+      "literal": "LRMEFYINDETUTIWERTITERTTISTISFTRAINMHOUTTASIMPOETOOTILORTEMOUTA",
+      "source_digits_sha256": "b6c1c6bd15955b629015624ea87836960db88b45e26b21f013101cf8e89c112f",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "35",
+      "role": "discovery_used_for_mapping",
+      "code_count": 146,
+      "raw_digit_count": 286,
+      "literal": "ONLINDHAOWASTOTHEINGIDERSEALSOUTEABUTIWASEANDANDDANSTHENYMEREBREDATISTISHOUTTASIMPOESEEASOONCETONOFOREAREYWORCERINGTHEALAANCIESEVETONNUTITERAINUTT",
+      "source_digits_sha256": "01edcc4dd8c38472c108c95a6adb56a7e291700984e41235ad0ac8afcdbdf9e7",
+      "alignment_count_capped_2": 2
+    },
+    {
+      "book_id": "36",
+      "role": "discovery_used_for_mapping",
+      "code_count": 69,
+      "raw_digit_count": 137,
+      "literal": "MTIBODHAONLESSILODSLETHSOONLIOASTOTHEINROPEBEALLOOTDNDERSDINSOUEATALE",
+      "source_digits_sha256": "7b0e5bb20655fa89ec3a6519aa7d5371e1cfa7160dfef15397b528686dddcde6",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "37",
+      "role": "discovery_used_for_mapping",
+      "code_count": 81,
+      "raw_digit_count": 160,
+      "literal": "OUTEABUTIWASEANDANDDANSTEEEASOONCETONOFOROFPHTIMALLEIWASOUSTOTERAINUTMWOARCETONAT",
+      "source_digits_sha256": "465f7fff04c0181499643024401a796d4bdcf5965039a4884e7a05aa58661a40",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "38",
+      "role": "discovery_used_for_mapping",
+      "code_count": 67,
+      "raw_digit_count": 134,
+      "literal": "HERENTOTHELPIALERREAATCHOPELROMEHEMIHEEREALEVEDHEASSOFAROMPERCEASFE",
+      "source_digits_sha256": "25b985149a61c5b165c5f68ad29b3ff680346dd5b0f7f06050e144785642a4f6",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "39",
+      "role": "discovery_used_for_mapping",
+      "code_count": 30,
+      "raw_digit_count": 59,
+      "literal": "HEEREARDNTOOUTTASINESARARIBEAL",
+      "source_digits_sha256": "d08a294dc12ce046a85b037a1f5e4e79777737a8ada95aff8d0524dbb67b72b6",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "40",
+      "role": "discovery_used_for_mapping",
+      "code_count": 86,
+      "raw_digit_count": 168,
+      "literal": "LYSOONLINDHAOWASTOTHEINGIDERSEALSOUTEABUTIWASEANDAOETITTETRWNDERCETONRETONTTOEAUARRTIS",
+      "source_digits_sha256": "b107457136fbe635e4ed679c9c551f594561696378d760cfbd1701f5e4a539c2",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "41",
+      "role": "discovery_used_for_mapping",
+      "code_count": 69,
+      "raw_digit_count": 136,
+      "literal": "TISHOUTTOSIHEEREALEVEDHEASSTIMPOESEEASOONCETONOFOREAREYWORCEHEEAERLLR",
+      "source_digits_sha256": "7f135f6cbe319a197594383f54f9d06d37a42631d1413e675da4a756652d5e67",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "42",
+      "role": "discovery_used_for_mapping",
+      "code_count": 95,
+      "raw_digit_count": 187,
+      "literal": "ORMEREBREDAOINGTHEALAANCIESEVETONNUTINDWAIENTNOAINUANORAREESARTEDATHEATISSHELEATHEERFRELVAROTED",
+      "source_digits_sha256": "d5109a4e052e01ad95b09cdbca5fbd9f99eae05269bfd3e9d8efda1edb3e9129",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "43",
+      "role": "discovery_used_for_mapping",
+      "code_count": 71,
+      "raw_digit_count": 141,
+      "literal": "BHBEALLOOTDNDERSDINSOUEATALERREANTAOTINDLYSOONLINDHAOWASTOTHEINGERESNSS",
+      "source_digits_sha256": "7b28da83304a26bbabff15ec6081b1b0867db09b755dd1a7d8cc2fdbc41104b8",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "44",
+      "role": "discovery_used_for_mapping",
+      "code_count": 64,
+      "raw_digit_count": 126,
+      "literal": "EREBREANCIESTRATHINEAMEINATSIGANDEASTINGNEDCONTTHERYATHEFMORSHER",
+      "source_digits_sha256": "6662f9ce85ddfac20b5a8262cc2b583f63df66f5d78b83d3c7d3c063d63d586b",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "45",
+      "role": "discovery_used_for_mapping",
+      "code_count": 75,
+      "raw_digit_count": 149,
+      "literal": "ENTOTHHEDINDATISTISHOUTTASIMPOEINGATIFEALAREALLETHESANDHILEANTTOEAUARRDDOOF",
+      "source_digits_sha256": "5842d90a346543511e7a1cf84a3385587e36ebbbc98c14453a33a1ae1ef29b69",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "46",
+      "role": "discovery_used_for_mapping",
+      "code_count": 129,
+      "raw_digit_count": 253,
+      "literal": "TOTCDMOENTOTSOFHAISYNGATIFEALAREALLETHESANDHILEANTTOEAUARRDDOOFATCHOPEOHENESARTEDATHEATISSHELEATHEERFREYANAMEHEMIHEEREALEVIOMEDTO",
+      "source_digits_sha256": "f20b5f23bd2f92b6591d5c90fe8683b444f5780da145df39183b762778421675",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "47",
+      "role": "discovery_used_for_mapping",
+      "code_count": 65,
+      "raw_digit_count": 126,
+      "literal": "LOFAROANDTIMPERCEMABSVEREWAOTINDLYSOONLINDHAOWASTOTHEINGIDERSEALS",
+      "source_digits_sha256": "51ae8924a819f1081b3191c0f5469ef1fe0cd983e00f8a0e8ff3cb6ccd8bb526",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "48",
+      "role": "discovery_used_for_mapping",
+      "code_count": 85,
+      "raw_digit_count": 169,
+      "literal": "HEATISSHELEATHEERFREYANAMEHEMIHEEREALEVEDHEASSOFAROANDTITTETRWNDERCETONRETONTTOEAUARR",
+      "source_digits_sha256": "10312425844dad07ff08f4c0d9cf393fd5ad280618fec6a51d86a364469f63fa",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "49",
+      "role": "discovery_used_for_mapping",
+      "code_count": 60,
+      "raw_digit_count": 115,
+      "literal": "ILEYTSTSITSSOGOTINDLYSTSILLOTINDOINDMOTINDLYSOILODOLALYSTILL",
+      "source_digits_sha256": "2ca2c645fae93905fea9fa19b52309a52bba441ace9ab731123d915d5e12b79c",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "50",
+      "role": "discovery_used_for_mapping",
+      "code_count": 73,
+      "raw_digit_count": 141,
+      "literal": "OEHBEALIMABSVEREWAOTINDLYSOONLINDHAOWASTOTHEINGIDERSEALSOUTEABUTIWASEANDY",
+      "source_digits_sha256": "89ba7f3350615054bb1314e918852a4c88adf335fa45fdd160acf882d2f22f05",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "51",
+      "role": "discovery_used_for_mapping",
+      "code_count": 136,
+      "raw_digit_count": 268,
+      "literal": "TITERTTISTISHOUTTASIMPOEINGATIFEALAREALLETHESANDHILEANTTOEAUARRDDOOFATCHOPEOHENESARTEDATHEATISSHELEATHEERFREYANAMEHEMIHEEREALEVEDHEASSOF",
+      "source_digits_sha256": "952c90d7034de32c4239f4f0460c658cdc929b14c9cc858e06ef4049729c689f",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "52",
+      "role": "discovery_used_for_mapping",
+      "code_count": 70,
+      "raw_digit_count": 137,
+      "literal": "AINESNNOEICIESTRATHINEAMEINATSIGANDEASTINGNEDCONTTHERYATHEFMORSHERENTO",
+      "source_digits_sha256": "2b8b56700aee5696676c73d3030c2a50fd7aa1883443592992f3036ac2b7b6fc",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "53",
+      "role": "discovery_used_for_mapping",
+      "code_count": 137,
+      "raw_digit_count": 271,
+      "literal": "TTASIMPOEINGATIFEALAREALLETHESANDHILEANTTOEAUARRDDOOFATCHOPEOHENESARTEDATHEATISSHELEATHEERFREYANAMEHEMIHEEREALEVEDHEASSOFAROANDTIMPERCEMA",
+      "source_digits_sha256": "8f2d2d0fab87109e4c65ef2be0caa4f6876410649197a18bed675a62e0337fd7",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "54",
+      "role": "previously_exposed_reserved",
+      "code_count": 29,
+      "raw_digit_count": 57,
+      "literal": "LWREYALHEATHERMABELIESTOTERES",
+      "source_digits_sha256": "b4126f6633790c213bf827af0eed7ec5f464c0e6f9ef65b38a62c592daeae568",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "55",
+      "role": "discovery_used_for_mapping",
+      "code_count": 59,
+      "raw_digit_count": 116,
+      "literal": "SHEATHIEATHINEORAINASTETETONLIUTISINEORAINASNOLASOGOFTOTDSH",
+      "source_digits_sha256": "715da6080c9ca3fbab2cd8c44bc41992d99f749ed44428b8fba64924dfd5bdeb",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "56",
+      "role": "discovery_used_for_mapping",
+      "code_count": 134,
+      "raw_digit_count": 266,
+      "literal": "EATHHERENTOTHELPIALEETSRINGTHEREBREANCAWORCETOESHETOHENDERPOEETOTRREASDAINUTIRAEYOPELROMEHEMIHEEREALEVEDHEASSOFARODEGRIHERWWASOUSTOTER",
+      "source_digits_sha256": "c876bb0a06716129c3b2fc7cbcb229a7da182b503ce88dc7599f24fc97de4ca8",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "57",
+      "role": "discovery_used_for_mapping",
+      "code_count": 118,
+      "raw_digit_count": 230,
+      "literal": "TITERAINUETOSOFETONOFOREAREYWORCERIDOAOIANGUESTSSOSRAINUPOESEEASOONCETOISTOESEEASOONCETOIEWASOFREWASOUSTOTERAINUETOTST",
+      "source_digits_sha256": "0484ce6bc4d8721ae8e0936817daf01e6e48952cbfa4187e2389e9a9209b7019",
+      "alignment_count_capped_2": 2
+    },
+    {
+      "book_id": "58",
+      "role": "discovery_used_for_mapping",
+      "code_count": 139,
+      "raw_digit_count": 272,
+      "literal": "LYESANDHINTTNDDOOFATCHOPSRIBHBEALLOOTDNDERSDINSOUEATALERREANTAOTINDLYSOONLINDHAOWASTOTHEINGIDERSEALSOUTEABUTIWASEANDANDDANSTHENYMEREBREDATI",
+      "source_digits_sha256": "56af3a896daf2f28962e517f12b6a72a66aa05300247e82bcf8096f8386ab7ec",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "59",
+      "role": "discovery_used_for_mapping",
+      "code_count": 138,
+      "raw_digit_count": 272,
+      "literal": "BHBEALLOOTDNDERSDINSOUEATALERREANTAOTINDLYSOONLINDHAOWASTOTHEINGIDERSEACHESANDHINTTNDDOOFATCHOPSRISOUTEABUTIWASEANDANDDANSTHENYMEREBREDATI",
+      "source_digits_sha256": "39f0bf5f5d45469f56e03f80e085929e19cd5fa4de811ede848153ff8d78e649",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "60",
+      "role": "discovery_used_for_mapping",
+      "code_count": 76,
+      "raw_digit_count": 151,
+      "literal": "RDCTGIEALLETHESANDHINTFESTIHNTSAINUTRIBEALASOUEATALERREANTAWOEREEYFFRANOTRHN",
+      "source_digits_sha256": "35dac18f957d3114b80976b6b55a6353bdcbfba717e5ad1589100111339c6963",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "61",
+      "role": "discovery_used_for_mapping",
+      "code_count": 74,
+      "raw_digit_count": 145,
+      "literal": "OSIGANDEASTINGNEDCONTTHERYATHEHSHEINDETUTIWERSEAGRRTIHNGATIFEALAREALLETHIM",
+      "source_digits_sha256": "def270d21c1bb6de0cec1f45fbbc07399602bd69b179195b8d93205ea1791f06",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "62",
+      "role": "discovery_used_for_mapping",
+      "code_count": 64,
+      "raw_digit_count": 126,
+      "literal": "CIESTRATHINEAMEINATSIGANDEASTINGNEDCONTTHERYATHEFMORSHERENTOTHHE",
+      "source_digits_sha256": "4d57346bb0cf8da83b6591b5755d7509fc15c46cd506479f992c1f491d836b68",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "63",
+      "role": "discovery_used_for_mapping",
+      "code_count": 63,
+      "raw_digit_count": 126,
+      "literal": "DINDATISTISHOUTTASIMPOESEEASOONCETONOFOROFPHTIMALLEVETONNUTINDT",
+      "source_digits_sha256": "6ca2886b22f0d3102fb07b205390d5843f37abf0b65dd68d0eca0721a8b0d43e",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "64",
+      "role": "discovery_used_for_mapping",
+      "code_count": 76,
+      "raw_digit_count": 151,
+      "literal": "FINUTRIBEALASOUEATALERREANTSEAGRRTINEAYNGATIFEALAREALLETHESANDHINTFESTIHNTSA",
+      "source_digits_sha256": "de7fde77ea3d3390c9526c83f5552b856c5d758259926b0d2cd6dbef5c37d58e",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "65",
+      "role": "discovery_used_for_mapping",
+      "code_count": 85,
+      "raw_digit_count": 169,
+      "literal": "ATSIGANDEASTINGNEDCONTTHERYATHEHSHEINDETUTIWERSEAGRRTIHNGATIFEALAREALLETHESANDHINTFEE",
+      "source_digits_sha256": "21207fb8459bc472bfa315b55ac832946fe5d39ae6e5c32c45471664ff238789",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "66",
+      "role": "discovery_used_for_mapping",
+      "code_count": 107,
+      "raw_digit_count": 210,
+      "literal": "INDHAOWASTOTHEINGIDERSEALSOUTEABUTIWASEANDANDDANSTHENYMEREBREDATISTISHOUTTASIMPOESEEASOONCETONOFOROFPHTIMAL",
+      "source_digits_sha256": "e2d0c599db739df7124f5d18ef7a8d652d86582133b7cb4ff00825669ebcb250",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "67",
+      "role": "discovery_used_for_mapping",
+      "code_count": 50,
+      "raw_digit_count": 98,
+      "literal": "IRINGTHEALAANCIESEVETONNUTITERAINUANORAREESARTEDAT",
+      "source_digits_sha256": "dee9f4f07db21fc05a8704a210601e5df4e88e62ab45ff33a8ab74c8090f9780",
+      "alignment_count_capped_2": 2
+    },
+    {
+      "book_id": "68",
+      "role": "discovery_used_for_mapping",
+      "code_count": 73,
+      "raw_digit_count": 143,
+      "literal": "ITRATHINEAMEINATSIGANDEASTINGNEDCONTTHERYATHEHSHEINDETUTIWERTITERTTISTISH",
+      "source_digits_sha256": "897f172cbee91e39a1ca131c667df7951414a632dd54ebd70e40ac8b7ee7d302",
+      "alignment_count_capped_2": 1
+    },
+    {
+      "book_id": "69",
+      "role": "discovery_used_for_mapping",
+      "code_count": 72,
+      "raw_digit_count": 140,
+      "literal": "TCEMABSVEREWAOTINDLYSOONLINDHAOWASTOTHEINGIDERSEALSOUTEABUTIWASEANDANDDA",
+      "source_digits_sha256": "7627e5aff8b935a12523a56df784820a175af87a30c08543f3e16456af3a32b4",
+      "alignment_count_capped_2": 1
+    }
+  ],
+  "review": {
+    "kind": "literal linguistic review by assistant; no automatic grammar/coherence classifier claimed",
+    "substantive_candidate_minimum_words": 6,
+    "substantive_candidate_minimum_letters": 25,
+    "allowed_display_transformations": "spaces and punctuation only; same concatenated letters",
+    "not_permitted": "letter insertions/deletions/substitutions, anagrams, revised key, lore-word scoring bonus",
+    "substantive_candidates": [],
+    "conclusion": "No long grammatical continuous English reading independently compatible with Tibia lore was identified in these70fixed outputs.",
+    "scope": "Rejects promotion of these literal outputs as candidate translations; does not exclude other decoding mechanisms."
+  },
+  "short_probe_examples": {
+    "BUT I WAS": {
+      "occurrences": 13,
+      "hits": [
+        {
+          "book_id": "0",
+          "role": "discovery_used_for_mapping",
+          "code_start": 28,
+          "code_end_exclusive": 35,
+          "original_raw_digit_start": 54,
+          "original_raw_digit_end_exclusive": 68,
+          "original_raw_digits": "81911800356114",
+          "reconstructed_codes": [
+            "81",
+            "91",
+            "18",
+            "00",
+            "35",
+            "61",
+            "14"
+          ],
+          "literal": "BUTIWAS",
+          "spaces_only_display": "BUT I WAS",
+          "context": "ERSEALSOUTEABUTIWASEANDANDDANSTHENYME",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "9",
+          "role": "discovery_used_for_mapping",
+          "code_start": 128,
+          "code_end_exclusive": 135,
+          "original_raw_digit_start": 252,
+          "original_raw_digit_end_exclusive": 266,
+          "original_raw_digits": "81911800356114",
+          "reconstructed_codes": [
+            "81",
+            "91",
+            "18",
+            "00",
+            "35",
+            "61",
+            "14"
+          ],
+          "literal": "BUTIWAS",
+          "spaces_only_display": "BUT I WAS",
+          "context": "ERSEALSOUTEABUTIWASEANDANDDANSTEA",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "10",
+          "role": "discovery_used_for_mapping",
+          "code_start": 31,
+          "code_end_exclusive": 38,
+          "original_raw_digit_start": 59,
+          "original_raw_digit_end_exclusive": 73,
+          "original_raw_digits": "81911800356114",
+          "reconstructed_codes": [
+            "81",
+            "91",
+            "18",
+            "00",
+            "35",
+            "61",
+            "14"
+          ],
+          "literal": "BUTIWAS",
+          "spaces_only_display": "BUT I WAS",
+          "context": "ERSEALSOUTEABUTIWASEANDANDDANSTHENYME",
+          "book_zero_alignment_ambiguous": true
+        },
+        {
+          "book_id": "14",
+          "role": "discovery_used_for_mapping",
+          "code_start": 26,
+          "code_end_exclusive": 33,
+          "original_raw_digit_start": 50,
+          "original_raw_digit_end_exclusive": 64,
+          "original_raw_digits": "81911800356114",
+          "reconstructed_codes": [
+            "81",
+            "91",
+            "18",
+            "00",
+            "35",
+            "61",
+            "14"
+          ],
+          "literal": "BUTIWAS",
+          "spaces_only_display": "BUT I WAS",
+          "context": "OOFTDDITERATBUTIWASEANDANDDANSTEEEASO",
+          "book_zero_alignment_ambiguous": true
+        },
+        {
+          "book_id": "33",
+          "role": "discovery_used_for_mapping",
+          "code_start": 21,
+          "code_end_exclusive": 28,
+          "original_raw_digit_start": 41,
+          "original_raw_digit_end_exclusive": 55,
+          "original_raw_digits": "81911800356114",
+          "reconstructed_codes": [
+            "81",
+            "91",
+            "18",
+            "00",
+            "35",
+            "61",
+            "14"
+          ],
+          "literal": "BUTIWAS",
+          "spaces_only_display": "BUT I WAS",
+          "context": "ERSEALSOUTEABUTIWASEANDANDDANSTHENYME",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "35",
+          "role": "discovery_used_for_mapping",
+          "code_start": 34,
+          "code_end_exclusive": 41,
+          "original_raw_digit_start": 66,
+          "original_raw_digit_end_exclusive": 80,
+          "original_raw_digits": "81911800356114",
+          "reconstructed_codes": [
+            "81",
+            "91",
+            "18",
+            "00",
+            "35",
+            "61",
+            "14"
+          ],
+          "literal": "BUTIWAS",
+          "spaces_only_display": "BUT I WAS",
+          "context": "ERSEALSOUTEABUTIWASEANDANDDANSTHENYME",
+          "book_zero_alignment_ambiguous": true
+        },
+        {
+          "book_id": "37",
+          "role": "discovery_used_for_mapping",
+          "code_start": 5,
+          "code_end_exclusive": 12,
+          "original_raw_digit_start": 10,
+          "original_raw_digit_end_exclusive": 24,
+          "original_raw_digits": "81911800356114",
+          "reconstructed_codes": [
+            "81",
+            "91",
+            "18",
+            "00",
+            "35",
+            "61",
+            "14"
+          ],
+          "literal": "BUTIWAS",
+          "spaces_only_display": "BUT I WAS",
+          "context": "OUTEABUTIWASEANDANDDANSTEEEASO",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "40",
+          "role": "discovery_used_for_mapping",
+          "code_start": 38,
+          "code_end_exclusive": 45,
+          "original_raw_digit_start": 73,
+          "original_raw_digit_end_exclusive": 87,
+          "original_raw_digits": "81911800356114",
+          "reconstructed_codes": [
+            "81",
+            "91",
+            "18",
+            "00",
+            "35",
+            "61",
+            "14"
+          ],
+          "literal": "BUTIWAS",
+          "spaces_only_display": "BUT I WAS",
+          "context": "ERSEALSOUTEABUTIWASEANDAOETITTETRWNDE",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "50",
+          "role": "discovery_used_for_mapping",
+          "code_start": 61,
+          "code_end_exclusive": 68,
+          "original_raw_digit_start": 118,
+          "original_raw_digit_end_exclusive": 132,
+          "original_raw_digits": "81911800356114",
+          "reconstructed_codes": [
+            "81",
+            "91",
+            "18",
+            "00",
+            "35",
+            "61",
+            "14"
+          ],
+          "literal": "BUTIWAS",
+          "spaces_only_display": "BUT I WAS",
+          "context": "ERSEALSOUTEABUTIWASEANDY",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "58",
+          "role": "discovery_used_for_mapping",
+          "code_start": 105,
+          "code_end_exclusive": 112,
+          "original_raw_digit_start": 205,
+          "original_raw_digit_end_exclusive": 219,
+          "original_raw_digits": "81911800356114",
+          "reconstructed_codes": [
+            "81",
+            "91",
+            "18",
+            "00",
+            "35",
+            "61",
+            "14"
+          ],
+          "literal": "BUTIWAS",
+          "spaces_only_display": "BUT I WAS",
+          "context": "ERSEALSOUTEABUTIWASEANDANDDANSTHENYME",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "59",
+          "role": "discovery_used_for_mapping",
+          "code_start": 104,
+          "code_end_exclusive": 111,
+          "original_raw_digit_start": 205,
+          "original_raw_digit_end_exclusive": 219,
+          "original_raw_digits": "81911800356114",
+          "reconstructed_codes": [
+            "81",
+            "91",
+            "18",
+            "00",
+            "35",
+            "61",
+            "14"
+          ],
+          "literal": "BUTIWAS",
+          "spaces_only_display": "BUT I WAS",
+          "context": "HOPSRISOUTEABUTIWASEANDANDDANSTHENYME",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "66",
+          "role": "discovery_used_for_mapping",
+          "code_start": 31,
+          "code_end_exclusive": 38,
+          "original_raw_digit_start": 59,
+          "original_raw_digit_end_exclusive": 73,
+          "original_raw_digits": "81911800356114",
+          "reconstructed_codes": [
+            "81",
+            "91",
+            "18",
+            "00",
+            "35",
+            "61",
+            "14"
+          ],
+          "literal": "BUTIWAS",
+          "spaces_only_display": "BUT I WAS",
+          "context": "ERSEALSOUTEABUTIWASEANDANDDANSTHENYME",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "69",
+          "role": "discovery_used_for_mapping",
+          "code_start": 56,
+          "code_end_exclusive": 63,
+          "original_raw_digit_start": 108,
+          "original_raw_digit_end_exclusive": 122,
+          "original_raw_digits": "81911800356114",
+          "reconstructed_codes": [
+            "81",
+            "91",
+            "18",
+            "00",
+            "35",
+            "61",
+            "14"
+          ],
+          "literal": "BUTIWAS",
+          "spaces_only_display": "BUT I WAS",
+          "context": "ERSEALSOUTEABUTIWASEANDANDDA",
+          "book_zero_alignment_ambiguous": false
+        }
+      ]
+    },
+    "I WAS": {
+      "occurrences": 16,
+      "hits": [
+        {
+          "book_id": "0",
+          "role": "discovery_used_for_mapping",
+          "code_start": 31,
+          "code_end_exclusive": 35,
+          "original_raw_digit_start": 60,
+          "original_raw_digit_end_exclusive": 68,
+          "original_raw_digits": "00356114",
+          "reconstructed_codes": [
+            "00",
+            "35",
+            "61",
+            "14"
+          ],
+          "literal": "IWAS",
+          "spaces_only_display": "I WAS",
+          "context": "EALSOUTEABUTIWASEANDANDDANSTHENYME",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "8",
+          "role": "discovery_used_for_mapping",
+          "code_start": 28,
+          "code_end_exclusive": 32,
+          "original_raw_digit_start": 55,
+          "original_raw_digit_end_exclusive": 62,
+          "original_raw_digits": "6356114",
+          "reconstructed_codes": [
+            "06",
+            "35",
+            "61",
+            "14"
+          ],
+          "literal": "IWAS",
+          "spaces_only_display": "I WAS",
+          "context": "ROFPHTIMALLEIWASOUSTOTERAINUTMWOAR",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "9",
+          "role": "discovery_used_for_mapping",
+          "code_start": 131,
+          "code_end_exclusive": 135,
+          "original_raw_digit_start": 258,
+          "original_raw_digit_end_exclusive": 266,
+          "original_raw_digits": "00356114",
+          "reconstructed_codes": [
+            "00",
+            "35",
+            "61",
+            "14"
+          ],
+          "literal": "IWAS",
+          "spaces_only_display": "I WAS",
+          "context": "EALSOUTEABUTIWASEANDANDDANSTEA",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "10",
+          "role": "discovery_used_for_mapping",
+          "code_start": 34,
+          "code_end_exclusive": 38,
+          "original_raw_digit_start": 65,
+          "original_raw_digit_end_exclusive": 73,
+          "original_raw_digits": "00356114",
+          "reconstructed_codes": [
+            "00",
+            "35",
+            "61",
+            "14"
+          ],
+          "literal": "IWAS",
+          "spaces_only_display": "I WAS",
+          "context": "EALSOUTEABUTIWASEANDANDDANSTHENYME",
+          "book_zero_alignment_ambiguous": true
+        },
+        {
+          "book_id": "14",
+          "role": "discovery_used_for_mapping",
+          "code_start": 29,
+          "code_end_exclusive": 33,
+          "original_raw_digit_start": 56,
+          "original_raw_digit_end_exclusive": 64,
+          "original_raw_digits": "00356114",
+          "reconstructed_codes": [
+            "00",
+            "35",
+            "61",
+            "14"
+          ],
+          "literal": "IWAS",
+          "spaces_only_display": "I WAS",
+          "context": "TDDITERATBUTIWASEANDANDDANSTEEEASO",
+          "book_zero_alignment_ambiguous": true
+        },
+        {
+          "book_id": "31",
+          "role": "discovery_used_for_mapping",
+          "code_start": 121,
+          "code_end_exclusive": 125,
+          "original_raw_digit_start": 237,
+          "original_raw_digit_end_exclusive": 244,
+          "original_raw_digits": "6356114",
+          "reconstructed_codes": [
+            "06",
+            "35",
+            "61",
+            "14"
+          ],
+          "literal": "IWAS",
+          "spaces_only_display": "I WAS",
+          "context": "HEALAANCIESEIWASOU",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "33",
+          "role": "discovery_used_for_mapping",
+          "code_start": 24,
+          "code_end_exclusive": 28,
+          "original_raw_digit_start": 47,
+          "original_raw_digit_end_exclusive": 55,
+          "original_raw_digits": "00356114",
+          "reconstructed_codes": [
+            "00",
+            "35",
+            "61",
+            "14"
+          ],
+          "literal": "IWAS",
+          "spaces_only_display": "I WAS",
+          "context": "EALSOUTEABUTIWASEANDANDDANSTHENYME",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "35",
+          "role": "discovery_used_for_mapping",
+          "code_start": 37,
+          "code_end_exclusive": 41,
+          "original_raw_digit_start": 72,
+          "original_raw_digit_end_exclusive": 80,
+          "original_raw_digits": "00356114",
+          "reconstructed_codes": [
+            "00",
+            "35",
+            "61",
+            "14"
+          ],
+          "literal": "IWAS",
+          "spaces_only_display": "I WAS",
+          "context": "EALSOUTEABUTIWASEANDANDDANSTHENYME",
+          "book_zero_alignment_ambiguous": true
+        },
+        {
+          "book_id": "37",
+          "role": "discovery_used_for_mapping",
+          "code_start": 8,
+          "code_end_exclusive": 12,
+          "original_raw_digit_start": 16,
+          "original_raw_digit_end_exclusive": 24,
+          "original_raw_digits": "00356114",
+          "reconstructed_codes": [
+            "00",
+            "35",
+            "61",
+            "14"
+          ],
+          "literal": "IWAS",
+          "spaces_only_display": "I WAS",
+          "context": "OUTEABUTIWASEANDANDDANSTEEEASO",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "37",
+          "role": "discovery_used_for_mapping",
+          "code_start": 52,
+          "code_end_exclusive": 56,
+          "original_raw_digit_start": 104,
+          "original_raw_digit_end_exclusive": 111,
+          "original_raw_digits": "6356114",
+          "reconstructed_codes": [
+            "06",
+            "35",
+            "61",
+            "14"
+          ],
+          "literal": "IWAS",
+          "spaces_only_display": "I WAS",
+          "context": "ROFPHTIMALLEIWASOUSTOTERAINUTMWOAR",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "40",
+          "role": "discovery_used_for_mapping",
+          "code_start": 41,
+          "code_end_exclusive": 45,
+          "original_raw_digit_start": 79,
+          "original_raw_digit_end_exclusive": 87,
+          "original_raw_digits": "00356114",
+          "reconstructed_codes": [
+            "00",
+            "35",
+            "61",
+            "14"
+          ],
+          "literal": "IWAS",
+          "spaces_only_display": "I WAS",
+          "context": "EALSOUTEABUTIWASEANDAOETITTETRWNDE",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "50",
+          "role": "discovery_used_for_mapping",
+          "code_start": 64,
+          "code_end_exclusive": 68,
+          "original_raw_digit_start": 124,
+          "original_raw_digit_end_exclusive": 132,
+          "original_raw_digits": "00356114",
+          "reconstructed_codes": [
+            "00",
+            "35",
+            "61",
+            "14"
+          ],
+          "literal": "IWAS",
+          "spaces_only_display": "I WAS",
+          "context": "EALSOUTEABUTIWASEANDY",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "58",
+          "role": "discovery_used_for_mapping",
+          "code_start": 108,
+          "code_end_exclusive": 112,
+          "original_raw_digit_start": 211,
+          "original_raw_digit_end_exclusive": 219,
+          "original_raw_digits": "00356114",
+          "reconstructed_codes": [
+            "00",
+            "35",
+            "61",
+            "14"
+          ],
+          "literal": "IWAS",
+          "spaces_only_display": "I WAS",
+          "context": "EALSOUTEABUTIWASEANDANDDANSTHENYME",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "59",
+          "role": "discovery_used_for_mapping",
+          "code_start": 107,
+          "code_end_exclusive": 111,
+          "original_raw_digit_start": 211,
+          "original_raw_digit_end_exclusive": 219,
+          "original_raw_digits": "00356114",
+          "reconstructed_codes": [
+            "00",
+            "35",
+            "61",
+            "14"
+          ],
+          "literal": "IWAS",
+          "spaces_only_display": "I WAS",
+          "context": "SRISOUTEABUTIWASEANDANDDANSTHENYME",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "66",
+          "role": "discovery_used_for_mapping",
+          "code_start": 34,
+          "code_end_exclusive": 38,
+          "original_raw_digit_start": 65,
+          "original_raw_digit_end_exclusive": 73,
+          "original_raw_digits": "00356114",
+          "reconstructed_codes": [
+            "00",
+            "35",
+            "61",
+            "14"
+          ],
+          "literal": "IWAS",
+          "spaces_only_display": "I WAS",
+          "context": "EALSOUTEABUTIWASEANDANDDANSTHENYME",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "69",
+          "role": "discovery_used_for_mapping",
+          "code_start": 59,
+          "code_end_exclusive": 63,
+          "original_raw_digit_start": 114,
+          "original_raw_digit_end_exclusive": 122,
+          "original_raw_digits": "00356114",
+          "reconstructed_codes": [
+            "00",
+            "35",
+            "61",
+            "14"
+          ],
+          "literal": "IWAS",
+          "spaces_only_display": "I WAS",
+          "context": "EALSOUTEABUTIWASEANDANDDA",
+          "book_zero_alignment_ambiguous": false
+        }
+      ]
+    },
+    "THE SAND": {
+      "occurrences": 8,
+      "hits": [
+        {
+          "book_id": "17",
+          "role": "discovery_used_for_mapping",
+          "code_start": 110,
+          "code_end_exclusive": 117,
+          "original_raw_digit_start": 217,
+          "original_raw_digit_end_exclusive": 231,
+          "original_raw_digits": "58576594344215",
+          "reconstructed_codes": [
+            "58",
+            "57",
+            "65",
+            "94",
+            "34",
+            "42",
+            "15"
+          ],
+          "literal": "THESAND",
+          "spaces_only_display": "THE SAND",
+          "context": "IFEALAREALLETHESANDHILEANTTOEAUARRDDO",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "45",
+          "role": "discovery_used_for_mapping",
+          "code_start": 48,
+          "code_end_exclusive": 55,
+          "original_raw_digit_start": 96,
+          "original_raw_digit_end_exclusive": 110,
+          "original_raw_digits": "58576594344215",
+          "reconstructed_codes": [
+            "58",
+            "57",
+            "65",
+            "94",
+            "34",
+            "42",
+            "15"
+          ],
+          "literal": "THESAND",
+          "spaces_only_display": "THE SAND",
+          "context": "IFEALAREALLETHESANDHILEANTTOEAUARRDDO",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "46",
+          "role": "discovery_used_for_mapping",
+          "code_start": 36,
+          "code_end_exclusive": 43,
+          "original_raw_digit_start": 71,
+          "original_raw_digit_end_exclusive": 85,
+          "original_raw_digits": "58576594344215",
+          "reconstructed_codes": [
+            "58",
+            "57",
+            "65",
+            "94",
+            "34",
+            "42",
+            "15"
+          ],
+          "literal": "THESAND",
+          "spaces_only_display": "THE SAND",
+          "context": "IFEALAREALLETHESANDHILEANTTOEAUARRDDO",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "51",
+          "role": "discovery_used_for_mapping",
+          "code_start": 41,
+          "code_end_exclusive": 48,
+          "original_raw_digit_start": 81,
+          "original_raw_digit_end_exclusive": 95,
+          "original_raw_digits": "58576594344215",
+          "reconstructed_codes": [
+            "58",
+            "57",
+            "65",
+            "94",
+            "34",
+            "42",
+            "15"
+          ],
+          "literal": "THESAND",
+          "spaces_only_display": "THE SAND",
+          "context": "IFEALAREALLETHESANDHILEANTTOEAUARRDDO",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "53",
+          "role": "discovery_used_for_mapping",
+          "code_start": 26,
+          "code_end_exclusive": 33,
+          "original_raw_digit_start": 52,
+          "original_raw_digit_end_exclusive": 66,
+          "original_raw_digits": "58576594344215",
+          "reconstructed_codes": [
+            "58",
+            "57",
+            "65",
+            "94",
+            "34",
+            "42",
+            "15"
+          ],
+          "literal": "THESAND",
+          "spaces_only_display": "THE SAND",
+          "context": "IFEALAREALLETHESANDHILEANTTOEAUARRDDO",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "60",
+          "role": "discovery_used_for_mapping",
+          "code_start": 11,
+          "code_end_exclusive": 18,
+          "original_raw_digit_start": 21,
+          "original_raw_digit_end_exclusive": 35,
+          "original_raw_digits": "58576594344215",
+          "reconstructed_codes": [
+            "58",
+            "57",
+            "65",
+            "94",
+            "34",
+            "42",
+            "15"
+          ],
+          "literal": "THESAND",
+          "spaces_only_display": "THE SAND",
+          "context": "RDCTGIEALLETHESANDHINTFESTIHNTSAINUT",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "64",
+          "role": "discovery_used_for_mapping",
+          "code_start": 55,
+          "code_end_exclusive": 62,
+          "original_raw_digit_start": 109,
+          "original_raw_digit_end_exclusive": 123,
+          "original_raw_digits": "58576594344215",
+          "reconstructed_codes": [
+            "58",
+            "57",
+            "65",
+            "94",
+            "34",
+            "42",
+            "15"
+          ],
+          "literal": "THESAND",
+          "spaces_only_display": "THE SAND",
+          "context": "IFEALAREALLETHESANDHINTFESTIHNTSA",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "65",
+          "role": "discovery_used_for_mapping",
+          "code_start": 71,
+          "code_end_exclusive": 78,
+          "original_raw_digit_start": 141,
+          "original_raw_digit_end_exclusive": 155,
+          "original_raw_digits": "58576594344215",
+          "reconstructed_codes": [
+            "58",
+            "57",
+            "65",
+            "94",
+            "34",
+            "42",
+            "15"
+          ],
+          "literal": "THESAND",
+          "spaces_only_display": "THE SAND",
+          "context": "IFEALAREALLETHESANDHINTFEE",
+          "book_zero_alignment_ambiguous": false
+        }
+      ]
+    },
+    "WAS TO THE": {
+      "occurrences": 15,
+      "hits": [
+        {
+          "book_id": "0",
+          "role": "discovery_used_for_mapping",
+          "code_start": 3,
+          "code_end_exclusive": 11,
+          "original_raw_digit_start": 6,
+          "original_raw_digit_end_exclusive": 22,
+          "original_raw_digits": "3534780192889521",
+          "reconstructed_codes": [
+            "35",
+            "34",
+            "78",
+            "01",
+            "92",
+            "88",
+            "95",
+            "21"
+          ],
+          "literal": "WASTOTHE",
+          "spaces_only_display": "WAS TO THE",
+          "context": "HAOWASTOTHEINGIDERSEALSOUTEAB",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "5",
+          "role": "discovery_used_for_mapping",
+          "code_start": 104,
+          "code_end_exclusive": 112,
+          "original_raw_digit_start": 206,
+          "original_raw_digit_end_exclusive": 222,
+          "original_raw_digits": "3534780192889521",
+          "reconstructed_codes": [
+            "35",
+            "34",
+            "78",
+            "01",
+            "92",
+            "88",
+            "95",
+            "21"
+          ],
+          "literal": "WASTOTHE",
+          "spaces_only_display": "WAS TO THE",
+          "context": "YSOONLINDHAOWASTOTHEINGIDERSEARDNTSORN",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "9",
+          "role": "discovery_used_for_mapping",
+          "code_start": 103,
+          "code_end_exclusive": 111,
+          "original_raw_digit_start": 204,
+          "original_raw_digit_end_exclusive": 220,
+          "original_raw_digits": "3534780192889521",
+          "reconstructed_codes": [
+            "35",
+            "34",
+            "78",
+            "01",
+            "92",
+            "88",
+            "95",
+            "21"
+          ],
+          "literal": "WASTOTHE",
+          "spaces_only_display": "WAS TO THE",
+          "context": "YSOONLINDHAOWASTOTHEINGIDERSEALSOUTEAB",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "10",
+          "role": "discovery_used_for_mapping",
+          "code_start": 6,
+          "code_end_exclusive": 14,
+          "original_raw_digit_start": 11,
+          "original_raw_digit_end_exclusive": 27,
+          "original_raw_digits": "3534780192889521",
+          "reconstructed_codes": [
+            "35",
+            "34",
+            "78",
+            "01",
+            "92",
+            "88",
+            "95",
+            "21"
+          ],
+          "literal": "WASTOTHE",
+          "spaces_only_display": "WAS TO THE",
+          "context": "INDHAOWASTOTHEINGIDERSEALSOUTEAB",
+          "book_zero_alignment_ambiguous": true
+        },
+        {
+          "book_id": "11",
+          "role": "discovery_used_for_mapping",
+          "code_start": 59,
+          "code_end_exclusive": 67,
+          "original_raw_digit_start": 116,
+          "original_raw_digit_end_exclusive": 132,
+          "original_raw_digits": "3534780192889521",
+          "reconstructed_codes": [
+            "35",
+            "34",
+            "78",
+            "01",
+            "92",
+            "88",
+            "95",
+            "21"
+          ],
+          "literal": "WASTOTHE",
+          "spaces_only_display": "WAS TO THE",
+          "context": "YSOONLINDHAOWASTOTHEINF",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "19",
+          "role": "discovery_used_for_mapping",
+          "code_start": 52,
+          "code_end_exclusive": 60,
+          "original_raw_digit_start": 102,
+          "original_raw_digit_end_exclusive": 118,
+          "original_raw_digits": "3534780192889521",
+          "reconstructed_codes": [
+            "35",
+            "34",
+            "78",
+            "01",
+            "92",
+            "88",
+            "95",
+            "21"
+          ],
+          "literal": "WASTOTHE",
+          "spaces_only_display": "WAS TO THE",
+          "context": "REYONLINDHAOWASTOTHEINGIDE",
+          "book_zero_alignment_ambiguous": true
+        },
+        {
+          "book_id": "35",
+          "role": "discovery_used_for_mapping",
+          "code_start": 9,
+          "code_end_exclusive": 17,
+          "original_raw_digit_start": 18,
+          "original_raw_digit_end_exclusive": 34,
+          "original_raw_digits": "3534780192889521",
+          "reconstructed_codes": [
+            "35",
+            "34",
+            "78",
+            "01",
+            "92",
+            "88",
+            "95",
+            "21"
+          ],
+          "literal": "WASTOTHE",
+          "spaces_only_display": "WAS TO THE",
+          "context": "ONLINDHAOWASTOTHEINGIDERSEALSOUTEAB",
+          "book_zero_alignment_ambiguous": true
+        },
+        {
+          "book_id": "40",
+          "role": "discovery_used_for_mapping",
+          "code_start": 13,
+          "code_end_exclusive": 21,
+          "original_raw_digit_start": 25,
+          "original_raw_digit_end_exclusive": 41,
+          "original_raw_digits": "3534780192889521",
+          "reconstructed_codes": [
+            "35",
+            "34",
+            "78",
+            "01",
+            "92",
+            "88",
+            "95",
+            "21"
+          ],
+          "literal": "WASTOTHE",
+          "spaces_only_display": "WAS TO THE",
+          "context": "YSOONLINDHAOWASTOTHEINGIDERSEALSOUTEAB",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "43",
+          "role": "discovery_used_for_mapping",
+          "code_start": 53,
+          "code_end_exclusive": 61,
+          "original_raw_digit_start": 105,
+          "original_raw_digit_end_exclusive": 121,
+          "original_raw_digits": "3534780192889521",
+          "reconstructed_codes": [
+            "35",
+            "34",
+            "78",
+            "01",
+            "92",
+            "88",
+            "95",
+            "21"
+          ],
+          "literal": "WASTOTHE",
+          "spaces_only_display": "WAS TO THE",
+          "context": "YSOONLINDHAOWASTOTHEINGERESNSS",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "47",
+          "role": "discovery_used_for_mapping",
+          "code_start": 45,
+          "code_end_exclusive": 53,
+          "original_raw_digit_start": 88,
+          "original_raw_digit_end_exclusive": 104,
+          "original_raw_digits": "3534780192889521",
+          "reconstructed_codes": [
+            "35",
+            "34",
+            "78",
+            "01",
+            "92",
+            "88",
+            "95",
+            "21"
+          ],
+          "literal": "WASTOTHE",
+          "spaces_only_display": "WAS TO THE",
+          "context": "YSOONLINDHAOWASTOTHEINGIDERSEALS",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "50",
+          "role": "discovery_used_for_mapping",
+          "code_start": 36,
+          "code_end_exclusive": 44,
+          "original_raw_digit_start": 70,
+          "original_raw_digit_end_exclusive": 86,
+          "original_raw_digits": "3534780192889521",
+          "reconstructed_codes": [
+            "35",
+            "34",
+            "78",
+            "01",
+            "92",
+            "88",
+            "95",
+            "21"
+          ],
+          "literal": "WASTOTHE",
+          "spaces_only_display": "WAS TO THE",
+          "context": "YSOONLINDHAOWASTOTHEINGIDERSEALSOUTEAB",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "58",
+          "role": "discovery_used_for_mapping",
+          "code_start": 80,
+          "code_end_exclusive": 88,
+          "original_raw_digit_start": 157,
+          "original_raw_digit_end_exclusive": 173,
+          "original_raw_digits": "3534780192889521",
+          "reconstructed_codes": [
+            "35",
+            "34",
+            "78",
+            "01",
+            "92",
+            "88",
+            "95",
+            "21"
+          ],
+          "literal": "WASTOTHE",
+          "spaces_only_display": "WAS TO THE",
+          "context": "YSOONLINDHAOWASTOTHEINGIDERSEALSOUTEAB",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "59",
+          "role": "discovery_used_for_mapping",
+          "code_start": 53,
+          "code_end_exclusive": 61,
+          "original_raw_digit_start": 105,
+          "original_raw_digit_end_exclusive": 121,
+          "original_raw_digits": "3534780192889521",
+          "reconstructed_codes": [
+            "35",
+            "34",
+            "78",
+            "01",
+            "92",
+            "88",
+            "95",
+            "21"
+          ],
+          "literal": "WASTOTHE",
+          "spaces_only_display": "WAS TO THE",
+          "context": "YSOONLINDHAOWASTOTHEINGIDERSEACHESANDH",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "66",
+          "role": "discovery_used_for_mapping",
+          "code_start": 6,
+          "code_end_exclusive": 14,
+          "original_raw_digit_start": 11,
+          "original_raw_digit_end_exclusive": 27,
+          "original_raw_digits": "3534780192889521",
+          "reconstructed_codes": [
+            "35",
+            "34",
+            "78",
+            "01",
+            "92",
+            "88",
+            "95",
+            "21"
+          ],
+          "literal": "WASTOTHE",
+          "spaces_only_display": "WAS TO THE",
+          "context": "INDHAOWASTOTHEINGIDERSEALSOUTEAB",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "69",
+          "role": "discovery_used_for_mapping",
+          "code_start": 31,
+          "code_end_exclusive": 39,
+          "original_raw_digit_start": 60,
+          "original_raw_digit_end_exclusive": 76,
+          "original_raw_digits": "3534780192889521",
+          "reconstructed_codes": [
+            "35",
+            "34",
+            "78",
+            "01",
+            "92",
+            "88",
+            "95",
+            "21"
+          ],
+          "literal": "WASTOTHE",
+          "spaces_only_display": "WAS TO THE",
+          "context": "YSOONLINDHAOWASTOTHEINGIDERSEALSOUTEAB",
+          "book_zero_alignment_ambiguous": false
+        }
+      ]
+    },
+    "IN THE": {
+      "occurrences": 2,
+      "hits": [
+        {
+          "book_id": "4",
+          "role": "discovery_used_for_mapping",
+          "code_start": 29,
+          "code_end_exclusive": 34,
+          "original_raw_digit_start": 58,
+          "original_raw_digit_end_exclusive": 68,
+          "original_raw_digits": "6019032364",
+          "reconstructed_codes": [
+            "60",
+            "19",
+            "03",
+            "23",
+            "64"
+          ],
+          "literal": "INTHE",
+          "spaces_only_display": "IN THE",
+          "context": "STRATHINEAMEINTHERENHBERYATHEFOOTHH",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "30",
+          "role": "discovery_used_for_mapping",
+          "code_start": 30,
+          "code_end_exclusive": 35,
+          "original_raw_digit_start": 57,
+          "original_raw_digit_end_exclusive": 67,
+          "original_raw_digits": "5216889521",
+          "reconstructed_codes": [
+            "52",
+            "16",
+            "88",
+            "95",
+            "21"
+          ],
+          "literal": "INTHE",
+          "spaces_only_display": "IN THE",
+          "context": "EAMEINAMYFOAINTHESTOIORSHELEATHENDE",
+          "book_zero_alignment_ambiguous": false
+        }
+      ]
+    },
+    "THE NAME": {
+      "occurrences": 0,
+      "hits": []
+    },
+    "OF THE": {
+      "occurrences": 0,
+      "hits": []
+    },
+    "AND THEN": {
+      "occurrences": 0,
+      "hits": []
+    },
+    "ALL THE SAND": {
+      "occurrences": 0,
+      "hits": []
+    },
+    "THE OTHER": {
+      "occurrences": 0,
+      "hits": []
+    },
+    "THERE": {
+      "occurrences": 5,
+      "hits": [
+        {
+          "book_id": "4",
+          "role": "discovery_used_for_mapping",
+          "code_start": 31,
+          "code_end_exclusive": 36,
+          "original_raw_digit_start": 62,
+          "original_raw_digit_end_exclusive": 72,
+          "original_raw_digits": "0323646721",
+          "reconstructed_codes": [
+            "03",
+            "23",
+            "64",
+            "67",
+            "21"
+          ],
+          "literal": "THERE",
+          "spaces_only_display": "THERE",
+          "context": "RATHINEAMEINTHERENHBERYATHEFOOTHHED",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "12",
+          "role": "discovery_used_for_mapping",
+          "code_start": 40,
+          "code_end_exclusive": 45,
+          "original_raw_digit_start": 77,
+          "original_raw_digit_end_exclusive": 87,
+          "original_raw_digits": "8895219727",
+          "reconstructed_codes": [
+            "88",
+            "95",
+            "21",
+            "97",
+            "27"
+          ],
+          "literal": "THERE",
+          "spaces_only_display": "THERE",
+          "context": "REAMEINAOINGTHEREBREANCETONNUTINDTH",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "21",
+          "role": "discovery_used_for_mapping",
+          "code_start": 43,
+          "code_end_exclusive": 48,
+          "original_raw_digit_start": 84,
+          "original_raw_digit_end_exclusive": 94,
+          "original_raw_digits": "8895219727",
+          "reconstructed_codes": [
+            "88",
+            "95",
+            "21",
+            "97",
+            "27"
+          ],
+          "literal": "THERE",
+          "spaces_only_display": "THERE",
+          "context": "REAMEINAOINGTHEREBREANCETONNUTINDTH",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "26",
+          "role": "discovery_used_for_mapping",
+          "code_start": 57,
+          "code_end_exclusive": 62,
+          "original_raw_digit_start": 110,
+          "original_raw_digit_end_exclusive": 120,
+          "original_raw_digits": "8895219727",
+          "reconstructed_codes": [
+            "88",
+            "95",
+            "21",
+            "97",
+            "27"
+          ],
+          "literal": "THERE",
+          "spaces_only_display": "THERE",
+          "context": "REAMEINAOINGTHEREBREANCETONNUTINDTH",
+          "book_zero_alignment_ambiguous": false
+        },
+        {
+          "book_id": "56",
+          "role": "discovery_used_for_mapping",
+          "code_start": 27,
+          "code_end_exclusive": 32,
+          "original_raw_digit_start": 54,
+          "original_raw_digit_end_exclusive": 64,
+          "original_raw_digits": "8895219727",
+          "reconstructed_codes": [
+            "88",
+            "95",
+            "21",
+            "97",
+            "27"
+          ],
+          "literal": "THERE",
+          "spaces_only_display": "THERE",
+          "context": "PIALEETSRINGTHEREBREANCAWORCETOESHE",
+          "book_zero_alignment_ambiguous": false
+        }
+      ]
+    }
+  },
+  "near_match_warning": {
+    "desired_phrase": "ALL THE SAND",
+    "literal_recurrent_form": "ALLETHESAND",
+    "required_disallowed_repair": "delete the extra E",
+    "status": "not a literal match and not a translation"
+  },
+  "limits": [
+    "All source books were publicly exposed and mapping was selected on68books; the2reservedbooks are correlated.",
+    "Probe lists are posthoc illustrations, not independent confirmation; their hits often reuse the same module.",
+    "Raw digit boundaries use the chosen imported leading-zero reconstruction; nine wholebook alignments are ambiguous.",
+    "Recognizable function words or proper-name-like strings are not a phrase meaning or a canonical gloss.",
+    "No externally attested English plaintext is supplied for these books."
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "version": "LEXICAL_VALIDATOR_V1",
+  "frozen_at_utc": "2026-11-12T01:07:44.173195+00:00",
+  "selected": {
+    "config": {
+      "unknown_cost": 2.5,
+      "backoff": 20
+    },
+    "thresholds": {
+      "32": 2.332056873214837,
+      "64": 2.085993519073874,
+      "128": 2.247585259589061,
+      "160": 2.00909715405259
+    },
+    "development_balanced_accuracy": 0.8520833333333333
+  },
+  "model": {
+    "training_sources": [
+      {
+        "name": "secret_garden",
+        "source_sha256": "40709a2894f0816a97dd8a67d3082cfc4dac31e45b45ee55a908d62e1dd18c23",
+        "training_words": 65128,
+        "development_words": 16282
+      },
+      {
+        "name": "my_man_jeeves",
+        "source_sha256": "e8fff3273914c243fb8c0d35513e4397df4f64bf438e92c173d3ae13b000adb7",
+        "training_words": 41076,
+        "development_words": 10270
+      }
+    ],
+    "vocabulary": 3833,
+    "token_count": 106204,
+    "model_source_independence": "Wordtrain authors not used by previous charscorer; no Tibia terms or decodedbook output used for training."
+  },
+  "lengths": [
+    32,
+    64,
+    128,
+    160
+  ],
+  "qualifications_per_length": 30,
+  "train_authors": [
+    "FrancesHodgsonBurnett",
+    "P.G.Wodehouse"
+  ],
+  "qualification_authors": [
+    "L.FrankBaum",
+    "J.M.Barrie"
+  ],
+  "gate": "Eachlength:>=90% acceptance for pristine/noisy English separately,<=10% acceptance pernegative type. Otherwise notqualifiedasgenericcoherencejudge.",
+  "negative_types": [
+    "shuffle_letters",
+    "shuffle_words",
+    "quad_markov"
+  ],
+  "positive_types": [
+    "english",
+    "english_noisy3"
+  ],
+  "candidate_policy": "Rank all fixedV4outputs only afterqualification; addspacesonly; manualgrammar/lore audit required. No lorewordprior.",
+  "source_hashes": {
+    "secret_garden": "40709a2894f0816a97dd8a67d3082cfc4dac31e45b45ee55a908d62e1dd18c23",
+    "my_man_jeeves": "e8fff3273914c243fb8c0d35513e4397df4f64bf438e92c173d3ae13b000adb7",
+    "wizard_oz": "969bffab7740d4d8a0bac332d78bd0152ad4a40a2efc52f06c74a9bb6120be75",
+    "peter_pan": "6b08714281fe38266a756741e4c62915cda7536c2f78cca501f7fd53f3f445ae"
+  },
+  "implementation_hashes": {
+    "scripts/independent_word_validator.py": "7f5b318fd6fca3fa1983a62c88a09599cbc758e22a58decf934ab814709c0da8",
+    "scripts/word_validator_experiment.py": "6c5312a44b8f0c822178ea0d35ce5082cd37b2ae529119374767827b003957cb",
+    "scripts/copied_homophonic_v3.py": "f37ed2623143e583ec81bf9bb747f4ae972e5be07c2e95a27ece8e1ab496338f",
+    "scripts/homophonic_benchmark.py": "759b096e9b5e9b354926fcdf5d5cedab66346fb5114aa1530d520b51a04baea7"
+  },
+  "key_result_sha256": "05459a9d4c65a7dc8330298b005b2c46224839a625f8b84699fc033b8010c1b1",
+  "limits": [
+    "Independentmodel/wordtraintexts, notstatisticalindependence ofgamevalidation.",
+    "Unknownfantasywordsandnames penalized; calibrationtests poweronunfamiliarfantasyfiction and3%errors.",
+    "Perlengththresholds are notpvalues or proof ofgrammar; shortgamebooks may fall between/outsidecalibrationlengths."
+  ]
+}

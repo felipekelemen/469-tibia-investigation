@@ -232,3 +232,14 @@ copiados passou, e a estatística dos livros superou os três nulos locais.
 Ainda não há prosa legível validada. Priorizar separação do sinal por módulos,
 critério de coerência independente dos tetragramas e dados externos inéditos;
 não transformar pontuação alta no mesmo reservado exposto em tradução.
+
+Atualização após a [sexta rodada](round6.md): o inventário modular não cobre
+o reservado com motivos de oito ou mais códigos; esse controle não identifica
+a origem do sinal. O critério lexical independente falhou na qualificação
+externa e as 70 leituras fixas não renderam candidata longa. A auditoria dos
+zeros revelou que a pipeline depende da tokenização importada. Priorizar agora
+qualificação de raw→tokens em positivos com regras de zeros conhecidas,
+fronteiras avaliadas separadamente de plaintext e nulos com o mesmo orçamento.
+Depois, testar famílias contextuais pequenas congeladas, sem escolher parses
+por palavras isoladas. Continuar a coleta de pares externos autenticados e
+qualificar uma nova medida de coerência antes de selecionar novas chaves.

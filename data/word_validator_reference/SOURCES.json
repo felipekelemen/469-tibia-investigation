@@ -1,0 +1,50 @@
+[
+  {
+    "name": "secret_garden",
+    "book_id": 113,
+    "title": "The Secret Garden",
+    "author": "Frances Hodgson Burnett",
+    "role": "wordmodeltrain/development",
+    "url": "https://www.gutenberg.org/cache/epub/113/pg113.txt",
+    "sha256": "40709a2894f0816a97dd8a67d3082cfc4dac31e45b45ee55a908d62e1dd18c23",
+    "bytes": 475315,
+    "retrieved_at_utc": "2026-11-12T01:01:15.883142+00:00",
+    "license": "Full Gutenberg source/header/license retained byte for byte."
+  },
+  {
+    "name": "my_man_jeeves",
+    "book_id": 8164,
+    "title": "My Man Jeeves",
+    "author": "P.G.Wodehouse",
+    "role": "wordmodeltrain/development",
+    "url": "https://www.gutenberg.org/cache/epub/8164/pg8164.txt",
+    "sha256": "e8fff3273914c243fb8c0d35513e4397df4f64bf438e92c173d3ae13b000adb7",
+    "bytes": 310444,
+    "retrieved_at_utc": "2026-11-12T01:01:15.923972+00:00",
+    "license": "Full Gutenberg source/header/license retained byte for byte."
+  },
+  {
+    "name": "wizard_oz",
+    "book_id": 55,
+    "title": "The Wonderful Wizard of Oz",
+    "author": "L.FrankBaum",
+    "role": "wordvalidator qualification only",
+    "url": "https://www.gutenberg.org/cache/epub/55/pg55.txt",
+    "sha256": "969bffab7740d4d8a0bac332d78bd0152ad4a40a2efc52f06c74a9bb6120be75",
+    "bytes": 237232,
+    "retrieved_at_utc": "2026-11-12T01:01:15.883010+00:00",
+    "license": "Full Gutenberg source/header/license retained byte for byte."
+  },
+  {
+    "name": "peter_pan",
+    "book_id": 16,
+    "title": "Peter Pan",
+    "author": "J.M.Barrie",
+    "role": "wordvalidator qualification only",
+    "url": "https://www.gutenberg.org/cache/epub/16/pg16.txt",
+    "sha256": "6b08714281fe38266a756741e4c62915cda7536c2f78cca501f7fd53f3f445ae",
+    "bytes": 288769,
+    "retrieved_at_utc": "2026-11-12T01:01:15.923689+00:00",
+    "license": "Full Gutenberg source/header/license retained byte for byte."
+  }
+]

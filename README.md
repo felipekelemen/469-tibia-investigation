@@ -1,13 +1,19 @@
 # 469-tibia-investigation — investigação reproduzível
 
-**Estado: cinco rodadas executadas; nenhuma tradução verificável encontrada.**
+**Estado: seis rodadas executadas; nenhuma tradução verificável encontrada.**
 Não afirmamos que o corpus é indecifrável nem que qualquer solução comunitária
 foi confirmada. O alvo é um algoritmo integral que generalize para textos inéditos.
 
 Destino público: https://github.com/felipekelemen/469-tibia-investigation
 
-**Publicado:** corpus normalizado, código, testes e resultados das duas rodadas
+**Publicado:** corpus normalizado, código, testes e resultados das seis rodadas
 disponíveis neste repositório. O acesso de escrita foi confirmado após nova reconexão.
+
+A [sexta rodada](docs/round6.md) revisou literalmente as 70 saídas V4, executou
+600 avaliações externas de um critério lexical e auditou a segmentação dos
+dígitos. Nenhuma candidata longa foi identificada; o avaliador não qualificou
+e o controle modular ficou bloqueado no reservado. A reconstrução intermediária
+ainda depende de códigos/zeros importados, sem regra raw→tokens validada.
 
 A [quinta rodada](docs/round5.md) melhorou a busca em prosa cifrada copiada,
 qualificou uma nova versão em90testes e executou297controles nos livros.
@@ -47,6 +53,7 @@ make round2
 make round3
 make round4
 make round5
+make round6
 make test
 ```
 
