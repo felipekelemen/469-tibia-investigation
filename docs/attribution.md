@@ -13,6 +13,8 @@
 
 - Décima segunda rodada: Bacca Chewie, artigo *The Hellgate’s Averages* (TibiaSecrets,20/5/2024), motivou a comparação de histogramas, recalculada independentemente. A sequência de *Your True Colour* é material oficial de Tibia/CipSoft, notícia1975, questão10; conservamos apenas21dígitos e metadados, sem republicar o artigo ou tratar alternativas como tradução. A wiki forneceu transcrição numérica de ID22 e localização atribuída; acesso e limites em `data/source_review_round12.json`.
 
+- Décima quarta rodada: tópico de amadheus em forum.tibia.org.pl, citando Avarion, preservado pelo Internet Archive; comentários públicos do TORG de 2009/2010/2016; tutorial de Commodoro; histórico de arquivo da Tibia Wiki BR e imagem hospedada por s2ward. Só metadados e excertos numéricos são publicados. Páginas e imagens completas permanecem locais; seus conteúdos não recebem a licença do nosso código. Datas e limites em `docs/round14.md`.
+
 Os commits exatos e hashes dos três repositórios estão em sources/manifest.json.
 Capturas completas de páginas de terceiros são mantidas apenas localmente;
 metadados suficientes para localizar e auditar as referências são versionados.

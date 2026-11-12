@@ -1,0 +1,261 @@
+{
+  "rename_anchor_date": "2010-08-23",
+  "anchor_status": "Date from previously audited community patch/creature sources; no new primary announcement retrieved this round.",
+  "archived_old_table": [
+    {
+      "capture_id": "archive2008_page3",
+      "original_url": "http://forum.tibia.org.pl:80/showthread.php?t=265100&page=3",
+      "replay_url": "https://web.archive.org/web/20081226112707id_/http://forum.tibia.org.pl:80/showthread.php?t=265100&page=3",
+      "archive_timestamp": "20081226112707",
+      "post_publication_date_reported": "2008-03-10",
+      "post_author_display_name": "amadheus",
+      "same_quoted_first_post": true,
+      "payload_sha1_base32_computed": "SOR37B7B6Q7TGVKC2BDSBTLF2FV66RFO",
+      "cdx_payload_digest": "SOR37B7B6Q7TGVKC2BDSBTLF2FV66RFO",
+      "payload_matches_index": true,
+      "matrix": [
+        [
+          3,
+          1,
+          6,
+          1
+        ],
+        [
+          1,
+          2,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          3,
+          1
+        ],
+        [
+          4,
+          6,
+          1,
+          1
+        ]
+      ],
+      "evidence_kind": "Archived community quotation of a matrix, not a game capture.",
+      "game_observation_date": null
+    },
+    {
+      "capture_id": "archive2008_page47",
+      "original_url": "http://forum.tibia.org.pl:80/showthread.php?t=265100&page=47",
+      "replay_url": "https://web.archive.org/web/20081226112712id_/http://forum.tibia.org.pl:80/showthread.php?t=265100&page=47",
+      "archive_timestamp": "20081226112712",
+      "post_publication_date_reported": "2008-03-10",
+      "post_author_display_name": "amadheus",
+      "same_quoted_first_post": true,
+      "payload_sha1_base32_computed": "OYKGXMYUVANVHYT3T72J7T2A6C64MUE2",
+      "cdx_payload_digest": "OYKGXMYUVANVHYT3T72J7T2A6C64MUE2",
+      "payload_matches_index": true,
+      "matrix": [
+        [
+          3,
+          1,
+          6,
+          1
+        ],
+        [
+          1,
+          2,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          3,
+          1
+        ],
+        [
+          4,
+          6,
+          1,
+          1
+        ]
+      ],
+      "evidence_kind": "Archived community quotation of a matrix, not a game capture.",
+      "game_observation_date": null
+    }
+  ],
+  "appearance_change_report": {
+    "publication_timestamp_reported": "2009-08-09T00:11:06+0200",
+    "author_display_name": "Tibiarz",
+    "game_capture_timestamp": null,
+    "historical_body_archive_timestamp": null,
+    "date_semantics": "Current platform attribution of publication; not an authenticated historical body or game-capture date.",
+    "source_id": "torg2009_page46",
+    "scope": "Reports changed appearance/occlusion after an unspecified update; no numeric full matrix or game-capture date."
+  },
+  "reported_partial_matrix": {
+    "publication_timestamp_reported": "2010-04-10T15:24:23+0200",
+    "author_display_name": "shoq",
+    "game_capture_timestamp": null,
+    "historical_body_archive_timestamp": null,
+    "date_semantics": "Current platform attribution of publication; not an authenticated historical body or game-capture date.",
+    "source_id": "torg2010_page58",
+    "post_id": "4148484",
+    "matrix": [
+      [
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        3,
+        6
+      ],
+      [
+        1,
+        1,
+        4
+      ]
+    ],
+    "pre_rename_archived_body_verified": false
+  },
+  "reported_uncertain_full_matrix": {
+    "publication_timestamp_reported": "2010-04-11T11:46:33+0200",
+    "author_display_name": "shoq",
+    "game_capture_timestamp": null,
+    "historical_body_archive_timestamp": null,
+    "date_semantics": "Current platform attribution of publication; not an authenticated historical body or game-capture date.",
+    "source_id": "torg2010_page59",
+    "matrix_template": [
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        3,
+        6,
+        1
+      ],
+      [
+        1,
+        1,
+        4,
+        1
+      ],
+      [
+        4,
+        null,
+        1,
+        1
+      ]
+    ],
+    "source_variable": "x at row4column2",
+    "unknown_cell_1based": [
+      4,
+      2
+    ],
+    "unknown_lower_bound_reported": 5,
+    "full_counts_authenticated": false
+  },
+  "reported_count_correction": {
+    "publication_timestamp_reported": "2010-04-11T10:00:09+0200",
+    "author_display_name": "shoq",
+    "game_capture_timestamp": null,
+    "historical_body_archive_timestamp": null,
+    "date_semantics": "Current platform attribution of publication; not an authenticated historical body or game-capture date.",
+    "source_id": "torg2010_page59",
+    "scope": "Corrects visible5to6, while leaving the lower pile uncertain; no definitive lower6."
+  },
+  "reported_algebra_claim": {
+    "publication_timestamp_reported": "2010-04-11T11:07:54+0200",
+    "author_display_name": "Użytkownik TORG.PL",
+    "game_capture_timestamp": null,
+    "historical_body_archive_timestamp": null,
+    "date_semantics": "Current platform attribution of publication; not an authenticated historical body or game-capture date.",
+    "source_id": "torg2010_page59",
+    "claim": "Determinant stays-18when the two questioned entries change."
+  },
+  "later_2016_variant": {
+    "publication_timestamp_reported": "2016-08-14T10:30:14+0200",
+    "author_display_name": "Avarion",
+    "game_capture_timestamp": null,
+    "historical_body_archive_timestamp": null,
+    "date_semantics": "Current platform attribution of publication; not an authenticated historical body or game-capture date.",
+    "source_id": "torg2016",
+    "matrix": [
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        3,
+        6,
+        1
+      ],
+      [
+        1,
+        1,
+        4,
+        1
+      ],
+      [
+        4,
+        5,
+        1,
+        1
+      ]
+    ],
+    "attachments_ids": [
+      353136,
+      353137
+    ],
+    "attachment_image_bodies_obtained": false
+  },
+  "tutorial2010": {
+    "source_id": "tutorial2010",
+    "publication_date_reported": "2010-04-30",
+    "last_edit_date_reported": "2010-08-29",
+    "linked_map_http_status": 404,
+    "usable_pre_rename_matrix_capture": false
+  },
+  "images": [
+    {
+      "capture_id": "wiki_matrix_image",
+      "source_url": "https://www.tibiawiki.com.br/images/2/28/Hellgate_Misterio02.jpg",
+      "file_history_upload_timestamp_reported": "2014-01-01T01:03:39Z",
+      "file_history_sha1": "9be31ed9e07478ee2ac20aee583d54530b6a2c05",
+      "download_sha1_matches_history": true,
+      "download_sha256": "981fc235f11ca89143a466569f07e35549874250ffcf7920792550b4091bf444",
+      "size": 85388,
+      "width": 386,
+      "height": 282,
+      "image_history_entries_returned": 1,
+      "http_last_modified": "Thu, 12 Mar 2015 18:13:51 GMT",
+      "game_capture_timestamp": null,
+      "visually_inspected": true,
+      "full16cell_counts_authenticated": false
+    },
+    {
+      "capture_id": "s2ward_matrix_image",
+      "source_url": "https://user-images.githubusercontent.com/25346191/160277253-fe60dbf6-00f9-48fc-bcea-1f3bf004c9d0.png",
+      "http_last_modified": "Sun, 27 Mar 2022 10:28:52 GMT",
+      "download_sha256": "c2377916cb5902079ca40dba1e7934e3c05e9f59af9d126e97fcf8235cb62d9d",
+      "game_capture_timestamp": null,
+      "visually_inspected": true,
+      "full16cell_counts_authenticated": false
+    }
+  ],
+  "archive2008_first_response": {
+    "source_id": "archive2008_thread",
+    "http_status": 200,
+    "classification": "Archived login/permissions notice; no usable matrix content."
+  },
+  "archive_search_complete": false,
+  "source_confidence": "Archived2008table is authenticated as source content. Current2009/2010publication metadata is circumstantial for historical state. No full dated client-frame matrix obtained."
+}

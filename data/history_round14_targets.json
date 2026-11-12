@@ -1,0 +1,110 @@
+[
+  {
+    "id": "torg2016",
+    "url": "https://torg.pl/tibia/472386-tibia-quot-niszczymy-quot-mity-legendy-8.html"
+  },
+  {
+    "id": "tutorial2010",
+    "url": "https://forums.tibiabr.com/threads/377273-Tutorial-Hell-Gate-Biblioteca"
+  },
+  {
+    "id": "nightmare_beta62",
+    "url": "https://nightmareknights.com/historyoftibia/beta62hellgate.html"
+  },
+  {
+    "id": "wiki469",
+    "url": "https://www.tibiawiki.com.br/wiki/469"
+  },
+  {
+    "id": "wiki469images",
+    "url": "https://www.tibiawiki.com.br/api.php?action=query&generator=images&titles=469&prop=imageinfo&iiprop=url%7Ctimestamp%7Csha1%7Csize&gimlimit=100&format=json"
+  },
+  {
+    "id": "forum2007",
+    "url": "https://forums.tibiabr.com/printthread.php?t=203250&pp=40"
+  },
+  {
+    "id": "torg_old_attachment",
+    "url": "https://torg.pl/attachment.php?attachmentid=353136"
+  },
+  {
+    "id": "torg_new_attachment",
+    "url": "https://torg.pl/attachment.php?attachmentid=353137"
+  },
+  {
+    "id": "wiki_matrix_image",
+    "url": "https://www.tibiawiki.com.br/images/2/28/Hellgate_Misterio02.jpg"
+  },
+  {
+    "id": "wiki_matrix_history",
+    "url": "https://www.tibiawiki.com.br/api.php?action=query&titles=Arquivo%3AHellgate+Misterio02.jpg&prop=imageinfo&iiprop=timestamp%7Curl%7Csize%7Csha1%7Ccomment&iilimit=50&format=json"
+  },
+  {
+    "id": "wiki_hellgate_images",
+    "url": "https://www.tibiawiki.com.br/api.php?action=query&generator=images&titles=Hellgate&prop=imageinfo&iiprop=url%7Ctimestamp%7Csha1%7Csize&gimlimit=100&format=json"
+  },
+  {
+    "id": "tutorial2010_map",
+    "url": "https://img38.imageshack.us/img38/9349/19958070.jpg"
+  },
+  {
+    "id": "s2ward_matrix_image",
+    "url": "https://user-images.githubusercontent.com/25346191/160277253-fe60dbf6-00f9-48fc-bcea-1f3bf004c9d0.png"
+  },
+  {
+    "id": "torg2009_page46",
+    "url": "https://torg.pl/tibia/265100-hellgates-library-469-spoilery-46.html"
+  },
+  {
+    "id": "torg2010_page58",
+    "url": "https://torg.pl/tibia/265100-hellgates-library-469-spoilery-58.html"
+  },
+  {
+    "id": "torg2010_page59",
+    "url": "https://torg.pl/tibia/265100-hellgates-library-469-spoilery-59.html"
+  },
+  {
+    "id": "wiki_hellgate_allimages",
+    "url": "https://www.tibiawiki.com.br/api.php?action=query&list=allimages&aiprefix=Hellgate&ailimit=100&aiprop=url%7Ctimestamp%7Csha1%7Csize&format=json"
+  },
+  {
+    "id": "cdx_modern_before_rename",
+    "url": "https://web.archive.org/cdx/search/cdx?url=torg.pl%2Ftibia%2F265100%2A&output=json&filter=statuscode%3A200&to=20100822&collapse=urlkey&limit=20"
+  },
+  {
+    "id": "cdx_legacy_before_rename",
+    "url": "https://web.archive.org/cdx/search/cdx?url=torg.pl%2Fshowthread.php%3Ft%3D265100%2A&output=json&filter=statuscode%3A200&to=20100822&collapse=urlkey&limit=20"
+  },
+  {
+    "id": "cdx_old_domain_before_rename",
+    "url": "https://web.archive.org/cdx/search/cdx?url=forum.tibia.org.pl%2Fshowthread.php%3Ft%3D265100%2A&output=json&filter=statuscode%3A200&to=20100822&collapse=urlkey&limit=20"
+  },
+  {
+    "id": "archive2008_thread",
+    "url": "https://web.archive.org/web/20080314174827id_/http://forum.tibia.org.pl:80/showthread.php?t=265100"
+  },
+  {
+    "id": "cdx_old_domain_any_order",
+    "url": "https://web.archive.org/cdx/search/cdx?url=forum.tibia.org.pl%2F%2A&output=json&filter=statuscode%3A200&filter=original%3A.%2A265100.%2A&to=20100822&collapse=urlkey&limit=50"
+  },
+  {
+    "id": "cdx_torg_any_order",
+    "url": "https://web.archive.org/cdx/search/cdx?url=torg.pl%2F%2A&output=json&filter=statuscode%3A200&filter=original%3A.%2A265100.%2A&to=20100822&collapse=urlkey&limit=50"
+  },
+  {
+    "id": "archive2008_page3",
+    "url": "https://web.archive.org/web/20081226112707id_/http://forum.tibia.org.pl:80/showthread.php?t=265100&page=3"
+  },
+  {
+    "id": "archive2008_page47",
+    "url": "https://web.archive.org/web/20081226112712id_/http://forum.tibia.org.pl:80/showthread.php?t=265100&page=47"
+  },
+  {
+    "id": "cdx_all_tibia_domain",
+    "url": "https://web.archive.org/cdx/search/cdx?url=tibia.org.pl&matchType=domain&output=json&filter=statuscode%3A200&filter=original%3A.%2A265100.%2A&to=20100822&collapse=urlkey&limit=100"
+  },
+  {
+    "id": "cdx_all_torg_domain",
+    "url": "https://web.archive.org/cdx/search/cdx?url=torg.pl&matchType=domain&output=json&filter=statuscode%3A200&filter=original%3A.%2A265100.%2A&to=20100822&collapse=urlkey&limit=100"
+  }
+]

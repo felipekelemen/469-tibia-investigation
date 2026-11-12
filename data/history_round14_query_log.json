@@ -1,0 +1,20 @@
+{
+  "search_run_utc_date": "2026-11-12",
+  "queries": [
+    "\"Hellgate\" \"matrix\" \"2009\"",
+    "\"Hellgate\" \"skulls\" \"2010\"",
+    "\"Hellgate\" \"caveiras\" \"2008\"",
+    "Tibia Hellgate skull matrix old 3 1 6 1 screenshot",
+    "\"Hellgate\" \"Misterio02\"",
+    "\"Hellgate\" \"macierz\" \"2010\"",
+    "\"Hellgate\" \"macierz\" \"2009\"",
+    "\"Hellgate\" \"skulls\" \"2007\" -London",
+    "site.tibia.com \"2010\" \"Bonelord\" \"August\"",
+    "site.tibia.com \"1437\" \"Beholder\"",
+    "site.tibia.com \"1557\" \"Hellgate\""
+  ],
+  "web_open_attempts": 7,
+  "web_find_attempts": 3,
+  "direct_capture_targets": 27,
+  "scope": "Discovery queries and current metadata are not independent historical observations. Exact captured URLs/status/hash in history_round14_http_manifest.json; archived content separately matched to CDX."
+}

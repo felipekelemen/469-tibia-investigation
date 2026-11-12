@@ -1,13 +1,19 @@
 # 469-tibia-investigation — investigação reproduzível
 
-**Estado: treze rodadas executadas; nenhuma tradução verificável encontrada.**
+**Estado: quatorze rodadas executadas; nenhuma tradução verificável encontrada.**
 Não afirmamos que o corpus é indecifrável nem que qualquer solução comunitária
 foi confirmada. O alvo é um algoritmo integral que generalize para textos inéditos.
 
 Destino público: https://github.com/felipekelemen/469-tibia-investigation
 
-**Publicado:** corpus normalizado, código, testes e resultados das treze rodadas
+**Publicado:** corpus normalizado, código, testes e resultados das quatorze rodadas
 disponíveis neste repositório. O acesso de escrita foi confirmado após nova reconexão.
+
+A [décima quarta rodada](docs/round14.md) recuperou a tabela antiga em páginas
+arquivadas de 2008, com payloads conferidos no CDX. Relatos atribuídos a abril
+de 2010 já descrevem o bloco visível posterior, enfraquecendo a coincidência
+com a renomeação de agosto. A data real e a contagem inferior permanecem
+incertas; o determinante −18 não resolve as posições questionadas.
 
 A [décima terceira rodada](docs/round13.md) testou a relação ID22/Kharos por
 transposição colunar exata com qualquer ordem de 2–32 colunas. Nenhuma chave
@@ -104,6 +110,7 @@ make round10
 make round11
 make round12
 make round13
+make round14
 make test
 ```
 

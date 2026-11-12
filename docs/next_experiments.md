@@ -339,3 +339,19 @@ Na frente matricial, priorizar novamente captura histórica verificável da sala
 com quantidades ocultas e data/versão. Semântica continua a depender de par ou
 regra de origem independente; não houve avanço em significado externamente
 confirmado nem fechamento de um dos quatro entregáveis principais pendentes.
+
+Atualização após a [décima quarta rodada](round14.md): a tabela antiga está
+confirmada como texto arquivado em 26/12/2008, com dois payloads CDX que repetem
+o mesmo post. Isso não autentica o estado do mapa naquela data. A configuração
+visível posterior aparece em relatos atribuídos a 10–11/4/2010, antes do rename,
+mas esses comentários não ganharam arquivo anterior ao evento nesta coleta.
+
+A coincidência temporal ficou enfraquecida, não demonstrada. Preservar a pilha
+inferior como desconhecida; os relatos explicitam dúvida, e detM(x,y)=−18
+não depende das duas posições questionadas. Não completar células por inglês,
+pelo determinante ou por uma associação com o nome da criatura.
+
+P06 ganhou atestação documental antiga e restrições úteis, mas ainda precisa
+de uma observação datada das quantidades reais. P01/P05 continuam buscando
+equivalências externas explícitas, sem promover comentários ou nomes próprios
+a plaintext. Nenhuma das quatro entregas principais foi encerrada.

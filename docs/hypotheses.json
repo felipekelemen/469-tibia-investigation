@@ -425,5 +425,33 @@
     "status": "false_uniqueness_guard_verified",
     "evidence": "30controles de colunas repetidas admitem1.828.915.200chaves cada, e256retidas predizem256saídas distintas no segundo texto. Contagem de chaves preserva fatoriais de identidades. Não há interpretação inglesa.",
     "artifact": "results/columnar_pair_experiment.json"
+  },
+  {
+    "id": "H62",
+    "hypothesis": "A tabela antiga tem atestação escrita preservada anterior à renomeação de2010",
+    "status": "demonstrated_for_archived_community_text_not_live_game_state",
+    "evidence": "Dois payloads arquivados26/12/2008 reproduzem3161/1211/1131/4611 e batem com os digests CDX. Ambos repetem o mesmo post, que cita fonte anterior; não são duas observações do mapa.",
+    "artifact": "data/history_round14_sources.json"
+  },
+  {
+    "id": "H63",
+    "hypothesis": "A mudança entre as matrizes coincide com Beholder→Bonelord em23/8/2010",
+    "status": "weakened_by_pre_rename_reports_exact_transition_still_unknown",
+    "evidence": "Texto atual datado10/4/2010jádescreve111/136/114,135dias antes do rename; essa transcrição é incompatível com a matriz antiga. Não houve arquivo pré-rename desse comentário nem confirmação da contagem inferior; relato de aparência também tem data2009.",
+    "artifact": "results/history_round14_analysis.json"
+  },
+  {
+    "id": "H64",
+    "hypothesis": "Determinante−18autentica as duas contagens duvidosas da matriz posterior",
+    "status": "rejected_by_exact_symbolic_identity",
+    "evidence": "A expansão simbólica de M=[[1,1,1,1],[1,3,x,1],[1,1,4,1],[4,y,1,1]] contém apenas constante−18.121checagens numéricas independentes concordam; a soma é22+x+y, portanto o determinante não fixa os valores.",
+    "artifact": "results/history_round14_analysis.json"
+  },
+  {
+    "id": "H65",
+    "hypothesis": "Upload ou Last-Modified das imagens fornece a data da sessão de jogo e todas as16contagens",
+    "status": "not_established_date_roles_and_partial_visibility_preserved",
+    "evidence": "JPEG coincide comSHA1do histórico de upload2014; Last-Modified2015. Outro PNG tem cabeçalho2022. Duas imagens foram inspecionadas, sem data de captura ou todas as quantidades autenticadas; nenhum desses tempos virou data do evento.",
+    "artifact": "data/history_round14_sources.json"
   }
 ]

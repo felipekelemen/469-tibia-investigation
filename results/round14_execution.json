@@ -1,0 +1,42 @@
+{
+  "round": 14,
+  "completed_at_utc": "2026-11-12T19:58:25.707084+00:00",
+  "http_capture_targets": 27,
+  "http_statuses": {
+    "200": 21,
+    "404": 3,
+    "503": 3
+  },
+  "archived_numeric_table_payloads_cdx_matched": 2,
+  "independent_archived_post_contents": 1,
+  "archived_login_notice_excluded": 1,
+  "reported_visible_block_date": "2010-04-10",
+  "reported_days_before_rename": 135,
+  "pre_rename_archived_body_for_2010_reply_verified": false,
+  "images_inspected": 2,
+  "full16cell_dated_game_counts_authenticated": false,
+  "exact_transition_date_identified": false,
+  "rename_coincidence_demonstrated": false,
+  "partial_compatibility_counts": {
+    "old": 0,
+    "new": 1,
+    "reported2016": 1
+  },
+  "symbolic_determinant": -18,
+  "independent_numeric_determinant_checks": 121,
+  "new_english_target_outputs": 0,
+  "new_long_attested_plaintext_pairs": 0,
+  "verified_translations": 0,
+  "automated_tests": {
+    "count": 139,
+    "passed": true,
+    "log": "results/tests_round14.log"
+  },
+  "offline_replay": {
+    "passed": true,
+    "original_local_capture_reextraction_passed": true,
+    "archived_payloads_rehashed_against_CDX": 2,
+    "log": "results/replay_round14.log"
+  },
+  "prior_round13_verifier_passed": true
+}

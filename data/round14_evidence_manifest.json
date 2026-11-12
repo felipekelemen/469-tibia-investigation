@@ -1,0 +1,26 @@
+{
+  "round": 14,
+  "purpose": "Freeze historical source records and exact deterministic checks. Archived table content, reported dates and unknown actual game-transition/capture dates remain distinct. No blind semantic test.",
+  "sha256": {
+    "data/history_round14_targets.json": "798d58cd80cbb8d89289bc331e7c38b68294af3739928aa00b36f87b89b37d84",
+    "data/history_round14_http_manifest.json": "a8069bc24d201719846159f3740da090cbd862076b9d684e6f8a5988524ee672",
+    "data/history_round14_sources.json": "b6f74ac04b38204860273d26b4c6b27497464c44ad49a480f636bde71910ab02",
+    "data/history_round14_reference/wiki_matrix_history.json": "f9f6a587479aaa5998807c9a403ceeb7099075a05d340452c76fbd38d76763c7",
+    "data/history_round14_reference/cdx_old_domain_any_order.json": "fbeef02198ad6da697086e82ddf72aa6264637a71344fca7e849672f424f959c",
+    "data/history_round14_reference/archive2008_matrix_numeric_excerpt.txt": "32224c41142ecec4ebfa21beeee9484ca8b8fb3fc402e040d6523827a8d405da",
+    "data/plan_progress_round14.json": "f7d0585f2b4f4409eb0a5b7cb979dbf759f8f7493df0648128aca5468a1faf2b",
+    "docs/round14.md": "9de34cbde895ec828dff4b610a918276959a3e9c4f6d7571d449a774d69deee6",
+    "results/history_round14_analysis.json": "65755587f9ab26bbcd0c7cc3354addd1db02b991939056ace76ebe963544d204",
+    "results/round14_execution.json": "ebd612d2fd9abfbb37c59423f38ca5455caefc3d87b495c7e58ede3f1a77a9cc",
+    "results/tests_round14.log": "19705a7dda2de7b903c933ca5423300c50d8e94ac34142f7168f30721f2afb60",
+    "scripts/history_source_fetch.py": "639d7b61ff654999785af723df795cb480f845a25ae3c119406f9b9eb0ff3d05",
+    "scripts/history_source_extract.py": "b83ae42aa9c55f906bf3deffefa9f9990f3ab4466e10de3a7aff7e4a998987b8",
+    "scripts/history_round14_build.py": "45a7d628e61fe703f8452533f7b8da7f403c67f65007c1bee267d209cdba0626",
+    "scripts/historical_matrix_checks.py": "4d133ed4ed25d10beedaef8a1c9bfc42f6632c4cd71cf533de2060da8444b763",
+    "scripts/run_round14.py": "b97092993b90184474e92e516ef26df745bfe510dd185fb55d16a37dc4b0d1dd",
+    "scripts/matrix_experiments.py": "476d3365708aa4409d4253d3983449a6a166517b5960c7e1b7b66de4b092b37f",
+    "tests/test_history_round14.py": "b55a6ad4dbf85c6094b67f721a6e49128a751d56f5c6bab70e3e02632143d1cf",
+    "results/replay_round14.log": "cd968942a4e2c81ca8a36e48451223091778178abeedbd7d54c078e3d224e2f1",
+    "data/history_round14_query_log.json": "11d35a3296a970ed7aa439d5604fc465f21a063950282e879a6f1f67c7c351ca"
+  }
+}

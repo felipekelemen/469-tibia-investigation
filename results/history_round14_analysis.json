@@ -1,0 +1,779 @@
+{
+  "provided_matrices": {
+    "old": [
+      [
+        3,
+        1,
+        6,
+        1
+      ],
+      [
+        1,
+        2,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        3,
+        1
+      ],
+      [
+        4,
+        6,
+        1,
+        1
+      ]
+    ],
+    "new": [
+      [
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        3,
+        6,
+        1
+      ],
+      [
+        1,
+        1,
+        4,
+        1
+      ],
+      [
+        4,
+        6,
+        1,
+        1
+      ]
+    ]
+  },
+  "reported_partial_matrix": [
+    [
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      3,
+      6
+    ],
+    [
+      1,
+      1,
+      4
+    ]
+  ],
+  "compatibility": {
+    "old": [],
+    "new": [
+      {
+        "reflected": false,
+        "quarter_turns": 0,
+        "row_offset": 0,
+        "column_offset": 0
+      }
+    ],
+    "reported2016": [
+      {
+        "reflected": false,
+        "quarter_turns": 0,
+        "row_offset": 0,
+        "column_offset": 0
+      }
+    ]
+  },
+  "compatibility_scope": "Exact match under8D4views and4contiguous3x3placements in each4x4candidate. This checks typed source claims, not automatic skull recognition.",
+  "symbolic_family": [
+    [
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      1,
+      3,
+      "x",
+      1
+    ],
+    [
+      1,
+      1,
+      4,
+      1
+    ],
+    [
+      4,
+      "y",
+      1,
+      1
+    ]
+  ],
+  "variable_positions_1based": {
+    "x": [
+      2,
+      3
+    ],
+    "y": [
+      4,
+      2
+    ]
+  },
+  "symbolic_determinant_coefficients": [
+    {
+      "x_power": 0,
+      "y_power": 0,
+      "coefficient": -18
+    }
+  ],
+  "numeric_independent_crosschecks": [
+    {
+      "x": 0,
+      "y": 0,
+      "determinant": -18
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "determinant": -18
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "determinant": -18
+    },
+    {
+      "x": 0,
+      "y": 3,
+      "determinant": -18
+    },
+    {
+      "x": 0,
+      "y": 4,
+      "determinant": -18
+    },
+    {
+      "x": 0,
+      "y": 5,
+      "determinant": -18
+    },
+    {
+      "x": 0,
+      "y": 6,
+      "determinant": -18
+    },
+    {
+      "x": 0,
+      "y": 7,
+      "determinant": -18
+    },
+    {
+      "x": 0,
+      "y": 8,
+      "determinant": -18
+    },
+    {
+      "x": 0,
+      "y": 9,
+      "determinant": -18
+    },
+    {
+      "x": 0,
+      "y": 10,
+      "determinant": -18
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "determinant": -18
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "determinant": -18
+    },
+    {
+      "x": 1,
+      "y": 2,
+      "determinant": -18
+    },
+    {
+      "x": 1,
+      "y": 3,
+      "determinant": -18
+    },
+    {
+      "x": 1,
+      "y": 4,
+      "determinant": -18
+    },
+    {
+      "x": 1,
+      "y": 5,
+      "determinant": -18
+    },
+    {
+      "x": 1,
+      "y": 6,
+      "determinant": -18
+    },
+    {
+      "x": 1,
+      "y": 7,
+      "determinant": -18
+    },
+    {
+      "x": 1,
+      "y": 8,
+      "determinant": -18
+    },
+    {
+      "x": 1,
+      "y": 9,
+      "determinant": -18
+    },
+    {
+      "x": 1,
+      "y": 10,
+      "determinant": -18
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "determinant": -18
+    },
+    {
+      "x": 2,
+      "y": 1,
+      "determinant": -18
+    },
+    {
+      "x": 2,
+      "y": 2,
+      "determinant": -18
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "determinant": -18
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "determinant": -18
+    },
+    {
+      "x": 2,
+      "y": 5,
+      "determinant": -18
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "determinant": -18
+    },
+    {
+      "x": 2,
+      "y": 7,
+      "determinant": -18
+    },
+    {
+      "x": 2,
+      "y": 8,
+      "determinant": -18
+    },
+    {
+      "x": 2,
+      "y": 9,
+      "determinant": -18
+    },
+    {
+      "x": 2,
+      "y": 10,
+      "determinant": -18
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "determinant": -18
+    },
+    {
+      "x": 3,
+      "y": 1,
+      "determinant": -18
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "determinant": -18
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "determinant": -18
+    },
+    {
+      "x": 3,
+      "y": 4,
+      "determinant": -18
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "determinant": -18
+    },
+    {
+      "x": 3,
+      "y": 6,
+      "determinant": -18
+    },
+    {
+      "x": 3,
+      "y": 7,
+      "determinant": -18
+    },
+    {
+      "x": 3,
+      "y": 8,
+      "determinant": -18
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "determinant": -18
+    },
+    {
+      "x": 3,
+      "y": 10,
+      "determinant": -18
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "determinant": -18
+    },
+    {
+      "x": 4,
+      "y": 1,
+      "determinant": -18
+    },
+    {
+      "x": 4,
+      "y": 2,
+      "determinant": -18
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "determinant": -18
+    },
+    {
+      "x": 4,
+      "y": 4,
+      "determinant": -18
+    },
+    {
+      "x": 4,
+      "y": 5,
+      "determinant": -18
+    },
+    {
+      "x": 4,
+      "y": 6,
+      "determinant": -18
+    },
+    {
+      "x": 4,
+      "y": 7,
+      "determinant": -18
+    },
+    {
+      "x": 4,
+      "y": 8,
+      "determinant": -18
+    },
+    {
+      "x": 4,
+      "y": 9,
+      "determinant": -18
+    },
+    {
+      "x": 4,
+      "y": 10,
+      "determinant": -18
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "determinant": -18
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "determinant": -18
+    },
+    {
+      "x": 5,
+      "y": 2,
+      "determinant": -18
+    },
+    {
+      "x": 5,
+      "y": 3,
+      "determinant": -18
+    },
+    {
+      "x": 5,
+      "y": 4,
+      "determinant": -18
+    },
+    {
+      "x": 5,
+      "y": 5,
+      "determinant": -18
+    },
+    {
+      "x": 5,
+      "y": 6,
+      "determinant": -18
+    },
+    {
+      "x": 5,
+      "y": 7,
+      "determinant": -18
+    },
+    {
+      "x": 5,
+      "y": 8,
+      "determinant": -18
+    },
+    {
+      "x": 5,
+      "y": 9,
+      "determinant": -18
+    },
+    {
+      "x": 5,
+      "y": 10,
+      "determinant": -18
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "determinant": -18
+    },
+    {
+      "x": 6,
+      "y": 1,
+      "determinant": -18
+    },
+    {
+      "x": 6,
+      "y": 2,
+      "determinant": -18
+    },
+    {
+      "x": 6,
+      "y": 3,
+      "determinant": -18
+    },
+    {
+      "x": 6,
+      "y": 4,
+      "determinant": -18
+    },
+    {
+      "x": 6,
+      "y": 5,
+      "determinant": -18
+    },
+    {
+      "x": 6,
+      "y": 6,
+      "determinant": -18
+    },
+    {
+      "x": 6,
+      "y": 7,
+      "determinant": -18
+    },
+    {
+      "x": 6,
+      "y": 8,
+      "determinant": -18
+    },
+    {
+      "x": 6,
+      "y": 9,
+      "determinant": -18
+    },
+    {
+      "x": 6,
+      "y": 10,
+      "determinant": -18
+    },
+    {
+      "x": 7,
+      "y": 0,
+      "determinant": -18
+    },
+    {
+      "x": 7,
+      "y": 1,
+      "determinant": -18
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "determinant": -18
+    },
+    {
+      "x": 7,
+      "y": 3,
+      "determinant": -18
+    },
+    {
+      "x": 7,
+      "y": 4,
+      "determinant": -18
+    },
+    {
+      "x": 7,
+      "y": 5,
+      "determinant": -18
+    },
+    {
+      "x": 7,
+      "y": 6,
+      "determinant": -18
+    },
+    {
+      "x": 7,
+      "y": 7,
+      "determinant": -18
+    },
+    {
+      "x": 7,
+      "y": 8,
+      "determinant": -18
+    },
+    {
+      "x": 7,
+      "y": 9,
+      "determinant": -18
+    },
+    {
+      "x": 7,
+      "y": 10,
+      "determinant": -18
+    },
+    {
+      "x": 8,
+      "y": 0,
+      "determinant": -18
+    },
+    {
+      "x": 8,
+      "y": 1,
+      "determinant": -18
+    },
+    {
+      "x": 8,
+      "y": 2,
+      "determinant": -18
+    },
+    {
+      "x": 8,
+      "y": 3,
+      "determinant": -18
+    },
+    {
+      "x": 8,
+      "y": 4,
+      "determinant": -18
+    },
+    {
+      "x": 8,
+      "y": 5,
+      "determinant": -18
+    },
+    {
+      "x": 8,
+      "y": 6,
+      "determinant": -18
+    },
+    {
+      "x": 8,
+      "y": 7,
+      "determinant": -18
+    },
+    {
+      "x": 8,
+      "y": 8,
+      "determinant": -18
+    },
+    {
+      "x": 8,
+      "y": 9,
+      "determinant": -18
+    },
+    {
+      "x": 8,
+      "y": 10,
+      "determinant": -18
+    },
+    {
+      "x": 9,
+      "y": 0,
+      "determinant": -18
+    },
+    {
+      "x": 9,
+      "y": 1,
+      "determinant": -18
+    },
+    {
+      "x": 9,
+      "y": 2,
+      "determinant": -18
+    },
+    {
+      "x": 9,
+      "y": 3,
+      "determinant": -18
+    },
+    {
+      "x": 9,
+      "y": 4,
+      "determinant": -18
+    },
+    {
+      "x": 9,
+      "y": 5,
+      "determinant": -18
+    },
+    {
+      "x": 9,
+      "y": 6,
+      "determinant": -18
+    },
+    {
+      "x": 9,
+      "y": 7,
+      "determinant": -18
+    },
+    {
+      "x": 9,
+      "y": 8,
+      "determinant": -18
+    },
+    {
+      "x": 9,
+      "y": 9,
+      "determinant": -18
+    },
+    {
+      "x": 9,
+      "y": 10,
+      "determinant": -18
+    },
+    {
+      "x": 10,
+      "y": 0,
+      "determinant": -18
+    },
+    {
+      "x": 10,
+      "y": 1,
+      "determinant": -18
+    },
+    {
+      "x": 10,
+      "y": 2,
+      "determinant": -18
+    },
+    {
+      "x": 10,
+      "y": 3,
+      "determinant": -18
+    },
+    {
+      "x": 10,
+      "y": 4,
+      "determinant": -18
+    },
+    {
+      "x": 10,
+      "y": 5,
+      "determinant": -18
+    },
+    {
+      "x": 10,
+      "y": 6,
+      "determinant": -18
+    },
+    {
+      "x": 10,
+      "y": 7,
+      "determinant": -18
+    },
+    {
+      "x": 10,
+      "y": 8,
+      "determinant": -18
+    },
+    {
+      "x": 10,
+      "y": 9,
+      "determinant": -18
+    },
+    {
+      "x": 10,
+      "y": 10,
+      "determinant": -18
+    }
+  ],
+  "total_skulls_polynomial": [
+    {
+      "x_power": 0,
+      "y_power": 0,
+      "coefficient": 22
+    },
+    {
+      "x_power": 0,
+      "y_power": 1,
+      "coefficient": 1
+    },
+    {
+      "x_power": 1,
+      "y_power": 0,
+      "coefficient": 1
+    }
+  ],
+  "reported_dates_days_before_rename": {
+    "appearance_change_report": 379,
+    "partial_matrix_report": 135,
+    "uncertain_matrix_report": 134
+  },
+  "reported2016_differences_from_provided_new": [
+    {
+      "row": 4,
+      "column": 2,
+      "provided": 6,
+      "reported2016": 5
+    }
+  ],
+  "exact_transition_date_identified": false,
+  "full_new_counts_authenticated_before_rename": false,
+  "rename_coincidence_demonstrated": false,
+  "interpretation": "Pre-rename reported partial layout is contrary circumstantial evidence to coincident replacement; no exact transition date, full count authentication, or ciphertext-English claim.",
+  "verified_translations": 0,
+  "new_plaintext_pairs": 0
+}
