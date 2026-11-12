@@ -1,0 +1,19 @@
+{
+  "sha256": {
+    "data/round15_protocol.json": "a53d8fb20f07d988319249947dd863b14bceb8e6ec61085b885d92b3581b4291",
+    "data/round15_candidate_catalog.json": "653208cfe164fb1158d5cef465323074ffe1cf1387a7d573ef2602910f1399d1",
+    "scripts/dimension_name_experiments.py": "3a12fdd192e23cb692c82b141994d6542afcff86d9f1b9a6606bc1fbf602aed1",
+    "scripts/matrix_experiments.py": "476d3365708aa4409d4253d3983449a6a166517b5960c7e1b7b66de4b092b37f",
+    "scripts/historical_matrix_checks.py": "4d133ed4ed25d10beedaef8a1c9bfc42f6632c4cd71cf533de2060da8444b763",
+    "scripts/hill29_experiments.py": "9f0dc48baf0fc191fa1f216a30e67fe9c7b9999bf32f99c3eb11dad3fd6fd13f",
+    "data/normalized_books.json": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+    "data/normalized_splits.json": "0a0f9d3b60b4077bf9e3074919d35e754f6f77fd4ca4423b160e14e5a58ac3de",
+    "data/source_validation_inventory.json": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+    "data/external_book_round10.json": "9a5deda3b400350304f0346c89a54855129491bbeacb86bc07776b9e12a5cf25",
+    "data/english_reference/alice.txt": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+    "data/word_validator_reference/wizard_oz.txt": "969bffab7740d4d8a0bac332d78bd0152ad4a40a2efc52f06c74a9bb6120be75",
+    "data/word_validator_reference/peter_pan.txt": "6b08714281fe38266a756741e4c62915cda7536c2f78cca501f7fd53f3f445ae",
+    "data/history_round14_sources.json": "b6f74ac04b38204860273d26b4c6b27497464c44ad49a480f636bde71910ab02"
+  },
+  "stage": "Protocol and implementation frozen before game scoring"
+}

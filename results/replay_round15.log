@@ -1,0 +1,4 @@
+python3 scripts/check_round15.py --full
+Round15: 1860 candidates; 150/150 exact held synthetic recoveries; 4 observed refits; 468 null winner scores; algebra and external literals replayed.
+Null maximality: all 468 full family refits repeated.
+No independently verified game translation. Exposed split and unproved input parsers remain limitations.

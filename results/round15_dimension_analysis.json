@@ -1,0 +1,949 @@
+{
+  "algebra": {
+    "matrices": [
+      {
+        "name": "reported3",
+        "n": 3,
+        "matrix": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            3,
+            6
+          ],
+          [
+            1,
+            1,
+            4
+          ]
+        ],
+        "determinant": 6,
+        "invertible": {
+          "10": false,
+          "25": true,
+          "26": false,
+          "29": true
+        }
+      },
+      {
+        "name": "old",
+        "n": 4,
+        "matrix": [
+          [
+            3,
+            1,
+            6,
+            1
+          ],
+          [
+            1,
+            2,
+            1,
+            1
+          ],
+          [
+            1,
+            1,
+            3,
+            1
+          ],
+          [
+            4,
+            6,
+            1,
+            1
+          ]
+        ],
+        "determinant": -7,
+        "invertible": {
+          "10": true,
+          "25": true,
+          "26": true,
+          "29": true
+        }
+      },
+      {
+        "name": "new",
+        "n": 4,
+        "matrix": [
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            1,
+            3,
+            6,
+            1
+          ],
+          [
+            1,
+            1,
+            4,
+            1
+          ],
+          [
+            4,
+            6,
+            1,
+            1
+          ]
+        ],
+        "determinant": -18,
+        "invertible": {
+          "10": false,
+          "25": true,
+          "26": false,
+          "29": true
+        }
+      }
+    ],
+    "hypothetical_5_borders": [
+      {
+        "base": "old",
+        "fill": 0,
+        "offset": [
+          0,
+          0
+        ],
+        "determinant": 0
+      },
+      {
+        "base": "old",
+        "fill": 0,
+        "offset": [
+          0,
+          1
+        ],
+        "determinant": 0
+      },
+      {
+        "base": "old",
+        "fill": 0,
+        "offset": [
+          1,
+          0
+        ],
+        "determinant": 0
+      },
+      {
+        "base": "old",
+        "fill": 0,
+        "offset": [
+          1,
+          1
+        ],
+        "determinant": 0
+      },
+      {
+        "base": "old",
+        "fill": 1,
+        "offset": [
+          0,
+          0
+        ],
+        "determinant": 0
+      },
+      {
+        "base": "old",
+        "fill": 1,
+        "offset": [
+          0,
+          1
+        ],
+        "determinant": 0
+      },
+      {
+        "base": "old",
+        "fill": 1,
+        "offset": [
+          1,
+          0
+        ],
+        "determinant": 0
+      },
+      {
+        "base": "old",
+        "fill": 1,
+        "offset": [
+          1,
+          1
+        ],
+        "determinant": 0
+      },
+      {
+        "base": "new",
+        "fill": 0,
+        "offset": [
+          0,
+          0
+        ],
+        "determinant": 0
+      },
+      {
+        "base": "new",
+        "fill": 0,
+        "offset": [
+          0,
+          1
+        ],
+        "determinant": 0
+      },
+      {
+        "base": "new",
+        "fill": 0,
+        "offset": [
+          1,
+          0
+        ],
+        "determinant": 0
+      },
+      {
+        "base": "new",
+        "fill": 0,
+        "offset": [
+          1,
+          1
+        ],
+        "determinant": 0
+      },
+      {
+        "base": "new",
+        "fill": 1,
+        "offset": [
+          0,
+          0
+        ],
+        "determinant": 0
+      },
+      {
+        "base": "new",
+        "fill": 1,
+        "offset": [
+          0,
+          1
+        ],
+        "determinant": 0
+      },
+      {
+        "base": "new",
+        "fill": 1,
+        "offset": [
+          1,
+          0
+        ],
+        "determinant": 0
+      },
+      {
+        "base": "new",
+        "fill": 1,
+        "offset": [
+          1,
+          1
+        ],
+        "determinant": 0
+      }
+    ],
+    "nonuniform_5_witnesses": [
+      {
+        "base": "old",
+        "t": 1,
+        "matrix": [
+          [
+            3,
+            1,
+            6,
+            1,
+            0
+          ],
+          [
+            1,
+            2,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            3,
+            1,
+            0
+          ],
+          [
+            4,
+            6,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "determinant": -7
+      },
+      {
+        "base": "old",
+        "t": 2,
+        "matrix": [
+          [
+            3,
+            1,
+            6,
+            1,
+            0
+          ],
+          [
+            1,
+            2,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            3,
+            1,
+            0
+          ],
+          [
+            4,
+            6,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        "determinant": -14
+      },
+      {
+        "base": "new",
+        "t": 1,
+        "matrix": [
+          [
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            3,
+            6,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            4,
+            1,
+            0
+          ],
+          [
+            4,
+            6,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "determinant": -18
+      },
+      {
+        "base": "new",
+        "t": 2,
+        "matrix": [
+          [
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            3,
+            6,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            4,
+            1,
+            0
+          ],
+          [
+            4,
+            6,
+            1,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            2
+          ]
+        ],
+        "determinant": -36
+      }
+    ],
+    "count_only_digraph_lookup": [
+      {
+        "name": "reported3",
+        "reflected": false,
+        "turns": 0,
+        "counts": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "distinct": 1,
+        "four_distinct_digraphs_possible": false
+      },
+      {
+        "name": "reported3",
+        "reflected": false,
+        "turns": 1,
+        "counts": [
+          1,
+          1,
+          4,
+          6
+        ],
+        "distinct": 3,
+        "four_distinct_digraphs_possible": false
+      },
+      {
+        "name": "reported3",
+        "reflected": false,
+        "turns": 2,
+        "counts": [
+          1,
+          6,
+          1,
+          1
+        ],
+        "distinct": 2,
+        "four_distinct_digraphs_possible": false
+      },
+      {
+        "name": "reported3",
+        "reflected": false,
+        "turns": 3,
+        "counts": [
+          4,
+          1,
+          1,
+          1
+        ],
+        "distinct": 2,
+        "four_distinct_digraphs_possible": false
+      },
+      {
+        "name": "reported3",
+        "reflected": true,
+        "turns": 0,
+        "counts": [
+          1,
+          6,
+          4,
+          1
+        ],
+        "distinct": 3,
+        "four_distinct_digraphs_possible": false
+      },
+      {
+        "name": "reported3",
+        "reflected": true,
+        "turns": 1,
+        "counts": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "distinct": 1,
+        "four_distinct_digraphs_possible": false
+      },
+      {
+        "name": "reported3",
+        "reflected": true,
+        "turns": 2,
+        "counts": [
+          4,
+          1,
+          1,
+          1
+        ],
+        "distinct": 2,
+        "four_distinct_digraphs_possible": false
+      },
+      {
+        "name": "reported3",
+        "reflected": true,
+        "turns": 3,
+        "counts": [
+          1,
+          1,
+          1,
+          6
+        ],
+        "distinct": 2,
+        "four_distinct_digraphs_possible": false
+      },
+      {
+        "name": "old",
+        "reflected": false,
+        "turns": 0,
+        "counts": [
+          6,
+          1,
+          1,
+          1
+        ],
+        "distinct": 2,
+        "four_distinct_digraphs_possible": false
+      },
+      {
+        "name": "old",
+        "reflected": false,
+        "turns": 1,
+        "counts": [
+          1,
+          3,
+          2,
+          1
+        ],
+        "distinct": 3,
+        "four_distinct_digraphs_possible": false
+      },
+      {
+        "name": "old",
+        "reflected": false,
+        "turns": 2,
+        "counts": [
+          6,
+          4,
+          1,
+          1
+        ],
+        "distinct": 3,
+        "four_distinct_digraphs_possible": false
+      },
+      {
+        "name": "old",
+        "reflected": false,
+        "turns": 3,
+        "counts": [
+          1,
+          1,
+          3,
+          1
+        ],
+        "distinct": 2,
+        "four_distinct_digraphs_possible": false
+      },
+      {
+        "name": "old",
+        "reflected": true,
+        "turns": 0,
+        "counts": [
+          1,
+          3,
+          2,
+          1
+        ],
+        "distinct": 3,
+        "four_distinct_digraphs_possible": false
+      },
+      {
+        "name": "old",
+        "reflected": true,
+        "turns": 1,
+        "counts": [
+          1,
+          1,
+          1,
+          6
+        ],
+        "distinct": 2,
+        "four_distinct_digraphs_possible": false
+      },
+      {
+        "name": "old",
+        "reflected": true,
+        "turns": 2,
+        "counts": [
+          1,
+          1,
+          3,
+          1
+        ],
+        "distinct": 2,
+        "four_distinct_digraphs_possible": false
+      },
+      {
+        "name": "old",
+        "reflected": true,
+        "turns": 3,
+        "counts": [
+          1,
+          4,
+          1,
+          6
+        ],
+        "distinct": 3,
+        "four_distinct_digraphs_possible": false
+      },
+      {
+        "name": "new",
+        "reflected": false,
+        "turns": 0,
+        "counts": [
+          1,
+          1,
+          6,
+          1
+        ],
+        "distinct": 2,
+        "four_distinct_digraphs_possible": false
+      },
+      {
+        "name": "new",
+        "reflected": false,
+        "turns": 1,
+        "counts": [
+          1,
+          1,
+          3,
+          1
+        ],
+        "distinct": 2,
+        "four_distinct_digraphs_possible": false
+      },
+      {
+        "name": "new",
+        "reflected": false,
+        "turns": 2,
+        "counts": [
+          6,
+          4,
+          1,
+          1
+        ],
+        "distinct": 3,
+        "four_distinct_digraphs_possible": false
+      },
+      {
+        "name": "new",
+        "reflected": false,
+        "turns": 3,
+        "counts": [
+          1,
+          1,
+          4,
+          1
+        ],
+        "distinct": 2,
+        "four_distinct_digraphs_possible": false
+      },
+      {
+        "name": "new",
+        "reflected": true,
+        "turns": 0,
+        "counts": [
+          1,
+          1,
+          3,
+          1
+        ],
+        "distinct": 2,
+        "four_distinct_digraphs_possible": false
+      },
+      {
+        "name": "new",
+        "reflected": true,
+        "turns": 1,
+        "counts": [
+          1,
+          1,
+          6,
+          1
+        ],
+        "distinct": 2,
+        "four_distinct_digraphs_possible": false
+      },
+      {
+        "name": "new",
+        "reflected": true,
+        "turns": 2,
+        "counts": [
+          1,
+          1,
+          4,
+          1
+        ],
+        "distinct": 2,
+        "four_distinct_digraphs_possible": false
+      },
+      {
+        "name": "new",
+        "reflected": true,
+        "turns": 3,
+        "counts": [
+          1,
+          4,
+          1,
+          6
+        ],
+        "distinct": 3,
+        "four_distinct_digraphs_possible": false
+      }
+    ],
+    "missing_5_counts": {
+      "if_only_3_known": 16,
+      "if_4_known": 9
+    },
+    "literal_coordinates": {
+      "3": {
+        "base0_3478_valid": false,
+        "base1_3478_valid": false
+      },
+      "4": {
+        "base0_3478_valid": false,
+        "base1_3478_valid": false
+      },
+      "5": {
+        "base0_3478_valid": false,
+        "base1_3478_valid": false
+      }
+    },
+    "limits": "A 3x3 matrix may contain weight6: weights are not coordinate labels. Unknown borders are not tested as real Hellgate keys. No rejection of multilayer or positional lookup systems."
+  },
+  "digraphs": [
+    {
+      "assumed_name": "BEHOLDER",
+      "mapping": {
+        "3": "BE",
+        "4": "HO",
+        "7": "LD",
+        "8": "ER"
+      },
+      "self_name_prediction": "HOER??HOER??",
+      "avar4378_prediction": "HOBELDER",
+      "known_digit_coverage": 0.35487880671224364,
+      "resolved_npc_tokens": [
+        {
+          "source": "knightmare_2012",
+          "token": "3478",
+          "prediction": "BEHOLDER",
+          "fitted_crib_reuse": true
+        },
+        {
+          "source": "avar_tar_poem",
+          "token": "4378",
+          "prediction": "HOBELDER",
+          "fitted_crib_reuse": false
+        },
+        {
+          "source": "your_true_colour_2012",
+          "token": "34334",
+          "prediction": "BEHOBEBEHO",
+          "fitted_crib_reuse": false
+        }
+      ],
+      "npc_predictions": [
+        {
+          "id": "chayenne_2009_part1",
+          "output": "????HO????HO??????HOER????????HO????????ERBE??HO??LD??????????ER????LDLD"
+        },
+        {
+          "id": "chayenne_2009_part2",
+          "output": "????????????LD??LD????ERHO"
+        },
+        {
+          "id": "knightmare_2012",
+          "output": "BEHOLDER ??LD ????ERLD?? ??LD????HO BEHO???? ?? BEHO??!"
+        },
+        {
+          "id": "avar_tar_poem",
+          "output": "??????BE?? HO??LDER??! ??????BEBELD???????? BE???????????? ??LDLD ER??BE????HO???? ??LD??BEER ??HOER????BE??HO, ??ERER??BE???? ??LDLD ??BEBELDER?????? BEBELD?????? LD????ERBE ??HO????BE?? HOBELDER! HO??BE ??BE?? ??LDERBE???? ??ER??BELD?? ??????BE??BE??!"
+        },
+        {
+          "id": "evil_eye_shout",
+          "output": "????BELD??ERLD??HO!"
+        },
+        {
+          "id": "elder_bonelord_phrase",
+          "output": "????????LDER ??HOLD??HO!"
+        },
+        {
+          "id": "elder_bonelord_same_shout",
+          "output": "????BELD??ERLD??HO!"
+        },
+        {
+          "id": "wrinkled_shout_1",
+          "output": "HOER????????ER????BE??HO????LD."
+        },
+        {
+          "id": "wrinkled_shout_2",
+          "output": "LDER??LD????????ER??LD??HOBE??HO??LD??HO."
+        },
+        {
+          "id": "your_true_colour_2012",
+          "output": "LDER????LD BEHOBEBEHO ??ER?? ??BE?? ??????HO??"
+        },
+        {
+          "id": "secret_library_2018",
+          "output": "LDHO??BE?? HO??BEBE??"
+        },
+        {
+          "id": "official_poll_2020_option_c",
+          "output": "????BE ????????LDBE LD????BE ??LD??BEER HO??LD ER??????LD"
+        },
+        {
+          "id": "wrinkled_name",
+          "output": "HOER??HOER??"
+        },
+        {
+          "id": "wrinkled_tibia_anchor",
+          "output": "??"
+        },
+        {
+          "id": "wrinkled_zero_taboo",
+          "output": "??"
+        }
+      ],
+      "interpretation": "3478 expansion is fitted by construction. Unknown digits remain??; short words and copies of3478 are not independent validation. Entity-reference1 does not supply a digraph."
+    },
+    {
+      "assumed_name": "BONELORD",
+      "mapping": {
+        "3": "BO",
+        "4": "NE",
+        "7": "LO",
+        "8": "RD"
+      },
+      "self_name_prediction": "NERD??NERD??",
+      "avar4378_prediction": "NEBOLORD",
+      "known_digit_coverage": 0.35487880671224364,
+      "resolved_npc_tokens": [
+        {
+          "source": "knightmare_2012",
+          "token": "3478",
+          "prediction": "BONELORD",
+          "fitted_crib_reuse": true
+        },
+        {
+          "source": "avar_tar_poem",
+          "token": "4378",
+          "prediction": "NEBOLORD",
+          "fitted_crib_reuse": false
+        },
+        {
+          "source": "your_true_colour_2012",
+          "token": "34334",
+          "prediction": "BONEBOBONE",
+          "fitted_crib_reuse": false
+        }
+      ],
+      "npc_predictions": [
+        {
+          "id": "chayenne_2009_part1",
+          "output": "????NE????NE??????NERD????????NE????????RDBO??NE??LO??????????RD????LOLO"
+        },
+        {
+          "id": "chayenne_2009_part2",
+          "output": "????????????LO??LO????RDNE"
+        },
+        {
+          "id": "knightmare_2012",
+          "output": "BONELORD ??LO ????RDLO?? ??LO????NE BONE???? ?? BONE??!"
+        },
+        {
+          "id": "avar_tar_poem",
+          "output": "??????BO?? NE??LORD??! ??????BOBOLO???????? BO???????????? ??LOLO RD??BO????NE???? ??LO??BORD ??NERD????BO??NE, ??RDRD??BO???? ??LOLO ??BOBOLORD?????? BOBOLO?????? LO????RDBO ??NE????BO?? NEBOLORD! NE??BO ??BO?? ??LORDBO???? ??RD??BOLO?? ??????BO??BO??!"
+        },
+        {
+          "id": "evil_eye_shout",
+          "output": "????BOLO??RDLO??NE!"
+        },
+        {
+          "id": "elder_bonelord_phrase",
+          "output": "????????LORD ??NELO??NE!"
+        },
+        {
+          "id": "elder_bonelord_same_shout",
+          "output": "????BOLO??RDLO??NE!"
+        },
+        {
+          "id": "wrinkled_shout_1",
+          "output": "NERD????????RD????BO??NE????LO."
+        },
+        {
+          "id": "wrinkled_shout_2",
+          "output": "LORD??LO????????RD??LO??NEBO??NE??LO??NE."
+        },
+        {
+          "id": "your_true_colour_2012",
+          "output": "LORD????LO BONEBOBONE ??RD?? ??BO?? ??????NE??"
+        },
+        {
+          "id": "secret_library_2018",
+          "output": "LONE??BO?? NE??BOBO??"
+        },
+        {
+          "id": "official_poll_2020_option_c",
+          "output": "????BO ????????LOBO LO????BO ??LO??BORD NE??LO RD??????LO"
+        },
+        {
+          "id": "wrinkled_name",
+          "output": "NERD??NERD??"
+        },
+        {
+          "id": "wrinkled_tibia_anchor",
+          "output": "??"
+        },
+        {
+          "id": "wrinkled_zero_taboo",
+          "output": "??"
+        }
+      ],
+      "interpretation": "3478 expansion is fitted by construction. Unknown digits remain??; short words and copies of3478 are not independent validation. Entity-reference1 does not supply a digraph."
+    }
+  ]
+}

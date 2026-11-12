@@ -1,0 +1,6 @@
+qualification [{"n": 3, "q": 25, "cases": 30, "recovered_ge95": 30, "exact": 30, "gate_passed": true}, {"n": 3, "q": 29, "cases": 30, "recovered_ge95": 30, "exact": 30, "gate_passed": true}, {"n": 4, "q": 25, "cases": 30, "recovered_ge95": 30, "exact": 30, "gate_passed": true}, {"n": 5, "q": 25, "cases": 30, "recovered_ge95": 30, "exact": 30, "gate_passed": true}, {"n": 5, "q": 29, "cases": 30, "recovered_ge95": 30, "exact": 30, "gate_passed": true}]
+{"layer": "raw_fixed_pairs_offset0", "q": 25, "winner": 645, "train_score": -6.790653245829974, "p": [0.025, 0.2, 0.025]}
+{"layer": "raw_fixed_pairs_offset0", "q": 29, "winner": 1137, "train_score": -7.006334983989024, "p": [0.1, 0.4, 0.725]}
+{"layer": "imported_codes_conditional", "q": 25, "winner": 130, "train_score": -6.789171139960149, "p": [0.025, 0.075, 0.1]}
+{"layer": "imported_codes_conditional", "q": 29, "winner": 173, "train_score": -7.003261164526496, "p": [0.025, 0.725, 0.9]}
+complete

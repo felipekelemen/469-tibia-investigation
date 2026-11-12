@@ -18,3 +18,12 @@
 Os commits exatos e hashes dos três repositórios estão em sources/manifest.json.
 Capturas completas de páginas de terceiros são mantidas apenas localmente;
 metadados suficientes para localizar e auditar as referências são versionados.
+
+## Rodada15
+
+A rodada15 reutiliza os corpora, referências inglesas e inventário de NPCs já
+atribuídos neste arquivo. As novas construções algébricas e implementações são
+do projeto; preencher senhas com BEHOLDER/BONELORD não é atribuído a CipSoft ou
+a autores comunitários como algoritmo real. Fontes adicionais de descoberta
+e seus limites estão em [round15_source_notes.json](../data/round15_source_notes.json).
+Nenhuma captura integral de página ou imagem foi acrescentada à distribuição.

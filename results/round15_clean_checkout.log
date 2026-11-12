@@ -1,0 +1,9 @@
+Clean export of staged public files; no ignored clones, HTML captures or private upload.
+----------------------------------------------------------------------
+Ran 147 tests in 4.262s
+
+OK
+python3 scripts/check_round15.py
+Round15: 1860 candidates; 150/150 exact held synthetic recoveries; 4 observed refits; 468 null winner scores; algebra and external literals replayed.
+Null maximality: recorded/hash-bound; use --full to refit all 468 families.
+No independently verified game translation. Exposed split and unproved input parsers remain limitations.

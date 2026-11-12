@@ -1,13 +1,20 @@
 # 469-tibia-investigation — investigação reproduzível
 
-**Estado: quatorze rodadas executadas; nenhuma tradução verificável encontrada.**
+**Estado: quinze rodadas executadas; nenhuma tradução verificável encontrada.**
 Não afirmamos que o corpus é indecifrável nem que qualquer solução comunitária
 foi confirmada. O alvo é um algoritmo integral que generalize para textos inéditos.
 
 Destino público: https://github.com/felipekelemen/469-tibia-investigation
 
-**Publicado:** corpus normalizado, código, testes e resultados das quatorze rodadas
+**Publicado:** corpus normalizado, código, testes e resultados das quinze rodadas
 disponíveis neste repositório. O acesso de escrita foi confirmado após nova reconexão.
+
+A [décima quinta rodada](docs/round15.md) executou 1.860 configurações para
+matrizes 3×3, 4×4 e 5×5, com BEHOLDER/BONELORD e a sequência periódica 3478.
+Recuperou exatamente os 150 controles ingleses, mas não produziu tradução
+dos livros ou falas. Chaves 5×5 foram senhas explicitamente conjecturadas:
+não há 25 contagens autenticadas da sala. Uma leitura de 3478 por dígrafos
+também foi testada, sem evidência independente de significado.
 
 A [décima quarta rodada](docs/round14.md) recuperou a tabela antiga em páginas
 arquivadas de 2008, com payloads conferidos no CDX. Relatos atribuídos a abril
@@ -111,6 +118,7 @@ make round11
 make round12
 make round13
 make round14
+make round15
 make test
 ```
 
@@ -120,6 +128,9 @@ públicas exige rede; os artefatos normalizados e resultados ficam versionados.
 A bateria de criptoanálise usa uma referência externa inglesa de Alice, não
 Tibia, com pontuador congelado. Resultados estocásticos usam sementes fixas.
 Os números de tempo de execução dependem da máquina; reserve alguns minutos.
+`make round15-full` repete também as 468 buscas completas dos controles da
+rodada15; `make round15` confere os vencedores registrados e refaz os positivos
+e as buscas observadas. O relatório explica o alcance de cada reprodução.
 
 ## Material
 

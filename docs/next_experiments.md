@@ -355,3 +355,22 @@ P06 ganhou atestação documental antiga e restrições úteis, mas ainda precis
 de uma observação datada das quantidades reais. P01/P05 continuam buscando
 equivalências externas explícitas, sem promover comentários ou nomes próprios
 a plaintext. Nenhuma das quatro entregas principais foi encerrada.
+
+Atualização após a [décima quinta rodada](round15.md): foram executadas
+1.860 configurações 3×3/4×4/5×5 com nomes e 3478, 150 positivos exatos e 468
+buscas sobre nulos. Não apareceu tradução nos líderes ou nas predições externas.
+As senhas cíclicas de oito letras geram matrizes 4×4 singulares; completar as
+tabelas com bordas uniformes de zeros/uns também não fornece chave reversível
+5×5. Isso não elimina a dimensão 5: as contagens físicas continuam ausentes.
+
+A hipótese condicional de quatro dígrafos ajusta 3478 por construção, cobre
+35,49% dos dígitos e não prediz significado atestado nos outros exemplos.
+Lookup por contagem das células indexadas por 3,4,7,8 falha nas 24 orientações
+testadas; não confundir isso com exclusão de lookup posicional ou multicamada.
+
+Não ampliar preenchimentos ou senhas de Hill sem nova pista independente.
+Priorizar a distinção entre códigos de letras e códigos de sílabas/palavras/
+entidades, comparando livros e falas sob um modelo finito de segmentação e
+controles de reutilização. NPC 1→referência a Tibia e 486486→autodenominação
+continuam âncoras de entidade, sem gloss completo. P06 continua precisando de
+quantidades e captura datada; P01/P03/P05 permanecem abertos.

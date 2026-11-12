@@ -1,0 +1,21 @@
+{
+  "sha256": {
+    "data/round15_source_notes.json": "730729b1b3d4061c0fce339c16c738913cbdc971d2508033a17cfe751ec7bcfe",
+    "data/plan_progress_round15.json": "1cf177be9552deab3835cff2524632ddc4600ea4ca11def3ca544c72820bf074",
+    "scripts/check_round15.py": "4078b114c12d4ca353880f71cddcb03e48efd984e2672a25ba4f74c56e239c76",
+    "scripts/round15_dimension_leaders.py": "239af5acf2884992cdd16071b1b43042bf9a15c3d0c9b3579abf00b20ff8627c",
+    "tests/test_dimension_names.py": "81bb53296210db0b18d5d2c928b23fa44fc7d7e48663b7f237449a8d11af7f42",
+    "results/round15_dimension_analysis.json": "896934b6297520cb0739b866e810d3199e4778e1fbef553d9fd7c2ad5242a83d",
+    "results/round15_dimension_leaders.json": "2f0ab1e3c0bc6531dd7ba6174bfaf361d1dede441df4b200a59ac7a89802b90a",
+    "results/round15_matrix_search.json": "dffc2a5750ed3e90fb923a6c879e6a1ad2d3f77a7e509f5b8a84935d36559b0c",
+    "results/round15_qualification.json": "5db2cda915cf95e6b865bb6d2f43b7f82833e38dad44166efdb5b8e3365cc3de",
+    "docs/round15.md": "36ffb64abdce380a611352ba574d93150da913cd267a0b23a72f336fb968e957"
+  },
+  "excluded_variable_metadata": [
+    "results/round15_execution.json",
+    "results/round15_run.log",
+    "results/replay_round15.log",
+    "results/tests_round15.log"
+  ],
+  "scope": "Binds published results and verifier; full null-family refit via make round15-full."
+}

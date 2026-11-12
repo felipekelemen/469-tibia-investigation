@@ -453,5 +453,40 @@
     "status": "not_established_date_roles_and_partial_visibility_preserved",
     "evidence": "JPEG coincide comSHA1do histórico de upload2014; Last-Modified2015. Outro PNG tem cabeçalho2022. Duas imagens foram inspecionadas, sem data de captura ou todas as quantidades autenticadas; nenhum desses tempos virou data do evento.",
     "artifact": "data/history_round14_sources.json"
+  },
+  {
+    "id": "H66",
+    "hypothesis": "Bloco relatado3x3 e tabelas4x4 formam chaves Hill em alfabetos25/26/29",
+    "status": "finite_family_screened_no_verified_translation",
+    "evidence": "960configurações3x3 e480novas4x4mod25, com variantes de nomes/3478; controles operacionais30/30por célula. Det3=6e detposterior4=-18impedem inversão mod26. Saídas de jogo não fornecem inglês coerente nem gloss independente.",
+    "artifact": "results/round15_matrix_search.json"
+  },
+  {
+    "id": "H67",
+    "hypothesis": "Completar tabelas4x4 com bordas uniformes ou repetir nomes de8letras fornece chave Hill4x4/5x5 reversível",
+    "status": "specific_constructions_rejected_algebraically",
+    "evidence": "16completamentos5x5 de zeros/uns têm determinante0; nomes cíclicos4x4 têm linhas repetidas. Bordas não uniformes podem ser invertíveis, logo não se exclui a dimensão5.",
+    "artifact": "results/round15_dimension_analysis.json"
+  },
+  {
+    "id": "H68",
+    "hypothesis": "Senhas cíclicasBEHOLDER/BONELORD em5x5, com ou sem período3478, decodificam os livros",
+    "status": "bounded_password_family_screened_no_verified_translation",
+    "evidence": "420configurações5x5mod25/29;60/60positivos exatos entre essas células. Nenhum líder5x5 inspecionado fornece leitura inglesa coerente do reservado. Chaves são conjecturas, não25contagens observadas; formato raw/importado permanece condicional.",
+    "artifact": "results/round15_dimension_leaders.json"
+  },
+  {
+    "id": "H69",
+    "hypothesis": "3478expande por dígrafos paraBEHOLDER/BONELORD e as caveiras fornecem lookup apenas pela contagem da célula",
+    "status": "count_only_indexed_lookup_rejected_conditional_digraph_model_unvalidated",
+    "evidence": "Quatro dígrafos distintos exigem quatro contagens distintas nas posições lineares1-based3,4,7,8. Em24orientações3x3/4x4 há no máximo3. Mapeamento parcial cobre35,49%;486486predizHOER??HOER??ouNERD??NERD??, sem significado atestado. Palavra curta forçada não é tradução.",
+    "artifact": "results/round15_dimension_analysis.json"
+  },
+  {
+    "id": "H70",
+    "hypothesis": "A mesma chave de letras nos livros traduz também falas e o poema sem ajuste",
+    "status": "fixed_pair_branch_predictions_no_verified_translation",
+    "evidence": "Vencedores raw congelados aplicados a Kharos/NPCs, reset por fala e por palavra, com caudas explicitadas; não surge leitura plausível. Parser importado não é definido para externos. Não exclui códigos de entidade/sílaba/palavra ou outra serialização.",
+    "artifact": "results/round15_matrix_search.json"
   }
 ]

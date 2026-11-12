@@ -1,0 +1,7 @@
+{
+  "duration_seconds": 142.669,
+  "catalog_candidates": 1860,
+  "positive_controls": 150,
+  "null_fits": 468,
+  "frozen_manifest_sha256": "d145a883844419d0976f282f3e3170616b74f6c06dabf76ba6d26a0bc45dd9c8"
+}

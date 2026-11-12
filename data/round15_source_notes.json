@@ -1,0 +1,15 @@
+{
+  "scope": "Round15 reuses pinned corpus, NPC inventory and round14 historical records; web discovery did not supply a25-cell key or a new attested plaintext pair.",
+  "sources": [
+    {"url": "https://torg.pl/tibia/265100-hellgates-library-469-spoilery-58.html#post4148484", "role": "Reported3x3 partial layout; existing round14 record, not authenticated client counts."},
+    {"url": "https://www.tibiawiki.com.br/wiki/A_Wrinkled_Bonelord", "role": "Dialogue context: self-name486486, entity reference1 and viewer-dependent formula; no derivation of an algorithm or fixed English gloss for3478."},
+    {"url": "https://tibiasecrets.com/A-Wrinkled-Bonelord", "role": "Secondary NPC transcript/context, not an independent numeric-English parallel text."},
+    {"url": "https://www.tibiawiki.com.br/wiki/Bonelord_%28Nostalgia%29", "role": "Historical creature label3478. Naming relation is not a proven letterwise translation."},
+    {"url": "https://forums.tibiabr.com/printthread.php?page=3&pp=40&t=441817", "role": "Discovery of a community mention of4x4/5x5; no25-count physical matrix established."},
+    {"url": "https://torg.pl/tibia/265100-hellgates-library-469-spoilery-27.html", "role": "Community3x3 speculation, not an authenticated key."}
+  ],
+  "primary_data_files": ["data/normalized_books.json", "data/source_validation_inventory.json", "data/external_book_round10.json", "data/history_round14_sources.json"],
+  "new_authenticated_english_numeric_pairs": 0,
+  "new_authenticated_full_5x5_keys": 0,
+  "limits": "Search/discovery is not historical authentication. No full source text or images redistributed in this round. Previously exposed NPCs, poem and Kharos are diagnostics, not blind semantic validation."
+}

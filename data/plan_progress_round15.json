@@ -1,0 +1,8 @@
+{
+  "round": 15,
+  "verified_translations": 0,
+  "original_deliverables_still_open": ["P01 independent meaning/validation", "P03 generative and variant model", "P05 semantic/codebook mechanism", "P06 authenticated historical map counts"],
+  "executed": ["3x3 and4x4 reported-key reversible Hill branches", "3x3 and5x5 explicit name-password Hill branches", "3478 periodic whitening", "conditional3478 digraph expansion", "count-only skull lookup constraints", "unfitted raw NPC/poem/Kharos predictions"],
+  "new_constraints": ["Repeated8letter passwords make4x4 matrices singular", "Uniform0/1 borders of supplied4x4 tables are singular", "Three reported matrices in24D4views cannot supply four distinct digraphs by count-only lookup at1based3478indices"],
+  "next_priority": "Finite syllable/word/entity-code models and comparison of speech/book structure with explicit segmentation uncertainty and copy controls; obtain independent semantic pair or authenticated physical matrix before expanding arbitrary keys."
+}
