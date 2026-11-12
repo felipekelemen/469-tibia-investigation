@@ -1,0 +1,43 @@
+{
+  "round": 12,
+  "reviewed_at_utc": "2026-11-12T16:24:29.612523+00:00",
+  "new_long_attested_pairs": 0,
+  "new_authenticated_matrix_captures": 0,
+  "entries": [
+    {
+      "id": "true_colour_primary_index",
+      "url": "https://www.tibia.com/news/?fbegind=9&fbeginm=1&fbeginy=2012&fendd=8&fendm=2&fendy=2012&flist=01011111&id=1975&subtopic=newsarchive",
+      "outcome": "Numeric question attested by indexed official domain; no explicit meaning in examined excerpt, canonical direct webopen403.",
+      "sample_id": "your_true_colour_2012"
+    },
+    {
+      "id": "hellgate_averages",
+      "url": "https://www.tibiasecrets.com/article166",
+      "access": "Readable article20May2024byBaccaChewie.",
+      "tested_claim": "Kharos and IsleoftheKings text share all digit counts; independently true for normalized book22 and137digit Kharos. Same average alone would not prove this.",
+      "scope": "No decoder or English parallel text in the examined article. Other universal or semantic claims are not promoted."
+    },
+    {
+      "id": "book22_isle_text",
+      "url": "https://tibia.fandom.com/wiki/6512889672_%28Book%29",
+      "access": "Indexed page text includes full137digits matching normalized book22 and states Hellgate/IsleoftheKings locations.",
+      "numeric_sha256": "e17e9c50fa46c6ed6d0bd7a53b1c5ebad4333c5698921c1084edca6ca1bc7c1f",
+      "scope": "Transcription agreement, not authenticated client capture or independently verified historical dating."
+    },
+    {
+      "id": "secret_library_candidate",
+      "url": "https://www.tibiawiki.com.br/wiki/74032_45331_%28Book%29",
+      "access": "Only indexed title confirmed; directwebopen403.",
+      "scope": "Secondary10digit transcription retained as candidate only, no new gloss or authenticated fullbody."
+    }
+  ],
+  "upstream_origin_review": {
+    "row0": "The imported deterministic roundtrip takes code streams/zero placements as inputs. No independently attested unseen-raw serialization rule found in the examined source scripts.",
+    "examined_local_files": [
+      "sources/kimlage/docs/469_final_report.md",
+      "sources/kimlage/scripts/sqlite_row0_code_symbol_probe.py",
+      "sources/kimlage/analysis/audit_20260609/zero_omission_part2_classifier.py"
+    ],
+    "scope": "Read-only literature/data review; full upstream project not reexecuted. Strong source conclusions about absence of language are not accepted without our own scoped validation."
+  }
+}

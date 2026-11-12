@@ -383,5 +383,33 @@
     "status": "mechanism_discrimination_only_not_semantic",
     "evidence": "Gates passam tanto no inglês cifrado quanto nos códigos embaralhados. Fonte, código verdadeiro, biblioteca e custos são condicionais; a ordem do alvo cortado não é necessariamente prosa coerente.",
     "artifact": "results/copy_wire_experiment.json"
+  },
+  {
+    "id": "H56",
+    "hypothesis": "Kharos é permutação exata dos códigos e formas escritas de ID22",
+    "status": "rejected_conditionally_on_imported_source_tokens",
+    "evidence": "Histograma raw igual137dígitos/soma645, mas nenhum parse conserva os70tokens escritos. Contradição já no prefixo: só51pode iniciar5159..., e depois nenhuma forma pode iniciar59....",
+    "artifact": "results/conserved_code_experiment.json"
+  },
+  {
+    "id": "H57",
+    "hypothesis": "Permitir livremente omissões de zeros resolve a conservação dos códigos de ID22 em Kharos",
+    "status": "rejected_by_two_independent_complete_implementations",
+    "evidence": "DP177estados, zero caminhos; enumerador independente54.740posições possíveis de3omissões em70códigos, zero soluções. Gates mecânicos passam, mas isso não prova a tokenização do jogo.",
+    "artifact": "results/conserved_code_experiment.json"
+  },
+  {
+    "id": "H58",
+    "hypothesis": "Unicidade de um parse conservando origem autentica o stream de símbolos do alvo",
+    "status": "uniqueness_is_conditional_not_ground_truth",
+    "evidence": "Nos10pares direcionados de anagramas raw,9incompatíveis;58→59tem stream único139códigos, enquanto o alvo importado tem138e outra sequência row0. Nenhuma leitura inglesa produzida.",
+    "artifact": "results/conserved_code_experiment.json"
+  },
+  {
+    "id": "H59",
+    "hypothesis": "Your True Colour2012fornece uma nova tradução oficial para validação",
+    "status": "numeric_question_attested_by_official_index_no_English_gloss_found",
+    "evidence": "Questão10com21dígitos confirmada no índice do domínio oficial; abertura web direta403. Alternativas são reações, não significados atestados. Texto já público upstream, sem5gramas compartilhados com Hellgate.",
+    "artifact": "data/source_review_round12.json"
   }
 ]

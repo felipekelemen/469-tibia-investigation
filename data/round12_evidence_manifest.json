@@ -1,0 +1,22 @@
+{
+  "round": 12,
+  "purpose": "Freeze exact conditional conservation failures, positive controls, independently enumerated omissions, and bounded external-source review. No translation claim.",
+  "sha256": {
+    "data/conserved_code_protocol.json": "847b427ba85b3fd1447cd06e225f12040d1977e5cf9d032dc40d24b27776703b",
+    "data/external_samples_round12.json": "984c51348de23530b9ea8cc10d571fac89dcf0f5d3e19256739efed78056a2be",
+    "data/source_review_round12.json": "e363b1aa9878070d2c9d94cef044124ae09ee4c93877ee681b867a4ee53c47ca",
+    "data/plan_progress_round12.json": "d78d90d0ebee8b268067a3ace1894b82a7d44fd44bff968f7e3a7b9be3c55260",
+    "data/normalized_code_map.json": "d2884c34addbce207678b014e6fc9f9de9ae4fe7280d94b19adb1bb86e72cfac",
+    "docs/round12.md": "c3dfd0e3707c7f4bbac481c04bf276936916a3da6d116fc9a92022887bf18ada",
+    "results/conserved_code_experiment.json": "9ca151dbf8ba43f2b4d7d75bd2e58c4da95a534c5c5cac8fe63efda171a04f31",
+    "results/external_source_audit_round12.json": "ee32e274ec0ada0d9c7a56775aa02be96e3e09574a754adae5826c7b88085cc6",
+    "results/round12_execution.json": "65733fc4556f88fb3f777b04be105a6c93023e64acdec64a0e65b94365b69c0e",
+    "results/tests_round12.log": "6d37855d40deec652d0885b2a6701963e5df6a2c4b4c581393d1030f276d79bd",
+    "scripts/conserved_code_parser.py": "63385fa846c1c9ff43720c5bd3bdd2102c3d93441ad2854085d7e67bcbc25274",
+    "scripts/conserved_code_experiment.py": "80d4808a7570fbb9681f3f360babf2e2325a47c0cc853912d0436e6449dd9147",
+    "scripts/omission_set_reference.py": "c3bd6ae810ef87f5a269a80a2e5ee116f0dbab0b69ffba7daa3c03fd56b33a81",
+    "scripts/run_round12.py": "771c2946f0742e879db91f27b007a0bcbbebe4f99ac1362eeeac45c6931e5d68",
+    "tests/test_conserved_code_parser.py": "6bc7d663bd6fe4fe42bed8aac48a8f2a07c188814ddc8548a989efd5a128c6b0",
+    "results/replay_round12.log": "80ef7a5cfef4581774640dd797785b5168733f28527124d82ddc6a4e3a9d613c"
+  }
+}

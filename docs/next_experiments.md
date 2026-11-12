@@ -314,3 +314,15 @@ P03 ganhou uma restrição mecânica e controles, não uma tradução nem prova 
 ausência de mensagem. Priorizar evidência externa de significado/serialização
 em P01/P05 e captura histórica verificável em P06. Permanecem quatro entregas
 principais pendentes, além da integração e validação final.
+
+Atualização após a [décima segunda rodada](round12.md): a igualdade exata
+dos histogramas de Kharos e ID22 foi reproduzida, mas a conservação dos 70 códigos
+importados falha com formas preservadas e também com omissões livres. A DP
+exaustiva e 54.740 padrões de omissão independentes concordam em zero soluções.
+Os controles mecânicos pertinentes passam, com 28/30 recuperações únicas exatas.
+
+A sequência oficial Your True Colour acrescenta 21 dígitos ao inventário externo,
+sem gloss ou validação semântica cega. As alternativas do quiz não são traduções.
+Não expandir o modelo de conservação com exceções livres. Uma regra concreta
+de transposição/serialização precisará prever dados externos e ter qualificação
+própria; continuar buscando equivalências atestadas e material histórico.

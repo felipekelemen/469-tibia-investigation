@@ -1,0 +1,36 @@
+{
+  "version": "CONSERVED_CODES_V1",
+  "frozen_at_utc": "2026-11-12T16:21:07.424088+00:00",
+  "prior_exposure": "All digit strings, imported token streams and the exact book22/Kharos histogram equality were known before freezing. No new parse outcomes inspected.",
+  "primary": "Source book22 (137digits/70codes) -> raw Kharos137digits. No target code sequence, zero positions or English supplied.",
+  "hypotheses": {
+    "wire_multiset": "Permute exactly the source (code,wireform) multiset from any compatible source alignment; no insertion, deletion, reversal inside codes or duplicated token.",
+    "code_multiset": "Permute exactly the source code multiset. Each0d may retain or omit its leadingzero independently. Raw length fixes total omissions, not positions."
+  },
+  "state_cap": 1000000,
+  "stream_cap": 256,
+  "reference": "Independently enumerate every omitted-token index set of size2*N-raw_length, capped at1000000patterns; compare code-multiset paths and exact streams.",
+  "positive_design": "30random permutations of book22wire tokens and30permutations after reassigning its3zero omissions among8eligible tokens. These are mechanical controls, not English messages or independent source texts.",
+  "feasibility_gate": "Both modes must accept30/30wire-permutation positives; code-multiset must also accept30/30zero-action reassignment positives, all with complete path counts.",
+  "code_recovery_gate": "Per positive condition/mode at least27/30complete unique streams must equal truth; feasibility alone does not qualify a decoder.",
+  "nulls": {
+    "modes": [
+      "digit_shuffle",
+      "blocks8_shuffle"
+    ],
+    "replicates_each": 99,
+    "seed": 124790000,
+    "interpretation": "Preserve target digit histogram and raw length. SAT frequency is structural only; no semantics or message-absence conclusion."
+  },
+  "secondary": "All10directed pairs from the5exact digit-histogram groups among the70original books. Hold target imported codes out of parsing; compare them only descriptively afterward.",
+  "literal_gate": "Only complete unique Kharos codes agreed by both modes and independent enumeration, plus passing wire-permutation recovery gates, may display the fixed priorV4mapping as an explicitly conditional literal. No refitting or repairs.",
+  "hashes": {
+    "scripts/conserved_code_parser.py": "63385fa846c1c9ff43720c5bd3bdd2102c3d93441ad2854085d7e67bcbc25274",
+    "scripts/conserved_code_experiment.py": "80d4808a7570fbb9681f3f360babf2e2325a47c0cc853912d0436e6449dd9147",
+    "scripts/omission_set_reference.py": "c3bd6ae810ef87f5a269a80a2e5ee116f0dbab0b69ffba7daa3c03fd56b33a81",
+    "scripts/zero_rule_constraints.py": "1b2c29541fb49f8e0ddbbdb2f756c442b2f57faf984e1a94c80d29bcb3a4a34e",
+    "data/normalized_books.json": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+    "data/external_book_round10.json": "9a5deda3b400350304f0346c89a54855129491bbeacb86bc07776b9e12a5cf25",
+    "results/qualified_tibia_search_v4.json": "05459a9d4c65a7dc8330298b005b2c46224839a625f8b84699fc033b8010c1b1"
+  }
+}

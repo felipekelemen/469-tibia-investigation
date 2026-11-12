@@ -1,0 +1,80 @@
+{
+  "round": 12,
+  "completed_at_utc": "2026-11-12T16:26:46.829040+00:00",
+  "mechanical_base_source_books": 1,
+  "paired_positive_targets": 60,
+  "conservation_modes": 2,
+  "positive_gate_results": [
+    {
+      "kind": "wire_permutation",
+      "mode": "wire_multiset",
+      "feasible_complete": 30,
+      "fixtures": 30,
+      "feasibility_required": true,
+      "feasibility_pass": true,
+      "unique_exact": 28,
+      "recovery_pass": true
+    },
+    {
+      "kind": "wire_permutation",
+      "mode": "code_multiset",
+      "feasible_complete": 30,
+      "fixtures": 30,
+      "feasibility_required": true,
+      "feasibility_pass": true,
+      "unique_exact": 28,
+      "recovery_pass": true
+    },
+    {
+      "kind": "zero_action_reassignment",
+      "mode": "wire_multiset",
+      "feasible_complete": 0,
+      "fixtures": 30,
+      "feasibility_required": false,
+      "feasibility_pass": false,
+      "unique_exact": 0,
+      "recovery_pass": false
+    },
+    {
+      "kind": "zero_action_reassignment",
+      "mode": "code_multiset",
+      "feasible_complete": 30,
+      "fixtures": 30,
+      "feasibility_required": true,
+      "feasibility_pass": true,
+      "unique_exact": 28,
+      "recovery_pass": true
+    }
+  ],
+  "primary_source_id": "22",
+  "primary_target_raw_digits": 137,
+  "raw_histograms_identical": true,
+  "target_status": {
+    "wire_multiset": "UNSAT",
+    "code_multiset": "UNSAT"
+  },
+  "independent_omission_patterns": 54740,
+  "independent_solutions": 0,
+  "order_controls": 198,
+  "real_directed_anagram_pairs": 10,
+  "new_external_numeric_digits_in_inventory": 21,
+  "new_long_attested_plaintext_pairs": 0,
+  "new_authenticated_matrix_captures": 0,
+  "new_english_target_outputs": 0,
+  "new_key_fits": 0,
+  "verified_translations": 0,
+  "automated_tests": {
+    "count": 123,
+    "passed": true,
+    "log": "results/tests_round12.log"
+  },
+  "offline_replay": {
+    "passed": true,
+    "all_positive_targets_replayed": 60,
+    "all_order_controls_replayed": 198,
+    "all_directed_anagram_pairs_replayed": 10,
+    "independent_reference_positive_replays": 4,
+    "log": "results/replay_round12.log"
+  },
+  "prior_round11_verifier_passed": true
+}

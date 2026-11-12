@@ -1,0 +1,119 @@
+{
+  "sample_id": "your_true_colour_2012",
+  "numeric_sha256": "0c89e293d4d2d1db8e28534bacb1ff72ac5a6da475d744c08c50781b02184c57",
+  "raw_length": 21,
+  "raw_novelty": [
+    {
+      "raw_k": 4,
+      "windows": 18,
+      "novel_windows": 17,
+      "novel_window_starts": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17
+      ],
+      "shared_window_fraction": 0.05555555555555558
+    },
+    {
+      "raw_k": 5,
+      "windows": 17,
+      "novel_windows": 17,
+      "novel_window_starts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "shared_window_fraction": 0.0
+    },
+    {
+      "raw_k": 8,
+      "windows": 14,
+      "novel_windows": 14,
+      "novel_window_starts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "shared_window_fraction": 0.0
+    },
+    {
+      "raw_k": 12,
+      "windows": 10,
+      "novel_windows": 10,
+      "novel_window_starts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "shared_window_fraction": 0.0
+    },
+    {
+      "raw_k": 16,
+      "windows": 6,
+      "novel_windows": 6,
+      "novel_window_starts": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "shared_window_fraction": 0.0
+    }
+  ],
+  "meaning_attested": false,
+  "new_long_numeric_English_pair": false,
+  "limits": [
+    "Publicly exposed upstream, not a blind semantic holdout.",
+    "Zero exact shared5grams does not prove independence under transformations or a distinct cipher.",
+    "Quiz answers are possible reactions, not authenticated translations.",
+    "Full rawparse compatibility is not evidence: single digit0dforms allow any raw digits under the permissive model."
+  ]
+}

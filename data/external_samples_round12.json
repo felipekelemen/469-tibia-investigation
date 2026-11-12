@@ -1,0 +1,33 @@
+[
+  {
+    "id": "your_true_colour_2012",
+    "text": "78567 34334 989 135 65142",
+    "modality": "official_personality_quiz_question",
+    "source_group": "official_news1975",
+    "event_date": "2012-02-08",
+    "accessed_at_utc": "2026-11-12T16:24:29.612523+00:00",
+    "original_url": "https://www.tibia.com/news/?fbegind=9&fbeginm=1&fbeginy=2012&fendd=8&fendm=2&fendy=2012&flist=01011111&id=1975&subtopic=newsarchive",
+    "access": "Official-domain indexed text includes question10and four personality-response options; directwebopen canonicalnews1975 returned403. No direct HTML capture authenticated.",
+    "corroboration_url": "https://portaltibia.com.br/pt/artigo-oficial-sua-cor-verdadeira/",
+    "corroboration_access": "Search index repeats exact numeric question10; fullbody not inspected.",
+    "gloss_status": "no_explicit_English_gloss_in_examined_text",
+    "asserted_meaning": null,
+    "previously_public": true,
+    "previously_exposed_upstream": true,
+    "new_game_discovery": false,
+    "semantic_holdout_blind": false
+  },
+  {
+    "id": "secret_library_74032_45331_candidate",
+    "text": "74032 45331",
+    "modality": "book_transcription_candidate",
+    "original_url": "https://www.tibiawiki.com.br/wiki/74032_45331_%28Book%29",
+    "accessed_at_utc": "2026-11-12T16:24:29.612523+00:00",
+    "access": "Search index confirms page title; webopen403, full book body not independently inspected.",
+    "local_secondary": "sources/s2ward/README.md",
+    "gloss_status": "untranslated_secondary_transcription",
+    "asserted_meaning": null,
+    "canonical_new_text": false,
+    "semantic_holdout_blind": false
+  }
+]

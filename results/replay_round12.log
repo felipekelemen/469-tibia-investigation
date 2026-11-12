@@ -1,0 +1,6 @@
+python3 scripts/run_round12.py
+Replayed60mechanical positives,198paired order controls and10directed real anagram pairs in both modes.
+Kharos/book22: identical137digit histograms; both conservation models UNSAT, counts complete.
+Independent omitted-index enumeration:54740patterns,0solutions;4positive reference replays also pass.
+Your True Colour:21digits, official indexed provenance, no attested English gloss.
+New key fits:0. English target outputs:0. Verified translations:0.

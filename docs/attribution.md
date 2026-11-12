@@ -11,6 +11,8 @@
 - Auditoria de metadados da nona rodada: snapshots pequenos de Arturo, no commit fixado em `sources/manifest.json`, preservados em `data/metadata_reference/arturo/` com licença MIT. Dígitos de livros continuam material de Tibia/CipSoft. Tibia Wiki BR forneceu corroboração textual indexada; TibiaCams forneceu metadados e uma tentativa bloqueada de playback. Fontes, método e limites em `docs/round9.md`; nenhum asset do cliente ou renderer foi redistribuído.
 - Décima rodada: a entrada externa de Kharos foi obtida da compilação de s2ward fixada e corroborada na Tibia Wiki BR, revisão indicada 403186. Snapshot numérico em `data/external_source_reference/`, com crédito à compilação e a Tibia/CipSoft; não se atribui licença MIT a esses dados. As referências de Baum/Barrie da sexta rodada foram reutilizadas somente como controles estruturais do parser, com essa exposição declarada. Fontes de NPCs/entrevistas e limites em `data/source_review_round10.json`.
 
+- Décima segunda rodada: Bacca Chewie, artigo *The Hellgate’s Averages* (TibiaSecrets,20/5/2024), motivou a comparação de histogramas, recalculada independentemente. A sequência de *Your True Colour* é material oficial de Tibia/CipSoft, notícia1975, questão10; conservamos apenas21dígitos e metadados, sem republicar o artigo ou tratar alternativas como tradução. A wiki forneceu transcrição numérica de ID22 e localização atribuída; acesso e limites em `data/source_review_round12.json`.
+
 Os commits exatos e hashes dos três repositórios estão em sources/manifest.json.
 Capturas completas de páginas de terceiros são mantidas apenas localmente;
 metadados suficientes para localizar e auditar as referências são versionados.
