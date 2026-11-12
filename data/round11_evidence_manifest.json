@@ -1,0 +1,17 @@
+{
+  "round": 11,
+  "purpose": "Freeze conditional exact copy coding, paired mechanism qualification and exposed-game diagnostics. No semantic inference.",
+  "sha256": {
+    "data/copy_wire_protocol.json": "4d051ddf91b2c34e4bb435b6911488bf285feb8ac326e8ce3732d02bce4ea2d9",
+    "data/plan_progress_round11.json": "280a79820bf1db5237c011e50124aa2f00c99bfbf5a775e7ba8bd77d2d1ef0fb",
+    "docs/round11.md": "21dd118ff167eedae2931fc54c86490aeaf1ee15f8d1ec41e7d9cf188f55444e",
+    "results/copy_wire_experiment.json": "0ac7808d5f4018c7b54014a38d07431041b72128581d6545ba68a4bd5ba5fb1c",
+    "results/round11_execution.json": "66946df01ce526f38d976add8f438cf18ad0f7f0e74cf97444cc814913dfeb6e",
+    "results/tests_round11.log": "929156b54557bc4200594c3df553a78743954eceabe3ca96e4bf5b3c5a1310d6",
+    "scripts/copy_wire_codec.py": "425f7a73f58155d2f61d565be51fa84506003112e1ae25290241bbc3bc061630",
+    "scripts/copy_wire_experiment.py": "420ae15a77ce95bb4ed1babb0a371c784bee5fb7eaf5a4a08986ecc4f957a457",
+    "scripts/run_round11.py": "b47358cc9ab2ad4831b443aba0f2d1de13f2ad36210acf3ceeaff3702047d4c6",
+    "tests/test_copy_wire_codec.py": "387411ece4e25f2d555034633bb07cbf2303f7cdb59a6305fa0e3fe3ec662d89",
+    "results/replay_round11.log": "a4f6bd51c8a1ee1cca49f661f2f41c74092ecd50de180995a8d92fc3a4204cac"
+  }
+}

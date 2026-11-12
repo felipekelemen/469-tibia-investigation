@@ -1,0 +1,52 @@
+{
+  "version": "COPY_WIRE_V1",
+  "frozen_at_utc": "2026-11-12T15:23:45.533993+00:00",
+  "prior_exposure": "All game targets and English authors previously exposed. New protocol precedes the new codec outcomes, not historical exposure.",
+  "maximum_reference_raw_digits": 96,
+  "fixtures_per_cell": 30,
+  "source_books_per_fixture": 70,
+  "source_codes_per_book": 64,
+  "target_pieces": 4,
+  "target_codes_per_uncut_piece": 32,
+  "contents": [
+    "encrypted_english",
+    "shuffled_codes"
+  ],
+  "cuts": [
+    "aligned",
+    "clipped"
+  ],
+  "seed": 114690000,
+  "gate": "In each content cell, at least27/30aligned targets strictly prefer codes and at least27/30clipped targets strictly prefer raw. Ties fail. Failure prevents mechanism identification on game data.",
+  "coding": {
+    "common": "1bit family selector + Elias gamma(raw_target_length+1); literal0 +4bit digit; reference1 +ceil(log2(number_of_source_books))bit book index.",
+    "raw_reference": "ceil(log2(source_raw_length))bit raw start + gamma(raw_length).",
+    "code_reference": "ceil(log2(compatible_alignment_count))bit alignment +ceil(log2(source_code_count))bit code start +gamma(code_count).",
+    "objective": "Exact minimum total bit length, no English scoring; all raw reference lengths1..96; cheapest witness per raw string, ties by bitstring.",
+    "side_information": "Ordered source raw books and complete compatible boundary annotations are shared by both models. These are CONDITIONAL target bits; source/annotation description cost is not included.",
+    "decoder": "Actual prefix bitstreams roundtrip; reference length inferred from addressed source; no cross-book source snippets, no target dictionary learning."
+  },
+  "primary_target": "Previously exposed137digit Kharos; fitted dictionaries contain only70Hellgate books.",
+  "target_controls": {
+    "replicates_each": 99,
+    "modes": [
+      "digit_shuffle",
+      "blocks8_shuffle"
+    ],
+    "score": "Delta=codes_bits-raw_bits. Exploratory upper tail rank per mode; no hypothesis-test or semantic claim."
+  },
+  "secondary_game_evaluation": "Two raw16-overlap components68+2, each predicted only from the other. Previously exposed and tiny; shorter/transformed leakage persists. Sum conditional target bits, not independence of windows.",
+  "translation_gate": "No code-to-English output in this experiment. A copying mechanism does not identify a cipher, true tokenization, or semantic content.",
+  "hashes": {
+    "scripts/copy_wire_codec.py": "425f7a73f58155d2f61d565be51fa84506003112e1ae25290241bbc3bc061630",
+    "scripts/copy_wire_experiment.py": "420ae15a77ce95bb4ed1babb0a371c784bee5fb7eaf5a4a08986ecc4f957a457",
+    "scripts/zero_rule_constraints.py": "1b2c29541fb49f8e0ddbbdb2f756c442b2f57faf984e1a94c80d29bcb3a4a34e",
+    "scripts/homophonic_benchmark.py": "759b096e9b5e9b354926fcdf5d5cedab66346fb5114aa1530d520b51a04baea7",
+    "scripts/raw_digit_decoder.py": "7361ecc965a87e33e766933d10b90a903ab1d1b3e53c9988706ccb3184c9010f",
+    "scripts/raw_parser_benchmark.py": "895993259cb1afd81b21e6ebeecda327fd9e6aeeb4a211d4c3c4f4ec47aaac95",
+    "data/normalized_books.json": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+    "data/external_book_round10.json": "9a5deda3b400350304f0346c89a54855129491bbeacb86bc07776b9e12a5cf25",
+    "data/word_validator_reference/wizard_oz.txt": "969bffab7740d4d8a0bac332d78bd0152ad4a40a2efc52f06c74a9bb6120be75",
+    "data/word_validator_reference/peter_pan.txt": "6b08714281fe38266a756741e4c62915cda7536c2f78cca501f7fd53f3f445ae"
+  }
+}

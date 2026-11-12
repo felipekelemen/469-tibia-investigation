@@ -1,0 +1,6 @@
+python3 scripts/run_round11.py
+Verified120paired mechanism targets, replayed8; all198nulls and70component-held targets replayed.
+All replayed prefix bitstreams decode exactly to raw digits. Conditional source libraries are shared side information.
+Mechanism gates: True
+External target bits: {'raw': 286, 'codes': 277}
+English outputs:0. New key fits:0. Verified translations:0.

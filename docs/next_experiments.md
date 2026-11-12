@@ -301,3 +301,16 @@ sem reversão literal. O controle que preserva multiconjuntos mantém o resultad
 portanto não identifica a ordenação ou semântica. O token 67538 é compartilhado
 entre poema e enquete, permanecendo sem significado atestado. Registrar essas
 restrições em futuras hipóteses de vocabulário, sem usá-las como glosses.
+
+Atualização após a [décima primeira rodada](round11.md): dois codecs de cópia
+com custos explícitos discriminam fronteiras/cortes em 119/120 alvos sintéticos
+pareados, inclusive códigos embaralhados. Em Kharos, códigos completos custam
+277 bits contra 286 do formato raw, condicionados à biblioteca/anotações
+compartilhadas. O vencedor ainda transmite 13 dígitos literalmente, sem códigos
+semânticos. A cobertura anterior em 14 peças não identifica cortes de autoria.
+
+Encerrar a expansão ad hoc de codecs de compressão sem nova pista verificável.
+P03 ganhou uma restrição mecânica e controles, não uma tradução nem prova de
+ausência de mensagem. Priorizar evidência externa de significado/serialização
+em P01/P05 e captura histórica verificável em P06. Permanecem quatro entregas
+principais pendentes, além da integração e validação final.

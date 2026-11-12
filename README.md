@@ -1,13 +1,19 @@
 # 469-tibia-investigation — investigação reproduzível
 
-**Estado: dez rodadas executadas; nenhuma tradução verificável encontrada.**
+**Estado: onze rodadas executadas; nenhuma tradução verificável encontrada.**
 Não afirmamos que o corpus é indecifrável nem que qualquer solução comunitária
 foi confirmada. O alvo é um algoritmo integral que generalize para textos inéditos.
 
 Destino público: https://github.com/felipekelemen/469-tibia-investigation
 
-**Publicado:** corpus normalizado, código, testes e resultados das dez rodadas
+**Publicado:** corpus normalizado, código, testes e resultados das onze rodadas
 disponíveis neste repositório. O acesso de escrita foi confirmado após nova reconexão.
+
+A [décima primeira rodada](docs/round11.md) comparou dois formatos de cópia
+com custos de endereços e comprimentos pagos e decodificação exata. O critério
+distingue cortes/fronteiras em 119/120 alvos sintéticos pareados. Em Kharos,
+referências a códigos custam 277 bits contra 286 de referências raw, mas
+13 dígitos ficam literais. Isso não identifica a cifra ou produz inglês.
 
 A [décima rodada](docs/round10.md) revisou fontes por modalidade e examinou um
 texto externo de Kharos. Um parser de cópia recupera todos os positivos, mas
@@ -83,6 +89,7 @@ make round7
 make round8
 make round9
 make round10
+make round11
 make test
 ```
 

@@ -1,0 +1,14 @@
+{
+  "round": 11,
+  "workstreams_total": 7,
+  "pending_primary_deliverables": 4,
+  "base_plan_sha256": "b53c80fcb8a5285fcac92fa660b1987327d2accd3dab6845059372724ec85897",
+  "updates": {
+    "P03": "Exact paid-address code/raw-copy comparison executed;119/120paired mechanism targets correctly distinguished. Kharos code references277bits vs raw286bits;13literal raw digits. No authoring or semantic mechanism identified.",
+    "P01": "No new source or attested plaintext added this round.",
+    "P05": "No word meanings or new English output inferred.",
+    "P06": "No new authenticated historical capture this round."
+  },
+  "verified_translation_found": false,
+  "next_priority": "Externally attested meaning or raw serialization; authenticate historical room material. Do not extend copy codecs ad hoc to reverse nine bits."
+}

@@ -1,0 +1,38 @@
+{
+  "round": 11,
+  "completed_at_utc": "2026-11-12T15:27:52.451768+00:00",
+  "synthetic_base_fixtures": 30,
+  "paired_content_conditions": 60,
+  "paired_targets": 120,
+  "codecs_per_target": 2,
+  "mechanism_correct": 119,
+  "all_mechanism_gates_pass": true,
+  "target_bits": {
+    "raw": 286,
+    "codes": 277
+  },
+  "target_literal_digits": {
+    "raw": 9,
+    "codes": 13
+  },
+  "source_library_cost_charged": false,
+  "order_controls": 198,
+  "component_held_targets": 70,
+  "new_english_outputs": 0,
+  "new_key_fits": 0,
+  "verified_translations": 0,
+  "automated_tests": {
+    "count": 114,
+    "passed": true,
+    "log": "results/tests_round11.log"
+  },
+  "result": "CONDITIONAL_CODE_COSTS_ONLY_NO_MECHANISM_OR_TRANSLATION_IDENTIFIED",
+  "offline_replay": {
+    "passed": true,
+    "positive_conditions_replayed": 8,
+    "controls_replayed": 198,
+    "component_targets_replayed": 70,
+    "log": "results/replay_round11.log"
+  },
+  "prior_round10_verifier_passed": true
+}

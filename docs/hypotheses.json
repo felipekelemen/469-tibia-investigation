@@ -369,5 +369,19 @@
     "status": "not_found_in_bounded_review_not_universal_absence_claim",
     "evidence": "11 entradas de fontes revistas, incluindo entrevista, NPCs, poema, enquete e livro externo. Referências a entidades e comentários não foram promovidos a plaintext paralelo.",
     "artifact": "data/source_review_round10.json"
+  },
+  {
+    "id": "H54",
+    "hypothesis": "Uma cobertura raw em14peças demonstra que Kharos foi montado por cortes dentro dos códigos",
+    "status": "not_supported_by_paid_address_comparison",
+    "evidence": "Dois codecs prefixos passam gates nas quatro células de mecanismo,119/120acertos pareados. Em Kharos o formato por códigos custa277bits contra286raw;13dígitos literais impedem inferir códigos/inglês completos. Custos são condicionais à biblioteca compartilhada.",
+    "artifact": "results/copy_wire_experiment.json"
+  },
+  {
+    "id": "H55",
+    "hypothesis": "Preferência entre cópia raw e de códigos identifica presença ou ausência de inglês",
+    "status": "mechanism_discrimination_only_not_semantic",
+    "evidence": "Gates passam tanto no inglês cifrado quanto nos códigos embaralhados. Fonte, código verdadeiro, biblioteca e custos são condicionais; a ordem do alvo cortado não é necessariamente prosa coerente.",
+    "artifact": "results/copy_wire_experiment.json"
   }
 ]
