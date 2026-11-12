@@ -1,13 +1,19 @@
 # 469-tibia-investigation — investigação reproduzível
 
-**Estado: doze rodadas executadas; nenhuma tradução verificável encontrada.**
+**Estado: treze rodadas executadas; nenhuma tradução verificável encontrada.**
 Não afirmamos que o corpus é indecifrável nem que qualquer solução comunitária
 foi confirmada. O alvo é um algoritmo integral que generalize para textos inéditos.
 
 Destino público: https://github.com/felipekelemen/469-tibia-investigation
 
-**Publicado:** corpus normalizado, código, testes e resultados das doze rodadas
+**Publicado:** corpus normalizado, código, testes e resultados das treze rodadas
 disponíveis neste repositório. O acesso de escrita foi confirmado após nova reconexão.
+
+A [décima terceira rodada](docs/round13.md) testou a relação ID22/Kharos por
+transposição colunar exata com qualquer ordem de 2–32 colunas. Nenhuma chave
+ajusta o par; uma implementação independente confirma a contradição já na
+primeira coluna. O método passou nos controles de pares conhecidos, mas isso
+não identifica nenhum texto como plaintext nem exclui outras cifras.
 
 A [décima segunda rodada](docs/round12.md) confirmou que Kharos e o livro ID22
 têm exatamente o mesmo histograma de 137 dígitos, mas não os mesmos códigos
@@ -97,6 +103,7 @@ make round9
 make round10
 make round11
 make round12
+make round13
 make test
 ```
 

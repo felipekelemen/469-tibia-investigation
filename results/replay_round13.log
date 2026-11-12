@@ -1,0 +1,7 @@
+python3 scripts/run_round13.py
+Replayed30known-pair controls at each width2..32:927/930unique true keys predict/decrypt173held digits exactly.
+Replayed30identical-column controls; physical key ambiguity preserved, not labeled unique.
+Kharos/book22:0/248parameterizations fit; independent248prefix certificates verified.
+Replayed full-family fits on198histogram-preserving nulls and10directed real anagram pairs.
+Scope:relation between two supplied raw strings, not a ciphertext-only language decoder.
+English outputs:0. Verified translations:0.

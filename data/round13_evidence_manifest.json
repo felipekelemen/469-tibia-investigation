@@ -1,0 +1,19 @@
+{
+  "round": 13,
+  "purpose": "Freeze exact known-pair columnar feasibility, conditional positive qualification and independently constructed necessary-condition certificates. No translation or general cipher exclusion.",
+  "sha256": {
+    "data/columnar_pair_protocol.json": "94c3b78d44637131d01883d1f477e777c81534ff2bc83f43be8dd314f8c70c51",
+    "data/plan_progress_round13.json": "7dcc16a0c36afb17d26373d5c3465fd502bf5128c196a58c248c0b829cdd4170",
+    "docs/round13.md": "3967f689cb0e79d2880db5279d42785de702cdd2b590777697fcbe8a6c4309b2",
+    "results/columnar_pair_experiment.json": "43595df4de9352d488db558d7dd8a1959707e765751b5c57e1260f0e8c7485fb",
+    "results/columnar_prefix_certificates.json": "04c83c1e333882e0aca0c0ac470843ba8304be57c7fc85290410a7b796ed0be4",
+    "results/round13_execution.json": "2beba7c74415b41a775022253360c0a6e4507a000e8db35c7286986d8e02ce69",
+    "results/tests_round13.log": "db7edb5cf34ab1d2117ced4cb3537af41799d164522a30fe377a6b9dcc04e1be",
+    "scripts/exact_columnar_keys.py": "989ec6f506dafafbbebef7f8f645aaa59a46adf1beb985a6fc2cab76d52e9373",
+    "scripts/columnar_pair_experiment.py": "c21e3bf46d72b7ddf5765cc33060aaedd7710ee8dba288a314a145cb34b9b823",
+    "scripts/columnar_prefix_audit.py": "abf44a273b3fab405b59170b37e892cd471147d59453334d34a29630db92afb8",
+    "scripts/run_round13.py": "062ca033f859291c06235bc971de2b5109a54e36a853de70936be94ab415ec92",
+    "tests/test_exact_columnar_keys.py": "fbc8e41b2b8d66c910bef225cc86e4ebf31b6ce9f2d761b8a98bcf2a7e3f3a88",
+    "results/replay_round13.log": "a50613f06591aae090e3bac0de2106ef55f16cbb5d9c764111ee1969e18dd9e5"
+  }
+}

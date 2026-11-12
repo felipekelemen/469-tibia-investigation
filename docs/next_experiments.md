@@ -326,3 +326,16 @@ sem gloss ou validação semântica cega. As alternativas do quiz não são trad
 Não expandir o modelo de conservação com exceções livres. Uma regra concreta
 de transposição/serialização precisará prever dados externos e ter qualificação
 própria; continuar buscando equivalências atestadas e material histórico.
+
+Atualização após a [décima terceira rodada](round13.md): a transposição colunar
+sem padding, qualquer ordem de 2–32 colunas, duas operações e reversões globais
+não relaciona ID22 e Kharos. Nenhuma coluna inicia a saída em 248 parametrizações,
+confirmadas por certificados de outro código que constrói a grade por linhas.
+O inferidor passa nos pares conhecidos em todas as larguras; isso não é ataque
+somente à cifra nem evidência de que um dos livros seja plaintext.
+
+Encerrar essa relação colunar na faixa congelada, sem ampliá-la após o resultado.
+Na frente matricial, priorizar novamente captura histórica verificável da sala,
+com quantidades ocultas e data/versão. Semântica continua a depender de par ou
+regra de origem independente; não houve avanço em significado externamente
+confirmado nem fechamento de um dos quatro entregáveis principais pendentes.

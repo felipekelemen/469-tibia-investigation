@@ -411,5 +411,19 @@
     "status": "numeric_question_attested_by_official_index_no_English_gloss_found",
     "evidence": "Questão10com21dígitos confirmada no índice do domínio oficial; abertura web direta403. Alternativas são reações, não significados atestados. Texto já público upstream, sem5gramas compartilhados com Hellgate.",
     "artifact": "data/source_review_round12.json"
+  },
+  {
+    "id": "H60",
+    "hypothesis": "ID22 e Kharos se relacionam por transposição colunar pura com ordem arbitrária de2–32colunas",
+    "status": "rejected_for_exact_paired_raw_relation_only",
+    "evidence": "248parametrizações com duas operações e reversões globais:0chaves e0limites atingidos. Outra implementação confirma4216divergências de prefixo em248certificados. Não supõe plaintext nem exclui transposição em outras cifras.",
+    "artifact": "results/columnar_pair_experiment.json"
+  },
+  {
+    "id": "H61",
+    "hypothesis": "Colunas iguais no ajuste podem ser reduzidas a uma única chave física para predizer novos textos",
+    "status": "false_uniqueness_guard_verified",
+    "evidence": "30controles de colunas repetidas admitem1.828.915.200chaves cada, e256retidas predizem256saídas distintas no segundo texto. Contagem de chaves preserva fatoriais de identidades. Não há interpretação inglesa.",
+    "artifact": "results/columnar_pair_experiment.json"
   }
 ]
