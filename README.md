@@ -1,13 +1,19 @@
 # 469-tibia-investigation — investigação reproduzível
 
-**Estado: nove rodadas executadas; nenhuma tradução verificável encontrada.**
+**Estado: dez rodadas executadas; nenhuma tradução verificável encontrada.**
 Não afirmamos que o corpus é indecifrável nem que qualquer solução comunitária
 foi confirmada. O alvo é um algoritmo integral que generalize para textos inéditos.
 
 Destino público: https://github.com/felipekelemen/469-tibia-investigation
 
-**Publicado:** corpus normalizado, código, testes e resultados das nove rodadas
+**Publicado:** corpus normalizado, código, testes e resultados das dez rodadas
 disponíveis neste repositório. O acesso de escrita foi confirmado após nova reconexão.
+
+A [décima rodada](docs/round10.md) revisou fontes por modalidade e examinou um
+texto externo de Kharos. Um parser de cópia recupera todos os positivos, mas
+deixa 81/137 dígitos do alvo sem reconstrução no limiar principal. Uma cobertura
+por 14 fragmentos raw não transfere automaticamente fronteiras dos códigos.
+Não houve novo plaintext longo atestado nem saída inglesa para esse livro.
 
 A [nona rodada](docs/round9.md) excluiu 18 famílias adicionais de estado e
 comprimento para os zeros importados e auditou os metadados: `book_positions`
@@ -76,6 +82,7 @@ make round6
 make round7
 make round8
 make round9
+make round10
 make test
 ```
 

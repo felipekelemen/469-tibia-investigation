@@ -1,0 +1,15 @@
+{
+  "round": 10,
+  "workstreams_total": 7,
+  "pending_primary_deliverables": 4,
+  "base_plan_sha256": "b53c80fcb8a5285fcac92fa660b1987327d2accd3dab6845059372724ec85897",
+  "updates": {
+    "P01": "External137-digit Kharos book independently compared with a wiki transcription; already public and partly reused. No new long attested plaintext.",
+    "P02": "Copy-conditioned raw-to-code parser passes its operational controls. Not unknown-key or semantic qualification.",
+    "P03": "Raw copying and inherited code-boundary copying differ on the external book; no whole-book code reconstruction.",
+    "P05": "Whole-word digit relations recalculated with controls; no meanings assigned.",
+    "P06": "Bounded searches surfaced old forum leads but no authenticated room capture."
+  },
+  "verified_translation_found": false,
+  "next_priority": "Explicitly attested number/English material or an independently testable serialization rule outside copied fragments."
+}

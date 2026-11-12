@@ -1,0 +1,46 @@
+{
+  "version": "RAW_COPY_PARSER_V1",
+  "frozen_at_utc": "2026-11-12T12:37:44.460411+00:00",
+  "dictionary_minimum_raw": 8,
+  "dictionary_maximum_raw": 96,
+  "minimums": [
+    8,
+    12,
+    16
+  ],
+  "primary_minimum": 16,
+  "stream_cap": 512,
+  "source_alignment_cap": 4096,
+  "objective": "Lexicographic minimum uncovered raw digits, then copied pieces. No English scoring or choice among code streams by readability.",
+  "positive_fixtures": 30,
+  "positive_design": "8source motifs of64letters each; encode with random99-code key andIIDzero omissions; target concatenates4distinct exact raw motifs in a new order.",
+  "controls": [
+    "raw_digit_shuffle",
+    "raw_blocks8_shuffle",
+    "whole_motif_order_shuffle"
+  ],
+  "positive_gate_each_minimum": "At least27/30targets have a complete unique minimum-cost code sequence exactly equal to truth.",
+  "game_literal_gate": "Only primary minimum16passing synthetic code-copy gate AND complete unique full Kharos reconstruction may display the fixedV4English-key literal. No new key fit.",
+  "validation_scope": "External book absent from70training books, but publicly exposed upstream and sharing motifs; not blind semantic validation.",
+  "hashes": {
+    "scripts/raw_copy_parser.py": "f2f90c4cb1f8a3dfb655c71cbb5a9772730c7a40a524f1dc30bca3f6b5158750",
+    "scripts/copy_parser_experiment.py": "5007f05c3e46e11515fbf5d8d7c411aa524467078d7f3c38c7360bf7eac27348",
+    "scripts/zero_rule_constraints.py": "1b2c29541fb49f8e0ddbbdb2f756c442b2f57faf984e1a94c80d29bcb3a4a34e",
+    "scripts/raw_parser_benchmark.py": "895993259cb1afd81b21e6ebeecda327fd9e6aeeb4a211d4c3c4f4ec47aaac95",
+    "scripts/raw_digit_decoder.py": "7361ecc965a87e33e766933d10b90a903ab1d1b3e53c9988706ccb3184c9010f",
+    "scripts/homophonic_benchmark.py": "759b096e9b5e9b354926fcdf5d5cedab66346fb5114aa1530d520b51a04baea7",
+    "data/normalized_books.json": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+    "data/external_book_round10.json": "9a5deda3b400350304f0346c89a54855129491bbeacb86bc07776b9e12a5cf25",
+    "results/qualified_tibia_search_v4.json": "05459a9d4c65a7dc8330298b005b2c46224839a625f8b84699fc033b8010c1b1",
+    "data/word_validator_reference/wizard_oz.txt": "969bffab7740d4d8a0bac332d78bd0152ad4a40a2efc52f06c74a9bb6120be75",
+    "data/word_validator_reference/peter_pan.txt": "6b08714281fe38266a756741e4c62915cda7536c2f78cca501f7fd53f3f445ae"
+  },
+  "limits": [
+    "Source code streams are supplied/imported. The dictionary parser generalizes only recombinations of observed raw/code fragments.",
+    "Source snippets never cross books; target recombination is deliberate and not evidence of original word boundaries.",
+    "Coverage or a unique minimum under this dictionary does not establish plaintext, language or true tokenization.",
+    "FixedV4key was selected on the public source corpus. Copied target material leaks those source contents.",
+    "Capped enumeration returns incomplete and forbids uniqueness/translation claims.",
+    "Previously opened English authors are parser controls, not fresh coherence qualification."
+  ]
+}

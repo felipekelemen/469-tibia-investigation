@@ -1,0 +1,505 @@
+{
+  "diagnostic_result_sha256": "a2a274e8d8b15aa3f49b6b9c25680221c912f7a2b81f2b71d1fbf4ebd4ad27c0",
+  "pieces": [
+    {
+      "target_raw_start": 0,
+      "target_raw_end": 16,
+      "raw_length": 16,
+      "raw": "5159564611414519",
+      "raw_occurrences": 12,
+      "has_source_code_boundary_match": false,
+      "compatible_code_boundary_witnesses": [],
+      "unique_boundary_code_sequences": 0
+    },
+    {
+      "target_raw_start": 16,
+      "target_raw_end": 39,
+      "raw_length": 23,
+      "raw": "05845217652197278304648",
+      "raw_occurrences": 13,
+      "has_source_code_boundary_match": false,
+      "compatible_code_boundary_witnesses": [],
+      "unique_boundary_code_sequences": 0
+    },
+    {
+      "target_raw_start": 39,
+      "target_raw_end": 52,
+      "raw_length": 13,
+      "raw": "7963661252757",
+      "raw_occurrences": 9,
+      "has_source_code_boundary_match": true,
+      "compatible_code_boundary_witnesses": [
+        {
+          "book_id": "2",
+          "raw_start": 107,
+          "raw_end": 120,
+          "alignment_index": 0,
+          "codes": [
+            "07",
+            "96",
+            "36",
+            "61",
+            "25",
+            "27",
+            "57"
+          ]
+        },
+        {
+          "book_id": "2",
+          "raw_start": 107,
+          "raw_end": 120,
+          "alignment_index": 1,
+          "codes": [
+            "07",
+            "96",
+            "36",
+            "61",
+            "25",
+            "27",
+            "57"
+          ]
+        },
+        {
+          "book_id": "5",
+          "raw_start": 68,
+          "raw_end": 81,
+          "alignment_index": 0,
+          "codes": [
+            "07",
+            "96",
+            "36",
+            "61",
+            "25",
+            "27",
+            "57"
+          ]
+        },
+        {
+          "book_id": "9",
+          "raw_start": 66,
+          "raw_end": 79,
+          "alignment_index": 0,
+          "codes": [
+            "07",
+            "96",
+            "36",
+            "61",
+            "25",
+            "27",
+            "57"
+          ]
+        },
+        {
+          "book_id": "22",
+          "raw_start": 69,
+          "raw_end": 82,
+          "alignment_index": 0,
+          "codes": [
+            "07",
+            "96",
+            "36",
+            "61",
+            "25",
+            "27",
+            "57"
+          ]
+        }
+      ],
+      "unique_boundary_code_sequences": 1
+    },
+    {
+      "target_raw_start": 52,
+      "target_raw_end": 68,
+      "raw_length": 16,
+      "raw": "8967212778894388",
+      "raw_occurrences": 4,
+      "has_source_code_boundary_match": true,
+      "compatible_code_boundary_witnesses": [
+        {
+          "book_id": "2",
+          "raw_start": 43,
+          "raw_end": 59,
+          "alignment_index": 0,
+          "codes": [
+            "89",
+            "67",
+            "21",
+            "27",
+            "78",
+            "89",
+            "43",
+            "88"
+          ]
+        },
+        {
+          "book_id": "2",
+          "raw_start": 43,
+          "raw_end": 59,
+          "alignment_index": 1,
+          "codes": [
+            "89",
+            "67",
+            "21",
+            "27",
+            "78",
+            "89",
+            "43",
+            "88"
+          ]
+        },
+        {
+          "book_id": "22",
+          "raw_start": 5,
+          "raw_end": 21,
+          "alignment_index": 0,
+          "codes": [
+            "89",
+            "67",
+            "21",
+            "27",
+            "78",
+            "89",
+            "43",
+            "88"
+          ]
+        },
+        {
+          "book_id": "42",
+          "raw_start": 108,
+          "raw_end": 124,
+          "alignment_index": 0,
+          "codes": [
+            "89",
+            "67",
+            "21",
+            "27",
+            "78",
+            "89",
+            "43",
+            "88"
+          ]
+        },
+        {
+          "book_id": "67",
+          "raw_start": 74,
+          "raw_end": 90,
+          "alignment_index": 0,
+          "codes": [
+            "89",
+            "67",
+            "21",
+            "27",
+            "78",
+            "89",
+            "43",
+            "88"
+          ]
+        }
+      ],
+      "unique_boundary_code_sequences": 1
+    },
+    {
+      "target_raw_start": 68,
+      "target_raw_end": 83,
+      "raw_length": 15,
+      "raw": "727857261185764",
+      "raw_occurrences": 15,
+      "has_source_code_boundary_match": true,
+      "compatible_code_boundary_witnesses": [
+        {
+          "book_id": "26",
+          "raw_start": 39,
+          "raw_end": 54,
+          "alignment_index": 0,
+          "codes": [
+            "72",
+            "78",
+            "57",
+            "26",
+            "11",
+            "08",
+            "57",
+            "64"
+          ]
+        },
+        {
+          "book_id": "56",
+          "raw_start": 92,
+          "raw_end": 107,
+          "alignment_index": 0,
+          "codes": [
+            "72",
+            "78",
+            "57",
+            "26",
+            "11",
+            "08",
+            "57",
+            "64"
+          ]
+        }
+      ],
+      "unique_boundary_code_sequences": 1
+    },
+    {
+      "target_raw_start": 83,
+      "target_raw_end": 86,
+      "raw_length": 3,
+      "raw": "217",
+      "raw_occurrences": 32,
+      "has_source_code_boundary_match": false,
+      "compatible_code_boundary_witnesses": [],
+      "unique_boundary_code_sequences": 0
+    },
+    {
+      "target_raw_start": 86,
+      "target_raw_end": 90,
+      "raw_length": 4,
+      "raw": "6145",
+      "raw_occurrences": 6,
+      "has_source_code_boundary_match": false,
+      "compatible_code_boundary_witnesses": [],
+      "unique_boundary_code_sequences": 0
+    },
+    {
+      "target_raw_start": 90,
+      "target_raw_end": 104,
+      "raw_length": 14,
+      "raw": "88952196180031",
+      "raw_occurrences": 8,
+      "has_source_code_boundary_match": true,
+      "compatible_code_boundary_witnesses": [
+        {
+          "book_id": "2",
+          "raw_start": 65,
+          "raw_end": 79,
+          "alignment_index": 0,
+          "codes": [
+            "88",
+            "95",
+            "21",
+            "96",
+            "18",
+            "00",
+            "31"
+          ]
+        },
+        {
+          "book_id": "2",
+          "raw_start": 65,
+          "raw_end": 79,
+          "alignment_index": 1,
+          "codes": [
+            "88",
+            "95",
+            "21",
+            "96",
+            "18",
+            "00",
+            "31"
+          ]
+        },
+        {
+          "book_id": "5",
+          "raw_start": 26,
+          "raw_end": 40,
+          "alignment_index": 0,
+          "codes": [
+            "88",
+            "95",
+            "21",
+            "96",
+            "18",
+            "00",
+            "31"
+          ]
+        },
+        {
+          "book_id": "9",
+          "raw_start": 24,
+          "raw_end": 38,
+          "alignment_index": 0,
+          "codes": [
+            "88",
+            "95",
+            "21",
+            "96",
+            "18",
+            "00",
+            "31"
+          ]
+        },
+        {
+          "book_id": "22",
+          "raw_start": 27,
+          "raw_end": 41,
+          "alignment_index": 0,
+          "codes": [
+            "88",
+            "95",
+            "21",
+            "96",
+            "18",
+            "00",
+            "31"
+          ]
+        }
+      ],
+      "unique_boundary_code_sequences": 1
+    },
+    {
+      "target_raw_start": 104,
+      "target_raw_end": 109,
+      "raw_length": 5,
+      "raw": "65128",
+      "raw_occurrences": 31,
+      "has_source_code_boundary_match": true,
+      "compatible_code_boundary_witnesses": [
+        {
+          "book_id": "16",
+          "raw_start": 144,
+          "raw_end": 149,
+          "alignment_index": 0,
+          "codes": [
+            "65",
+            "01",
+            "28"
+          ]
+        },
+        {
+          "book_id": "22",
+          "raw_start": 0,
+          "raw_end": 5,
+          "alignment_index": 0,
+          "codes": [
+            "65",
+            "01",
+            "28"
+          ]
+        }
+      ],
+      "unique_boundary_code_sequences": 1
+    },
+    {
+      "target_raw_start": 109,
+      "target_raw_end": 120,
+      "raw_length": 11,
+      "raw": "88997511216",
+      "raw_occurrences": 9,
+      "has_source_code_boundary_match": false,
+      "compatible_code_boundary_witnesses": [],
+      "unique_boundary_code_sequences": 0
+    },
+    {
+      "target_raw_start": 120,
+      "target_raw_end": 124,
+      "raw_length": 4,
+      "raw": "1512",
+      "raw_occurrences": 14,
+      "has_source_code_boundary_match": true,
+      "compatible_code_boundary_witnesses": [
+        {
+          "book_id": "2",
+          "raw_start": 61,
+          "raw_end": 65,
+          "alignment_index": 0,
+          "codes": [
+            "15",
+            "12"
+          ]
+        },
+        {
+          "book_id": "2",
+          "raw_start": 61,
+          "raw_end": 65,
+          "alignment_index": 1,
+          "codes": [
+            "15",
+            "12"
+          ]
+        },
+        {
+          "book_id": "5",
+          "raw_start": 22,
+          "raw_end": 26,
+          "alignment_index": 0,
+          "codes": [
+            "15",
+            "12"
+          ]
+        },
+        {
+          "book_id": "9",
+          "raw_start": 20,
+          "raw_end": 24,
+          "alignment_index": 0,
+          "codes": [
+            "15",
+            "12"
+          ]
+        },
+        {
+          "book_id": "22",
+          "raw_start": 23,
+          "raw_end": 27,
+          "alignment_index": 0,
+          "codes": [
+            "15",
+            "12"
+          ]
+        }
+      ],
+      "unique_boundary_code_sequences": 1
+    },
+    {
+      "target_raw_start": 124,
+      "target_raw_end": 129,
+      "raw_length": 5,
+      "raw": "72151",
+      "raw_occurrences": 10,
+      "has_source_code_boundary_match": true,
+      "compatible_code_boundary_witnesses": [
+        {
+          "book_id": "23",
+          "raw_start": 98,
+          "raw_end": 103,
+          "alignment_index": 0,
+          "codes": [
+            "07",
+            "21",
+            "51"
+          ]
+        }
+      ],
+      "unique_boundary_code_sequences": 1
+    },
+    {
+      "target_raw_start": 129,
+      "target_raw_end": 134,
+      "raw_length": 5,
+      "raw": "96805",
+      "raw_occurrences": 10,
+      "has_source_code_boundary_match": false,
+      "compatible_code_boundary_witnesses": [],
+      "unique_boundary_code_sequences": 0
+    },
+    {
+      "target_raw_start": 134,
+      "target_raw_end": 137,
+      "raw_length": 3,
+      "raw": "970",
+      "raw_occurrences": 11,
+      "has_source_code_boundary_match": false,
+      "compatible_code_boundary_witnesses": [],
+      "unique_boundary_code_sequences": 0
+    }
+  ],
+  "pieces_without_any_source_code_boundary_match": 7,
+  "first16digits_boundary_match": false,
+  "limits": [
+    "Representative minimum raw cover, not a reconstruction of author editing history.",
+    "Failure of fragment-boundary transfer does not disprove a cipher; texts can be clipped, spliced, altered or tokenized differently.",
+    "No whole target code sequence or English plaintext was inferred."
+  ],
+  "verified_translations": 0
+}

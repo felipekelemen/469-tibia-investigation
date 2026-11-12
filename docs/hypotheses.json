@@ -334,5 +334,40 @@
     "status": "playback_blocked_no_frames_inspected",
     "evidence": "O player foi aberto em Chromium: assets do cliente retornaram 200, reprodução 403 e janela de verificação humana. Zero quadros foram inspecionados; a data do catálogo não autentica a contagem da matriz.",
     "artifact": "results/historical_cam_probe_round9.json"
+  },
+  {
+    "id": "H49",
+    "hypothesis": "Há um texto numérico externo de Kharos ausente dos70livros normalizados",
+    "status": "text_corroborated_but_public_and_partially_reused",
+    "evidence": "137 dígitos coincidem entre snapshot s2ward e wiki, revisão indicada403186. Não é livro nem substring integral dos70; não há plaintext atestado.",
+    "artifact": "data/external_book_round10.json"
+  },
+  {
+    "id": "H50",
+    "hypothesis": "Cópia de fragmentos com fronteiras importadas reconstrói o livro de Kharos",
+    "status": "positive_controls_pass_target_incomplete",
+    "evidence": "30/30 códigos exatos por limiar8/12/16 nos controles pareados; Kharos deixa27/28/81 dígitos residuais. Nenhum novo mapa inglês foi ajustado.",
+    "artifact": "results/copy_parser_experiment.json"
+  },
+  {
+    "id": "H51",
+    "hypothesis": "Cópia de dígitos identifica automaticamente a mesma camada de códigos ou significado",
+    "status": "raw_reuse_demonstrated_code_boundary_transfer_incomplete",
+    "evidence": "Cobertura raw em14peças;7sem qualquer testemunha alinhada a códigos; ranks exploratórios0.01 em dois nulos. Não identifica significado ou edição histórica.",
+    "artifact": "results/kharos_boundary_audit.json"
+  },
+  {
+    "id": "H52",
+    "hypothesis": "Pares3478/4378 e345/453 constituem uma reversão ou uma tradução validada",
+    "status": "anagram_relation_only_not_reversal_or_semantics",
+    "evidence": "Dois pares com mesmo multiconjunto de dígitos, sem reversão literal;999renomeações dão rank0.001 e999shuffles internos preservam estatística com rank1.0. Token67538compartilhado com enquete, sem gloss.",
+    "artifact": "results/npc_digit_relation_audit.json"
+  },
+  {
+    "id": "H53",
+    "hypothesis": "As fontes revistas fornecem novo par longo número/inglês explicitamente atestado",
+    "status": "not_found_in_bounded_review_not_universal_absence_claim",
+    "evidence": "11 entradas de fontes revistas, incluindo entrevista, NPCs, poema, enquete e livro externo. Referências a entidades e comentários não foram promovidos a plaintext paralelo.",
+    "artifact": "data/source_review_round10.json"
   }
 ]

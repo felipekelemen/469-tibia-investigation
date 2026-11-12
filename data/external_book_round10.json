@@ -1,0 +1,24 @@
+{
+  "id": "kharos_5159564611",
+  "digits": "51595646114145190584521765219727830464879636612527578967212778894388727857261185764217614588952196180031651288899751121615127215196805970",
+  "modality": "external_numeric_book",
+  "source_url": "https://www.tibiawiki.com.br/wiki/5159564611_%28Book%29",
+  "reported_revision": "403186",
+  "reported_location": "Kharos / Ferumbras Citadel",
+  "reported_version": "7.8",
+  "source_method": "Readable indexed wiki page; not authenticated in-game capture",
+  "previously_public": true,
+  "previously_used_by_this_project_for_key_fitting": false,
+  "semantic_gloss": null,
+  "limits": [
+    "Known upstream and reused content are not prospective blind validation.",
+    "Date/version/location are attributed to wiki metadata, not independently authenticated."
+  ],
+  "upstream_source": {
+    "url": "https://github.com/s2ward/469/blob/4b1c4d3d2b07ed373f4cca44ac1270638614cef5/data/books_sorted_unique_with_kharos.json",
+    "commit": "4b1c4d3d2b07ed373f4cca44ac1270638614cef5",
+    "sha256": "02c649b315af8a1c61662b96bc003c7007abfcc0957e1f57b6e5d84513f041ea"
+  },
+  "digits_sha256": "587576d93737c9bf7d76b126983d43be115497e110e2ce2bf46dc3b152d44630",
+  "length": 137
+}

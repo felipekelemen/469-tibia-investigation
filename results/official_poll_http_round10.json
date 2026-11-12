@@ -1,0 +1,12 @@
+{
+  "url": "https://www.tibia.com/community/?subtopic=polls&page=show&questionaireid=1009",
+  "retrieved_at_utc": "2026-11-12T12:55:24.962579+00:00",
+  "method": "Single direct public HTTPS GET after tool access unavailable; no browser challenge interaction.",
+  "http_status": 403,
+  "final_url": "https://www.tibia.com/community/?subtopic=polls&page=show&questionaireid=1009",
+  "bytes": 17,
+  "sha256": "2938e9f1284180959e33ab1718d0793a72ff6e4cdb8108c34dcd14e69446de5c",
+  "raw_capture": "Local only, ignored by git.",
+  "numeric_option_present": false,
+  "human_check_marker": false
+}

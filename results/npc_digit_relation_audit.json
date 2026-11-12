@@ -1,0 +1,8053 @@
+{
+  "plan": {
+    "role": "Exploratory follow-up to a community-selected correspondence, not blind semantic validation.",
+    "comparison": "Distinct whole Knightmare tokens of length>=3 whose sorted digits equal a whole Avar token.",
+    "controls": {
+      "replicates": 999,
+      "seed": 106690000,
+      "global_relabel": "Uniform bijection of digits1..9, with0fixed, applied to all poem tokens. Preserves lengths, repetition/equality structure, zero positions and histogram shape, but not counts attached to specific nonzero labels.",
+      "within_word_shuffle": "Shuffle digits inside each unique poem word, use the same transformed word at each repetition. Preserves exact per-word digit multisets and the statistic itself."
+    },
+    "source_sha256": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+    "implementation_sha256": "fcb765c102c937355c9c55ba59af9ed6fab41fafb5d5232160d974d19f62bdbc",
+    "limits": [
+      "Community attention selected these pairs and relation type; reported ranks are exploratory.",
+      "Anagram equality is not reversal, a unique permutation, shared meaning or an English gloss.",
+      "No tested relation supplies a general translator or new semantic validation."
+    ]
+  },
+  "plan_sha256": "e7bf4a4fc6d8646e3a95e899722d14693fa92aa66ea7b8d2232637fc548d7a4a",
+  "numeric_word_counts": {
+    "knightmare": 7,
+    "avar": 20,
+    "poll": 6
+  },
+  "matched_distinct_knightmare_words": 2,
+  "pairs": [
+    {
+      "knightmare": "345",
+      "avar": "453",
+      "same_digit_multiset": true,
+      "literal_reversal": false
+    },
+    {
+      "knightmare": "3478",
+      "avar": "4378",
+      "same_digit_multiset": true,
+      "literal_reversal": false
+    }
+  ],
+  "exact_shared_avar_poll_words": [
+    "67538"
+  ],
+  "controls": [
+    {
+      "mode": "global_relabel",
+      "trials": [
+        {
+          "replicate": 0,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 1,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 2,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 3,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 4,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 5,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 6,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 7,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 8,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 9,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 10,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 11,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 12,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 13,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 14,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 15,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 16,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 17,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 18,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 19,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 20,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 21,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 22,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 23,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 24,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 25,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 26,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 27,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 28,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 29,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 30,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 31,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 32,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 33,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 34,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 35,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 36,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 37,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 38,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 39,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 40,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 41,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 42,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 43,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 44,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 45,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 46,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 47,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 48,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 49,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 50,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 51,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 52,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 53,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 54,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 55,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 56,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 57,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 58,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 59,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 60,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 61,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 62,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 63,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 64,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 65,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 66,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 67,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 68,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 69,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 70,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 71,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 72,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 73,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 74,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 75,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 76,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 77,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 78,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 79,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 80,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 81,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 82,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 83,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 84,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 85,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 86,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 87,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 88,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 89,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 90,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 91,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 92,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 93,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 94,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 95,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 96,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 97,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 98,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 99,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 100,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 101,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 102,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 103,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 104,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 105,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 106,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 107,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 108,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 109,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 110,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 111,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 112,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 113,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 114,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 115,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 116,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 117,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 118,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 119,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 120,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 121,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 122,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 123,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 124,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 125,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 126,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 127,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 128,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 129,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 130,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 131,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 132,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 133,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 134,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 135,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 136,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 137,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 138,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 139,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 140,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 141,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 142,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 143,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 144,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 145,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 146,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 147,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 148,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 149,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 150,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 151,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 152,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 153,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 154,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 155,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 156,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 157,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 158,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 159,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 160,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 161,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 162,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 163,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 164,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 165,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 166,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 167,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 168,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 169,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 170,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 171,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 172,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 173,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 174,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 175,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 176,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 177,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 178,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 179,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 180,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 181,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 182,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 183,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 184,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 185,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 186,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 187,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 188,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 189,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 190,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 191,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 192,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 193,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 194,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 195,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 196,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 197,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 198,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 199,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 200,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 201,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 202,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 203,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 204,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 205,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 206,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 207,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 208,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 209,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 210,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 211,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 212,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 213,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 214,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 215,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 216,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 217,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 218,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 219,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 220,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 221,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 222,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 223,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 224,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 225,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 226,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 227,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 228,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 229,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 230,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 231,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 232,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 233,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 234,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 235,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 236,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 237,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 238,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 239,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 240,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 241,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 242,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 243,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 244,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 245,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 246,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 247,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 248,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 249,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 250,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 251,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 252,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 253,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 254,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 255,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 256,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 257,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 258,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 259,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 260,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 261,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 262,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 263,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 264,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 265,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 266,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 267,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 268,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 269,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 270,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 271,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 272,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 273,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 274,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 275,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 276,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 277,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 278,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 279,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 280,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 281,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 282,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 283,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 284,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 285,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 286,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 287,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 288,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 289,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 290,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 291,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 292,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 293,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 294,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 295,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 296,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 297,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 298,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 299,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 300,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 301,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 302,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 303,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 304,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 305,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 306,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 307,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 308,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 309,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 310,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 311,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 312,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 313,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 314,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 315,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 316,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 317,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 318,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 319,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 320,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 321,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 322,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 323,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 324,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 325,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 326,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 327,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 328,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 329,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 330,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 331,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 332,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 333,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 334,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 335,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 336,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 337,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 338,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 339,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 340,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 341,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 342,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 343,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 344,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 345,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 346,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 347,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 348,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 349,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 350,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 351,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 352,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 353,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 354,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 355,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 356,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 357,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 358,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 359,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 360,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 361,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 362,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 363,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 364,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 365,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 366,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 367,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 368,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 369,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 370,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 371,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 372,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 373,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 374,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 375,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 376,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 377,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 378,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 379,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 380,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 381,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 382,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 383,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 384,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 385,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 386,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 387,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 388,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 389,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 390,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 391,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 392,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 393,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 394,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 395,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 396,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 397,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 398,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 399,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 400,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 401,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 402,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 403,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 404,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 405,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 406,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 407,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 408,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 409,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 410,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 411,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 412,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 413,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 414,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 415,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 416,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 417,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 418,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 419,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 420,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 421,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 422,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 423,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 424,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 425,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 426,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 427,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 428,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 429,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 430,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 431,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 432,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 433,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 434,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 435,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 436,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 437,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 438,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 439,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 440,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 441,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 442,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 443,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 444,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 445,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 446,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 447,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 448,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 449,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 450,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 451,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 452,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 453,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 454,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 455,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 456,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 457,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 458,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 459,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 460,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 461,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 462,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 463,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 464,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 465,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 466,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 467,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 468,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 469,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 470,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 471,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 472,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 473,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 474,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 475,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 476,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 477,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 478,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 479,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 480,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 481,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 482,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 483,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 484,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 485,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 486,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 487,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 488,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 489,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 490,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 491,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 492,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 493,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 494,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 495,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 496,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 497,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 498,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 499,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 500,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 501,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 502,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 503,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 504,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 505,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 506,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 507,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 508,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 509,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 510,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 511,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 512,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 513,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 514,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 515,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 516,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 517,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 518,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 519,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 520,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 521,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 522,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 523,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 524,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 525,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 526,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 527,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 528,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 529,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 530,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 531,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 532,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 533,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 534,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 535,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 536,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 537,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 538,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 539,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 540,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 541,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 542,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 543,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 544,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 545,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 546,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 547,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 548,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 549,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 550,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 551,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 552,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 553,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 554,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 555,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 556,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 557,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 558,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 559,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 560,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 561,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 562,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 563,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 564,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 565,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 566,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 567,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 568,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 569,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 570,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 571,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 572,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 573,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 574,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 575,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 576,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 577,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 578,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 579,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 580,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 581,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 582,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 583,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 584,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 585,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 586,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 587,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 588,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 589,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 590,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 591,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 592,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 593,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 594,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 595,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 596,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 597,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 598,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 599,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 600,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 601,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 602,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 603,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 604,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 605,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 606,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 607,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 608,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 609,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 610,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 611,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 612,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 613,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 614,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 615,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 616,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 617,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 618,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 619,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 620,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 621,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 622,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 623,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 624,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 625,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 626,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 627,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 628,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 629,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 630,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 631,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 632,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 633,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 634,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 635,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 636,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 637,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 638,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 639,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 640,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 641,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 642,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 643,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 644,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 645,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 646,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 647,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 648,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 649,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 650,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 651,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 652,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 653,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 654,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 655,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 656,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 657,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 658,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 659,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 660,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 661,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 662,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 663,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 664,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 665,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 666,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 667,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 668,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 669,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 670,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 671,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 672,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 673,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 674,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 675,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 676,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 677,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 678,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 679,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 680,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 681,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 682,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 683,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 684,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 685,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 686,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 687,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 688,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 689,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 690,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 691,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 692,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 693,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 694,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 695,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 696,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 697,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 698,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 699,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 700,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 701,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 702,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 703,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 704,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 705,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 706,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 707,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 708,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 709,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 710,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 711,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 712,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 713,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 714,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 715,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 716,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 717,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 718,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 719,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 720,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 721,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 722,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 723,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 724,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 725,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 726,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 727,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 728,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 729,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 730,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 731,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 732,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 733,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 734,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 735,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 736,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 737,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 738,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 739,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 740,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 741,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 742,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 743,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 744,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 745,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 746,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 747,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 748,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 749,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 750,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 751,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 752,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 753,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 754,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 755,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 756,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 757,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 758,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 759,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 760,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 761,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 762,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 763,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 764,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 765,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 766,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 767,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 768,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 769,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 770,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 771,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 772,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 773,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 774,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 775,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 776,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 777,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 778,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 779,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 780,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 781,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 782,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 783,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 784,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 785,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 786,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 787,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 788,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 789,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 790,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 791,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 792,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 793,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 794,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 795,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 796,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 797,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 798,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 799,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 800,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 801,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 802,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 803,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 804,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 805,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 806,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 807,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 808,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 809,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 810,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 811,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 812,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 813,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 814,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 815,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 816,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 817,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 818,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 819,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 820,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 821,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 822,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 823,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 824,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 825,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 826,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 827,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 828,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 829,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 830,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 831,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 832,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 833,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 834,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 835,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 836,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 837,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 838,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 839,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 840,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 841,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 842,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 843,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 844,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 845,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 846,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 847,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 848,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 849,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 850,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 851,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 852,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 853,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 854,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 855,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 856,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 857,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 858,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 859,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 860,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 861,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 862,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 863,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 864,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 865,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 866,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 867,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 868,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 869,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 870,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 871,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 872,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 873,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 874,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 875,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 876,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 877,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 878,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 879,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 880,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 881,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 882,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 883,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 884,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 885,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 886,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 887,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 888,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 889,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 890,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 891,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 892,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 893,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 894,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 895,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 896,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 897,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 898,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 899,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 900,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 901,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 902,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 903,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 904,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 905,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 906,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 907,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 908,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 909,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 910,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 911,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 912,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 913,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 914,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 915,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 916,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 917,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 918,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 919,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 920,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 921,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 922,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 923,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 924,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 925,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 926,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 927,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 928,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 929,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 930,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 931,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 932,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 933,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 934,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 935,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 936,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 937,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 938,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 939,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 940,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 941,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 942,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 943,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 944,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 945,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 946,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 947,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 948,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 949,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 950,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 951,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 952,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 953,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 954,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 955,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 956,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 957,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 958,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 959,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 960,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 961,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 962,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 963,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 964,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 965,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 966,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 967,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 968,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 969,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 970,
+          "matched_source_words": 1
+        },
+        {
+          "replicate": 971,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 972,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 973,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 974,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 975,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 976,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 977,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 978,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 979,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 980,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 981,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 982,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 983,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 984,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 985,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 986,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 987,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 988,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 989,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 990,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 991,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 992,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 993,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 994,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 995,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 996,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 997,
+          "matched_source_words": 0
+        },
+        {
+          "replicate": 998,
+          "matched_source_words": 0
+        }
+      ],
+      "exploratory_upper_tail_rank": 0.001,
+      "statistic_invariant": false
+    },
+    {
+      "mode": "within_word_shuffle",
+      "trials": [
+        {
+          "replicate": 0,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 1,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 2,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 3,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 4,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 5,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 6,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 7,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 8,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 9,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 10,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 11,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 12,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 13,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 14,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 15,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 16,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 17,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 18,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 19,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 20,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 21,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 22,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 23,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 24,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 25,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 26,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 27,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 28,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 29,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 30,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 31,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 32,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 33,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 34,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 35,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 36,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 37,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 38,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 39,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 40,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 41,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 42,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 43,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 44,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 45,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 46,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 47,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 48,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 49,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 50,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 51,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 52,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 53,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 54,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 55,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 56,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 57,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 58,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 59,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 60,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 61,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 62,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 63,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 64,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 65,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 66,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 67,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 68,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 69,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 70,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 71,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 72,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 73,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 74,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 75,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 76,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 77,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 78,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 79,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 80,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 81,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 82,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 83,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 84,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 85,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 86,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 87,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 88,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 89,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 90,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 91,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 92,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 93,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 94,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 95,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 96,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 97,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 98,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 99,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 100,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 101,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 102,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 103,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 104,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 105,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 106,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 107,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 108,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 109,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 110,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 111,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 112,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 113,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 114,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 115,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 116,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 117,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 118,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 119,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 120,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 121,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 122,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 123,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 124,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 125,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 126,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 127,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 128,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 129,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 130,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 131,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 132,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 133,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 134,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 135,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 136,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 137,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 138,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 139,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 140,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 141,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 142,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 143,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 144,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 145,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 146,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 147,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 148,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 149,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 150,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 151,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 152,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 153,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 154,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 155,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 156,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 157,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 158,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 159,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 160,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 161,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 162,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 163,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 164,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 165,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 166,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 167,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 168,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 169,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 170,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 171,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 172,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 173,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 174,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 175,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 176,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 177,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 178,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 179,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 180,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 181,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 182,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 183,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 184,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 185,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 186,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 187,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 188,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 189,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 190,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 191,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 192,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 193,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 194,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 195,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 196,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 197,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 198,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 199,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 200,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 201,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 202,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 203,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 204,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 205,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 206,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 207,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 208,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 209,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 210,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 211,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 212,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 213,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 214,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 215,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 216,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 217,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 218,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 219,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 220,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 221,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 222,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 223,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 224,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 225,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 226,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 227,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 228,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 229,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 230,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 231,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 232,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 233,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 234,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 235,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 236,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 237,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 238,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 239,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 240,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 241,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 242,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 243,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 244,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 245,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 246,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 247,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 248,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 249,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 250,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 251,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 252,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 253,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 254,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 255,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 256,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 257,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 258,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 259,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 260,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 261,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 262,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 263,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 264,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 265,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 266,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 267,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 268,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 269,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 270,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 271,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 272,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 273,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 274,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 275,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 276,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 277,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 278,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 279,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 280,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 281,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 282,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 283,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 284,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 285,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 286,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 287,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 288,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 289,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 290,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 291,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 292,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 293,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 294,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 295,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 296,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 297,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 298,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 299,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 300,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 301,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 302,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 303,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 304,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 305,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 306,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 307,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 308,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 309,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 310,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 311,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 312,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 313,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 314,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 315,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 316,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 317,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 318,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 319,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 320,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 321,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 322,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 323,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 324,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 325,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 326,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 327,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 328,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 329,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 330,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 331,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 332,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 333,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 334,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 335,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 336,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 337,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 338,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 339,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 340,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 341,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 342,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 343,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 344,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 345,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 346,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 347,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 348,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 349,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 350,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 351,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 352,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 353,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 354,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 355,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 356,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 357,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 358,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 359,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 360,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 361,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 362,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 363,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 364,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 365,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 366,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 367,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 368,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 369,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 370,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 371,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 372,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 373,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 374,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 375,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 376,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 377,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 378,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 379,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 380,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 381,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 382,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 383,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 384,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 385,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 386,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 387,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 388,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 389,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 390,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 391,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 392,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 393,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 394,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 395,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 396,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 397,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 398,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 399,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 400,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 401,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 402,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 403,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 404,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 405,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 406,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 407,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 408,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 409,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 410,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 411,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 412,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 413,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 414,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 415,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 416,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 417,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 418,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 419,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 420,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 421,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 422,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 423,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 424,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 425,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 426,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 427,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 428,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 429,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 430,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 431,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 432,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 433,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 434,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 435,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 436,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 437,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 438,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 439,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 440,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 441,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 442,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 443,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 444,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 445,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 446,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 447,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 448,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 449,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 450,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 451,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 452,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 453,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 454,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 455,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 456,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 457,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 458,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 459,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 460,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 461,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 462,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 463,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 464,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 465,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 466,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 467,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 468,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 469,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 470,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 471,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 472,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 473,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 474,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 475,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 476,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 477,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 478,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 479,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 480,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 481,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 482,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 483,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 484,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 485,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 486,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 487,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 488,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 489,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 490,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 491,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 492,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 493,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 494,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 495,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 496,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 497,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 498,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 499,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 500,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 501,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 502,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 503,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 504,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 505,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 506,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 507,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 508,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 509,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 510,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 511,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 512,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 513,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 514,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 515,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 516,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 517,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 518,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 519,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 520,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 521,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 522,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 523,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 524,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 525,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 526,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 527,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 528,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 529,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 530,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 531,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 532,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 533,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 534,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 535,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 536,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 537,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 538,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 539,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 540,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 541,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 542,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 543,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 544,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 545,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 546,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 547,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 548,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 549,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 550,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 551,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 552,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 553,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 554,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 555,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 556,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 557,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 558,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 559,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 560,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 561,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 562,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 563,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 564,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 565,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 566,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 567,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 568,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 569,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 570,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 571,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 572,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 573,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 574,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 575,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 576,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 577,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 578,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 579,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 580,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 581,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 582,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 583,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 584,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 585,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 586,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 587,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 588,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 589,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 590,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 591,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 592,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 593,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 594,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 595,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 596,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 597,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 598,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 599,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 600,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 601,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 602,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 603,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 604,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 605,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 606,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 607,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 608,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 609,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 610,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 611,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 612,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 613,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 614,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 615,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 616,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 617,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 618,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 619,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 620,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 621,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 622,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 623,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 624,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 625,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 626,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 627,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 628,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 629,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 630,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 631,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 632,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 633,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 634,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 635,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 636,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 637,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 638,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 639,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 640,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 641,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 642,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 643,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 644,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 645,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 646,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 647,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 648,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 649,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 650,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 651,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 652,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 653,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 654,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 655,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 656,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 657,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 658,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 659,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 660,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 661,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 662,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 663,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 664,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 665,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 666,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 667,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 668,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 669,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 670,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 671,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 672,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 673,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 674,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 675,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 676,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 677,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 678,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 679,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 680,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 681,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 682,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 683,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 684,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 685,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 686,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 687,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 688,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 689,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 690,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 691,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 692,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 693,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 694,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 695,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 696,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 697,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 698,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 699,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 700,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 701,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 702,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 703,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 704,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 705,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 706,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 707,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 708,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 709,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 710,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 711,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 712,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 713,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 714,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 715,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 716,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 717,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 718,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 719,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 720,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 721,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 722,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 723,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 724,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 725,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 726,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 727,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 728,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 729,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 730,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 731,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 732,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 733,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 734,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 735,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 736,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 737,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 738,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 739,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 740,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 741,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 742,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 743,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 744,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 745,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 746,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 747,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 748,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 749,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 750,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 751,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 752,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 753,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 754,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 755,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 756,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 757,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 758,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 759,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 760,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 761,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 762,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 763,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 764,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 765,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 766,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 767,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 768,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 769,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 770,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 771,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 772,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 773,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 774,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 775,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 776,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 777,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 778,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 779,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 780,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 781,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 782,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 783,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 784,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 785,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 786,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 787,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 788,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 789,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 790,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 791,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 792,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 793,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 794,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 795,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 796,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 797,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 798,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 799,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 800,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 801,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 802,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 803,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 804,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 805,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 806,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 807,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 808,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 809,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 810,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 811,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 812,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 813,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 814,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 815,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 816,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 817,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 818,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 819,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 820,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 821,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 822,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 823,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 824,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 825,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 826,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 827,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 828,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 829,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 830,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 831,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 832,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 833,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 834,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 835,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 836,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 837,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 838,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 839,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 840,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 841,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 842,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 843,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 844,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 845,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 846,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 847,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 848,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 849,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 850,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 851,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 852,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 853,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 854,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 855,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 856,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 857,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 858,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 859,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 860,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 861,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 862,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 863,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 864,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 865,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 866,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 867,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 868,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 869,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 870,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 871,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 872,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 873,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 874,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 875,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 876,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 877,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 878,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 879,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 880,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 881,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 882,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 883,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 884,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 885,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 886,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 887,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 888,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 889,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 890,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 891,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 892,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 893,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 894,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 895,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 896,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 897,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 898,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 899,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 900,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 901,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 902,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 903,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 904,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 905,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 906,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 907,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 908,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 909,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 910,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 911,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 912,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 913,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 914,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 915,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 916,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 917,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 918,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 919,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 920,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 921,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 922,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 923,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 924,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 925,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 926,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 927,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 928,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 929,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 930,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 931,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 932,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 933,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 934,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 935,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 936,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 937,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 938,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 939,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 940,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 941,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 942,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 943,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 944,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 945,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 946,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 947,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 948,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 949,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 950,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 951,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 952,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 953,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 954,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 955,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 956,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 957,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 958,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 959,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 960,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 961,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 962,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 963,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 964,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 965,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 966,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 967,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 968,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 969,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 970,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 971,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 972,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 973,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 974,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 975,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 976,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 977,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 978,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 979,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 980,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 981,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 982,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 983,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 984,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 985,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 986,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 987,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 988,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 989,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 990,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 991,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 992,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 993,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 994,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 995,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 996,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 997,
+          "matched_source_words": 2
+        },
+        {
+          "replicate": 998,
+          "matched_source_words": 2
+        }
+      ],
+      "exploratory_upper_tail_rank": 1.0,
+      "statistic_invariant": true
+    }
+  ],
+  "english_glosses_inferred": 0,
+  "verified_translations": 0
+}

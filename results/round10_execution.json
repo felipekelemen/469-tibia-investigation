@@ -1,0 +1,73 @@
+{
+  "round": 10,
+  "completed_at_utc": "2026-11-12T12:53:12.147457+00:00",
+  "additional_external_book_raw_digits": 137,
+  "external_book_previously_public": true,
+  "positive_fixtures": 30,
+  "paired_positive_threshold_conditions": 90,
+  "copy_parser_controls": 270,
+  "gates": [
+    {
+      "minimum": 8,
+      "exact_unique_recoveries": 30,
+      "fixtures": 30,
+      "passes_gate": true
+    },
+    {
+      "minimum": 12,
+      "exact_unique_recoveries": 30,
+      "fixtures": 30,
+      "passes_gate": true
+    },
+    {
+      "minimum": 16,
+      "exact_unique_recoveries": 30,
+      "fixtures": 30,
+      "passes_gate": true
+    }
+  ],
+  "target_residual_raw_digits_by_minimum": {
+    "8": 27,
+    "12": 28,
+    "16": 81
+  },
+  "raw_only_minimum_cover_pieces": 14,
+  "raw_cover_structural_shuffle_controls": 198,
+  "raw_cover_pieces_without_source_code_boundary_match": 7,
+  "npc_digit_relation_controls": 1998,
+  "numeric_word_anagram_pairs": [
+    {
+      "knightmare": "345",
+      "avar": "453",
+      "same_digit_multiset": true,
+      "literal_reversal": false
+    },
+    {
+      "knightmare": "3478",
+      "avar": "4378",
+      "same_digit_multiset": true,
+      "literal_reversal": false
+    }
+  ],
+  "shared_whole_avar_poll_token": [
+    "67538"
+  ],
+  "reviewed_source_entries": 11,
+  "new_long_attested_plaintext_pairs": 0,
+  "new_dated_skull_room_captures": 0,
+  "new_key_fits": 0,
+  "new_english_target_decodings": 0,
+  "verified_translations": 0,
+  "automated_tests": {
+    "count": 108,
+    "passed": true,
+    "log": "results/tests_round10.log"
+  },
+  "limits": [
+    "Only copy-conditioned code recovery qualified; target remains incomplete.",
+    "Anagrams, copying and source references do not identify English meaning.",
+    "All canonical source samples are public; no new prospective blind semantic validation.",
+    "Historical leads remained unverified or inaccessible."
+  ],
+  "official_poll_direct_http_status": 403
+}

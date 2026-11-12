@@ -284,3 +284,20 @@ nenhum quadro foi inspecionado e P06 continua aberto. Priorizar fontes primária
 e glosses por modalidade em P01/P05, além de outra captura histórica acessível
 para P06. A contagem de quatro frentes principais pendentes permanece, sem
 estimativa garantida de rodadas até a tradução.
+
+Atualização após a [décima rodada](round10.md): o livro externo de Kharos
+5159564611 foi conferido em 137 dígitos, fora dos 70 textos de treino mas já público.
+O parser de cópia com fronteiras importadas passa 30/30 positivos por limiar e
+deixa 27/28/81 dígitos sem reconstrução em 8/12/16. Uma cobertura raw de 14 peças
+inclui 7 peças sem fronteiras de código compatíveis; não é transcrição inglesa.
+
+A revisão de 11 entradas de fontes não produziu novo par longo número/inglês
+atestado. Manter 1/486486 como referências contextuais, sem expandi-las por
+substring. P05 precisa de novos significados externos; o parser de cópia é
+somente um componente limitado. P06 não ganhou captura autenticada da matriz.
+
+A auditoria exploratória de palavras confirma os anagramas 3478/4378 e 345/453,
+sem reversão literal. O controle que preserva multiconjuntos mantém o resultado;
+portanto não identifica a ordenação ou semântica. O token 67538 é compartilhado
+entre poema e enquete, permanecendo sem significado atestado. Registrar essas
+restrições em futuras hipóteses de vocabulário, sem usá-las como glosses.

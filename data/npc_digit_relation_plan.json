@@ -1,0 +1,17 @@
+{
+  "role": "Exploratory follow-up to a community-selected correspondence, not blind semantic validation.",
+  "comparison": "Distinct whole Knightmare tokens of length>=3 whose sorted digits equal a whole Avar token.",
+  "controls": {
+    "replicates": 999,
+    "seed": 106690000,
+    "global_relabel": "Uniform bijection of digits1..9, with0fixed, applied to all poem tokens. Preserves lengths, repetition/equality structure, zero positions and histogram shape, but not counts attached to specific nonzero labels.",
+    "within_word_shuffle": "Shuffle digits inside each unique poem word, use the same transformed word at each repetition. Preserves exact per-word digit multisets and the statistic itself."
+  },
+  "source_sha256": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+  "implementation_sha256": "fcb765c102c937355c9c55ba59af9ed6fab41fafb5d5232160d974d19f62bdbc",
+  "limits": [
+    "Community attention selected these pairs and relation type; reported ranks are exploratory.",
+    "Anagram equality is not reversal, a unique permutation, shared meaning or an English gloss.",
+    "No tested relation supplies a general translator or new semantic validation."
+  ]
+}

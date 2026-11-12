@@ -1,0 +1,131 @@
+{
+  "scope": "Bounded source review; no statement about all possible sources on the internet.",
+  "entries": [
+    {
+      "id": "chayenne_reply_rechecked",
+      "url": "https://forum.portaltibia.com.br/topic/11420-entrevista-com-chayenne/",
+      "access": "Readable interview publication",
+      "source_role": "Contemporaneous publisher attribution to a CipSoft content designer",
+      "finding": "Two numeric fragments and emoticons, without an explicit English rendering in the interview answer.",
+      "new_long_parallel_plaintext": false
+    },
+    {
+      "id": "wrinkled_entity_one",
+      "url": "https://www.tibiawiki.com.br/wiki/A_Wrinkled_Bonelord",
+      "access": "Indexed transcript; direct page403",
+      "source_role": "Fan transcription of NPC dialogue",
+      "number": "1",
+      "finding": "An explicit referent to Tibia in the dialogue, not permission to translate every digit 1 inside a book as Tibia.",
+      "semantic_role": "entity_reference",
+      "new_long_parallel_plaintext": false
+    },
+    {
+      "id": "wrinkled_self_name",
+      "url": "https://www.tibiawiki.com.br/wiki/A_Wrinkled_Bonelord",
+      "access": "Indexed transcript; direct page403",
+      "source_role": "Fan transcription of NPC dialogue",
+      "number": "486486",
+      "finding": "The speaker gives this as its own name; assigning the English NPC display title as its lexical translation is not established.",
+      "semantic_role": "self_name_reference",
+      "new_long_parallel_plaintext": false
+    },
+    {
+      "id": "wrinkled_zero",
+      "url": "https://www.tibiawiki.com.br/wiki/A_Wrinkled_Bonelord",
+      "access": "Pinned transcript and indexed source context",
+      "source_role": "Fan transcription of NPC dialogue",
+      "number": "0",
+      "finding": "A taboo reaction is a cultural/contextual anchor, not an attested English word gloss.",
+      "semantic_role": "taboo_reference",
+      "new_long_parallel_plaintext": false
+    },
+    {
+      "id": "nostalgia_3478",
+      "url": "https://www.tibiawiki.com.br/wiki/Bonelord_%28Nostalgia%29",
+      "access": "Indexed wiki text; direct page403",
+      "source_role": "Fan creature catalog",
+      "number": "3478",
+      "finding": "Catalog associates the numeric name with a nostalgia creature; claims a 2023 name correction. No primary patch announcement obtained in the bounded official-site query.",
+      "semantic_role": "creature_reference_not_general_lexical_rule",
+      "new_long_parallel_plaintext": false
+    },
+    {
+      "id": "elder_shouts",
+      "url": "https://www.tibiawiki.com.br/wiki/Elder_Bonelord",
+      "access": "Indexed wiki text",
+      "source_role": "Fan creature catalog",
+      "finding": "English and numeric shouts coexist in the list without an explicit pairwise translation. The reading look-at-you remains a hypothesis.",
+      "semantic_role": "unpaired_shouts",
+      "new_long_parallel_plaintext": false
+    },
+    {
+      "id": "avar_poem",
+      "url": "https://www.tibiawiki.com.br/wiki/Avar_Tar",
+      "access": "Indexed transcript; direct page403",
+      "source_role": "Fan NPC transcription",
+      "finding": "The English sentence after the poem comments on the poem; it is not presented as a translation. The character's reputation alone cannot prove the numeric text is fake.",
+      "semantic_role": "untranslated_poem",
+      "new_long_parallel_plaintext": false
+    },
+    {
+      "id": "knightmare_phrase",
+      "url": "https://www.tibiawiki.com.br/wiki/Knightmare_%28NPC%29",
+      "access": "Pinned source and search excerpts; direct page403",
+      "source_role": "Fan NPC transcription",
+      "finding": "Numeric utterance is attested in transcriptions; community English codebooks are not official glosses.",
+      "semantic_role": "untranslated_utterance",
+      "new_long_parallel_plaintext": false
+    },
+    {
+      "id": "creator_interview",
+      "url": "https://forums.tibiabr.com/threads/378403-TibiaBR-entrevista-Knightmare",
+      "access": "Indexed forum excerpts; direct page403",
+      "source_role": "Interview publisher attribution to creator",
+      "finding": "The answer discusses the orc language and switches to a fictional beholder-writing story. It provides neither a decoder nor an explicit long numeric-English pair. It does not prove that 469 is meaningless.",
+      "semantic_role": "author_commentary_not_plaintext",
+      "new_long_parallel_plaintext": false
+    },
+    {
+      "id": "poll_2020",
+      "url": "https://www.tibia.com/community/?subtopic=polls&page=show&questionaireid=1009",
+      "access": "Direct public HTTPS GET returned403; tool access also unavailable. Pinned transcription remains the operative source.",
+      "source_role": "Official poll URL with community transcription",
+      "finding": "The meanings assigned to other answer options cannot be transferred to the 469 option.",
+      "semantic_role": "untranslated_poll_option",
+      "new_long_parallel_plaintext": false,
+      "http_probe_artifact": "results/official_poll_http_round10.json"
+    },
+    {
+      "id": "kharos_book",
+      "url": "https://www.tibiawiki.com.br/wiki/5159564611_%28Book%29",
+      "access": "Readable indexed book page, revision403186",
+      "source_role": "Fan numeric-book transcription",
+      "finding": "137 digits match the extra upstream book; no English gloss is supplied.",
+      "semantic_role": "untranslated_numeric_book",
+      "new_long_parallel_plaintext": false
+    }
+  ],
+  "history_leads": [
+    {
+      "url": "https://forums.tibiabr.com/threads/230869-Linguagem-469-e-os-n%C3%BAmeros-bin%C3%A1rios/page6",
+      "access": "Indexed2008discussion; direct tool route unavailable",
+      "finding": "Text mentions skull arrangement; linked image and original object counts not authenticated."
+    },
+    {
+      "url": "https://forums.tibiabr.com/threads/511342-Linguagem-469-Isso-%C3%A9-um-padr%C3%A3o/page14",
+      "access": "Initial partial readable page; later focused retrieval403",
+      "finding": "Search excerpt mentions a stack appearing as5but inspected as6. No new dated room capture obtained."
+    }
+  ],
+  "new_long_parallel_plaintexts": 0,
+  "limits": [
+    "References and source attributions are not a validated general dictionary.",
+    "Unavailable pages are coverage limitations, not evidence that no gloss exists elsewhere.",
+    "Known public transcriptions and copied book contents are not prospective blind validation."
+  ],
+  "additional_hypothesis_motivation": {
+    "url": "https://www.reddit.com/r/TibiaMMO/comments/1u1i3ag/avar_tars_469_poem_seems_to_contain_scrambled/",
+    "access": "Indexed community discussion",
+    "role": "Motivates a structural anagram relation, independently recalculated; not an English gloss or blind discovery."
+  }
+}
