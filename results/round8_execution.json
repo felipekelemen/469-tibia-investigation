@@ -1,0 +1,38 @@
+{
+  "round": 8,
+  "completed_at_utc": "2026-11-12T11:51:39.290536+00:00",
+  "conditional_on_imported_code_streams": true,
+  "code_count": 5729,
+  "raw_digits": 11263,
+  "fixed_stream_alignments": 79,
+  "books_with_two_alignments": 9,
+  "forced_zero_events": 616,
+  "ambiguous_zero_events": 18,
+  "formatter_families": 15,
+  "forced_conflict_families": 13,
+  "compatible_lookup_families": 2,
+  "planted_positive_controls": 15,
+  "within_book_code_shuffles": 39,
+  "copied_context_controls": 9,
+  "all_planted_and_copied_positives_pass": true,
+  "lookup_unseen_extension_counts": {
+    "window3": "64",
+    "window8": "128"
+  },
+  "plan_workstreams": 7,
+  "pending_primary_deliverables": 4,
+  "bounded_batches_executed": 3,
+  "automated_tests": {
+    "count": 98,
+    "passed": true,
+    "log": "results/tests_round8.log"
+  },
+  "new_english_decodings": 0,
+  "verified_translations": 0,
+  "limits": [
+    "Exclusions keep the imported token streams fixed; alternative tokenizations and stateful/keyed formatters remain possible.",
+    "SAT lookup tables do not identify the author algorithm or semantic content.",
+    "Old reserved books are exposed and correlated. Fitting an extension to their answers is explicitly retrospective.",
+    "Plan count measures pending workstreams, not a guaranteed number of steps or rounds to a translation."
+  ]
+}

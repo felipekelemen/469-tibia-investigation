@@ -1,0 +1,23 @@
+{
+  "round": 8,
+  "purpose": "Freeze exact conditional formatter tests and transparent plan status; no translation or new raw tokenization implied.",
+  "sha256": {
+    "data/normalized_books.json": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+    "data/normalized_code_map.json": "d2884c34addbce207678b014e6fc9f9de9ae4fe7280d94b19adb1bb86e72cfac",
+    "data/normalized_splits.json": "0a0f9d3b60b4077bf9e3074919d35e754f6f77fd4ca4423b160e14e5a58ac3de",
+    "data/plan_status.json": "b53c80fcb8a5285fcac92fa660b1987327d2accd3dab6845059372724ec85897",
+    "data/zero_rule_constraints_protocol.json": "92dcd705b7d1f231b539b065931144d77f63a6d4cec6756232833c578693383c",
+    "data/zero_rule_prior_sources.json": "a3b85231238307f93f827e373ca71c3e2163755b14c37af2cd0e49a3660b8770",
+    "docs/plan_status.md": "b00b57b0a5cced8f3ad44cebbc05b93f683840914efb69df967fc49e958c7368",
+    "docs/round8.md": "eafdcda8c942aab9f4b38dadac5ba1fd5740aa3530a8a2e63dc7d4387352c021",
+    "results/round8_execution.json": "35eb6101c052959d0e8d6bfe4de68e6d6e9b9b7c5cadfa351a9589f3e3dd834c",
+    "results/tests_round8.log": "f31655e2f878366527f98fb7477e58181c8e0d8bd7eb29a259e0ec49ec502cb4",
+    "results/zero_rule_constraints.json": "d32975103c3816b8a85bad3b2963d80169d015304d341b8d01e7100cc966de4e",
+    "results/zero_rule_identifiability.json": "1158f6326315c82aa605b97c1425ca798f369eab45ee71261d6cc8afdfcc3c5b",
+    "scripts/run_round8.py": "dd24094f1344a60d57278d03c132fd5b432b5f913eb86397ac48256c36afb586",
+    "scripts/zero_rule_constraints.py": "1b2c29541fb49f8e0ddbbdb2f756c442b2f57faf984e1a94c80d29bcb3a4a34e",
+    "scripts/zero_rule_experiment.py": "fea3e77b71b94de9ee30ad35a04392efcc020e7cd517504f19209005145dd0d6",
+    "scripts/zero_rule_identifiability.py": "99a9269984288ba3f8b63c9cdff75c0b2cf6631482b2825ef560b2f76aedc3e5",
+    "tests/test_zero_rule_constraints.py": "f8997e40b664d40df0e623869e7e871594454a2bf46999073e237289c603e44d"
+  }
+}

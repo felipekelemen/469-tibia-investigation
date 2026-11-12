@@ -1,0 +1,73 @@
+{
+  "plan": "P01-P07 from docs/next_experiments.md, after the Deep Research audit",
+  "counting_unit": "research workstream, not number of turns, experiments or guaranteed steps to a translation",
+  "total_workstreams": 7,
+  "currently_unstarted_workstreams": 0,
+  "bounded_primary_batches_executed": 3,
+  "workstreams_with_pending_primary_deliverables": 4,
+  "workstreams": [
+    {
+      "id": "P01",
+      "name": "Sources and independent validation",
+      "primary_status": "pending",
+      "delivered": "16-sample inventory, overlap/dependency graphs, absence of a new blind semantic validation set recorded.",
+      "remaining": "Authenticated external content or explicit glosses, plus a viable validation design without reused motifs.",
+      "evidence": "docs/p01_p05_execution.md"
+    },
+    {
+      "id": "P02",
+      "name": "Homophonic solver capability",
+      "primary_status": "bounded_batch_executed",
+      "delivered": "Known-token V4 qualified in its synthetic copied/ordinary prose scenarios; prior failures retained.",
+      "remaining": "Raw segmentation and unknown-key joint recovery require separate qualification; round7 conditional parsers fail globally.",
+      "evidence": "docs/copied_solver_v3_v4.md"
+    },
+    {
+      "id": "P03",
+      "name": "Modules, variants and generative comparison",
+      "primary_status": "pending",
+      "delivered": "MDL/copy comparisons and positive controls, variant predictors, fixed-key module audit.",
+      "remaining": "A predictive mechanism outside fitted motifs and an informative module-preserving validation; formatter lookup fits alone are not enough.",
+      "evidence": "docs/p03_execution.md"
+    },
+    {
+      "id": "P04",
+      "name": "Qualified homophonic search on books",
+      "primary_status": "bounded_batch_executed",
+      "delivered": "V4 observed search plus297fully refitted controls; score enrichment, no coherent verified translation.",
+      "remaining": "The semantic success gate remains unmet. A new algorithm/candidate needs new frozen tests and external validation.",
+      "evidence": "docs/round5.md"
+    },
+    {
+      "id": "P05",
+      "name": "Word/concept codebook by source",
+      "primary_status": "pending",
+      "delivered": "Structural source triage and semantic identifiability barrier documented; community glosses not used as truth.",
+      "remaining": "Externally supported meanings and predictions in a different source; compare word, syllable and concept encodings.",
+      "evidence": "docs/p01_p05_execution.md"
+    },
+    {
+      "id": "P06",
+      "name": "Historical skull matrices and renaming",
+      "primary_status": "pending",
+      "delivered": "Old-matrix textual attestation displayed as2007 and primary renaming/update dates; limitations of maps documented.",
+      "remaining": "Authenticated room-object captures around2010 and book chronology; date of matrix change still unknown.",
+      "evidence": "docs/p06_execution.md"
+    },
+    {
+      "id": "P07",
+      "name": "Explicit skull-matrix algorithms",
+      "primary_status": "bounded_batch_executed",
+      "delivered": "Finite Hill26/29, arithmetic and192matrix-walk variants tested; additional cyclic zero-formatter class contradicted in round8.",
+      "remaining": "Only the tested families are closed. A different matrix mechanism requires a specific rule and new controlled tests.",
+      "evidence": "docs/p07_execution.md"
+    }
+  ],
+  "cross_cutting_dependencies": [
+    "Recover raw digits to intermediate units without supplied per-book tokenization or repairs.",
+    "Qualify any joint unknown-key/segmentation solver before interpreting real-book outputs.",
+    "Final independent semantic validation and external replication of any translation candidate."
+  ],
+  "verified_translation_found": false,
+  "guaranteed_remaining_experiments_or_rounds": null
+}

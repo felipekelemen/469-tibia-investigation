@@ -1,0 +1,443 @@
+{
+  "input_result_sha256": "d32975103c3816b8a85bad3b2963d80169d015304d341b8d01e7100cc966de4e",
+  "implementation_sha256": "99a9269984288ba3f8b63c9cdff75c0b2cf6631482b2825ef560b2f76aedc3e5",
+  "lookup_identifiability": [
+    {
+      "family": "window3",
+      "discovery_table_entries": 262,
+      "held_zero_events": 7,
+      "unobserved_held_events": [
+        {
+          "book_id": "20",
+          "index": 0,
+          "code": "01",
+          "feature": [
+            "<s>",
+            "<s>",
+            "<s>",
+            "01",
+            "74",
+            "06",
+            "48"
+          ]
+        },
+        {
+          "book_id": "20",
+          "index": 2,
+          "code": "06",
+          "feature": [
+            "<s>",
+            "01",
+            "74",
+            "06",
+            "48",
+            "34",
+            "94"
+          ]
+        },
+        {
+          "book_id": "20",
+          "index": 12,
+          "code": "04",
+          "feature": [
+            "21",
+            "77",
+            "83",
+            "04",
+            "57",
+            "65",
+            "12"
+          ]
+        },
+        {
+          "book_id": "20",
+          "index": 30,
+          "code": "03",
+          "feature": [
+            "99",
+            "11",
+            "80",
+            "03",
+            "64",
+            "</s>",
+            "</s>"
+          ]
+        },
+        {
+          "book_id": "54",
+          "index": 0,
+          "code": "04",
+          "feature": [
+            "<s>",
+            "<s>",
+            "<s>",
+            "04",
+            "35",
+            "28",
+            "21"
+          ]
+        },
+        {
+          "book_id": "54",
+          "index": 6,
+          "code": "04",
+          "feature": [
+            "21",
+            "77",
+            "83",
+            "04",
+            "57",
+            "65",
+            "12"
+          ]
+        },
+        {
+          "book_id": "54",
+          "index": 24,
+          "code": "03",
+          "feature": [
+            "99",
+            "11",
+            "80",
+            "03",
+            "64",
+            "67",
+            "24"
+          ]
+        }
+      ],
+      "unique_unobserved_held_features": 6,
+      "independent_boolean_extensions_on_unseen_features": "64",
+      "two_extensions_both_exact_on_discovery": true,
+      "extension_a_preserve_all_unseen": [
+        {
+          "book_id": "20",
+          "unseen_events": 0,
+          "predicted_raw": "0174064834943435282177830457651288952197251081658550649911800364",
+          "exact_raw": false
+        },
+        {
+          "book_id": "54",
+          "unseen_events": 0,
+          "predicted_raw": "0435282177830457651288952197251081658550649911800364672431",
+          "exact_raw": false
+        }
+      ],
+      "extension_b_flip_one_unseen": [
+        {
+          "book_id": "20",
+          "unseen_events": 0,
+          "predicted_raw": "017406483494343528217783457651288952197251081658550649911800364",
+          "exact_raw": false
+        },
+        {
+          "book_id": "54",
+          "unseen_events": 0,
+          "predicted_raw": "043528217783457651288952197251081658550649911800364672431",
+          "exact_raw": false
+        }
+      ],
+      "retrospective_exposed_answer_fitted_extension": [
+        {
+          "book_id": "20",
+          "unseen_events": 0,
+          "predicted_raw": "017464834943435282177830457651288952197251081658550649911800364",
+          "exact_raw": true
+        },
+        {
+          "book_id": "54",
+          "unseen_events": 0,
+          "predicted_raw": "435282177830457651288952197251081658550649911800364672431",
+          "exact_raw": true
+        }
+      ],
+      "retrospective_extension_is_prediction": false
+    },
+    {
+      "family": "window8",
+      "discovery_table_entries": 359,
+      "held_zero_events": 7,
+      "unobserved_held_events": [
+        {
+          "book_id": "20",
+          "index": 0,
+          "code": "01",
+          "feature": [
+            "<s>",
+            "<s>",
+            "<s>",
+            "<s>",
+            "<s>",
+            "<s>",
+            "<s>",
+            "<s>",
+            "01",
+            "74",
+            "06",
+            "48",
+            "34",
+            "94",
+            "34",
+            "35",
+            "28"
+          ]
+        },
+        {
+          "book_id": "20",
+          "index": 2,
+          "code": "06",
+          "feature": [
+            "<s>",
+            "<s>",
+            "<s>",
+            "<s>",
+            "<s>",
+            "<s>",
+            "01",
+            "74",
+            "06",
+            "48",
+            "34",
+            "94",
+            "34",
+            "35",
+            "28",
+            "21",
+            "77"
+          ]
+        },
+        {
+          "book_id": "20",
+          "index": 12,
+          "code": "04",
+          "feature": [
+            "34",
+            "94",
+            "34",
+            "35",
+            "28",
+            "21",
+            "77",
+            "83",
+            "04",
+            "57",
+            "65",
+            "12",
+            "88",
+            "95",
+            "21",
+            "97",
+            "25"
+          ]
+        },
+        {
+          "book_id": "20",
+          "index": 30,
+          "code": "03",
+          "feature": [
+            "81",
+            "65",
+            "85",
+            "50",
+            "64",
+            "99",
+            "11",
+            "80",
+            "03",
+            "64",
+            "</s>",
+            "</s>",
+            "</s>",
+            "</s>",
+            "</s>",
+            "</s>",
+            "</s>"
+          ]
+        },
+        {
+          "book_id": "54",
+          "index": 0,
+          "code": "04",
+          "feature": [
+            "<s>",
+            "<s>",
+            "<s>",
+            "<s>",
+            "<s>",
+            "<s>",
+            "<s>",
+            "<s>",
+            "04",
+            "35",
+            "28",
+            "21",
+            "77",
+            "83",
+            "04",
+            "57",
+            "65"
+          ]
+        },
+        {
+          "book_id": "54",
+          "index": 6,
+          "code": "04",
+          "feature": [
+            "<s>",
+            "<s>",
+            "04",
+            "35",
+            "28",
+            "21",
+            "77",
+            "83",
+            "04",
+            "57",
+            "65",
+            "12",
+            "88",
+            "95",
+            "21",
+            "97",
+            "25"
+          ]
+        },
+        {
+          "book_id": "54",
+          "index": 24,
+          "code": "03",
+          "feature": [
+            "81",
+            "65",
+            "85",
+            "50",
+            "64",
+            "99",
+            "11",
+            "80",
+            "03",
+            "64",
+            "67",
+            "24",
+            "31",
+            "</s>",
+            "</s>",
+            "</s>",
+            "</s>"
+          ]
+        }
+      ],
+      "unique_unobserved_held_features": 7,
+      "independent_boolean_extensions_on_unseen_features": "128",
+      "two_extensions_both_exact_on_discovery": true,
+      "extension_a_preserve_all_unseen": [
+        {
+          "book_id": "20",
+          "unseen_events": 0,
+          "predicted_raw": "0174064834943435282177830457651288952197251081658550649911800364",
+          "exact_raw": false
+        },
+        {
+          "book_id": "54",
+          "unseen_events": 0,
+          "predicted_raw": "0435282177830457651288952197251081658550649911800364672431",
+          "exact_raw": false
+        }
+      ],
+      "extension_b_flip_one_unseen": [
+        {
+          "book_id": "20",
+          "unseen_events": 0,
+          "predicted_raw": "017406483494343528217783457651288952197251081658550649911800364",
+          "exact_raw": false
+        },
+        {
+          "book_id": "54",
+          "unseen_events": 0,
+          "predicted_raw": "0435282177830457651288952197251081658550649911800364672431",
+          "exact_raw": false
+        }
+      ],
+      "retrospective_exposed_answer_fitted_extension": [
+        {
+          "book_id": "20",
+          "unseen_events": 0,
+          "predicted_raw": "017464834943435282177830457651288952197251081658550649911800364",
+          "exact_raw": true
+        },
+        {
+          "book_id": "54",
+          "unseen_events": 0,
+          "predicted_raw": "435282177830457651288952197251081658550649911800364672431",
+          "exact_raw": true
+        }
+      ],
+      "retrospective_extension_is_prediction": false
+    }
+  ],
+  "common_reset_causal_formatter_counterexample": {
+    "feature": [
+      "<s>",
+      "<s>",
+      "<s>",
+      "<s>",
+      "<s>",
+      "<s>",
+      "<s>",
+      "<s>",
+      "09"
+    ],
+    "preserved": {
+      "book_id": "30",
+      "code_index": 0,
+      "code": "09",
+      "forced_action": false,
+      "alignment_count": 1,
+      "raw_start": 0,
+      "raw_end": 2,
+      "wire": "09"
+    },
+    "omitted": {
+      "book_id": "64",
+      "code_index": 0,
+      "code": "09",
+      "forced_action": true,
+      "alignment_count": 1,
+      "raw_start": 0,
+      "raw_end": 1,
+      "wire": "9"
+    },
+    "scope": "Both opposite actions are forced across every compatible alignment of their books."
+  },
+  "common_reset_causal_scope": "Imported code stream fixed. A shared deterministic zero formatter with the same initial state and only current/past codes cannot give different first-code actions. Different initial states, message length, metadata, lookahead, randomness and other tokenizations remain possible.",
+  "same_book_period16_counterexample": {
+    "feature": [
+      "16",
+      "01",
+      "phase=13"
+    ],
+    "preserved": {
+      "book_id": "6",
+      "code_index": 77,
+      "code": "01",
+      "forced_action": false,
+      "alignment_count": 1,
+      "raw_start": 147,
+      "raw_end": 149,
+      "wire": "01"
+    },
+    "omitted": {
+      "book_id": "6",
+      "code_index": 61,
+      "code": "01",
+      "forced_action": true,
+      "alignment_count": 1,
+      "raw_start": 118,
+      "raw_end": 119,
+      "wire": "1"
+    },
+    "scope": "Both opposite actions are forced across every compatible alignment of their books."
+  },
+  "period16_scope": "Same book/current code/previous code/cycle cell, even under any book-specific constant phase or fixed cell permutation. Does not test block-dependent state, mixing, lookahead or all uses of either skull matrix.",
+  "verified_translations": 0
+}

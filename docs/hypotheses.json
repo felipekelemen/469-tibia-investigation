@@ -278,5 +278,33 @@
     "status": "constructively_noninjective_for_these_serializations",
     "evidence": "Omitirsempre:raw10=[10]ou[01,00];opcional:raw00=[00]ou[00,00];nãoestabelecelei469nemduasfrasesinglesas",
     "artifact": "results/raw_codebook_ambiguity.json"
+  },
+  {
+    "id": "H41",
+    "hypothesis": "Formatador determinístico dos zeros com reset comum depende só do código atual e passado",
+    "status": "contradicted_conditionally_on_imported_streams",
+    "evidence": "Primeirocódigo09doslivros30/64temaçõesforçadasopostas,alinhamentosúnicos;memóriapassadanãoresolve;estadosiniciaisdistintosoulookaheadnãoexcluídos",
+    "artifact": "results/zero_rule_identifiability.json"
+  },
+  {
+    "id": "H42",
+    "hypothesis": "Código atual/anterior e célula do ciclo4x4 determinam a omissão de zero",
+    "status": "contradicted_for_this_formatter_class",
+    "evidence": "Livro6índices61/77:código01,anterior16,fase13emambos;açõesopostasforçadas;outrasfunçõesmatriciaisnãotestadas",
+    "artifact": "results/zero_rule_constraints.json"
+  },
+  {
+    "id": "H43",
+    "hypothesis": "Uma tabela compartilhada de contexto local reproduz exatamente a formatação importada",
+    "status": "compatible_for_wide_windows_but_not_mechanism_identified",
+    "evidence": "15famílias:13incompatíveis,window3SAT262entradas,window8SAT359;15positivosplantadospassam,39shufflesincompatíveis,9cópiasaceitaspelasjanelas",
+    "artifact": "results/zero_rule_constraints.json"
+  },
+  {
+    "id": "H44",
+    "hypothesis": "Tabelas locais aprendidas identificam as decisões dos reservados expostos",
+    "status": "unidentified_unseen_features_no_predictive_validation",
+    "evidence": "7eventosreservadostodossemcobertura;6/7entradasnovaspermitem64/128extensões;defaultcongeladoerra2/2;extensãoajustadaàsrespostasnãoéprevisão",
+    "artifact": "results/zero_rule_identifiability.json"
   }
 ]

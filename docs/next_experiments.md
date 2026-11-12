@@ -257,3 +257,16 @@ código/estado sem contar módulos copiados como observações independentes. Pa
 buscar chave e segmentação juntas, construir qualificação própria com a chave
 escondida e um objetivo comum, antes de aplicar a novos livros. Manter os
 modelos e resultados atuais congelados, inclusive os resultados negativos.
+
+Atualização após a [oitava rodada](round8.md): o teste exato de 15 famílias
+considerou todos os 79 alinhamentos dos streams fixos. Treze têm contradições
+forçadas. Duas tabelas de janela reproduzem descoberta, mas os sete eventos
+reservados não têm entradas vistas, permitindo 64/128 extensões que concordam
+com o treino. O início dos livros 30/64 exige informação além de passado com
+reset comum; no livro 6, o ciclo de 16 e o código anterior não bastam.
+
+Manter esses limites condicionais: outra tokenização, lookahead ou estado
+adicional não foram excluídos. Priorizar proveniência de fronteiras/dígitos e
+hipóteses explícitas de estado inicial/comprimento, com complexidade e controles
+de cópia. A [posição no plano](plan_status.md) registra quatro frentes principais
+pendentes dentro de sete já iniciadas, além das dependências e validação final.

@@ -1,0 +1,130 @@
+{
+  "version": "ZERO_RENDERER_CONSTRAINTS_V1",
+  "frozen_at_utc": "2026-11-12T11:43:20.464701+00:00",
+  "scope": "Does a shared deterministic Boolean formatter exist for these supplied code streams? Not raw segmentation, key recovery or translation.",
+  "families": [
+    {
+      "name": "code",
+      "left": 0,
+      "right": 0,
+      "period": 0
+    },
+    {
+      "name": "code_prev1",
+      "left": 1,
+      "right": 0,
+      "period": 0
+    },
+    {
+      "name": "code_prev2",
+      "left": 2,
+      "right": 0,
+      "period": 0
+    },
+    {
+      "name": "code_prev3",
+      "left": 3,
+      "right": 0,
+      "period": 0
+    },
+    {
+      "name": "code_prev4",
+      "left": 4,
+      "right": 0,
+      "period": 0
+    },
+    {
+      "name": "code_prev8",
+      "left": 8,
+      "right": 0,
+      "period": 0
+    },
+    {
+      "name": "code_next1",
+      "left": 0,
+      "right": 1,
+      "period": 0
+    },
+    {
+      "name": "window1",
+      "left": 1,
+      "right": 1,
+      "period": 0
+    },
+    {
+      "name": "window3",
+      "left": 3,
+      "right": 3,
+      "period": 0
+    },
+    {
+      "name": "window8",
+      "left": 8,
+      "right": 8,
+      "period": 0
+    },
+    {
+      "name": "code_phase2",
+      "left": 0,
+      "right": 0,
+      "period": 2
+    },
+    {
+      "name": "code_phase4",
+      "left": 0,
+      "right": 0,
+      "period": 4
+    },
+    {
+      "name": "code_phase8",
+      "left": 0,
+      "right": 0,
+      "period": 8
+    },
+    {
+      "name": "code_phase16",
+      "left": 0,
+      "right": 0,
+      "period": 16
+    },
+    {
+      "name": "code_prev1_phase16",
+      "left": 1,
+      "right": 0,
+      "period": 16
+    }
+  ],
+  "alignment_cap": 4096,
+  "search_node_cap": 100000,
+  "selection": "No English score or model selection. Exact satisfiability per fixed family on68discovery books.",
+  "split": "Existing exposed68/2 split; fit table only on discovery. Reserved prediction is conditional on imported codes and is not blind validation.",
+  "unseen_feature_default": "preserve zero",
+  "controls": {
+    "seed": 84690000,
+    "within_book_code_shuffles": 39,
+    "copy_consistent_window3_controls": 9,
+    "planted_per_family": 1
+  },
+  "shuffle_policy": "Permute annotated omission flags only among occurrences of the same code in the same book. Preserve imported code stream, per-book raw length and per-book/code omission counts. Raw copying can change.",
+  "copy_control_policy": "One seeded random action per copied7-code window, using annotated per-code omission rates. Preserve code streams and force matching local contexts to use the same action. Raw lengths/counts only approximate the observation.",
+  "positive_policy": "Construct one exact table per family, serialize the supplied code streams with it, and require the existence solver to find a compatible table.",
+  "no_statistical_claim": "SAT/UNSAT is a logical compatibility test, no pvalues; repeated copies do not create independent evidence.",
+  "matrix_scope": "code_phase16 covers any shared function of current code and fixed position in a16-code cycle reset at book start, hence any fixed orientation/phase relabeling of a4x4cell. Does not cover per-book unknown phases, other state, mixing or the full cipher.",
+  "input_hashes": {
+    "data/normalized_books.json": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+    "data/normalized_splits.json": "0a0f9d3b60b4077bf9e3074919d35e754f6f77fd4ca4423b160e14e5a58ac3de",
+    "data/normalized_code_map.json": "d2884c34addbce207678b014e6fc9f9de9ae4fe7280d94b19adb1bb86e72cfac"
+  },
+  "implementation_hashes": {
+    "scripts/zero_rule_constraints.py": "1b2c29541fb49f8e0ddbbdb2f756c442b2f57faf984e1a94c80d29bcb3a4a34e",
+    "scripts/zero_rule_experiment.py": "fea3e77b71b94de9ee30ad35a04392efcc020e7cd517504f19209005145dd0d6"
+  },
+  "upstream_relation": "Extends prior zero-context probes with all fixed-stream alignments and exact arbitrary-table constraints; does not accept their semantic claims.",
+  "limits": [
+    "Imported token sequence is fixed throughout and learned upstream on the public corpus. Alternative tokenizations are not excluded.",
+    "Nonlocal, randomized, framed, keyed, epoch-specific or book-specific formatters remain outside these families.",
+    "SAT lookup tables can memorize data; a fit is not a compact generative discovery, raw decoder or translation.",
+    "Control shuffles use one recorded ambiguous alignment; real contradictions use all compatible alignments.",
+    "Alignment/search caps yield unresolved, never rejection."
+  ]
+}

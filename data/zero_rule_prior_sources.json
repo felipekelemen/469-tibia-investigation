@@ -1,0 +1,26 @@
+[
+  {
+    "repository": "https://github.com/kimlage/tibia-469-cipher-casestudy",
+    "commit": "4d726a8de7af1f2216bd48d9b86165e0c50616b6",
+    "path": "analysis/generator_search_20260618/zero_compact_rule_report.md",
+    "url": "https://github.com/kimlage/tibia-469-cipher-casestudy/blob/4d726a8de7af1f2216bd48d9b86165e0c50616b6/analysis/generator_search_20260618/zero_compact_rule_report.md",
+    "sha256": "ce910d53cb9b77dcd0711cd6602fe36a94571bb0b2e98936fe875145477f9110",
+    "role": "Prior zero-context probe; not used as validated semantic labels or as an implementation dependency."
+  },
+  {
+    "repository": "https://github.com/kimlage/tibia-469-cipher-casestudy",
+    "commit": "4d726a8de7af1f2216bd48d9b86165e0c50616b6",
+    "path": "analysis/generator_search_20260618/zero_omission_rule_explainer_report.md",
+    "url": "https://github.com/kimlage/tibia-469-cipher-casestudy/blob/4d726a8de7af1f2216bd48d9b86165e0c50616b6/analysis/generator_search_20260618/zero_omission_rule_explainer_report.md",
+    "sha256": "8d3f8031369b198363bc852d73fa166f736f34c35ca91107515d50e5507de95a",
+    "role": "Prior zero-context probe; not used as validated semantic labels or as an implementation dependency."
+  },
+  {
+    "repository": "https://github.com/kimlage/tibia-469-cipher-casestudy",
+    "commit": "4d726a8de7af1f2216bd48d9b86165e0c50616b6",
+    "path": "analysis/generator_search_20260618/zero_render_rule_report.md",
+    "url": "https://github.com/kimlage/tibia-469-cipher-casestudy/blob/4d726a8de7af1f2216bd48d9b86165e0c50616b6/analysis/generator_search_20260618/zero_render_rule_report.md",
+    "sha256": "acf36deb2f184fd9ec3019a3824c305381c6384779a62d4c6ce3c043028b72f6",
+    "role": "Prior zero-context probe; not used as validated semantic labels or as an implementation dependency."
+  }
+]
