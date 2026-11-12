@@ -1,0 +1,26 @@
+[
+  {
+    "name": "anne_green_gables",
+    "book_id": 45,
+    "title": "Anne of Green Gables",
+    "author": "Lucy Maud Montgomery",
+    "role": "round7 V2 fresh qualification only; never used for model selection",
+    "url": "https://www.gutenberg.org/cache/epub/45/pg45.txt",
+    "sha256": "89a5e9fb2e0bb44562a969785385366f94e1da736aebee7d9cdf459eb0b5f9f6",
+    "bytes": 606693,
+    "retrieved_at_utc": "2026-11-12T01:47:22.066288+00:00",
+    "license": "Full Gutenberg source/header/license retained byte for byte."
+  },
+  {
+    "name": "secret_agent",
+    "book_id": 974,
+    "title": "The Secret Agent: A Simple Tale",
+    "author": "Joseph Conrad",
+    "role": "round7 V2 fresh qualification only; never used for model selection",
+    "url": "https://www.gutenberg.org/cache/epub/974/pg974.txt",
+    "sha256": "0a37c8fc9a62db2efcea487f02c1cdd4d48657c66b54af3ad90f2317e42b7588",
+    "bytes": 560110,
+    "retrieved_at_utc": "2026-11-12T01:47:22.416616+00:00",
+    "license": "Full Gutenberg source/header/license retained byte for byte."
+  }
+]

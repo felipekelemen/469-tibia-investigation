@@ -1,0 +1,26 @@
+[
+  {
+    "name": "treasure_island",
+    "book_id": 120,
+    "title": "Treasure Island",
+    "author": "Robert Louis Stevenson",
+    "role": "round7 qualification only; no development tuning",
+    "url": "https://www.gutenberg.org/cache/epub/120/pg120.txt",
+    "sha256": "5bc08275eacea8640b1aa185c645283bb8c564d7b23df6b03437d229b4fc6ebd",
+    "bytes": 399873,
+    "retrieved_at_utc": "2026-11-12T01:39:20.036547+00:00",
+    "license": "Full Gutenberg source/header/license retained byte for byte."
+  },
+  {
+    "name": "call_wild",
+    "book_id": 215,
+    "title": "The Call of the Wild",
+    "author": "Jack London",
+    "role": "round7 qualification only; no development tuning",
+    "url": "https://www.gutenberg.org/cache/epub/215/pg215.txt",
+    "sha256": "30f569c5671bba7bbc4a92ab6d8ee01a0d3be00f994819c77da62c28041eb8a2",
+    "bytes": 199757,
+    "retrieved_at_utc": "2026-11-12T01:39:20.335841+00:00",
+    "license": "Full Gutenberg source/header/license retained byte for byte."
+  }
+]

@@ -7,6 +7,7 @@
 - Tibia Wiki BR, TibiaSecrets, arquivos históricos: links, hashes, datas de coleta e condições HTTP em data/historical_sources/manifest.json. Ver docs/history.md para o alcance real das fontes acessíveis.
 - Referência inglesa: Lewis Carroll, Alice's Adventures in Wonderland, Project Gutenberg; texto e metadados em data/english_reference. Material auxiliar de pontuação, não par cifra/plaintext.
 - Avaliação lexical da sexta rodada: Frances Hodgson Burnett, *The Secret Garden*; P.G. Wodehouse, *My Man Jeeves*; L. Frank Baum, *The Wonderful Wizard of Oz*; J.M. Barrie, *Peter Pan*. Fontes Project Gutenberg completas, com termos/cabeçalhos preservados, URLs e hashes em `data/word_validator_reference/SOURCES.json`. Treino e qualificação têm papéis separados; não são traduções de Tibia.
+- Qualificações de segmentação da sétima rodada: Robert Louis Stevenson, *Treasure Island*, e Jack London, *The Call of the Wild* (V1); Lucy Maud Montgomery, *Anne of Green Gables*, e Joseph Conrad, *The Secret Agent* (V2). Project Gutenberg, fontes e termos completos preservados. URLs, papéis e hashes em `data/raw_parser_reference/SOURCES.json` e `data/raw_parser_reference_v2/SOURCES.json`. Usados para cifras sintéticas com respostas conhecidas, sem pares de tradução de 469.
 
 Os commits exatos e hashes dos três repositórios estão em sources/manifest.json.
 Capturas completas de páginas de terceiros são mantidas apenas localmente;

@@ -4,3 +4,5 @@ data/benchmark_reference_v2/*.txt -text -diff
 data/benchmark_reference_v3/*.txt -text -diff
 data/benchmark_reference_v4/*.txt -text -diff
 data/word_validator_reference/*.txt -text -diff
+data/raw_parser_reference/*.txt -text -diff
+data/raw_parser_reference_v2/*.txt -text -diff

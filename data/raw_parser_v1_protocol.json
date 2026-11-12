@@ -1,0 +1,539 @@
+{
+  "version": "RAW_PARSER_V1_KNOWN_KEY",
+  "frozen_at_utc": "2026-11-12T01:40:54.163017+00:00",
+  "selection": "Algorithm and candidate family fixed theoretically; no qualification-based tuning.",
+  "lengths": [
+    64,
+    128
+  ],
+  "fixtures_per_cell": 30,
+  "calibration_letters": 512,
+  "true_rules": [
+    "never",
+    "always",
+    "iid_0.3",
+    "previous_mod3"
+  ],
+  "candidate_rules": [
+    "never",
+    "always",
+    "iid_0.1",
+    "iid_0.3",
+    "iid_0.5",
+    "iid_0.7",
+    "iid_0.9",
+    "previous_mod3"
+  ],
+  "seed": 70469000,
+  "supplied_information": [
+    "true homophonic code-to-letter key",
+    "true P(code|letter) for all letters",
+    "true omission rule in oracle mode only"
+  ],
+  "hidden_evaluation_information": [
+    "plaintext",
+    "code count",
+    "code boundaries",
+    "omitted-zero positions"
+  ],
+  "language": {
+    "training_sources": [
+      {
+        "path": "data/english_reference/alice.txt",
+        "source_sha256": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+        "letters": 86465,
+        "text_sha256": "ea6dcf57321f818b5e3c20d3395e1a40ecd9b3e946defd0941fd130b78aef795"
+      },
+      {
+        "path": "data/benchmark_reference/frankenstein.txt",
+        "source_sha256": "2b97b7f8aad508649481d8dd4f6b54f9b965ddb3ba634e9151c815f537b49e42",
+        "letters": 100000,
+        "text_sha256": "d710a6deeaffecc51e8edfb39be377cef38b80e447b758dd07dc77237b42c9c2"
+      },
+      {
+        "path": "data/benchmark_reference/pride_prejudice.txt",
+        "source_sha256": "3f6bb9d6f78e0293b56acd4714dd68cb7d6d1d293402031ce9d5a216bcaf9d75",
+        "letters": 100000,
+        "text_sha256": "8110f8ab47a4beef19fe1ae58570dee9486c1a7fc00999b858cfe03aa5542c61"
+      },
+      {
+        "path": "data/benchmark_reference/sherlock_holmes.txt",
+        "source_sha256": "922e2a12ccb43a4c9544c260b2166c6ad2097aeb5957faeee113f173bb857cd0",
+        "letters": 100000,
+        "text_sha256": "623b19a0392d5d66b3a2c07a36456de09158f706f06a99e87f50ecfdb6ab51ff"
+      },
+      {
+        "path": "data/benchmark_reference_v2/war_worlds.txt",
+        "source_sha256": "8417469e3ab664749f7b36ebb85799075818207b0380b54c27d07d592a44117d",
+        "letters": 100000,
+        "text_sha256": "b34014c51d8962ae7510acd28563929ddc65c81ffd5a030a06291c44d2f4e5d9"
+      },
+      {
+        "path": "data/benchmark_reference_v2/great_expectations.txt",
+        "source_sha256": "9a637118af8e953e9764ec603d9b0a032883384d465acac2e27966a80cf1c6f8",
+        "letters": 100000,
+        "text_sha256": "5bb20665aa05333acb41036cd7fc6b5f8d88769c48c111bfc76f7d047a6d1dea"
+      }
+    ],
+    "tetragrams": 586447,
+    "observed_tetragrams": 41988,
+    "model_sha256": "f47c563ca563fa6c055871205f89675e21664809fc9f9d5756d7bef78c6416ee",
+    "alpha": 0.01,
+    "scope": "Previous development and opened qualification authors now training; no V3qualification author used."
+  },
+  "message_length_prior": "P(N=n)=(1/128)*(127/128)^n, n>=0; true evaluation length not supplied",
+  "rule_selection": "maximize exact forward marginal likelihood on a separate 512-letter encoded calibration message; selected once per rule/fixture; unchanged on evaluation/controls",
+  "gate": {
+    "minimum_boundary_f1": 0.95,
+    "minimum_code_span_f1": 0.95,
+    "minimum_character_edit_accuracy": 0.95,
+    "minimum_passes_per_cell": 27
+  },
+  "controls": [
+    "shuffle_codes",
+    "blocks8_codes"
+  ],
+  "control_policy": "Preserve exact code multiset. Preserve per-token omission flags when independent of context, hence raw length. For previous_mod3 reserialize the shuffled codes under the true context rule; length may change.",
+  "baseline": "uniform-letter language, true key/emissions and true omission rule",
+  "application_gate": "A passing conditional parser is not an unknown-key solver. No game key search or translation claim authorized by this gate alone.",
+  "source_hashes": {
+    "treasure_island": "5bc08275eacea8640b1aa185c645283bb8c564d7b23df6b03437d229b4fc6ebd",
+    "call_wild": "30f569c5671bba7bbc4a92ab6d8ee01a0d3be00f994819c77da62c28041eb8a2"
+  },
+  "implementation_hashes": {
+    "scripts/raw_digit_decoder.py": "7361ecc965a87e33e766933d10b90a903ab1d1b3e53c9988706ccb3184c9010f",
+    "scripts/raw_parser_benchmark.py": "895993259cb1afd81b21e6ebeecda327fd9e6aeeb4a211d4c3c4f4ec47aaac95",
+    "scripts/copied_homophonic_v3.py": "f37ed2623143e583ec81bf9bb747f4ae972e5be07c2e95a27ece8e1ab496338f",
+    "scripts/homophonic_benchmark.py": "759b096e9b5e9b354926fcdf5d5cedab66346fb5114aa1530d520b51a04baea7"
+  },
+  "fixture_manifest": [
+    {
+      "fixture": 0,
+      "length": 64,
+      "source": "treasure_island",
+      "offset": 1000,
+      "sha256": "14df93e5f5e1349312b1c80d2a5dc54bf3e4d3d92cbfc33b097a928478b3ee56"
+    },
+    {
+      "fixture": 1,
+      "length": 64,
+      "source": "treasure_island",
+      "offset": 2024,
+      "sha256": "80d52db383e48c07e596a3948c7fa208c04d2a11986b03aeb4c698229735c35d"
+    },
+    {
+      "fixture": 2,
+      "length": 64,
+      "source": "treasure_island",
+      "offset": 3048,
+      "sha256": "9adac1fcc72d73407c6c299c9544ca4c6eebf6cd9d8391b4c9438f2b5d6c9857"
+    },
+    {
+      "fixture": 3,
+      "length": 64,
+      "source": "treasure_island",
+      "offset": 4072,
+      "sha256": "4fae390dca29f722c7b6377e2ad3298b9f68dc6ff7b375791e07a837ee406b88"
+    },
+    {
+      "fixture": 4,
+      "length": 64,
+      "source": "treasure_island",
+      "offset": 5096,
+      "sha256": "aee442462bf04802033b4ee5428eee2b83c9b99ea7e43ee404532f1fadabf6db"
+    },
+    {
+      "fixture": 5,
+      "length": 64,
+      "source": "treasure_island",
+      "offset": 6120,
+      "sha256": "151358eaa38c899b64149e0d8370abd7045305ab50b46fbe1aa3f1817d2ae366"
+    },
+    {
+      "fixture": 6,
+      "length": 64,
+      "source": "treasure_island",
+      "offset": 7144,
+      "sha256": "33b8157acf3ffcf15ad2a485e4b455500b68fed1f69a40633274a81ed3b4c570"
+    },
+    {
+      "fixture": 7,
+      "length": 64,
+      "source": "treasure_island",
+      "offset": 8168,
+      "sha256": "9ab9d38c6a12ff0ca67c9af7a47d81844017cb456111022212aa0bfd49795fa9"
+    },
+    {
+      "fixture": 8,
+      "length": 64,
+      "source": "treasure_island",
+      "offset": 9192,
+      "sha256": "65320ce358878a75fab5de256153e36e297099ac1cb426689f12f1ceea987cb4"
+    },
+    {
+      "fixture": 9,
+      "length": 64,
+      "source": "treasure_island",
+      "offset": 10216,
+      "sha256": "ee7b340477d580abf663ed581f8e7b992d5c273ae90fa850182cd0d19ff7db2e"
+    },
+    {
+      "fixture": 10,
+      "length": 64,
+      "source": "treasure_island",
+      "offset": 11240,
+      "sha256": "0cec679357cf92f26d0a1885e4428318edc8c8904d69f0e9b53a712e79ee7da4"
+    },
+    {
+      "fixture": 11,
+      "length": 64,
+      "source": "treasure_island",
+      "offset": 12264,
+      "sha256": "34c4c9053d0fe127342dacd708a1eba08930059f09eafa521a358eaf81f279e1"
+    },
+    {
+      "fixture": 12,
+      "length": 64,
+      "source": "treasure_island",
+      "offset": 13288,
+      "sha256": "ffcad7bd45390628823b8cc7e1c6a3a36f229174681550a1a23f2d04970d6d49"
+    },
+    {
+      "fixture": 13,
+      "length": 64,
+      "source": "treasure_island",
+      "offset": 14312,
+      "sha256": "8103d5ab70d7a70086cf854b6d91faaabdd199230b07d424b4173bf94e812950"
+    },
+    {
+      "fixture": 14,
+      "length": 64,
+      "source": "treasure_island",
+      "offset": 15336,
+      "sha256": "9f25ace70d1b06c42b6b52a2c6643e1dc48977d9f4ed1f59fbe72ebbb46328f3"
+    },
+    {
+      "fixture": 15,
+      "length": 64,
+      "source": "call_wild",
+      "offset": 1000,
+      "sha256": "98d99d51c2493cdf44c6889d10c05c822985f2c1e22fdd426eee9752c9c17e43"
+    },
+    {
+      "fixture": 16,
+      "length": 64,
+      "source": "call_wild",
+      "offset": 2024,
+      "sha256": "b8e8a2bbbd81c2ec136b19c49a59b6629e7a55abf7ac7e704d309c00a8c0ad75"
+    },
+    {
+      "fixture": 17,
+      "length": 64,
+      "source": "call_wild",
+      "offset": 3048,
+      "sha256": "d0d5aa99386b9076414d77c9ad4799b39149fc88cc6c0fbfcedeac9ec1dfe89a"
+    },
+    {
+      "fixture": 18,
+      "length": 64,
+      "source": "call_wild",
+      "offset": 4072,
+      "sha256": "39306cd1051f72fbd9850ecfffa085533e96b9e1d36b18b30d4765e9cd123d27"
+    },
+    {
+      "fixture": 19,
+      "length": 64,
+      "source": "call_wild",
+      "offset": 5096,
+      "sha256": "a4310f213c6e617f3362b6a6fd4e5f422fa5deae8b654949f6af98dccb7283e1"
+    },
+    {
+      "fixture": 20,
+      "length": 64,
+      "source": "call_wild",
+      "offset": 6120,
+      "sha256": "04a590f6005c71cbea66ddddb601ec06079a42b9de605b8c4d624e8f470dc379"
+    },
+    {
+      "fixture": 21,
+      "length": 64,
+      "source": "call_wild",
+      "offset": 7144,
+      "sha256": "12c6c8b24e55d517a3d82ec5e733f0f951cf521d5ed91b89b29ecfba6a6bb79d"
+    },
+    {
+      "fixture": 22,
+      "length": 64,
+      "source": "call_wild",
+      "offset": 8168,
+      "sha256": "40c89c521115687b9f2526771b50366c1b60d91229f1df8a384118438907fc9f"
+    },
+    {
+      "fixture": 23,
+      "length": 64,
+      "source": "call_wild",
+      "offset": 9192,
+      "sha256": "4f4bcce7beebc3f1196cb9a2129cc22d8738821192fbd28da771b3aee6538ceb"
+    },
+    {
+      "fixture": 24,
+      "length": 64,
+      "source": "call_wild",
+      "offset": 10216,
+      "sha256": "88750e1e4055f1304d2be8fbf22fa32c045f4ab6247f2d0b29943fb78364cead"
+    },
+    {
+      "fixture": 25,
+      "length": 64,
+      "source": "call_wild",
+      "offset": 11240,
+      "sha256": "506f03ddeb475b2e90b84755e8842a59e7621bd4a7947d0bcab75ea073ccdffe"
+    },
+    {
+      "fixture": 26,
+      "length": 64,
+      "source": "call_wild",
+      "offset": 12264,
+      "sha256": "25741413eae8ab4f9d020e3d8c1c5a9dd411af5e7524fb8f0509a1b58c8010e3"
+    },
+    {
+      "fixture": 27,
+      "length": 64,
+      "source": "call_wild",
+      "offset": 13288,
+      "sha256": "aadd52f0c3a267388f5cb4e57733424ec27b7b1c35e387a9e7e762ed6f5d114b"
+    },
+    {
+      "fixture": 28,
+      "length": 64,
+      "source": "call_wild",
+      "offset": 14312,
+      "sha256": "8782fd89d997108c25143a8234f064fd0ed16d05dc7495ad5806736c785c8c0f"
+    },
+    {
+      "fixture": 29,
+      "length": 64,
+      "source": "call_wild",
+      "offset": 15336,
+      "sha256": "0ac4077cb72c3fe83d401fd7eb258162b3c95777cff6a1da7cfe5243d1cec61d"
+    },
+    {
+      "fixture": 0,
+      "length": 128,
+      "source": "treasure_island",
+      "offset": 33768,
+      "sha256": "098824edc37b31375d46db88c9881ee5a34e10860ac20553d0c38252b5a15d76"
+    },
+    {
+      "fixture": 1,
+      "length": 128,
+      "source": "treasure_island",
+      "offset": 34792,
+      "sha256": "f5afaf7a75cca8bcdb983cac2ef55721d2050ce03d4cf2c9d7b13f6004788c16"
+    },
+    {
+      "fixture": 2,
+      "length": 128,
+      "source": "treasure_island",
+      "offset": 35816,
+      "sha256": "620922d1011e48795029af14981b118a73d776de43e91280472ec62341ca3acc"
+    },
+    {
+      "fixture": 3,
+      "length": 128,
+      "source": "treasure_island",
+      "offset": 36840,
+      "sha256": "0d63f10eea37f1699ca6d5650d68d7218a4da62fd6707ebbb8d47b6e0c3c3eb6"
+    },
+    {
+      "fixture": 4,
+      "length": 128,
+      "source": "treasure_island",
+      "offset": 37864,
+      "sha256": "f55b7469d89ef43cc3d3bd7ed83014133e658fe47c903fd635070531eccedd81"
+    },
+    {
+      "fixture": 5,
+      "length": 128,
+      "source": "treasure_island",
+      "offset": 38888,
+      "sha256": "9669fe7f146ec9f9e94e13a3f534f95dedefbd8e3fbf6cd60cfffa778afd35ab"
+    },
+    {
+      "fixture": 6,
+      "length": 128,
+      "source": "treasure_island",
+      "offset": 39912,
+      "sha256": "633e6f3b8e03dd1a11aa3e9bea800ff2267f5976ebc34283fd7ca6a405bb58ea"
+    },
+    {
+      "fixture": 7,
+      "length": 128,
+      "source": "treasure_island",
+      "offset": 40936,
+      "sha256": "f02c4752dae89c3208f6fe261bb03c57dfc730b97efe978b89721b58c4ec4812"
+    },
+    {
+      "fixture": 8,
+      "length": 128,
+      "source": "treasure_island",
+      "offset": 41960,
+      "sha256": "bc9b1c41321e03327aa9b0ee104e33e17b267d2cf4b5e48970ddf5172268a969"
+    },
+    {
+      "fixture": 9,
+      "length": 128,
+      "source": "treasure_island",
+      "offset": 42984,
+      "sha256": "94ca5eea9c5d0912c1416961026ccd8073ebf96587724b9ee330e919e3d2c3ae"
+    },
+    {
+      "fixture": 10,
+      "length": 128,
+      "source": "treasure_island",
+      "offset": 44008,
+      "sha256": "0c43a4f205820cb001311bc52c99b501e24b844cfc710f122c7a28e79500261f"
+    },
+    {
+      "fixture": 11,
+      "length": 128,
+      "source": "treasure_island",
+      "offset": 45032,
+      "sha256": "ee542b5fd07ee10022b7d4536cd9f905f7a733d63c43c76820090113100af93b"
+    },
+    {
+      "fixture": 12,
+      "length": 128,
+      "source": "treasure_island",
+      "offset": 46056,
+      "sha256": "9fda2d830941d4b42114886792681cb952a02069da161a3bf431c61b74a1120f"
+    },
+    {
+      "fixture": 13,
+      "length": 128,
+      "source": "treasure_island",
+      "offset": 47080,
+      "sha256": "8532ad92c609033c4f99b0399b82a70f7349ebc971503f72b511b9a8f1491b02"
+    },
+    {
+      "fixture": 14,
+      "length": 128,
+      "source": "treasure_island",
+      "offset": 48104,
+      "sha256": "e11ded28a280ffac4f610b33ab55c0a632162e9defa1f61a8adb79859b2c2c96"
+    },
+    {
+      "fixture": 15,
+      "length": 128,
+      "source": "call_wild",
+      "offset": 33768,
+      "sha256": "fc3352b5a3eb40bad3cb0b4541eddc39d1a554440c4a085d5b8f7175cfb87ff6"
+    },
+    {
+      "fixture": 16,
+      "length": 128,
+      "source": "call_wild",
+      "offset": 34792,
+      "sha256": "5ae4c06e47fae83743afdde322a3de59f0befae04a8733ae59aa5bc182df56b0"
+    },
+    {
+      "fixture": 17,
+      "length": 128,
+      "source": "call_wild",
+      "offset": 35816,
+      "sha256": "feba6b3ed61786911c1a8ec8215142789dffd152e4f6cb72d1ef9cb4ad98b20b"
+    },
+    {
+      "fixture": 18,
+      "length": 128,
+      "source": "call_wild",
+      "offset": 36840,
+      "sha256": "a8d1459af5d08b4cfebb41dfbd67dba0bdf131a6a985755b6c87c4569a6fe03b"
+    },
+    {
+      "fixture": 19,
+      "length": 128,
+      "source": "call_wild",
+      "offset": 37864,
+      "sha256": "73e975c03aabe0fa07f2c9d5b6f228e3f53892f20f399f09a2ad0fbd4880e658"
+    },
+    {
+      "fixture": 20,
+      "length": 128,
+      "source": "call_wild",
+      "offset": 38888,
+      "sha256": "5b8b828186354a100f0a9c44b3b1de0a673ff5ba6c6b821a68fbc7bb382d91aa"
+    },
+    {
+      "fixture": 21,
+      "length": 128,
+      "source": "call_wild",
+      "offset": 39912,
+      "sha256": "a74270943f372c7215faabc0fadc38b86e8ad4b8f9c31d44c595312df48f44cb"
+    },
+    {
+      "fixture": 22,
+      "length": 128,
+      "source": "call_wild",
+      "offset": 40936,
+      "sha256": "c9c5ca88437e3ec06d5163ec895ae90705659fee28cc4b64826121f44df5f823"
+    },
+    {
+      "fixture": 23,
+      "length": 128,
+      "source": "call_wild",
+      "offset": 41960,
+      "sha256": "4389bcbf40fd4fc5c4269ac2baedb2f1e0717a9be36a1aad9fd63877e3a39ff0"
+    },
+    {
+      "fixture": 24,
+      "length": 128,
+      "source": "call_wild",
+      "offset": 42984,
+      "sha256": "18cd1aa324f15ae7ba447a2b13c4308eda0c99d95677205143b4858415dea1c4"
+    },
+    {
+      "fixture": 25,
+      "length": 128,
+      "source": "call_wild",
+      "offset": 44008,
+      "sha256": "df2975753a592c727bf99348968074e7d8903019055d2a6e7f00b4bb31d957f2"
+    },
+    {
+      "fixture": 26,
+      "length": 128,
+      "source": "call_wild",
+      "offset": 45032,
+      "sha256": "6eb416d972920c834b6101a0d69531952b9ee0aeecd0ed0676e08256c24dc32e"
+    },
+    {
+      "fixture": 27,
+      "length": 128,
+      "source": "call_wild",
+      "offset": 46056,
+      "sha256": "8c4ce6831a061b5bab195c215cd7034be55292edc60d1bfdca53a1a8d26932a2"
+    },
+    {
+      "fixture": 28,
+      "length": 128,
+      "source": "call_wild",
+      "offset": 47080,
+      "sha256": "c5fb404e3b4c605da539c0c46e71a8f397e69f185b8340b8a1c0780ad14ac5ae"
+    },
+    {
+      "fixture": 29,
+      "length": 128,
+      "source": "call_wild",
+      "offset": 48104,
+      "sha256": "26f3c004e585a80e266b20386c45d44e6517e84d6e0ac427ec7bb0c036314dc9"
+    }
+  ],
+  "limits": [
+    "Known true key and code emission distribution are strong oracle advantages, unavailable for real469.",
+    "Four rule scenarios and order controls share each of60source excerpts/keys; do not pool as independent plaintexts.",
+    "Only two fresh authors; short finite samples and a small explicitly defined rule family.",
+    "Forward probability and MAP posterior are conditional on the approximate character model, not semantic truth.",
+    "Controls have known valid encryption/zero rules but disrupted order; not every permuted passage is guaranteed meaningless.",
+    "Synthetic99-code keys use all00..99 except39 to match inventory size; this is not evidence that the imported469stream is correct."
+  ]
+}

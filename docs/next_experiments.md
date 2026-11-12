@@ -243,3 +243,17 @@ fronteiras avaliadas separadamente de plaintext e nulos com o mesmo orçamento.
 Depois, testar famílias contextuais pequenas congeladas, sem escolher parses
 por palavras isoladas. Continuar a coleta de pares externos autenticados e
 qualificar uma nova medida de coerência antes de selecionar novas chaves.
+
+Atualização após a [sétima rodada](round7.md): duas versões de parsing exato
+foram avaliadas em qualificação com chave/emissões fornecidas, em autores
+novos. V1 e V2 falham no gate global; V2 melhora a baseline pareada 211→220/240,
+mas só 185 plaintexts são exatos. Não confundir qualificação parcial de cenários
+com recuperação de chave ou validação de 469. As falhas V1 têm objetivo errado
+estritamente maior que a verdade; mais tentativas do mesmo parser não resolvem.
+
+Priorizar restrições de fronteira/zeros verificáveis e um modelo externo mais
+forte, com nomes, omissões e colisões explícitas. Comparar taxas de omissão por
+código/estado sem contar módulos copiados como observações independentes. Para
+buscar chave e segmentação juntas, construir qualificação própria com a chave
+escondida e um objetivo comum, antes de aplicar a novos livros. Manter os
+modelos e resultados atuais congelados, inclusive os resultados negativos.

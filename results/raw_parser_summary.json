@@ -1,0 +1,109 @@
+{
+  "versions": [
+    {
+      "version": 1,
+      "result_sha256": "05a1d1f7f049701ccbca77ebc45a9bce6423b0351990493b37fdd0f1d3c056c7",
+      "positive_cases": 240,
+      "distinct_source_excerpts": 60,
+      "oracle_gate_passes": false,
+      "selected_rule_gate_passes": false,
+      "modes": {
+        "oracle": {
+          "passed_95percent_cases": 214,
+          "exact_plaintexts": 163,
+          "exact_paths": 163,
+          "mean_character_edit_accuracy": 0.9857096173339495
+        },
+        "selected": {
+          "passed_95percent_cases": 213,
+          "exact_plaintexts": 158,
+          "exact_paths": 158,
+          "mean_character_edit_accuracy": 0.9848861256810612
+        },
+        "uniform_oracle": {
+          "passed_95percent_cases": 106,
+          "exact_plaintexts": 84,
+          "exact_paths": 84,
+          "mean_character_edit_accuracy": 0.9161792045567482
+        }
+      },
+      "correct_rule_selected": 193,
+      "controls": [
+        {
+          "mode": "shuffle_codes",
+          "cases": 240,
+          "exact_oracle_plaintexts": 60,
+          "exact_oracle_paths": 60,
+          "oracle_mean_character_edit_accuracy": 0.7312711433751143,
+          "wrong_oracle_paths_with_posterior_gt95": 1,
+          "wrong_oracle_plaintexts_with_path_posterior_gt95": 1
+        },
+        {
+          "mode": "blocks8_codes",
+          "cases": 240,
+          "exact_oracle_plaintexts": 109,
+          "exact_oracle_paths": 109,
+          "oracle_mean_character_edit_accuracy": 0.9588948390777438,
+          "wrong_oracle_paths_with_posterior_gt95": 5,
+          "wrong_oracle_plaintexts_with_path_posterior_gt95": 5
+        }
+      ]
+    },
+    {
+      "version": 2,
+      "result_sha256": "dc3202238a7f8bde3b7153179ef9c18ba94a6a4854baac094debcb59ffce2870",
+      "positive_cases": 240,
+      "distinct_source_excerpts": 60,
+      "oracle_gate_passes": false,
+      "selected_rule_gate_passes": false,
+      "modes": {
+        "oracle": {
+          "passed_95percent_cases": 220,
+          "exact_plaintexts": 185,
+          "exact_paths": 184,
+          "mean_character_edit_accuracy": 0.9912266256607326
+        },
+        "selected": {
+          "passed_95percent_cases": 220,
+          "exact_plaintexts": 183,
+          "exact_paths": 182,
+          "mean_character_edit_accuracy": 0.9911297264359263
+        },
+        "V1_paired_oracle": {
+          "passed_95percent_cases": 211,
+          "exact_plaintexts": 165,
+          "exact_paths": 165,
+          "mean_character_edit_accuracy": 0.9844496700451733
+        }
+      },
+      "correct_rule_selected": 216,
+      "controls": [
+        {
+          "mode": "shuffle_codes",
+          "cases": 240,
+          "exact_oracle_plaintexts": 61,
+          "exact_oracle_paths": 61,
+          "oracle_mean_character_edit_accuracy": 0.7606388442740238,
+          "wrong_oracle_paths_with_posterior_gt95": 1,
+          "wrong_oracle_plaintexts_with_path_posterior_gt95": 1
+        },
+        {
+          "mode": "blocks8_codes",
+          "cases": 240,
+          "exact_oracle_plaintexts": 126,
+          "exact_oracle_paths": 125,
+          "oracle_mean_character_edit_accuracy": 0.969817169824635,
+          "wrong_oracle_paths_with_posterior_gt95": 2,
+          "wrong_oracle_plaintexts_with_path_posterior_gt95": 2
+        }
+      ]
+    }
+  ],
+  "unknown_key_searches": 0,
+  "verified_469_translations": 0,
+  "limits": [
+    "95percent structural recovery is not exact plaintext recovery or semantic validation.",
+    "All keys and code emission probabilities supplied; no game text or new official gloss used.",
+    "Confidence concerns latent paths under an approximate model; controls can preserve some meaningful substrings."
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "round": 7,
+  "completed_at_utc": "2026-11-12T01:57:50.068720+00:00",
+  "positive_qualification_conditions": 480,
+  "paired_order_control_conditions": 960,
+  "distinct_qualification_source_excerpts": 120,
+  "development_model_evaluations": 960,
+  "supplied_information": "True key and true P(code|letter), plus true zero rule in oracle mode",
+  "unknown_game_key_fits": 0,
+  "new_game_text_decodings": 0,
+  "verified_469_translations": 0,
+  "qualification_versions": [
+    {
+      "version": 1,
+      "oracle_gate_passes": false,
+      "selected_rule_gate_passes": false,
+      "modes": {
+        "oracle": {
+          "passed_95percent_cases": 214,
+          "exact_plaintexts": 163,
+          "exact_paths": 163,
+          "mean_character_edit_accuracy": 0.9857096173339495
+        },
+        "selected": {
+          "passed_95percent_cases": 213,
+          "exact_plaintexts": 158,
+          "exact_paths": 158,
+          "mean_character_edit_accuracy": 0.9848861256810612
+        },
+        "uniform_oracle": {
+          "passed_95percent_cases": 106,
+          "exact_plaintexts": 84,
+          "exact_paths": 84,
+          "mean_character_edit_accuracy": 0.9161792045567482
+        }
+      }
+    },
+    {
+      "version": 2,
+      "oracle_gate_passes": false,
+      "selected_rule_gate_passes": false,
+      "modes": {
+        "oracle": {
+          "passed_95percent_cases": 220,
+          "exact_plaintexts": 185,
+          "exact_paths": 184,
+          "mean_character_edit_accuracy": 0.9912266256607326
+        },
+        "selected": {
+          "passed_95percent_cases": 220,
+          "exact_plaintexts": 183,
+          "exact_paths": 182,
+          "mean_character_edit_accuracy": 0.9911297264359263
+        },
+        "V1_paired_oracle": {
+          "passed_95percent_cases": 211,
+          "exact_plaintexts": 165,
+          "exact_paths": 165,
+          "mean_character_edit_accuracy": 0.9844496700451733
+        }
+      }
+    }
+  ],
+  "codebook_ambiguity": "Constructive collisions for memoryless always/optional leading-zero removal; not a proof about English meanings or real469.",
+  "automated_tests": {
+    "count": 93,
+    "passed": true,
+    "log": "results/tests_round7.log"
+  },
+  "next_priority": "Additional independently testable serialization constraints and stronger external models; hidden-key qualification required before joint key/parsing search.",
+  "limits": [
+    "95percent structural recovery is not exact plaintext recovery or semantic validation.",
+    "All keys and code emission probabilities supplied; no game text or new official gloss used.",
+    "Confidence concerns latent paths under an approximate model; controls can preserve some meaningful substrings."
+  ]
+}

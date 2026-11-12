@@ -1,0 +1,536 @@
+{
+  "version": "RAW_PARSER_V2_KNOWN_KEY",
+  "frozen_at_utc": "2026-11-12T01:48:34.839357+00:00",
+  "selected_model": {
+    "order": 4,
+    "backoff": 10
+  },
+  "development_result_sha256": "b290634bb55cdb327a1a5eb14b40603f2f8bf333fddd1d0cc8a7477123799be7",
+  "training_sources": [
+    {
+      "path": "data/english_reference/alice.txt",
+      "letters": 86465,
+      "source_sha256": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+      "text_sha256": "ea6dcf57321f818b5e3c20d3395e1a40ecd9b3e946defd0941fd130b78aef795"
+    },
+    {
+      "path": "data/benchmark_reference/frankenstein.txt",
+      "letters": 100000,
+      "source_sha256": "2b97b7f8aad508649481d8dd4f6b54f9b965ddb3ba634e9151c815f537b49e42",
+      "text_sha256": "d710a6deeaffecc51e8edfb39be377cef38b80e447b758dd07dc77237b42c9c2"
+    },
+    {
+      "path": "data/benchmark_reference/pride_prejudice.txt",
+      "letters": 100000,
+      "source_sha256": "3f6bb9d6f78e0293b56acd4714dd68cb7d6d1d293402031ce9d5a216bcaf9d75",
+      "text_sha256": "8110f8ab47a4beef19fe1ae58570dee9486c1a7fc00999b858cfe03aa5542c61"
+    },
+    {
+      "path": "data/benchmark_reference/sherlock_holmes.txt",
+      "letters": 100000,
+      "source_sha256": "922e2a12ccb43a4c9544c260b2166c6ad2097aeb5957faeee113f173bb857cd0",
+      "text_sha256": "623b19a0392d5d66b3a2c07a36456de09158f706f06a99e87f50ecfdb6ab51ff"
+    },
+    {
+      "path": "data/benchmark_reference_v2/war_worlds.txt",
+      "letters": 100000,
+      "source_sha256": "8417469e3ab664749f7b36ebb85799075818207b0380b54c27d07d592a44117d",
+      "text_sha256": "b34014c51d8962ae7510acd28563929ddc65c81ffd5a030a06291c44d2f4e5d9"
+    },
+    {
+      "path": "data/benchmark_reference_v2/great_expectations.txt",
+      "letters": 100000,
+      "source_sha256": "9a637118af8e953e9764ec603d9b0a032883384d465acac2e27966a80cf1c6f8",
+      "text_sha256": "5bb20665aa05333acb41036cd7fc6b5f8d88769c48c111bfc76f7d047a6d1dea"
+    }
+  ],
+  "lengths": [
+    64,
+    128
+  ],
+  "fixtures_per_cell": 30,
+  "calibration_letters": 512,
+  "true_rules": [
+    "never",
+    "always",
+    "iid_0.3",
+    "previous_mod3"
+  ],
+  "candidate_rules": [
+    "never",
+    "always",
+    "iid_0.1",
+    "iid_0.3",
+    "iid_0.5",
+    "iid_0.7",
+    "iid_0.9",
+    "previous_mod3"
+  ],
+  "seed": 80469000,
+  "gate": {
+    "minimum_boundary_f1": 0.95,
+    "minimum_code_span_f1": 0.95,
+    "minimum_character_edit_accuracy": 0.95,
+    "minimum_passes_per_cell": 27
+  },
+  "supplied_information": [
+    "true homophonic key",
+    "true P(code|letter)",
+    "true omission rule in oracle mode"
+  ],
+  "hidden_evaluation_information": [
+    "plaintext",
+    "code count",
+    "boundaries",
+    "zero omission positions"
+  ],
+  "length_prior": "P(N=n)=(1/128)*(127/128)^n, n>=0; no supplied true length",
+  "rule_selection": "Eight fixed models compared by exact forward evidence only on the512-letter calibration message; no evaluation fitting",
+  "controls": [
+    "shuffle_codes",
+    "blocks8_codes"
+  ],
+  "paired_baseline": "V1 character model on the identical new ciphertext, key/emissions and true rule; scorer changes order and interpolation jointly",
+  "implementation_hashes": {
+    "scripts/raw_parser_benchmark_v2.py": "782ecaac8d7a583451c0ce25310277ff379f9bb1bd4bf238d07e168abb73cbfe",
+    "scripts/raw_parser_long_context.py": "bfd7da2787763cf40e4a174e39e360d15c32b408d517f314ddc3d6592ea2f816",
+    "scripts/raw_parser_benchmark.py": "895993259cb1afd81b21e6ebeecda327fd9e6aeeb4a211d4c3c4f4ec47aaac95",
+    "scripts/raw_digit_decoder.py": "7361ecc965a87e33e766933d10b90a903ab1d1b3e53c9988706ccb3184c9010f",
+    "scripts/copied_homophonic_v3.py": "f37ed2623143e583ec81bf9bb747f4ae972e5be07c2e95a27ece8e1ab496338f",
+    "scripts/homophonic_benchmark.py": "759b096e9b5e9b354926fcdf5d5cedab66346fb5114aa1530d520b51a04baea7"
+  },
+  "source_hashes": {
+    "anne_green_gables": "89a5e9fb2e0bb44562a969785385366f94e1da736aebee7d9cdf459eb0b5f9f6",
+    "secret_agent": "0a37c8fc9a62db2efcea487f02c1cdd4d48657c66b54af3ad90f2317e42b7588"
+  },
+  "fixture_manifest": [
+    {
+      "fixture": 0,
+      "length": 64,
+      "source": "anne_green_gables",
+      "offset": 10000,
+      "sha256": "c8689e5f71e895a3f12802a6a29d3a4198e4e3f0b7f56637a4d4f95c31b60562"
+    },
+    {
+      "fixture": 1,
+      "length": 64,
+      "source": "anne_green_gables",
+      "offset": 11024,
+      "sha256": "67bcfd4b59af5285d7eba8c677eb6e4b7225293d22b93963e178c5fe9e80cb2c"
+    },
+    {
+      "fixture": 2,
+      "length": 64,
+      "source": "anne_green_gables",
+      "offset": 12048,
+      "sha256": "4a7895f3db2fd94a1d94cc8e78a2f998cb926bb3395cf15f25d35ac3c6cc133e"
+    },
+    {
+      "fixture": 3,
+      "length": 64,
+      "source": "anne_green_gables",
+      "offset": 13072,
+      "sha256": "1d995af653920d22c53c8651f44e2d2b5b25cc18d3500e0a0a3d85e9fe04db8c"
+    },
+    {
+      "fixture": 4,
+      "length": 64,
+      "source": "anne_green_gables",
+      "offset": 14096,
+      "sha256": "58766618b4b66e02a0f680b387f9715e88be5408a73b553ecc6d292df3d6798a"
+    },
+    {
+      "fixture": 5,
+      "length": 64,
+      "source": "anne_green_gables",
+      "offset": 15120,
+      "sha256": "a53efdd854f53a430ba443c1a4c31de4e8a9520b38b93f9190edac5df9034e03"
+    },
+    {
+      "fixture": 6,
+      "length": 64,
+      "source": "anne_green_gables",
+      "offset": 16144,
+      "sha256": "e7d9c05b1c9b820f0b92c30309b8c496250d73e387f2c50e6336beea2e01c84f"
+    },
+    {
+      "fixture": 7,
+      "length": 64,
+      "source": "anne_green_gables",
+      "offset": 17168,
+      "sha256": "bc70f479b855234b426aec8990ed658471ef3bb77bb7e8a6897781b5a97dd18f"
+    },
+    {
+      "fixture": 8,
+      "length": 64,
+      "source": "anne_green_gables",
+      "offset": 18192,
+      "sha256": "1f54880326687a05b75e07626a294a5b59ec9a81f492c69ba69bfdfd867dd14e"
+    },
+    {
+      "fixture": 9,
+      "length": 64,
+      "source": "anne_green_gables",
+      "offset": 19216,
+      "sha256": "6df565170f69f87b4c796202a026920d5d21e24f9a37819a5dfa402006daf0f5"
+    },
+    {
+      "fixture": 10,
+      "length": 64,
+      "source": "anne_green_gables",
+      "offset": 20240,
+      "sha256": "41245cc9d63c86eac7fdbbbcfbc10c406daf4abc5f1cf8436bba5751fc9b53ed"
+    },
+    {
+      "fixture": 11,
+      "length": 64,
+      "source": "anne_green_gables",
+      "offset": 21264,
+      "sha256": "22037705d61486aa108fca84add99b1ea0e4a48f528e8dd2ff36daabd9d67a13"
+    },
+    {
+      "fixture": 12,
+      "length": 64,
+      "source": "anne_green_gables",
+      "offset": 22288,
+      "sha256": "cefc9b5bdc3cbd460b1d6748155bc93f245125fa247f079b910065a664804f69"
+    },
+    {
+      "fixture": 13,
+      "length": 64,
+      "source": "anne_green_gables",
+      "offset": 23312,
+      "sha256": "a5bd6371e98cded9725894237e7671f6f9932880c783c88616c7f06e976a7876"
+    },
+    {
+      "fixture": 14,
+      "length": 64,
+      "source": "anne_green_gables",
+      "offset": 24336,
+      "sha256": "04c3dc037a8b729e1f212d46c9352e8d6fca9825d1bd6c32d2614569bda694b0"
+    },
+    {
+      "fixture": 15,
+      "length": 64,
+      "source": "secret_agent",
+      "offset": 10000,
+      "sha256": "abafccacce1dbd4755db665ccf49fc59d98bf630e278d2ef6106e5d09dd96230"
+    },
+    {
+      "fixture": 16,
+      "length": 64,
+      "source": "secret_agent",
+      "offset": 11024,
+      "sha256": "b43613b2cb27d47c87e913e76ef47142fe3c00f4791acb1142e6d8c7e78d5e95"
+    },
+    {
+      "fixture": 17,
+      "length": 64,
+      "source": "secret_agent",
+      "offset": 12048,
+      "sha256": "93350937023a2040754bce5b2a30bc32fbc7f749d21ea0e00c8dfba443191aa2"
+    },
+    {
+      "fixture": 18,
+      "length": 64,
+      "source": "secret_agent",
+      "offset": 13072,
+      "sha256": "ccbe3c07f8728ed34da34f212775109e5dea0eba627f0add13295ac30df7015d"
+    },
+    {
+      "fixture": 19,
+      "length": 64,
+      "source": "secret_agent",
+      "offset": 14096,
+      "sha256": "73632fd19ff23f3ad21edfd631730c60f3211c6696687c51c39e787fc9620052"
+    },
+    {
+      "fixture": 20,
+      "length": 64,
+      "source": "secret_agent",
+      "offset": 15120,
+      "sha256": "2bb35b8ebf4531e9bd2c79f20c0f02e3a6abccb2fb38ed421b38d4764de10191"
+    },
+    {
+      "fixture": 21,
+      "length": 64,
+      "source": "secret_agent",
+      "offset": 16144,
+      "sha256": "660fc808c4d78818b1f2b591b95ee3e9d53ea62ffb67890f57c238c6955264e1"
+    },
+    {
+      "fixture": 22,
+      "length": 64,
+      "source": "secret_agent",
+      "offset": 17168,
+      "sha256": "ef06a88b6864c3addefeedb2cd41ceab5629e2bf82a6aab43bb257f194762f2b"
+    },
+    {
+      "fixture": 23,
+      "length": 64,
+      "source": "secret_agent",
+      "offset": 18192,
+      "sha256": "21418d2000ee68a3f0d183631c8b614b02a8ad661e4152d6d5ca39cea9917940"
+    },
+    {
+      "fixture": 24,
+      "length": 64,
+      "source": "secret_agent",
+      "offset": 19216,
+      "sha256": "df1a3c2487ea7ae63a120aa372550ee63a905496db685188c2e1dfec1bfa329d"
+    },
+    {
+      "fixture": 25,
+      "length": 64,
+      "source": "secret_agent",
+      "offset": 20240,
+      "sha256": "b13f77302357d4ddaa6f9fe75bcf9484aff7e7d845d6dbb3cc4048ab1d8e3c8d"
+    },
+    {
+      "fixture": 26,
+      "length": 64,
+      "source": "secret_agent",
+      "offset": 21264,
+      "sha256": "f963c77bf2e3baf0ff6aedfab2e90523d0ef960a327a72fc92897cd2cd27e9ff"
+    },
+    {
+      "fixture": 27,
+      "length": 64,
+      "source": "secret_agent",
+      "offset": 22288,
+      "sha256": "878af7877ae840efe3daa77db5a8152a8dd8cfd744d56d02b92059994354af6b"
+    },
+    {
+      "fixture": 28,
+      "length": 64,
+      "source": "secret_agent",
+      "offset": 23312,
+      "sha256": "a8e1c60fa934b702e8b874fd1cccb9c19b614f40bbaec4f827af6124f998fdbc"
+    },
+    {
+      "fixture": 29,
+      "length": 64,
+      "source": "secret_agent",
+      "offset": 24336,
+      "sha256": "4ec8ba2ef118af7fa2a92a58e62d53dad182538e2b7ba212ba6019c4a32c379c"
+    },
+    {
+      "fixture": 0,
+      "length": 128,
+      "source": "anne_green_gables",
+      "offset": 42768,
+      "sha256": "c535d84b48c7b936b9d05302adad66a969203df00ca00703a0a57699ed04e76c"
+    },
+    {
+      "fixture": 1,
+      "length": 128,
+      "source": "anne_green_gables",
+      "offset": 43792,
+      "sha256": "b8e76f41868238de5ffe17dab33f381f2ab437cbd54aab98de4952a0554ac19d"
+    },
+    {
+      "fixture": 2,
+      "length": 128,
+      "source": "anne_green_gables",
+      "offset": 44816,
+      "sha256": "bb644bf7805e594aede4c653f78e7b20a2e2d37b64aa59f2a8e3bf98e33a04a1"
+    },
+    {
+      "fixture": 3,
+      "length": 128,
+      "source": "anne_green_gables",
+      "offset": 45840,
+      "sha256": "a17ff0dc400e05bd54583da236946118292e054fe4520d942ec177c83b758776"
+    },
+    {
+      "fixture": 4,
+      "length": 128,
+      "source": "anne_green_gables",
+      "offset": 46864,
+      "sha256": "59ed89960a3f28770bfd8647693d70026dd4202245fedd841179f76dc583a62d"
+    },
+    {
+      "fixture": 5,
+      "length": 128,
+      "source": "anne_green_gables",
+      "offset": 47888,
+      "sha256": "c31c1b371c453ebd42166ac6fc1ab27b5a06c952600e4875834553150faf1ab1"
+    },
+    {
+      "fixture": 6,
+      "length": 128,
+      "source": "anne_green_gables",
+      "offset": 48912,
+      "sha256": "6a664bd42ca5c120c4a6f87da9ed157af5861edad2ead9771a15497b7d68994c"
+    },
+    {
+      "fixture": 7,
+      "length": 128,
+      "source": "anne_green_gables",
+      "offset": 49936,
+      "sha256": "c28233f79abfad30d87a0b9bb9b39036fbe8d6e44d5154c7a466374df778db41"
+    },
+    {
+      "fixture": 8,
+      "length": 128,
+      "source": "anne_green_gables",
+      "offset": 50960,
+      "sha256": "bd91312debe956c0408b0e97058267c90be72efa141b4d93409c678bc1b83651"
+    },
+    {
+      "fixture": 9,
+      "length": 128,
+      "source": "anne_green_gables",
+      "offset": 51984,
+      "sha256": "8a842789e65a35cf4cce4f88a2222292433c349be520526e09328c2ed8dfa3e8"
+    },
+    {
+      "fixture": 10,
+      "length": 128,
+      "source": "anne_green_gables",
+      "offset": 53008,
+      "sha256": "1a75e2bbd620ac452c0eca9fe8ac125e38a52a10919fe5bd988c4d479b0e89fa"
+    },
+    {
+      "fixture": 11,
+      "length": 128,
+      "source": "anne_green_gables",
+      "offset": 54032,
+      "sha256": "f82d170ba1b61731f649e165b44741fa5ad9abd7796ef14c4a4075ad200629cd"
+    },
+    {
+      "fixture": 12,
+      "length": 128,
+      "source": "anne_green_gables",
+      "offset": 55056,
+      "sha256": "49a4736e68228bcc83bfe4e1afe4ed09541bff4c538b3bcb8c117f675655a407"
+    },
+    {
+      "fixture": 13,
+      "length": 128,
+      "source": "anne_green_gables",
+      "offset": 56080,
+      "sha256": "64634c960b832dc846af258b73894df4000badcdef99a2cb9f33933d91eb2b68"
+    },
+    {
+      "fixture": 14,
+      "length": 128,
+      "source": "anne_green_gables",
+      "offset": 57104,
+      "sha256": "392a7301526ee0e38ca5483b8f065b2c8b89fddf191db148b3998fa942c3ab9b"
+    },
+    {
+      "fixture": 15,
+      "length": 128,
+      "source": "secret_agent",
+      "offset": 42768,
+      "sha256": "daec83980685d112be52bb749225f49a38e959b14775fdd417474fe1e85aa8f3"
+    },
+    {
+      "fixture": 16,
+      "length": 128,
+      "source": "secret_agent",
+      "offset": 43792,
+      "sha256": "60c31cf7a6c9fea99db9aaf138bca8b38690c78b481c55e8af141a478448032c"
+    },
+    {
+      "fixture": 17,
+      "length": 128,
+      "source": "secret_agent",
+      "offset": 44816,
+      "sha256": "028eb85fdef7f9bd85e7aa7df9498ef5bb27b27f2e6755597b1c6e36a53bacf6"
+    },
+    {
+      "fixture": 18,
+      "length": 128,
+      "source": "secret_agent",
+      "offset": 45840,
+      "sha256": "c95940701a98f8d016b352860cf2f1d436f0abd7878e5673b7f13cbc48882cc3"
+    },
+    {
+      "fixture": 19,
+      "length": 128,
+      "source": "secret_agent",
+      "offset": 46864,
+      "sha256": "c3788b6b627f6781dbae88af5596215a3fadee084cd81d2bf0a9a5df12bfd819"
+    },
+    {
+      "fixture": 20,
+      "length": 128,
+      "source": "secret_agent",
+      "offset": 47888,
+      "sha256": "572e00e13d31ba4c60b4b8527313cdd326c7e9f10dc7a45fc828728ad6754ca9"
+    },
+    {
+      "fixture": 21,
+      "length": 128,
+      "source": "secret_agent",
+      "offset": 48912,
+      "sha256": "fd03dd660e85d7a03f2751b39527c735fc2c7c61eb58d7ec9f64e6230e83131d"
+    },
+    {
+      "fixture": 22,
+      "length": 128,
+      "source": "secret_agent",
+      "offset": 49936,
+      "sha256": "162b3eb0befa9f5446d5c858c12a80ff918ca65a0bdcd48f5450f0564e8c9a88"
+    },
+    {
+      "fixture": 23,
+      "length": 128,
+      "source": "secret_agent",
+      "offset": 50960,
+      "sha256": "168308a45bd9c515cf2cf2451eecab4a9a148f29cf718e789da6d20108e15908"
+    },
+    {
+      "fixture": 24,
+      "length": 128,
+      "source": "secret_agent",
+      "offset": 51984,
+      "sha256": "5f8a92a929549c881c067867ac70708b72106d5e1928256c6d6bba5290ec44e6"
+    },
+    {
+      "fixture": 25,
+      "length": 128,
+      "source": "secret_agent",
+      "offset": 53008,
+      "sha256": "0b629a5b24a7287c8650f0f0b02981271790e516d8c71443ecc4e90f89aeb94d"
+    },
+    {
+      "fixture": 26,
+      "length": 128,
+      "source": "secret_agent",
+      "offset": 54032,
+      "sha256": "6f64bd02a83e5db702cfd368c686b66203f139f07630f03a19048284bebc7894"
+    },
+    {
+      "fixture": 27,
+      "length": 128,
+      "source": "secret_agent",
+      "offset": 55056,
+      "sha256": "d5ffc0aa9a9696ab32649a10a5cd24596b406b0c3be026742c18f274c7bfbd8f"
+    },
+    {
+      "fixture": 28,
+      "length": 128,
+      "source": "secret_agent",
+      "offset": 56080,
+      "sha256": "9980a4ac2f3a261ce0ca191e053fab8f755b65fe3cd0951d762f7a4c4f89b44e"
+    },
+    {
+      "fixture": 29,
+      "length": 128,
+      "source": "secret_agent",
+      "offset": 57104,
+      "sha256": "59a8932f053e5956f951e39db73aa171f504d0d8718b8e033ff56311df85dda8"
+    }
+  ],
+  "limits": [
+    "Known-key conditional parsing only; this gate cannot qualify unknown-key decryption or real469translation.",
+    "Four zero rules and controls share60newplaintext excerpts/keys. Only two new authors.",
+    "Model selected on all opened V1cases; new source offsets begin10000letters into books but can still cut words/sentences.",
+    "Code multiset preserved in controls; context-free omission flags also preserved, contextual rules reserialized.",
+    "Forward probabilities and posteriors are conditional on the model, not semantic correctness.",
+    "No Tibia text, lore term or purported translation enters this qualification."
+  ]
+}

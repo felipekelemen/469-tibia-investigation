@@ -243,5 +243,40 @@
     "status": "not_identified_under_permissive_model",
     "evidence": "70/70rawcommúltiploscaminhos;min14930352max~2e61porlivro;contafronteiras/omissões,nãotraduções;semregraexternavalidada",
     "artifact": "results/zero_restoration_audit.json"
+  },
+  {
+    "id": "H36",
+    "hypothesis": "Parser exato V1 com chave/emissões verdadeiras recupera fronteiras, códigos e letras sob quatro leis de zeros",
+    "status": "fails_global_known_key_qualification",
+    "evidence": "240condiçõespareadas;oracle214/240;falhaomitirsempre64=20/30,128=25/30eIID64=26/30;nenhumdado469",
+    "artifact": "results/raw_parser_v1.json"
+  },
+  {
+    "id": "H37",
+    "hypothesis": "As 26 falhas oracle de V1 decorrem de busca insuficiente de segmentação",
+    "status": "contradicted_for_this_exact_objective",
+    "evidence": "MAPexatopontua0.4872..20.8001logacimadocaminhoverdadeiroem26/26falhas;maisbuscacommesmomodelonãoresolve",
+    "artifact": "results/raw_parser_v1_diagnosis.json"
+  },
+  {
+    "id": "H38",
+    "hypothesis": "Modelo interpolado de contexto maior melhora a segmentação nos casos abertos",
+    "status": "development_improvement_not_independent_qualification",
+    "evidence": "Grade4configurações;selecionadaordem4backoff10:231/240vs214/240;mesmosdadosabertos;pirocélula26/30",
+    "artifact": "results/raw_parser_v1_diagnosis.json"
+  },
+  {
+    "id": "H39",
+    "hypothesis": "Parser V2 com chave/emissões verdadeiras qualifica globalmente em novos autores",
+    "status": "improves_but_global_known_key_gate_fails",
+    "evidence": "Novas240condições;V2oracle220/240vsV1pareada211/240;apenas185plaintextsexatos;omitirsempre64=22/30e128=24/30;semretune",
+    "artifact": "results/raw_parser_v2.json"
+  },
+  {
+    "id": "H40",
+    "hypothesis": "Omissão total/opcional dos zeros do inventário permite recuperação universal sem restrições adicionais",
+    "status": "constructively_noninjective_for_these_serializations",
+    "evidence": "Omitirsempre:raw10=[10]ou[01,00];opcional:raw00=[00]ou[00,00];nãoestabelecelei469nemduasfrasesinglesas",
+    "artifact": "results/raw_codebook_ambiguity.json"
   }
 ]

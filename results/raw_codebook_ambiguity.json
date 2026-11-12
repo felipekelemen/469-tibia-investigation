@@ -1,0 +1,75 @@
+{
+  "inventory_sha256": "d2884c34addbce207678b014e6fc9f9de9ae4fe7280d94b19adb1bb86e72cfac",
+  "implementation_sha256": "9c3eaddc1157fe55babde7821d373e9a61e8aa147f7e7ddd73ca4adcd80d0d19",
+  "inventory_codes": 99,
+  "results": [
+    {
+      "mode": "never",
+      "wire_codewords": 99,
+      "prefix_free": true,
+      "collision": null,
+      "verdict": "uniquely_decodable_by_fixed_pairs"
+    },
+    {
+      "mode": "always",
+      "wire_codewords": 99,
+      "prefix_free": false,
+      "collision": {
+        "raw": "10",
+        "first": {
+          "codes": [
+            "10"
+          ],
+          "wire_pieces": [
+            "10"
+          ]
+        },
+        "second": {
+          "codes": [
+            "01",
+            "00"
+          ],
+          "wire_pieces": [
+            "1",
+            "0"
+          ]
+        }
+      },
+      "verdict": "noninjective_without_additional_constraints"
+    },
+    {
+      "mode": "optional_iid",
+      "wire_codewords": 109,
+      "prefix_free": false,
+      "collision": {
+        "raw": "00",
+        "first": {
+          "codes": [
+            "00"
+          ],
+          "wire_pieces": [
+            "00"
+          ]
+        },
+        "second": {
+          "codes": [
+            "00",
+            "00"
+          ],
+          "wire_pieces": [
+            "0",
+            "0"
+          ]
+        }
+      },
+      "verdict": "noninjective_without_additional_constraints"
+    }
+  ],
+  "scope": "Memoryless fixed-pair/always-omit/optional-IID serialization of the imported inventory only.",
+  "limits": [
+    "Constructive source-code ambiguity, not proof of multiple grammatical English meanings.",
+    "Does not establish that real469uses this inventory or omission model.",
+    "Contextual, framed, keyed, checksum or linguistic constraints can resolve some collisions; not assessed by this memoryless codebook test.",
+    "Statistical decoding can perform well despite noninjectivity, but cannot guarantee exact recovery of every possible source sequence without extra constraints."
+  ]
+}
