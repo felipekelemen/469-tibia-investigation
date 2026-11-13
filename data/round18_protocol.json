@@ -1,0 +1,21 @@
+{
+  "round": 18,
+  "status": "frozen_before_generated_experiment_results",
+  "question": "Which context/framing observations resolve a copied-codebook ambiguity when all compatible keys are retained?",
+  "seed": 18469486,
+  "cases": 30,
+  "candidate_family": "SUPPLIED restricted family, not unrestricted hidden-vocabulary learning:32known10digit blocks, each split once at4/5/6,64atomic codewords per key. Candidate first3digit prefixes certify every fixed key prefix-free. All3^32keys compatible with paired-block training.",
+  "training": "70messages x16parent blocks; each of32blocks35times, so every64true units35times;11200digits. No English labels or texts. Keys/candidate families independently generated per case.",
+  "solver": "Enumerate exact raw-frame parses as partial shared cut assignments. Each frame is a DNF constraint; conjunction solved by finite-domain propagation, exact memoized search and free-variable factoring. No posterior maximum or arbitrary model selection.",
+  "limits": {"max_parse_paths": 4096, "max_search_nodes_per_fit_and_support_queries": 100000, "on_limit": "Explicit failure; never call a truncated count unique or exact. No game inference from failed computation."},
+  "observations": ["whole_parent_pairs_control", "unpaired_unit_recombinations", "isolated_valid_unit_frames"],
+  "context_budgets": [0, 1, 2, 4, 8, 16, 32, 64, 128],
+  "isolated_frame_budgets": [0, 1, 2, 4, 8, 16, 32],
+  "framing": "Only raw digits and message endpoints supplied for observations. Two-unit count and interior cuts hidden from solver. Isolated frames in controls are valid by construction, not a claim that numeric NPC groups are atomic words.",
+  "validation": "For every condition/budget, exact surviving-key count and support domains. Evaluate32paired ambiguous-boundary diagnostics and32new two-unit recombinations disjoint from adaptation raw frames. A decoder retains every target path extendable to a training-compatible key, predicts only on consensus, otherwise abstains. Conditioning on current target framing is explicit, not added to the adaptation corpus.",
+  "safety_control": "One falsely framed prefix can consistently force a wrong cut; combine with the true frame to demonstrate exact inconsistency detection. This is a warning about invalid observation assumptions, not a robust-noise learner.",
+  "qualification": "Exact exhaustive independent key enumeration on small families; analytic3^32and3^(32-a)checks for full-size paired controls and avalid isolated types; original true key retained for all valid observations and all true target segmentations included. No new authors needed for purely combinatorial restricted-family controls; not a general raw->units gate.",
+  "game_application": "NOT_LICENSED: no independently grounded analogous candidate codebook family exists for469. Successful restricted-family inference is not permission to apply old failing segmenters, fill a lore dictionary or label English.",
+  "source_refresh": "Limited public search for external meaning/framing examples; retain URLs and access limits, no full pages redistributed. No community gloss promoted without independent validation.",
+  "success": "Mechanism result is exact ambiguity reduction and honest abstention, not translation. Independent coherent English predictions remain required for the mission."
+}

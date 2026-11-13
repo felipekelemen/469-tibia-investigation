@@ -551,5 +551,33 @@
     "status": "game_application_blocked_by_prespecified_gate",
     "evidence": "Unigramas chega aF1fronteiras.928/spans.825em variável sem cópia, caindo.761/.568com cópia. Melhorar BPE não satisfaz o gate nem fornece significado. Alvos contêm apenas unidades vistas; não qualifica vocabulário aberto, omissões ou homofonia.",
     "artifact": "results/round17_qualification.json"
+  },
+  {
+    "id": "H80",
+    "hypothesis": "Acrescentar cópias de pares fixos resolve a ambiguidade interna de cortes",
+    "status": "rejected_for_supplied_finite_family_by_exact_counts",
+    "evidence": "32blocos e3cortes cada:3^32chaves sobrevivem a todas as doses de pares completos, até128observações.750ajustes exatos em30famílias sem limite atingido. Não é uma família descoberta em469.",
+    "artifact": "results/round18_context_evidence.json"
+  },
+  {
+    "id": "H81",
+    "hypothesis": "Contextos novos e molduras independentes podem identificar cortes sem atribuir inglês",
+    "status": "demonstrated_conditionally_on_supplied_candidate_family",
+    "evidence": "128recombinações identificam a chave30/30;32unidades isoladas de grupos distintos deixam3^(32-32)=1chave. Nenhuma predição única errada com observações válidas. Família é fornecida; não qualifica vocabulário geral nem tradução.",
+    "artifact": "results/round18_context_evidence.json"
+  },
+  {
+    "id": "H82",
+    "hypothesis": "Consenso entre chaves e consistência interna autenticam uma pista de fronteira",
+    "status": "rejected_by_false_frame_control",
+    "evidence": "Um prefixo falsamente tratado como frame elimina a chave verdadeira e ainda mantém3^31chaves. O decoder pode dar corte único incorreto; a evidência correta conflitante reduz a contagem a0. Validade externa continua necessária.",
+    "artifact": "results/round18_context_evidence.json"
+  },
+  {
+    "id": "H83",
+    "hypothesis": "Espaços deNPCs resolvem a segmentação sob o inventário de pares com zeros opcionais",
+    "status": "insufficient_in_conditional_numeric_inventory_census",
+    "evidence": "Knightmare75025parses unido e9600com grupos;AvarTar mantém≈3.03e20.3478tem5streams;486486tem13. O inventário100temFibonacci(n+1)para qualquer string de comprimento n, sem evidência semântica. Não confundir com79alinhamentos de streams fixos.",
+    "artifact": "results/round18_npc_framing.json"
   }
 ]

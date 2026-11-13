@@ -1,13 +1,21 @@
 # 469-tibia-investigation — investigação reproduzível
 
-**Estado: dezessete rodadas executadas; nenhuma tradução verificável encontrada.**
+**Estado: dezoito rodadas executadas; nenhuma tradução verificável encontrada.**
 Não afirmamos que o corpus é indecifrável nem que qualquer solução comunitária
 foi confirmada. O alvo é um algoritmo integral que generalize para textos inéditos.
 
 Destino público: https://github.com/felipekelemen/469-tibia-investigation
 
-**Publicado:** corpus normalizado, código, testes e resultados das dezessete rodadas
+**Publicado:** corpus normalizado, código, testes e resultados das dezoito rodadas
 disponíveis neste repositório. O acesso de escrita foi confirmado após nova reconexão.
+
+A [décima oitava rodada](docs/round18.md) executou 750 inferências exatas em
+uma família de candidatos fornecida: novas combinações e molduras válidas
+reduzem a ambiguidade; mais cópias dos mesmos pares não reduzem. Esse resultado
+restrito não autoriza um decoder de 469. Nas falas reais, o modelo mecânico
+testado ainda permite 9.600 parses para Knightmare com os espaços preservados,
+sem identificar significados ingleses. A busca limitada de fontes não trouxe
+um novo par semântico aceito.
 
 A [décima sétima rodada](docs/round17.md) testou a aprendizagem de unidades com
 vocabulário oculto, com seleção em desenvolvimento e qualificação em dois
@@ -136,6 +144,7 @@ make round14
 make round15
 make round16
 make round17
+make round18
 make test
 ```
 

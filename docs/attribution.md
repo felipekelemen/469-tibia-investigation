@@ -48,3 +48,13 @@ desenvolvimento nesta rodada; papéis anteriores permanecem documentados.
 BPE e modelos unigramas são técnicas clássicas; o código deste experimento
 e os certificados construídos são originais do projeto. Nenhum novo texto
 paralelo número/inglês de Tibia foi obtido ou inferido dessas referências.
+
+## Rodada18
+
+O solver de restrições, a geração dos controles numéricos e o censo de parses
+são implementações originais do projeto. Os controles não contêm prosa inglesa.
+As transcrições reais reutilizam o inventário e as atribuições já versionados.
+A descoberta pública consultou páginas da Tibia Wiki e artigos de TibiaSecrets;
+URLs, acesso e limites constam em `data/source_review_round18.json`. A página
+do Bonelord Tome é relato de seu artista, não uma especificação de cifra.
+Nenhuma página ou imagem completa de terceiros foi redistribuída nesta rodada.

@@ -1,0 +1,17 @@
+{
+  "sha256": {
+    "data/round18_evidence_manifest.json": "735adaec30cf0d902d2b694006174c5ae6c063c9c534f5b93d820875a522e03f",
+    "data/round18_framing_manifest.json": "d974884fe1e9d841cb319d76c66b40fc28e87af315bbdd8305fba3ef53b825eb",
+    "data/round18_framing_scope_notes.json": "2a450212bf04e8c22b75784c749900a00017962136df5cd823a8fa1fa0aac86a",
+    "data/plan_progress_round18.json": "a2744bea496fc394aecbd310f429d0682023131bb41d91374a54823e8d9df312",
+    "data/source_review_round18.json": "90c44c5447b2869ab79a50f24f10960ac3fc435f8cc74cca8a82c1fb2e02f1be",
+    "scripts/run_round18.py": "8757834ff4507bdc7508bd27f49e10f024166a4e42cb2bc5123d5a128f384a86",
+    "tests/test_context_constraint_solver.py": "ce3c72e199cab4ca4a6af41979fda47096e7454aa2253f638b0774db6b42b8ff",
+    "tests/test_context_consensus_limit.py": "b4e9d33c1ecfe0c16bf6bfdc0bfff0e31f3250552d44d0184cd6abe80e7f2e68",
+    "tests/test_npc_framing_census.py": "38b582c284ca53f05508e06be3f57b2cc9cded0bfa9932f18f34c7e67bd93f23",
+    "docs/round18.md": "856fd857ef77b4d7d9a266f8e3e9671cde685f0bc08dee762ea04b374c0ab302",
+    "results/round18_context_evidence.json": "3ea89edbed758a42487b991ba140837ab5e3aee7bd4cc0f052d8a7b58a8169b9",
+    "results/round18_npc_framing.json": "442e4367ed6c4a11c8738d767a4c9402cbf49aee2d48289142e1247c0cbef873"
+  },
+  "scope": "Full replay of750restricted-family inference fits and exact emission-annotated framing census. No game English inferred. Durations and logs vary."
+}

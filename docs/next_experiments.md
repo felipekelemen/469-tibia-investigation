@@ -409,3 +409,21 @@ Priorizar restrições externas e diversidade de contextos que distingam unidade
 de combinações recorrentes. Uma nova versão de segmentação precisa de outra
 qualificação; aumentar merges após consultar estes resultados não cria teste
 independente. P01/P03/P05/P06 permanecem abertos.
+
+Atualização após a [décima oitava rodada](round18.md): o solver preserva todas
+as chaves de uma família fornecida e só prediz cortes por consenso. Nos30
+controles, pares completos repetidos preservam3^32chaves;128recombinações novas
+identificam a chave em30/30casos.32molduras válidas de tipos distintos também
+bastam, enquanto uma pista falsa pode excluir a chave correta silenciosamente.
+
+A família é informação lateral, não foi descoberta em469. O censo condicional
+de parses também permanece amplo:9600paraKnightmare com as molduras existentes,
+aproximadamente3e20para o poema deAvarTar no inventário99. Não converter essas
+contagens em probabilidades de inglês ou aceitar o formatter como demonstrado.
+
+Priorizar novas combinações que separem trechos sempre copiados juntos e
+restrições externas confiáveis para uma família efetivamente fundamentada no
+jogo. Mais frequência sem nova estrutura pode ser ininformativa. A revisão
+limitada de fontes não trouxe par inglês novo; as quatro entregas continuam
+pendentes. Aprendizes da rodada17 seguem sem autorização científica de uso
+para novas leituras dos livros.

@@ -1,0 +1,6 @@
+{
+  "counted_object": "Emission-annotated parse paths: numeric code sequence AND the emitted spans/leading-zero omission choices. The protocol/output wordstreams wording does not mean distinct code-ID sequences alone.",
+  "example": {"raw": "000", "emission_path_count": 3, "distinct_code_ID_sequences": 2, "explanation": "Two00codes can emit00+0or0+00, giving the same code-ID sequence with different omission masks/boundaries. Three omitted00codes give the third path."},
+  "status": "Post-computation semantic clarification; algorithms, frozen inputs and numerical results unchanged.",
+  "interpretation": "Fibonacci identity counts these wire-segmentation/emission paths. No probability distribution on meanings and no count of English translations is inferred.3478and486486contain no zero and their illustrative paths have distinct code-ID sequences."
+}

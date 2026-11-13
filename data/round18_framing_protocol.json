@@ -1,0 +1,11 @@
+{
+  "status": "frozen_before_new_NPC_parse_counts",
+  "role": "Secondary exposed-data mechanical census, not translation or qualification of a true formatter.",
+  "inputs": ["data/source_validation_inventory.json", "data/normalized_books.json"],
+  "inventories": ["observed99two_digit_codes", "all100two_digit_codes"],
+  "emissions": "Each two-digit code emits itself; a code starting0 may alternatively omit that leading0. No deleted nonzero digits or free repairs. This memoryless formatter is an unverified hypothesis, not the demonstrated source decoder.",
+  "framing": "Compare whole numeric utterance versus each observed numeric run treated as a complete frame. Only a conditional boundary assumption; do not assume each run is one atomic word.",
+  "counts": "Exact dynamic-programming counts of all numeric code streams; not counts of meanings/English translations. Store arbitrary-precision counts as decimal strings. No English labels or probabilities over paths fitted.",
+  "controls": "For all100 inventory count equals Fibonacci(n+1) for EVERY n-digit string: closed-form digit-relabel/shuffle invariance checked. For fixed supplied streams, these are not the earlier79zero alignments; many other code streams are allowed here.",
+  "interpretation": "Unique count for a one-digit anchor is conditional numerical representation only. Space-induced ambiguity reduction does not establish a formatter, word meaning or cross-source shared algorithm. No semantic heldout claim."
+}

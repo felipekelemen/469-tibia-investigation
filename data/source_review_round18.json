@@ -1,0 +1,16 @@
+{
+  "scope": "Limited public discovery refresh; no new independently attested numeric-English parallel text found in examined material. Not an exhaustive absence claim.",
+  "queries": ["\"Tibia\" \"469\" \"translation\" \"Knightmare\" \"2025\"", "site:tibiawiki.com.br \"Bonelord\" \"Transcrições\"", "\"469\" \"official\" \"translation\" Tibia", "site:tibiasecrets.com \"469\" \"language\""],
+  "sources": [
+    {"url": "https://www.tibiawiki.com.br/wiki/A_Wrinkled_Bonelord", "access": "Direct web reader403; indexed transcript/stable revision visible.", "outcome": "Known name/entity/taboo references, no new long gloss authenticated or in-game capture."},
+    {"url": "https://www.tibiawiki.com.br/index.php?stableid=322189&title=A_Wrinkled_Bonelord", "access": "Indexed NPC transcript.", "outcome": "Viewer-dependent race-name formula and0taboo context already known. Not a derivation of a cipher or fixed3478English noun."},
+    {"url": "https://www.tibiawiki.com.br/wiki/Avar_Tar", "access": "Indexed result; direct web reader403.", "outcome": "Known numeric poem context; no new explicit translation examined."},
+    {"url": "https://www.tibiasecrets.com/bonelord_tome", "access": "Readable artist account.", "outcome": "Fansite-item design history, not a cryptographic specification or English parallel text. Images not extracted."},
+    {"url": "https://tibiasecrets.com/article61", "access": "Readable secondary article.", "outcome": "Unjaga discussion mentions known numeric examples; not a469translation source."},
+    {"url": "https://www.tibiasecrets.com/article160", "access": "Indexed article excerpt.", "outcome": "Known poem and altered tibia.org token. ASCII/hex decoy already excluded from canonical inventory; not accepted as primary469meaning."},
+    {"url": "https://www.tibiasecrets.com/article166", "access": "Indexed article excerpt, previously reviewed.", "outcome": "No new semantic datum used; prior histogram claims stay separately tested."}
+  ],
+  "new_attested_parallel_texts": 0,
+  "new_authenticated_matrix_counts": 0,
+  "limits": "No page/image captures redistributed; only URL/access/method notes. Search results and community claims are not independently validated translations. No messages sent to authors or players."
+}

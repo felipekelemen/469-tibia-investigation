@@ -1,0 +1,8 @@
+{
+  "stage": "Before generated-case results",
+  "sha256": {
+    "data/round18_protocol.json": "22de66196951bfe945444860fc9add25a1bfa53e8d8ae99ba01aa449920732f3",
+    "scripts/context_constraint_solver.py": "ba4371153c26a0382827d77269f324db60cb205a6cd6ebd94bb43903fd3ffa64",
+    "scripts/context_evidence_experiment.py": "4b91fcb6be47d2db4cd5757a7f1af597c9129b50853e997105377e50a31e402d"
+  }
+}

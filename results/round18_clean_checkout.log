@@ -1,0 +1,9 @@
+Clean export of staged public files, without ignored captures/private upload.
+----------------------------------------------------------------------
+Ran 178 tests in 4.380s
+
+OK
+case 28 complete
+case 29 complete
+Round18 full replay matched.
+All750condition/budget fits and exact NPC/book counts replayed; no game meanings inferred.
