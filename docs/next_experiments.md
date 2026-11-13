@@ -374,3 +374,21 @@ entidades, comparando livros e falas sob um modelo finito de segmentação e
 controles de reutilização. NPC 1→referência a Tibia e 486486→autodenominação
 continuam âncoras de entidade, sem gloss completo. P06 continua precisando de
 quantidades e captura datada; P01/P03/P05 permanecem abertos.
+
+Atualização após a [décima sexta rodada](round16.md): o inventário de 45 grupos
+numéricos é unicamente decodificável, mas nenhum livro tem segmentação completa
+nesse vocabulário. A cobertura de 31,73% cai para 6,50% ao retirar 0,1,67; não
+é porcentagem traduzida. Os ganhos condicionais de 41/38 bits desaparecem sem
+os dois gritos copiados, e nenhum modelo paga seu próprio dicionário.
+
+O grito de 20 dígitos do bibliotecário termina dentro do código importado 43
+nas seis cópias; quatro começam dentro de 27 e duas em fronteira de 78. Os
+streams circundantes diferem na primeira parte. Sete certificados reconstroem
+essas emissões e a ocorrência alinhada do outro grito. Não completar o texto
+do NPC com vizinhos do livro nem tratar essas cópias como vetor único de crib.
+
+Os 180 controles qualificam somente parsing com dicionário fornecido e detecção
+de ambiguidade. Antes de inferir unidades novas nos livros, qualificar um modelo
+com vocabulário oculto e fronteiras conhecidas, sob cópia e autores separados.
+Manter busca por par semântico independente e a incerteza dos códigos importados.
+As quatro entregas principais continuam abertas.

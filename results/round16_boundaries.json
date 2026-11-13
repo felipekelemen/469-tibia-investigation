@@ -1,0 +1,3284 @@
+{
+  "occurrences": [
+    {
+      "word": "135",
+      "book_id": "0",
+      "start": 5,
+      "end": 8,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "95615",
+      "right8": "34780192"
+    },
+    {
+      "word": "135",
+      "book_id": "5",
+      "start": 205,
+      "end": 208,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "21595615",
+      "right8": "34780192"
+    },
+    {
+      "word": "135",
+      "book_id": "6",
+      "start": 68,
+      "end": 71,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "21595615",
+      "right8": "34780192"
+    },
+    {
+      "word": "135",
+      "book_id": "7",
+      "start": 69,
+      "end": 72,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "14636475",
+      "right8": "28542157"
+    },
+    {
+      "word": "135",
+      "book_id": "9",
+      "start": 203,
+      "end": 206,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "21595615",
+      "right8": "34780192"
+    },
+    {
+      "word": "135",
+      "book_id": "10",
+      "start": 10,
+      "end": 13,
+      "supporting_alignments": 0,
+      "total_alignments": 2,
+      "endpoint_class": "no_alignment",
+      "left8": "21595615",
+      "right8": "34780192"
+    },
+    {
+      "word": "135",
+      "book_id": "11",
+      "start": 115,
+      "end": 118,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "21595615",
+      "right8": "34780192"
+    },
+    {
+      "word": "135",
+      "book_id": "13",
+      "start": 49,
+      "end": 52,
+      "supporting_alignments": 0,
+      "total_alignments": 2,
+      "endpoint_class": "no_alignment",
+      "left8": "80035765",
+      "right8": "34783046"
+    },
+    {
+      "word": "135",
+      "book_id": "19",
+      "start": 101,
+      "end": 104,
+      "supporting_alignments": 0,
+      "total_alignments": 2,
+      "endpoint_class": "no_alignment",
+      "left8": "21595615",
+      "right8": "34780192"
+    },
+    {
+      "word": "135",
+      "book_id": "21",
+      "start": 167,
+      "end": 170,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "80035765",
+      "right8": "347830"
+    },
+    {
+      "word": "135",
+      "book_id": "24",
+      "start": 98,
+      "end": 101,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "80035765",
+      "right8": "34783050"
+    },
+    {
+      "word": "135",
+      "book_id": "32",
+      "start": 129,
+      "end": 132,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "21595615",
+      "right8": "34780"
+    },
+    {
+      "word": "135",
+      "book_id": "35",
+      "start": 17,
+      "end": 20,
+      "supporting_alignments": 0,
+      "total_alignments": 2,
+      "endpoint_class": "no_alignment",
+      "left8": "21595615",
+      "right8": "34780192"
+    },
+    {
+      "word": "135",
+      "book_id": "38",
+      "start": 20,
+      "end": 23,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "80035765",
+      "right8": "34783046"
+    },
+    {
+      "word": "135",
+      "book_id": "40",
+      "start": 24,
+      "end": 27,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "21595615",
+      "right8": "34780192"
+    },
+    {
+      "word": "135",
+      "book_id": "43",
+      "start": 104,
+      "end": 107,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "21595615",
+      "right8": "34780192"
+    },
+    {
+      "word": "135",
+      "book_id": "47",
+      "start": 87,
+      "end": 90,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "21595615",
+      "right8": "34780192"
+    },
+    {
+      "word": "135",
+      "book_id": "50",
+      "start": 69,
+      "end": 72,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "21595615",
+      "right8": "34780192"
+    },
+    {
+      "word": "135",
+      "book_id": "56",
+      "start": 28,
+      "end": 31,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "80035765",
+      "right8": "34783046"
+    },
+    {
+      "word": "135",
+      "book_id": "58",
+      "start": 156,
+      "end": 159,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "21595615",
+      "right8": "34780192"
+    },
+    {
+      "word": "135",
+      "book_id": "59",
+      "start": 104,
+      "end": 107,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "21595615",
+      "right8": "34780192"
+    },
+    {
+      "word": "135",
+      "book_id": "66",
+      "start": 10,
+      "end": 13,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "21595615",
+      "right8": "34780192"
+    },
+    {
+      "word": "135",
+      "book_id": "69",
+      "start": 59,
+      "end": 62,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "21595615",
+      "right8": "34780192"
+    },
+    {
+      "word": "345",
+      "book_id": "1",
+      "start": 4,
+      "end": 7,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "2295",
+      "right8": "27446472"
+    },
+    {
+      "word": "345",
+      "book_id": "5",
+      "start": 169,
+      "end": 172,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "64672435",
+      "right8": "15860421"
+    },
+    {
+      "word": "345",
+      "book_id": "6",
+      "start": 9,
+      "end": 12,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "04648435",
+      "right8": "15860421"
+    },
+    {
+      "word": "345",
+      "book_id": "7",
+      "start": 4,
+      "end": 7,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "8435",
+      "right8": "15867511"
+    },
+    {
+      "word": "345",
+      "book_id": "9",
+      "start": 167,
+      "end": 170,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "64672435",
+      "right8": "15860421"
+    },
+    {
+      "word": "345",
+      "book_id": "10",
+      "start": 153,
+      "end": 156,
+      "supporting_alignments": 0,
+      "total_alignments": 2,
+      "endpoint_class": "no_alignment",
+      "left8": "94452295",
+      "right8": "27446472"
+    },
+    {
+      "word": "345",
+      "book_id": "11",
+      "start": 79,
+      "end": 82,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "27831601",
+      "right8": "15860421"
+    },
+    {
+      "word": "345",
+      "book_id": "12",
+      "start": 30,
+      "end": 33,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "64672435",
+      "right8": "27560192"
+    },
+    {
+      "word": "345",
+      "book_id": "17",
+      "start": 187,
+      "end": 190,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "94452295",
+      "right8": "27347092"
+    },
+    {
+      "word": "345",
+      "book_id": "19",
+      "start": 36,
+      "end": 39,
+      "supporting_alignments": 0,
+      "total_alignments": 2,
+      "endpoint_class": "no_alignment",
+      "left8": "21991103",
+      "right8": "27446472"
+    },
+    {
+      "word": "345",
+      "book_id": "21",
+      "start": 37,
+      "end": 40,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "64672435",
+      "right8": "27560192"
+    },
+    {
+      "word": "345",
+      "book_id": "24",
+      "start": 25,
+      "end": 28,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "64672435",
+      "right8": "27560192"
+    },
+    {
+      "word": "345",
+      "book_id": "26",
+      "start": 63,
+      "end": 66,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "64672435",
+      "right8": "27560192"
+    },
+    {
+      "word": "345",
+      "book_id": "27",
+      "start": 1,
+      "end": 4,
+      "supporting_alignments": 0,
+      "total_alignments": 2,
+      "endpoint_class": "no_alignment",
+      "left8": "5",
+      "right8": "27446472"
+    },
+    {
+      "word": "345",
+      "book_id": "30",
+      "start": 106,
+      "end": 109,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "64672435",
+      "right8": "27560192"
+    },
+    {
+      "word": "345",
+      "book_id": "31",
+      "start": 1,
+      "end": 4,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "5",
+      "right8": "27446190"
+    },
+    {
+      "word": "345",
+      "book_id": "31",
+      "start": 74,
+      "end": 77,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "95219915",
+      "right8": "27446472"
+    },
+    {
+      "word": "345",
+      "book_id": "32",
+      "start": 93,
+      "end": 96,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "27831601",
+      "right8": "15860421"
+    },
+    {
+      "word": "345",
+      "book_id": "34",
+      "start": 88,
+      "end": 91,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "94452295",
+      "right8": "26114580"
+    },
+    {
+      "word": "345",
+      "book_id": "35",
+      "start": 160,
+      "end": 163,
+      "supporting_alignments": 0,
+      "total_alignments": 2,
+      "endpoint_class": "no_alignment",
+      "left8": "94452295",
+      "right8": "27446472"
+    },
+    {
+      "word": "345",
+      "book_id": "36",
+      "start": 30,
+      "end": 33,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "27831601",
+      "right8": "15860421"
+    },
+    {
+      "word": "345",
+      "book_id": "41",
+      "start": 60,
+      "end": 63,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "45452295",
+      "right8": "27446472"
+    },
+    {
+      "word": "345",
+      "book_id": "43",
+      "start": 68,
+      "end": 71,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "27831601",
+      "right8": "15860421"
+    },
+    {
+      "word": "345",
+      "book_id": "45",
+      "start": 57,
+      "end": 60,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "94452295",
+      "right8": "27477090"
+    },
+    {
+      "word": "345",
+      "book_id": "46",
+      "start": 32,
+      "end": 35,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "94452295",
+      "right8": "27477090"
+    },
+    {
+      "word": "345",
+      "book_id": "47",
+      "start": 51,
+      "end": 54,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "64672435",
+      "right8": "15860421"
+    },
+    {
+      "word": "345",
+      "book_id": "49",
+      "start": 48,
+      "end": 51,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "45831601",
+      "right8": "15860421"
+    },
+    {
+      "word": "345",
+      "book_id": "49",
+      "start": 91,
+      "end": 94,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "74451601",
+      "right8": "15450483"
+    },
+    {
+      "word": "345",
+      "book_id": "50",
+      "start": 33,
+      "end": 36,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "64672435",
+      "right8": "15860421"
+    },
+    {
+      "word": "345",
+      "book_id": "51",
+      "start": 42,
+      "end": 45,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "94452295",
+      "right8": "27477090"
+    },
+    {
+      "word": "345",
+      "book_id": "53",
+      "start": 13,
+      "end": 16,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "94452295",
+      "right8": "27477090"
+    },
+    {
+      "word": "345",
+      "book_id": "56",
+      "start": 116,
+      "end": 119,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "64672435",
+      "right8": "27560192"
+    },
+    {
+      "word": "345",
+      "book_id": "57",
+      "start": 109,
+      "end": 112,
+      "supporting_alignments": 0,
+      "total_alignments": 2,
+      "endpoint_class": "no_alignment",
+      "left8": "95219915",
+      "right8": "27446472"
+    },
+    {
+      "word": "345",
+      "book_id": "57",
+      "start": 142,
+      "end": 145,
+      "supporting_alignments": 2,
+      "total_alignments": 2,
+      "endpoint_class": "all_alignments",
+      "left8": "11450655",
+      "right8": "27446472"
+    },
+    {
+      "word": "345",
+      "book_id": "58",
+      "start": 120,
+      "end": 123,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "27831601",
+      "right8": "15860421"
+    },
+    {
+      "word": "345",
+      "book_id": "59",
+      "start": 68,
+      "end": 71,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "27831601",
+      "right8": "15860421"
+    },
+    {
+      "word": "345",
+      "book_id": "60",
+      "start": 61,
+      "end": 64,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "57191894",
+      "right8": "21991184"
+    },
+    {
+      "word": "345",
+      "book_id": "63",
+      "start": 41,
+      "end": 44,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "94452295",
+      "right8": "27446472"
+    },
+    {
+      "word": "345",
+      "book_id": "66",
+      "start": 153,
+      "end": 156,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "94452295",
+      "right8": "27446472"
+    },
+    {
+      "word": "345",
+      "book_id": "69",
+      "start": 23,
+      "end": 26,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "64672435",
+      "right8": "15860421"
+    },
+    {
+      "word": "3478",
+      "book_id": "0",
+      "start": 8,
+      "end": 12,
+      "supporting_alignments": 1,
+      "total_alignments": 1,
+      "endpoint_class": "all_alignments",
+      "left8": "95615135",
+      "right8": "01928895"
+    },
+    {
+      "word": "3478",
+      "book_id": "5",
+      "start": 208,
+      "end": 212,
+      "supporting_alignments": 1,
+      "total_alignments": 1,
+      "endpoint_class": "all_alignments",
+      "left8": "95615135",
+      "right8": "01928895"
+    },
+    {
+      "word": "3478",
+      "book_id": "6",
+      "start": 71,
+      "end": 75,
+      "supporting_alignments": 1,
+      "total_alignments": 1,
+      "endpoint_class": "all_alignments",
+      "left8": "95615135",
+      "right8": "01928891"
+    },
+    {
+      "word": "3478",
+      "book_id": "7",
+      "start": 33,
+      "end": 37,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "14081595",
+      "right8": "01928891"
+    },
+    {
+      "word": "3478",
+      "book_id": "9",
+      "start": 206,
+      "end": 210,
+      "supporting_alignments": 1,
+      "total_alignments": 1,
+      "endpoint_class": "all_alignments",
+      "left8": "95615135",
+      "right8": "01928895"
+    },
+    {
+      "word": "3478",
+      "book_id": "10",
+      "start": 13,
+      "end": 17,
+      "supporting_alignments": 2,
+      "total_alignments": 2,
+      "endpoint_class": "all_alignments",
+      "left8": "95615135",
+      "right8": "01928895"
+    },
+    {
+      "word": "3478",
+      "book_id": "11",
+      "start": 118,
+      "end": 122,
+      "supporting_alignments": 1,
+      "total_alignments": 1,
+      "endpoint_class": "all_alignments",
+      "left8": "95615135",
+      "right8": "01928895"
+    },
+    {
+      "word": "3478",
+      "book_id": "13",
+      "start": 52,
+      "end": 56,
+      "supporting_alignments": 0,
+      "total_alignments": 2,
+      "endpoint_class": "no_alignment",
+      "left8": "35765135",
+      "right8": "30464679"
+    },
+    {
+      "word": "3478",
+      "book_id": "19",
+      "start": 104,
+      "end": 108,
+      "supporting_alignments": 2,
+      "total_alignments": 2,
+      "endpoint_class": "all_alignments",
+      "left8": "95615135",
+      "right8": "01928895"
+    },
+    {
+      "word": "3478",
+      "book_id": "21",
+      "start": 170,
+      "end": 174,
+      "supporting_alignments": 1,
+      "total_alignments": 1,
+      "endpoint_class": "all_alignments",
+      "left8": "35765135",
+      "right8": "30"
+    },
+    {
+      "word": "3478",
+      "book_id": "24",
+      "start": 101,
+      "end": 105,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "35765135",
+      "right8": "30508434"
+    },
+    {
+      "word": "3478",
+      "book_id": "32",
+      "start": 132,
+      "end": 136,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "95615135",
+      "right8": "0"
+    },
+    {
+      "word": "3478",
+      "book_id": "35",
+      "start": 20,
+      "end": 24,
+      "supporting_alignments": 2,
+      "total_alignments": 2,
+      "endpoint_class": "all_alignments",
+      "left8": "95615135",
+      "right8": "01928895"
+    },
+    {
+      "word": "3478",
+      "book_id": "36",
+      "start": 59,
+      "end": 63,
+      "supporting_alignments": 1,
+      "total_alignments": 1,
+      "endpoint_class": "all_alignments",
+      "left8": "19045045",
+      "right8": "01928895"
+    },
+    {
+      "word": "3478",
+      "book_id": "38",
+      "start": 23,
+      "end": 27,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "35765135",
+      "right8": "30464679"
+    },
+    {
+      "word": "3478",
+      "book_id": "40",
+      "start": 27,
+      "end": 31,
+      "supporting_alignments": 1,
+      "total_alignments": 1,
+      "endpoint_class": "all_alignments",
+      "left8": "95615135",
+      "right8": "01928895"
+    },
+    {
+      "word": "3478",
+      "book_id": "43",
+      "start": 107,
+      "end": 111,
+      "supporting_alignments": 1,
+      "total_alignments": 1,
+      "endpoint_class": "all_alignments",
+      "left8": "95615135",
+      "right8": "01928895"
+    },
+    {
+      "word": "3478",
+      "book_id": "47",
+      "start": 90,
+      "end": 94,
+      "supporting_alignments": 1,
+      "total_alignments": 1,
+      "endpoint_class": "all_alignments",
+      "left8": "95615135",
+      "right8": "01928895"
+    },
+    {
+      "word": "3478",
+      "book_id": "50",
+      "start": 72,
+      "end": 76,
+      "supporting_alignments": 1,
+      "total_alignments": 1,
+      "endpoint_class": "all_alignments",
+      "left8": "95615135",
+      "right8": "01928895"
+    },
+    {
+      "word": "3478",
+      "book_id": "56",
+      "start": 31,
+      "end": 35,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "35765135",
+      "right8": "30464560"
+    },
+    {
+      "word": "3478",
+      "book_id": "58",
+      "start": 159,
+      "end": 163,
+      "supporting_alignments": 1,
+      "total_alignments": 1,
+      "endpoint_class": "all_alignments",
+      "left8": "95615135",
+      "right8": "01928895"
+    },
+    {
+      "word": "3478",
+      "book_id": "59",
+      "start": 107,
+      "end": 111,
+      "supporting_alignments": 1,
+      "total_alignments": 1,
+      "endpoint_class": "all_alignments",
+      "left8": "95615135",
+      "right8": "01928895"
+    },
+    {
+      "word": "3478",
+      "book_id": "66",
+      "start": 13,
+      "end": 17,
+      "supporting_alignments": 1,
+      "total_alignments": 1,
+      "endpoint_class": "all_alignments",
+      "left8": "95615135",
+      "right8": "01928895"
+    },
+    {
+      "word": "3478",
+      "book_id": "69",
+      "start": 62,
+      "end": 66,
+      "supporting_alignments": 1,
+      "total_alignments": 1,
+      "endpoint_class": "all_alignments",
+      "left8": "95615135",
+      "right8": "01928895"
+    },
+    {
+      "word": "453",
+      "book_id": "36",
+      "start": 57,
+      "end": 60,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "45190450",
+      "right8": "47801928"
+    },
+    {
+      "word": "467",
+      "book_id": "0",
+      "start": 29,
+      "end": 32,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "16019936",
+      "right8": "24314278"
+    },
+    {
+      "word": "467",
+      "book_id": "0",
+      "start": 74,
+      "end": 77,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "14726116",
+      "right8": "13646461"
+    },
+    {
+      "word": "467",
+      "book_id": "0",
+      "start": 113,
+      "end": 116,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "27816705",
+      "right8": "11800140"
+    },
+    {
+      "word": "467",
+      "book_id": "3",
+      "start": 59,
+      "end": 62,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "06499670",
+      "right8": "26114580"
+    },
+    {
+      "word": "467",
+      "book_id": "3",
+      "start": 118,
+      "end": 121,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "57655236",
+      "right8": "21191180"
+    },
+    {
+      "word": "467",
+      "book_id": "4",
+      "start": 12,
+      "end": 15,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "65599670",
+      "right8": "26114580"
+    },
+    {
+      "word": "467",
+      "book_id": "4",
+      "start": 67,
+      "end": 70,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "01903236",
+      "right8": "21191781"
+    },
+    {
+      "word": "467",
+      "book_id": "5",
+      "start": 162,
+      "end": 165,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "08114636",
+      "right8": "24353451"
+    },
+    {
+      "word": "467",
+      "book_id": "5",
+      "start": 229,
+      "end": 232,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "16019936",
+      "right8": "24314278"
+    },
+    {
+      "word": "467",
+      "book_id": "6",
+      "start": 104,
+      "end": 107,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "99714636",
+      "right8": "28577511"
+    },
+    {
+      "word": "467",
+      "book_id": "8",
+      "start": 119,
+      "end": 122,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "28883046",
+      "right8": "97278316"
+    },
+    {
+      "word": "467",
+      "book_id": "9",
+      "start": 160,
+      "end": 163,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "08114636",
+      "right8": "24353451"
+    },
+    {
+      "word": "467",
+      "book_id": "9",
+      "start": 227,
+      "end": 230,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "16019936",
+      "right8": "24314278"
+    },
+    {
+      "word": "467",
+      "book_id": "9",
+      "start": 272,
+      "end": 275,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "14726116",
+      "right8": "13646461"
+    },
+    {
+      "word": "467",
+      "book_id": "10",
+      "start": 34,
+      "end": 37,
+      "supporting_alignments": 0,
+      "total_alignments": 2,
+      "endpoint_class": "no_alignment",
+      "left8": "16019936",
+      "right8": "24314278"
+    },
+    {
+      "word": "467",
+      "book_id": "10",
+      "start": 79,
+      "end": 82,
+      "supporting_alignments": 0,
+      "total_alignments": 2,
+      "endpoint_class": "no_alignment",
+      "left8": "14726116",
+      "right8": "13646461"
+    },
+    {
+      "word": "467",
+      "book_id": "10",
+      "start": 118,
+      "end": 121,
+      "supporting_alignments": 0,
+      "total_alignments": 2,
+      "endpoint_class": "no_alignment",
+      "left8": "27816705",
+      "right8": "11800140"
+    },
+    {
+      "word": "467",
+      "book_id": "11",
+      "start": 35,
+      "end": 38,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "08114636",
+      "right8": "24355460"
+    },
+    {
+      "word": "467",
+      "book_id": "11",
+      "start": 66,
+      "end": 69,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "28883046",
+      "right8": "97278316"
+    },
+    {
+      "word": "467",
+      "book_id": "12",
+      "start": 23,
+      "end": 26,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "18576436",
+      "right8": "24353452"
+    },
+    {
+      "word": "467",
+      "book_id": "12",
+      "start": 53,
+      "end": 56,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "21973536",
+      "right8": "24968475"
+    },
+    {
+      "word": "467",
+      "book_id": "13",
+      "start": 32,
+      "end": 35,
+      "supporting_alignments": 0,
+      "total_alignments": 2,
+      "endpoint_class": "no_alignment",
+      "left8": "28895236",
+      "right8": "21191180"
+    },
+    {
+      "word": "467",
+      "book_id": "13",
+      "start": 60,
+      "end": 63,
+      "supporting_alignments": 0,
+      "total_alignments": 2,
+      "endpoint_class": "no_alignment",
+      "left8": "34783046",
+      "right8": "97278396"
+    },
+    {
+      "word": "467",
+      "book_id": "14",
+      "start": 43,
+      "end": 46,
+      "supporting_alignments": 0,
+      "total_alignments": 2,
+      "endpoint_class": "no_alignment",
+      "left8": "46460036",
+      "right8": "12888191"
+    },
+    {
+      "word": "467",
+      "book_id": "14",
+      "start": 70,
+      "end": 73,
+      "supporting_alignments": 0,
+      "total_alignments": 2,
+      "endpoint_class": "no_alignment",
+      "left8": "14726116",
+      "right8": "13646461"
+    },
+    {
+      "word": "467",
+      "book_id": "15",
+      "start": 65,
+      "end": 68,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "19121670",
+      "right8": "26114580"
+    },
+    {
+      "word": "467",
+      "book_id": "16",
+      "start": 28,
+      "end": 31,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "19121670",
+      "right8": "26114580"
+    },
+    {
+      "word": "467",
+      "book_id": "17",
+      "start": 68,
+      "end": 71,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "06499670",
+      "right8": "26114580"
+    },
+    {
+      "word": "467",
+      "book_id": "17",
+      "start": 127,
+      "end": 130,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "57655236",
+      "right8": "21191180"
+    },
+    {
+      "word": "467",
+      "book_id": "17",
+      "start": 152,
+      "end": 155,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "65460036",
+      "right8": "11800140"
+    },
+    {
+      "word": "467",
+      "book_id": "18",
+      "start": 26,
+      "end": 29,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "27816705",
+      "right8": "11800140"
+    },
+    {
+      "word": "467",
+      "book_id": "19",
+      "start": 125,
+      "end": 128,
+      "supporting_alignments": 0,
+      "total_alignments": 2,
+      "endpoint_class": "no_alignment",
+      "left8": "16019936",
+      "right8": "2"
+    },
+    {
+      "word": "467",
+      "book_id": "21",
+      "start": 30,
+      "end": 33,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "18576436",
+      "right8": "24353452"
+    },
+    {
+      "word": "467",
+      "book_id": "21",
+      "start": 60,
+      "end": 63,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "21973536",
+      "right8": "24968475"
+    },
+    {
+      "word": "467",
+      "book_id": "21",
+      "start": 150,
+      "end": 153,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "28895236",
+      "right8": "21191180"
+    },
+    {
+      "word": "467",
+      "book_id": "24",
+      "start": 18,
+      "end": 21,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "18576436",
+      "right8": "24353452"
+    },
+    {
+      "word": "467",
+      "book_id": "24",
+      "start": 81,
+      "end": 84,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "28895236",
+      "right8": "21191180"
+    },
+    {
+      "word": "467",
+      "book_id": "26",
+      "start": 56,
+      "end": 59,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "18576436",
+      "right8": "24353452"
+    },
+    {
+      "word": "467",
+      "book_id": "26",
+      "start": 86,
+      "end": 89,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "21973536",
+      "right8": "24968475"
+    },
+    {
+      "word": "467",
+      "book_id": "28",
+      "start": 102,
+      "end": 105,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "11973536",
+      "right8": "24348561"
+    },
+    {
+      "word": "467",
+      "book_id": "29",
+      "start": 40,
+      "end": 43,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "06499670",
+      "right8": "26114580"
+    },
+    {
+      "word": "467",
+      "book_id": "29",
+      "start": 99,
+      "end": 102,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "57655236",
+      "right8": "21191180"
+    },
+    {
+      "word": "467",
+      "book_id": "30",
+      "start": 30,
+      "end": 33,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "41973536",
+      "right8": "24968475"
+    },
+    {
+      "word": "467",
+      "book_id": "30",
+      "start": 99,
+      "end": 102,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "18576436",
+      "right8": "24353452"
+    },
+    {
+      "word": "467",
+      "book_id": "32",
+      "start": 49,
+      "end": 52,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "08114636",
+      "right8": "24355460"
+    },
+    {
+      "word": "467",
+      "book_id": "32",
+      "start": 80,
+      "end": 83,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "28883046",
+      "right8": "97278316"
+    },
+    {
+      "word": "467",
+      "book_id": "33",
+      "start": 16,
+      "end": 19,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "16019936",
+      "right8": "24314278"
+    },
+    {
+      "word": "467",
+      "book_id": "33",
+      "start": 61,
+      "end": 64,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "14726116",
+      "right8": "13646461"
+    },
+    {
+      "word": "467",
+      "book_id": "33",
+      "start": 100,
+      "end": 103,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "27816705",
+      "right8": "11800140"
+    },
+    {
+      "word": "467",
+      "book_id": "34",
+      "start": 0,
+      "end": 3,
+      "supporting_alignments": 1,
+      "total_alignments": 1,
+      "endpoint_class": "all_alignments",
+      "left8": "",
+      "right8": "25219775"
+    },
+    {
+      "word": "467",
+      "book_id": "34",
+      "start": 14,
+      "end": 17,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "19775236",
+      "right8": "21191180"
+    },
+    {
+      "word": "467",
+      "book_id": "34",
+      "start": 39,
+      "end": 42,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "65460036",
+      "right8": "11800140"
+    },
+    {
+      "word": "467",
+      "book_id": "35",
+      "start": 41,
+      "end": 44,
+      "supporting_alignments": 0,
+      "total_alignments": 2,
+      "endpoint_class": "no_alignment",
+      "left8": "16019936",
+      "right8": "24314278"
+    },
+    {
+      "word": "467",
+      "book_id": "35",
+      "start": 86,
+      "end": 89,
+      "supporting_alignments": 0,
+      "total_alignments": 2,
+      "endpoint_class": "no_alignment",
+      "left8": "14726116",
+      "right8": "13646461"
+    },
+    {
+      "word": "467",
+      "book_id": "35",
+      "start": 125,
+      "end": 128,
+      "supporting_alignments": 0,
+      "total_alignments": 2,
+      "endpoint_class": "no_alignment",
+      "left8": "27816705",
+      "right8": "11800140"
+    },
+    {
+      "word": "467",
+      "book_id": "36",
+      "start": 105,
+      "end": 108,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "08114636",
+      "right8": "24355460"
+    },
+    {
+      "word": "467",
+      "book_id": "37",
+      "start": 30,
+      "end": 33,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "14726116",
+      "right8": "13646461"
+    },
+    {
+      "word": "467",
+      "book_id": "38",
+      "start": 3,
+      "end": 6,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "236",
+      "right8": "21191180"
+    },
+    {
+      "word": "467",
+      "book_id": "38",
+      "start": 31,
+      "end": 34,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "34783046",
+      "right8": "97278396"
+    },
+    {
+      "word": "467",
+      "book_id": "40",
+      "start": 48,
+      "end": 51,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "16019936",
+      "right8": "24314278"
+    },
+    {
+      "word": "467",
+      "book_id": "40",
+      "start": 93,
+      "end": 96,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "14726116",
+      "right8": "18641800"
+    },
+    {
+      "word": "467",
+      "book_id": "40",
+      "start": 118,
+      "end": 121,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "11973536",
+      "right8": "24348561"
+    },
+    {
+      "word": "467",
+      "book_id": "42",
+      "start": 18,
+      "end": 21,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "27816705",
+      "right8": "18477090"
+    },
+    {
+      "word": "467",
+      "book_id": "43",
+      "start": 24,
+      "end": 27,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "08114636",
+      "right8": "24355460"
+    },
+    {
+      "word": "467",
+      "book_id": "43",
+      "start": 55,
+      "end": 58,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "28883046",
+      "right8": "97278316"
+    },
+    {
+      "word": "467",
+      "book_id": "43",
+      "start": 128,
+      "end": 131,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "16019936",
+      "right8": "24314278"
+    },
+    {
+      "word": "467",
+      "book_id": "44",
+      "start": 64,
+      "end": 67,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "06499670",
+      "right8": "26114580"
+    },
+    {
+      "word": "467",
+      "book_id": "44",
+      "start": 123,
+      "end": 126,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "57655236",
+      "right8": ""
+    },
+    {
+      "word": "467",
+      "book_id": "45",
+      "start": 22,
+      "end": 25,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "65460036",
+      "right8": "11800140"
+    },
+    {
+      "word": "467",
+      "book_id": "47",
+      "start": 44,
+      "end": 47,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "08114636",
+      "right8": "24353451"
+    },
+    {
+      "word": "467",
+      "book_id": "47",
+      "start": 111,
+      "end": 114,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "16019936",
+      "right8": "24314278"
+    },
+    {
+      "word": "467",
+      "book_id": "48",
+      "start": 125,
+      "end": 128,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "11973536",
+      "right8": "24348561"
+    },
+    {
+      "word": "467",
+      "book_id": "50",
+      "start": 26,
+      "end": 29,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "08114636",
+      "right8": "24353451"
+    },
+    {
+      "word": "467",
+      "book_id": "50",
+      "start": 93,
+      "end": 96,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "16019936",
+      "right8": "24314278"
+    },
+    {
+      "word": "467",
+      "book_id": "50",
+      "start": 138,
+      "end": 141,
+      "supporting_alignments": 1,
+      "total_alignments": 1,
+      "endpoint_class": "all_alignments",
+      "left8": "14726116",
+      "right8": ""
+    },
+    {
+      "word": "467",
+      "book_id": "51",
+      "start": 7,
+      "end": 10,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "5460036",
+      "right8": "11800140"
+    },
+    {
+      "word": "467",
+      "book_id": "52",
+      "start": 67,
+      "end": 70,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "06499670",
+      "right8": "26114580"
+    },
+    {
+      "word": "467",
+      "book_id": "52",
+      "start": 126,
+      "end": 129,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "57655236",
+      "right8": "21191180"
+    },
+    {
+      "word": "467",
+      "book_id": "54",
+      "start": 50,
+      "end": 53,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "91180036",
+      "right8": "2431"
+    },
+    {
+      "word": "467",
+      "book_id": "56",
+      "start": 11,
+      "end": 14,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "28895236",
+      "right8": "21191180"
+    },
+    {
+      "word": "467",
+      "book_id": "56",
+      "start": 109,
+      "end": 112,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "18576436",
+      "right8": "24353452"
+    },
+    {
+      "word": "467",
+      "book_id": "56",
+      "start": 226,
+      "end": 229,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "98899751",
+      "right8": "24968479"
+    },
+    {
+      "word": "467",
+      "book_id": "58",
+      "start": 76,
+      "end": 79,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "08114636",
+      "right8": "24355460"
+    },
+    {
+      "word": "467",
+      "book_id": "58",
+      "start": 107,
+      "end": 110,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "28883046",
+      "right8": "97278316"
+    },
+    {
+      "word": "467",
+      "book_id": "58",
+      "start": 180,
+      "end": 183,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "16019936",
+      "right8": "24314278"
+    },
+    {
+      "word": "467",
+      "book_id": "58",
+      "start": 225,
+      "end": 228,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "14726116",
+      "right8": "13646461"
+    },
+    {
+      "word": "467",
+      "book_id": "58",
+      "start": 264,
+      "end": 267,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "27816705",
+      "right8": "11800"
+    },
+    {
+      "word": "467",
+      "book_id": "59",
+      "start": 24,
+      "end": 27,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "08114636",
+      "right8": "24355460"
+    },
+    {
+      "word": "467",
+      "book_id": "59",
+      "start": 55,
+      "end": 58,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "28883046",
+      "right8": "97278316"
+    },
+    {
+      "word": "467",
+      "book_id": "59",
+      "start": 128,
+      "end": 131,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "16019936",
+      "right8": "24314278"
+    },
+    {
+      "word": "467",
+      "book_id": "59",
+      "start": 225,
+      "end": 228,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "14726116",
+      "right8": "13646461"
+    },
+    {
+      "word": "467",
+      "book_id": "59",
+      "start": 264,
+      "end": 267,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "27816705",
+      "right8": "11800"
+    },
+    {
+      "word": "467",
+      "book_id": "60",
+      "start": 102,
+      "end": 105,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "28883046",
+      "right8": "97278316"
+    },
+    {
+      "word": "467",
+      "book_id": "61",
+      "start": 11,
+      "end": 14,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "06499670",
+      "right8": "26114580"
+    },
+    {
+      "word": "467",
+      "book_id": "61",
+      "start": 70,
+      "end": 73,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "57655236",
+      "right8": "21191180"
+    },
+    {
+      "word": "467",
+      "book_id": "62",
+      "start": 48,
+      "end": 51,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "06499670",
+      "right8": "26114580"
+    },
+    {
+      "word": "467",
+      "book_id": "62",
+      "start": 107,
+      "end": 110,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "57655236",
+      "right8": "21191180"
+    },
+    {
+      "word": "467",
+      "book_id": "63",
+      "start": 6,
+      "end": 9,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "460036",
+      "right8": "11800140"
+    },
+    {
+      "word": "467",
+      "book_id": "64",
+      "start": 40,
+      "end": 43,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "28883046",
+      "right8": "97278316"
+    },
+    {
+      "word": "467",
+      "book_id": "65",
+      "start": 14,
+      "end": 17,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "06499670",
+      "right8": "26114580"
+    },
+    {
+      "word": "467",
+      "book_id": "65",
+      "start": 73,
+      "end": 76,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "57655236",
+      "right8": "21191180"
+    },
+    {
+      "word": "467",
+      "book_id": "66",
+      "start": 34,
+      "end": 37,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "16019936",
+      "right8": "24314278"
+    },
+    {
+      "word": "467",
+      "book_id": "66",
+      "start": 79,
+      "end": 82,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "14726116",
+      "right8": "13646461"
+    },
+    {
+      "word": "467",
+      "book_id": "66",
+      "start": 118,
+      "end": 121,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "27816705",
+      "right8": "11800140"
+    },
+    {
+      "word": "467",
+      "book_id": "68",
+      "start": 41,
+      "end": 44,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "06499670",
+      "right8": "26114580"
+    },
+    {
+      "word": "467",
+      "book_id": "68",
+      "start": 100,
+      "end": 103,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "57655236",
+      "right8": "21191180"
+    },
+    {
+      "word": "467",
+      "book_id": "68",
+      "start": 125,
+      "end": 128,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "65460036",
+      "right8": "11800140"
+    },
+    {
+      "word": "467",
+      "book_id": "69",
+      "start": 16,
+      "end": 19,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "08114636",
+      "right8": "24353451"
+    },
+    {
+      "word": "467",
+      "book_id": "69",
+      "start": 83,
+      "end": 86,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "16019936",
+      "right8": "24314278"
+    },
+    {
+      "word": "467",
+      "book_id": "69",
+      "start": 128,
+      "end": 131,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "14726116",
+      "right8": "13646461"
+    },
+    {
+      "word": "485611800364197",
+      "book_id": "30",
+      "start": 11,
+      "end": 26,
+      "supporting_alignments": 1,
+      "total_alignments": 1,
+      "endpoint_class": "all_alignments",
+      "left8": "34350843",
+      "right8": "35364672"
+    },
+    {
+      "word": "78572611857643646724",
+      "book_id": "12",
+      "start": 8,
+      "end": 28,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "56114572",
+      "right8": "35345275"
+    },
+    {
+      "word": "78572611857643646724",
+      "book_id": "21",
+      "start": 15,
+      "end": 35,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "56114572",
+      "right8": "35345275"
+    },
+    {
+      "word": "78572611857643646724",
+      "book_id": "24",
+      "start": 3,
+      "end": 23,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "572",
+      "right8": "35345275"
+    },
+    {
+      "word": "78572611857643646724",
+      "book_id": "26",
+      "start": 41,
+      "end": 61,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "56114572",
+      "right8": "35345275"
+    },
+    {
+      "word": "78572611857643646724",
+      "book_id": "30",
+      "start": 84,
+      "end": 104,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "12814572",
+      "right8": "35345275"
+    },
+    {
+      "word": "78572611857643646724",
+      "book_id": "56",
+      "start": 94,
+      "end": 114,
+      "supporting_alignments": 0,
+      "total_alignments": 1,
+      "endpoint_class": "no_alignment",
+      "left8": "56114572",
+      "right8": "35345275"
+    }
+  ],
+  "distinct_contexts": [
+    {
+      "word": "135",
+      "left8": "14636475",
+      "right8": "28542157",
+      "book_ids": [
+        "7"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "135",
+      "left8": "21595615",
+      "right8": "34780",
+      "book_ids": [
+        "32"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "135",
+      "left8": "21595615",
+      "right8": "34780192",
+      "book_ids": [
+        "10",
+        "11",
+        "19",
+        "35",
+        "40",
+        "43",
+        "47",
+        "5",
+        "50",
+        "58",
+        "59",
+        "6",
+        "66",
+        "69",
+        "9"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 15
+    },
+    {
+      "word": "135",
+      "left8": "80035765",
+      "right8": "347830",
+      "book_ids": [
+        "21"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "135",
+      "left8": "80035765",
+      "right8": "34783046",
+      "book_ids": [
+        "13",
+        "38",
+        "56"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 3
+    },
+    {
+      "word": "135",
+      "left8": "80035765",
+      "right8": "34783050",
+      "book_ids": [
+        "24"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "135",
+      "left8": "95615",
+      "right8": "34780192",
+      "book_ids": [
+        "0"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "345",
+      "left8": "04648435",
+      "right8": "15860421",
+      "book_ids": [
+        "6"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "345",
+      "left8": "11450655",
+      "right8": "27446472",
+      "book_ids": [
+        "57"
+      ],
+      "classes": [
+        "all_alignments"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "345",
+      "left8": "21991103",
+      "right8": "27446472",
+      "book_ids": [
+        "19"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "345",
+      "left8": "2295",
+      "right8": "27446472",
+      "book_ids": [
+        "1"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "345",
+      "left8": "27831601",
+      "right8": "15860421",
+      "book_ids": [
+        "11",
+        "32",
+        "36",
+        "43",
+        "58",
+        "59"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 6
+    },
+    {
+      "word": "345",
+      "left8": "45452295",
+      "right8": "27446472",
+      "book_ids": [
+        "41"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "345",
+      "left8": "45831601",
+      "right8": "15860421",
+      "book_ids": [
+        "49"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "345",
+      "left8": "5",
+      "right8": "27446190",
+      "book_ids": [
+        "31"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "345",
+      "left8": "5",
+      "right8": "27446472",
+      "book_ids": [
+        "27"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "345",
+      "left8": "57191894",
+      "right8": "21991184",
+      "book_ids": [
+        "60"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "345",
+      "left8": "64672435",
+      "right8": "15860421",
+      "book_ids": [
+        "47",
+        "5",
+        "50",
+        "69",
+        "9"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 5
+    },
+    {
+      "word": "345",
+      "left8": "64672435",
+      "right8": "27560192",
+      "book_ids": [
+        "12",
+        "21",
+        "24",
+        "26",
+        "30",
+        "56"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 6
+    },
+    {
+      "word": "345",
+      "left8": "74451601",
+      "right8": "15450483",
+      "book_ids": [
+        "49"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "345",
+      "left8": "8435",
+      "right8": "15867511",
+      "book_ids": [
+        "7"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "345",
+      "left8": "94452295",
+      "right8": "26114580",
+      "book_ids": [
+        "34"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "345",
+      "left8": "94452295",
+      "right8": "27347092",
+      "book_ids": [
+        "17"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "345",
+      "left8": "94452295",
+      "right8": "27446472",
+      "book_ids": [
+        "10",
+        "35",
+        "63",
+        "66"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 4
+    },
+    {
+      "word": "345",
+      "left8": "94452295",
+      "right8": "27477090",
+      "book_ids": [
+        "45",
+        "46",
+        "51",
+        "53"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 4
+    },
+    {
+      "word": "345",
+      "left8": "95219915",
+      "right8": "27446472",
+      "book_ids": [
+        "31",
+        "57"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 2
+    },
+    {
+      "word": "3478",
+      "left8": "14081595",
+      "right8": "01928891",
+      "book_ids": [
+        "7"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "3478",
+      "left8": "19045045",
+      "right8": "01928895",
+      "book_ids": [
+        "36"
+      ],
+      "classes": [
+        "all_alignments"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "3478",
+      "left8": "35765135",
+      "right8": "30",
+      "book_ids": [
+        "21"
+      ],
+      "classes": [
+        "all_alignments"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "3478",
+      "left8": "35765135",
+      "right8": "30464560",
+      "book_ids": [
+        "56"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "3478",
+      "left8": "35765135",
+      "right8": "30464679",
+      "book_ids": [
+        "13",
+        "38"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 2
+    },
+    {
+      "word": "3478",
+      "left8": "35765135",
+      "right8": "30508434",
+      "book_ids": [
+        "24"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "3478",
+      "left8": "95615135",
+      "right8": "0",
+      "book_ids": [
+        "32"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "3478",
+      "left8": "95615135",
+      "right8": "01928891",
+      "book_ids": [
+        "6"
+      ],
+      "classes": [
+        "all_alignments"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "3478",
+      "left8": "95615135",
+      "right8": "01928895",
+      "book_ids": [
+        "0",
+        "10",
+        "11",
+        "19",
+        "35",
+        "40",
+        "43",
+        "47",
+        "5",
+        "50",
+        "58",
+        "59",
+        "66",
+        "69",
+        "9"
+      ],
+      "classes": [
+        "all_alignments"
+      ],
+      "occurrences": 15
+    },
+    {
+      "word": "453",
+      "left8": "45190450",
+      "right8": "47801928",
+      "book_ids": [
+        "36"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "467",
+      "left8": "",
+      "right8": "25219775",
+      "book_ids": [
+        "34"
+      ],
+      "classes": [
+        "all_alignments"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "467",
+      "left8": "01903236",
+      "right8": "21191781",
+      "book_ids": [
+        "4"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "467",
+      "left8": "06499670",
+      "right8": "26114580",
+      "book_ids": [
+        "17",
+        "29",
+        "3",
+        "44",
+        "52",
+        "61",
+        "62",
+        "65",
+        "68"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 9
+    },
+    {
+      "word": "467",
+      "left8": "08114636",
+      "right8": "24353451",
+      "book_ids": [
+        "47",
+        "5",
+        "50",
+        "69",
+        "9"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 5
+    },
+    {
+      "word": "467",
+      "left8": "08114636",
+      "right8": "24355460",
+      "book_ids": [
+        "11",
+        "32",
+        "36",
+        "43",
+        "58",
+        "59"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 6
+    },
+    {
+      "word": "467",
+      "left8": "11973536",
+      "right8": "24348561",
+      "book_ids": [
+        "28",
+        "40",
+        "48"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 3
+    },
+    {
+      "word": "467",
+      "left8": "14726116",
+      "right8": "",
+      "book_ids": [
+        "50"
+      ],
+      "classes": [
+        "all_alignments"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "467",
+      "left8": "14726116",
+      "right8": "13646461",
+      "book_ids": [
+        "0",
+        "10",
+        "14",
+        "33",
+        "35",
+        "37",
+        "58",
+        "59",
+        "66",
+        "69",
+        "9"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 11
+    },
+    {
+      "word": "467",
+      "left8": "14726116",
+      "right8": "18641800",
+      "book_ids": [
+        "40"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "467",
+      "left8": "16019936",
+      "right8": "2",
+      "book_ids": [
+        "19"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "467",
+      "left8": "16019936",
+      "right8": "24314278",
+      "book_ids": [
+        "0",
+        "10",
+        "33",
+        "35",
+        "40",
+        "43",
+        "47",
+        "5",
+        "50",
+        "58",
+        "59",
+        "66",
+        "69",
+        "9"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 14
+    },
+    {
+      "word": "467",
+      "left8": "18576436",
+      "right8": "24353452",
+      "book_ids": [
+        "12",
+        "21",
+        "24",
+        "26",
+        "30",
+        "56"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 6
+    },
+    {
+      "word": "467",
+      "left8": "19121670",
+      "right8": "26114580",
+      "book_ids": [
+        "15",
+        "16"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 2
+    },
+    {
+      "word": "467",
+      "left8": "19775236",
+      "right8": "21191180",
+      "book_ids": [
+        "34"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "467",
+      "left8": "21973536",
+      "right8": "24968475",
+      "book_ids": [
+        "12",
+        "21",
+        "26"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 3
+    },
+    {
+      "word": "467",
+      "left8": "236",
+      "right8": "21191180",
+      "book_ids": [
+        "38"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "467",
+      "left8": "27816705",
+      "right8": "11800",
+      "book_ids": [
+        "58",
+        "59"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 2
+    },
+    {
+      "word": "467",
+      "left8": "27816705",
+      "right8": "11800140",
+      "book_ids": [
+        "0",
+        "10",
+        "18",
+        "33",
+        "35",
+        "66"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 6
+    },
+    {
+      "word": "467",
+      "left8": "27816705",
+      "right8": "18477090",
+      "book_ids": [
+        "42"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "467",
+      "left8": "28883046",
+      "right8": "97278316",
+      "book_ids": [
+        "11",
+        "32",
+        "43",
+        "58",
+        "59",
+        "60",
+        "64",
+        "8"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 8
+    },
+    {
+      "word": "467",
+      "left8": "28895236",
+      "right8": "21191180",
+      "book_ids": [
+        "13",
+        "21",
+        "24",
+        "56"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 4
+    },
+    {
+      "word": "467",
+      "left8": "34783046",
+      "right8": "97278396",
+      "book_ids": [
+        "13",
+        "38"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 2
+    },
+    {
+      "word": "467",
+      "left8": "41973536",
+      "right8": "24968475",
+      "book_ids": [
+        "30"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "467",
+      "left8": "460036",
+      "right8": "11800140",
+      "book_ids": [
+        "63"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "467",
+      "left8": "46460036",
+      "right8": "12888191",
+      "book_ids": [
+        "14"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "467",
+      "left8": "5460036",
+      "right8": "11800140",
+      "book_ids": [
+        "51"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "467",
+      "left8": "57655236",
+      "right8": "",
+      "book_ids": [
+        "44"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "467",
+      "left8": "57655236",
+      "right8": "21191180",
+      "book_ids": [
+        "17",
+        "29",
+        "3",
+        "52",
+        "61",
+        "62",
+        "65",
+        "68"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 8
+    },
+    {
+      "word": "467",
+      "left8": "65460036",
+      "right8": "11800140",
+      "book_ids": [
+        "17",
+        "34",
+        "45",
+        "68"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 4
+    },
+    {
+      "word": "467",
+      "left8": "65599670",
+      "right8": "26114580",
+      "book_ids": [
+        "4"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "467",
+      "left8": "91180036",
+      "right8": "2431",
+      "book_ids": [
+        "54"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "467",
+      "left8": "98899751",
+      "right8": "24968479",
+      "book_ids": [
+        "56"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "467",
+      "left8": "99714636",
+      "right8": "28577511",
+      "book_ids": [
+        "6"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "485611800364197",
+      "left8": "34350843",
+      "right8": "35364672",
+      "book_ids": [
+        "30"
+      ],
+      "classes": [
+        "all_alignments"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "78572611857643646724",
+      "left8": "12814572",
+      "right8": "35345275",
+      "book_ids": [
+        "30"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    },
+    {
+      "word": "78572611857643646724",
+      "left8": "56114572",
+      "right8": "35345275",
+      "book_ids": [
+        "12",
+        "21",
+        "26",
+        "56"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 4
+    },
+    {
+      "word": "78572611857643646724",
+      "left8": "572",
+      "right8": "35345275",
+      "book_ids": [
+        "24"
+      ],
+      "classes": [
+        "no_alignment"
+      ],
+      "occurrences": 1
+    }
+  ],
+  "alignment_total": 79,
+  "occurrence_endpoint_classes": {
+    "no_alignment": 183,
+    "all_alignments": 22
+  },
+  "word_occurrence_counts": {
+    "135": 23,
+    "345": 40,
+    "3478": 24,
+    "453": 1,
+    "467": 110,
+    "485611800364197": 1,
+    "78572611857643646724": 6
+  },
+  "scope": "Conditional imported-code endpoint compatibility, not proof a matching substring is a real word occurrence. Context deduplication is descriptive, not independence."
+}

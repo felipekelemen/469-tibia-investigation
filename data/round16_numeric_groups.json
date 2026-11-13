@@ -1,0 +1,472 @@
+[
+  {
+    "wire": "0",
+    "provenance": [
+      {
+        "id": "knightmare_2012",
+        "source_group": "knightmare_2012",
+        "group_index": 5
+      },
+      {
+        "id": "wrinkled_zero_taboo",
+        "source_group": "wrinkled_bonelord",
+        "group_index": 0
+      }
+    ]
+  },
+  {
+    "wire": "1",
+    "provenance": [
+      {
+        "id": "wrinkled_tibia_anchor",
+        "source_group": "wrinkled_bonelord",
+        "group_index": 0
+      }
+    ]
+  },
+  {
+    "wire": "135",
+    "provenance": [
+      {
+        "id": "your_true_colour_2012",
+        "source_group": "your_true_colour_2012",
+        "group_index": 3
+      }
+    ]
+  },
+  {
+    "wire": "14805394",
+    "provenance": [
+      {
+        "id": "avar_tar_poem",
+        "source_group": "avar_tar",
+        "group_index": 7
+      }
+    ]
+  },
+  {
+    "wire": "149630",
+    "provenance": [
+      {
+        "id": "avar_tar_poem",
+        "source_group": "avar_tar",
+        "group_index": 13
+      }
+    ]
+  },
+  {
+    "wire": "2953639",
+    "provenance": [
+      {
+        "id": "avar_tar_poem",
+        "source_group": "avar_tar",
+        "group_index": 19
+      }
+    ]
+  },
+  {
+    "wire": "29639",
+    "provenance": [
+      {
+        "id": "avar_tar_poem",
+        "source_group": "avar_tar",
+        "group_index": 0
+      }
+    ]
+  },
+  {
+    "wire": "3222011",
+    "provenance": [
+      {
+        "id": "avar_tar_poem",
+        "source_group": "avar_tar",
+        "group_index": 3
+      }
+    ]
+  },
+  {
+    "wire": "337011",
+    "provenance": [
+      {
+        "id": "avar_tar_poem",
+        "source_group": "avar_tar",
+        "group_index": 11
+      }
+    ]
+  },
+  {
+    "wire": "34334",
+    "provenance": [
+      {
+        "id": "your_true_colour_2012",
+        "source_group": "your_true_colour_2012",
+        "group_index": 1
+      }
+    ]
+  },
+  {
+    "wire": "345",
+    "provenance": [
+      {
+        "id": "knightmare_2012",
+        "source_group": "knightmare_2012",
+        "group_index": 6
+      }
+    ]
+  },
+  {
+    "wire": "3466",
+    "provenance": [
+      {
+        "id": "knightmare_2012",
+        "source_group": "knightmare_2012",
+        "group_index": 4
+      }
+    ]
+  },
+  {
+    "wire": "3478",
+    "provenance": [
+      {
+        "id": "knightmare_2012",
+        "source_group": "knightmare_2012",
+        "group_index": 0
+      }
+    ]
+  },
+  {
+    "wire": "4378",
+    "provenance": [
+      {
+        "id": "avar_tar_poem",
+        "source_group": "avar_tar",
+        "group_index": 14
+      }
+    ]
+  },
+  {
+    "wire": "453",
+    "provenance": [
+      {
+        "id": "avar_tar_poem",
+        "source_group": "avar_tar",
+        "group_index": 15
+      }
+    ]
+  },
+  {
+    "wire": "45331",
+    "provenance": [
+      {
+        "id": "secret_library_2018",
+        "source_group": "secret_library_2018",
+        "group_index": 1
+      }
+    ]
+  },
+  {
+    "wire": "467",
+    "provenance": [
+      {
+        "id": "official_poll_2020_option_c",
+        "source_group": "poll_2020",
+        "group_index": 4
+      }
+    ]
+  },
+  {
+    "wire": "46781",
+    "provenance": [
+      {
+        "id": "avar_tar_poem",
+        "source_group": "avar_tar",
+        "group_index": 1
+      }
+    ]
+  },
+  {
+    "wire": "485611800364197",
+    "provenance": [
+      {
+        "id": "wrinkled_shout_1",
+        "source_group": "wrinkled_bonelord",
+        "group_index": 0
+      }
+    ]
+  },
+  {
+    "wire": "486486",
+    "provenance": [
+      {
+        "id": "wrinkled_name",
+        "source_group": "wrinkled_bonelord",
+        "group_index": 0
+      }
+    ]
+  },
+  {
+    "wire": "54764",
+    "provenance": [
+      {
+        "id": "elder_bonelord_phrase",
+        "source_group": "elder_bonelord",
+        "group_index": 1
+      }
+    ]
+  },
+  {
+    "wire": "578300",
+    "provenance": [
+      {
+        "id": "avar_tar_poem",
+        "source_group": "avar_tar",
+        "group_index": 17
+      }
+    ]
+  },
+  {
+    "wire": "63378129",
+    "provenance": [
+      {
+        "id": "avar_tar_poem",
+        "source_group": "avar_tar",
+        "group_index": 10
+      }
+    ]
+  },
+  {
+    "wire": "639",
+    "provenance": [
+      {
+        "id": "avar_tar_poem",
+        "source_group": "avar_tar",
+        "group_index": 16
+      }
+    ]
+  },
+  {
+    "wire": "65142",
+    "provenance": [
+      {
+        "id": "your_true_colour_2012",
+        "source_group": "your_true_colour_2012",
+        "group_index": 4
+      }
+    ]
+  },
+  {
+    "wire": "653768764",
+    "provenance": [
+      {
+        "id": "evil_eye_shout",
+        "source_group": "evil_eye",
+        "group_index": 0
+      },
+      {
+        "id": "elder_bonelord_same_shout",
+        "source_group": "elder_bonelord",
+        "group_index": 0
+      }
+    ]
+  },
+  {
+    "wire": "659978",
+    "provenance": [
+      {
+        "id": "elder_bonelord_phrase",
+        "source_group": "elder_bonelord",
+        "group_index": 0
+      }
+    ]
+  },
+  {
+    "wire": "663",
+    "provenance": [
+      {
+        "id": "official_poll_2020_option_c",
+        "source_group": "poll_2020",
+        "group_index": 0
+      }
+    ]
+  },
+  {
+    "wire": "67",
+    "provenance": [
+      {
+        "id": "knightmare_2012",
+        "source_group": "knightmare_2012",
+        "group_index": 1
+      }
+    ]
+  },
+  {
+    "wire": "67538",
+    "provenance": [
+      {
+        "id": "avar_tar_poem",
+        "source_group": "avar_tar",
+        "group_index": 6
+      },
+      {
+        "id": "official_poll_2020_option_c",
+        "source_group": "poll_2020",
+        "group_index": 3
+      }
+    ]
+  },
+  {
+    "wire": "677",
+    "provenance": [
+      {
+        "id": "avar_tar_poem",
+        "source_group": "avar_tar",
+        "group_index": 4
+      },
+      {
+        "id": "avar_tar_poem",
+        "source_group": "avar_tar",
+        "group_index": 9
+      }
+    ]
+  },
+  {
+    "wire": "6880326",
+    "provenance": [
+      {
+        "id": "avar_tar_poem",
+        "source_group": "avar_tar",
+        "group_index": 8
+      }
+    ]
+  },
+  {
+    "wire": "7223",
+    "provenance": [
+      {
+        "id": "official_poll_2020_option_c",
+        "source_group": "poll_2020",
+        "group_index": 2
+      }
+    ]
+  },
+  {
+    "wire": "72683",
+    "provenance": [
+      {
+        "id": "avar_tar_poem",
+        "source_group": "avar_tar",
+        "group_index": 12
+      }
+    ]
+  },
+  {
+    "wire": "74032",
+    "provenance": [
+      {
+        "id": "secret_library_2018",
+        "source_group": "secret_library_2018",
+        "group_index": 0
+      }
+    ]
+  },
+  {
+    "wire": "78567",
+    "provenance": [
+      {
+        "id": "your_true_colour_2012",
+        "source_group": "your_true_colour_2012",
+        "group_index": 0
+      }
+    ]
+  },
+  {
+    "wire": "78572611857643646724",
+    "provenance": [
+      {
+        "id": "wrinkled_shout_2",
+        "source_group": "wrinkled_bonelord",
+        "group_index": 0
+      }
+    ]
+  },
+  {
+    "wire": "80097",
+    "provenance": [
+      {
+        "id": "official_poll_2020_option_c",
+        "source_group": "poll_2020",
+        "group_index": 5
+      }
+    ]
+  },
+  {
+    "wire": "80322429",
+    "provenance": [
+      {
+        "id": "avar_tar_poem",
+        "source_group": "avar_tar",
+        "group_index": 5
+      }
+    ]
+  },
+  {
+    "wire": "902073",
+    "provenance": [
+      {
+        "id": "official_poll_2020_option_c",
+        "source_group": "poll_2020",
+        "group_index": 1
+      }
+    ]
+  },
+  {
+    "wire": "9063376290",
+    "provenance": [
+      {
+        "id": "avar_tar_poem",
+        "source_group": "avar_tar",
+        "group_index": 2
+      }
+    ]
+  },
+  {
+    "wire": "90871",
+    "provenance": [
+      {
+        "id": "knightmare_2012",
+        "source_group": "knightmare_2012",
+        "group_index": 2
+      }
+    ]
+  },
+  {
+    "wire": "97664",
+    "provenance": [
+      {
+        "id": "knightmare_2012",
+        "source_group": "knightmare_2012",
+        "group_index": 3
+      }
+    ]
+  },
+  {
+    "wire": "986372",
+    "provenance": [
+      {
+        "id": "avar_tar_poem",
+        "source_group": "avar_tar",
+        "group_index": 18
+      }
+    ]
+  },
+  {
+    "wire": "989",
+    "provenance": [
+      {
+        "id": "your_true_colour_2012",
+        "source_group": "your_true_colour_2012",
+        "group_index": 2
+      }
+    ]
+  }
+]

@@ -27,3 +27,13 @@ do projeto; preencher senhas com BEHOLDER/BONELORD não é atribuído a CipSoft 
 a autores comunitários como algoritmo real. Fontes adicionais de descoberta
 e seus limites estão em [round15_source_notes.json](../data/round15_source_notes.json).
 Nenhuma captura integral de página ou imagem foi acrescentada à distribuição.
+
+## Rodada16
+
+As transcrições numéricas e suas fontes são as do inventário versionado, com
+origem por grupo preservada em `data/round16_numeric_groups.json`. Chayenne não
+integra o dicionário desta rodada. Baum e Barrie foram reutilizados em controles
+de segmentação com dicionário fornecido, sem novos dados semânticos de Tibia.
+O teste de decodificabilidade usa o algoritmo clássico de Sardinas–Patterson;
+a implementação com testemunhas e o codec binário são código original do
+projeto. Contextos de livros nos certificados não são correções das falas.

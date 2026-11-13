@@ -488,5 +488,40 @@
     "status": "fixed_pair_branch_predictions_no_verified_translation",
     "evidence": "Vencedores raw congelados aplicados a Kharos/NPCs, reset por fala e por palavra, com caudas explicitadas; não surge leitura plausível. Parser importado não é definido para externos. Não exclui códigos de entidade/sílaba/palavra ou outra serialização.",
     "artifact": "results/round15_matrix_search.json"
+  },
+  {
+    "id": "H71",
+    "hypothesis": "Os45grupos numéricos observados fornecem um código de unidades não ambíguo sem espaços",
+    "status": "demonstrated_for_finite_observed_inventory_no_meanings_identified",
+    "evidence": "Sardinas-Patterson exato explora12estados residuais e confirma decodificabilidade única, apesar de prefixos.13registros se resegmentam com dicionário completo fornecido. Não prediz inglês nem propriedade de um vocabulário maior.",
+    "artifact": "results/round16_decodability.json"
+  },
+  {
+    "id": "H72",
+    "hypothesis": "O inventário observado de grupos das falas é vocabulário completo para os70livros",
+    "status": "rejected_for_this_finite_inventory_only",
+    "evidence": "Nenhum livro tem parse completo com45unidades. Maior cobertura31,73%, caindo6,50%sem0,1,67. Dígitos não cobertos são literais, não palavras novas. Não exclui codebook maior de palavras/morfemas/conceitos.",
+    "artifact": "results/round16_wordcode_transfer.json"
+  },
+  {
+    "id": "H73",
+    "hypothesis": "Dicionário de grupos das falas fornece ganho de codificação além dos gritos copiados",
+    "status": "no_gain_after_predeclared_ablation_in_this_codec",
+    "evidence": "Ganhos condicionais41/38bits em2livros viram0ao retirar dois gritos. Todos os modelos perdem1071–1213bits pagando dicionário; baselines sem gloss de mesmo orçamento ganham2194–2733.297nulos e1188avaliações não autenticam semântica.",
+    "artifact": "results/round16_wordcode_transfer.json"
+  },
+  {
+    "id": "H74",
+    "hypothesis": "Cada grito raw copiado fornece um bloco inteiro do mesmo stream de códigos importados",
+    "status": "rejected_for_twenty_digit_shout_under_imported_alignments",
+    "evidence": "78572611857643646724termina dentro de43nas6cópias. Quatro começam dentro de27 e duas em fronteira78, com primeiros5códigos diferentes. O grito15dígitos alinha noID30. Sete certificados reconstroem emissões; vizinhos não são adicionados à fala.",
+    "artifact": "results/round16_boundary_certificates.json"
+  },
+  {
+    "id": "H75",
+    "hypothesis": "O parser de unidades com dicionário fornecido pode ser usado como evidência de descoberta de vocabulário e significado",
+    "status": "qualification_scope_limited_to_known_dictionary_parsing",
+    "evidence": "120/120recuperações exatas de unidades e60/60ambiguidades plantadas detectadas;180roundtrips exatos em30passagens pareadas. Chaves/dicionários são fornecidos e autores expostos; não qualifica inferência de vocabulário ou inglês.",
+    "artifact": "results/round16_qualification.json"
   }
 ]

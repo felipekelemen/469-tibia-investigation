@@ -1,0 +1,15 @@
+{
+  "stage": "Frozen before new game statistics",
+  "sha256": {
+    "data/round16_protocol.json": "0f23a41a317298e7e03eb6e0835844c9bdb25c0b53386075404d84ed0cf401ad",
+    "data/round16_numeric_groups.json": "78c3e327c6c83c811a632829f60db7b9c164bd579f88cf5cf35c6fae207ff2f5",
+    "scripts/numeric_word_codec.py": "40996ba337f7c9941451e40dead6c8c523ade7ad0e2ab1d0a568633a42b249bc",
+    "scripts/wordcode_transfer_experiment.py": "c756666c8276fc0aa76e0284fe440cb9300086d9d78b8ad79619bed5920f0537",
+    "scripts/zero_rule_constraints.py": "1b2c29541fb49f8e0ddbbdb2f756c442b2f57faf984e1a94c80d29bcb3a4a34e",
+    "data/normalized_books.json": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+    "data/normalized_splits.json": "0a0f9d3b60b4077bf9e3074919d35e754f6f77fd4ca4423b160e14e5a58ac3de",
+    "data/source_validation_inventory.json": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+    "data/word_validator_reference/wizard_oz.txt": "969bffab7740d4d8a0bac332d78bd0152ad4a40a2efc52f06c74a9bb6120be75",
+    "data/word_validator_reference/peter_pan.txt": "6b08714281fe38266a756741e4c62915cda7536c2f78cca501f7fd53f3f445ae"
+  }
+}

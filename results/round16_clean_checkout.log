@@ -1,0 +1,12 @@
+Clean export of staged public files, without ignored source captures/private uploads.
+----------------------------------------------------------------------
+Ran 158 tests in 4.160s
+
+OK
+python3 scripts/run_round16.py
+Qualification passed: 180 supplied-dictionary targets; no meaning inference.
+global_digit_bijection_of_dictionary_only complete
+shuffle_digits_inside_each_distinct_group complete
+uniform_distinct_training_book_substrings_matched_by_length complete
+Round16 full replay matched.
+All 7 book-span certificates replayed. No corrected NPC text or English meanings inferred.

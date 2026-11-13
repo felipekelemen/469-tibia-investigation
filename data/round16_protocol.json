@@ -1,0 +1,19 @@
+{
+  "round": 16,
+  "status": "frozen_before_new_game_statistics",
+  "seed": 16486486,
+  "question": "Can observed spaced numeric groups supply a consistent, uniquely decodable word/unit dictionary and transfer to books beyond literal copying?",
+  "inventory": "All canonical source_validation_inventory entries except developer_interview. Numeric runs are observed groups, not established English word boundaries. Duplicate wires have one unit ID and retain all provenance.",
+  "models": ["all_groups", "length_at_least3", "without_two_copied_wrinkled_shouts", "length_at_least3_without_two_copied_wrinkled_shouts"],
+  "ablated_source_ids": ["wrinkled_shout_1", "wrinkled_shout_2"],
+  "unique_decodability": "Exact finite residual-state Sardinas-Patterson search with constructive ambiguity witness; no empty codewords; no cap. Check also every recorded unspaced utterance against the full dictionary.",
+  "parser": "Exact complete dictionary-only parse counts, plus minimum uncovered digits with literal fallback. No inferred new words and no English completion.",
+  "wire_codec": "Shared sorted numeric dictionary. References:1+ceil(log2(D)) bits; literals:0+4digit bits. Per book choose raw or reference encoding with1bit family and gamma(length+1). Charge dictionary gamma(D+1)+sum(gamma(wordlength+1)+4wordlength) once for standalone total. Unknown digits stay literal.",
+  "statistic": "Exploratory whole70-book raw4bit baseline minus dictionary-inclusive coded length. Primary maximum across all four frozen dictionaries, recomputed for each null. Also report individual and exposed68+2 diagnostics; no independent semantic holdout claim.",
+  "controls": {"replicates_each": 99, "families": ["global_digit_bijection_of_dictionary_only", "shuffle_digits_inside_each_distinct_group", "uniform_distinct_training_book_substrings_matched_by_length"], "collisions": "Reject/resample colliding control words to retain cardinality and exact length histogram; maximum100000 attempts per word, raise on exhaustion.", "copies": "All game books remain unchanged in each null. Global randomizations act once per unique dictionary group. Ablation removes the same two predeclared group IDs, without reselecting successful matches."},
+  "baseline": "For each dictionary length histogram, select most frequent distinct substrings of discovery68 books, frequency by overlapping occurrences, lexical tie break. Charge the same explicit dictionary cost. This is a structural compressor without semantic labels, not a translation.",
+  "boundary_diagnostic": "All exact full-group raw occurrences, all79 compatible imported-code alignments. Report endpoints possible/forced/impossible. Deduplicate exact word+8digit-left/right-context signatures; these contexts still need not be independent. No occurrence is assumed to be a linguistic word merely because it matches digits.",
+  "leave_source_out": "Remove all groups belonging to each entire source_group. Flag held groups reused verbatim in other sources; also report unseen groups. This is exposed structural transfer, not blind lexical validation.",
+  "qualification": {"base_cases": 30, "references": ["wizard_oz.txt", "peter_pan.txt"], "words_per_target": 120, "styles": ["contiguous_English_words", "copied_English_word_chunks"], "dictionaries": ["prefix_free", "nonprefix_uniquely_decodable", "planted_ambiguity"], "gate": "At least27/30 exact true-unit recoveries in each uniquely-decodable cell, or27/30 ambiguity detections in planted cells; all wire roundtrips exact. Dictionary is supplied, not inferred. Already exposed authors; paired cases, no new semantic validation."},
+  "success": "Only independently attested English predictions count as translation. Unique segmentation, compression, short entity references or low randomization p do not identify English meanings. An incomplete45group inventory cannot reject a larger word/morpheme/concept codebook."
+}

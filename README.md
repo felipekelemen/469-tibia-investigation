@@ -1,13 +1,20 @@
 # 469-tibia-investigation — investigação reproduzível
 
-**Estado: quinze rodadas executadas; nenhuma tradução verificável encontrada.**
+**Estado: dezesseis rodadas executadas; nenhuma tradução verificável encontrada.**
 Não afirmamos que o corpus é indecifrável nem que qualquer solução comunitária
 foi confirmada. O alvo é um algoritmo integral que generalize para textos inéditos.
 
 Destino público: https://github.com/felipekelemen/469-tibia-investigation
 
-**Publicado:** corpus normalizado, código, testes e resultados das quinze rodadas
+**Publicado:** corpus normalizado, código, testes e resultados das dezesseis rodadas
 disponíveis neste repositório. O acesso de escrita foi confirmado após nova reconexão.
+
+A [décima sexta rodada](docs/round16.md) verificou 45 grupos numéricos como
+unidades de um dicionário: são unicamente decodificáveis, mas não segmentam
+nenhum livro inteiro. Os pequenos ganhos do codec desaparecem ao retirar os
+gritos já copiados. Certificados mostram que o grito de 20 dígitos termina
+dentro de um código importado nas seis cópias, com dois streams circundantes
+diferentes. Nenhum significado inglês foi inferido.
 
 A [décima quinta rodada](docs/round15.md) executou 1.860 configurações para
 matrizes 3×3, 4×4 e 5×5, com BEHOLDER/BONELORD e a sequência periódica 3478.
@@ -119,6 +126,7 @@ make round12
 make round13
 make round14
 make round15
+make round16
 make test
 ```
 

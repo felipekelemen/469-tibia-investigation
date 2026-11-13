@@ -1,0 +1,357 @@
+{
+  "dictionaries": {
+    "all_groups": {
+      "uniquely_decodable": true,
+      "prefix_free": false,
+      "residual_states_visited": 12,
+      "witness": null
+    },
+    "length_at_least3": {
+      "uniquely_decodable": true,
+      "prefix_free": false,
+      "residual_states_visited": 2,
+      "witness": null
+    },
+    "without_two_copied_wrinkled_shouts": {
+      "uniquely_decodable": true,
+      "prefix_free": false,
+      "residual_states_visited": 11,
+      "witness": null
+    },
+    "length_at_least3_without_two_copied_wrinkled_shouts": {
+      "uniquely_decodable": true,
+      "prefix_free": false,
+      "residual_states_visited": 2,
+      "witness": null
+    }
+  },
+  "source_transfer": {
+    "same_inventory_consistency": [
+      {
+        "id": "knightmare_2012",
+        "observed_numeric_groups": [
+          "3478",
+          "67",
+          "90871",
+          "97664",
+          "3466",
+          "0",
+          "345"
+        ],
+        "unspaced_parse_count": 1,
+        "unique_matches_recorded_spaces": true
+      },
+      {
+        "id": "avar_tar_poem",
+        "observed_numeric_groups": [
+          "29639",
+          "46781",
+          "9063376290",
+          "3222011",
+          "677",
+          "80322429",
+          "67538",
+          "14805394",
+          "6880326",
+          "677",
+          "63378129",
+          "337011",
+          "72683",
+          "149630",
+          "4378",
+          "453",
+          "639",
+          "578300",
+          "986372",
+          "2953639"
+        ],
+        "unspaced_parse_count": 1,
+        "unique_matches_recorded_spaces": true
+      },
+      {
+        "id": "evil_eye_shout",
+        "observed_numeric_groups": [
+          "653768764"
+        ],
+        "unspaced_parse_count": 1,
+        "unique_matches_recorded_spaces": true
+      },
+      {
+        "id": "elder_bonelord_phrase",
+        "observed_numeric_groups": [
+          "659978",
+          "54764"
+        ],
+        "unspaced_parse_count": 1,
+        "unique_matches_recorded_spaces": true
+      },
+      {
+        "id": "elder_bonelord_same_shout",
+        "observed_numeric_groups": [
+          "653768764"
+        ],
+        "unspaced_parse_count": 1,
+        "unique_matches_recorded_spaces": true
+      },
+      {
+        "id": "wrinkled_shout_1",
+        "observed_numeric_groups": [
+          "485611800364197"
+        ],
+        "unspaced_parse_count": 1,
+        "unique_matches_recorded_spaces": true
+      },
+      {
+        "id": "wrinkled_shout_2",
+        "observed_numeric_groups": [
+          "78572611857643646724"
+        ],
+        "unspaced_parse_count": 1,
+        "unique_matches_recorded_spaces": true
+      },
+      {
+        "id": "your_true_colour_2012",
+        "observed_numeric_groups": [
+          "78567",
+          "34334",
+          "989",
+          "135",
+          "65142"
+        ],
+        "unspaced_parse_count": 1,
+        "unique_matches_recorded_spaces": true
+      },
+      {
+        "id": "secret_library_2018",
+        "observed_numeric_groups": [
+          "74032",
+          "45331"
+        ],
+        "unspaced_parse_count": 1,
+        "unique_matches_recorded_spaces": true
+      },
+      {
+        "id": "official_poll_2020_option_c",
+        "observed_numeric_groups": [
+          "663",
+          "902073",
+          "7223",
+          "67538",
+          "467",
+          "80097"
+        ],
+        "unspaced_parse_count": 1,
+        "unique_matches_recorded_spaces": true
+      },
+      {
+        "id": "wrinkled_name",
+        "observed_numeric_groups": [
+          "486486"
+        ],
+        "unspaced_parse_count": 1,
+        "unique_matches_recorded_spaces": true
+      },
+      {
+        "id": "wrinkled_tibia_anchor",
+        "observed_numeric_groups": [
+          "1"
+        ],
+        "unspaced_parse_count": 1,
+        "unique_matches_recorded_spaces": true
+      },
+      {
+        "id": "wrinkled_zero_taboo",
+        "observed_numeric_groups": [
+          "0"
+        ],
+        "unspaced_parse_count": 1,
+        "unique_matches_recorded_spaces": true
+      }
+    ],
+    "leave_entire_source_out": [
+      {
+        "held_source_group": "avar_tar",
+        "id": "avar_tar_poem",
+        "whole_utterance_reused_elsewhere": false,
+        "seen_numeric_groups": [
+          "67538"
+        ],
+        "unseen_numeric_groups": [
+          "29639",
+          "46781",
+          "9063376290",
+          "3222011",
+          "677",
+          "80322429",
+          "14805394",
+          "6880326",
+          "677",
+          "63378129",
+          "337011",
+          "72683",
+          "149630",
+          "4378",
+          "453",
+          "639",
+          "578300",
+          "986372",
+          "2953639"
+        ],
+        "minimum_uncovered_digits": 85,
+        "complete_unspaced_parse_count": 0
+      },
+      {
+        "held_source_group": "elder_bonelord",
+        "id": "elder_bonelord_phrase",
+        "whole_utterance_reused_elsewhere": false,
+        "seen_numeric_groups": [],
+        "unseen_numeric_groups": [
+          "659978",
+          "54764"
+        ],
+        "minimum_uncovered_digits": 11,
+        "complete_unspaced_parse_count": 0
+      },
+      {
+        "held_source_group": "elder_bonelord",
+        "id": "elder_bonelord_same_shout",
+        "whole_utterance_reused_elsewhere": true,
+        "seen_numeric_groups": [
+          "653768764"
+        ],
+        "unseen_numeric_groups": [],
+        "minimum_uncovered_digits": 0,
+        "complete_unspaced_parse_count": 1
+      },
+      {
+        "held_source_group": "evil_eye",
+        "id": "evil_eye_shout",
+        "whole_utterance_reused_elsewhere": true,
+        "seen_numeric_groups": [
+          "653768764"
+        ],
+        "unseen_numeric_groups": [],
+        "minimum_uncovered_digits": 0,
+        "complete_unspaced_parse_count": 1
+      },
+      {
+        "held_source_group": "knightmare_2012",
+        "id": "knightmare_2012",
+        "whole_utterance_reused_elsewhere": false,
+        "seen_numeric_groups": [
+          "0"
+        ],
+        "unseen_numeric_groups": [
+          "3478",
+          "67",
+          "90871",
+          "97664",
+          "3466",
+          "345"
+        ],
+        "minimum_uncovered_digits": 21,
+        "complete_unspaced_parse_count": 0
+      },
+      {
+        "held_source_group": "poll_2020",
+        "id": "official_poll_2020_option_c",
+        "whole_utterance_reused_elsewhere": false,
+        "seen_numeric_groups": [
+          "67538"
+        ],
+        "unseen_numeric_groups": [
+          "663",
+          "902073",
+          "7223",
+          "467",
+          "80097"
+        ],
+        "minimum_uncovered_digits": 12,
+        "complete_unspaced_parse_count": 0
+      },
+      {
+        "held_source_group": "secret_library_2018",
+        "id": "secret_library_2018",
+        "whole_utterance_reused_elsewhere": false,
+        "seen_numeric_groups": [],
+        "unseen_numeric_groups": [
+          "74032",
+          "45331"
+        ],
+        "minimum_uncovered_digits": 5,
+        "complete_unspaced_parse_count": 0
+      },
+      {
+        "held_source_group": "wrinkled_bonelord",
+        "id": "wrinkled_shout_1",
+        "whole_utterance_reused_elsewhere": false,
+        "seen_numeric_groups": [],
+        "unseen_numeric_groups": [
+          "485611800364197"
+        ],
+        "minimum_uncovered_digits": 13,
+        "complete_unspaced_parse_count": 0
+      },
+      {
+        "held_source_group": "wrinkled_bonelord",
+        "id": "wrinkled_shout_2",
+        "whole_utterance_reused_elsewhere": false,
+        "seen_numeric_groups": [],
+        "unseen_numeric_groups": [
+          "78572611857643646724"
+        ],
+        "minimum_uncovered_digits": 17,
+        "complete_unspaced_parse_count": 0
+      },
+      {
+        "held_source_group": "wrinkled_bonelord",
+        "id": "wrinkled_name",
+        "whole_utterance_reused_elsewhere": false,
+        "seen_numeric_groups": [],
+        "unseen_numeric_groups": [
+          "486486"
+        ],
+        "minimum_uncovered_digits": 6,
+        "complete_unspaced_parse_count": 0
+      },
+      {
+        "held_source_group": "wrinkled_bonelord",
+        "id": "wrinkled_tibia_anchor",
+        "whole_utterance_reused_elsewhere": false,
+        "seen_numeric_groups": [],
+        "unseen_numeric_groups": [
+          "1"
+        ],
+        "minimum_uncovered_digits": 1,
+        "complete_unspaced_parse_count": 0
+      },
+      {
+        "held_source_group": "wrinkled_bonelord",
+        "id": "wrinkled_zero_taboo",
+        "whole_utterance_reused_elsewhere": false,
+        "seen_numeric_groups": [
+          "0"
+        ],
+        "unseen_numeric_groups": [],
+        "minimum_uncovered_digits": 0,
+        "complete_unspaced_parse_count": 1
+      },
+      {
+        "held_source_group": "your_true_colour_2012",
+        "id": "your_true_colour_2012",
+        "whole_utterance_reused_elsewhere": false,
+        "seen_numeric_groups": [],
+        "unseen_numeric_groups": [
+          "78567",
+          "34334",
+          "989",
+          "135",
+          "65142"
+        ],
+        "minimum_uncovered_digits": 17,
+        "complete_unspaced_parse_count": 0
+      }
+    ],
+    "scope": "Already exposed groups; exact repeated words are flagged. No held English labels, semantics or new independent validation."
+  }
+}

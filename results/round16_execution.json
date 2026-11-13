@@ -1,0 +1,9 @@
+{
+  "duration_seconds": 11.26,
+  "frozen_manifest_sha256": "0dfd750966c43c16f50ea6221c6454e4e65709613c03ec2758d39295b3a026ed",
+  "numeric_groups": 45,
+  "qualification_targets": 180,
+  "randomized_dictionaries": 297,
+  "randomized_model_evaluations": 1188,
+  "verified_translations": 0
+}

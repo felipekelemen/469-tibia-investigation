@@ -1,0 +1,18 @@
+{
+  "sha256": {
+    "data/round16_evidence_manifest.json": "0dfd750966c43c16f50ea6221c6454e4e65709613c03ec2758d39295b3a026ed",
+    "data/round16_scope_notes.json": "74d4cb743976d5422723f1cd47eccd9823896fa2558c9e11edd50cd3c2dff8cb",
+    "data/plan_progress_round16.json": "f37ca6a8ef99b2f3fc296cf1ea1147328cca06ad949d64b52f2ae14c55759468",
+    "scripts/run_round16.py": "26b6cc50971c3d72ce1e7b53501d3a7bc30a7116c7f70dd67e03a0365e343a46",
+    "scripts/wordcode_boundary_certificates.py": "8b87b1e3d86570e82142927d1b569c919ddae38be7652406ea74dbbf82f34b00",
+    "tests/test_numeric_word_codec.py": "aff1b8ec9a3065b813716c01be8402f737ac5046dd593a74f217b41bf298388e",
+    "tests/test_wordcode_boundary_certificates.py": "30c84f6156bac19eac39d2030ba7581f680672f00dac44c940ccc642e0ce8a9e",
+    "docs/round16.md": "4caa6bf7d237131fd73bb9326ac48cc5c845c9e0380ec1aff7eefa7f09b13c1c",
+    "results/round16_boundaries.json": "29d1b1835fe94516997427c37a8ef9e04eefde1f6c61b9eb117a0220b34ad741",
+    "results/round16_boundary_certificates.json": "78b2ebe71c7605c0ed461f195d51ee9c02b16dc575c405e06aae0d1ff1d7ffa4",
+    "results/round16_decodability.json": "e784d7b365aecdf489e855b6c96b21e29e9857df7d53e0691b9b093745ca7f8b",
+    "results/round16_qualification.json": "883d0fc8920ce01d469cecd4690ee3b9276e541fd2c8ab10dc45781127827324",
+    "results/round16_wordcode_transfer.json": "49456dc3cb806868a6ee0bc3a9ecda2aa89ce614bf6662b9cd83b46f2e856fc5"
+  },
+  "scope": "Binds published artifacts and explanatory post-experiment certificates; make round16 rebuilds every randomized dictionary and all positive targets. Variable execution durations and logs are not hash-bound."
+}

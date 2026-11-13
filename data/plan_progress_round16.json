@@ -1,0 +1,8 @@
+{
+  "round": 16,
+  "verified_translations": 0,
+  "original_deliverables_still_open": ["P01 independent meaning/validation", "P03 generative and variant model", "P05 semantic/codebook mechanism", "P06 authenticated historical map counts"],
+  "executed": ["Unique decodability of45observed numeric groups", "Four exact dictionary/codec models on70books", "297randomized dictionaries and1188model evaluations", "Leave-source-out numeric segmentation with reuse flags", "All79imported alignment endpoint diagnostics", "Seven explicit book-span emission certificates"],
+  "new_constraints": ["Observed45group dictionary is uniquely decodable despite prefixes; no book has complete segmentation using only this finite inventory", "All conditional codec gains disappear after ablating two previously copied shouts", "The20digit wrinkled shout ends inside imported code43in all6book copies; parent streams differ across contexts"],
+  "next_priority": "Qualify segmentation with vocabulary hidden and copy-controlled boundary recovery; seek independent numeric-English meaning. Do not promote known-dictionary parsing or copied shout completions to translations."
+}
