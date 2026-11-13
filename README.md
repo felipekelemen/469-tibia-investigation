@@ -1,13 +1,21 @@
 # 469-tibia-investigation — investigação reproduzível
 
-**Estado: dezesseis rodadas executadas; nenhuma tradução verificável encontrada.**
+**Estado: dezessete rodadas executadas; nenhuma tradução verificável encontrada.**
 Não afirmamos que o corpus é indecifrável nem que qualquer solução comunitária
 foi confirmada. O alvo é um algoritmo integral que generalize para textos inéditos.
 
 Destino público: https://github.com/felipekelemen/469-tibia-investigation
 
-**Publicado:** corpus normalizado, código, testes e resultados das dezesseis rodadas
+**Publicado:** corpus normalizado, código, testes e resultados das dezessete rodadas
 disponíveis neste repositório. O acesso de escrita foi confirmado após nova reconexão.
+
+A [décima sétima rodada](docs/round17.md) testou a aprendizagem de unidades com
+vocabulário oculto, com seleção em desenvolvimento e qualificação em dois
+autores novos. Nenhum dos três métodos passou nos controles com cópias;
+a aplicação ao jogo ficou bloqueada pelo gate. Um contraexemplo com duas
+chaves de 64 unidades mostra fronteiras diferentes com os mesmos dados,
+cardinalidade, frequências e custo de descrição. Não é prova sobre a origem
+de 469 nem ausência de significado.
 
 A [décima sexta rodada](docs/round16.md) verificou 45 grupos numéricos como
 unidades de um dicionário: são unicamente decodificáveis, mas não segmentam
@@ -127,6 +135,7 @@ make round13
 make round14
 make round15
 make round16
+make round17
 make test
 ```
 

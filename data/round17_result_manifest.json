@@ -1,0 +1,17 @@
+{
+  "sha256": {
+    "data/round17_development_manifest.json": "f53720c314a5b05915c1be7f0848bc1727af185351a5f04ccabdb14c4714a930",
+    "data/round17_qualification_manifest.json": "67c121c28ce5e4d3dbca2ac26b4b8041477b2d6951b64021875dcca741b40d17",
+    "data/plan_progress_round17.json": "7cfad65cfa92f8b527a2a7a8bd93d12b025b4392e64dbc1738285cae205897aa",
+    "scripts/run_round17.py": "c360bc7f2dd174aebc43cb394e7089d35af66fc192d65dfb8cc51638ee5c773b",
+    "scripts/hidden_unit_diagnostics.py": "3f2ac25521a6f3d3a525dca19b7089430497985ddd352d943d3cdbd32976c5f5",
+    "tests/test_hidden_unit_segmenter.py": "1e935bd45613643ca9fdf9b25e42ac703a0acb477016051c5ba764b5347ad23d",
+    "tests/test_hidden_unit_diagnostics.py": "5537e5e68643e6e2eb56d2065138d5349efd9369708bbef66d4742cdf5f52217",
+    "docs/round17.md": "fe1895b43ea472f0a0a18e0ae45cf601133170808baaa76e44eafcb8bf465f0e",
+    "results/round17_development.json": "9308acf314d29f6336bc8a999eec1d55c63488d6f6e6374687ff76df69e43b77",
+    "results/round17_qualification.json": "324a894d55b622e9751c85e1ff7f1aaf11fccba6a7e542467873cf4c8abdd8e9",
+    "results/round17_identifiability_certificate.json": "4e4586bf63ca6307cdb50dc9c3b7c869f1d0d36e273d7d791474b70e6b7b93c0",
+    "results/round17_failure_diagnostics.json": "6b10297da2d3d09b1654f38165655df4f030fa8ead12bfe97d533c0f50e50344"
+  },
+  "scope": "Full nonmutating replay of development, frozen selection, qualification and post-qualification diagnostics. Execution duration and logs vary. No game data fitted."
+}

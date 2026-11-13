@@ -1,0 +1,9 @@
+Clean export of staged public files; no ignored game captures or private upload.
+----------------------------------------------------------------------
+Ran 167 tests in 3.932s
+
+OK
+qualification case 29 complete
+Round17: all288development fits,360qualification fits and720paired target evaluations replayed.
+Known dictionaries were never supplied to learners; no game data fitted or decoded.
+Game application: BLOCKED_QUALIFICATION_FAILED

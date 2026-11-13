@@ -1,0 +1,26 @@
+[
+  {
+    "name": "dorian_gray",
+    "book_id": 174,
+    "title": "The Picture of Dorian Gray",
+    "author": "Oscar Wilde",
+    "role": "round17 qualification only; not development or model selection",
+    "url": "https://www.gutenberg.org/cache/epub/174/pg174.txt",
+    "sha256": "38f36b510417177aa87a6a24c968e3ec63a447b7df36a9c1a7c5a3f2d9e51547",
+    "bytes": 465814,
+    "retrieved_at_utc": "2026-11-13T19:38:33.297752+00:00",
+    "license": "Full Gutenberg source with original header/license retained byte-for-byte."
+  },
+  {
+    "name": "age_innocence",
+    "book_id": 541,
+    "title": "The Age of Innocence",
+    "author": "Edith Wharton",
+    "role": "round17 qualification only; not development or model selection",
+    "url": "https://www.gutenberg.org/cache/epub/541/pg541.txt",
+    "sha256": "aae279f1a60ac64be53f63357e708a2fdaabdb334a1c92f81fc1c3b5c848a092",
+    "bytes": 609882,
+    "retrieved_at_utc": "2026-11-13T19:38:33.298745+00:00",
+    "license": "Full Gutenberg source with original header/license retained byte-for-byte."
+  }
+]

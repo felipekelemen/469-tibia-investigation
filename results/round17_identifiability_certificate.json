@@ -1,0 +1,155 @@
+{
+  "dictionary_A": [
+    "21",
+    "34",
+    "56"
+  ],
+  "dictionary_B": [
+    "2134",
+    "56"
+  ],
+  "A_unique_decodability": {
+    "uniquely_decodable": true,
+    "prefix_free": true,
+    "residual_states_visited": 0,
+    "witness": null
+  },
+  "B_unique_decodability": {
+    "uniquely_decodable": true,
+    "prefix_free": true,
+    "residual_states_visited": 0,
+    "witness": null
+  },
+  "training": [
+    {
+      "raw": "2134",
+      "A": {
+        "count": 1,
+        "one_path": [
+          "21",
+          "34"
+        ],
+        "unique_path": [
+          "21",
+          "34"
+        ]
+      },
+      "B": {
+        "count": 1,
+        "one_path": [
+          "2134"
+        ],
+        "unique_path": [
+          "2134"
+        ]
+      }
+    },
+    {
+      "raw": "562134",
+      "A": {
+        "count": 1,
+        "one_path": [
+          "56",
+          "21",
+          "34"
+        ],
+        "unique_path": [
+          "56",
+          "21",
+          "34"
+        ]
+      },
+      "B": {
+        "count": 1,
+        "one_path": [
+          "56",
+          "2134"
+        ],
+        "unique_path": [
+          "56",
+          "2134"
+        ]
+      }
+    },
+    {
+      "raw": "2134562134",
+      "A": {
+        "count": 1,
+        "one_path": [
+          "21",
+          "34",
+          "56",
+          "21",
+          "34"
+        ],
+        "unique_path": [
+          "21",
+          "34",
+          "56",
+          "21",
+          "34"
+        ]
+      },
+      "B": {
+        "count": 1,
+        "one_path": [
+          "2134",
+          "56",
+          "2134"
+        ],
+        "unique_path": [
+          "2134",
+          "56",
+          "2134"
+        ]
+      }
+    }
+  ],
+  "new_combination": {
+    "raw": "2156",
+    "A": {
+      "count": 1,
+      "one_path": [
+        "21",
+        "56"
+      ],
+      "unique_path": [
+        "21",
+        "56"
+      ]
+    },
+    "B": {
+      "count": 0,
+      "one_path": null,
+      "unique_path": null
+    }
+  },
+  "same_raw_different_boundaries": {
+    "raw": "213456",
+    "A": {
+      "count": 1,
+      "one_path": [
+        "21",
+        "34",
+        "56"
+      ],
+      "unique_path": [
+        "21",
+        "34",
+        "56"
+      ]
+    },
+    "B": {
+      "count": 1,
+      "one_path": [
+        "2134",
+        "56"
+      ],
+      "unique_path": [
+        "2134",
+        "56"
+      ]
+    }
+  },
+  "scope": "Two prefix-free lexicons explain identical training data with different unit boundaries. True unit count and English meanings not supplied. This is a constructive identifiability limit, not a claim about real469."
+}

@@ -37,3 +37,14 @@ de segmentação com dicionário fornecido, sem novos dados semânticos de Tibia
 O teste de decodificabilidade usa o algoritmo clássico de Sardinas–Patterson;
 a implementação com testemunhas e o codec binário são código original do
 projeto. Contextos de livros nos certificados não são correções das falas.
+
+## Rodada17
+
+Oscar Wilde, *The Picture of Dorian Gray* (Gutenberg174), e Edith Wharton,
+*The Age of Innocence* (Gutenberg541), entram como novas fontes de qualificação
+de segmentação, com o vocabulário verdadeiro oculto. Textos completos, termos,
+URLs e hashes ficam em `data/segmentation_reference/`. Baum/Barrie são somente
+desenvolvimento nesta rodada; papéis anteriores permanecem documentados.
+BPE e modelos unigramas são técnicas clássicas; o código deste experimento
+e os certificados construídos são originais do projeto. Nenhum novo texto
+paralelo número/inglês de Tibia foi obtido ou inferido dessas referências.

@@ -523,5 +523,33 @@
     "status": "qualification_scope_limited_to_known_dictionary_parsing",
     "evidence": "120/120recuperações exatas de unidades e60/60ambiguidades plantadas detectadas;180roundtrips exatos em30passagens pareadas. Chaves/dicionários são fornecidos e autores expostos; não qualifica inferência de vocabulário ou inglês.",
     "artifact": "results/round16_qualification.json"
+  },
+  {
+    "id": "H76",
+    "hypothesis": "Aprendizes sem vocabulário ou chave fornecidos recuperam unidades numéricas em treino copiado e independente de cópias",
+    "status": "qualification_failed_for_three_frozen_pipelines",
+    "evidence": "288ajustes de desenvolvimento;360ajustes emWilde/Wharton e720alvos pareados. Nenhum dos3pipelines passa todas8células com27/30casos≥.95em fronteiras e spans. Não rejeita cifras por palavras em geral.",
+    "artifact": "results/round17_qualification.json"
+  },
+  {
+    "id": "H77",
+    "hypothesis": "O menor objetivo de compressão identifica a granularidade verdadeira dos códigos",
+    "status": "rejected_by_known_truth_copied_fixtures",
+    "evidence": "Em30/30controles copiados com verdade2dígitos, seletor MDL escolhe12dígitos e spanF1=0. Objetivo escolhido estritamente melhor que o de largura2nos exemplos. Não houve fitting do jogo.",
+    "artifact": "results/round17_failure_diagnostics.json"
+  },
+  {
+    "id": "H78",
+    "hypothesis": "Dicionário prefix-free, cardinalidade e observação de todas as unidades bastam para identificar fronteiras sem chave",
+    "status": "rejected_by_equal_cost_same_cardinality_counterexample",
+    "evidence": "Duas chaves64unidades, todas usadas35vezes em70mensagens de32unidades, explicam o mesmo raw com cortes distintos. Ambas prefix-free e comprimentos3–8, objetivo15745igual. Certificado abstrato sem gloss inglês, não prova sobre469real.",
+    "artifact": "results/round17_failure_diagnostics.json"
+  },
+  {
+    "id": "H79",
+    "hypothesis": "Ganho do modelo unigramas permite aplicar o parser oculto como tradução dos livros",
+    "status": "game_application_blocked_by_prespecified_gate",
+    "evidence": "Unigramas chega aF1fronteiras.928/spans.825em variável sem cópia, caindo.761/.568com cópia. Melhorar BPE não satisfaz o gate nem fornece significado. Alvos contêm apenas unidades vistas; não qualifica vocabulário aberto, omissões ou homofonia.",
+    "artifact": "results/round17_qualification.json"
   }
 ]

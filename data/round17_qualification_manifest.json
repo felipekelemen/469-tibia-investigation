@@ -1,0 +1,33 @@
+{
+  "stage": "Selected after development, before qualification",
+  "selected": [
+    {
+      "id": "periodic_mdl",
+      "kind": "periodic"
+    },
+    {
+      "id": "bpe_256_dedup",
+      "kind": "bpe",
+      "budget": 256,
+      "deduplicate": true
+    },
+    {
+      "id": "unigram_256_dedup",
+      "kind": "unigram",
+      "budget": 256,
+      "deduplicate": true
+    }
+  ],
+  "sha256": {
+    "data/round17_protocol.json": "59eca93cfce17a9a43ecd62618c1c602f4500afb633fac3d48cb813f797dcbc4",
+    "scripts/hidden_unit_segmenter.py": "7d9904c3529ebacb135e250847cf945313ab3f4d6964506e3f95fc3a70a085bb",
+    "scripts/hidden_unit_benchmark.py": "107fe9ee78025a7267a200fa8cf7c46b2f2bfa8e5cfdfe6fc8e4c0b2b80acce9",
+    "scripts/numeric_word_codec.py": "40996ba337f7c9941451e40dead6c8c523ade7ad0e2ab1d0a568633a42b249bc",
+    "data/segmentation_reference/SOURCES.json": "a009708032da499eccc835dc89b0b8bc6ac4b4af540cddc95e2b9c8aaca21af6",
+    "data/word_validator_reference/wizard_oz.txt": "969bffab7740d4d8a0bac332d78bd0152ad4a40a2efc52f06c74a9bb6120be75",
+    "data/word_validator_reference/peter_pan.txt": "6b08714281fe38266a756741e4c62915cda7536c2f78cca501f7fd53f3f445ae",
+    "data/segmentation_reference/dorian_gray.txt": "38f36b510417177aa87a6a24c968e3ec63a447b7df36a9c1a7c5a3f2d9e51547",
+    "data/segmentation_reference/age_innocence.txt": "aae279f1a60ac64be53f63357e708a2fdaabdb334a1c92f81fc1c3b5c848a092",
+    "results/round17_development.json": "9308acf314d29f6336bc8a999eec1d55c63488d6f6e6374687ff76df69e43b77"
+  }
+}

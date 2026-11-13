@@ -392,3 +392,20 @@ de ambiguidade. Antes de inferir unidades novas nos livros, qualificar um modelo
 com vocabulário oculto e fronteiras conhecidas, sob cópia e autores separados.
 Manter busca por par semântico independente e a incerteza dos códigos importados.
 As quatro entregas principais continuam abertas.
+
+Atualização após a [décima sétima rodada](round17.md): modelos periódico, BPE
+e BPE+unigramas foram avaliados com vocabulário/chave/fronteiras ocultos.
+Nenhum atravessa as oito células do gate em novos autores. Unigramas melhora
+os códigos variáveis sem cópias, mas F1 de spans fica em 0,825; com cópias,
+0,568. Não aplicar esses modelos ao corpus como se recuperassem unidades reais.
+
+Nos controles copiados de códigos de dois dígitos, o seletor MDL prefere largura
+12 em 30/30 casos. Duas chaves prefix-free de 64 unidades, todas observadas 35
+vezes, também têm custo igual e fronteiras incompatíveis nos mesmos dados.
+São falhas explícitas de identificação/objetivo, não evidência de tradução ou
+de que 469 seja vazia de significado.
+
+Priorizar restrições externas e diversidade de contextos que distingam unidades
+de combinações recorrentes. Uma nova versão de segmentação precisa de outra
+qualificação; aumentar merges após consultar estes resultados não cria teste
+independente. P01/P03/P05/P06 permanecem abertos.
