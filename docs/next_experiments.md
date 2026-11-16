@@ -442,3 +442,18 @@ não atribui inglês. Nenhuma ocorrência direita preserva ambos os extremos nos
 alinhamentos importados. Priorizar capturas históricas datadas e recombinações
 atestadas antes de atribuir direção de cópia, unidades ou significado. As quatro
 entregas P01/P03/P05/P06 continuam abertas.
+
+Atualização após a [vigésima rodada](round20.md): os três textos prioritários
+foram alvo de decodificação direta sob sete codecs decimais com permutação
+fixa dos dígitos. Nenhuma chave no vocabulário de 7.713 palavras; buscas reais
+completas. Chayenne também foi testada sem espaços internos, com uma chave
+compartilhada entre os dois fragmentos. As 490 fixtures sintéticas preservaram
+a chave verdadeira; isso qualifica o mecanismo condicionado e a retenção,
+não identificação geral de inglês. Nenhuma chave chegou à transferência real.
+
+Priorizar agora famílias de sílabas/morfemas e códigos dependentes de contexto,
+com qualificação anterior à atribuição de inglês. Em Avar Tar, usar as relações
+com 639 e a ocorrência externa de 67538 como restrições numéricas; em Knightmare,
+exigir regra única para todos os grupos e transferência; em Chayenne, controlar
+as cópias dos livros. Ausência de palavra no léxico não exclui uma língua.
+P01/P03/P05/P06 continuam abertas.

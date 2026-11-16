@@ -1,0 +1,15 @@
+{
+  "sha256": {
+    "data/round20_evidence_manifest.json": "334f09e3c1c120c68944dfa43eee3a300d956f0b64b8eb326df010c75515f5ba",
+    "data/round20_chayenne_manifest.json": "c8a9135810f35a898a7451759f3c29218647dbf416408cc5e53290f663681252",
+    "data/plan_progress_round20.json": "d82244a12b31481d52fbee2fc8779abcfa69e3cb11d1343b2e14d076f6e3873c",
+    "data/source_review_round20.json": "054845546391b731e83635ef3ce03bfc28cb905d439ae6351ebdae51ced5149c",
+    "scripts/run_round20.py": "0689178a85a762c6008380c6358bd0f4b67679ad39572634fd8cc5dace3f450d",
+    "tests/test_target_decimal_solver.py": "47267c8a5506bb3bca0bc986d7f1df1293c1a7dc40dcd996c650486c5d2ecbb1",
+    "tests/test_chayenne_decimal_search.py": "16ef28b9fbe64730c05cd70baac366df41dcd5cd4c76f4a9959eb351eedb9d04",
+    "docs/round20.md": "67b63c6a727a12dd835df9fdbf37d16f1cf99791bd2257abb003f7c7a9621d3b",
+    "results/round20_target_decimal.json": "73960e633ffa80f955b90e18e6c62da2373485fed583dd0e6a82c1e1853fa4c2",
+    "results/round20_chayenne_decimal.json": "c0a32ff4e646540f474d96d0c2ce6e92369faf098a8132aad1761374653bedc7"
+  },
+  "scope": "Full offline replay,490synthetic fixtures and434null datasets. No real compatible key within declared lexicon/codec assumptions, no English translation. Logs/timing excluded."
+}

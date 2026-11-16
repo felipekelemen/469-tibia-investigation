@@ -1,0 +1,17 @@
+python3 scripts/run_round20.py
+Qualification complete: 14 /14 cells
+avar_prefix10 {'ordinal0_compact': 0, 'ordinal0_fixed2': 0, 'ordinal1_compact': 0, 'ordinal1_fixed2': 0, 'ascii_upper': 0, 'ascii_lower_compact': 0, 'ascii_lower_fixed3': 0}
+knightmare7 {'ordinal0_compact': 0, 'ordinal0_fixed2': 0, 'ordinal1_compact': 0, 'ordinal1_fixed2': 0, 'ascii_upper': 0, 'ascii_lower_compact': 0, 'ascii_lower_fixed3': 0}
+avar_full20_diagnostic {'ordinal0_compact': 0, 'ordinal0_fixed2': 0, 'ordinal1_compact': 0, 'ordinal1_fixed2': 0, 'ascii_upper': 0, 'ascii_lower_compact': 0, 'ascii_lower_fixed3': 0}
+Full replay matches.
+Unspaced controls: ordinal0_compact
+Unspaced controls: ordinal0_fixed2
+Unspaced controls: ordinal1_compact
+Unspaced controls: ordinal1_fixed2
+Unspaced controls: ascii_upper
+Unspaced controls: ascii_lower_compact
+Unspaced controls: ascii_lower_fixed3
+Chayenne: {'ordinal0_compact': (True, 0, 3184), 'ordinal0_fixed2': (True, 0, 9), 'ordinal1_compact': (True, 0, 2441), 'ordinal1_fixed2': (True, 0, 2), 'ascii_upper': (True, 0, 9), 'ascii_lower_compact': (True, 0, 1), 'ascii_lower_fixed3': (True, 0, 1)}
+Unspaced nulls: within_fragment_shuffle
+Unspaced nulls: two_copied_fragments
+Spaced and unspaced searches replayed: 490 synthetic fixtures, 434 null datasets. No verified English translation.

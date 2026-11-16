@@ -1,0 +1,12 @@
+{
+  "status": "registered after spaced search negative result, before unspaced search outcomes",
+  "question": "Can Chayenne's two fragments be decoded directly by the same seven decimal families without supplying internal word breaks?",
+  "family_and_lexicon": "Exactly frozen round20 family and lexicon; no extra arithmetic, names or English hypotheses.",
+  "algorithm": "Enumerate all dictionary word prefixes compatible with a shared bijective digit key; memoize position/key states. When all digits present in both fragments are assigned, exact dynamic programming checks remaining dictionary segmentation. Preserve all compatible partial keys; never rank by lore. Bound10000states and1000distinct complete observed-digit keys per family; incomplete search cannot exclude or certify unique decoding.",
+  "framing": "Emoticon boundary permits a word break between the two numeric parts. No internal spaces supplied. This is a tested assumption, not proof of English word boundaries.",
+  "qualification": "10fixtures per family, alternating existing Baum/Barrie text. Each contains two adjacent three-word fragments; all six words conditioned to be in frozen lexicon. Random digit key. Report true-key retention for complete searches and cap rates. No grammar or unseen-vocabulary qualification.",
+  "controls": "19within-fragment digit shuffles preserving lengths and marginal counts;19two copied fragments from discovery68 with lengths36/13, sampled uniformly over book/start occurrences. Same seven-model search and budgets. Report counts and incomplete searches, no p-value if capped.",
+  "seed": 203613,
+  "output": "All numeric keys; exact letter parse counts and dictionary segmentation counts for every surviving key. Unique literal letter outputs only if exact, not arbitrary most-fluent segmentation. Mere words are not a translation.",
+  "scope": "Secondary exploratory search motivated by primary failure. No blind source claim, no model retuning after secondary outcomes."
+}

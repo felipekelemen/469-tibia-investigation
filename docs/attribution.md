@@ -74,3 +74,14 @@ já publicada no estudo de kimlage. As transcrições e o corpus têm as atribui
 do inventário existente; a relação não é apresentada como descoberta semântica
 nova. Os dois experimentos e os controles são implementações do projeto.
 Fontes e limites em `data/source_review_round19.json` e `docs/round19.md`.
+
+## Rodada20
+
+Reutilizados sem alteração os textos Gutenberg e atribuições de Burnett,
+Wodehouse, Baum e Barrie em `data/word_validator_reference/`. A separação de
+autores entre léxico e fixtures é explícita; os mesmos autores já foram usados
+em rodadas anteriores, e os trechos podem se sobrepor. Nenhum texto inglês de
+Tibia foi acrescentado ao léxico. Transcrições numéricas vêm do inventário
+canônico existente. Fontes comunitárias consultadas e limites constam em
+`data/source_review_round20.json`; traduções alegadas não foram usadas como
+rótulos verdadeiros. Solucionadores e controles são implementações do projeto.

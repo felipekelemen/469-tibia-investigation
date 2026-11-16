@@ -1,0 +1,10 @@
+{
+  "stage": "Before direct unspaced search",
+  "sha256": {
+    "data/round20_chayenne_protocol.json": "8bcfbf3d4d39e6976dfe5c2ad695d3b3218e0d7d53210978e6a08ebd90501bdb",
+    "data/round20_evidence_manifest.json": "334f09e3c1c120c68944dfa43eee3a300d956f0b64b8eb326df010c75515f5ba",
+    "scripts/chayenne_decimal_search.py": "398d7a2a47cbb88bb0a7b18ad69c7f9ac4623b2a1f83955b1bf112ba9cd9fe60",
+    "data/normalized_books.json": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+    "data/normalized_splits.json": "0a0f9d3b60b4077bf9e3074919d35e754f6f77fd4ca4423b160e14e5a58ac3de"
+  }
+}

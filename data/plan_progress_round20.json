@@ -1,0 +1,24 @@
+{
+  "round": 20,
+  "verified_translations": 0,
+  "prioritized_targets": [
+    "avar_tar_poem",
+    "chayenne_2009_part1",
+    "chayenne_2009_part2",
+    "knightmare_2012"
+  ],
+  "original_deliverables_still_open": [
+    "P01 independent meaning/validation",
+    "P03 generative and variant model",
+    "P05 semantic/codebook mechanism",
+    "P06 authenticated historical map counts"
+  ],
+  "executed": [
+    "Seven standard decimal letter codecs with unknown fixed digit bijection and lexical constraints",
+    "Avar prefix discovery/full diagnostic; Knightmare discovery; transfer blocked by no fitting key",
+    "Direct simultaneous digit-key and word-boundary search on both Chayenne parts",
+    "420 spaced and70unspaced synthetic fixtures;434null datasets"
+  ],
+  "result": "No compatible real key within frozen codec/lexicon/framing assumptions; all real searches completed. Not exclusion outside these assumptions.",
+  "next_priority": "Qualify syllable/morpheme and context-dependent code families for these three targets; enforce transfer, copied-content dependencies and independent semantic evidence."
+}

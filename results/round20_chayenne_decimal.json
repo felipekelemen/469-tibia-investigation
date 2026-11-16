@@ -1,0 +1,3283 @@
+{
+  "positives": [
+    {
+      "family": "ordinal0_compact",
+      "trial": 0,
+      "source": "wizard_oz",
+      "start": 39257,
+      "words": [
+        "A",
+        "GOOD",
+        "WORD",
+        "TO",
+        "SAY",
+        "TO"
+      ],
+      "groups": [
+        "83292905529240",
+        "2729268592729"
+      ],
+      "complete": true,
+      "nodes": 4210,
+      "full_keys": 39,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal0_compact",
+      "trial": 1,
+      "source": "peter_pan",
+      "start": 12295,
+      "words": [
+        "A",
+        "BIT",
+        "OF",
+        "HIM",
+        "YOU",
+        "YES"
+      ],
+      "groups": [
+        "47075732",
+        "907663736463370"
+      ],
+      "complete": true,
+      "nodes": 2836,
+      "full_keys": 48,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal0_compact",
+      "trial": 2,
+      "source": "wizard_oz",
+      "start": 14177,
+      "words": [
+        "TO",
+        "SLEEP",
+        "ON",
+        "FOREVER",
+        "AND",
+        "PERHAPS"
+      ],
+      "groups": [
+        "5753595533515354",
+        "15352385352054451352205159"
+      ],
+      "complete": true,
+      "nodes": 2323,
+      "full_keys": 6,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal0_compact",
+      "trial": 3,
+      "source": "peter_pan",
+      "start": 32457,
+      "words": [
+        "HEARD",
+        "THE",
+        "QUESTION",
+        "PUT",
+        "BY",
+        "EVERY"
+      ],
+      "groups": [
+        "679160186712397141841710",
+        "15391813773171637"
+      ],
+      "complete": true,
+      "nodes": 7670,
+      "full_keys": 1,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal0_compact",
+      "trial": 4,
+      "source": "wizard_oz",
+      "start": 20785,
+      "words": [
+        "WHY",
+        "SHOULD",
+        "I",
+        "GIVE",
+        "YOU",
+        "COURAGE"
+      ],
+      "groups": [
+        "7727386283718856",
+        "067837383717837182103"
+      ],
+      "complete": true,
+      "nodes": 2154,
+      "full_keys": 4,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal0_compact",
+      "trial": 5,
+      "source": "peter_pan",
+      "start": 37388,
+      "words": [
+        "ILL",
+        "SAVE",
+        "YOU",
+        "IF",
+        "YOU",
+        "PROMISE"
+      ],
+      "groups": [
+        "05555508654645468",
+        "09645468595254560504"
+      ],
+      "complete": true,
+      "nodes": 478,
+      "full_keys": 6,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal0_compact",
+      "trial": 6,
+      "source": "wizard_oz",
+      "start": 38020,
+      "words": [
+        "HILL",
+        "THE",
+        "HAMMER",
+        "HEADS",
+        "YELLED",
+        "WITH"
+      ],
+      "groups": [
+        "6099999468619292896",
+        "681390288999983220946"
+      ],
+      "complete": true,
+      "nodes": 1302,
+      "full_keys": 2,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal0_compact",
+      "trial": 7,
+      "source": "peter_pan",
+      "start": 30498,
+      "words": [
+        "TOO",
+        "MUCH",
+        "OF",
+        "COURSE",
+        "IT",
+        "WAS"
+      ],
+      "groups": [
+        "353838322024389",
+        "238203437873522037"
+      ],
+      "complete": true,
+      "nodes": 2117,
+      "full_keys": 16,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal0_compact",
+      "trial": 8,
+      "source": "wizard_oz",
+      "start": 29380,
+      "words": [
+        "THE",
+        "CEILING",
+        "BY",
+        "A",
+        "WIRE",
+        "SAID"
+      ],
+      "groups": [
+        "7263831771750783",
+        "988176371915"
+      ],
+      "complete": true,
+      "nodes": 5705,
+      "full_keys": 1,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal0_compact",
+      "trial": 9,
+      "source": "peter_pan",
+      "start": 947,
+      "words": [
+        "MIGHT",
+        "HAVE",
+        "SEEN",
+        "THE",
+        "THREE",
+        "OF"
+      ],
+      "groups": [
+        "904719316095945592",
+        "93159319155958"
+      ],
+      "complete": true,
+      "nodes": 9732,
+      "full_keys": 3,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal0_fixed2",
+      "trial": 0,
+      "source": "wizard_oz",
+      "start": 23930,
+      "words": [
+        "EATEN",
+        "HE",
+        "WOULD",
+        "LIE",
+        "DOWN",
+        "ON"
+      ],
+      "groups": [
+        "636687638162630083068861",
+        "886963618300818381"
+      ],
+      "complete": true,
+      "nodes": 185,
+      "full_keys": 2,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal0_fixed2",
+      "trial": 1,
+      "source": "peter_pan",
+      "start": 19592,
+      "words": [
+        "GREW",
+        "TO",
+        "LOVE",
+        "THEIR",
+        "HOME",
+        "UNDER"
+      ],
+      "groups": [
+        "13961877949899987918",
+        "9416181296169897187195151896"
+      ],
+      "complete": true,
+      "nodes": 165,
+      "full_keys": 2,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal0_fixed2",
+      "trial": 2,
+      "source": "wizard_oz",
+      "start": 22419,
+      "words": [
+        "BROKEN",
+        "THAT",
+        "WAS",
+        "THE",
+        "END",
+        "OF"
+      ],
+      "groups": [
+        "13343531153837141137221136",
+        "3714151538183519"
+      ],
+      "complete": true,
+      "nodes": 47,
+      "full_keys": 2,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal0_fixed2",
+      "trial": 3,
+      "source": "peter_pan",
+      "start": 184,
+      "words": [
+        "WAS",
+        "TWO",
+        "YEARS",
+        "OLD",
+        "SHE",
+        "WAS"
+      ],
+      "groups": [
+        "1166747011721262667574",
+        "727763746562116674"
+      ],
+      "complete": true,
+      "nodes": 30,
+      "full_keys": 2,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal0_fixed2",
+      "trial": 4,
+      "source": "wizard_oz",
+      "start": 21627,
+      "words": [
+        "SHE",
+        "HAPPENED",
+        "TO",
+        "LOOK",
+        "AROUND",
+        "AND"
+      ],
+      "groups": [
+        "04515851550202580958590708",
+        "00080805550108650959550959"
+      ],
+      "complete": true,
+      "nodes": 374,
+      "full_keys": 2,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal0_fixed2",
+      "trial": 5,
+      "source": "peter_pan",
+      "start": 4923,
+      "words": [
+        "IT",
+        "NOW",
+        "AS",
+        "AN",
+        "EXAMPLE",
+        "TO"
+      ],
+      "groups": [
+        "96727470119976",
+        "9974901499717577907270"
+      ],
+      "complete": true,
+      "nodes": 211,
+      "full_keys": 2,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal0_fixed2",
+      "trial": 6,
+      "source": "wizard_oz",
+      "start": 34335,
+      "words": [
+        "SIDE",
+        "IN",
+        "PURE",
+        "JOY",
+        "AT",
+        "BEING"
+      ],
+      "groups": [
+        "90404643409698749543",
+        "42937344924943409641"
+      ],
+      "complete": true,
+      "nodes": 45,
+      "full_keys": 1,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal0_fixed2",
+      "trial": 7,
+      "source": "peter_pan",
+      "start": 39950,
+      "words": [
+        "KEPT",
+        "THEM",
+        "AT",
+        "BAY",
+        "IN",
+        "THAT"
+      ],
+      "groups": [
+        "03360401013836073301",
+        "303376390501383301"
+      ],
+      "complete": true,
+      "nodes": 50,
+      "full_keys": 1,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal0_fixed2",
+      "trial": 8,
+      "source": "wizard_oz",
+      "start": 9987,
+      "words": [
+        "I",
+        "AM",
+        "GOING",
+        "TO",
+        "ASK",
+        "HIM"
+      ],
+      "groups": [
+        "9599269027952390",
+        "2827992529949526"
+      ],
+      "complete": true,
+      "nodes": 648,
+      "full_keys": 3,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal0_fixed2",
+      "trial": 9,
+      "source": "peter_pan",
+      "start": 29030,
+      "words": [
+        "TO",
+        "CONSIDER",
+        "THE",
+        "FEELINGS",
+        "OF",
+        "THE"
+      ],
+      "groups": [
+        "68645764696151595460685054",
+        "52545466516953616452685054"
+      ],
+      "complete": true,
+      "nodes": 257,
+      "full_keys": 1,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal1_compact",
+      "trial": 0,
+      "source": "wizard_oz",
+      "start": 25315,
+      "words": [
+        "THEY",
+        "SET",
+        "TO",
+        "WORK",
+        "IN",
+        "ONE"
+      ],
+      "groups": [
+        "620565745626275",
+        "6175707747975795"
+      ],
+      "complete": true,
+      "nodes": 3498,
+      "full_keys": 14,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal1_compact",
+      "trial": 1,
+      "source": "peter_pan",
+      "start": 14470,
+      "words": [
+        "HAVING",
+        "HEARD",
+        "IT",
+        "SAID",
+        "IN",
+        "SOME"
+      ],
+      "groups": [
+        "81445162801186549",
+        "151565161510170"
+      ],
+      "complete": true,
+      "nodes": 2844,
+      "full_keys": 3,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal1_compact",
+      "trial": 2,
+      "source": "wizard_oz",
+      "start": 10467,
+      "words": [
+        "GREAT",
+        "CARE",
+        "NEVER",
+        "TO",
+        "BE",
+        "CRUEL"
+      ],
+      "groups": [
+        "50790612007908966907",
+        "61096920760906"
+      ],
+      "complete": true,
+      "nodes": 7619,
+      "full_keys": 26,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal1_compact",
+      "trial": 3,
+      "source": "peter_pan",
+      "start": 23132,
+      "words": [
+        "THE",
+        "PIRATES",
+        "STARING",
+        "AT",
+        "EACH",
+        "OTHER"
+      ],
+      "groups": [
+        "54623703635423030543360391",
+        "354238632546236"
+      ],
+      "complete": true,
+      "nodes": 6239,
+      "full_keys": 2,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal1_compact",
+      "trial": 4,
+      "source": "wizard_oz",
+      "start": 16192,
+      "words": [
+        "WORLD",
+        "IS",
+        "HE",
+        "TAME",
+        "ASKED",
+        "THE"
+      ],
+      "groups": [
+        "68525456905042",
+        "63558255055296342"
+      ],
+      "complete": true,
+      "nodes": 3634,
+      "full_keys": 2,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal1_compact",
+      "trial": 5,
+      "source": "peter_pan",
+      "start": 18256,
+      "words": [
+        "LADY",
+        "LIES",
+        "VERY",
+        "ILL",
+        "SHE",
+        "WAS"
+      ],
+      "groups": [
+        "7472457435734457045",
+        "37474730546773"
+      ],
+      "complete": true,
+      "nodes": 1876,
+      "full_keys": 96,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal1_compact",
+      "trial": 6,
+      "source": "wizard_oz",
+      "start": 11708,
+      "words": [
+        "MADE",
+        "THEM",
+        "ALL",
+        "LOOK",
+        "UP",
+        "AND"
+      ],
+      "groups": [
+        "5659428745655252",
+        "5254545525515599"
+      ],
+      "complete": true,
+      "nodes": 8510,
+      "full_keys": 92,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal1_compact",
+      "trial": 7,
+      "source": "peter_pan",
+      "start": 43430,
+      "words": [
+        "HIS",
+        "HOME",
+        "JOHN",
+        "HE",
+        "SAID",
+        "LOOKING"
+      ],
+      "groups": [
+        "96169141341814917",
+        "9416167101414116172"
+      ],
+      "complete": true,
+      "nodes": 2778,
+      "full_keys": 21,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal1_compact",
+      "trial": 8,
+      "source": "wizard_oz",
+      "start": 18345,
+      "words": [
+        "AND",
+        "VELVET",
+        "AND",
+        "ALL",
+        "OF",
+        "THEM"
+      ],
+      "groups": [
+        "007755205552540077",
+        "00505028549203"
+      ],
+      "complete": true,
+      "nodes": 563,
+      "full_keys": 16,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal1_compact",
+      "trial": 9,
+      "source": "peter_pan",
+      "start": 41783,
+      "words": [
+        "PLEASURE",
+        "BUT",
+        "MY",
+        "DEAR",
+        "MADAM",
+        "IT"
+      ],
+      "groups": [
+        "1013911631149331351839",
+        "291141812118635"
+      ],
+      "complete": true,
+      "nodes": 4776,
+      "full_keys": 2,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal1_fixed2",
+      "trial": 0,
+      "source": "wizard_oz",
+      "start": 17116,
+      "words": [
+        "ABOUT",
+        "THE",
+        "SAME",
+        "SIZE",
+        "AS",
+        "THE"
+      ],
+      "groups": [
+        "929021020909949128922691",
+        "289803919228099491"
+      ],
+      "complete": true,
+      "nodes": 80,
+      "full_keys": 6,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal1_fixed2",
+      "trial": 1,
+      "source": "peter_pan",
+      "start": 11724,
+      "words": [
+        "HAVE",
+        "I",
+        "NOT",
+        "TOLD",
+        "YOU",
+        "THAT"
+      ],
+      "groups": [
+        "9591229697101629",
+        "2916129026162129959129"
+      ],
+      "complete": true,
+      "nodes": 63,
+      "full_keys": 6,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal1_fixed2",
+      "trial": 2,
+      "source": "wizard_oz",
+      "start": 34914,
+      "words": [
+        "WAS",
+        "CAUGHT",
+        "BY",
+        "A",
+        "SMALL",
+        "BRANCH"
+      ],
+      "groups": [
+        "7859945859795052755773",
+        "599498599797579259965852"
+      ],
+      "complete": true,
+      "nodes": 47,
+      "full_keys": 1,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal1_fixed2",
+      "trial": 3,
+      "source": "peter_pan",
+      "start": 42244,
+      "words": [
+        "WHICH",
+        "CONVEYED",
+        "HIM",
+        "TO",
+        "HIS",
+        "OFFICE"
+      ],
+      "groups": [
+        "32575052575216193356365659575012",
+        "3516575010165858505256"
+      ],
+      "complete": true,
+      "nodes": 141,
+      "full_keys": 1,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal1_fixed2",
+      "trial": 4,
+      "source": "wizard_oz",
+      "start": 33109,
+      "words": [
+        "THE",
+        "BIG",
+        "THRONE",
+        "AND",
+        "THE",
+        "OTHERS"
+      ],
+      "groups": [
+        "522324252927522303040824",
+        "200828522324045223240309"
+      ],
+      "complete": true,
+      "nodes": 67,
+      "full_keys": 2,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal1_fixed2",
+      "trial": 5,
+      "source": "peter_pan",
+      "start": 4875,
+      "words": [
+        "WELL",
+        "HE",
+        "REALLY",
+        "THOUGHT",
+        "THIS",
+        "WAS"
+      ],
+      "groups": [
+        "329073739490749097737330",
+        "3994703796943939949575329775"
+      ],
+      "complete": true,
+      "nodes": 57,
+      "full_keys": 2,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal1_fixed2",
+      "trial": 6,
+      "source": "wizard_oz",
+      "start": 27302,
+      "words": [
+        "MATE",
+        "WITH",
+        "ONE",
+        "SO",
+        "BEAUTIFUL",
+        "AND"
+      ],
+      "groups": [
+        "5785988697849883565086",
+        "5456898685959884819559855080"
+      ],
+      "complete": true,
+      "nodes": 35,
+      "full_keys": 1,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal1_fixed2",
+      "trial": 7,
+      "source": "peter_pan",
+      "start": 4048,
+      "words": [
+        "ASK",
+        "TO",
+        "BE",
+        "BORN",
+        "ALSO",
+        "BUT"
+      ],
+      "groups": [
+        "97717789749894",
+        "9874707697787174988789"
+      ],
+      "complete": true,
+      "nodes": 18,
+      "full_keys": 12,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal1_fixed2",
+      "trial": 8,
+      "source": "wizard_oz",
+      "start": 7442,
+      "words": [
+        "OIL",
+        "MY",
+        "NECK",
+        "FIRST",
+        "REPLIED",
+        "THE"
+      ],
+      "groups": [
+        "417043463142717644",
+        "797048403748714943707172377871"
+      ],
+      "complete": true,
+      "nodes": 170,
+      "full_keys": 1,
+      "truth_retained": true
+    },
+    {
+      "family": "ordinal1_fixed2",
+      "trial": 9,
+      "source": "peter_pan",
+      "start": 28586,
+      "words": [
+        "APPALLED",
+        "NOT",
+        "ONLY",
+        "THE",
+        "OTHERS",
+        "BUT"
+      ],
+      "groups": [
+        "755050755151747353541754535114",
+        "177874541778745856711517"
+      ],
+      "complete": true,
+      "nodes": 141,
+      "full_keys": 2,
+      "truth_retained": true
+    },
+    {
+      "family": "ascii_upper",
+      "trial": 0,
+      "source": "wizard_oz",
+      "start": 38292,
+      "words": [
+        "TO",
+        "THE",
+        "SOUTH",
+        "AND",
+        "YOU",
+        "WILL"
+      ],
+      "groups": [
+        "01640162340564090162",
+        "39603004640906656363"
+      ],
+      "complete": true,
+      "nodes": 130,
+      "full_keys": 2,
+      "truth_retained": true
+    },
+    {
+      "family": "ascii_upper",
+      "trial": 1,
+      "source": "peter_pan",
+      "start": 3008,
+      "words": [
+        "IT",
+        "HE",
+        "DID",
+        "NOT",
+        "ALARM",
+        "HER"
+      ],
+      "groups": [
+        "07930645490749",
+        "0905934804489600064596"
+      ],
+      "complete": true,
+      "nodes": 183,
+      "full_keys": 2,
+      "truth_retained": true
+    },
+    {
+      "family": "ascii_upper",
+      "trial": 2,
+      "source": "wizard_oz",
+      "start": 23165,
+      "words": [
+        "THEY",
+        "MADE",
+        "HIS",
+        "HAT",
+        "AND",
+        "BOOTS"
+      ],
+      "groups": [
+        "8174958577909895747282",
+        "7490819078989975758182"
+      ],
+      "complete": true,
+      "nodes": 82,
+      "full_keys": 2,
+      "truth_retained": true
+    },
+    {
+      "family": "ascii_upper",
+      "trial": 3,
+      "source": "peter_pan",
+      "start": 37868,
+      "words": [
+        "NOTICING",
+        "FOR",
+        "A",
+        "TIME",
+        "THAT",
+        "THEY"
+      ],
+      "groups": [
+        "131738104110131516173249",
+        "381011473812493838124737"
+      ],
+      "complete": true,
+      "nodes": 50,
+      "full_keys": 1,
+      "truth_retained": true
+    },
+    {
+      "family": "ascii_upper",
+      "trial": 4,
+      "source": "wizard_oz",
+      "start": 4698,
+      "words": [
+        "SO",
+        "CLIMBED",
+        "TO",
+        "THE",
+        "TOP",
+        "OF"
+      ],
+      "groups": [
+        "7643244246442223277943",
+        "7945237943714341"
+      ],
+      "complete": true,
+      "nodes": 43,
+      "full_keys": 2,
+      "truth_retained": true
+    },
+    {
+      "family": "ascii_upper",
+      "trial": 5,
+      "source": "peter_pan",
+      "start": 23694,
+      "words": [
+        "MUCH",
+        "IMPRESSED",
+        "GAZED",
+        "AT",
+        "THE",
+        "BIRD"
+      ],
+      "groups": [
+        "775697707477515093545493957896319395",
+        "965252709399745095"
+      ],
+      "complete": true,
+      "nodes": 26,
+      "full_keys": 1,
+      "truth_retained": true
+    },
+    {
+      "family": "ascii_upper",
+      "trial": 6,
+      "source": "wizard_oz",
+      "start": 18512,
+      "words": [
+        "MADE",
+        "OF",
+        "FLESH",
+        "BUT",
+        "NOT",
+        "BEING"
+      ],
+      "groups": [
+        "3397989232353539928634",
+        "9987813832819992363830"
+      ],
+      "complete": true,
+      "nodes": 72,
+      "full_keys": 1,
+      "truth_retained": true
+    },
+    {
+      "family": "ascii_upper",
+      "trial": 7,
+      "source": "peter_pan",
+      "start": 34973,
+      "words": [
+        "HE",
+        "COULD",
+        "NOT",
+        "MAKE",
+        "OUT",
+        "WHAT"
+      ],
+      "groups": [
+        "71858775947889797590",
+        "7784748575949097718490"
+      ],
+      "complete": true,
+      "nodes": 53,
+      "full_keys": 6,
+      "truth_retained": true
+    },
+    {
+      "family": "ascii_upper",
+      "trial": 8,
+      "source": "wizard_oz",
+      "start": 2953,
+      "words": [
+        "EAST",
+        "NOT",
+        "FAR",
+        "FROM",
+        "HERE",
+        "SAID"
+      ],
+      "groups": [
+        "52504147343247395046",
+        "394632333652465241503154"
+      ],
+      "complete": true,
+      "nodes": 156,
+      "full_keys": 1,
+      "truth_retained": true
+    },
+    {
+      "family": "ascii_upper",
+      "trial": 9,
+      "source": "peter_pan",
+      "start": 15713,
+      "words": [
+        "PRIDE",
+        "UPON",
+        "HIS",
+        "IRON",
+        "HAND",
+        "AND"
+      ],
+      "groups": [
+        "373496232538379593949636",
+        "9634959394289323289323"
+      ],
+      "complete": true,
+      "nodes": 94,
+      "full_keys": 2,
+      "truth_retained": true
+    },
+    {
+      "family": "ascii_lower_compact",
+      "trial": 0,
+      "source": "wizard_oz",
+      "start": 18331,
+      "words": [
+        "SO",
+        "FUNNY",
+        "IN",
+        "A",
+        "WARDROBE",
+        "WERE"
+      ],
+      "groups": [
+        "882888804881880880848802880",
+        "518855188380088388859808885808883808"
+      ],
+      "complete": true,
+      "nodes": 25,
+      "full_keys": 2,
+      "truth_retained": true
+    },
+    {
+      "family": "ascii_lower_compact",
+      "trial": 1,
+      "source": "peter_pan",
+      "start": 5755,
+      "words": [
+        "WENT",
+        "AND",
+        "SAT",
+        "IN",
+        "THE",
+        "PASSAGE"
+      ],
+      "groups": [
+        "2282122212298722121122687229",
+        "2162212292102122238722622687215212"
+      ],
+      "complete": true,
+      "nodes": 27,
+      "full_keys": 1,
+      "truth_retained": true
+    },
+    {
+      "family": "ascii_lower_compact",
+      "trial": 2,
+      "source": "wizard_oz",
+      "start": 6020,
+      "words": [
+        "STRAIGHT",
+        "ANSWERED",
+        "THE",
+        "OTHER",
+        "NEVER",
+        "MIND"
+      ],
+      "groups": [
+        "5585505569754854254655097554558559545556545544550546545",
+        "555550546545556554545551545556549548554544"
+      ],
+      "complete": true,
+      "nodes": 24,
+      "full_keys": 1,
+      "truth_retained": true
+    },
+    {
+      "family": "ascii_lower_compact",
+      "trial": 3,
+      "source": "peter_pan",
+      "start": 18787,
+      "words": [
+        "LITTLE",
+        "HOUSE",
+        "WAS",
+        "SO",
+        "PLEASED",
+        "TO"
+      ],
+      "groups": [
+        "42042544744742042442944444844542444118445",
+        "44544444642042418445424422447444"
+      ],
+      "complete": true,
+      "nodes": 85,
+      "full_keys": 4,
+      "truth_retained": true
+    },
+    {
+      "family": "ascii_lower_compact",
+      "trial": 4,
+      "source": "wizard_oz",
+      "start": 5661,
+      "words": [
+        "OPENED",
+        "HER",
+        "BASKET",
+        "AND",
+        "GOT",
+        "OUT"
+      ],
+      "groups": [
+        "0000010500050500550540500047673002053050008",
+        "73005055059000008000003008"
+      ],
+      "complete": true,
+      "nodes": 39,
+      "full_keys": 2,
+      "truth_retained": true
+    },
+    {
+      "family": "ascii_lower_compact",
+      "trial": 5,
+      "source": "peter_pan",
+      "start": 413,
+      "words": [
+        "THE",
+        "KISS",
+        "HE",
+        "NEVER",
+        "KNEW",
+        "ABOUT"
+      ],
+      "groups": [
+        "449415414417410440440415414",
+        "4414144434144454174414144488783444447449"
+      ],
+      "complete": true,
+      "nodes": 39,
+      "full_keys": 2,
+      "truth_retained": true
+    },
+    {
+      "family": "ascii_lower_compact",
+      "trial": 6,
+      "source": "wizard_oz",
+      "start": 37115,
+      "words": [
+        "OF",
+        "OURSELVES",
+        "WHEN",
+        "YOU",
+        "CAME",
+        "AMONG"
+      ],
+      "groups": [
+        "000012000008006004010017007010004009016010001",
+        "020000008999801901098019000001015"
+      ],
+      "complete": true,
+      "nodes": 69,
+      "full_keys": 1,
+      "truth_retained": true
+    },
+    {
+      "family": "ascii_lower_compact",
+      "trial": 7,
+      "source": "peter_pan",
+      "start": 45029,
+      "words": [
+        "PROMISED",
+        "AND",
+        "THEN",
+        "HE",
+        "FLEW",
+        "AWAY"
+      ],
+      "groups": [
+        "33933733332032533532332206332322334327323332",
+        "3273233293283233300633006393"
+      ],
+      "complete": true,
+      "nodes": 34,
+      "full_keys": 1,
+      "truth_retained": true
+    },
+    {
+      "family": "ascii_lower_compact",
+      "trial": 8,
+      "source": "wizard_oz",
+      "start": 11302,
+      "words": [
+        "IF",
+        "SHE",
+        "WERE",
+        "FLYING",
+        "THROUGH",
+        "THE"
+      ],
+      "groups": [
+        "732734772731737775737771737",
+        "734736747732773730778731771777779730731778731737"
+      ],
+      "complete": true,
+      "nodes": 24,
+      "full_keys": 1,
+      "truth_retained": true
+    },
+    {
+      "family": "ascii_lower_compact",
+      "trial": 9,
+      "source": "peter_pan",
+      "start": 2437,
+      "words": [
+        "A",
+        "WEEK",
+        "AFTER",
+        "THE",
+        "EVENT",
+        "HAPPENED"
+      ],
+      "groups": [
+        "1277174774774212740775747779",
+        "77574974774777374777477574912770770747774747744"
+      ],
+      "complete": true,
+      "nodes": 52,
+      "full_keys": 4,
+      "truth_retained": true
+    },
+    {
+      "family": "ascii_lower_fixed3",
+      "trial": 0,
+      "source": "wizard_oz",
+      "start": 2970,
+      "words": [
+        "CROSS",
+        "IT",
+        "IT",
+        "IS",
+        "THE",
+        "SAME"
+      ],
+      "groups": [
+        "677002000004004064003064003",
+        "064004003062060004671067060"
+      ],
+      "complete": true,
+      "nodes": 32,
+      "full_keys": 12,
+      "truth_retained": true
+    },
+    {
+      "family": "ascii_lower_fixed3",
+      "trial": 1,
+      "source": "peter_pan",
+      "start": 21841,
+      "words": [
+        "AND",
+        "SO",
+        "FORTH",
+        "YOU",
+        "MUST",
+        "NOT"
+      ],
+      "groups": [
+        "930559599557555592555554558594",
+        "525555550593550557558559555558"
+      ],
+      "complete": true,
+      "nodes": 32,
+      "full_keys": 2,
+      "truth_retained": true
+    },
+    {
+      "family": "ascii_lower_fixed3",
+      "trial": 2,
+      "source": "wizard_oz",
+      "start": 3429,
+      "words": [
+        "BUT",
+        "TELL",
+        "YOUR",
+        "STORY",
+        "AND",
+        "ASK"
+      ],
+      "groups": [
+        "874559551551585584584535555559550",
+        "552551555550535879558588879552589"
+      ],
+      "complete": true,
+      "nodes": 18,
+      "full_keys": 1,
+      "truth_retained": true
+    },
+    {
+      "family": "ascii_lower_fixed3",
+      "trial": 3,
+      "source": "peter_pan",
+      "start": 40038,
+      "words": [
+        "FOUND",
+        "HIMSELF",
+        "FACE",
+        "TO",
+        "FACE",
+        "WITH"
+      ],
+      "groups": [
+        "891888886889899897890893880898895891891936933898",
+        "882888891936933898883890882897"
+      ],
+      "complete": true,
+      "nodes": 46,
+      "full_keys": 1,
+      "truth_retained": true
+    },
+    {
+      "family": "ascii_lower_fixed3",
+      "trial": 4,
+      "source": "wizard_oz",
+      "start": 29767,
+      "words": [
+        "MANY",
+        "MANY",
+        "MILES",
+        "AWAY",
+        "FOR",
+        "A"
+      ],
+      "groups": [
+        "570709557585570709557585570572576575552",
+        "709550709585578555554709"
+      ],
+      "complete": true,
+      "nodes": 13,
+      "full_keys": 2,
+      "truth_retained": true
+    },
+    {
+      "family": "ascii_lower_fixed3",
+      "trial": 5,
+      "source": "peter_pan",
+      "start": 43750,
+      "words": [
+        "THE",
+        "NIGHT",
+        "NURSERY",
+        "TO",
+        "SEE",
+        "IF"
+      ],
+      "groups": [
+        "330357353335351354357330335332337331353337393",
+        "330333331353353351359"
+      ],
+      "complete": true,
+      "nodes": 27,
+      "full_keys": 2,
+      "truth_retained": true
+    },
+    {
+      "family": "ascii_lower_fixed3",
+      "trial": 6,
+      "source": "wizard_oz",
+      "start": 4505,
+      "words": [
+        "CURLED",
+        "UP",
+        "ON",
+        "THE",
+        "BLUE",
+        "RUG"
+      ],
+      "groups": [
+        "200559558521525522559554555552",
+        "556528525201521559525558559523"
+      ],
+      "complete": true,
+      "nodes": 68,
+      "full_keys": 3,
+      "truth_retained": true
+    },
+    {
+      "family": "ascii_lower_fixed3",
+      "trial": 7,
+      "source": "peter_pan",
+      "start": 7197,
+      "words": [
+        "TO",
+        "HAVE",
+        "TO",
+        "CONFESS",
+        "THAT",
+        "THIS"
+      ],
+      "groups": [
+        "442444413167440414442444",
+        "166444441418414445445442413167442442413415445"
+      ],
+      "complete": true,
+      "nodes": 107,
+      "full_keys": 1,
+      "truth_retained": true
+    },
+    {
+      "family": "ascii_lower_fixed3",
+      "trial": 8,
+      "source": "wizard_oz",
+      "start": 22789,
+      "words": [
+        "MORE",
+        "COULD",
+        "SHE",
+        "USE",
+        "THIS",
+        "GOLDEN"
+      ],
+      "groups": [
+        "603666665606033666664607600661605606",
+        "664661606669605601661608666607600606660"
+      ],
+      "complete": true,
+      "nodes": 60,
+      "full_keys": 3,
+      "truth_retained": true
+    },
+    {
+      "family": "ascii_lower_fixed3",
+      "trial": 9,
+      "source": "peter_pan",
+      "start": 4430,
+      "words": [
+        "HE",
+        "HAD",
+        "COME",
+        "TO",
+        "ASK",
+        "HER"
+      ],
+      "groups": [
+        "976979976734977733999973979",
+        "991999734998974976979996"
+      ],
+      "complete": true,
+      "nodes": 18,
+      "full_keys": 6,
+      "truth_retained": true
+    }
+  ],
+  "groups": [
+    "114514519485611451908304576512282177",
+    "6612527570584"
+  ],
+  "solutions": {
+    "ordinal0_compact": {
+      "complete": true,
+      "nodes": 3184,
+      "mappings": [],
+      "full_key_count": 0
+    },
+    "ordinal0_fixed2": {
+      "complete": true,
+      "nodes": 9,
+      "mappings": [],
+      "full_key_count": 0
+    },
+    "ordinal1_compact": {
+      "complete": true,
+      "nodes": 2441,
+      "mappings": [],
+      "full_key_count": 0
+    },
+    "ordinal1_fixed2": {
+      "complete": true,
+      "nodes": 2,
+      "mappings": [],
+      "full_key_count": 0
+    },
+    "ascii_upper": {
+      "complete": true,
+      "nodes": 9,
+      "mappings": [],
+      "full_key_count": 0
+    },
+    "ascii_lower_compact": {
+      "complete": true,
+      "nodes": 1,
+      "mappings": [],
+      "full_key_count": 0
+    },
+    "ascii_lower_fixed3": {
+      "complete": true,
+      "nodes": 1,
+      "mappings": [],
+      "full_key_count": 0
+    }
+  },
+  "transfer": {
+    "rows": [],
+    "incomplete_families": [],
+    "scope": "All fitting keys applied unchanged. Empty rows are no surviving fitted key, not decoded empty text. Lexical coverage is not grammar."
+  },
+  "controls": [
+    {
+      "kind": "within_fragment_shuffle",
+      "rows": [
+        {
+          "trial": 0,
+          "groups": [
+            "541074415581842476811975151223095161",
+            "5822746556071"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 3099,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 32,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 2558,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 35,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 37,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 9,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 3,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 1,
+          "groups": [
+            "561341501825811645171927971504482451",
+            "6827155720564"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 8470,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 69,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 6357,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 64,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 49,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 9,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 3,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 2,
+          "groups": [
+            "181155474101207489414557392526165811",
+            "5257417506628"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 1328,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 7,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 1465,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 4,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 5,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 4,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 1,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 3,
+          "groups": [
+            "035157478161148054724819111514552629",
+            "7802265514657"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 4922,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 60,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 3104,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 68,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 75,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 5,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 3,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 4,
+          "groups": [
+            "568441824941051517249687107511351152",
+            "1747262856550"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 5537,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 34,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 3577,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 61,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 93,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 3,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 5,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 5,
+          "groups": [
+            "632561921425788404498155141501511717",
+            "6755820157462"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 7076,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 78,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 4601,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 84,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 94,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 4,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 5,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 6,
+          "groups": [
+            "801048725241145511112567865795319441",
+            "4571820562576"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 3911,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 4,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 2454,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 6,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 5,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 3,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 3,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 7,
+          "groups": [
+            "151648101154519647315228515810474792",
+            "8527120657456"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 5732,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 178,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 6926,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 154,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 170,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 2,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 1,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 8,
+          "groups": [
+            "110381528421425751114561489155690774",
+            "5586201546727"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 5431,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 9,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 3932,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 2,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 7,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 2,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 1,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 9,
+          "groups": [
+            "581241431516104761107294515795284581",
+            "6542782560715"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 5033,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 32,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 4588,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 55,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 60,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 10,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 3,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 10,
+          "groups": [
+            "155015246295874411174061115893245871",
+            "4125726565780"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 3216,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 8,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 2973,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 27,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 10,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 2,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 1,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 11,
+          "groups": [
+            "275119747531580841841104265954512161",
+            "0742655178652"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 4938,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 33,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 2906,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 40,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 36,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 3,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 5,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 12,
+          "groups": [
+            "141742521156711041355819529810465784",
+            "2724066551587"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 1370,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 22,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 1533,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 38,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 26,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 2,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 1,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 13,
+          "groups": [
+            "917484650516577159142351811421428501",
+            "5825641276750"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 6384,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 32,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 3746,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 32,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 35,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 9,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 4,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 14,
+          "groups": [
+            "231204565918115458792015174861475114",
+            "2076726415855"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 7649,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 5,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 4969,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 18,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 9,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 3,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 3,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 15,
+          "groups": [
+            "821726551434855589109150776111411244",
+            "5651852046772"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 5542,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 37,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 3022,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 34,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 36,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 3,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 3,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 16,
+          "groups": [
+            "151190154414202854585137871754116692",
+            "6815402557276"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 1394,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 39,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 1487,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 9,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 22,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 2,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 1,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 17,
+          "groups": [
+            "815960712124178551615480191571423445",
+            "6745162527850"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 9857,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 37,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 6483,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 46,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 67,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 9,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 3,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 18,
+          "groups": [
+            "121719858647181145645941140201575325",
+            "5451258277606"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 4952,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 171,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 5159,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 198,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 187,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 2,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 1,
+              "full_keys": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "kind": "two_copied_fragments",
+      "rows": [
+        {
+          "trial": 0,
+          "groups": [
+            "350843485628474856112164804770908895",
+            "6705467184770"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 4975,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 32,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 2798,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 36,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 43,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 9,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 4,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 1,
+          "groups": [
+            "830464679727831601746483494343545219",
+            "5191211288830"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 5223,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 35,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 3092,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 38,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 47,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 12,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 4,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 2,
+          "groups": [
+            "855064996704672611458003690422046484",
+            "4519083045765"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 3524,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 7,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 2007,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 20,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 13,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 2,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 1,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 3,
+          "groups": [
+            "191145219727128895219594576512889500",
+            "7654606709658"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 2399,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 28,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 2677,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 8,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 10,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 2,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 1,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 4,
+          "groups": [
+            "199118435081243485611451912112888304",
+            "1288952196180"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 3055,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 4,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 1615,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 5,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 3,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 4,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 2,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 5,
+          "groups": [
+            "228217735084348562847709088952434856",
+            "0421585765943"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 2743,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 5,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 1479,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 1,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 1,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 6,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 6,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 6,
+          "groups": [
+            "911851911801894452197278894383435081",
+            "1191180035765"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 1628,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 5,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 1882,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 18,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 9,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 2,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 1,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 7,
+          "groups": [
+            "585765197278894388721512889521961800",
+            "3561147261164"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 4441,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 35,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 3998,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 49,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 34,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 2,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 1,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 8,
+          "groups": [
+            "146364672435546003614519121128883046",
+            "5112161518005"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 3219,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 57,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 2155,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 55,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 49,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 5,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 3,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 9,
+          "groups": [
+            "215857659434421595604218302031180657",
+            "4672434856114"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 7833,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 58,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 5016,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 74,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 76,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 5,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 3,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 10,
+          "groups": [
+            "952434856112164800658675635611451919",
+            "8952197712889"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 6074,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 32,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 3667,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 32,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 35,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 9,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 4,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 11,
+          "groups": [
+            "362151288952196114364585611451904509",
+            "5611472611646"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 4330,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 35,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 2490,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 38,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 46,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 9,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 4,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 12,
+          "groups": [
+            "705467118001401525517519118035084348",
+            "2159560421830"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 5918,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 32,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 3662,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 35,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 40,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 9,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 4,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 13,
+          "groups": [
+            "278167051216483435084348561145727857",
+            "8585765197292"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 8044,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 32,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 4768,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 35,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 38,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 9,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 3,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 14,
+          "groups": [
+            "356114726116467186418005458561197353",
+            "8576519729219"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 5738,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 33,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 3168,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 40,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 36,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 3,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 5,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 15,
+          "groups": [
+            "561145191211288830464679727831601746",
+            "8114636467243"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 1865,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 11,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 2998,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 4,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 14,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 6,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 3,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 16,
+          "groups": [
+            "595615136797278316013451586042158577",
+            "0450911800315"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 1808,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 25,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 1383,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 53,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 39,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 2,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 1,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 17,
+          "groups": [
+            "604215857744516013451545048385774458",
+            "1972921972781"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 8987,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 37,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 4878,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 46,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 67,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 9,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 3,
+              "full_keys": 0
+            }
+          }
+        },
+        {
+          "trial": 18,
+          "groups": [
+            "450911800315036215128895219611436458",
+            "7261185764219"
+          ],
+          "fits": {
+            "ordinal0_compact": {
+              "complete": true,
+              "nodes": 4704,
+              "full_keys": 0
+            },
+            "ordinal0_fixed2": {
+              "complete": true,
+              "nodes": 34,
+              "full_keys": 0
+            },
+            "ordinal1_compact": {
+              "complete": true,
+              "nodes": 3370,
+              "full_keys": 0
+            },
+            "ordinal1_fixed2": {
+              "complete": true,
+              "nodes": 32,
+              "full_keys": 0
+            },
+            "ascii_upper": {
+              "complete": true,
+              "nodes": 37,
+              "full_keys": 0
+            },
+            "ascii_lower_compact": {
+              "complete": true,
+              "nodes": 9,
+              "full_keys": 0
+            },
+            "ascii_lower_fixed3": {
+              "complete": true,
+              "nodes": 3,
+              "full_keys": 0
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "new_verified_translations": 0,
+  "scope": "Conditional dictionary segmentation under bounded key search; incomplete is unresolved, never exclusion or unique translation."
+}

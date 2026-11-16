@@ -1,0 +1,16 @@
+{
+  "focus": "Targeted English-decoder search for Avar Tar, Knightmare and Chayenne",
+  "method": "Web search and readable indexed pages; reused pinned canonical inventory for computation. Search snippets and wiki text are not authenticated in-game captures.",
+  "sources": [
+    {"url":"https://tibia.fandom.com/wiki/Avar_Tar/Transcripts","finding":"Indexed poem and following English comment; no attested English translation of numeric poem."},
+    {"url":"https://www.tibiawiki.com.br/wiki/Avar_Tar","finding":"Indexed numeric text agrees with pinned canonical poem. Page dates do not date the original numeric utterance."},
+    {"url":"https://tibiasecrets.com/Avar-Tar","finding":"Indexed transcription reproduces poem; no independent plaintext gloss."},
+    {"url":"https://tibiasecrets.com/article160","finding":"Community discussion of structure, rhyme and altered tibia.org variant; theories are not accepted translations. No altered site text admitted to canonical corpus."},
+    {"url":"https://github.com/arturoornelasb/tibia-bonelord-469-cipher/discussions/2","finding":"Semantic poem reconstruction proposed from roots and thematic associations; no independently validated decoder obtained. Not used as a translation label."},
+    {"url":"https://github.com/kimlage/tibia-469-cipher-casestudy/blob/main/docs/469_frozen_deliverable_2026-06-01.md","finding":"Search index surfaced a community phrase-codebook claim for Knightmare and other shouts. Its labels are not independent plaintext attestation; no benchmark or real fitting uses them."},
+    {"url":"https://forum.portaltibia.com.br/topic/11420-entrevista-com-chayenne/","finding":"Existing audited inventory provenance reused; not newly fetched/authenticated in this round. Numeric interview remains untranslated."}
+  ],
+  "new_authenticated_English_parallel_texts": 0,
+  "source_independence": "Multiple wiki/transcript mirrors can share sources; not counted as independent semantic observations.",
+  "distribution": "URLs and original analytical summaries only; no newly copied full external pages. Previously attributed public-domain reference books reused unchanged."
+}

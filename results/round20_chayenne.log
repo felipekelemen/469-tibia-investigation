@@ -1,0 +1,10 @@
+Unspaced controls: ordinal0_compact
+Unspaced controls: ordinal0_fixed2
+Unspaced controls: ordinal1_compact
+Unspaced controls: ordinal1_fixed2
+Unspaced controls: ascii_upper
+Unspaced controls: ascii_lower_compact
+Unspaced controls: ascii_lower_fixed3
+Chayenne: {'ordinal0_compact': (True, 0, 3184), 'ordinal0_fixed2': (True, 0, 9), 'ordinal1_compact': (True, 0, 2441), 'ordinal1_fixed2': (True, 0, 2), 'ascii_upper': (True, 0, 9), 'ascii_lower_compact': (True, 0, 1), 'ascii_lower_fixed3': (True, 0, 1)}
+Unspaced nulls: within_fragment_shuffle
+Unspaced nulls: two_copied_fragments

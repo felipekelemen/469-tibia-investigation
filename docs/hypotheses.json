@@ -600,5 +600,19 @@
     "status": "not_supported_under_all_compatible_imported_alignments",
     "evidence": "Só1das11ocorrências esquerdas tem ambos os extremos alinhados;0das9direitas. Não demonstra unidades reais nem mecanismo semântico.",
     "artifact": "results/round19_copy_seams.json"
+  },
+  {
+    "id": "H87",
+    "hypothesis": "Avar Tar e Knightmare usam letras decimais padrão com uma permutação fixa dos dígitos e espaços de palavras preservados",
+    "status": "no_key_in_frozen_seven_codec_7713_word_lexicon",
+    "evidence": "21ajustes completos: prefixo10/full20Avar e7Knightmare, sete codecs;0chaves.420fixtures sintéticas preservam a chave;14/14células passam gate lexical condicionado.396nulos também0. Não exclui vocabulário ou cifra fora das premissas.",
+    "artifact": "results/round20_target_decimal.json"
+  },
+  {
+    "id": "H88",
+    "hypothesis": "Chayenne usa os mesmos codecs decimais e uma chave compartilhada com palavras internas desconhecidas",
+    "status": "no_key_in_complete_conditional_lexical_search",
+    "evidence": "Sete buscas completas;3184/2441estados nas variantes ordinais compactas;0chaves.70/70fixtures sem espaços preservam chave verdadeira;38nulos sem chave. Fronteira entre partes e léxico são premissas; não há inglês validado.",
+    "artifact": "results/round20_chayenne_decimal.json"
   }
 ]
