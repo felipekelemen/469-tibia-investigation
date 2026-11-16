@@ -1,13 +1,20 @@
 # 469-tibia-investigation — investigação reproduzível
 
-**Estado: dezoito rodadas executadas; nenhuma tradução verificável encontrada.**
+**Estado: dezenove rodadas executadas; nenhuma tradução verificável encontrada.**
 Não afirmamos que o corpus é indecifrável nem que qualquer solução comunitária
 foi confirmada. O alvo é um algoritmo integral que generalize para textos inéditos.
 
 Destino público: https://github.com/felipekelemen/469-tibia-investigation
 
-**Publicado:** corpus normalizado, código, testes e resultados das dezoito rodadas
+**Publicado:** corpus normalizado, código, testes e resultados das dezenove rodadas
 disponíveis neste repositório. O acesso de escrita foi confirmado após nova reconexão.
+
+A [décima nona rodada](docs/round19.md) rejeitou as seis projeções diretas de
+uma tabela pública como explicação da relação 737→469 da foto numérica.
+Recuperou também a fronteira 36+13 da fala de Chayenne por correspondências
+com os livros. Esse resultado mecânico já era alegado publicamente; controles
+com cópias também recuperam fronteiras únicas frequentemente, sem significado
+inglês. Nenhuma tradução foi promovida. Replay: `make round19`.
 
 A [décima oitava rodada](docs/round18.md) executou 750 inferências exatas em
 uma família de candidatos fornecida: novas combinações e molduras válidas

@@ -1,0 +1,25 @@
+{
+  "round": 19,
+  "verified_translations": 0,
+  "original_deliverables_still_open": [
+    "P01 independent meaning/validation",
+    "P03 generative and variant model",
+    "P05 semantic/codebook mechanism",
+    "P06 authenticated historical map counts"
+  ],
+  "executed": [
+    "Public numeric-source extraction with raw/HTML agreement and source hashes",
+    "Six direct column projections, all rejected by 737->469 calibration; conditional nulls not applicable",
+    "Exhaustive two-piece copy seams in discovery68 and all70 libraries",
+    "2997 copy-seam controls including 999 corpus-derived pairs",
+    "All compatible imported-code endpoint alignments for target copy witnesses"
+  ],
+  "new_constraints": [
+    "Unique raw seam 36+13; 11 and 9 source addresses are reused content, not independent semantic evidence",
+    "Unique seam also recovered in 802/999 generated copied pairs",
+    "No right-side witness preserves both endpoints under imported-code alignments",
+    "Neither technical-file provenance nor earlier book-state chronology authenticated"
+  ],
+  "next_priority": "Dated earlier ciphertext captures, genuinely new attested recombinations and independent semantic anchors. Require external column-schema evidence before expanding photo-table models.",
+  "game_application": "Numeric correspondence/copy-family checks only; no English labels or universal decoder."
+}

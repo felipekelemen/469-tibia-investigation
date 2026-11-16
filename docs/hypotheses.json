@@ -579,5 +579,26 @@
     "status": "insufficient_in_conditional_numeric_inventory_census",
     "evidence": "Knightmare75025parses unido e9600com grupos;AvarTar mantém≈3.03e20.3478tem5streams;486486tem13. O inventário100temFibonacci(n+1)para qualquer string de comprimento n, sem evidência semântica. Não confundir com79alinhamentos de streams fixos.",
     "artifact": "results/round18_npc_framing.json"
+  },
+  {
+    "id": "H84",
+    "hypothesis": "Tabela pública alegada conversion.lst explica a foto por projeção direta entre colunas",
+    "status": "rejected_for_six_direct_projections_of_this_table",
+    "evidence": "4294linhas; nenhuma das6projeções satisfaz737->469. Nenhum modelo elegível para os14pares visíveis; randomizações não aplicáveis. Não exclui composição de colunas, versões ou outros arquivos.",
+    "artifact": "results/round19_photo_conversion.json"
+  },
+  {
+    "id": "H85",
+    "hypothesis": "Fala concatenada de Chayenne tem fronteira recuperável por dois trechos completos dos livros",
+    "status": "independently_reproduced_public_numeric_claim_not_semantic_discovery",
+    "evidence": "Único corte36+13 em68e70livros;11e9endereços.0/999bijeções e0/999embaralhamentos têm cobertura;802/999pares copiados têm corte gerador único. Ordem invertida também funciona. Sem direção histórica ou inglês.",
+    "artifact": "results/round19_copy_seams.json"
+  },
+  {
+    "id": "H86",
+    "hypothesis": "Cópias da fala de Chayenne permitem herdar códigos importados completos para as duas partes",
+    "status": "not_supported_under_all_compatible_imported_alignments",
+    "evidence": "Só1das11ocorrências esquerdas tem ambos os extremos alinhados;0das9direitas. Não demonstra unidades reais nem mecanismo semântico.",
+    "artifact": "results/round19_copy_seams.json"
   }
 ]

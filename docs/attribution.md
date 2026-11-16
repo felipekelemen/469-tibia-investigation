@@ -58,3 +58,19 @@ A descoberta pública consultou páginas da Tibia Wiki e artigos de TibiaSecrets
 URLs, acesso e limites constam em `data/source_review_round18.json`. A página
 do Bonelord Tome é relato de seu artista, não uma especificação de cifra.
 Nenhuma página ou imagem completa de terceiros foi redistribuída nesta rodada.
+
+## Rodada19
+
+Uma discussão pública no Reddit indicou o paste Mn5FspPT como uma tabela técnica
+possivelmente relacionada à foto atribuída ao Facebook oficial. Publicamos
+somente fatos numéricos normalizados, URLs e hashes, sem o arquivo original,
+páginas completas ou imagens. A procedência histórica e a função das colunas
+não foram autenticadas. As duas imagens indicadas por s2ward representam a
+mesma foto; a orientação e a transcrição comunitárias não são observações
+independentes. Dígitos ocultos permanecem mascarados.
+
+A busca da fronteira da fala de Chayenne reproduz mecanicamente uma afirmação
+já publicada no estudo de kimlage. As transcrições e o corpus têm as atribuições
+do inventário existente; a relação não é apresentada como descoberta semântica
+nova. Os dois experimentos e os controles são implementações do projeto.
+Fontes e limites em `data/source_review_round19.json` e `docs/round19.md`.

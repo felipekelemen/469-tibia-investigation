@@ -1,0 +1,11 @@
+{
+  "status": "frozen_before_new_copy_split_counts",
+  "role": "Independent reproduction of an already public mechanical-copy claim, not a blind translation test.",
+  "target": "Concatenate the two numeric parts of the2009Chayenne answer from the pinned inventory. Withhold published split from split-search function. English question/comments/emoticons never become plaintext labels.",
+  "library": "Primary existing68discovery books; sensitivity all70. Search raw strings separately inside each book, never across book ends.",
+  "candidate_family": "All exact two-piece raw copy covers, each part nonempty and fully occurring inside a source book. Enumerate every cut1..N-1, no fitted minimum threshold. Flag pieces both>=12for long-fragment interpretation.",
+  "witnesses": "Retain all book/offset witnesses. Count distinct cut positions separately from address combinations. Copied books are not independent observations.",
+  "boundary_sensitivity": "For surviving raw cuts, test source endpoints under every compatible imported-code alignment and list distinct inherited numeric-code sequences. No English labels and no selected omitted-zero pattern.",
+  "controls": {"replicates_each": 999, "seed": 193609, "families": ["one_global_digit_bijection_on_target", "within_target_digit_shuffle", "new_two_book_fragments_with_the_observed_piece_lengths"], "copy_sampling": "Uniform over valid(book,start)positions separately for the two fixed lengths. Search cut without telling algorithm the generated cut. Report true-cut inclusion and uniqueness, not English recovery. No parameter retuning."},
+  "interpretation": "A recoverable copy seam can explain a source boundary without English semantics. Fragment reuse prevents treating this as independent unseen semantic content. Source attribution and publication date are not authenticated game-capture dates."
+}

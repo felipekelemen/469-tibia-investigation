@@ -1,0 +1,11 @@
+{
+  "stage": "Before photo-table projection comparison",
+  "sha256": {
+    "data/round19_protocol.json": "416296c5dd614243a39ccb83561ad42d4080db9266191f8588aa363b1a200453",
+    "data/round19_photo_transcription.json": "5febeacd8e4d17c4001b1b6f4f6a897826444a73cb70a953859fedde3b406688",
+    "data/round19_http_manifest.json": "0103c399e00b57d381ace44c3bcb27efa2d541c585a08508312a9692c73c57c0",
+    "data/round19_source_targets.json": "45a2c63ef3f8f9cb74df816fbc9150eefa4ace3361f58a3719e3c30cae820d82",
+    "data/round19_conversion_numeric.json": "603541d3bbf638001a1f6eb53ac5efce446f90a00f3ecfa923d8651800ba4e03",
+    "scripts/photo_conversion_audit.py": "b7a5d610352b744b7aec9937e51127375fbc19a4ee6f70302a0adad6d2d289c0"
+  }
+}

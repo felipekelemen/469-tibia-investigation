@@ -1,0 +1,12 @@
+Clean staged export, no ignored source captures.
+
+python3 scripts/run_round19.py
+{"calibrated_models": [], "visible_validation_pairs": 14, "maximum_unique_correct": 0, "replay": true}
+Source bodies locally rehashed: 0/5. Missing bodies are not reauthenticated by the offline replay.
+Six projections fail calibration; photo null comparisons are NOT APPLICABLE. All copy cuts and 2,997 copy controls replayed. No English translation.
+
+
+----------------------------------------------------------------------
+Ran 189 tests in 4.406s
+
+OK

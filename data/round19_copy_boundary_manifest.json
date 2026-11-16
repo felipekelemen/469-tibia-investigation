@@ -1,0 +1,11 @@
+{
+  "stage": "Before new copy-seam enumeration",
+  "sha256": {
+    "data/round19_copy_boundary_protocol.json": "935fd29cbbdfd35678c947cd173e90d7395fea281497109d4bbfa71a650bc017",
+    "scripts/source_copy_seams.py": "e886c4776842a994c8a8f9b127328b5310ac601a39c364205958fbad50661b52",
+    "scripts/zero_rule_constraints.py": "1b2c29541fb49f8e0ddbbdb2f756c442b2f57faf984e1a94c80d29bcb3a4a34e",
+    "data/source_validation_inventory.json": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+    "data/normalized_books.json": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+    "data/normalized_splits.json": "0a0f9d3b60b4077bf9e3074919d35e754f6f77fd4ca4423b160e14e5a58ac3de"
+  }
+}

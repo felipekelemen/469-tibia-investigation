@@ -1,0 +1,22 @@
+{
+  "focus": "Game-related numeric relations, framing and historical source restrictions; no English labels assigned.",
+  "sources": [
+    {"url": "https://www.reddit.com/r/TibiaMMO/comments/gmgkux/a_note_regarding_mysteries_leaked_data/", "role": "Discovery lead claims background image is conversion.lst and links public paste. Comments conflict; attribution is a hypothesis, not accepted truth. No account data or binaries accessed."},
+    {"url": "https://pastebin.com/Mn5FspPT", "role": "Public numeric table; raw andHTMLcode extracted independently from the same paste. Claimed historical provenance not authenticated."},
+    {"url": "https://www.facebook.com/tibia/photos/a.382722087363/10150239378812364/", "role": "Attributed original photo URL; direct GET200genericFacebook page. Not accepted as readable authenticated original post."},
+    {"url": "https://tibia469.blogspot.com/p/outras-frases.html", "role": "Discovery transcription and attributed2011date; some digits explicitly obscured. Manual review keeps masks; not a dated client capture."},
+    {"url": "https://github.com/s2ward/469", "role": "Pinned mirror URLs and prior numeric interpretations; guessed outputs not accepted as observed values."},
+    {"url": "https://github.com/kimlage/tibia-469-cipher-casestudy/blob/main/docs/wiki/README.md", "role": "Public claim that Chayenne split36is uniquely recoverable as two attested book fragments. Reproduced independently; broader semantic/nonlinguistic conclusions not assumed."},
+    {"url": "https://forum.portaltibia.com.br/topic/11420-entrevista-com-chayenne/", "role": "Previously audited interview source for two canonical numeric parts. No new English gloss or authenticated earlier book-state observation."}
+  ],
+  "historical_reconnaissance": {
+    "retained_capture_manifest": "data/history_round14_http_manifest.json",
+    "hash_verified_ids": ["archive2008_page3", "archive2008_page47", "forum2007", "tutorial2010"],
+    "archived2008_visible_text_runs_at_least20digits": 0,
+    "current2007_thread_visible_text_runs_at_least20digits": 22,
+    "limit": "Counts concern continuous runs in parsed visible text only. Old archived matrix posts do not supply raw book-text chronology in this extraction. Current thread shows theory-edited/sliding fragments; displayed2007date does not date current body. No conclusion about image-contained book texts or actual recoding date."
+  },
+  "new_attested_English_parallel_texts": 0,
+  "new_authenticated_matrix_counts": 0,
+  "distribution": "Only source metadata and non-expressive numeric identifier facts published. Original page/image/raw-file captures remain ignored. No server code, assets or logs redistributed."
+}

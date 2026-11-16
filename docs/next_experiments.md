@@ -427,3 +427,18 @@ jogo. Mais frequência sem nova estrutura pode ser ininformativa. A revisão
 limitada de fontes não trouxe par inglês novo; as quatro entregas continuam
 pendentes. Aprendizes da rodada17 seguem sem autorização científica de uso
 para novas leituras dos livros.
+
+Atualização após a [décima nona rodada](round19.md): nenhuma projeção direta
+das três colunas do paste público aceita 737→469; controles condicionais dessa
+família são não aplicáveis. Não ampliar operações aritméticas sem documentação
+independente da função das colunas. A associação comunitária entre foto e arquivo
+continua não autenticada.
+
+A fala concatenada de Chayenne tem uma única cobertura por dois trechos dos
+livros, no corte 36+13, igual na descoberta68 e em todos70. São 11 e nove
+endereços, não 99 evidências independentes. Em 802/999 novos pares copiados,
+o corte gerador também é único. O critério recupera a ordem invertida igualmente;
+não atribui inglês. Nenhuma ocorrência direita preserva ambos os extremos nos
+alinhamentos importados. Priorizar capturas históricas datadas e recombinações
+atestadas antes de atribuir direção de cópia, unidades ou significado. As quatro
+entregas P01/P03/P05/P06 continuam abertas.

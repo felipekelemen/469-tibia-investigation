@@ -1,0 +1,16 @@
+{
+  "round": 19,
+  "status": "frozen_before_photo_table_comparison",
+  "question": "Does the allegedly cryptographic mirrored-photo numeric table reproduce columns of the independently published conversion.lst, rather than establish a language transform?",
+  "candidate_source": "Public PastebinMn5FspPT linked in a2020community discussion. The file's alleged server provenance/function is not automatically authenticated. Read numeric table only; no server binaries/account logs accessed.",
+  "sources": ["data/round19_source_targets.json", "data/round19_http_manifest.json", "data/round19_photo_transcription.json"],
+  "parser": "Every nonempty raw source line must contain exactly3nonnegative decimal integers; no code execution. Compare raw andHTMLhighlighted de1lines as independent extraction paths from the same paste, not independent historical sources.",
+  "hypothesis_family": "All6directed projections between the3table columns. Calibrate only by the pre-existing737->469association. Retain every projection supporting it. No arithmetic correction, fitted coefficients or English scoring.",
+  "prediction": "For each fully visible x, collect all outputs under each retained projection. A correct prediction must be unique and equal the held-out visible y. Ambiguous outputs stay ambiguous. Visible values never choose projection. No source-order or output-magnitude fitting.",
+  "validation": "All14fully visible pairs in frozen transcription, excluding calibration. Already community exposed; not prospective blind discovery or semantic validation. Single photograph, not14independent image sources. Every witness includes source-line number and3numbers.",
+  "masks": "Evaluate visible-digit masks separately after main comparison. Infer missing values only as explicit conditional predictions, never overwrite transcription. Completely occluded output and unpaired outputs are not independent validation.",
+  "controls": {"seed": 19737469, "replicates_each": 999, "nulls": ["permute target values among source rows excluding calibration rows", "nonzero cyclic shifts of target sequence among the same sorted rows, preserving local order and calibration"], "selection": "For every calibrated projection retain original source-domain and calibration. Evaluate maximum number of unique correct visible predictions across calibrated models per replicate. Numerical association only; community selected hypothesis, no translation p-value."},
+  "qualification": "Positive triples with a unique calibration projection must recover independent numeric mappings; duplicate source values must not be reported unique. Negative masks and conflicting table records preserved. Meaning/source authenticity not qualified by numeric matching.",
+  "historical_sensitivity": "Record earlier source-reconnaissance result: archived2008matrix posts contain no long raw book digit runs; current2007thread contains theory-edited/sliding fragments and cannot authenticate pre-rename ciphertext. Do not turn reported post dates into archive/game dates.",
+  "success": "Independent numeric relation can identify a technical red herring or constrain a clue. It is not an English decoder. No letter labels assigned. If no projection survives, record failure; do not expand arbitrary math models after reading the result."
+}

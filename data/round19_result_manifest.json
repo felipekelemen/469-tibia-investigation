@@ -1,0 +1,16 @@
+{
+  "sha256": {
+    "data/round19_evidence_manifest.json": "50c4da717ec094702b07bd0df3e4274f5b9a893abb28f3e21f097067170a9b18",
+    "data/round19_copy_boundary_manifest.json": "cdc33657a570197b37bbb82d01ae749648400d22039d5463f2ce9e4a96c1ab3f",
+    "data/round19_scope_notes.json": "3e8997f41c31b6aa091c494e10413018bf1b8067b9d2ea29255081eeec8af2ab",
+    "data/plan_progress_round19.json": "94da05062b9195cebadadb0ac81a3ab091e322e412fcf52b4ae7340714446595",
+    "data/source_review_round19.json": "0938faa41d5974d4bc2549fe3ae099fbaf3589fa00016c40347c36b0be941a3b",
+    "scripts/run_round19.py": "c6912420e6e6438096cdce62c92243c359342364859e51b105257c45be046c43",
+    "tests/test_photo_conversion_audit.py": "f384c2c45acce5e6154220c9963a5b59ad6f838440bd6548997779987e51def0",
+    "tests/test_source_copy_seams.py": "c849158d83e18fe1a90de3d0efe63cf9e4298968f53e128e8fc11d4a787a621d",
+    "docs/round19.md": "4240077736c4a4333c90c3f32c1a8b7af18b78e70c90039a97bd8475f25afb97",
+    "results/round19_photo_conversion.json": "c3bb1e071567a91a7675721463c8eb7994bae9bf412b709b07037b64b2b6478e",
+    "results/round19_copy_seams.json": "217670f55ae1640f9174058423cb3b7b48a25553fe11a7cf8b34e807fdb07343"
+  },
+  "scope": "Replay frozen six direct projections (none passes calibration; conditional photo nulls NOT APPLICABLE), exhaustive numeric copy seams, all2997copy controls. No English translation. Source bodies optional and not distributed; missing captures are not reauthenticated. Logs and durations vary."
+}
