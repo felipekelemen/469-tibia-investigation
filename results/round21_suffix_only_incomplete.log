@@ -1,0 +1,55 @@
+Qualification: ordinal0_compact 2 12
+Qualification: ordinal0_compact 4 24
+Qualification: ordinal0_compact 8 36
+Qualification: ordinal1_compact 2 48
+Qualification: ordinal1_compact 4 60
+Qualification: ordinal1_compact 8 72
+Qualification: ascii_lower_compact 2 84
+Qualification: ascii_lower_compact 4 96
+Qualification: ascii_lower_compact 8 108
+Prediction gate: {'cases': 108, 'complete_search_cases': 108, 'complete_transfer_cases': 108, 'true_key_retained_cases': 108, 'held_words': 756, 'held_in_lexicon': 692, 'strict_correct': 678, 'strict_wrong': 0, 'prediction_gate_pass': True}
+avar_prefix10 complete 96 model_keys 0
+knightmare7 complete 96 model_keys 0
+avar_full20_diagnostic complete 96 model_keys 0
+chayenne_direct complete 84 model_keys 0
+Nulls: avar_prefix10 all_digit_shuffle
+Nulls: avar_prefix10 within_distinct_word_shuffle
+Nulls: knightmare7 all_digit_shuffle
+Nulls: knightmare7 within_distinct_word_shuffle
+Traceback (most recent call last):
+  File "/workspace/tibia-469-research/scripts/periodic_decimal_fast.py", line 48, in <module>
+    else:fast_run(a.check)
+         ^^^^^^^^^^^^^^^^^
+  File "/workspace/tibia-469-research/scripts/periodic_decimal_fast.py", line 42, in fast_run
+    run(check)
+  File "/workspace/tibia-469-research/scripts/periodic_decimal_experiment.py", line 164, in run
+    result=build()
+           ^^^^^^^
+  File "/workspace/tibia-469-research/scripts/periodic_decimal_experiment.py", line 141, in build
+    fits=search(changed,models,name=='chayenne_direct')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/tibia-469-research/scripts/periodic_decimal_experiment.py", line 15, in search
+    return {name:(m.solve_unspaced(groups) if unspaced else m.solve(groups)) for name,m in models.items()}
+                  ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/tibia-469-research/scripts/periodic_decimal_solver.py", line 150, in solve_unspaced
+    visit(0,0,(-1,)*self.period)
+  File "/workspace/tibia-469-research/scripts/periodic_decimal_solver.py", line 149, in visit
+    if new is not None:visit(gi,end,new)
+                       ^^^^^^^^^^^^^^^^^
+  File "/workspace/tibia-469-research/scripts/periodic_decimal_solver.py", line 149, in visit
+    if new is not None:visit(gi,end,new)
+                       ^^^^^^^^^^^^^^^^^
+  File "/workspace/tibia-469-research/scripts/periodic_decimal_solver.py", line 149, in visit
+    if new is not None:visit(gi,end,new)
+                       ^^^^^^^^^^^^^^^^^
+  [Previous line repeated 1 more time]
+  File "/workspace/tibia-469-research/scripts/periodic_decimal_solver.py", line 145, in visit
+    if all(self.segment(g,key,off,prev)['word_path_count'] for g,off,prev in remaining): found.add(key)
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/tibia-469-research/scripts/periodic_decimal_solver.py", line 145, in <genexpr>
+    if all(self.segment(g,key,off,prev)['word_path_count'] for g,off,prev in remaining): found.add(key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/tibia-469-research/scripts/periodic_decimal_fast.py", line 22, in fast_segment
+    candidates=self.book.reverse.get(suffix[:n],[])
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

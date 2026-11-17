@@ -1,13 +1,20 @@
 # 469-tibia-investigation — investigação reproduzível
 
-**Estado: vinte rodadas executadas; nenhuma tradução verificável encontrada.**
+**Estado: vinte e uma rodadas executadas; nenhuma tradução verificável encontrada.**
 Não afirmamos que o corpus é indecifrável nem que qualquer solução comunitária
 foi confirmada. O alvo é um algoritmo integral que generalize para textos inéditos.
 
 Destino público: https://github.com/felipekelemen/469-tibia-investigation
 
-**Publicado:** corpus normalizado, código, testes e resultados das vinte rodadas
+**Publicado:** corpus normalizado, código, testes e resultados das vinte e uma rodadas
 disponíveis neste repositório. O acesso de escrita foi confirmado após nova reconexão.
+
+A [vigésima primeira rodada](docs/round21.md) testou 96 configurações de chave
+periódica, reinício por palavra e dependência do dígito anterior. Recuperou
+678/692 palavras reservadas presentes no vocabulário dos controles, sem
+previsões únicas erradas. Avar Tar e Knightmare não admitiram chave; Chayenne
+tem 84 buscas completas sem chave e 12 limitadas, ainda inconclusivas.
+Nenhuma tradução foi validada. Replay: `make round21`.
 
 A [vigésima rodada](docs/round20.md) priorizou Avar Tar, Knightmare e Chayenne:
 sete codecs decimais de letras com troca fixa dos dígitos, incluindo busca sem

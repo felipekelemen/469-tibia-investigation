@@ -1,0 +1,32 @@
+Independent clean export rebuilt all results in run mode before receiving published results; no network needed.
+results/round21_periodic_decimal.json SHA256 3f50620d9b64a90f0574331e1cef4aceeefe481a73051bbfe92c37686d4eab18 identical
+data/round21_summary.json SHA256 2cfed9c93ce769f144d2ab18dd8a520458f72b3ea9e2baab5b0fc215063e2fad identical
+All four final artifact manifests verified in clean export.
+
+Qualification: ordinal0_compact 2 12
+Qualification: ordinal0_compact 4 24
+Qualification: ordinal0_compact 8 36
+Qualification: ordinal1_compact 2 48
+Qualification: ordinal1_compact 4 60
+Qualification: ordinal1_compact 8 72
+Qualification: ascii_lower_compact 2 84
+Qualification: ascii_lower_compact 4 96
+Qualification: ascii_lower_compact 8 108
+Prediction gate: {'cases': 108, 'complete_search_cases': 108, 'complete_transfer_cases': 108, 'true_key_retained_cases': 108, 'held_words': 756, 'held_in_lexicon': 692, 'strict_correct': 678, 'strict_wrong': 0, 'prediction_gate_pass': True}
+avar_prefix10 complete 96 model_keys 0
+knightmare7 complete 96 model_keys 0
+avar_full20_diagnostic complete 96 model_keys 0
+chayenne_direct complete 84 model_keys 0
+Nulls: avar_prefix10 all_digit_shuffle
+Nulls: avar_prefix10 within_distinct_word_shuffle
+Nulls: knightmare7 all_digit_shuffle
+Nulls: knightmare7 within_distinct_word_shuffle
+Nulls: chayenne_direct within_fragment_shuffle
+Nulls: chayenne_direct two_copied_fragments
+Results saved.
+
+
+----------------------------------------------------------------------
+Ran 213 tests in 11.020s
+
+OK

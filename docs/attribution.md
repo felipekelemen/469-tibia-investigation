@@ -85,3 +85,12 @@ Tibia foi acrescentado ao léxico. Transcrições numéricas vêm do inventário
 canônico existente. Fontes comunitárias consultadas e limites constam em
 `data/source_review_round20.json`; traduções alegadas não foram usadas como
 rótulos verdadeiros. Solucionadores e controles são implementações do projeto.
+
+## Rodada21
+
+Reutilizamos as transcrições e os textos Gutenberg já atribuídos nas rodadas
+anteriores. Não houve nova captura externa ou novo texto paralelo inglês.
+O modelo de soma modular com chave periódica e realimentação de ciphertext
+é uma família criptográfica convencional especificada como hipótese; sua
+implementação, solver, controles e otimizações equivalentes são do projeto.
+A biblioteca NumPy já faz parte das dependências versionadas.

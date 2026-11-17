@@ -457,3 +457,21 @@ com 639 e a ocorrência externa de 67538 como restrições numéricas; em Knight
 exigir regra única para todos os grupos e transferência; em Chayenne, controlar
 as cópias dos livros. Ausência de palavra no léxico não exclui uma língua.
 P01/P03/P05/P06 continuam abertas.
+
+Atualização após a [rodada21](round21.md): a busca entre96configurações com
+chave decimal periódica e dependência do dígito anterior passou o benchmark
+lexical delimitado, mas não encontrou chave para os textos prioritários.
+Os12casos de Chayenne que atingiram o limite continuam inconclusivos. Não
+interpretar ausência de chave no vocabulário de7713palavras como ausência de
+linguagem. A fase correta e o estado anterior precisam ser preservados na
+transferência; resultados da própria frase de ajuste não validam significado.
+
+Priorizar um vocabulário externo de pronúncias/morfemas antes de testar unidades
+maiores, com qualificação de vocabulário oculto e controle de termos ausentes.
+Não ampliar períodos indefinidamente em função de saídas que pareçam inglês.
+As quatro entregas principais e a validação semântica continuam abertas.
+
+Pendência computacional delimitada: concluir os12modelos contínuos de Chayenne
+(A=0/A=1, períodos6/7/8, feedback0/1), preservando os controles correspondentes.
+Isso é distinto de ampliar a família após observar os resultados. Todos os
+modelos com reinício por palavra já terminaram no léxico testado.

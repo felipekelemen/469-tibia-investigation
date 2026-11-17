@@ -1,0 +1,28 @@
+{
+  "round": 21,
+  "verified_translations": 0,
+  "prioritized_targets": [
+    "avar_tar_poem",
+    "chayenne_interview",
+    "knightmare_2012"
+  ],
+  "original_deliverables_still_open": [
+    "P01 independent meaning/validation",
+    "P03 generative and variant model",
+    "P05 semantic/codebook mechanism",
+    "P06 authenticated historical map counts"
+  ],
+  "executed": [
+    "96periodic-key/reset/feedback models with exact lexical constraints",
+    "108fixtures searching all96models plus12unspaced generating-model parser fixtures",
+    "Prefix/heldout Avar setup, full Knightmare fit and direct Chayenne search",
+    "114predeclared null datasets under same model catalog/budgets",
+    "Equivalent vectorized search and exact union audit for partial key cylinders"
+  ],
+  "limitations": [
+    "No fitting real key;12direct Chayenne models hit search budget and remain unresolved",
+    "Frozen7713word vocabulary omits names and other possible plaintexts",
+    "No new authenticated English parallel text or map counts"
+  ],
+  "next_priority": "Conclude the12registered continuous Chayenne models (periods6..8) with stronger pruning and matched controls. Separately qualify external pronunciation/morpheme vocabulary with hidden units and OOV controls; no widening periods to chase English."
+}

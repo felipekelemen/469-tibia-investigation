@@ -1,0 +1,19 @@
+{
+  "stage": "Before round21qualification and game results",
+  "sha256": {
+    "data/round21_protocol.json": "f46fc24cebe441e90b2871f3ac433e08df3270f4be55d4fcbbb493ba5892f6df",
+    "scripts/periodic_decimal_solver.py": "ba0cc7b6a4a6de960c53532e800c5736d0e62b7bef9639393277677a07021ff9",
+    "scripts/periodic_decimal_experiment.py": "f7d432a52734b1cb7396708721057a7756e7f38197d6acf6a36d78086efcd336",
+    "scripts/target_decimal_solver.py": "1a88f2bb1e49295c7d6485dec23890f23f67def06420278898613e5b2ce2260c",
+    "scripts/target_decimal_experiment.py": "151c74cf3300b277e2a93eebdf9e2f066e9725dbd83bc42832275f91fc31164b",
+    "scripts/independent_word_validator.py": "7f5b318fd6fca3fa1983a62c88a09599cbc758e22a58decf934ab814709c0da8",
+    "data/source_validation_inventory.json": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+    "data/normalized_books.json": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+    "data/normalized_splits.json": "0a0f9d3b60b4077bf9e3074919d35e754f6f77fd4ca4423b160e14e5a58ac3de",
+    "requirements.txt": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7",
+    "data/word_validator_reference/secret_garden.txt": "40709a2894f0816a97dd8a67d3082cfc4dac31e45b45ee55a908d62e1dd18c23",
+    "data/word_validator_reference/my_man_jeeves.txt": "e8fff3273914c243fb8c0d35513e4397df4f64bf438e92c173d3ae13b000adb7",
+    "data/word_validator_reference/wizard_oz.txt": "969bffab7740d4d8a0bac332d78bd0152ad4a40a2efc52f06c74a9bb6120be75",
+    "data/word_validator_reference/peter_pan.txt": "6b08714281fe38266a756741e4c62915cda7536c2f78cca501f7fd53f3f445ae"
+  }
+}

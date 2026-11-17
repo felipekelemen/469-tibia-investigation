@@ -1,0 +1,114 @@
+{
+  "qualification": {
+    "cases": 108,
+    "complete_search_cases": 108,
+    "complete_transfer_cases": 108,
+    "true_key_retained_cases": 108,
+    "held_words": 756,
+    "held_in_lexicon": 692,
+    "strict_correct": 678,
+    "strict_wrong": 0,
+    "prediction_gate_pass": true
+  },
+  "unspaced_parser_fixtures": {
+    "total": 12,
+    "complete": 12,
+    "true_key_retained": 12
+  },
+  "game": {
+    "avar_prefix10": {
+      "complete_models": 96,
+      "incomplete_models": [],
+      "found_distinct_keys_within_models": 0,
+      "models_with_any_key": [],
+      "scope": "Distinct within each model; aliases across models remain. If a model is incomplete, found keys are lower bounds only."
+    },
+    "knightmare7": {
+      "complete_models": 96,
+      "incomplete_models": [],
+      "found_distinct_keys_within_models": 0,
+      "models_with_any_key": [],
+      "scope": "Distinct within each model; aliases across models remain. If a model is incomplete, found keys are lower bounds only."
+    },
+    "avar_full20_diagnostic": {
+      "complete_models": 96,
+      "incomplete_models": [],
+      "found_distinct_keys_within_models": 0,
+      "models_with_any_key": [],
+      "scope": "Distinct within each model; aliases across models remain. If a model is incomplete, found keys are lower bounds only."
+    },
+    "chayenne_direct": {
+      "complete_models": 84,
+      "incomplete_models": [
+        "ordinal0_compact/p6/stream/feedback0",
+        "ordinal0_compact/p6/stream/feedback1",
+        "ordinal0_compact/p7/stream/feedback0",
+        "ordinal0_compact/p7/stream/feedback1",
+        "ordinal0_compact/p8/stream/feedback0",
+        "ordinal0_compact/p8/stream/feedback1",
+        "ordinal1_compact/p6/stream/feedback0",
+        "ordinal1_compact/p6/stream/feedback1",
+        "ordinal1_compact/p7/stream/feedback0",
+        "ordinal1_compact/p7/stream/feedback1",
+        "ordinal1_compact/p8/stream/feedback0",
+        "ordinal1_compact/p8/stream/feedback1"
+      ],
+      "found_distinct_keys_within_models": 0,
+      "models_with_any_key": [],
+      "scope": "Distinct within each model; aliases across models remain. If a model is incomplete, found keys are lower bounds only."
+    }
+  },
+  "controls": [
+    {
+      "target": "avar_prefix10",
+      "kind": "all_digit_shuffle",
+      "datasets": 19,
+      "datasets_all_models_complete": 19,
+      "datasets_with_any_found_key": 0,
+      "incomplete_model_searches": 0
+    },
+    {
+      "target": "avar_prefix10",
+      "kind": "within_distinct_word_shuffle",
+      "datasets": 19,
+      "datasets_all_models_complete": 19,
+      "datasets_with_any_found_key": 0,
+      "incomplete_model_searches": 0
+    },
+    {
+      "target": "knightmare7",
+      "kind": "all_digit_shuffle",
+      "datasets": 19,
+      "datasets_all_models_complete": 19,
+      "datasets_with_any_found_key": 0,
+      "incomplete_model_searches": 0
+    },
+    {
+      "target": "knightmare7",
+      "kind": "within_distinct_word_shuffle",
+      "datasets": 19,
+      "datasets_all_models_complete": 19,
+      "datasets_with_any_found_key": 0,
+      "incomplete_model_searches": 0
+    },
+    {
+      "target": "chayenne_direct",
+      "kind": "within_fragment_shuffle",
+      "datasets": 19,
+      "datasets_all_models_complete": 0,
+      "datasets_with_any_found_key": 0,
+      "incomplete_model_searches": 228
+    },
+    {
+      "target": "chayenne_direct",
+      "kind": "two_copied_fragments",
+      "datasets": 19,
+      "datasets_all_models_complete": 0,
+      "datasets_with_any_found_key": 0,
+      "incomplete_model_searches": 228
+    }
+  ],
+  "total_null_datasets": 114,
+  "bookkeeping_note": "Raw full_key_count sums completions of partial keys. With unknown word resets these cylinders may overlap, so raw counts can overcount distinct keys. This report counts their exact union within each real model; null summaries use only nonempty existence, which is unaffected. Search/expansion caps stay conservative.",
+  "new_verified_translations": 0
+}

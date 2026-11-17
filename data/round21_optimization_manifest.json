@@ -1,0 +1,9 @@
+{
+  "reason": "Performance-only suffix-decryption DP replacing repeated edge decryption. Original reference code retained. Initial reference full batch interrupted during Chayenne before final results/nulls; no new model or larger budget.",
+  "sha256": {
+    "scripts/periodic_decimal_fast.py": "65d4fff14fbd6a56d9f27cfd21fd6ea1087c1f6f33495a52e14de95d5f3479d5",
+    "tests/test_periodic_fast_equivalence.py": "4ff9c1c6c4040080178ad8753d2a49f7f20c433c93f212991e68f515a054ebd4",
+    "data/round21_evidence_manifest.json": "cd6105b64591211b648786d97ee83e57c5299b4a17d3b53da4dd18e615bdd5d1"
+  },
+  "execution_timeline_correction": "The initial reason field misstated the interruption point: retained reference log shows direct Chayenne finished with84/96complete searches, followed by both Avar null batches. SIGINT occurred in a subsequent spaced null CSP. The reference batch did not reach final result serialization. All batches are restarted in the optimized run; no counts are combined across runs."
+}

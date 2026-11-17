@@ -1,0 +1,17 @@
+{
+  "sha256": {
+    "data/round21_evidence_manifest.json": "cd6105b64591211b648786d97ee83e57c5299b4a17d3b53da4dd18e615bdd5d1",
+    "data/round21_optimization_manifest.json": "6f688904a478abab1db665ba4f53375ac7f786d12de7c764f52d5c0a17a02d82",
+    "data/round21_vectorized_manifest.json": "44226af7ebee7f1229140f8552b998ef1c830941e4c6a4b577cc799c98ab6805",
+    "data/round21_summary.json": "2cfed9c93ce769f144d2ab18dd8a520458f72b3ea9e2baab5b0fc215063e2fad",
+    "data/plan_progress_round21.json": "af1a5eb39ed0507edd8f77914732a50de57574fbc10e19f80b58ec305249de17",
+    "docs/round21.md": "cc0bb17e6ab3ef95dd579a6247beb1bb9bb781ed654c87fa995509c175171b6c",
+    "scripts/run_round21.py": "6e323c61e83280f32d25bafc0b052c79179d7733cbc141f64e7b14c70e106ffe",
+    "scripts/periodic_result_summary.py": "5dbf0520a23ee6a893c1510ba8809b27debbe6e961421237a4024c5a6835d351",
+    "tests/test_periodic_decimal_solver.py": "7773858db5e11a619036c929577fb6dbe77456e3fdf4b7f041c9a52caee63a62",
+    "tests/test_periodic_transfer_consensus.py": "c0cfd6ac05c454c4e771b575547f6a0cb666f5a7d59820abadb953e9364f675d",
+    "tests/test_periodic_key_union.py": "c715e8611181932af960fcd231201276cdb575e165250e5c2097c4d2f7e072b5",
+    "results/round21_periodic_decimal.json": "3f50620d9b64a90f0574331e1cef4aceeefe481a73051bbfe92c37686d4eab18"
+  },
+  "scope": "Full96model searches for108spaced fixtures,12known-model unspaced fixtures, game targets and114null datasets. Key-union audit exact within each model. Incomplete searches unresolved; no verified translation. Timing and logs excluded."
+}

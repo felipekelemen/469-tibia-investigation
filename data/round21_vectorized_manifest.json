@@ -1,0 +1,10 @@
+{
+  "stage": "After profiling, before final vectorized full run",
+  "reason": "Profiling one declared control/model found12035359Python merge calls. Batch compatibility filtering keeps candidate order and exact state/key budgets. No scientific parameter changed. Earlier reference and suffix-only full batches were interrupted and not combined.",
+  "sha256": {
+    "data/round21_evidence_manifest.json": "cd6105b64591211b648786d97ee83e57c5299b4a17d3b53da4dd18e615bdd5d1",
+    "data/round21_optimization_manifest.json": "6f688904a478abab1db665ba4f53375ac7f786d12de7c764f52d5c0a17a02d82",
+    "scripts/periodic_decimal_vectorized.py": "fd344e894080d8cf8311200700ea39b91e93fe22e4c9aa80e13d3f8a19955f6e",
+    "tests/test_periodic_vectorized_equivalence.py": "c9cea8be83f4850658df78b0c50f32f44a79a0b088f96f4d2855371fdfcb39b5"
+  }
+}

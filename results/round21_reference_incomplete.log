@@ -1,0 +1,41 @@
+Qualification: ordinal0_compact 2 12
+Qualification: ordinal0_compact 4 24
+Qualification: ordinal0_compact 8 36
+Qualification: ordinal1_compact 2 48
+Qualification: ordinal1_compact 4 60
+Qualification: ordinal1_compact 8 72
+Qualification: ascii_lower_compact 2 84
+Qualification: ascii_lower_compact 4 96
+Qualification: ascii_lower_compact 8 108
+Prediction gate: {'cases': 108, 'complete_search_cases': 108, 'complete_transfer_cases': 108, 'true_key_retained_cases': 108, 'held_words': 756, 'held_in_lexicon': 692, 'strict_correct': 678, 'strict_wrong': 0, 'prediction_gate_pass': True}
+avar_prefix10 complete 96 model_keys 0
+knightmare7 complete 96 model_keys 0
+avar_full20_diagnostic complete 96 model_keys 0
+chayenne_direct complete 84 model_keys 0
+Nulls: avar_prefix10 all_digit_shuffle
+Nulls: avar_prefix10 within_distinct_word_shuffle
+Traceback (most recent call last):
+  File "/workspace/tibia-469-research/scripts/periodic_decimal_experiment.py", line 173, in <module>
+    else:run(a.check)
+         ^^^^^^^^^^^^
+  File "/workspace/tibia-469-research/scripts/periodic_decimal_experiment.py", line 164, in run
+    result=build()
+           ^^^^^^^
+  File "/workspace/tibia-469-research/scripts/periodic_decimal_experiment.py", line 141, in build
+    fits=search(changed,models,name=='chayenne_direct')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/tibia-469-research/scripts/periodic_decimal_experiment.py", line 15, in search
+    return {name:(m.solve_unspaced(groups) if unspaced else m.solve(groups)) for name,m in models.items()}
+                                                            ^^^^^^^^^^^^^^^
+  File "/workspace/tibia-469-research/scripts/periodic_decimal_solver.py", line 110, in solve
+    visit((-1,)*self.period)
+  File "/workspace/tibia-469-research/scripts/periodic_decimal_solver.py", line 109, in visit
+    for child in sorted(min(unresolved,key=lambda x:(len(x),sorted(x)))): visit(child)
+                                                                          ^^^^^^^^^^^^
+  File "/workspace/tibia-469-research/scripts/periodic_decimal_solver.py", line 105, in visit
+    allowed={m for d in domain if (m:=merge(key,d)) is not None}
+                                      ^^^^^^^^^^^^
+  File "/workspace/tibia-469-research/scripts/periodic_decimal_solver.py", line 13, in merge
+    if any(x>=0 and y>=0 and x!=y for x,y in zip(a,b)):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

@@ -614,5 +614,19 @@
     "status": "no_key_in_complete_conditional_lexical_search",
     "evidence": "Sete buscas completas;3184/2441estados nas variantes ordinais compactas;0chaves.70/70fixtures sem espaços preservam chave verdadeira;38nulos sem chave. Fronteira entre partes e léxico são premissas; não há inglês validado.",
     "artifact": "results/round20_chayenne_decimal.json"
+  },
+  {
+    "id": "H89",
+    "hypothesis": "Avar Tar e Knightmare usam codecs decimais compactos com chave periódica e possível dependência do dígito anterior",
+    "status": "no_key_within_complete_frozen_lexical_search",
+    "evidence": "96configurações por ajuste; prefixo10/full20Avar e7Knightmare sem chave, sem limites atingidos.108fixtures de busca entre todos os modelos mantêm chave verdadeira;678/692palavras reservadas no léxico recuperadas por consenso,0erros únicos. Escopo lexical/família restrito.",
+    "artifact": "results/round21_periodic_decimal.json"
+  },
+  {
+    "id": "H90",
+    "hypothesis": "Os dois fragmentos de Chayenne admitem chave periódica comum com espaços internos inferidos",
+    "status": "no_key_in_84_complete_models_12_budget_limited_models_unresolved",
+    "evidence": "Nenhuma chave encontrada;84/96buscas completas e12limitadas. Estado/fase contínuos ou reiniciados nos cortes inferidos; léxico fixo. Casos limitados não são refutações.",
+    "artifact": "data/round21_summary.json"
   }
 ]
