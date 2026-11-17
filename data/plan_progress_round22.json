@@ -1,0 +1,20 @@
+{
+  "round": 22,
+  "verified_translations": 0,
+  "original_deliverables_still_open": [
+    "P01 independent meaning/validation",
+    "P03 generative and variant model",
+    "P05 semantic/codebook mechanism",
+    "P06 authenticated historical map counts"
+  ],
+  "closed_round21_computational_pending_models": 12,
+  "remaining_round21_chayenne_incomplete_models": 0,
+  "executed": [
+    "Exact regular-language complete-key search over fixed12models",
+    "360synthetic positive fixtures and468real/null fits",
+    "Exhaustive coverage identity and independent Python review of1253candidate keys",
+    "Posthoc lexical collision certificates in synthetic codecs"
+  ],
+  "result": "No real key in either target fragment pair under frozen vocabulary/codecs/framing; no verified English translation.",
+  "next_priority": "Fix an external pronunciation/morpheme vocabulary and qualify hidden-unit recovery with OOV controls before new game translation claims; preserve copied-fragment dependencies."
+}

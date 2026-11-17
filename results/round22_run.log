@@ -1,0 +1,46 @@
+Starting native codec ordinal0_compact 414 cases
+Native complete 20 / 414
+Native complete 40 / 414
+Native complete 60 / 414
+Native complete 80 / 414
+Native complete 100 / 414
+Native complete 120 / 414
+Native complete 140 / 414
+Native complete 160 / 414
+Native complete 180 / 414
+Native complete 200 / 414
+Native complete 220 / 414
+Native complete 240 / 414
+Native complete 260 / 414
+Native complete 280 / 414
+Native complete 300 / 414
+Native complete 320 / 414
+Native complete 340 / 414
+Native complete 360 / 414
+Native complete 380 / 414
+Native complete 400 / 414
+Native complete 414 / 414
+Starting native codec ordinal1_compact 414 cases
+Native complete 20 / 414
+Native complete 40 / 414
+Native complete 60 / 414
+Native complete 80 / 414
+Native complete 100 / 414
+Native complete 120 / 414
+Native complete 140 / 414
+Native complete 160 / 414
+Native complete 180 / 414
+Native complete 200 / 414
+Native complete 220 / 414
+Native complete 240 / 414
+Native complete 260 / 414
+Native complete 280 / 414
+Native complete 300 / 414
+Native complete 320 / 414
+Native complete 340 / 414
+Native complete 360 / 414
+Native complete 380 / 414
+Native complete 400 / 414
+Native complete 414 / 414
+{'total_fits': 828, 'all_complete': True, 'total_domain_key_assignments': 30636000000, 'prefix_checked_key_assignments': 679962018, 'prefix_pruned_key_assignments': 29956037982, 'qualification_fits': 360, 'qualification_truth_retained': 360, 'qualification_unique_key': 270, 'real_fits': 12, 'real_keys': 0, 'null_fits': 456, 'null_fits_with_keys': 0, 'null_keys': 0, 'scope': 'Domain counts include mathematically pruned keys, not billions of explicit full-message decodings. Model/case aliases are not independent semantic evidence.'}
+Results saved.

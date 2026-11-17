@@ -1,13 +1,20 @@
 # 469-tibia-investigation — investigação reproduzível
 
-**Estado: vinte e uma rodadas executadas; nenhuma tradução verificável encontrada.**
+**Estado: vinte e duas rodadas executadas; nenhuma tradução verificável encontrada.**
 Não afirmamos que o corpus é indecifrável nem que qualquer solução comunitária
 foi confirmada. O alvo é um algoritmo integral que generalize para textos inéditos.
 
 Destino público: https://github.com/felipekelemen/469-tibia-investigation
 
-**Publicado:** corpus normalizado, código, testes e resultados das vinte e uma rodadas
+**Publicado:** corpus normalizado, código, testes e resultados das vinte e duas rodadas
 disponíveis neste repositório. O acesso de escrita foi confirmado após nova reconexão.
+
+A [vigésima segunda rodada](docs/round22.md) concluiu os 12 casos de Chayenne
+que atingiram limites na rodada anterior. A busca exaustiva, com poda exata,
+não encontrou chave para ambas as partes; os 38 controles correspondentes
+também foram concluídos. As 360 fixtures preservaram a chave verdadeira,
+mas muitas mantêm ambiguidades. Nenhuma tradução foi validada.
+Replay offline: `make round22` (requer `g++` com C++17).
 
 A [vigésima primeira rodada](docs/round21.md) testou 96 configurações de chave
 periódica, reinício por palavra e dependência do dígito anterior. Recuperou

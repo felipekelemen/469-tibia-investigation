@@ -1,0 +1,176 @@
+{
+  "total_fits": 828,
+  "all_complete": true,
+  "total_domain_key_assignments": 30636000000,
+  "prefix_checked_key_assignments": 679962018,
+  "prefix_pruned_key_assignments": 29956037982,
+  "qualification_fits": 360,
+  "qualification_truth_retained": 360,
+  "qualification_unique_key": 270,
+  "real_fits": 12,
+  "real_keys": 0,
+  "null_fits": 456,
+  "null_fits_with_keys": 0,
+  "null_keys": 0,
+  "scope": "Domain counts include mathematically pruned keys, not billions of explicit full-message decodings. Model/case aliases are not independent semantic evidence.",
+  "unique_key_and_unique_word_paths": 35,
+  "maximum_synthetic_keys": 127,
+  "candidate_keys_independently_checked": 1253,
+  "real_domain_assignments": 444000000,
+  "real_checked_keys": 9854522,
+  "real_prefix_pruned_keys": 434145478,
+  "real_short_fragment_maximum_keys": 59769,
+  "real_details": [
+    {
+      "codec": "ordinal0_compact",
+      "period": 6,
+      "feedback": 0,
+      "selected_fragment": 1,
+      "domain_keys": 1000000,
+      "checked_keys": 72665,
+      "prefix_pruned_keys": 927335,
+      "selected_fragment_pass_keys": 475,
+      "keys": []
+    },
+    {
+      "codec": "ordinal0_compact",
+      "period": 6,
+      "feedback": 1,
+      "selected_fragment": 1,
+      "domain_keys": 1000000,
+      "checked_keys": 72665,
+      "prefix_pruned_keys": 927335,
+      "selected_fragment_pass_keys": 270,
+      "keys": []
+    },
+    {
+      "codec": "ordinal0_compact",
+      "period": 7,
+      "feedback": 0,
+      "selected_fragment": 1,
+      "domain_keys": 10000000,
+      "checked_keys": 419601,
+      "prefix_pruned_keys": 9580399,
+      "selected_fragment_pass_keys": 3157,
+      "keys": []
+    },
+    {
+      "codec": "ordinal0_compact",
+      "period": 7,
+      "feedback": 1,
+      "selected_fragment": 1,
+      "domain_keys": 10000000,
+      "checked_keys": 419601,
+      "prefix_pruned_keys": 9580399,
+      "selected_fragment_pass_keys": 3730,
+      "keys": []
+    },
+    {
+      "codec": "ordinal0_compact",
+      "period": 8,
+      "feedback": 0,
+      "selected_fragment": 1,
+      "domain_keys": 100000000,
+      "checked_keys": 2423736,
+      "prefix_pruned_keys": 97576264,
+      "selected_fragment_pass_keys": 34935,
+      "keys": []
+    },
+    {
+      "codec": "ordinal0_compact",
+      "period": 8,
+      "feedback": 1,
+      "selected_fragment": 1,
+      "domain_keys": 100000000,
+      "checked_keys": 2423736,
+      "prefix_pruned_keys": 97576264,
+      "selected_fragment_pass_keys": 59769,
+      "keys": []
+    },
+    {
+      "codec": "ordinal1_compact",
+      "period": 6,
+      "feedback": 0,
+      "selected_fragment": 1,
+      "domain_keys": 1000000,
+      "checked_keys": 52885,
+      "prefix_pruned_keys": 947115,
+      "selected_fragment_pass_keys": 306,
+      "keys": []
+    },
+    {
+      "codec": "ordinal1_compact",
+      "period": 6,
+      "feedback": 1,
+      "selected_fragment": 1,
+      "domain_keys": 1000000,
+      "checked_keys": 52885,
+      "prefix_pruned_keys": 947115,
+      "selected_fragment_pass_keys": 292,
+      "keys": []
+    },
+    {
+      "codec": "ordinal1_compact",
+      "period": 7,
+      "feedback": 0,
+      "selected_fragment": 1,
+      "domain_keys": 10000000,
+      "checked_keys": 296374,
+      "prefix_pruned_keys": 9703626,
+      "selected_fragment_pass_keys": 1563,
+      "keys": []
+    },
+    {
+      "codec": "ordinal1_compact",
+      "period": 7,
+      "feedback": 1,
+      "selected_fragment": 1,
+      "domain_keys": 10000000,
+      "checked_keys": 296374,
+      "prefix_pruned_keys": 9703626,
+      "selected_fragment_pass_keys": 1966,
+      "keys": []
+    },
+    {
+      "codec": "ordinal1_compact",
+      "period": 8,
+      "feedback": 0,
+      "selected_fragment": 1,
+      "domain_keys": 100000000,
+      "checked_keys": 1662000,
+      "prefix_pruned_keys": 98338000,
+      "selected_fragment_pass_keys": 19365,
+      "keys": []
+    },
+    {
+      "codec": "ordinal1_compact",
+      "period": 8,
+      "feedback": 1,
+      "selected_fragment": 1,
+      "domain_keys": 100000000,
+      "checked_keys": 1662000,
+      "prefix_pruned_keys": 98338000,
+      "selected_fragment_pass_keys": 47694,
+      "keys": []
+    }
+  ],
+  "lexical_ambiguity_certificates": [
+    {
+      "codec": "ordinal0_compact",
+      "word1": "BY",
+      "word2": "ME",
+      "same_decimal": "124",
+      "scope": "Posthoc arithmetic ambiguity certificate in synthetic codec, NOT a469translation. Identical input digits remain identical after every tested key/feedback."
+    },
+    {
+      "codec": "ordinal1_compact",
+      "word1": "AHEAD",
+      "word2": "READ",
+      "same_decimal": "18514",
+      "scope": "Posthoc arithmetic ambiguity certificate in synthetic codec, NOT a469translation. Identical input digits remain identical after every tested key/feedback."
+    }
+  ],
+  "remaining_round21_chayenne_incomplete_models": 0,
+  "combined_round21_chayenne_complete_models": 96,
+  "new_verified_translations": 0
+}

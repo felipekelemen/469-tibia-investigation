@@ -1,0 +1,21 @@
+{
+  "stage": "Before complete-key search on new fixtures/real/null data",
+  "sha256": {
+    "data/round22_protocol.json": "cf9bacc5d09c5eeb8187373f682c95415bb58a9964ff0483f3d942561045f102",
+    "data/round22_cases.json": "de564e2a4b48c64fb058a864ae3020d38100000b9672c22f4c5564ebc92cd9dd",
+    "native/periodic_dictionary_search.cpp": "0d0183efefdb263c78d2b3e34f7f80e75d3328baa3f3a99317f2a24614bb44aa",
+    "scripts/exhaustive_periodic_native.py": "8fc5e092b9d0182cea08feea666d6a9f69b3ea0de3476cf60e4283d8ee3f7688",
+    "scripts/round22_exhaustive_experiment.py": "e9dc0462fa206606ac13da7b7a12d75c42259cf5009d27e2bf38ca4190238c21",
+    "scripts/periodic_decimal_solver.py": "ba0cc7b6a4a6de960c53532e800c5736d0e62b7bef9639393277677a07021ff9",
+    "scripts/periodic_decimal_fast.py": "65d4fff14fbd6a56d9f27cfd21fd6ea1087c1f6f33495a52e14de95d5f3479d5",
+    "scripts/target_decimal_experiment.py": "151c74cf3300b277e2a93eebdf9e2f066e9725dbd83bc42832275f91fc31164b",
+    "scripts/target_decimal_solver.py": "1a88f2bb1e49295c7d6485dec23890f23f67def06420278898613e5b2ce2260c",
+    "scripts/independent_word_validator.py": "7f5b318fd6fca3fa1983a62c88a09599cbc758e22a58decf934ab814709c0da8",
+    "data/source_validation_inventory.json": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+    "results/round21_periodic_decimal.json": "3f50620d9b64a90f0574331e1cef4aceeefe481a73051bbfe92c37686d4eab18",
+    "data/word_validator_reference/secret_garden.txt": "40709a2894f0816a97dd8a67d3082cfc4dac31e45b45ee55a908d62e1dd18c23",
+    "data/word_validator_reference/my_man_jeeves.txt": "e8fff3273914c243fb8c0d35513e4397df4f64bf438e92c173d3ae13b000adb7",
+    "data/word_validator_reference/wizard_oz.txt": "969bffab7740d4d8a0bac332d78bd0152ad4a40a2efc52f06c74a9bb6120be75",
+    "data/word_validator_reference/peter_pan.txt": "6b08714281fe38266a756741e4c62915cda7536c2f78cca501f7fd53f3f445ae"
+  }
+}

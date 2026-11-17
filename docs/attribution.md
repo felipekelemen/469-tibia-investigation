@@ -94,3 +94,12 @@ O modelo de soma modular com chave periódica e realimentação de ciphertext
 é uma família criptográfica convencional especificada como hipótese; sua
 implementação, solver, controles e otimizações equivalentes são do projeto.
 A biblioteca NumPy já faz parte das dependências versionadas.
+
+## Rodada22
+
+Reutilizados os textos Gutenberg e o léxico atribuídos nas rodadas20–21,
+as transcrições canônicas e exatamente os38controles de Chayenne da rodada21.
+Não houve nova fonte semântica externa. Trie, autômato de subconjuntos e busca
+finita por chaves são técnicas clássicas; a implementação C++17 e os verificadores
+são código do projeto. A análise BY/ME e AHEAD/READ é um certificado posterior
+de ambiguidade desses codecs, sem alegação de tradução da linguagem469.

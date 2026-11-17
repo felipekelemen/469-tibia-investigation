@@ -1,0 +1,14 @@
+{
+  "sha256": {
+    "data/round22_evidence_manifest.json": "43a7099d2367a6b8b07a4b2e76c19bb668625def05f8dfdf37407cb9f2bdb342",
+    "data/round22_summary.json": "53a072ea2652255936cfce8255fbabb57be1402d3a9008af2b8363563d95454c",
+    "data/plan_progress_round22.json": "c0f821772c1de857a62420b237bc0cd8556d634520f967a72e97896b28a46c85",
+    "docs/round22.md": "c110c296bc567354b0707de7537752390c655634d89aa69f855c6bf1adc34102",
+    "scripts/run_round22.py": "ee35ed23bd7cf85d5f203bfcbae98369c45beb37dab7d58d46548efdc04c5560",
+    "scripts/round22_summary.py": "410702652fcc29e12f6702c0c779825702fa5b5a18bbe1d3aaa0810ec58608db",
+    "tests/test_exhaustive_periodic_native.py": "147b9d39af7defcfdc6b58213e2403fa0ce0ac50ee18d9d97cb02fb2f00a7d1b",
+    "results/round22_exhaustive.json": "0fd5636499b6030a51ad3579c233d980aa3f0ade7ec35469caa2d5c1fcc009d8",
+    "results/round22_compiler.json": "04f41921f25e71954d331a162b6927c8968afb5d7b7d4c80a115d14e97402743"
+  },
+  "scope": "Full828fit replay with exact finite-key coverage and independent candidate review; no runtime caps. Known-model synthetic qualification, exact matched controls, no verified semantic translation. Compiler metadata records original build; generated binaries/log durations excluded."
+}

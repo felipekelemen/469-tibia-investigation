@@ -475,3 +475,16 @@ Pendência computacional delimitada: concluir os12modelos contínuos de Chayenne
 (A=0/A=1, períodos6/7/8, feedback0/1), preservando os controles correspondentes.
 Isso é distinto de ampliar a família após observar os resultados. Todos os
 modelos com reinício por palavra já terminaram no léxico testado.
+
+Atualização após a [rodada22](round22.md): os12modelos contínuos de Chayenne
+foram concluídos por busca exaustiva, com identidade de cobertura em10^p.
+Não há chave no léxico/modelos testados; os456ajustes correspondentes dos38
+controles também foram concluídos. A pendência computacional da rodada21
+está encerrada, sem nova tradução.
+
+O trecho de13dígitos admite até59769chaves em uma configuração; nenhuma
+explica simultaneamente os36dígitos restantes. Isso não equivale a inglês
+coerente nem a validação cega. Nos360positivos,270têm chave única e apenas35
+têm também caminhos de palavras únicos. Priorizar unidades maiores com
+vocabulário externo, controle de termos ausentes e qualificação anterior à
+aplicação ao jogo. Não aumentar períodos da mesma família sem nova pista.

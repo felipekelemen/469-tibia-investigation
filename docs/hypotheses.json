@@ -628,5 +628,19 @@
     "status": "no_key_in_84_complete_models_12_budget_limited_models_unresolved",
     "evidence": "Nenhuma chave encontrada;84/96buscas completas e12limitadas. Estado/fase contínuos ou reiniciados nos cortes inferidos; léxico fixo. Casos limitados não são refutações.",
     "artifact": "data/round21_summary.json"
+  },
+  {
+    "id": "H91",
+    "hypothesis": "Os12modelos contínuos pendentes de Chayenne escondem chave compatível além do limite da rodada21",
+    "status": "no_key_after_complete_finite_domain_search_in_frozen_lexicon",
+    "evidence": "12domínios completos,444milhões de combinações chave/modelo cobertas com poda exata;0chaves para ambas as partes.456ajustes dos38controles também completos sem chaves. Não exclui outros léxicos, fronteiras ou algoritmos.",
+    "artifact": "data/round22_summary.json"
+  },
+  {
+    "id": "H92",
+    "hypothesis": "Conhecer a chave dos codecs decimais compactos garante leitura lexical única",
+    "status": "rejected_by_explicit_codec_collisions_and_synthetic_ambiguity",
+    "evidence": "360/360chaves verdadeiras retidas;270fixtures com chave única,35também com caminhos de palavras únicos. A0:BY/ME=124;A1:AHEAD/READ=18514. São exemplos sintéticos, sem gloss de469.",
+    "artifact": "data/round22_summary.json"
   }
 ]
