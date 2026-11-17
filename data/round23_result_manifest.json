@@ -1,0 +1,13 @@
+{
+  "scope": "Exact output equality and independent post-fit certificate audit. Input/source hashes retained separately.",
+  "sha256": {
+    "results/round23_qualification.json": "346221e8ff9f864f7d141638eb16c61c462b10ea8a39605eda13bfb3251bcccf",
+    "results/round23_targets.json": "bbe0037f3f8a92ac46a7143f259dc111a74bedda14e1454fb6ddf6be7f4b51ed",
+    "results/round23_certificate_audit.json": "71fb6dae856529e27d505e99a17c2c8d2227e41458dc533e3a0062b20476d34d",
+    "data/round23_summary.json": "ef6e43069b66d41f795d4184685f5faea0c9baadb68984c69bc5ac96032f50c4",
+    "data/round23_input_manifest.json": "8b696397453a884f30cf88c414545f68fb921eddf07fdc0aa6829dbac2a76dd9",
+    "scripts/round23_certificate_audit.py": "0eaac12eb7b157529729e8be4667f6bf3260c8b28fc7c75ddd9ef6a66540eb35",
+    "scripts/run_round23.py": "3558504ed17e37c2173f31984fbed24945444ee5cf89bbd8220a7c9441bd913b",
+    "tests/test_unit_morphism_certificates.py": "e502bce851ff1beeea81c36fe51e760378a21b3a8d16febb21bc979b60ca4289"
+  }
+}

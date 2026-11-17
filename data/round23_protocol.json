@@ -1,0 +1,22 @@
+{
+  "round": 23,
+  "status": "registered before new target outcomes",
+  "models": {
+    "digraph": "each digit emits exactly2letters",
+    "grapheme1_3": "each digit emits1..3letters",
+    "phone1_3": "each digit emits1..3stress-strippedCMUphonemes",
+    "syllable": "each digit emits one syllable from a deterministic maximal-attested-onset segmentation of a CMUpronunciation"
+  },
+  "key": "One fixed nonempty output unit per observed decimal digit throughout a message. Different digits may be homophones. No exceptions, deletions, changed digits or contextual remapping. Numeric spaces are provisionally treated as whole English word boundaries for Avar/Knightmare.",
+  "source": "Pinned CMUdict snapshot with full license; labels with optional numbered pronunciation suffix are normalized to uppercase letters after accepting alphabetic/apostrophe/hyphen spellings. Restrict one-letter word labels toA/I. Keep every pronunciation after stripping stress. Orthographic inventory adds the user-specified nameBONELORD, explicitly hypothetical; no invented pronunciation for it. No other lore names added after fits.",
+  "syllables": "Vowels fromcmudict.phones. Collect consonant onsets before the first vowel in each retained pronunciation. For each inter-vowel consonant cluster choose the longest suffix appearing as an attested initial onset; remaining consonants are coda. Stress discarded; no-vowel pronunciations excluded from syllable family. This operational segmentation is not asserted to be linguistic ground truth.",
+  "algorithm": "Exact word-morphism matcher enumerates chunk lengths while preserving repeated-digit equality. Regex is only a sound prefilter, never chooses one partition. Joint CSP retains all key assignments. At most2000key states and2000solutions; local assignment enumeration capped20000. Any exceeded cap is INCOMPLETE, not a rejection. Missing output for unseen digit stays unknown; no arbitrary completion.",
+  "qualification": "30local morphism fixtures per family from CMUword forms, with hidden chunk lengths and digit assignment, checking that exhaustive per-form enumeration retains truth. In addition10global fixtures per family: random10unit keys drawn from frequent unit pools, requiring>=20encodable dictionary forms and all ten units observed in that available pool; fit7forms, transfer7other forms, using the FULL frozen model dictionary. Word lists are vocabulary-conditioned, not grammatical prose; record all caps, true-key retention, coverage and homophone ambiguity. No generic English-decoding qualification inferred from local tests or supplied dictionary.",
+  "game": "Avar first10groups discovery and last10transfer; full20diagnostic; Knightmare7groups discovery. Transfer every surviving key unchanged to other NPCs, poll and Chayenne. Chayenne has no internal English word boundaries supplied: use exact dictionary segmentation of emitted units when every digit is known, otherwise report unknown. No direct unspaced-key learning in this round.",
+  "crib_sensitivity": "Separate Knightmare fits constrain3478toBEHOLDER orBONELORD where the model source has a form for the name. These are user-specified hypotheses, not attested plaintexts or independent validation. Missing pronunciation means unavailable, not hypothesis rejected.",
+  "controls": "19shuffles of each distinct numeric word per Avar-prefix/Knightmare, preserving repeated groups, lengths and within-word digit counts. Same four-family solver and caps. No significance claims from capped searches or short lexical coincidences.",
+  "seed": 23639469,
+  "interpretation": "A complete empty key set excludes only this lexicon/memoryless morphism/framing. Nonempty keys must produce coherent English on independent content before promotion; CMU includes names/abbreviations and homophones, so lexical fits alone are insufficient. Corpus copies and matching67538are not independent semantics. No reuse of failed round17learner as qualified.",
+  "qualification_sampling_detail": "Top40 most frequent chunks for each allowed length; ties lexicographic. Variable families sample six length1/two length2/two length3 units. All keys have10distinctunits; solver allows homophony. Lexicographically first numeric encoding. Cases generated before any fit; all fixtures and full source frozen by hash.",
+  "control_seed": 23639470
+}

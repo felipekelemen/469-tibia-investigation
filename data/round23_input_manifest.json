@@ -1,0 +1,19 @@
+{
+  "status": "frozen before first synthetic joint/target/control fit; toy correctness tests already passed",
+  "sha256": {
+    "data/round23_protocol.json": "c606be946248994ee9c1439bcd257a7592ae21c9590d4930669f6a0979907e0c",
+    "data/round23_fixtures.json": "c2778295ea2a4a6e0defc53f455a866701ec53f138a41848a652227f6a36b2fd",
+    "data/source_validation_inventory.json": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+    "scripts/unit_morphism_lexicon.py": "4e1bc4aef71d2b8d6146f00fe2f917d0934743ebb2e79ada737a2ce53c113e9d",
+    "scripts/unit_morphism_solver.py": "28ef1716a9e3213a8e1ac8321446323e66bba9affc40a488894425d0dfa1627e",
+    "scripts/round23_fixtures.py": "f1c73bf11f5220313a272952acccfd10813c3763de67db1f7134c731caeafc28",
+    "scripts/round23_experiment.py": "f01bc1c61abb2ca20dc02bf02cc8f29881166fe36933cc8fe5e2d1c0b971edfe",
+    "tests/test_unit_morphism.py": "d547b60094d90ce692ab6f7064756c0a5dcf4ad9d507c21446b9db9686cb384a",
+    "data/cmudict_reference/LICENSE": "bd4ce8e44170a5f9f481310ca85c51de3c4f851a65e679b40e603b143bd3542a",
+    "data/cmudict_reference/README": "00c34e7564f1f6a68de02e12c123d801471da92bc3091f7d89b605f238bf8554",
+    "data/cmudict_reference/SOURCE.json": "7343d456b768e116c3f02a8c27ea1fa2eb7a1cd036a94589d7278a085e6d43c6",
+    "data/cmudict_reference/cmudict.dict": "81917843c7f44ce2b094ac63873c2c7a4cf802040792c455ba3ca406891c3d22",
+    "data/cmudict_reference/cmudict.phones": "ffb588a5e55684723582c7256e1d2f9fadb130011392d9e59237c76e34c2cfd6",
+    "data/cmudict_reference/cmudict.symbols": "408ccaae803641c6d7b626b6299949320c2dbca96b2220fd3fb17887b023b027"
+  }
+}

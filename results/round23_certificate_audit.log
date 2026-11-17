@@ -1,0 +1,142 @@
+{
+  "scope": "Post-fit independent arithmetic audit; not another hypothesis search, semantic qualification or blinded validation. Length-vector enumeration does not import unit_morphism_solver.",
+  "local_empty_certificates": [
+    {
+      "family": "digraph",
+      "raw": "3222011",
+      "dictionary_forms_checked": 122368,
+      "explicit_length_vectors": 1,
+      "assignments": 0
+    },
+    {
+      "family": "digraph",
+      "raw": "337011",
+      "dictionary_forms_checked": 122368,
+      "explicit_length_vectors": 1,
+      "assignments": 0
+    },
+    {
+      "family": "grapheme1_3",
+      "raw": "3222011",
+      "dictionary_forms_checked": 122368,
+      "explicit_length_vectors": 81,
+      "assignments": 0
+    },
+    {
+      "family": "phone1_3",
+      "raw": "3222011",
+      "dictionary_forms_checked": 114787,
+      "explicit_length_vectors": 81,
+      "assignments": 0
+    },
+    {
+      "family": "phone1_3",
+      "raw": "337011",
+      "dictionary_forms_checked": 114787,
+      "explicit_length_vectors": 81,
+      "assignments": 0
+    },
+    {
+      "family": "syllable",
+      "raw": "3222011",
+      "dictionary_forms_checked": 114782,
+      "explicit_length_vectors": 1,
+      "assignments": 0
+    },
+    {
+      "family": "syllable",
+      "raw": "337011",
+      "dictionary_forms_checked": 114782,
+      "explicit_length_vectors": 1,
+      "assignments": 0
+    }
+  ],
+  "fixed_joint_empty_certificates": [
+    {
+      "family": "digraph",
+      "id": "knightmare",
+      "method": "explicit chunk-length enumeration followed by natural join of per-word assignments",
+      "keys": 0
+    },
+    {
+      "family": "syllable",
+      "id": "knightmare",
+      "method": "explicit chunk-length enumeration followed by natural join of per-word assignments",
+      "keys": 0
+    }
+  ],
+  "returned_key_checks": [
+    {
+      "family": "digraph",
+      "id": "avar_first10",
+      "returned_keys": 0,
+      "every_returned_key_verified": true
+    },
+    {
+      "family": "digraph",
+      "id": "avar_full20",
+      "returned_keys": 0,
+      "every_returned_key_verified": true
+    },
+    {
+      "family": "digraph",
+      "id": "knightmare",
+      "returned_keys": 0,
+      "every_returned_key_verified": true
+    },
+    {
+      "family": "grapheme1_3",
+      "id": "avar_first10",
+      "returned_keys": 0,
+      "every_returned_key_verified": true
+    },
+    {
+      "family": "grapheme1_3",
+      "id": "avar_full20",
+      "returned_keys": 0,
+      "every_returned_key_verified": true
+    },
+    {
+      "family": "grapheme1_3",
+      "id": "knightmare",
+      "returned_keys": 1769,
+      "every_returned_key_verified": true
+    },
+    {
+      "family": "phone1_3",
+      "id": "avar_first10",
+      "returned_keys": 0,
+      "every_returned_key_verified": true
+    },
+    {
+      "family": "phone1_3",
+      "id": "avar_full20",
+      "returned_keys": 0,
+      "every_returned_key_verified": true
+    },
+    {
+      "family": "phone1_3",
+      "id": "knightmare",
+      "returned_keys": 0,
+      "every_returned_key_verified": true
+    },
+    {
+      "family": "syllable",
+      "id": "avar_first10",
+      "returned_keys": 0,
+      "every_returned_key_verified": true
+    },
+    {
+      "family": "syllable",
+      "id": "avar_full20",
+      "returned_keys": 0,
+      "every_returned_key_verified": true
+    },
+    {
+      "family": "syllable",
+      "id": "knightmare",
+      "returned_keys": 0,
+      "every_returned_key_verified": true
+    }
+  ]
+}

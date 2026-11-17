@@ -1,0 +1,17 @@
+{
+  "offline_replay_exit_code": 0,
+  "snapshot_tree": "56acceda335afd465b16a6ee5dc0b45d61dd0daf",
+  "snapshot_scope": "Clean git-index archive; all frozen round23 input/program/result files match final working tree. Later editorial attributes and restoration of round8-frozen status files do not change the experiment.",
+  "frozen_round23_files_compared": 22,
+  "local_tests": {
+    "count": 229,
+    "passed": true,
+    "log": "results/round23_tests.log"
+  },
+  "joint_fits": 210,
+  "local_partition_fixtures": 120,
+  "joint_complete": 145,
+  "joint_incomplete": 65,
+  "translation_validated": false,
+  "replay_log_sha256": "836d4ec97a7b3acd00b266da01553c1e40436363300e38e948036fbcf02274c4"
+}

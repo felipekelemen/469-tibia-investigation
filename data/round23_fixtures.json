@@ -1,0 +1,3475 @@
+{
+  "selection": "Before fitting; frequent top40 units per allowed length, six length1/two length2/two length3 for variable families. Lexicographically first valid digit encoding. Need >=20 eligible distinct forms and all10digits used in eligible pool, not necessarily in seven discovery forms. No outcome-conditioned selection.",
+  "local": [
+    {
+      "family": "digraph",
+      "form": "DEEMER",
+      "raw": "765",
+      "key": {
+        "7": "DE",
+        "6": "EM",
+        "5": "ER"
+      }
+    },
+    {
+      "family": "digraph",
+      "form": "ALLINSON",
+      "raw": "8675",
+      "key": {
+        "8": "AL",
+        "6": "LI",
+        "7": "NS",
+        "5": "ON"
+      }
+    },
+    {
+      "family": "digraph",
+      "form": "GIGLIA",
+      "raw": "675",
+      "key": {
+        "6": "GI",
+        "7": "GL",
+        "5": "IA"
+      }
+    },
+    {
+      "family": "digraph",
+      "form": "EXTOLS",
+      "raw": "083",
+      "key": {
+        "0": "EX",
+        "3": "LS",
+        "8": "TO"
+      }
+    },
+    {
+      "family": "digraph",
+      "form": "DISPOSSESS",
+      "raw": "29081",
+      "key": {
+        "2": "DI",
+        "0": "OS",
+        "8": "SE",
+        "9": "SP",
+        "1": "SS"
+      }
+    },
+    {
+      "family": "digraph",
+      "form": "COMPLIMENT",
+      "raw": "38427",
+      "key": {
+        "3": "CO",
+        "4": "LI",
+        "2": "ME",
+        "8": "MP",
+        "7": "NT"
+      }
+    },
+    {
+      "family": "digraph",
+      "form": "ISCHEMIC",
+      "raw": "7396",
+      "key": {
+        "3": "CH",
+        "9": "EM",
+        "6": "IC",
+        "7": "IS"
+      }
+    },
+    {
+      "family": "digraph",
+      "form": "ECHOGRAPHY",
+      "raw": "16543",
+      "key": {
+        "4": "AP",
+        "1": "EC",
+        "5": "GR",
+        "6": "HO",
+        "3": "HY"
+      }
+    },
+    {
+      "family": "digraph",
+      "form": "LAUREY",
+      "raw": "704",
+      "key": {
+        "4": "EY",
+        "7": "LA",
+        "0": "UR"
+      }
+    },
+    {
+      "family": "digraph",
+      "form": "SHEELA",
+      "raw": "142",
+      "key": {
+        "4": "EE",
+        "2": "LA",
+        "1": "SH"
+      }
+    },
+    {
+      "family": "digraph",
+      "form": "JANITORIAL",
+      "raw": "97364",
+      "key": {
+        "4": "AL",
+        "9": "JA",
+        "7": "NI",
+        "6": "RI",
+        "3": "TO"
+      }
+    },
+    {
+      "family": "digraph",
+      "form": "HURLED",
+      "raw": "482",
+      "key": {
+        "2": "ED",
+        "4": "HU",
+        "8": "RL"
+      }
+    },
+    {
+      "family": "digraph",
+      "form": "BLUEST",
+      "raw": "108",
+      "key": {
+        "1": "BL",
+        "8": "ST",
+        "0": "UE"
+      }
+    },
+    {
+      "family": "digraph",
+      "form": "MCKOWN",
+      "raw": "963",
+      "key": {
+        "6": "KO",
+        "9": "MC",
+        "3": "WN"
+      }
+    },
+    {
+      "family": "digraph",
+      "form": "GENEROUSLY",
+      "raw": "47260",
+      "key": {
+        "4": "GE",
+        "0": "LY",
+        "7": "NE",
+        "2": "RO",
+        "6": "US"
+      }
+    },
+    {
+      "family": "digraph",
+      "form": "CONTRITION",
+      "raw": "14035",
+      "key": {
+        "1": "CO",
+        "4": "NT",
+        "5": "ON",
+        "0": "RI",
+        "3": "TI"
+      }
+    },
+    {
+      "family": "digraph",
+      "form": "BRESNICK",
+      "raw": "5843",
+      "key": {
+        "5": "BR",
+        "3": "CK",
+        "8": "ES",
+        "4": "NI"
+      }
+    },
+    {
+      "family": "digraph",
+      "form": "FURTAW",
+      "raw": "042",
+      "key": {
+        "2": "AW",
+        "0": "FU",
+        "4": "RT"
+      }
+    },
+    {
+      "family": "digraph",
+      "form": "WISNER",
+      "raw": "950",
+      "key": {
+        "0": "ER",
+        "5": "SN",
+        "9": "WI"
+      }
+    },
+    {
+      "family": "digraph",
+      "form": "PARAPHRASE",
+      "raw": "73238",
+      "key": {
+        "7": "PA",
+        "2": "PH",
+        "3": "RA",
+        "8": "SE"
+      }
+    },
+    {
+      "family": "digraph",
+      "form": "YERKEY",
+      "raw": "769",
+      "key": {
+        "9": "EY",
+        "6": "RK",
+        "7": "YE"
+      }
+    },
+    {
+      "family": "digraph",
+      "form": "SUBSEQUENT",
+      "raw": "57234",
+      "key": {
+        "7": "BS",
+        "2": "EQ",
+        "4": "NT",
+        "5": "SU",
+        "3": "UE"
+      }
+    },
+    {
+      "family": "digraph",
+      "form": "KHRUSHCHEV",
+      "raw": "92854",
+      "key": {
+        "5": "CH",
+        "4": "EV",
+        "9": "KH",
+        "2": "RU",
+        "8": "SH"
+      }
+    },
+    {
+      "family": "digraph",
+      "form": "SELMER",
+      "raw": "371",
+      "key": {
+        "1": "ER",
+        "7": "LM",
+        "3": "SE"
+      }
+    },
+    {
+      "family": "digraph",
+      "form": "CHIMENTI",
+      "raw": "1306",
+      "key": {
+        "1": "CH",
+        "0": "EN",
+        "3": "IM",
+        "6": "TI"
+      }
+    },
+    {
+      "family": "digraph",
+      "form": "TWILIGHT",
+      "raw": "2790",
+      "key": {
+        "0": "HT",
+        "9": "IG",
+        "7": "IL",
+        "2": "TW"
+      }
+    },
+    {
+      "family": "digraph",
+      "form": "KURANARI",
+      "raw": "5207",
+      "key": {
+        "5": "KU",
+        "0": "NA",
+        "2": "RA",
+        "7": "RI"
+      }
+    },
+    {
+      "family": "digraph",
+      "form": "FERRANDO",
+      "raw": "1694",
+      "key": {
+        "9": "AN",
+        "4": "DO",
+        "1": "FE",
+        "6": "RR"
+      }
+    },
+    {
+      "family": "digraph",
+      "form": "RIVETING",
+      "raw": "6487",
+      "key": {
+        "7": "NG",
+        "6": "RI",
+        "8": "TI",
+        "4": "VE"
+      }
+    },
+    {
+      "family": "digraph",
+      "form": "HAUENSTEIN",
+      "raw": "16347",
+      "key": {
+        "1": "HA",
+        "7": "IN",
+        "3": "NS",
+        "4": "TE",
+        "6": "UE"
+      }
+    },
+    {
+      "family": "grapheme1_3",
+      "form": "BANSHEE",
+      "raw": "8965",
+      "key": {
+        "8": "BAN",
+        "5": "EE",
+        "6": "H",
+        "9": "S"
+      }
+    },
+    {
+      "family": "grapheme1_3",
+      "form": "GAILE",
+      "raw": "154",
+      "key": {
+        "4": "E",
+        "1": "GAI",
+        "5": "L"
+      }
+    },
+    {
+      "family": "grapheme1_3",
+      "form": "ADENAUER",
+      "raw": "8610",
+      "key": {
+        "1": "A",
+        "8": "ADE",
+        "6": "N",
+        "0": "UER"
+      }
+    },
+    {
+      "family": "grapheme1_3",
+      "form": "PROBATIONERS",
+      "raw": "2350961",
+      "key": {
+        "9": "IO",
+        "6": "NER",
+        "5": "OBA",
+        "2": "P",
+        "3": "R",
+        "1": "S",
+        "0": "T"
+      }
+    },
+    {
+      "family": "grapheme1_3",
+      "form": "SJOSTROM",
+      "raw": "4637",
+      "key": {
+        "7": "OM",
+        "3": "R",
+        "4": "SJO",
+        "6": "ST"
+      }
+    },
+    {
+      "family": "grapheme1_3",
+      "form": "INAPPROPRIATELY",
+      "raw": "09841536",
+      "key": {
+        "5": "ATE",
+        "0": "I",
+        "3": "L",
+        "9": "NA",
+        "8": "PP",
+        "1": "PRI",
+        "4": "RO",
+        "6": "Y"
+      }
+    },
+    {
+      "family": "grapheme1_3",
+      "form": "KUHLENSCHMIDT",
+      "raw": "4376105",
+      "key": {
+        "5": "DT",
+        "7": "EN",
+        "1": "HM",
+        "0": "I",
+        "4": "K",
+        "6": "SC",
+        "3": "UHL"
+      }
+    },
+    {
+      "family": "grapheme1_3",
+      "form": "SHOWN",
+      "raw": "85",
+      "key": {
+        "8": "SHO",
+        "5": "WN"
+      }
+    },
+    {
+      "family": "grapheme1_3",
+      "form": "NOYD",
+      "raw": "867",
+      "key": {
+        "7": "D",
+        "8": "NO",
+        "6": "Y"
+      }
+    },
+    {
+      "family": "grapheme1_3",
+      "form": "CONSECRATE",
+      "raw": "94370",
+      "key": {
+        "0": "ATE",
+        "9": "C",
+        "7": "CR",
+        "3": "NSE",
+        "4": "O"
+      }
+    },
+    {
+      "family": "grapheme1_3",
+      "form": "PINEAPPLES",
+      "raw": "52340",
+      "key": {
+        "4": "E",
+        "2": "NEA",
+        "5": "PI",
+        "3": "PPL",
+        "0": "S"
+      }
+    },
+    {
+      "family": "grapheme1_3",
+      "form": "UNDISCOVERED",
+      "raw": "364928",
+      "key": {
+        "9": "COV",
+        "8": "ED",
+        "2": "ER",
+        "6": "NDI",
+        "4": "S",
+        "3": "U"
+      }
+    },
+    {
+      "family": "grapheme1_3",
+      "form": "UNPREDICTABLE",
+      "raw": "20968734",
+      "key": {
+        "7": "AB",
+        "6": "C",
+        "4": "E",
+        "9": "I",
+        "3": "L",
+        "0": "RED",
+        "8": "T",
+        "2": "UNP"
+      }
+    },
+    {
+      "family": "grapheme1_3",
+      "form": "VERGA",
+      "raw": "102",
+      "key": {
+        "0": "E",
+        "2": "RGA",
+        "1": "V"
+      }
+    },
+    {
+      "family": "grapheme1_3",
+      "form": "SWEIG",
+      "raw": "857",
+      "key": {
+        "5": "E",
+        "7": "IG",
+        "8": "SW"
+      }
+    },
+    {
+      "family": "grapheme1_3",
+      "form": "HONOLD",
+      "raw": "3267",
+      "key": {
+        "7": "D",
+        "3": "HO",
+        "6": "L",
+        "2": "NO"
+      }
+    },
+    {
+      "family": "grapheme1_3",
+      "form": "VOLIO",
+      "raw": "3865",
+      "key": {
+        "6": "I",
+        "8": "L",
+        "5": "O",
+        "3": "VO"
+      }
+    },
+    {
+      "family": "grapheme1_3",
+      "form": "CACCAMO",
+      "raw": "324",
+      "key": {
+        "3": "CA",
+        "2": "CCA",
+        "4": "MO"
+      }
+    },
+    {
+      "family": "grapheme1_3",
+      "form": "MOLDER",
+      "raw": "528",
+      "key": {
+        "2": "LDE",
+        "5": "MO",
+        "8": "R"
+      }
+    },
+    {
+      "family": "grapheme1_3",
+      "form": "FISHBECK",
+      "raw": "7609",
+      "key": {
+        "0": "BEC",
+        "7": "FI",
+        "9": "K",
+        "6": "SH"
+      }
+    },
+    {
+      "family": "grapheme1_3",
+      "form": "SINGLY",
+      "raw": "703",
+      "key": {
+        "0": "NGL",
+        "7": "SI",
+        "3": "Y"
+      }
+    },
+    {
+      "family": "grapheme1_3",
+      "form": "SERRATED",
+      "raw": "04391",
+      "key": {
+        "1": "D",
+        "9": "E",
+        "4": "RA",
+        "0": "SER",
+        "3": "T"
+      }
+    },
+    {
+      "family": "grapheme1_3",
+      "form": "ULSH",
+      "raw": "42",
+      "key": {
+        "2": "LSH",
+        "4": "U"
+      }
+    },
+    {
+      "family": "grapheme1_3",
+      "form": "KEITER",
+      "raw": "928",
+      "key": {
+        "2": "EIT",
+        "8": "ER",
+        "9": "K"
+      }
+    },
+    {
+      "family": "grapheme1_3",
+      "form": "COHN",
+      "raw": "51",
+      "key": {
+        "5": "C",
+        "1": "OHN"
+      }
+    },
+    {
+      "family": "grapheme1_3",
+      "form": "CRACKLING",
+      "raw": "1790",
+      "key": {
+        "7": "AC",
+        "1": "CR",
+        "9": "KLI",
+        "0": "NG"
+      }
+    },
+    {
+      "family": "grapheme1_3",
+      "form": "PARLER",
+      "raw": "159",
+      "key": {
+        "9": "LER",
+        "1": "PA",
+        "5": "R"
+      }
+    },
+    {
+      "family": "grapheme1_3",
+      "form": "LINDELL",
+      "raw": "2144",
+      "key": {
+        "1": "DE",
+        "4": "L",
+        "2": "LIN"
+      }
+    },
+    {
+      "family": "grapheme1_3",
+      "form": "PRESENTMENT",
+      "raw": "98376564",
+      "key": {
+        "3": "E",
+        "6": "EN",
+        "9": "P",
+        "8": "R",
+        "7": "S",
+        "4": "T",
+        "5": "TM"
+      }
+    },
+    {
+      "family": "grapheme1_3",
+      "form": "LU",
+      "raw": "3",
+      "key": {
+        "3": "LU"
+      }
+    },
+    {
+      "family": "phone1_3",
+      "form": "ĆěāĈĝċ",
+      "raw": "2368",
+      "key": {
+        "2": "Ć",
+        "8": "ċ",
+        "3": "ěāĈ",
+        "6": "ĝ"
+      }
+    },
+    {
+      "family": "phone1_3",
+      "form": "ĐĢĊĖĝĂĔđ",
+      "raw": "68405",
+      "key": {
+        "0": "ĂĔ",
+        "6": "ĐĢĊ",
+        "5": "đ",
+        "8": "Ė",
+        "4": "ĝ"
+      }
+    },
+    {
+      "family": "phone1_3",
+      "form": "ĕĀĈċĂĞĔđ",
+      "raw": "2317",
+      "key": {
+        "3": "ĀĈ",
+        "1": "ċĂĞ",
+        "7": "Ĕđ",
+        "2": "ĕ"
+      }
+    },
+    {
+      "family": "phone1_3",
+      "form": "ģđĈĂĖ",
+      "raw": "96",
+      "key": {
+        "6": "ĈĂĖ",
+        "9": "ģđ"
+      }
+    },
+    {
+      "family": "phone1_3",
+      "form": "ĆĔĂč",
+      "raw": "03",
+      "key": {
+        "0": "ĆĔĂ",
+        "3": "č"
+      }
+    },
+    {
+      "family": "phone1_3",
+      "form": "ĔąčĔĂĜ",
+      "raw": "376",
+      "key": {
+        "7": "ĔĂ",
+        "3": "Ĕąč",
+        "6": "Ĝ"
+      }
+    },
+    {
+      "family": "phone1_3",
+      "form": "ĜČĚđĂĖĥ",
+      "raw": "7952",
+      "key": {
+        "9": "ČĚ",
+        "5": "đĂĖ",
+        "7": "Ĝ",
+        "2": "ĥ"
+      }
+    },
+    {
+      "family": "phone1_3",
+      "form": "ēĠĖĥĂĔ",
+      "raw": "6912",
+      "key": {
+        "2": "ĂĔ",
+        "6": "ē",
+        "1": "Ėĥ",
+        "9": "Ġ"
+      }
+    },
+    {
+      "family": "phone1_3",
+      "form": "āēĂĈĊĕĐēĔđ",
+      "raw": "680124",
+      "key": {
+        "6": "ā",
+        "0": "Ċ",
+        "4": "đ",
+        "8": "ēĂĈ",
+        "2": "Ĕ",
+        "1": "ĕĐē"
+      }
+    },
+    {
+      "family": "phone1_3",
+      "form": "ĜāĔĢĐĒĈ",
+      "raw": "937",
+      "key": {
+        "7": "ĒĈ",
+        "9": "ĜāĔ",
+        "3": "ĢĐ"
+      }
+    },
+    {
+      "family": "phone1_3",
+      "form": "čĊĔĞđ",
+      "raw": "697",
+      "key": {
+        "9": "ĊĔĞ",
+        "6": "č",
+        "7": "đ"
+      }
+    },
+    {
+      "family": "phone1_3",
+      "form": "ĆāĜēČ",
+      "raw": "7380",
+      "key": {
+        "3": "ā",
+        "7": "Ć",
+        "0": "Č",
+        "8": "Ĝē"
+      }
+    },
+    {
+      "family": "phone1_3",
+      "form": "ĈĂĖĝđ",
+      "raw": "874",
+      "key": {
+        "8": "ĈĂĖ",
+        "4": "đ",
+        "7": "ĝ"
+      }
+    },
+    {
+      "family": "phone1_3",
+      "form": "ĜĞąĕċ",
+      "raw": "280",
+      "key": {
+        "0": "ĕċ",
+        "2": "Ĝ",
+        "8": "Ğą"
+      }
+    },
+    {
+      "family": "phone1_3",
+      "form": "ĜĕĐĎđĔĜēđ",
+      "raw": "5326",
+      "key": {
+        "3": "ĐĎ",
+        "2": "đĔĜ",
+        "6": "ēđ",
+        "5": "Ĝĕ"
+      }
+    },
+    {
+      "family": "phone1_3",
+      "form": "ĎĐĔĂēĂĖ",
+      "raw": "05459",
+      "key": {
+        "5": "Ă",
+        "0": "ĎĐĔ",
+        "4": "ē",
+        "9": "Ė"
+      }
+    },
+    {
+      "family": "phone1_3",
+      "form": "ĆăěĈĊĔĘ",
+      "raw": "9305",
+      "key": {
+        "3": "ăě",
+        "9": "Ć",
+        "0": "ĈĊĔ",
+        "5": "Ę"
+      }
+    },
+    {
+      "family": "phone1_3",
+      "form": "ĈāĥĂĔĈ",
+      "raw": "3913",
+      "key": {
+        "9": "āĥĂ",
+        "3": "Ĉ",
+        "1": "Ĕ"
+      }
+    },
+    {
+      "family": "phone1_3",
+      "form": "ĈČĝĀĥĘ",
+      "raw": "36780",
+      "key": {
+        "8": "Āĥ",
+        "3": "Ĉ",
+        "6": "Č",
+        "0": "Ę",
+        "7": "ĝ"
+      }
+    },
+    {
+      "family": "phone1_3",
+      "form": "ĊĢěĂĜĞĜ",
+      "raw": "530",
+      "key": {
+        "5": "Ċ",
+        "0": "ĜĞĜ",
+        "3": "ĢěĂ"
+      }
+    },
+    {
+      "family": "phone1_3",
+      "form": "ĜĐēĔġĈĐĈ",
+      "raw": "136734",
+      "key": {
+        "4": "Ĉ",
+        "3": "Đ",
+        "6": "ēĔ",
+        "1": "Ĝ",
+        "7": "ġĈ"
+      }
+    },
+    {
+      "family": "phone1_3",
+      "form": "ďĀěĔĐĖ",
+      "raw": "178",
+      "key": {
+        "1": "ďĀ",
+        "8": "ĐĖ",
+        "7": "ěĔ"
+      }
+    },
+    {
+      "family": "phone1_3",
+      "form": "ģĘĔĎĐĕġğ",
+      "raw": "6724",
+      "key": {
+        "2": "Đĕġ",
+        "7": "ĔĎ",
+        "4": "ğ",
+        "6": "ģĘ"
+      }
+    },
+    {
+      "family": "phone1_3",
+      "form": "ĎĘĔĜĂĖ",
+      "raw": "4678",
+      "key": {
+        "4": "ĎĘ",
+        "6": "Ĕ",
+        "8": "Ė",
+        "7": "ĜĂ"
+      }
+    },
+    {
+      "family": "phone1_3",
+      "form": "ĕĀĖĞ",
+      "raw": "63",
+      "key": {
+        "3": "ĀĖĞ",
+        "6": "ĕ"
+      }
+    },
+    {
+      "family": "phone1_3",
+      "form": "ĈĊĝĐĚċ",
+      "raw": "183",
+      "key": {
+        "1": "ĈĊ",
+        "3": "ċ",
+        "8": "ĝĐĚ"
+      }
+    },
+    {
+      "family": "phone1_3",
+      "form": "ĚĘĔċąĥ",
+      "raw": "907",
+      "key": {
+        "7": "ąĥ",
+        "0": "Ĕċ",
+        "9": "ĚĘ"
+      }
+    },
+    {
+      "family": "phone1_3",
+      "form": "ĈĂĚěĀĥ",
+      "raw": "891",
+      "key": {
+        "8": "ĈĂ",
+        "9": "ĚěĀ",
+        "1": "ĥ"
+      }
+    },
+    {
+      "family": "phone1_3",
+      "form": "ĚĐĖĂē",
+      "raw": "89",
+      "key": {
+        "9": "Ăē",
+        "8": "ĚĐĖ"
+      }
+    },
+    {
+      "family": "phone1_3",
+      "form": "ěąēďĘĔĈĥ",
+      "raw": "236057",
+      "key": {
+        "5": "Ĉ",
+        "6": "ďĘ",
+        "3": "ē",
+        "0": "Ĕ",
+        "2": "ěą",
+        "7": "ĥ"
+      }
+    },
+    {
+      "family": "syllable",
+      "form": "⎗ᾕ",
+      "raw": "26",
+      "key": {
+        "6": "ᾕ",
+        "2": "⎗"
+      }
+    },
+    {
+      "family": "syllable",
+      "form": "㓭Ⲹ㯓᫋",
+      "raw": "2741",
+      "key": {
+        "1": "᫋",
+        "7": "Ⲹ",
+        "2": "㓭",
+        "4": "㯓"
+      }
+    },
+    {
+      "family": "syllable",
+      "form": "伙⒇ᘘ",
+      "raw": "675",
+      "key": {
+        "5": "ᘘ",
+        "7": "⒇",
+        "6": "伙"
+      }
+    },
+    {
+      "family": "syllable",
+      "form": "㤂䘌⮼",
+      "raw": "849",
+      "key": {
+        "9": "⮼",
+        "8": "㤂",
+        "4": "䘌"
+      }
+    },
+    {
+      "family": "syllable",
+      "form": "㗺㋃",
+      "raw": "63",
+      "key": {
+        "3": "㋃",
+        "6": "㗺"
+      }
+    },
+    {
+      "family": "syllable",
+      "form": "ၙ㫍㟘",
+      "raw": "824",
+      "key": {
+        "8": "ၙ",
+        "4": "㟘",
+        "2": "㫍"
+      }
+    },
+    {
+      "family": "syllable",
+      "form": "㛳䩕㞪",
+      "raw": "254",
+      "key": {
+        "2": "㛳",
+        "4": "㞪",
+        "5": "䩕"
+      }
+    },
+    {
+      "family": "syllable",
+      "form": "㱷◦",
+      "raw": "35",
+      "key": {
+        "5": "◦",
+        "3": "㱷"
+      }
+    },
+    {
+      "family": "syllable",
+      "form": "ᔆ⯱",
+      "raw": "29",
+      "key": {
+        "2": "ᔆ",
+        "9": "⯱"
+      }
+    },
+    {
+      "family": "syllable",
+      "form": "⬂䙩㗒",
+      "raw": "907",
+      "key": {
+        "9": "⬂",
+        "7": "㗒",
+        "0": "䙩"
+      }
+    },
+    {
+      "family": "syllable",
+      "form": "⇻㰱",
+      "raw": "27",
+      "key": {
+        "2": "⇻",
+        "7": "㰱"
+      }
+    },
+    {
+      "family": "syllable",
+      "form": "≤ᬬ",
+      "raw": "80",
+      "key": {
+        "0": "ᬬ",
+        "8": "≤"
+      }
+    },
+    {
+      "family": "syllable",
+      "form": "余㕶ႉ",
+      "raw": "627",
+      "key": {
+        "7": "ႉ",
+        "2": "㕶",
+        "6": "余"
+      }
+    },
+    {
+      "family": "syllable",
+      "form": "⁠⒕",
+      "raw": "96",
+      "key": {
+        "9": "⁠",
+        "6": "⒕"
+      }
+    },
+    {
+      "family": "syllable",
+      "form": "㢬✞㨣",
+      "raw": "265",
+      "key": {
+        "6": "✞",
+        "2": "㢬",
+        "5": "㨣"
+      }
+    },
+    {
+      "family": "syllable",
+      "form": "䵠ᱨ",
+      "raw": "83",
+      "key": {
+        "3": "ᱨ",
+        "8": "䵠"
+      }
+    },
+    {
+      "family": "syllable",
+      "form": "丈㷚",
+      "raw": "78",
+      "key": {
+        "8": "㷚",
+        "7": "丈"
+      }
+    },
+    {
+      "family": "syllable",
+      "form": "ᛕ⮼◦⹌",
+      "raw": "3607",
+      "key": {
+        "3": "ᛕ",
+        "0": "◦",
+        "6": "⮼",
+        "7": "⹌"
+      }
+    },
+    {
+      "family": "syllable",
+      "form": "᎙",
+      "raw": "4",
+      "key": {
+        "4": "᎙"
+      }
+    },
+    {
+      "family": "syllable",
+      "form": "㢬៶⬴⯫",
+      "raw": "9186",
+      "key": {
+        "1": "៶",
+        "8": "⬴",
+        "6": "⯫",
+        "9": "㢬"
+      }
+    },
+    {
+      "family": "syllable",
+      "form": "ឩⱈ",
+      "raw": "50",
+      "key": {
+        "5": "ឩ",
+        "0": "ⱈ"
+      }
+    },
+    {
+      "family": "syllable",
+      "form": "㣭ႉኤ⮼䜬䝻",
+      "raw": "591076",
+      "key": {
+        "9": "ႉ",
+        "1": "ኤ",
+        "0": "⮼",
+        "5": "㣭",
+        "7": "䜬",
+        "6": "䝻"
+      }
+    },
+    {
+      "family": "syllable",
+      "form": "㙜₍⸚䝖",
+      "raw": "1258",
+      "key": {
+        "2": "₍",
+        "5": "⸚",
+        "1": "㙜",
+        "8": "䝖"
+      }
+    },
+    {
+      "family": "syllable",
+      "form": "ኤⵚ",
+      "raw": "13",
+      "key": {
+        "1": "ኤ",
+        "3": "ⵚ"
+      }
+    },
+    {
+      "family": "syllable",
+      "form": "➠㈢",
+      "raw": "42",
+      "key": {
+        "4": "➠",
+        "2": "㈢"
+      }
+    },
+    {
+      "family": "syllable",
+      "form": "၌ᢂ",
+      "raw": "76",
+      "key": {
+        "7": "၌",
+        "6": "ᢂ"
+      }
+    },
+    {
+      "family": "syllable",
+      "form": "⤎㵵",
+      "raw": "90",
+      "key": {
+        "9": "⤎",
+        "0": "㵵"
+      }
+    },
+    {
+      "family": "syllable",
+      "form": "㋝✞",
+      "raw": "39",
+      "key": {
+        "9": "✞",
+        "3": "㋝"
+      }
+    },
+    {
+      "family": "syllable",
+      "form": "⽏",
+      "raw": "3",
+      "key": {
+        "3": "⽏"
+      }
+    },
+    {
+      "family": "syllable",
+      "form": "ሬㅩᱚ",
+      "raw": "269",
+      "key": {
+        "2": "ሬ",
+        "9": "ᱚ",
+        "6": "ㅩ"
+      }
+    }
+  ],
+  "global": [
+    {
+      "id": "digraph_0",
+      "family": "digraph",
+      "key": {
+        "0": "SE",
+        "1": "IC",
+        "2": "RE",
+        "3": "ES",
+        "4": "TI",
+        "5": "NE",
+        "6": "IT",
+        "7": "IN",
+        "8": "DE",
+        "9": "HA"
+      },
+      "train": [
+        "050",
+        "83",
+        "96",
+        "74",
+        "29",
+        "27",
+        "48"
+      ],
+      "train_forms": [
+        "SENESE",
+        "DEES",
+        "HAIT",
+        "INTI",
+        "REHA",
+        "REIN",
+        "TIDE"
+      ],
+      "held": [
+        "8",
+        "26",
+        "45",
+        "03",
+        "0",
+        "24",
+        "97"
+      ],
+      "held_forms": [
+        "DE",
+        "REIT",
+        "TINE",
+        "SEES",
+        "SE",
+        "RETI",
+        "HAIN"
+      ],
+      "eligible_forms": 49,
+      "generation_attempt": 1
+    },
+    {
+      "id": "digraph_1",
+      "family": "digraph",
+      "key": {
+        "0": "TE",
+        "1": "AN",
+        "2": "IC",
+        "3": "NE",
+        "4": "EN",
+        "5": "LE",
+        "6": "RI",
+        "7": "LA",
+        "8": "IS",
+        "9": "IT"
+      },
+      "train": [
+        "87",
+        "77",
+        "04",
+        "78",
+        "00",
+        "51",
+        "5"
+      ],
+      "train_forms": [
+        "ISLA",
+        "LALA",
+        "TEEN",
+        "LAIS",
+        "TETE",
+        "LEAN",
+        "LE"
+      ],
+      "held": [
+        "730",
+        "94",
+        "54",
+        "465",
+        "70",
+        "225",
+        "10"
+      ],
+      "held_forms": [
+        "LANETE",
+        "ITEN",
+        "LEEN",
+        "ENRILE",
+        "LATE",
+        "ICICLE",
+        "ANTE"
+      ],
+      "eligible_forms": 45,
+      "generation_attempt": 2
+    },
+    {
+      "id": "digraph_2",
+      "family": "digraph",
+      "key": {
+        "0": "IS",
+        "1": "CO",
+        "2": "LL",
+        "3": "IT",
+        "4": "EN",
+        "5": "AT",
+        "6": "ED",
+        "7": "ES",
+        "8": "RI",
+        "9": "IC"
+      },
+      "train": [
+        "636",
+        "5",
+        "144",
+        "14",
+        "40",
+        "97",
+        "15"
+      ],
+      "train_forms": [
+        "EDITED",
+        "AT",
+        "COENEN",
+        "COEN",
+        "ENIS",
+        "ICES",
+        "COAT"
+      ],
+      "held": [
+        "3",
+        "57",
+        "86",
+        "120",
+        "874",
+        "82",
+        "1"
+      ],
+      "held_forms": [
+        "IT",
+        "ATES",
+        "RIED",
+        "COLLIS",
+        "RIESEN",
+        "RILL",
+        "CO"
+      ],
+      "eligible_forms": 38,
+      "generation_attempt": 3
+    },
+    {
+      "id": "digraph_3",
+      "family": "digraph",
+      "key": {
+        "0": "EN",
+        "1": "ER",
+        "2": "ES",
+        "3": "DE",
+        "4": "CO",
+        "5": "MA",
+        "6": "NG",
+        "7": "AS",
+        "8": "NS",
+        "9": "IC"
+      },
+      "train": [
+        "03",
+        "46",
+        "560",
+        "55",
+        "31",
+        "24",
+        "92"
+      ],
+      "train_forms": [
+        "ENDE",
+        "CONG",
+        "MANGEN",
+        "MAMA",
+        "DEER",
+        "ESCO",
+        "ICES"
+      ],
+      "held": [
+        "30",
+        "37",
+        "561",
+        "40",
+        "15",
+        "381",
+        "581"
+      ],
+      "held_forms": [
+        "DEEN",
+        "DEAS",
+        "MANGER",
+        "COEN",
+        "ERMA",
+        "DENSER",
+        "MANSER"
+      ],
+      "eligible_forms": 52,
+      "generation_attempt": 4
+    },
+    {
+      "id": "digraph_4",
+      "family": "digraph",
+      "key": {
+        "0": "NT",
+        "1": "SE",
+        "2": "LL",
+        "3": "IN",
+        "4": "IS",
+        "5": "ME",
+        "6": "EN",
+        "7": "HE",
+        "8": "RO",
+        "9": "AT"
+      },
+      "train": [
+        "14",
+        "682",
+        "19",
+        "81",
+        "4",
+        "87",
+        "96"
+      ],
+      "train_forms": [
+        "SEIS",
+        "ENROLL",
+        "SEAT",
+        "ROSE",
+        "IS",
+        "ROHE",
+        "ATEN"
+      ],
+      "held": [
+        "78",
+        "52",
+        "10",
+        "783",
+        "54",
+        "55",
+        "524"
+      ],
+      "held_forms": [
+        "HERO",
+        "MELL",
+        "SENT",
+        "HEROIN",
+        "MEIS",
+        "MEME",
+        "MELLIS"
+      ],
+      "eligible_forms": 52,
+      "generation_attempt": 5
+    },
+    {
+      "id": "digraph_5",
+      "family": "digraph",
+      "key": {
+        "0": "RA",
+        "1": "IN",
+        "2": "HE",
+        "3": "CO",
+        "4": "ME",
+        "5": "CH",
+        "6": "ON",
+        "7": "IC",
+        "8": "NT",
+        "9": "LA"
+      },
+      "train": [
+        "20",
+        "08",
+        "9",
+        "05",
+        "1",
+        "26",
+        "287"
+      ],
+      "train_forms": [
+        "HERA",
+        "RANT",
+        "LA",
+        "RACH",
+        "IN",
+        "HEON",
+        "HENTIC"
+      ],
+      "held": [
+        "3",
+        "072",
+        "336",
+        "90",
+        "33",
+        "2",
+        "02"
+      ],
+      "held_forms": [
+        "CO",
+        "RAICHE",
+        "COCOON",
+        "LARA",
+        "COCO",
+        "HE",
+        "RAHE"
+      ],
+      "eligible_forms": 50,
+      "generation_attempt": 6
+    },
+    {
+      "id": "digraph_6",
+      "family": "digraph",
+      "key": {
+        "0": "ES",
+        "1": "AS",
+        "2": "LL",
+        "3": "TI",
+        "4": "NG",
+        "5": "NT",
+        "6": "TA",
+        "7": "IN",
+        "8": "RI",
+        "9": "IC"
+      },
+      "train": [
+        "73",
+        "35",
+        "36",
+        "70",
+        "7",
+        "32",
+        "4"
+      ],
+      "train_forms": [
+        "INTI",
+        "TINT",
+        "TITA",
+        "INES",
+        "IN",
+        "TILL",
+        "NG"
+      ],
+      "held": [
+        "3",
+        "66",
+        "16",
+        "06",
+        "1",
+        "34",
+        "30"
+      ],
+      "held_forms": [
+        "TI",
+        "TATA",
+        "ASTA",
+        "ESTA",
+        "AS",
+        "TING",
+        "TIES"
+      ],
+      "eligible_forms": 30,
+      "generation_attempt": 7
+    },
+    {
+      "id": "digraph_7",
+      "family": "digraph",
+      "key": {
+        "0": "IS",
+        "1": "LL",
+        "2": "AL",
+        "3": "NE",
+        "4": "AT",
+        "5": "RE",
+        "6": "LI",
+        "7": "CO",
+        "8": "NT",
+        "9": "EN"
+      },
+      "train": [
+        "08",
+        "00",
+        "76",
+        "74",
+        "5",
+        "61",
+        "69"
+      ],
+      "train_forms": [
+        "ISNT",
+        "ISIS",
+        "COLI",
+        "COAT",
+        "RE",
+        "LILL",
+        "LIEN"
+      ],
+      "held": [
+        "509",
+        "310",
+        "30",
+        "719",
+        "309",
+        "975",
+        "7"
+      ],
+      "held_forms": [
+        "REISEN",
+        "NELLIS",
+        "NEIS",
+        "COLLEN",
+        "NEISEN",
+        "ENCORE",
+        "CO"
+      ],
+      "eligible_forms": 59,
+      "generation_attempt": 8
+    },
+    {
+      "id": "digraph_8",
+      "family": "digraph",
+      "key": {
+        "0": "ES",
+        "1": "CO",
+        "2": "LL",
+        "3": "OR",
+        "4": "TA",
+        "5": "AR",
+        "6": "HA",
+        "7": "AT",
+        "8": "IN",
+        "9": "NE"
+      },
+      "train": [
+        "18",
+        "42",
+        "64",
+        "62",
+        "1",
+        "38",
+        "628"
+      ],
+      "train_forms": [
+        "COIN",
+        "TALL",
+        "HATA",
+        "HALL",
+        "CO",
+        "ORIN",
+        "HALLIN"
+      ],
+      "held": [
+        "80",
+        "65",
+        "97",
+        "70",
+        "73",
+        "39",
+        "12"
+      ],
+      "held_forms": [
+        "INES",
+        "HAAR",
+        "NEAT",
+        "ATES",
+        "ATOR",
+        "ORNE",
+        "COLL"
+      ],
+      "eligible_forms": 61,
+      "generation_attempt": 9
+    },
+    {
+      "id": "digraph_9",
+      "family": "digraph",
+      "key": {
+        "0": "EL",
+        "1": "IS",
+        "2": "HE",
+        "3": "RO",
+        "4": "MA",
+        "5": "IC",
+        "6": "AR",
+        "7": "AS",
+        "8": "IT",
+        "9": "CO"
+      },
+      "train": [
+        "7",
+        "1",
+        "6",
+        "43",
+        "26",
+        "94",
+        "28"
+      ],
+      "train_forms": [
+        "AS",
+        "IS",
+        "AR",
+        "MARO",
+        "HEAR",
+        "COMA",
+        "HEIT"
+      ],
+      "held": [
+        "2",
+        "4",
+        "0",
+        "72",
+        "9",
+        "34",
+        "69"
+      ],
+      "held_forms": [
+        "HE",
+        "MA",
+        "EL",
+        "ASHE",
+        "CO",
+        "ROMA",
+        "ARCO"
+      ],
+      "eligible_forms": 47,
+      "generation_attempt": 10
+    },
+    {
+      "id": "grapheme1_3_0",
+      "family": "grapheme1_3",
+      "key": {
+        "0": "F",
+        "1": "X",
+        "2": "V",
+        "3": "RE",
+        "4": "O",
+        "5": "L",
+        "6": "MA",
+        "7": "R",
+        "8": "GER",
+        "9": "VER"
+      },
+      "train": [
+        "96",
+        "04737",
+        "654",
+        "5455",
+        "40",
+        "05437",
+        "3"
+      ],
+      "train_forms": [
+        "VERMA",
+        "FORRER",
+        "MALO",
+        "LOLL",
+        "OF",
+        "FLORER",
+        "RE"
+      ],
+      "held": [
+        "047",
+        "63",
+        "7450",
+        "6754",
+        "245567",
+        "64",
+        "474"
+      ],
+      "held_forms": [
+        "FOR",
+        "MARE",
+        "ROLF",
+        "MARLO",
+        "VOLLMAR",
+        "MAO",
+        "ORO"
+      ],
+      "eligible_forms": 122,
+      "generation_attempt": 1
+    },
+    {
+      "id": "grapheme1_3_1",
+      "family": "grapheme1_3",
+      "key": {
+        "0": "EN",
+        "1": "T",
+        "2": "X",
+        "3": "V",
+        "4": "P",
+        "5": "TER",
+        "6": "F",
+        "7": "R",
+        "8": "RES",
+        "9": "TA"
+      },
+      "train": [
+        "97",
+        "99",
+        "47",
+        "915",
+        "94",
+        "977",
+        "746"
+      ],
+      "train_forms": [
+        "TAR",
+        "TATA",
+        "PR",
+        "TATTER",
+        "TAP",
+        "TARR",
+        "RPF"
+      ],
+      "held": [
+        "101",
+        "966",
+        "34",
+        "8971",
+        "481",
+        "997",
+        "974"
+      ],
+      "held_forms": [
+        "TENT",
+        "TAFF",
+        "VP",
+        "RESTART",
+        "PREST",
+        "TATAR",
+        "TARP"
+      ],
+      "eligible_forms": 57,
+      "generation_attempt": 3
+    },
+    {
+      "id": "grapheme1_3_2",
+      "family": "grapheme1_3",
+      "key": {
+        "0": "R",
+        "1": "NE",
+        "2": "B",
+        "3": "LLE",
+        "4": "TIO",
+        "5": "X",
+        "6": "D",
+        "7": "LI",
+        "8": "C",
+        "9": "A"
+      },
+      "train": [
+        "68",
+        "6910",
+        "9672",
+        "73",
+        "60",
+        "90609",
+        "09690"
+      ],
+      "train_forms": [
+        "DC",
+        "DANER",
+        "ADLIB",
+        "LILLE",
+        "DR",
+        "ARDRA",
+        "RADAR"
+      ],
+      "held": [
+        "71",
+        "989",
+        "769",
+        "8901",
+        "7190",
+        "2969",
+        "2909290"
+      ],
+      "held_forms": [
+        "LINE",
+        "ACA",
+        "LIDA",
+        "CARNE",
+        "LINEAR",
+        "BADA",
+        "BARABAR"
+      ],
+      "eligible_forms": 205,
+      "generation_attempt": 4
+    },
+    {
+      "id": "grapheme1_3_3",
+      "family": "grapheme1_3",
+      "key": {
+        "0": "TA",
+        "1": "M",
+        "2": "K",
+        "3": "LAN",
+        "4": "CO",
+        "5": "F",
+        "6": "R",
+        "7": "V",
+        "8": "GER",
+        "9": "I"
+      },
+      "train": [
+        "298",
+        "4",
+        "88",
+        "91",
+        "5961",
+        "222",
+        "69229"
+      ],
+      "train_forms": [
+        "KIGER",
+        "CO",
+        "GERGER",
+        "IM",
+        "FIRM",
+        "KKK",
+        "RIKKI"
+      ],
+      "held": [
+        "290",
+        "594",
+        "39",
+        "29",
+        "23",
+        "7964",
+        "1939"
+      ],
+      "held_forms": [
+        "KITA",
+        "FICO",
+        "LANI",
+        "KI",
+        "KLAN",
+        "VIRCO",
+        "MILANI"
+      ],
+      "eligible_forms": 101,
+      "generation_attempt": 6
+    },
+    {
+      "id": "grapheme1_3_4",
+      "family": "grapheme1_3",
+      "key": {
+        "0": "M",
+        "1": "X",
+        "2": "CO",
+        "3": "H",
+        "4": "V",
+        "5": "RAN",
+        "6": "K",
+        "7": "EST",
+        "8": "P",
+        "9": "AN"
+      },
+      "train": [
+        "5",
+        "288",
+        "38",
+        "79",
+        "85",
+        "52",
+        "47"
+      ],
+      "train_forms": [
+        "RAN",
+        "COPP",
+        "HP",
+        "ESTAN",
+        "PRAN",
+        "RANCO",
+        "VEST"
+      ],
+      "held": [
+        "49",
+        "22",
+        "030",
+        "096",
+        "083",
+        "092",
+        "300"
+      ],
+      "held_forms": [
+        "VAN",
+        "COCO",
+        "MHM",
+        "MANK",
+        "MPH",
+        "MANCO",
+        "HMM"
+      ],
+      "eligible_forms": 56,
+      "generation_attempt": 7
+    },
+    {
+      "id": "grapheme1_3_5",
+      "family": "grapheme1_3",
+      "key": {
+        "0": "VER",
+        "1": "RA",
+        "2": "B",
+        "3": "R",
+        "4": "DER",
+        "5": "TI",
+        "6": "U",
+        "7": "Z",
+        "8": "N",
+        "9": "Q"
+      },
+      "train": [
+        "214",
+        "48",
+        "43",
+        "263",
+        "5858",
+        "08",
+        "364"
+      ],
+      "train_forms": [
+        "BRADER",
+        "DERN",
+        "DERR",
+        "BUR",
+        "TINTIN",
+        "VERN",
+        "RUDER"
+      ],
+      "held": [
+        "1268",
+        "8688",
+        "216",
+        "863",
+        "11",
+        "7638",
+        "862"
+      ],
+      "held_forms": [
+        "RABUN",
+        "NUNN",
+        "BRAU",
+        "NUR",
+        "RARA",
+        "ZURN",
+        "NUB"
+      ],
+      "eligible_forms": 72,
+      "generation_attempt": 8
+    },
+    {
+      "id": "grapheme1_3_6",
+      "family": "grapheme1_3",
+      "key": {
+        "0": "CH",
+        "1": "F",
+        "2": "X",
+        "3": "I",
+        "4": "AND",
+        "5": "Z",
+        "6": "ONS",
+        "7": "G",
+        "8": "L",
+        "9": "ST"
+      },
+      "train": [
+        "938",
+        "303",
+        "3887",
+        "84",
+        "132",
+        "53",
+        "388"
+      ],
+      "train_forms": [
+        "STIL",
+        "ICHI",
+        "ILLG",
+        "LAND",
+        "FIX",
+        "ZI",
+        "ILL"
+      ],
+      "held": [
+        "38311",
+        "73884",
+        "738",
+        "23",
+        "83184",
+        "738834",
+        "3"
+      ],
+      "held_forms": [
+        "ILIFF",
+        "GILLAND",
+        "GIL",
+        "XI",
+        "LIFLAND",
+        "GILLIAND",
+        "I"
+      ],
+      "eligible_forms": 84,
+      "generation_attempt": 9
+    },
+    {
+      "id": "grapheme1_3_7",
+      "family": "grapheme1_3",
+      "key": {
+        "0": "AS",
+        "1": "U",
+        "2": "A",
+        "3": "LI",
+        "4": "V",
+        "5": "Q",
+        "6": "ANT",
+        "7": "C",
+        "8": "Y",
+        "9": "LLE"
+      },
+      "train": [
+        "82",
+        "0",
+        "4298",
+        "246",
+        "48",
+        "76",
+        "86"
+      ],
+      "train_forms": [
+        "YA",
+        "AS",
+        "VALLEY",
+        "AVANT",
+        "VY",
+        "CANT",
+        "YANT"
+      ],
+      "held": [
+        "2",
+        "813",
+        "729",
+        "70",
+        "512",
+        "51",
+        "230"
+      ],
+      "held_forms": [
+        "A",
+        "YULI",
+        "CALLE",
+        "CAS",
+        "QUA",
+        "QU",
+        "ALIAS"
+      ],
+      "eligible_forms": 87,
+      "generation_attempt": 10
+    },
+    {
+      "id": "grapheme1_3_8",
+      "family": "grapheme1_3",
+      "key": {
+        "0": "ST",
+        "1": "IN",
+        "2": "ENT",
+        "3": "F",
+        "4": "H",
+        "5": "W",
+        "6": "GER",
+        "7": "O",
+        "8": "P",
+        "9": "Y"
+      },
+      "train": [
+        "575",
+        "516",
+        "47",
+        "47889",
+        "81",
+        "476",
+        "48"
+      ],
+      "train_forms": [
+        "WOW",
+        "WINGER",
+        "HO",
+        "HOPPY",
+        "PIN",
+        "HOGER",
+        "HP"
+      ],
+      "held": [
+        "67",
+        "54778",
+        "704733",
+        "87889",
+        "475",
+        "8370",
+        "9747"
+      ],
+      "held_forms": [
+        "GERO",
+        "WHOOP",
+        "OSTHOFF",
+        "POPPY",
+        "HOW",
+        "PFOST",
+        "YOHO"
+      ],
+      "eligible_forms": 122,
+      "generation_attempt": 11
+    },
+    {
+      "id": "grapheme1_3_9",
+      "family": "grapheme1_3",
+      "key": {
+        "0": "LLE",
+        "1": "IC",
+        "2": "O",
+        "3": "C",
+        "4": "V",
+        "5": "LE",
+        "6": "K",
+        "7": "X",
+        "8": "R",
+        "9": "RIN"
+      },
+      "train": [
+        "962",
+        "27",
+        "42",
+        "352",
+        "32365",
+        "25",
+        "373"
+      ],
+      "train_forms": [
+        "RINKO",
+        "OX",
+        "VO",
+        "CLEO",
+        "COCKLE",
+        "OLE",
+        "CXC"
+      ],
+      "held": [
+        "620",
+        "536",
+        "282",
+        "6226",
+        "82",
+        "823",
+        "28"
+      ],
+      "held_forms": [
+        "KOLLE",
+        "LECK",
+        "ORO",
+        "KOOK",
+        "RO",
+        "ROC",
+        "OR"
+      ],
+      "eligible_forms": 112,
+      "generation_attempt": 12
+    },
+    {
+      "id": "phone1_3_0",
+      "family": "phone1_3",
+      "key": {
+        "0": "Ď",
+        "1": "ĜĞĂ",
+        "2": "ġ",
+        "3": "Ĥ",
+        "4": "ĐĖ",
+        "5": "Ģ",
+        "6": "Ě",
+        "7": "ĕĂĖ",
+        "8": "ĞĐ",
+        "9": "ć"
+      },
+      "train": [
+        "94",
+        "5325",
+        "26",
+        "632",
+        "1",
+        "327",
+        "34"
+      ],
+      "train_forms": [
+        "ćĐĖ",
+        "ĢĤġĢ",
+        "ġĚ",
+        "ĚĤġ",
+        "ĜĞĂ",
+        "ĤġĕĂĖ",
+        "ĤĐĖ"
+      ],
+      "held": [
+        "626",
+        "0204",
+        "4",
+        "325",
+        "042",
+        "52",
+        "629"
+      ],
+      "held_forms": [
+        "ĚġĚ",
+        "ĎġĎĐĖ",
+        "ĐĖ",
+        "ĤġĢ",
+        "ĎĐĖġ",
+        "Ģġ",
+        "Ěġć"
+      ],
+      "eligible_forms": 38,
+      "generation_attempt": 2
+    },
+    {
+      "id": "phone1_3_1",
+      "family": "phone1_3",
+      "key": {
+        "0": "ģ",
+        "1": "Ę",
+        "2": "ą",
+        "3": "Ě",
+        "4": "ĐēĜ",
+        "5": "ĀĖ",
+        "6": "ę",
+        "7": "Ĝēđ",
+        "8": "ĐĖ",
+        "9": "Ė"
+      },
+      "train": [
+        "087",
+        "384",
+        "321",
+        "913",
+        "313",
+        "2",
+        "02"
+      ],
+      "train_forms": [
+        "ģĐĖĜēđ",
+        "ĚĐĖĐēĜ",
+        "ĚąĘ",
+        "ĖĘĚ",
+        "ĚĘĚ",
+        "ą",
+        "ģą"
+      ],
+      "held": [
+        "923",
+        "919",
+        "31",
+        "751",
+        "329",
+        "32",
+        "34"
+      ],
+      "held_forms": [
+        "ĖąĚ",
+        "ĖĘĖ",
+        "ĚĘ",
+        "ĜēđĀĖĘ",
+        "ĚąĖ",
+        "Ěą",
+        "ĚĐēĜ"
+      ],
+      "eligible_forms": 56,
+      "generation_attempt": 4
+    },
+    {
+      "id": "phone1_3_2",
+      "family": "phone1_3",
+      "key": {
+        "0": "Ĥ",
+        "1": "ď",
+        "2": "ĕĂ",
+        "3": "ĕ",
+        "4": "ĞĐė",
+        "5": "Ĝ",
+        "6": "Ě",
+        "7": "Ę",
+        "8": "ĂĜ",
+        "9": "ĔĂĖ"
+      },
+      "train": [
+        "379",
+        "68",
+        "6754",
+        "13",
+        "0707",
+        "5757",
+        "8"
+      ],
+      "train_forms": [
+        "ĕĘĔĂĖ",
+        "ĚĂĜ",
+        "ĚĘĜĞĐė",
+        "ďĕ",
+        "ĤĘĤĘ",
+        "ĜĘĜĘ",
+        "ĂĜ"
+      ],
+      "held": [
+        "573",
+        "172",
+        "376",
+        "25",
+        "57",
+        "672",
+        "07"
+      ],
+      "held_forms": [
+        "ĜĘĕ",
+        "ďĘĕĂ",
+        "ĕĘĚ",
+        "ĕĂĜ",
+        "ĜĘ",
+        "ĚĘĕĂ",
+        "ĤĘ"
+      ],
+      "eligible_forms": 56,
+      "generation_attempt": 5
+    },
+    {
+      "id": "phone1_3_3",
+      "family": "phone1_3",
+      "key": {
+        "0": "ą",
+        "1": "đ",
+        "2": "ĝĂ",
+        "3": "Ĝēđ",
+        "4": "Đē",
+        "5": "ĊěĂ",
+        "6": "Ģ",
+        "7": "ė",
+        "8": "Đ",
+        "9": "Ĉ"
+      },
+      "train": [
+        "9069",
+        "60",
+        "641",
+        "987",
+        "387",
+        "906",
+        "98609"
+      ],
+      "train_forms": [
+        "ĈąĢĈ",
+        "Ģą",
+        "ĢĐēđ",
+        "ĈĐė",
+        "ĜēđĐė",
+        "ĈąĢ",
+        "ĈĐĢąĈ"
+      ],
+      "held": [
+        "98619",
+        "87",
+        "91989",
+        "26",
+        "3",
+        "41",
+        "9891"
+      ],
+      "held_forms": [
+        "ĈĐĢđĈ",
+        "Đė",
+        "ĈđĈĐĈ",
+        "ĝĂĢ",
+        "Ĝēđ",
+        "Đēđ",
+        "ĈĐĈđ"
+      ],
+      "eligible_forms": 65,
+      "generation_attempt": 6
+    },
+    {
+      "id": "phone1_3_4",
+      "family": "phone1_3",
+      "key": {
+        "0": "Ĉ",
+        "1": "Ċ",
+        "2": "ĔĂ",
+        "3": "ă",
+        "4": "Ą",
+        "5": "ĐĜĞ",
+        "6": "Ď",
+        "7": "Ħ",
+        "8": "Ĝē",
+        "9": "ĜĞĂ"
+      },
+      "train": [
+        "160",
+        "036",
+        "04",
+        "26",
+        "3",
+        "64",
+        "28"
+      ],
+      "train_forms": [
+        "ĊĎĈ",
+        "ĈăĎ",
+        "ĈĄ",
+        "ĔĂĎ",
+        "ă",
+        "ĎĄ",
+        "ĔĂĜē"
+      ],
+      "held": [
+        "90",
+        "03",
+        "73",
+        "610",
+        "16",
+        "012",
+        "0360"
+      ],
+      "held_forms": [
+        "ĜĞĂĈ",
+        "Ĉă",
+        "Ħă",
+        "ĎĊĈ",
+        "ĊĎ",
+        "ĈĊĔĂ",
+        "ĈăĎĈ"
+      ],
+      "eligible_forms": 33,
+      "generation_attempt": 7
+    },
+    {
+      "id": "phone1_3_5",
+      "family": "phone1_3",
+      "key": {
+        "0": "ĂĔĥ",
+        "1": "ĕĂ",
+        "2": "Ē",
+        "3": "Ĥ",
+        "4": "Ě",
+        "5": "ĜĞĐ",
+        "6": "Đė",
+        "7": "Č",
+        "8": "Ď",
+        "9": "Ę"
+      },
+      "train": [
+        "87",
+        "79",
+        "4740",
+        "29",
+        "70",
+        "3939",
+        "472"
+      ],
+      "train_forms": [
+        "ĎČ",
+        "ČĘ",
+        "ĚČĚĂĔĥ",
+        "ĒĘ",
+        "ČĂĔĥ",
+        "ĤĘĤĘ",
+        "ĚČĒ"
+      ],
+      "held": [
+        "474",
+        "18",
+        "91",
+        "8746",
+        "58",
+        "46",
+        "494"
+      ],
+      "held_forms": [
+        "ĚČĚ",
+        "ĕĂĎ",
+        "ĘĕĂ",
+        "ĎČĚĐė",
+        "ĜĞĐĎ",
+        "ĚĐė",
+        "ĚĘĚ"
+      ],
+      "eligible_forms": 58,
+      "generation_attempt": 8
+    },
+    {
+      "id": "phone1_3_6",
+      "family": "phone1_3",
+      "key": {
+        "0": "Ĝēđ",
+        "1": "Ĉ",
+        "2": "Ğ",
+        "3": "ăě",
+        "4": "ĂĖ",
+        "5": "Ċ",
+        "6": "āĖĈ",
+        "7": "đ",
+        "8": "ď",
+        "9": "ĕ"
+      },
+      "train": [
+        "414",
+        "8717",
+        "859",
+        "59271",
+        "85",
+        "9417",
+        "1374"
+      ],
+      "train_forms": [
+        "ĂĖĈĂĖ",
+        "ďđĈđ",
+        "ďĊĕ",
+        "ĊĕĞđĈ",
+        "ďĊ",
+        "ĕĂĖĈđ",
+        "ĈăěđĂĖ"
+      ],
+      "held": [
+        "8594",
+        "974",
+        "1424",
+        "13527",
+        "152",
+        "972",
+        "27194"
+      ],
+      "held_forms": [
+        "ďĊĕĂĖ",
+        "ĕđĂĖ",
+        "ĈĂĖĞĂĖ",
+        "ĈăěĊĞđ",
+        "ĈĊĞ",
+        "ĕđĞ",
+        "ĞđĈĕĂĖ"
+      ],
+      "eligible_forms": 214,
+      "generation_attempt": 9
+    },
+    {
+      "id": "phone1_3_7",
+      "family": "phone1_3",
+      "key": {
+        "0": "ĜĂĖ",
+        "1": "ĕ",
+        "2": "ĉ",
+        "3": "ĝĂĖ",
+        "4": "ę",
+        "5": "Č",
+        "6": "ĂĔ",
+        "7": "ĝĂ",
+        "8": "Ĝ",
+        "9": "ă"
+      },
+      "train": [
+        "816",
+        "71",
+        "891",
+        "148",
+        "1",
+        "14",
+        "151"
+      ],
+      "train_forms": [
+        "ĜĕĂĔ",
+        "ĝĂĕ",
+        "Ĝăĕ",
+        "ĕęĜ",
+        "ĕ",
+        "ĕę",
+        "ĕČĕ"
+      ],
+      "held": [
+        "5",
+        "851",
+        "86",
+        "65",
+        "898",
+        "9",
+        "16"
+      ],
+      "held_forms": [
+        "Č",
+        "ĜČĕ",
+        "ĜĂĔ",
+        "ĂĔČ",
+        "ĜăĜ",
+        "ă",
+        "ĕĂĔ"
+      ],
+      "eligible_forms": 43,
+      "generation_attempt": 10
+    },
+    {
+      "id": "phone1_3_8",
+      "family": "phone1_3",
+      "key": {
+        "0": "ă",
+        "1": "āĖ",
+        "2": "ć",
+        "3": "ēĂĖ",
+        "4": "ĉ",
+        "5": "ĝ",
+        "6": "Ċě",
+        "7": "Ă",
+        "8": "ĜĞĂ",
+        "9": "Ħ"
+      },
+      "train": [
+        "67",
+        "217",
+        "90",
+        "517",
+        "3",
+        "1",
+        "20"
+      ],
+      "train_forms": [
+        "ĊěĂ",
+        "ćāĖĂ",
+        "Ħă",
+        "ĝāĖĂ",
+        "ēĂĖ",
+        "āĖ",
+        "ćă"
+      ],
+      "held": [
+        "41",
+        "02",
+        "5",
+        "56",
+        "51",
+        "8",
+        "74"
+      ],
+      "held_forms": [
+        "ĉāĖ",
+        "ăć",
+        "ĝ",
+        "ĝĊě",
+        "ĝāĖ",
+        "ĜĞĂ",
+        "Ăĉ"
+      ],
+      "eligible_forms": 25,
+      "generation_attempt": 11
+    },
+    {
+      "id": "phone1_3_9",
+      "family": "phone1_3",
+      "key": {
+        "0": "ĈĐĜ",
+        "1": "ġ",
+        "2": "Ĉ",
+        "3": "ė",
+        "4": "ĐĜ",
+        "5": "ď",
+        "6": "Ĥ",
+        "7": "ĂĜ",
+        "8": "ĖĂĔ",
+        "9": "Ě"
+      },
+      "train": [
+        "94",
+        "8",
+        "51",
+        "519",
+        "961",
+        "97",
+        "41"
+      ],
+      "train_forms": [
+        "ĚĐĜ",
+        "ĖĂĔ",
+        "ďġ",
+        "ďġĚ",
+        "ĚĤġ",
+        "ĚĂĜ",
+        "ĐĜġ"
+      ],
+      "held": [
+        "261",
+        "215",
+        "219",
+        "512",
+        "5191",
+        "513613",
+        "21"
+      ],
+      "held_forms": [
+        "ĈĤġ",
+        "Ĉġď",
+        "ĈġĚ",
+        "ďġĈ",
+        "ďġĚġ",
+        "ďġėĤġė",
+        "Ĉġ"
+      ],
+      "eligible_forms": 31,
+      "generation_attempt": 13
+    },
+    {
+      "id": "syllable_0",
+      "family": "syllable",
+      "key": {
+        "0": "㌘",
+        "1": "⳿",
+        "2": "䝾",
+        "3": "ႉ",
+        "4": "㨊",
+        "5": "♠",
+        "6": "ㅩ",
+        "7": "㌸",
+        "8": "◦",
+        "9": "⹌"
+      },
+      "train": [
+        "479",
+        "17",
+        "870",
+        "11",
+        "52",
+        "916",
+        "381"
+      ],
+      "train_forms": [
+        "㨊㌸⹌",
+        "⳿㌸",
+        "◦㌸㌘",
+        "⳿⳿",
+        "♠䝾",
+        "⹌⳿ㅩ",
+        "ႉ◦⳿"
+      ],
+      "held": [
+        "3103",
+        "574",
+        "13",
+        "06",
+        "419",
+        "81",
+        "661"
+      ],
+      "held_forms": [
+        "ႉ⳿㌘ႉ",
+        "♠㌸㨊",
+        "⳿ႉ",
+        "㌘ㅩ",
+        "㨊⳿⹌",
+        "◦⳿",
+        "ㅩㅩ⳿"
+      ],
+      "eligible_forms": 70,
+      "generation_attempt": 1
+    },
+    {
+      "id": "syllable_1",
+      "family": "syllable",
+      "key": {
+        "0": "⳿",
+        "1": "᫋",
+        "2": "◦",
+        "3": "♠",
+        "4": "㣭",
+        "5": "ᛕ",
+        "6": "㌘",
+        "7": "㢬",
+        "8": "ႉ",
+        "9": "⹌"
+      },
+      "train": [
+        "8068",
+        "06",
+        "6",
+        "024",
+        "5",
+        "490",
+        "246"
+      ],
+      "train_forms": [
+        "ႉ⳿㌘ႉ",
+        "⳿㌘",
+        "㌘",
+        "⳿◦㣭",
+        "ᛕ",
+        "㣭⹌⳿",
+        "◦㣭㌘"
+      ],
+      "held": [
+        "16",
+        "10",
+        "845",
+        "34",
+        "43",
+        "70",
+        "08"
+      ],
+      "held_forms": [
+        "᫋㌘",
+        "᫋⳿",
+        "ႉ㣭ᛕ",
+        "♠㣭",
+        "㣭♠",
+        "㢬⳿",
+        "⳿ႉ"
+      ],
+      "eligible_forms": 61,
+      "generation_attempt": 2
+    },
+    {
+      "id": "syllable_2",
+      "family": "syllable",
+      "key": {
+        "0": "䝪",
+        "1": "ᠬ",
+        "2": "⹥",
+        "3": "㔕",
+        "4": "᩽",
+        "5": "⑦",
+        "6": "㮓",
+        "7": "⑐",
+        "8": "ႉ",
+        "9": "⿈"
+      },
+      "train": [
+        "81",
+        "31",
+        "38",
+        "11",
+        "790",
+        "12",
+        "4"
+      ],
+      "train_forms": [
+        "ႉᠬ",
+        "㔕ᠬ",
+        "㔕ႉ",
+        "ᠬᠬ",
+        "⑐⿈䝪",
+        "ᠬ⹥",
+        "᩽"
+      ],
+      "held": [
+        "18",
+        "1",
+        "42",
+        "52",
+        "62",
+        "41",
+        "83"
+      ],
+      "held_forms": [
+        "ᠬႉ",
+        "ᠬ",
+        "᩽⹥",
+        "⑦⹥",
+        "㮓⹥",
+        "᩽ᠬ",
+        "ႉ㔕"
+      ],
+      "eligible_forms": 26,
+      "generation_attempt": 3
+    },
+    {
+      "id": "syllable_3",
+      "family": "syllable",
+      "key": {
+        "0": "㨊",
+        "1": "㢬",
+        "2": "✞",
+        "3": "⹥",
+        "4": "⤁",
+        "5": "က",
+        "6": "⳿",
+        "7": "ᛕ",
+        "8": "ᠬ",
+        "9": "⮼"
+      },
+      "train": [
+        "12",
+        "49",
+        "549",
+        "72",
+        "14",
+        "19",
+        "69"
+      ],
+      "train_forms": [
+        "㢬✞",
+        "⤁⮼",
+        "က⤁⮼",
+        "ᛕ✞",
+        "㢬⤁",
+        "㢬⮼",
+        "⳿⮼"
+      ],
+      "held": [
+        "58",
+        "850",
+        "50",
+        "523",
+        "96",
+        "2",
+        "60"
+      ],
+      "held_forms": [
+        "ကᠬ",
+        "ᠬက㨊",
+        "က㨊",
+        "က✞⹥",
+        "⮼⳿",
+        "✞",
+        "⳿㨊"
+      ],
+      "eligible_forms": 60,
+      "generation_attempt": 4
+    },
+    {
+      "id": "syllable_4",
+      "family": "syllable",
+      "key": {
+        "0": "◦",
+        "1": "䙩",
+        "2": "㌸",
+        "3": "䯸",
+        "4": "က",
+        "5": "㌘",
+        "6": "⹥",
+        "7": "✞",
+        "8": "⑐",
+        "9": "㢬"
+      },
+      "train": [
+        "51",
+        "6",
+        "93",
+        "02",
+        "07",
+        "17",
+        "85"
+      ],
+      "train_forms": [
+        "㌘䙩",
+        "⹥",
+        "㢬䯸",
+        "◦㌸",
+        "◦✞",
+        "䙩✞",
+        "⑐㌘"
+      ],
+      "held": [
+        "345",
+        "3",
+        "025",
+        "476",
+        "83",
+        "46",
+        "42"
+      ],
+      "held_forms": [
+        "䯸က㌘",
+        "䯸",
+        "◦㌸㌘",
+        "က✞⹥",
+        "⑐䯸",
+        "က⹥",
+        "က㌸"
+      ],
+      "eligible_forms": 44,
+      "generation_attempt": 5
+    },
+    {
+      "id": "syllable_5",
+      "family": "syllable",
+      "key": {
+        "0": "㯓",
+        "1": "᫋",
+        "2": "᩽",
+        "3": "◦",
+        "4": "⳿",
+        "5": "䯸",
+        "6": "㣭",
+        "7": "ᠬ",
+        "8": "က",
+        "9": "䜚"
+      },
+      "train": [
+        "007",
+        "49",
+        "05",
+        "47",
+        "8",
+        "7",
+        "980"
+      ],
+      "train_forms": [
+        "㯓㯓ᠬ",
+        "⳿䜚",
+        "㯓䯸",
+        "⳿ᠬ",
+        "က",
+        "ᠬ",
+        "䜚က㯓"
+      ],
+      "held": [
+        "070",
+        "70",
+        "1",
+        "0",
+        "64",
+        "587",
+        "86"
+      ],
+      "held_forms": [
+        "㯓ᠬ㯓",
+        "ᠬ㯓",
+        "᫋",
+        "㯓",
+        "㣭⳿",
+        "䯸ကᠬ",
+        "က㣭"
+      ],
+      "eligible_forms": 67,
+      "generation_attempt": 6
+    },
+    {
+      "id": "syllable_6",
+      "family": "syllable",
+      "key": {
+        "0": "㨊",
+        "1": "⿈",
+        "2": "䜚",
+        "3": "᫋",
+        "4": "ႉ",
+        "5": "⮼",
+        "6": "Ⴂ",
+        "7": "䝾",
+        "8": "䯸",
+        "9": "⹌"
+      },
+      "train": [
+        "52",
+        "305",
+        "92",
+        "3",
+        "7",
+        "30",
+        "4"
+      ],
+      "train_forms": [
+        "⮼䜚",
+        "᫋㨊⮼",
+        "⹌䜚",
+        "᫋",
+        "䝾",
+        "᫋㨊",
+        "ႉ"
+      ],
+      "held": [
+        "95",
+        "58",
+        "39",
+        "76",
+        "99",
+        "0",
+        "8"
+      ],
+      "held_forms": [
+        "⹌⮼",
+        "⮼䯸",
+        "᫋⹌",
+        "䝾Ⴂ",
+        "⹌⹌",
+        "㨊",
+        "䯸"
+      ],
+      "eligible_forms": 23,
+      "generation_attempt": 7
+    },
+    {
+      "id": "syllable_7",
+      "family": "syllable",
+      "key": {
+        "0": "⮼",
+        "1": "Ⲹ",
+        "2": "ᛕ",
+        "3": "᩽",
+        "4": "㤓",
+        "5": "䙩",
+        "6": "⤁",
+        "7": "㏵",
+        "8": "ႉ",
+        "9": "㨊"
+      },
+      "train": [
+        "30",
+        "14",
+        "60",
+        "75",
+        "66",
+        "39",
+        "5"
+      ],
+      "train_forms": [
+        "᩽⮼",
+        "Ⲹ㤓",
+        "⤁⮼",
+        "㏵䙩",
+        "⤁⤁",
+        "᩽㨊",
+        "䙩"
+      ],
+      "held": [
+        "819",
+        "4",
+        "265",
+        "36",
+        "9",
+        "8",
+        "45"
+      ],
+      "held_forms": [
+        "ႉⲸ㨊",
+        "㤓",
+        "ᛕ⤁䙩",
+        "᩽⤁",
+        "㨊",
+        "ႉ",
+        "㤓䙩"
+      ],
+      "eligible_forms": 33,
+      "generation_attempt": 8
+    },
+    {
+      "id": "syllable_8",
+      "family": "syllable",
+      "key": {
+        "0": "⹌",
+        "1": "䏓",
+        "2": "ㅩ",
+        "3": "៶",
+        "4": "၌",
+        "5": "ᛕ",
+        "6": "㨊",
+        "7": "Ⲹ",
+        "8": "䯸",
+        "9": "䝾"
+      },
+      "train": [
+        "41",
+        "78",
+        "432",
+        "8469",
+        "39",
+        "76",
+        "1"
+      ],
+      "train_forms": [
+        "၌䏓",
+        "Ⲹ䯸",
+        "၌៶ㅩ",
+        "䯸၌㨊䝾",
+        "៶䝾",
+        "Ⲹ㨊",
+        "䏓"
+      ],
+      "held": [
+        "79",
+        "29",
+        "6",
+        "86",
+        "00",
+        "5",
+        "91"
+      ],
+      "held_forms": [
+        "Ⲹ䝾",
+        "ㅩ䝾",
+        "㨊",
+        "䯸㨊",
+        "⹌⹌",
+        "ᛕ",
+        "䝾䏓"
+      ],
+      "eligible_forms": 27,
+      "generation_attempt": 9
+    },
+    {
+      "id": "syllable_9",
+      "family": "syllable",
+      "key": {
+        "0": "ㅩ",
+        "1": "㔕",
+        "2": "⿈",
+        "3": "ႉ",
+        "4": "㮓",
+        "5": "㏵",
+        "6": "Ⲹ",
+        "7": "က",
+        "8": "⑦",
+        "9": "㨊"
+      },
+      "train": [
+        "40",
+        "20",
+        "35",
+        "13",
+        "920",
+        "5",
+        "15"
+      ],
+      "train_forms": [
+        "㮓ㅩ",
+        "⿈ㅩ",
+        "ႉ㏵",
+        "㔕ႉ",
+        "㨊⿈ㅩ",
+        "㏵",
+        "㔕㏵"
+      ],
+      "held": [
+        "9",
+        "31",
+        "18",
+        "50",
+        "91",
+        "69",
+        "10"
+      ],
+      "held_forms": [
+        "㨊",
+        "ႉ㔕",
+        "㔕⑦",
+        "㏵ㅩ",
+        "㨊㔕",
+        "Ⲹ㨊",
+        "㔕ㅩ"
+      ],
+      "eligible_forms": 25,
+      "generation_attempt": 10
+    }
+  ],
+  "lexicon": {
+    "parser_counts": {
+      "raw_lines": 135166,
+      "excluded_label": 1028,
+      "excluded_single_letter": 24
+    },
+    "retained_spellings": 122367,
+    "retained_pronunciations": 131132,
+    "phones": 39,
+    "operational_syllable_types": 16742,
+    "attested_onsets": 150,
+    "hypothetical_orthographic_additions": [
+      "BONELORD"
+    ],
+    "families": {
+      "digraph": {
+        "forms": 122368,
+        "spellings": 122368,
+        "minimum": 2,
+        "maximum": 2
+      },
+      "grapheme1_3": {
+        "forms": 122368,
+        "spellings": 122368,
+        "minimum": 1,
+        "maximum": 3
+      },
+      "phone1_3": {
+        "forms": 114787,
+        "spellings": 122367,
+        "minimum": 1,
+        "maximum": 3
+      },
+      "syllable": {
+        "forms": 114782,
+        "spellings": 122360,
+        "minimum": 1,
+        "maximum": 1
+      }
+    },
+    "scope": "Source pronunciations/stress stripping and deterministic onset heuristic; no Tibia semantics authenticated."
+  }
+}

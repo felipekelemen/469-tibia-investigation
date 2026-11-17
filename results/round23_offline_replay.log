@@ -1,0 +1,294 @@
+python3 scripts/run_round23.py
+fixture digraph_0 complete False keys 1919 states 2000
+fixture digraph_1 complete False keys 1915 states 2000
+fixture digraph_2 complete False keys 1992 states 2000
+fixture digraph_3 complete False keys 1916 states 2000
+fixture digraph_4 complete False keys 566 states 2000
+fixture digraph_5 complete False keys 1905 states 2000
+fixture digraph_6 complete False keys 1985 states 2000
+fixture digraph_7 complete False keys 1967 states 2000
+fixture digraph_8 complete False keys 515 states 2000
+fixture digraph_9 complete False keys 1901 states 2000
+fixture grapheme1_3_0 complete False keys 0 states 2000
+fixture grapheme1_3_1 complete False keys 1993 states 2000
+fixture grapheme1_3_2 complete False keys 1987 states 2000
+fixture grapheme1_3_3 complete False keys 1993 states 2000
+fixture grapheme1_3_4 complete False keys 1987 states 2000
+fixture grapheme1_3_5 complete False keys 1941 states 2000
+fixture grapheme1_3_6 complete False keys 1992 states 2000
+fixture grapheme1_3_7 complete False keys 1984 states 2000
+fixture grapheme1_3_8 complete False keys 194 states 2000
+fixture grapheme1_3_9 complete False keys 1948 states 2000
+fixture phone1_3_0 complete False keys 1993 states 2000
+fixture phone1_3_1 complete False keys 1975 states 2000
+fixture phone1_3_2 complete False keys 1983 states 2000
+fixture phone1_3_3 complete False keys 1977 states 2000
+fixture phone1_3_4 complete False keys 1986 states 2000
+fixture phone1_3_5 complete False keys 117 states 2000
+fixture phone1_3_6 complete False keys 90 states 2000
+fixture phone1_3_7 complete False keys 1932 states 2000
+fixture phone1_3_8 complete False keys 1992 states 2000
+fixture phone1_3_9 complete False keys 1041 states 2000
+fixture syllable_0 complete False keys 1994 states 2000
+fixture syllable_1 complete False keys 1909 states 2000
+fixture syllable_2 complete False keys 1991 states 2000
+fixture syllable_3 complete False keys 1980 states 2000
+fixture syllable_4 complete False keys 1993 states 2000
+fixture syllable_5 complete False keys 1973 states 2000
+fixture syllable_6 complete False keys 1976 states 2000
+fixture syllable_7 complete False keys 1993 states 2000
+fixture syllable_8 complete False keys 241 states 2000
+fixture syllable_9 complete False keys 1937 states 2000
+target digraph avar_first10 complete True keys 0 states 0
+target digraph avar_full20 complete True keys 0 states 0
+target digraph knightmare complete True keys 0 states 9
+target grapheme1_3 avar_first10 complete True keys 0 states 0
+target grapheme1_3 avar_full20 complete True keys 0 states 0
+target grapheme1_3 knightmare complete False keys 1769 states 2000
+target phone1_3 avar_first10 complete True keys 0 states 0
+target phone1_3 avar_full20 complete True keys 0 states 0
+target phone1_3 knightmare complete True keys 0 states 1611
+target syllable avar_first10 complete True keys 0 states 0
+target syllable avar_full20 complete True keys 0 states 0
+target syllable knightmare complete True keys 0 states 3
+control avar_first10_shuffle_0
+control avar_first10_shuffle_1
+control avar_first10_shuffle_2
+control avar_first10_shuffle_3
+control avar_first10_shuffle_4
+control avar_first10_shuffle_5
+control avar_first10_shuffle_6
+control avar_first10_shuffle_7
+control avar_first10_shuffle_8
+control avar_first10_shuffle_9
+control avar_first10_shuffle_10
+control avar_first10_shuffle_11
+control avar_first10_shuffle_12
+control avar_first10_shuffle_13
+control avar_first10_shuffle_14
+control avar_first10_shuffle_15
+control avar_first10_shuffle_16
+control avar_first10_shuffle_17
+control avar_first10_shuffle_18
+control knightmare_shuffle_0
+control knightmare_shuffle_1
+control knightmare_shuffle_2
+control knightmare_shuffle_3
+control knightmare_shuffle_4
+control knightmare_shuffle_5
+control knightmare_shuffle_6
+control knightmare_shuffle_7
+control knightmare_shuffle_8
+control knightmare_shuffle_9
+control knightmare_shuffle_10
+control knightmare_shuffle_11
+control knightmare_shuffle_12
+control knightmare_shuffle_13
+control knightmare_shuffle_14
+control knightmare_shuffle_15
+control knightmare_shuffle_16
+control knightmare_shuffle_17
+control knightmare_shuffle_18
+{
+  "families": {
+    "digraph": {
+      "local_fixtures": 30,
+      "local_truth_retained": 30,
+      "global_fixtures": 10,
+      "global_complete": 0,
+      "global_truth_retained": 0,
+      "global_unique_keys": 0,
+      "held_forms": 70,
+      "held_unique_correct_forms": 0,
+      "held_unique_wrong_forms": 0,
+      "held_unique_spellings": 0,
+      "real": [
+        {
+          "id": "avar_first10",
+          "complete": true,
+          "states": 0,
+          "keys": 0,
+          "root_impossible_groups": [
+            "9063376290",
+            "3222011",
+            "80322429",
+            "6880326"
+          ]
+        },
+        {
+          "id": "avar_full20",
+          "complete": true,
+          "states": 0,
+          "keys": 0,
+          "root_impossible_groups": [
+            "9063376290",
+            "3222011",
+            "80322429",
+            "6880326",
+            "63378129",
+            "337011",
+            "578300",
+            "2953639"
+          ]
+        },
+        {
+          "id": "knightmare",
+          "complete": true,
+          "states": 9,
+          "keys": 0,
+          "root_impossible_groups": []
+        }
+      ],
+      "null_fits": 38,
+      "null_complete": 38,
+      "null_nonempty": 0
+    },
+    "grapheme1_3": {
+      "local_fixtures": 30,
+      "local_truth_retained": 30,
+      "global_fixtures": 10,
+      "global_complete": 0,
+      "global_truth_retained": 0,
+      "global_unique_keys": 0,
+      "held_forms": 70,
+      "held_unique_correct_forms": 0,
+      "held_unique_wrong_forms": 0,
+      "held_unique_spellings": 0,
+      "real": [
+        {
+          "id": "avar_first10",
+          "complete": true,
+          "states": 0,
+          "keys": 0,
+          "root_impossible_groups": [
+            "9063376290",
+            "3222011"
+          ]
+        },
+        {
+          "id": "avar_full20",
+          "complete": true,
+          "states": 0,
+          "keys": 0,
+          "root_impossible_groups": [
+            "9063376290",
+            "3222011"
+          ]
+        },
+        {
+          "id": "knightmare",
+          "complete": false,
+          "states": 2000,
+          "keys": 1769,
+          "root_impossible_groups": []
+        }
+      ],
+      "null_fits": 38,
+      "null_complete": 20,
+      "null_nonempty": 18
+    },
+    "phone1_3": {
+      "local_fixtures": 30,
+      "local_truth_retained": 30,
+      "global_fixtures": 10,
+      "global_complete": 0,
+      "global_truth_retained": 0,
+      "global_unique_keys": 0,
+      "held_forms": 70,
+      "held_unique_correct_forms": 0,
+      "held_unique_wrong_forms": 0,
+      "held_unique_spellings": 0,
+      "real": [
+        {
+          "id": "avar_first10",
+          "complete": true,
+          "states": 0,
+          "keys": 0,
+          "root_impossible_groups": [
+            "9063376290",
+            "3222011",
+            "6880326"
+          ]
+        },
+        {
+          "id": "avar_full20",
+          "complete": true,
+          "states": 0,
+          "keys": 0,
+          "root_impossible_groups": [
+            "9063376290",
+            "3222011",
+            "6880326",
+            "337011"
+          ]
+        },
+        {
+          "id": "knightmare",
+          "complete": true,
+          "states": 1611,
+          "keys": 0,
+          "root_impossible_groups": []
+        }
+      ],
+      "null_fits": 38,
+      "null_complete": 32,
+      "null_nonempty": 6
+    },
+    "syllable": {
+      "local_fixtures": 30,
+      "local_truth_retained": 30,
+      "global_fixtures": 10,
+      "global_complete": 0,
+      "global_truth_retained": 0,
+      "global_unique_keys": 0,
+      "held_forms": 70,
+      "held_unique_correct_forms": 0,
+      "held_unique_wrong_forms": 0,
+      "held_unique_spellings": 0,
+      "real": [
+        {
+          "id": "avar_first10",
+          "complete": true,
+          "states": 0,
+          "keys": 0,
+          "root_impossible_groups": [
+            "9063376290",
+            "3222011",
+            "80322429",
+            "14805394",
+            "6880326"
+          ]
+        },
+        {
+          "id": "avar_full20",
+          "complete": true,
+          "states": 0,
+          "keys": 0,
+          "root_impossible_groups": [
+            "9063376290",
+            "3222011",
+            "80322429",
+            "14805394",
+            "6880326",
+            "63378129",
+            "337011",
+            "578300",
+            "2953639"
+          ]
+        },
+        {
+          "id": "knightmare",
+          "complete": true,
+          "states": 3,
+          "keys": 0,
+          "root_impossible_groups": []
+        }
+      ],
+      "null_fits": 38,
+      "null_complete": 38,
+      "null_nonempty": 0
+    }
+  },
+  "translation_validated": false
+}
+Round23 synthetic fixtures, target fits, controls and independent certificates replayed.

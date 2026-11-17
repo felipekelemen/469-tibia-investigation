@@ -1,0 +1,202 @@
+{
+  "families": {
+    "digraph": {
+      "global_complete": 0,
+      "global_fixtures": 10,
+      "global_truth_retained": 0,
+      "global_unique_keys": 0,
+      "held_forms": 70,
+      "held_unique_correct_forms": 0,
+      "held_unique_spellings": 0,
+      "held_unique_wrong_forms": 0,
+      "local_fixtures": 30,
+      "local_truth_retained": 30,
+      "null_complete": 38,
+      "null_fits": 38,
+      "null_nonempty": 0,
+      "real": [
+        {
+          "complete": true,
+          "id": "avar_first10",
+          "keys": 0,
+          "root_impossible_groups": [
+            "9063376290",
+            "3222011",
+            "80322429",
+            "6880326"
+          ],
+          "states": 0
+        },
+        {
+          "complete": true,
+          "id": "avar_full20",
+          "keys": 0,
+          "root_impossible_groups": [
+            "9063376290",
+            "3222011",
+            "80322429",
+            "6880326",
+            "63378129",
+            "337011",
+            "578300",
+            "2953639"
+          ],
+          "states": 0
+        },
+        {
+          "complete": true,
+          "id": "knightmare",
+          "keys": 0,
+          "root_impossible_groups": [],
+          "states": 9
+        }
+      ]
+    },
+    "grapheme1_3": {
+      "global_complete": 0,
+      "global_fixtures": 10,
+      "global_truth_retained": 0,
+      "global_unique_keys": 0,
+      "held_forms": 70,
+      "held_unique_correct_forms": 0,
+      "held_unique_spellings": 0,
+      "held_unique_wrong_forms": 0,
+      "local_fixtures": 30,
+      "local_truth_retained": 30,
+      "null_complete": 20,
+      "null_fits": 38,
+      "null_nonempty": 18,
+      "real": [
+        {
+          "complete": true,
+          "id": "avar_first10",
+          "keys": 0,
+          "root_impossible_groups": [
+            "9063376290",
+            "3222011"
+          ],
+          "states": 0
+        },
+        {
+          "complete": true,
+          "id": "avar_full20",
+          "keys": 0,
+          "root_impossible_groups": [
+            "9063376290",
+            "3222011"
+          ],
+          "states": 0
+        },
+        {
+          "complete": false,
+          "id": "knightmare",
+          "keys": 1769,
+          "root_impossible_groups": [],
+          "states": 2000
+        }
+      ]
+    },
+    "phone1_3": {
+      "global_complete": 0,
+      "global_fixtures": 10,
+      "global_truth_retained": 0,
+      "global_unique_keys": 0,
+      "held_forms": 70,
+      "held_unique_correct_forms": 0,
+      "held_unique_spellings": 0,
+      "held_unique_wrong_forms": 0,
+      "local_fixtures": 30,
+      "local_truth_retained": 30,
+      "null_complete": 32,
+      "null_fits": 38,
+      "null_nonempty": 6,
+      "real": [
+        {
+          "complete": true,
+          "id": "avar_first10",
+          "keys": 0,
+          "root_impossible_groups": [
+            "9063376290",
+            "3222011",
+            "6880326"
+          ],
+          "states": 0
+        },
+        {
+          "complete": true,
+          "id": "avar_full20",
+          "keys": 0,
+          "root_impossible_groups": [
+            "9063376290",
+            "3222011",
+            "6880326",
+            "337011"
+          ],
+          "states": 0
+        },
+        {
+          "complete": true,
+          "id": "knightmare",
+          "keys": 0,
+          "root_impossible_groups": [],
+          "states": 1611
+        }
+      ]
+    },
+    "syllable": {
+      "global_complete": 0,
+      "global_fixtures": 10,
+      "global_truth_retained": 0,
+      "global_unique_keys": 0,
+      "held_forms": 70,
+      "held_unique_correct_forms": 0,
+      "held_unique_spellings": 0,
+      "held_unique_wrong_forms": 0,
+      "local_fixtures": 30,
+      "local_truth_retained": 30,
+      "null_complete": 38,
+      "null_fits": 38,
+      "null_nonempty": 0,
+      "real": [
+        {
+          "complete": true,
+          "id": "avar_first10",
+          "keys": 0,
+          "root_impossible_groups": [
+            "9063376290",
+            "3222011",
+            "80322429",
+            "14805394",
+            "6880326"
+          ],
+          "states": 0
+        },
+        {
+          "complete": true,
+          "id": "avar_full20",
+          "keys": 0,
+          "root_impossible_groups": [
+            "9063376290",
+            "3222011",
+            "80322429",
+            "14805394",
+            "6880326",
+            "63378129",
+            "337011",
+            "578300",
+            "2953639"
+          ],
+          "states": 0
+        },
+        {
+          "complete": true,
+          "id": "knightmare",
+          "keys": 0,
+          "root_impossible_groups": [],
+          "states": 3
+        }
+      ]
+    }
+  },
+  "translation_validated": false
+}

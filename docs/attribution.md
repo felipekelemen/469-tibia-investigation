@@ -103,3 +103,19 @@ Não houve nova fonte semântica externa. Trie, autômato de subconjuntos e busc
 finita por chaves são técnicas clássicas; a implementação C++17 e os verificadores
 são código do projeto. A análise BY/ME e AHEAD/READ é um certificado posterior
 de ambiguidade desses codecs, sem alegação de tradução da linguagem469.
+
+
+## Rodada23
+
+CMU Pronouncing Dictionary, Carnegie Mellon University e colaboradores,
+[cmusphinx/cmudict](https://github.com/cmusphinx/cmudict), commit
+`74790861f652b15e4ac49015a90074ad62a27690`. O snapshot inclui o dicionário,
+lista de fonemas/símbolos, README e licença original, com avisos completos
+em `data/cmudict_reference/LICENSE` e hashes em `SOURCE.json`. A licença
+permite redistribuição com preservação dos avisos e isenções. Esse material
+não recebe a licença MIT do código do projeto. Não é texto paralelo de Tibia.
+
+Normalização de grafias, retirada de acentos tônicos e silabificação operacional
+são transformações documentadas do projeto. BONELORD foi acrescentado apenas
+como grafia hipotética pedida pelo usuário; não inventamos sua pronúncia.
+Os textos numéricos continuam os do inventário atribuído anteriormente.

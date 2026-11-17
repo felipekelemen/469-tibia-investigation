@@ -642,5 +642,33 @@
     "status": "rejected_by_explicit_codec_collisions_and_synthetic_ambiguity",
     "evidence": "360/360chaves verdadeiras retidas;270fixtures com chave única,35também com caminhos de palavras únicos. A0:BY/ME=124;A1:AHEAD/READ=18514. São exemplos sintéticos, sem gloss de469.",
     "artifact": "data/round22_summary.json"
+  },
+  {
+    "id": "H93",
+    "hypothesis": "Cada dígito de Avar Tar emite um dígrafo, bloco de1–3letras/fonemas ou uma sílaba fixa, preservando fronteiras de palavras",
+    "status": "no_key_in_four_frozen_cmudict_unit_models",
+    "evidence": "Oito ajustes prefixo10/full20 completos sem chave;3222011 incompatível nas quatro regras. Certificados conferidos por vetores de comprimento independentes. Escopo lexical restrito; prefixo e total se sobrepõem.",
+    "artifact": "results/round23_certificate_audit.json"
+  },
+  {
+    "id": "H94",
+    "hypothesis": "Knightmare admite chave fixa de unidades por dígito no vocabulário CMU",
+    "status": "three_models_complete_empty_variable_graphemes_incomplete",
+    "evidence": "Dígrafos,1–3fonemas e sílabas completos sem chave.1–3letras:1769chaves lexicais antes do limite2000estados;18/19controles embaralhados também têm chaves. Sem inglês validado; dígito2ausente impede transferência completa paraChayenne.",
+    "artifact": "results/round23_targets.json"
+  },
+  {
+    "id": "H95",
+    "hypothesis": "3478codifica BEHOLDER ou BONELORD e a mesma chave de unidades explica toda a fala deKnightmare",
+    "status": "no_key_in_six_available_lexical_crib_fits_two_phonetic_name_cases_unavailable",
+    "evidence": "Seis ajustes completos sem chave. Partições isoladas:1/19para cada nome nas regras ortográficas;16paraBEHOLDERemfonemas;0emsílabas. BONELORDsempronúncia não foi inventado. Nomes são hipóteses, não pares atestados.",
+    "artifact": "results/round23_targets.json"
+  },
+  {
+    "id": "H96",
+    "hypothesis": "Sete formas lexicais sintéticas bastam para recuperar chaves de unidades maiores com o orçamento registrado",
+    "status": "not_qualified_all_forty_joint_positive_searches_budget_limited",
+    "evidence": "120/120testes locais retêm partição verdadeira, mas40/40buscas conjuntas chegam a2000estados sem enumerar chave verdadeira.65673chaves alternativas em39casos. Nenhuma das280formas reservadas tem previsão certificada; listas condicionadas ao vocabulário não são prosa.",
+    "artifact": "results/round23_qualification.json"
   }
 ]

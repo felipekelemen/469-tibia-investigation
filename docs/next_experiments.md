@@ -488,3 +488,19 @@ coerente nem a validação cega. Nos360positivos,270têm chave única e apenas35
 têm também caminhos de palavras únicos. Priorizar unidades maiores com
 vocabulário externo, controle de termos ausentes e qualificação anterior à
 aplicação ao jogo. Não aumentar períodos da mesma família sem nova pista.
+
+
+Atualização após a [rodada23](round23.md): CMUdict fixado e quatro regras de
+unidades por dígito executadas. Avar é incompatível com todas sob as fronteiras
+assumidas; Knightmare tem três regras completas sem chave e uma busca de letras
+limitada com1.769chaves lexicais. Os seis ajustes possíveis de3478aBEHOLDER/
+BONELORD não explicam toda a fala. Chayenne permanece sem transferência completa
+porque o dígito2não aparece em Knightmare.
+
+A prioridade imediata de P02/P05 é a qualificação informativa de unidades:
+40/40listas sintéticas atingiram o orçamento, sem recuperar a chave verdadeira.
+Fixar controles com todos os dígitos observados, mais contextos distintos e
+vocabulário/nomes/homófonos explicitamente separados antes de novos ajustes.
+Comparar fronteiras de palavras preservadas/ocultas somente com novo protocolo.
+Não ampliar o léxico após ler saídas, nem promover palavras avulsas como tradução.
+Os152nulos incluem24buscas limitadas; não inferir significância delas.
