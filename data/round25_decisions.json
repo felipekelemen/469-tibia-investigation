@@ -1,0 +1,40 @@
+[
+  {
+    "hypothesis": "contextual_entity_name",
+    "status": "confirmed_in_retrieved_wiki_revisions",
+    "source": "results/round25_history.json",
+    "limit": "Not an authenticated game release date, universal gloss or internal ID"
+  },
+  {
+    "hypothesis": "internal_entity_id",
+    "status": "suspended_missing_evidence",
+    "reopen": "Original field/schema with authenticated provenance"
+  },
+  {
+    "hypothesis": "literal_english_spelling_in_tested_models",
+    "status": "prior_scoped_negatives_retained",
+    "source": [
+      "docs/round15.md",
+      "docs/round23.md"
+    ],
+    "limit": "Six available full-Knightmare lexical name fits empty; two BONELORD phonetic cases unavailable; no universal impossibility"
+  },
+  {
+    "hypothesis": "anagram_invariant_word_concept",
+    "status": "structural_relations_only_suspended_semantics",
+    "source": "results/round25_structure.json",
+    "reopen": "Frozen independent semantic prediction or authenticated gloss"
+  },
+  {
+    "hypothesis": "key_seed_parameter",
+    "status": "specified_prior_families_negative_unspecified_generators_suspended",
+    "source": "docs/round15.md",
+    "reopen": "Distinct fixed algorithm and independent prediction"
+  },
+  {
+    "hypothesis": "coordinated_matrix_name_change",
+    "status": "suspended_pending_round26_historical_evidence",
+    "source": "docs/round14.md",
+    "limit": "2010general rename,2012nostalgia usage and2023wiki correction are distinct events"
+  }
+]

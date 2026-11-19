@@ -1,0 +1,54 @@
+[
+  {
+    "id": "selected_revisions",
+    "requested_url": "https://www.tibiawiki.com.br/api.php?action=query&format=json&formatversion=2&prop=revisions&revids=383313%7C386341%7C386343%7C386346&rvprop=ids%7Ctimestamp%7Ccomment%7Csha1%7Ccontent&rvslots=main",
+    "requested_at_utc": "2026-11-19T21:53:52.198450+00:00",
+    "method": "one public HTTPS GET; inherited proxy/TLS trust; no retries",
+    "http_status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "http_last_modified": null,
+    "memento_datetime": null,
+    "final_url_without_query": "https://www.tibiawiki.com.br/api.php",
+    "body_truncated": false,
+    "bytes": 11239,
+    "sha256": "66008cd2a06bbecf2a00176016bffde8ccd35c14458c1a816958efdbdb3c4d4e",
+    "human_check_marker": false,
+    "body_local_ignored": "data/historical_refresh/round25/selected/selected_revisions.body",
+    "api_error": null,
+    "has_continuation": false,
+    "revision_metadata": [
+      {
+        "revid": 383313,
+        "parentid": 362520,
+        "timestamp": "2022-12-18T20:53:02Z",
+        "sha1": "8ed6e3d3ff5eab9b632da57b58609ee232f1352f",
+        "content_returned": true,
+        "contains_3478": true
+      },
+      {
+        "revid": 386341,
+        "parentid": 383313,
+        "timestamp": "2023-01-08T22:12:26Z",
+        "sha1": "8ed6e3d3ff5eab9b632da57b58609ee232f1352f",
+        "content_returned": true,
+        "contains_3478": true
+      },
+      {
+        "revid": 386343,
+        "parentid": 386341,
+        "timestamp": "2023-01-08T22:13:45Z",
+        "sha1": "eadaf196d62fb687b8329dde5df8044f110795d3",
+        "content_returned": true,
+        "contains_3478": true
+      },
+      {
+        "revid": 386346,
+        "parentid": 386343,
+        "timestamp": "2023-01-08T22:16:09Z",
+        "sha1": "b5a7565a7fa4a992e8aff8c66a3473ac1d779e1d",
+        "content_returned": true,
+        "contains_3478": true
+      }
+    ]
+  }
+]

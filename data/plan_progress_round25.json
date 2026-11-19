@@ -1,0 +1,24 @@
+{
+  "plan": "docs/mission_plan_v2.md",
+  "completed_through_round": 25,
+  "completed_this_execution": [
+    24,
+    25
+  ],
+  "remaining_planned_rounds": [
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "mission_outcome": "I_inconclusive",
+  "translation_validated": false,
+  "original_nontextual_generator_authenticated": false,
+  "latest_report": "docs/round25.md",
+  "next_round": {
+    "number": 26,
+    "focus": "Adjudicate3x3/4x4/5x5physical grids, historical chronology and specified cryptographic mechanisms",
+    "restriction": "Preserve missing cells and negative-family catalog; do not manufacture25counts or infer date coincidence from the2023nostalgia rename"
+  }
+}

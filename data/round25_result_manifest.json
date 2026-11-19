@@ -1,0 +1,20 @@
+{
+  "scope": "Post-execution integrity envelope; numeric protocol has separate pre-execution manifest",
+  "sha256": {
+    "data/plan_progress_round25.json": "11c56be6ff0317183c8f5f272e2b705805588d3a202a9db82dbedc51004c98a9",
+    "data/round25_decisions.json": "79dbb1bc1a5b3b8e79b508820fde175e62ff2f238471e35436ca0f1ad9f52e0f",
+    "data/round25_history_http_initial.json": "e5800da3387b31e057bc33b4e14ff3b851ac9841ad293aea136b7c80df86b20a",
+    "data/round25_history_http_selected.json": "f73f84cbe408850812407c8eef3955f5d68c98b99e1bf3889e1521e86e43a8a1",
+    "data/round25_manifest.json": "764535a1c3a11e636787d92458f3e9092bdb4adb8462c57f44cd56f3c2301e37",
+    "data/round25_protocol.json": "bc0a66c4ab2bc1bfad983126ce4d239cc2e18dc6804da225ffc6ef21726a7b68",
+    "docs/round25.md": "97065cb2f5e08c6e1027eed0d697a3183e418991c39c033c8f5349568849340a",
+    "results/round25_history.json": "2174fc3bd5e9b28dccb21561233ce2b22e8dde8115ecc81f007f7a89a34e8107",
+    "results/round25_structure.json": "5f77ee77537dcaaae21bc044e6d004d63066c7350e73e50c5bc6464940b33e03",
+    "results/round25_structure.log": "f8de123c2a215016e294e5d8d989893a5b35c8a92bb49633db4de71c6dc3236e",
+    "scripts/round25_history_audit.py": "c1fc0f2e036a57fb7081b9aeb917a64864a030e53c6acb1648440a6c2ed1fed8",
+    "scripts/round25_history_fetch.py": "b818514771892b5b903b6dbf0a8953a0ce3dad68a697905d5fae8a6de6127ab5",
+    "scripts/round25_name_structure.py": "7764b162eba3baf236b29ee29d32d91069cd7759683f21c20a52bc7bede8e11e",
+    "scripts/run_round25.py": "46cd6c8dc29e1b1b2858a1e438923bf913eb5dad2afdb4266dbb736622896637",
+    "tests/test_round25_structure.py": "bc50fbc324e03c761a4643203cc1f8903055b556ce585b1cd2d84a9d8e9f4612"
+  }
+}

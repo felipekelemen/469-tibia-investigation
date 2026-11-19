@@ -1,0 +1,8 @@
+{
+  "scope": "Frozen before numerical round25 outcomes; old targets exposed",
+  "sha256": {
+    "data/round25_protocol.json": "bc0a66c4ab2bc1bfad983126ce4d239cc2e18dc6804da225ffc6ef21726a7b68",
+    "scripts/round25_name_structure.py": "7764b162eba3baf236b29ee29d32d91069cd7759683f21c20a52bc7bede8e11e",
+    "data/source_validation_inventory.json": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5"
+  }
+}

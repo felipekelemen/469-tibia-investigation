@@ -1,6 +1,6 @@
 # 469-tibia-investigation — investigação reproduzível
 
-**Estado: vinte e quatro rodadas executadas; nenhuma tradução verificável encontrada.**
+**Estado: vinte e cinco rodadas executadas; nenhuma tradução verificável encontrada.**
 Não afirmamos que o corpus é indecifrável nem que qualquer solução comunitária
 foi confirmada. O alvo é um algoritmo integral que generalize para textos inéditos.
 
@@ -10,12 +10,20 @@ Destino público: https://github.com/felipekelemen/469-tibia-investigation
 com [balanço de cada rodada](docs/rounds_01_23_review.md) e
 [formato obrigatório de resultados e candidatas](docs/round_report_template_v2.md).
 Prioridade: Avar Tar, Knightmare e Chayenne; decisões delimitadas sobre3478/nomes
-e matrizes; investigação própria de geração sem texto. A rodada24 está concluída;
-as rodadas25–30 permanecem planejadas. [Progresso atual](data/plan_progress_round24.json).
+e matrizes; investigação própria de geração sem texto. As rodadas24–25 estão concluídas;
+as rodadas26–30 permanecem planejadas. [Progresso atual](data/plan_progress_round25.json).
 Estado da missão: inconclusivo.
 
-**Publicado:** corpus normalizado, código, testes e resultados das vinte e quatro rodadas
+**Publicado:** corpus normalizado, código, testes e resultados das vinte e cinco rodadas
 disponíveis neste repositório. O acesso de escrita foi confirmado após nova reconexão.
+
+A [vigésima quinta rodada](docs/round25.md) recuperou revisões de2012/2023 da
+wiki que documentam3478 como nome da criatura. O teste ampliado dos anagramas,
+com28 pares de fontes, sete famílias e29.997 controles, não identifica significado:
+a cauda do máximo chega a0,0906 quando os grupos existentes são redistribuídos.
+Hipóteses de nome, palavra, ID interno, chave e história foram adjudicadas
+separadamente. Nenhuma tradução validada;243 testes de software passaram.
+Replay offline: `make round25`.
 
 A [vigésima quarta rodada](docs/round24.md) auditou fontes e alegações públicas.
 Reproduziu a compressão dos70 livros e três saídas de uma tabela comunitária,
@@ -195,6 +203,7 @@ make round16
 make round17
 make round18
 make round24
+make round25
 make test
 ```
 

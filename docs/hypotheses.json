@@ -698,5 +698,19 @@
     "status": "no_authenticated_semantic_pair_in_bounded_audit",
     "evidence": "16consultas,20unidades de fontes revisadas entre28entradas; entrevista2026não oferece algoritmo nem declara que469ésemtexto. Transcrições prioritárias reconferidas.3478como nome contextual permanece distinto de chave/tradução.",
     "artifact": "data/round24_sources.json"
+  },
+  {
+    "id": "H101",
+    "hypothesis": "3478 é um nome documentado historicamente para a criatura nostálgica",
+    "status": "confirmed_as_versioned_wiki_documentation_not_internal_id_or_game_release_date",
+    "evidence": "14conteúdos de revisões conferidos porSHA1.52205de28/03/2012tem3478(Nostalgia);52214tem3478.386343de08/01/2023muda campo paraBonelord(Nostalgia). Cronologia é dawiki; não autentica data de atualizaçãoCipSoft.",
+    "artifact": "results/round25_history.json"
+  },
+  {
+    "id": "H102",
+    "hypothesis": "A concentração dos anagramas Avar/Knightmare sustenta uma regra semântica para3478",
+    "status": "structural_relation_reproduced_semantics_unidentified_null_dependent",
+    "evidence": "45grupos/44distintos em8conjuntos,28pares,7famílias e29997sorteios. Caudas do máximo0.0014/0.0015alterando dígitos,0.0906redistribuindo grupos inteiros de mesmo comprimento. Nenhum inglês ou reservado semântico. Suspender expansão sem previsão adicional.",
+    "artifact": "results/round25_structure.json"
   }
 ]

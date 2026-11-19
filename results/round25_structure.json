@@ -1,0 +1,269 @@
+{
+  "operational_groups": {
+    "chayenne": [
+      "114514519485611451908304576512282177",
+      "6612527570584"
+    ],
+    "knightmare": [
+      "3478",
+      "90871",
+      "97664",
+      "3466",
+      "345"
+    ],
+    "avar": [
+      "29639",
+      "46781",
+      "9063376290",
+      "3222011",
+      "677",
+      "80322429",
+      "67538",
+      "14805394",
+      "6880326",
+      "63378129",
+      "337011",
+      "72683",
+      "149630",
+      "4378",
+      "453",
+      "639",
+      "578300",
+      "986372",
+      "2953639"
+    ],
+    "creature_shouts": [
+      "653768764",
+      "659978",
+      "54764"
+    ],
+    "wrinkled": [
+      "485611800364197",
+      "78572611857643646724",
+      "486486"
+    ],
+    "true_colour": [
+      "78567",
+      "34334",
+      "989",
+      "135",
+      "65142"
+    ],
+    "secret_library": [
+      "74032",
+      "45331"
+    ],
+    "poll": [
+      "663",
+      "902073",
+      "7223",
+      "67538",
+      "467",
+      "80097"
+    ]
+  },
+  "clusters": 8,
+  "source_pairs": 28,
+  "families": 7,
+  "observed": {
+    "primary_avar_knightmare_anagrams": 2,
+    "maximum_all_pairs_families": 2
+  },
+  "observed_matches": [
+    {
+      "family": "cyclic_rotation",
+      "sources": [
+        "knightmare",
+        "avar"
+      ],
+      "signature_count": 1,
+      "matches": [
+        {
+          "signature": [
+            3,
+            "345"
+          ],
+          "pairs": [
+            [
+              "345",
+              "453"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "family": "pair_mirror",
+      "sources": [
+        "knightmare",
+        "avar"
+      ],
+      "signature_count": 1,
+      "matches": [
+        {
+          "signature": [
+            4,
+            "34/78"
+          ],
+          "pairs": [
+            [
+              "3478",
+              "4378"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "family": "pair_mirror_and_permutation",
+      "sources": [
+        "knightmare",
+        "avar"
+      ],
+      "signature_count": 1,
+      "matches": [
+        {
+          "signature": [
+            4,
+            "34/78"
+          ],
+          "pairs": [
+            [
+              "3478",
+              "4378"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "family": "whole_anagram",
+      "sources": [
+        "knightmare",
+        "avar"
+      ],
+      "signature_count": 2,
+      "matches": [
+        {
+          "signature": [
+            3,
+            "345"
+          ],
+          "pairs": [
+            [
+              "345",
+              "453"
+            ]
+          ]
+        },
+        {
+          "signature": [
+            4,
+            "3478"
+          ],
+          "pairs": [
+            [
+              "3478",
+              "4378"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "nulls": {
+    "cluster_digit_pool": {
+      "trials": 9999,
+      "tail_counts": {
+        "primary_avar_knightmare_anagrams": 2,
+        "maximum_all_pairs_families": 13,
+        "maximum_compared_to_primary_score": 13
+      },
+      "plus_one_tail": {
+        "primary_avar_knightmare_anagrams": 0.0003,
+        "maximum_all_pairs_families": 0.0014,
+        "maximum_compared_to_primary_score": 0.0014
+      },
+      "maximum_histogram": {
+        "0": 8157,
+        "1": 1829,
+        "2": 13
+      }
+    },
+    "cluster_digit_relabel": {
+      "trials": 9999,
+      "tail_counts": {
+        "primary_avar_knightmare_anagrams": 3,
+        "maximum_all_pairs_families": 14,
+        "maximum_compared_to_primary_score": 14
+      },
+      "plus_one_tail": {
+        "primary_avar_knightmare_anagrams": 0.0004,
+        "maximum_all_pairs_families": 0.0015,
+        "maximum_compared_to_primary_score": 0.0015
+      },
+      "maximum_histogram": {
+        "0": 8206,
+        "1": 1779,
+        "2": 14
+      }
+    },
+    "whole_group_reassignment": {
+      "trials": 9999,
+      "tail_counts": {
+        "primary_avar_knightmare_anagrams": 342,
+        "maximum_all_pairs_families": 905,
+        "maximum_compared_to_primary_score": 905
+      },
+      "plus_one_tail": {
+        "primary_avar_knightmare_anagrams": 0.0343,
+        "maximum_all_pairs_families": 0.0906,
+        "maximum_compared_to_primary_score": 0.0906
+      },
+      "maximum_histogram": {
+        "0": 301,
+        "1": 8793,
+        "2": 905
+      }
+    }
+  },
+  "3478_equivalence_predictions": {
+    "identity": [
+      "3478"
+    ],
+    "whole_reverse": [
+      "3478"
+    ],
+    "cyclic_rotation": [
+      "3478"
+    ],
+    "pair_mirror": [
+      "3478",
+      "4378"
+    ],
+    "pair_permutation": [
+      "3478"
+    ],
+    "pair_mirror_and_permutation": [
+      "3478",
+      "4378"
+    ],
+    "whole_anagram": [
+      "3478",
+      "4378"
+    ]
+  },
+  "identity_anchor_checks": {
+    "4378": {
+      "same_as_3478_under_whole_anagram": true
+    },
+    "34334": {
+      "same_as_3478_under_whole_anagram": false
+    },
+    "486486": {
+      "same_as_3478_under_whole_anagram": false
+    }
+  },
+  "translation_validated": false,
+  "scope": "All target groups exposed; structural comparison only. Finite multiplicity adjustment, not all community hypotheses. No semantic holdout."
+}

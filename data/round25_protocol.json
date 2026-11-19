@@ -1,0 +1,32 @@
+{
+  "round": 25,
+  "basis": "be87012",
+  "status": "Frozen before new calculations; all canonical texts and round24 examples already exposed",
+  "scope": "Adjudicate3478/entity/name/key separately; new computation tests the selected anagram explanation against a finite broader family. No English meanings assigned.",
+  "source_clusters": {
+    "chayenne": ["chayenne_2009_part1", "chayenne_2009_part2"],
+    "knightmare": ["knightmare_2012"],
+    "avar": ["avar_tar_poem"],
+    "creature_shouts": ["evil_eye_shout", "elder_bonelord_phrase", "elder_bonelord_same_shout"],
+    "wrinkled": ["wrinkled_shout_1", "wrinkled_shout_2", "wrinkled_name"],
+    "true_colour": ["your_true_colour_2012"],
+    "secret_library": ["secret_library_2018"],
+    "poll": ["official_poll_2020_option_c"]
+  },
+  "units": "Exact maximal numeric groups length>=3. Deduplicate within source cluster; do not split Chayenne/book-excerpt groups into guessed words. Whole groups are operational units, not established linguistic words.",
+  "exclusions": ["excluded_tibia_org_hex lacks canonical attribution", "wrinkled_tibia_anchor and wrinkled_zero_taboo shorter than3digits", "identical groups across sources do not count as transformed matches"],
+  "families": ["identity", "whole_reverse", "cyclic_rotation", "pair_mirror", "pair_permutation", "pair_mirror_and_permutation", "whole_anagram"],
+  "pair_framing": "Prepend one0 to odd-length groups, then disjoint pairs from left; original length remains in signature. Padding is an explicit conjecture, not observed data.",
+  "statistic": "For every unordered source pair and family, count distinct shared signatures permitting at least one nonidentical original group pair. Primary retrospective statistic is whole_anagram(avar,knightmare); broad statistic is the maximum over all28source pairs and7families.",
+  "nulls": [
+    "independently pool and shuffle digits of each cluster's distinct groups, retaining each group length and cluster digit counts",
+    "independent uniform global digit relabeling within each cluster, retaining equality/repetition structure",
+    "reassign whole groups among all slots of equal length; retain global exact groups and intrinsic anagram relationships, test concentration by source"
+  ],
+  "trials_per_null": 9999,
+  "seed": 253478,
+  "multiplicity_scope": "Within the declared finite families/source pairs only. Cannot correct all historical community exploration; no unseen semantic holdout exists here.",
+  "source_refresh": "Attempt bounded versioned MediaWiki history for the nostalgia entity; failed retrieval leaves chronology suspended. Never treat third-party server code or internal guessed IDs as CipSoft evidence.",
+  "closure": "Reuse documented R15/R23 negatives for literal/key mechanisms without rerunning or claiming new evidence. Suspend unspecified seeds, whole-word gloss tables and coordinated rename/matrix history absent independent evidence.",
+  "translation_validated": false
+}

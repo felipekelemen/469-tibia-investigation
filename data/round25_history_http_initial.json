@@ -1,0 +1,202 @@
+[
+  {
+    "id": "nostalgia_2022_2023",
+    "requested_url": "https://www.tibiawiki.com.br/api.php?action=query&format=json&formatversion=2&prop=revisions&titles=Bonelord+%28Nostalgia%29&rvprop=ids%7Ctimestamp%7Ccomment%7Csha1&rvlimit=20&rvstart=2024-01-01T00%3A00%3A00Z&rvend=2022-01-01T00%3A00%3A00Z",
+    "requested_at_utc": "2026-11-19T21:53:15.950467+00:00",
+    "method": "one public HTTPS GET; inherited proxy/TLS trust; no retries",
+    "http_status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "http_last_modified": null,
+    "memento_datetime": null,
+    "final_url_without_query": "https://www.tibiawiki.com.br/api.php",
+    "body_truncated": false,
+    "bytes": 1661,
+    "sha256": "6202ebe62d560f1e90850db68d2797729bc8cf6a18ff30bfd3bfec44ad8de806",
+    "human_check_marker": false,
+    "body_local_ignored": "data/historical_refresh/round25/initial/nostalgia_2022_2023.body",
+    "api_error": null,
+    "has_continuation": false,
+    "revision_metadata": [
+      {
+        "revid": 398974,
+        "parentid": 386346,
+        "timestamp": "2023-07-21T01:41:38Z",
+        "sha1": "63b679b3ea94f967538e802ceb0d9a49957e1cb7",
+        "content_returned": false,
+        "contains_3478": null
+      },
+      {
+        "revid": 386346,
+        "parentid": 386343,
+        "timestamp": "2023-01-08T22:16:09Z",
+        "sha1": "b5a7565a7fa4a992e8aff8c66a3473ac1d779e1d",
+        "content_returned": false,
+        "contains_3478": null
+      },
+      {
+        "revid": 386343,
+        "parentid": 386341,
+        "timestamp": "2023-01-08T22:13:45Z",
+        "sha1": "eadaf196d62fb687b8329dde5df8044f110795d3",
+        "content_returned": false,
+        "contains_3478": null
+      },
+      {
+        "revid": 386341,
+        "parentid": 383313,
+        "timestamp": "2023-01-08T22:12:26Z",
+        "sha1": "8ed6e3d3ff5eab9b632da57b58609ee232f1352f",
+        "content_returned": false,
+        "contains_3478": null
+      },
+      {
+        "revid": 383313,
+        "parentid": 362520,
+        "timestamp": "2022-12-18T20:53:02Z",
+        "sha1": "8ed6e3d3ff5eab9b632da57b58609ee232f1352f",
+        "content_returned": false,
+        "contains_3478": null
+      },
+      {
+        "revid": 362520,
+        "parentid": 360020,
+        "timestamp": "2022-07-15T09:42:42Z",
+        "sha1": "afff7db20b7dea9b69962080fb6a4ff8246cb1f7",
+        "content_returned": false,
+        "contains_3478": null
+      },
+      {
+        "revid": 360020,
+        "parentid": 358055,
+        "timestamp": "2022-07-10T01:11:48Z",
+        "sha1": "a2b9470e68f9fb58d17b711ec28356621b8d1b56",
+        "content_returned": false,
+        "contains_3478": null
+      },
+      {
+        "revid": 358055,
+        "parentid": 357825,
+        "timestamp": "2022-07-08T23:06:11Z",
+        "sha1": "8abd85cec9d1ff4b60382e5ad331faa5d5313e67",
+        "content_returned": false,
+        "contains_3478": null
+      },
+      {
+        "revid": 357825,
+        "parentid": 336530,
+        "timestamp": "2022-07-08T15:10:46Z",
+        "sha1": "7e3826411d33b8068bb353f248d91903082a6e1f",
+        "content_returned": false,
+        "contains_3478": null
+      },
+      {
+        "revid": 336530,
+        "parentid": 320003,
+        "timestamp": "2022-02-27T04:14:17Z",
+        "sha1": "f10d40886894d2cc9dc4e8ce498238db489f694a",
+        "content_returned": false,
+        "contains_3478": null
+      }
+    ]
+  },
+  {
+    "id": "nostalgia_2012",
+    "requested_url": "https://www.tibiawiki.com.br/api.php?action=query&format=json&formatversion=2&prop=revisions&titles=Bonelord+%28Nostalgia%29&rvprop=ids%7Ctimestamp%7Ccomment%7Csha1%7Ccontent&rvlimit=10&rvdir=newer&rvstart=2011-01-01T00%3A00%3A00Z&rvend=2013-01-01T00%3A00%3A00Z&rvslots=main",
+    "requested_at_utc": "2026-11-19T21:53:15.951431+00:00",
+    "method": "one public HTTPS GET; inherited proxy/TLS trust; no retries",
+    "http_status": 200,
+    "content_type": "application/json; charset=utf-8",
+    "http_last_modified": null,
+    "memento_datetime": null,
+    "final_url_without_query": "https://www.tibiawiki.com.br/api.php",
+    "body_truncated": false,
+    "bytes": 19741,
+    "sha256": "cd06c2f8305fdc5a4a401494b9ac29435672bf3603f60cfc182ddfc66a5b1f08",
+    "human_check_marker": false,
+    "body_local_ignored": "data/historical_refresh/round25/initial/nostalgia_2012.body",
+    "api_error": null,
+    "has_continuation": true,
+    "revision_metadata": [
+      {
+        "revid": 52205,
+        "parentid": 0,
+        "timestamp": "2012-03-28T21:38:32Z",
+        "sha1": "e7a30124bcd9ced3553e021002988c167481c0f5",
+        "content_returned": true,
+        "contains_3478": true
+      },
+      {
+        "revid": 52207,
+        "parentid": 52205,
+        "timestamp": "2012-03-28T22:37:21Z",
+        "sha1": "00db2f60e2dbfb3b2adab87c793d632e0add2724",
+        "content_returned": true,
+        "contains_3478": true
+      },
+      {
+        "revid": 52208,
+        "parentid": 52207,
+        "timestamp": "2012-03-28T22:38:30Z",
+        "sha1": "24f24adfcbd490ac0f935b67474f342b802fef91",
+        "content_returned": true,
+        "contains_3478": true
+      },
+      {
+        "revid": 52209,
+        "parentid": 52208,
+        "timestamp": "2012-03-28T22:38:46Z",
+        "sha1": "adbea57042764c3d16a7cb0a8ced47552fbaf12f",
+        "content_returned": true,
+        "contains_3478": true
+      },
+      {
+        "revid": 52211,
+        "parentid": 52209,
+        "timestamp": "2012-03-29T02:20:29Z",
+        "sha1": "0e4453abfe43f46b9c5f3310c127dc988d8f90ba",
+        "content_returned": true,
+        "contains_3478": true
+      },
+      {
+        "revid": 52213,
+        "parentid": 52211,
+        "timestamp": "2012-03-29T02:24:13Z",
+        "sha1": "0e4453abfe43f46b9c5f3310c127dc988d8f90ba",
+        "content_returned": true,
+        "contains_3478": true
+      },
+      {
+        "revid": 52214,
+        "parentid": 52213,
+        "timestamp": "2012-03-29T02:24:24Z",
+        "sha1": "ec7d8f74bbf0834046e087cb8ea62d4ce29112cb",
+        "content_returned": true,
+        "contains_3478": true
+      },
+      {
+        "revid": 52242,
+        "parentid": 52214,
+        "timestamp": "2012-03-29T03:52:28Z",
+        "sha1": "e6d22651b308aed7bf229623c043931e3bf79dc0",
+        "content_returned": true,
+        "contains_3478": true
+      },
+      {
+        "revid": 72895,
+        "parentid": 52242,
+        "timestamp": "2012-07-07T22:07:17Z",
+        "sha1": "b26e40ea1429b1426edef222c2f089b5f370fead",
+        "content_returned": true,
+        "contains_3478": true
+      },
+      {
+        "revid": 72912,
+        "parentid": 72895,
+        "timestamp": "2012-07-07T22:09:57Z",
+        "sha1": "e6d22651b308aed7bf229623c043931e3bf79dc0",
+        "content_returned": true,
+        "contains_3478": true
+      }
+    ]
+  }
+]

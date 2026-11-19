@@ -1,0 +1,162 @@
+{
+  "revisions": [
+    {
+      "revid": 52205,
+      "parentid": 0,
+      "wiki_revision_timestamp": "2012-03-28T21:38:32Z",
+      "content_sha1_verified": "e7a30124bcd9ced3553e021002988c167481c0f5",
+      "name_parameter": "3478 (Nostalgia)",
+      "contains_3478": true,
+      "mentions_2023": false,
+      "source_url": "https://www.tibiawiki.com.br/index.php?oldid=52205",
+      "capture_sha256": "cd06c2f8305fdc5a4a401494b9ac29435672bf3603f60cfc182ddfc66a5b1f08"
+    },
+    {
+      "revid": 52207,
+      "parentid": 52205,
+      "wiki_revision_timestamp": "2012-03-28T22:37:21Z",
+      "content_sha1_verified": "00db2f60e2dbfb3b2adab87c793d632e0add2724",
+      "name_parameter": "3478 (Nostalgia)",
+      "contains_3478": true,
+      "mentions_2023": false,
+      "source_url": "https://www.tibiawiki.com.br/index.php?oldid=52207",
+      "capture_sha256": "cd06c2f8305fdc5a4a401494b9ac29435672bf3603f60cfc182ddfc66a5b1f08"
+    },
+    {
+      "revid": 52208,
+      "parentid": 52207,
+      "wiki_revision_timestamp": "2012-03-28T22:38:30Z",
+      "content_sha1_verified": "24f24adfcbd490ac0f935b67474f342b802fef91",
+      "name_parameter": "3478 (Nostalgia)",
+      "contains_3478": true,
+      "mentions_2023": false,
+      "source_url": "https://www.tibiawiki.com.br/index.php?oldid=52208",
+      "capture_sha256": "cd06c2f8305fdc5a4a401494b9ac29435672bf3603f60cfc182ddfc66a5b1f08"
+    },
+    {
+      "revid": 52209,
+      "parentid": 52208,
+      "wiki_revision_timestamp": "2012-03-28T22:38:46Z",
+      "content_sha1_verified": "adbea57042764c3d16a7cb0a8ced47552fbaf12f",
+      "name_parameter": "3478 (Nostalgia)",
+      "contains_3478": true,
+      "mentions_2023": false,
+      "source_url": "https://www.tibiawiki.com.br/index.php?oldid=52209",
+      "capture_sha256": "cd06c2f8305fdc5a4a401494b9ac29435672bf3603f60cfc182ddfc66a5b1f08"
+    },
+    {
+      "revid": 52211,
+      "parentid": 52209,
+      "wiki_revision_timestamp": "2012-03-29T02:20:29Z",
+      "content_sha1_verified": "0e4453abfe43f46b9c5f3310c127dc988d8f90ba",
+      "name_parameter": "3478 (Nostalgia)",
+      "contains_3478": true,
+      "mentions_2023": false,
+      "source_url": "https://www.tibiawiki.com.br/index.php?oldid=52211",
+      "capture_sha256": "cd06c2f8305fdc5a4a401494b9ac29435672bf3603f60cfc182ddfc66a5b1f08"
+    },
+    {
+      "revid": 52213,
+      "parentid": 52211,
+      "wiki_revision_timestamp": "2012-03-29T02:24:13Z",
+      "content_sha1_verified": "0e4453abfe43f46b9c5f3310c127dc988d8f90ba",
+      "name_parameter": "3478 (Nostalgia)",
+      "contains_3478": true,
+      "mentions_2023": false,
+      "source_url": "https://www.tibiawiki.com.br/index.php?oldid=52213",
+      "capture_sha256": "cd06c2f8305fdc5a4a401494b9ac29435672bf3603f60cfc182ddfc66a5b1f08"
+    },
+    {
+      "revid": 52214,
+      "parentid": 52213,
+      "wiki_revision_timestamp": "2012-03-29T02:24:24Z",
+      "content_sha1_verified": "ec7d8f74bbf0834046e087cb8ea62d4ce29112cb",
+      "name_parameter": "3478",
+      "contains_3478": true,
+      "mentions_2023": false,
+      "source_url": "https://www.tibiawiki.com.br/index.php?oldid=52214",
+      "capture_sha256": "cd06c2f8305fdc5a4a401494b9ac29435672bf3603f60cfc182ddfc66a5b1f08"
+    },
+    {
+      "revid": 52242,
+      "parentid": 52214,
+      "wiki_revision_timestamp": "2012-03-29T03:52:28Z",
+      "content_sha1_verified": "e6d22651b308aed7bf229623c043931e3bf79dc0",
+      "name_parameter": "3478",
+      "contains_3478": true,
+      "mentions_2023": false,
+      "source_url": "https://www.tibiawiki.com.br/index.php?oldid=52242",
+      "capture_sha256": "cd06c2f8305fdc5a4a401494b9ac29435672bf3603f60cfc182ddfc66a5b1f08"
+    },
+    {
+      "revid": 72895,
+      "parentid": 52242,
+      "wiki_revision_timestamp": "2012-07-07T22:07:17Z",
+      "content_sha1_verified": "b26e40ea1429b1426edef222c2f089b5f370fead",
+      "name_parameter": "3478",
+      "contains_3478": true,
+      "mentions_2023": false,
+      "source_url": "https://www.tibiawiki.com.br/index.php?oldid=72895",
+      "capture_sha256": "cd06c2f8305fdc5a4a401494b9ac29435672bf3603f60cfc182ddfc66a5b1f08"
+    },
+    {
+      "revid": 72912,
+      "parentid": 72895,
+      "wiki_revision_timestamp": "2012-07-07T22:09:57Z",
+      "content_sha1_verified": "e6d22651b308aed7bf229623c043931e3bf79dc0",
+      "name_parameter": "3478",
+      "contains_3478": true,
+      "mentions_2023": false,
+      "source_url": "https://www.tibiawiki.com.br/index.php?oldid=72912",
+      "capture_sha256": "cd06c2f8305fdc5a4a401494b9ac29435672bf3603f60cfc182ddfc66a5b1f08"
+    },
+    {
+      "revid": 383313,
+      "parentid": 362520,
+      "wiki_revision_timestamp": "2022-12-18T20:53:02Z",
+      "content_sha1_verified": "8ed6e3d3ff5eab9b632da57b58609ee232f1352f",
+      "name_parameter": "3478",
+      "contains_3478": true,
+      "mentions_2023": false,
+      "source_url": "https://www.tibiawiki.com.br/index.php?oldid=383313",
+      "capture_sha256": "66008cd2a06bbecf2a00176016bffde8ccd35c14458c1a816958efdbdb3c4d4e"
+    },
+    {
+      "revid": 386341,
+      "parentid": 383313,
+      "wiki_revision_timestamp": "2023-01-08T22:12:26Z",
+      "content_sha1_verified": "8ed6e3d3ff5eab9b632da57b58609ee232f1352f",
+      "name_parameter": "3478",
+      "contains_3478": true,
+      "mentions_2023": false,
+      "source_url": "https://www.tibiawiki.com.br/index.php?oldid=386341",
+      "capture_sha256": "66008cd2a06bbecf2a00176016bffde8ccd35c14458c1a816958efdbdb3c4d4e"
+    },
+    {
+      "revid": 386343,
+      "parentid": 386341,
+      "wiki_revision_timestamp": "2023-01-08T22:13:45Z",
+      "content_sha1_verified": "eadaf196d62fb687b8329dde5df8044f110795d3",
+      "name_parameter": "Bonelord (Nostalgia)",
+      "contains_3478": true,
+      "mentions_2023": true,
+      "source_url": "https://www.tibiawiki.com.br/index.php?oldid=386343",
+      "capture_sha256": "66008cd2a06bbecf2a00176016bffde8ccd35c14458c1a816958efdbdb3c4d4e"
+    },
+    {
+      "revid": 386346,
+      "parentid": 386343,
+      "wiki_revision_timestamp": "2023-01-08T22:16:09Z",
+      "content_sha1_verified": "b5a7565a7fa4a992e8aff8c66a3473ac1d779e1d",
+      "name_parameter": "Bonelord (Nostalgia)",
+      "contains_3478": true,
+      "mentions_2023": true,
+      "source_url": "https://www.tibiawiki.com.br/index.php?oldid=386346",
+      "capture_sha256": "66008cd2a06bbecf2a00176016bffde8ccd35c14458c1a816958efdbdb3c4d4e"
+    }
+  ],
+  "scope": "Current MediaWiki API supplies dated revision content and matching SHA1. This authenticates the retrieved wiki record, not a signed CipSoft release or actual game-change date.",
+  "game_event_date_proven": false,
+  "internal_entity_id_proven": false,
+  "translation_proven": false
+}
