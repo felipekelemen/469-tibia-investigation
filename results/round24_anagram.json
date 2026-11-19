@@ -1,0 +1,102 @@
+{
+  "protocol_sha256": "1ab7c800618651a1d34ee5e033dc2b4b8f289ae6383e1913c04f95e652dd1f16",
+  "observed": {
+    "named_pair_anywhere": 1,
+    "all_knight_signatures": 2,
+    "named_pair_adjacent": 1
+  },
+  "matches": [
+    {
+      "avar_group_index": 14,
+      "avar": "4378",
+      "knightmare": "3478"
+    },
+    {
+      "avar_group_index": 15,
+      "avar": "453",
+      "knightmare": "345"
+    }
+  ],
+  "analytic_pooled_occurrences": {
+    "named_words": {
+      "3478": {
+        "eligible_positions": 1,
+        "one_position_probability": 0.0030406431623498918,
+        "expected_matching_positions": 0.0030406431623498918
+      },
+      "345": {
+        "eligible_positions": 4,
+        "one_position_probability": 0.0029768534456572366,
+        "expected_matching_positions": 0.011907413782628946
+      }
+    },
+    "adjacent_eligible_positions": [
+      14
+    ],
+    "probability_for_one_fixed_disjoint_pair": 8.224808499920812e-06,
+    "any_adjacent_probability_if_one_eligible_position": 8.224808499920812e-06
+  },
+  "nulls": {
+    "pooled_occurrences": {
+      "trials": 99999,
+      "tail_counts": {
+        "named_pair_anywhere": 4,
+        "all_knight_signatures": 30,
+        "named_pair_adjacent": 0
+      },
+      "monte_carlo_plus_one_tail": {
+        "named_pair_anywhere": 5e-05,
+        "all_knight_signatures": 0.00031,
+        "named_pair_adjacent": 1e-05
+      },
+      "all_match_histogram": {
+        "0": 97599,
+        "1": 2370,
+        "2": 30
+      }
+    },
+    "pooled_unique_words": {
+      "trials": 99999,
+      "tail_counts": {
+        "named_pair_anywhere": 5,
+        "all_knight_signatures": 14,
+        "named_pair_adjacent": 1
+      },
+      "monte_carlo_plus_one_tail": {
+        "named_pair_anywhere": 6e-05,
+        "all_knight_signatures": 0.00015,
+        "named_pair_adjacent": 2e-05
+      },
+      "all_match_histogram": {
+        "0": 97961,
+        "1": 2024,
+        "2": 14
+      }
+    },
+    "digit_relabel": {
+      "trials": 99999,
+      "tail_counts": {
+        "named_pair_anywhere": 6,
+        "all_knight_signatures": 8,
+        "named_pair_adjacent": 6
+      },
+      "monte_carlo_plus_one_tail": {
+        "named_pair_anywhere": 7e-05,
+        "all_knight_signatures": 9e-05,
+        "named_pair_adjacent": 7e-05
+      },
+      "all_match_histogram": {
+        "0": 96565,
+        "1": 3426,
+        "2": 8
+      }
+    }
+  },
+  "within_word_invariant": {
+    "checked_fixtures": 30,
+    "analytic_reason": "sorting a word is unchanged by a permutation of its characters",
+    "tail_probability": 1.0,
+    "informative_null": false
+  },
+  "translation_validated": false
+}

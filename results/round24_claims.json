@@ -1,0 +1,148 @@
+{
+  "module_reproduction": {
+    "real": {
+      "books": 70,
+      "digits": 11263,
+      "roundtrip_books": 70,
+      "covered_digits": 9180,
+      "raw_fixed_alphabet_bits": 37414.87613271636,
+      "upstream_cost": {
+        "M": 62,
+        "inv_len": 4464,
+        "model": 15562.087015577185,
+        "book_hdr": 300.0,
+        "flags": 242.0,
+        "refs": 756.1829314191342,
+        "lit_items": 115,
+        "mod_items": 127,
+        "lit_digits": 2083,
+        "lit_len_bits": 835.0,
+        "lit_content": 6919.576221650374,
+        "data": 9065.759153069508,
+        "TOTAL": 24627.84616864669,
+        "TOTAL_KT": 24315.906328082594
+      },
+      "independently_recomputed_total_bits": 24627.84616864669,
+      "payload_sha256": "eb8c30812b157f563200eba687e7d68919420536da3ed67df1a77ba9814c382b"
+    },
+    "english_ascii3": {
+      "books": 70,
+      "digits": 15225,
+      "roundtrip_books": 70,
+      "covered_digits": 15225,
+      "raw_fixed_alphabet_bits": 50576.35524466009,
+      "upstream_cost": {
+        "M": 8,
+        "inv_len": 1740,
+        "model": 5907.15488510401,
+        "book_hdr": 210.0,
+        "flags": 70.0,
+        "refs": 210.0,
+        "lit_items": 0,
+        "mod_items": 70,
+        "lit_digits": 0,
+        "lit_len_bits": 0.0,
+        "lit_content": 0.0,
+        "data": 503.0,
+        "TOTAL": 6410.15488510401,
+        "TOTAL_KT": 5075.097708604312
+      },
+      "independently_recomputed_total_bits": 6410.15488510401,
+      "payload_sha256": "b3c3e8e4fe7f5f0b127e4810e906e113f5a8ce713a46757806be80410ade6922"
+    },
+    "english_shuffled": {
+      "books": 70,
+      "digits": 15225,
+      "roundtrip_books": 70,
+      "covered_digits": 0,
+      "raw_fixed_alphabet_bits": 50576.35524466009,
+      "upstream_cost": {
+        "M": 0,
+        "inv_len": 0,
+        "model": 1,
+        "book_hdr": 210.0,
+        "flags": 70.0,
+        "refs": 0.0,
+        "lit_items": 70,
+        "mod_items": 0,
+        "lit_digits": 15225,
+        "lit_len_bits": 1050.0,
+        "lit_content": 50576.3552446601,
+        "data": 51919.3552446601,
+        "TOTAL": 51920.3552446601,
+        "TOTAL_KT": 39940.44670818956
+      },
+      "independently_recomputed_total_bits": 51920.3552446601,
+      "payload_sha256": "7f568ec506b53171875b476632ff9a167c409eefa16f986570a8f86364c6d220"
+    },
+    "uniform": {
+      "books": 70,
+      "digits": 11263,
+      "roundtrip_books": 70,
+      "covered_digits": 0,
+      "raw_fixed_alphabet_bits": 37414.87613271636,
+      "upstream_cost": {
+        "M": 0,
+        "inv_len": 0,
+        "model": 1,
+        "book_hdr": 210.0,
+        "flags": 70.0,
+        "refs": 0.0,
+        "lit_items": 70,
+        "mod_items": 0,
+        "lit_digits": 11263,
+        "lit_len_bits": 1028.0,
+        "lit_content": 37414.87613271637,
+        "data": 38735.87613271637,
+        "TOTAL": 38736.87613271637,
+        "TOTAL_KT": 38782.619443048585
+      },
+      "independently_recomputed_total_bits": 38736.876132716374,
+      "payload_sha256": "5d0ec26cde91720bb96e32f1e651674c133bbdc44504e053f12923b415d5845a"
+    }
+  },
+  "phrases": {
+    "table_entries": 13,
+    "real_sources": {
+      "evil_eye_shout": {
+        "numeric_parses": 1,
+        "published_outputs": [
+          "look at you"
+        ],
+        "leave_source_out_parses": 0,
+        "codes_retained_from_other_sources": [
+          "764"
+        ]
+      },
+      "elder_bonelord_phrase": {
+        "numeric_parses": 1,
+        "published_outputs": [
+          "let me see you"
+        ],
+        "leave_source_out_parses": 0,
+        "codes_retained_from_other_sources": [
+          "764"
+        ]
+      },
+      "knightmare_2012": {
+        "numeric_parses": 1,
+        "published_outputs": [
+          "be a wit than be a fool"
+        ],
+        "leave_source_out_parses": 0,
+        "codes_retained_from_other_sources": []
+      }
+    },
+    "null_label_permutations": 999,
+    "null_source_evaluations": 2997,
+    "null_passes": {
+      "numeric_parse": 2997,
+      "self_output_equality": 2997
+    },
+    "scope": "independent table parser and circularity demonstration; original database gate not run",
+    "authenticated_english_pairs": 0,
+    "translation_validated": false
+  },
+  "interpretation": "lossless compression with fitted inventory and literals is compatible with known English; no original generator authenticated",
+  "translation_validated": false
+}

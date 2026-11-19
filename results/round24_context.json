@@ -1,0 +1,36 @@
+{
+  "sources": {
+    "chayenne_2009": {
+      "body_sha256": "9eb1f358cc01e10cdfeeca09f49418d9a31f548538937e78a800b3339258bdd6",
+      "target_numeric_group_occurrences": {
+        "chayenne_2009_part1": 3,
+        "chayenne_2009_part2": 3
+      }
+    },
+    "avar_secrets": {
+      "body_sha256": "641bf5985a8dd85a5e2a812ca83e39c4a504ebf24c90a419d1f1b887b8a65c65",
+      "target_numeric_group_occurrences": {
+        "avar_tar_poem": 1
+      }
+    },
+    "wiki469": {
+      "body_sha256": "0faa21d79034e5adb511bc0294967f48f2cdf675dc3acf47bf0413a672ba17b5",
+      "target_numeric_group_occurrences": {
+        "knightmare_2012": 1
+      }
+    },
+    "knight_wiki": {
+      "body_sha256": "7452622ace21dcc5e54763b3b211190204f6d892df056184be40da29f717126d",
+      "target_numeric_group_occurrences": {
+        "knightmare_2012": 0
+      }
+    },
+    "honeminas_correct": {
+      "body_sha256": "a45cbed51a6c56837af3df1b01380c9961ba3704484c974a83b72dc9b5981edb",
+      "correct_vector_pair_occurrences": 1,
+      "dot_product_under_ordinary_arithmetic": 83
+    }
+  },
+  "scope": "Numeric transcription checks only; body captures local/ignored. Current web copies do not date the original game text.",
+  "translation_validated": false
+}

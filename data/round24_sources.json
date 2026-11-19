@@ -1,0 +1,252 @@
+{
+  "scope": "bounded audit; source entries are not independent samples",
+  "entries": [
+    {
+      "id": "chayenne_2009",
+      "url": "https://forum.portaltibia.com.br/topic/11420-entrevista-com-chayenne/",
+      "access": "direct_http_200_and_web",
+      "lineage": "published interview; current page, displayed 2009-05-15",
+      "finding": "Numeric answer is present in Portuguese/English versions and quotes; three occurrences are not three independent messages. No English gloss.",
+      "reviewed_for_this_round": true
+    },
+    {
+      "id": "avar_secrets",
+      "url": "https://tibiasecrets.com/Avar-Tar",
+      "access": "direct_http_200",
+      "lineage": "community NPC transcript",
+      "finding": "Full poem matches canonical numeric groups. Following English commentary describes the poem rather than translating it.",
+      "reviewed_for_this_round": true
+    },
+    {
+      "id": "knight_wiki",
+      "url": "https://www.tibiawiki.com.br/wiki/Knightmare_(NPC)",
+      "access": "direct_http_200",
+      "lineage": "community NPC transcript",
+      "finding": "Excalibug/be...bonelord context present. Numeric shout absent from captured body; cannot use this page as its fresh attestation.",
+      "reviewed_for_this_round": true
+    },
+    {
+      "id": "wiki469",
+      "url": "https://www.tibiawiki.com.br/wiki/469",
+      "access": "direct_http_200",
+      "lineage": "community synthesis; overlaps NPC and interview sources",
+      "finding": "Knightmare numeric shout present exactly. A collection of existing quotes is not a new independently translated sample.",
+      "reviewed_for_this_round": true
+    },
+    {
+      "id": "nostalgia",
+      "url": "https://www.tibiawiki.com.br/wiki/Bonelord_(Nostalgia)",
+      "access": "direct_http_200",
+      "lineage": "community creature article",
+      "finding": "Describes 3478 as displayed name, version9.44 in2012, name corrected in2023. Not a packet/internal object ID; dates remain wiki reports pending versioned evidence.",
+      "reviewed_for_this_round": true
+    },
+    {
+      "id": "rookie_2026",
+      "url": "https://rookie.com.pl/blogs/890/interview-with-knightmare",
+      "access": "full_interview_indexed_search; direct_html_js_shell_only",
+      "lineage": "publisher interview with creator; exact origin response not captured",
+      "finding": "Discusses intentional ambiguity and unintended mysteries. Question names469; answer supplies neither a decoder nor a specific declaration that469 has no text.",
+      "reviewed_for_this_round": true
+    },
+    {
+      "id": "official_rookie_notice",
+      "url": "https://www.tibia.com/news/?id=8732&subtopic=newsarchive",
+      "access": "indexed_snippet; direct_web_403",
+      "lineage": "official announcement, separate from interview body",
+      "finding": "Indexed March17,2026 notice promotes Rookie interview; does not authenticate every indexed answer.",
+      "reviewed_for_this_round": false
+    },
+    {
+      "id": "old_knightmare_reprint",
+      "url": "https://linguagem469.wordpress.com/linguagem-469/",
+      "access": "web_read",
+      "lineage": "secondary reprint attributes an older TibiaBR interview",
+      "finding": "Creator response uses fictional beholder-dictation framing. Original linked interview was not retrieved this round; no cryptographic specification.",
+      "reviewed_for_this_round": true
+    },
+    {
+      "id": "solvable_quote_torg",
+      "url": "https://torg.pl/tibia/265100-hellgates-library-469-spoilery-2.html",
+      "access": "indexed_excerpt; direct_web_403",
+      "lineage": "forum user attribution, primary source unresolved",
+      "finding": "A solvability/prime-number quote is attributed to Knightmare. Do not promote to an authenticated creator statement.",
+      "reviewed_for_this_round": false
+    },
+    {
+      "id": "anagram_claim",
+      "url": "https://www.reddit.com/r/TibiaMMO/comments/1u1i3ag/avar_tars_469_poem_seems_to_contain_scrambled/",
+      "access": "web_read",
+      "lineage": "u/d4vv4 community claim",
+      "finding": "Pairs3478/4378 and345/453 plus a roughly1-in10000 Monte Carlo claim; code/seed/trial definition absent in read post. Our test is independent, not its exact reproduction.",
+      "reviewed_for_this_round": true
+    },
+    {
+      "id": "arturo_discussion2",
+      "url": "https://github.com/arturoornelasb/tibia-bonelord-469-cipher/discussions/2",
+      "access": "web_read_relevant_post_and_replies",
+      "lineage": "mazzucoe discussion, displayed2026-07-04; assumes prior MHG solution",
+      "finding": "Proposed Avar hymn relies on interpreted affixes and divisibility13; no complete reusable decoder or independently glossed holdout supplied in reviewed text. Structural fragments do not establish assigned meanings.",
+      "reviewed_for_this_round": true
+    },
+    {
+      "id": "article160",
+      "url": "https://www.tibiasecrets.com/article160",
+      "access": "web_read_selected_sections",
+      "lineage": "Antonio Stradivarius,2024-05-06; community theory",
+      "finding": "Rules include padding, inferred BE and guessed English words. Its tibia.org variant and English inferences already require provenance cautions in earlier rounds; not ground truth.",
+      "reviewed_for_this_round": true
+    },
+    {
+      "id": "tales_part1",
+      "url": "https://article.talesoftibia.com/469/1/",
+      "access": "web_read_selected_sections",
+      "lineage": "interpretive lore synthesis; quotes prior game texts",
+      "finding": "Connects books/NPCs through story hypotheses, no tested numeric-to-English algorithm found in reviewed passages. Unread portions are not adjudicated.",
+      "reviewed_for_this_round": true
+    },
+    {
+      "id": "tales_part2",
+      "url": "https://article.talesoftibia.com/469/2/index.html",
+      "access": "indexed_excerpt_only",
+      "lineage": "same author/lore lineage as part1",
+      "finding": "Honeminas and3478 interpretation discovered; full article not reviewed this round.",
+      "reviewed_for_this_round": false
+    },
+    {
+      "id": "honeminas_correct",
+      "url": "https://www.tibiawiki.com.br/Honeminas_Formula",
+      "access": "direct_http_200",
+      "lineage": "wiki transcription of game formula",
+      "finding": "Vectors43153 and34784 confirmed. Ordinary dot product83; no rule converting83 or gate variables into English.",
+      "reviewed_for_this_round": true
+    },
+    {
+      "id": "honeminas_fandom",
+      "url": "https://tibia.fandom.com/wiki/The_Honeminas_Formula_(Book)",
+      "access": "indexed_book_text; direct_open_failed",
+      "lineage": "wiki transcription, not an independent authored message",
+      "finding": "Same vectors and attribution to Mathemicus. Content corroboration does not establish cipher meaning.",
+      "reviewed_for_this_round": true
+    },
+    {
+      "id": "historic_books",
+      "url": "https://nightmareknights.com/historyprojects/books.html",
+      "access": "indexed_excerpt; direct_http_503",
+      "lineage": "historical book compilation",
+      "finding": "Book89 provides a historical lead for Honeminas. Original body not recovered this round.",
+      "reviewed_for_this_round": false
+    },
+    {
+      "id": "honeminas_bad_url",
+      "url": "https://www.tibiawiki.com.br/wiki/Mathemagics_(Book)",
+      "access": "direct_http_404",
+      "lineage": "guessed URL, not discovered canonical source",
+      "finding": "Wrong guessed title recorded; cannot infer absence of the book. Replaced by discovered Honeminas_Formula page.",
+      "reviewed_for_this_round": false
+    },
+    {
+      "id": "matrix_history",
+      "url": "docs/round14.md",
+      "access": "reused_frozen_prior_audit; no_new_archival_payload",
+      "lineage": "2008 archive table and posts attributed2009/April2010",
+      "finding": "Historical chronology remains qualified; this round found no additional authenticated full matrix or25cell key. Fresh broad query returned mostly irrelevant results.",
+      "reviewed_for_this_round": false
+    },
+    {
+      "id": "video_tibianews",
+      "url": "https://www.youtube.com/watch?v=E-eojzwyZKk",
+      "access": "discovery_only",
+      "lineage": "commentary video about interview",
+      "finding": "No playback or transcript retrieved; no spoken claim or scene treated as reviewed.",
+      "reviewed_for_this_round": false
+    },
+    {
+      "id": "video_tibiabr",
+      "url": "https://www.youtube.com/watch?v=CO7101voIIg",
+      "access": "discovery_only",
+      "lineage": "commentary video about older interview",
+      "finding": "No playback or transcript retrieved; keep as a source lead.",
+      "reviewed_for_this_round": false
+    },
+    {
+      "id": "arturo",
+      "url": "https://github.com/arturoornelasb/tibia-bonelord-469-cipher/tree/007dcf1707acc9b991642e68bcac08214a5bb38c",
+      "access": "git_remote_HEAD_checked; pinned_relevant_documents_read",
+      "lineage": "existing repository, no new upstream revision",
+      "finding": "Remote head unchanged. Prior results not relabeled as newly published evidence.",
+      "reviewed_for_this_round": true,
+      "pinned_local_path": "sources/arturo/docs/investigation/npc-research.md",
+      "sha256": "942d79e076b8f9397d3150d4911c4c6c3e7093fe5fc04eb2479f13330b492e33"
+    },
+    {
+      "id": "s2ward",
+      "url": "https://github.com/s2ward/469/tree/4b1c4d3d2b07ed373f4cca44ac1270638614cef5",
+      "access": "git_remote_HEAD_checked; pinned_relevant_documents_read",
+      "lineage": "existing repository, no new upstream revision",
+      "finding": "Remote head unchanged. Prior results not relabeled as newly published evidence.",
+      "reviewed_for_this_round": true,
+      "pinned_local_path": "sources/s2ward/README.md",
+      "sha256": "5ba1a0008f5df5ce29b7c90a22d69858fcbd204ea4afc165981ce2d451359c28"
+    },
+    {
+      "id": "kimlage",
+      "url": "https://github.com/kimlage/tibia-469-cipher-casestudy/tree/4d726a8de7af1f2216bd48d9b86165e0c50616b6",
+      "access": "git_remote_HEAD_checked; pinned_relevant_documents_read",
+      "lineage": "existing repository, no new upstream revision",
+      "finding": "Remote head unchanged. Prior results not relabeled as newly published evidence.",
+      "reviewed_for_this_round": true,
+      "pinned_local_path": "sources/kimlage/docs/469_final_report.md",
+      "sha256": "354dfc7a3d8e19caac89b34d8c08e646729424f6335266f63907659293141f07"
+    },
+    {
+      "id": "kim_mdl",
+      "url": "https://github.com/kimlage/tibia-469-cipher-casestudy/blob/4d726a8de7af1f2216bd48d9b86165e0c50616b6/analysis/audit_20260609/dedup_canonical/c2_generative_mdl.py",
+      "access": "pinned_local_source_read",
+      "lineage": "same upstream corpus and research lineage",
+      "finding": "Only three reviewed AST functions executed; original SQLite workflow unavailable. Model inventory and literals explicitly encode target data.",
+      "reviewed_for_this_round": true,
+      "pinned_local_path": "sources/kimlage/analysis/audit_20260609/dedup_canonical/c2_generative_mdl.py",
+      "sha256": "1a1703d2b78fdabbe47a43550b0fb93e3b7227f02b09e5f18970ebc3a3cd19aa"
+    },
+    {
+      "id": "kim_sql_gate",
+      "url": "https://github.com/kimlage/tibia-469-cipher-casestudy/blob/4d726a8de7af1f2216bd48d9b86165e0c50616b6/scripts/sqlite_phrase_level_gt_gate.py",
+      "access": "pinned_local_source_read",
+      "lineage": "same upstream corpus and research lineage",
+      "finding": "Inspected stored expected/decoded/pass logic and optional notification path; no original DB run or notification sent. Label permutation experiment is an independent circularity demonstration.",
+      "reviewed_for_this_round": true,
+      "pinned_local_path": "sources/kimlage/scripts/sqlite_phrase_level_gt_gate.py",
+      "sha256": "271eb60ecd4d2ebcd1d607fbbab503a2b4e51ff86f74cce071acc09f02b60bd2"
+    },
+    {
+      "id": "kim_tape_removal",
+      "url": "https://github.com/kimlage/tibia-469-cipher-casestudy/blob/4d726a8de7af1f2216bd48d9b86165e0c50616b6/analysis/source_tape_removal_program_audit_20260622/reports/final_source_tape_removal_program_audit.md",
+      "access": "pinned_local_source_read",
+      "lineage": "same upstream corpus and research lineage",
+      "finding": "Later upstream audit does not promote source-tape removal:22/537 default copy hits, zero unrepaired exact heldout books. Analysis-only result.",
+      "reviewed_for_this_round": true,
+      "pinned_local_path": "sources/kimlage/analysis/source_tape_removal_program_audit_20260622/reports/final_source_tape_removal_program_audit.md",
+      "sha256": "1b0383f6054c06daf01a75a36d7ad061421bdf1ba2b4c32c8ec4b1763696472c"
+    },
+    {
+      "id": "kim_external_tape",
+      "url": "https://github.com/kimlage/tibia-469-cipher-casestudy/blob/4d726a8de7af1f2216bd48d9b86165e0c50616b6/analysis/minimal_external_tape_program_audit_20260622/reports/final_minimal_external_tape_program_audit.md",
+      "access": "pinned_local_source_read",
+      "lineage": "same upstream corpus and research lineage",
+      "finding": "Later exact reconstruction still uses external seeds/literals/copy hints; explicitly distinguishes compression bound from generation explanation.",
+      "reviewed_for_this_round": true,
+      "pinned_local_path": "sources/kimlage/analysis/minimal_external_tape_program_audit_20260622/reports/final_minimal_external_tape_program_audit.md",
+      "sha256": "6b24192c0d4e86a34bbf6302b03c4614ed77ef86215617da8359555400674db2"
+    }
+  ],
+  "reviewed_entries": 20,
+  "all_entries": 28,
+  "limitations": [
+    "16 distinct queries, not an exhaustive search",
+    "Source data often copied across websites",
+    "Full page bodies remain ignored/local; published HTTP hashes identify captures, not historical truth",
+    "Videos and original production code remain unavailable",
+    "No authenticated numeric-English pair added"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "scope": "Frozen before new target/null calculations; published examples already exposed",
+  "sha256": {
+    "data/round24_protocol.json": "2a2a078338787eccd14c3f9e7758102427a0675cafdd336744785535a2c75342",
+    "data/round24_anagram_protocol.json": "1ab7c800618651a1d34ee5e033dc2b4b8f289ae6383e1913c04f95e652dd1f16",
+    "data/source_validation_inventory.json": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+    "scripts/round24_anagram_audit.py": "0db74effb1d30ece089d96b8ca9dbe646ad7b8d06f20eb45bf7a750232c84817"
+  }
+}

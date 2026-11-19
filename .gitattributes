@@ -13,3 +13,4 @@ data/segmentation_reference/*.txt -text -diff
 
 # Preserve the exact licensed upstream snapshot, including original trailing blank lines.
 data/cmudict_reference/* -text whitespace=-blank-at-eof
+data/round24_reference/c2_generative_mdl.py -text whitespace=-blank-at-eof

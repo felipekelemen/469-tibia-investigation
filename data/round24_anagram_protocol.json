@@ -1,0 +1,30 @@
+{
+  "source": "https://www.reddit.com/r/TibiaMMO/comments/1u1i3ag/avar_tars_469_poem_seems_to_contain_scrambled/",
+  "status": "frozen after reading published examples, before computing null outcomes",
+  "selection": "Source-selected pair, not blinded discovery. Original Monte Carlo code/seed/trial count unavailable; our null frequencies do not reproduce an unspecified simulation.",
+  "pairs": [
+    [
+      "3478",
+      "4378"
+    ],
+    [
+      "345",
+      "453"
+    ]
+  ],
+  "statistics": [
+    "both named Knightmare signatures occur anywhere among whole Avar groups",
+    "number of distinct Knightmare signatures of length>=3 matched by any whole Avar group",
+    "named pair occurs adjacently in the published order"
+  ],
+  "trials_per_null": 99999,
+  "seed": 24639469,
+  "nulls": {
+    "pooled_occurrences": "Shuffle all Avar digits and restore original group lengths. Preserves total digit counts/lengths, not equality of repeated groups.",
+    "pooled_unique_words": "Shuffle digits across distinct Avar groups; restore lengths and repeat identical groups together. Preserves distinct-vocabulary digit counts and repeated-group equality, not occurrence-weighted digit counts.",
+    "digit_relabel": "Uniform global decimal-digit permutation of Avar only. Preserves all equality/repetition structures; digit frequency labels change.",
+    "within_word": "Analytic invariant: all anagram statistics unchanged by any within-group permutation; 30 seeded checks, not an informative significance test."
+  },
+  "controls": "Analytic multivariate-hypergeometric expected counts and fixed adjacent-pair probability under pooled-occurrence shuffle; independent tiny exhaustive permutation oracle in tests.",
+  "interpretation": "No short match or low null frequency identifies English, a direction of derivation, the authorial mechanism, or chance probability after the original unknown search selection."
+}

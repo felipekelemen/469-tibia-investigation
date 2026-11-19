@@ -1,0 +1,26 @@
+{
+  "upstream_url": "https://github.com/kimlage/tibia-469-cipher-casestudy/blob/4d726a8de7af1f2216bd48d9b86165e0c50616b6/docs/469_final_report.md#32-the-phrase-codebook-frozen-validation-only--with-attestation-status",
+  "gloss_status": "community proposals; not CipSoft-confirmed; labels never serve as independent ground truth",
+  "sources": {
+    "evil_eye_shout": {
+      "653": "look",
+      "768": "at",
+      "764": "you"
+    },
+    "elder_bonelord_phrase": {
+      "659": "let",
+      "978": "me",
+      "54": "see",
+      "764": "you"
+    },
+    "knightmare_2012": {
+      "3478": "be",
+      "67": "a",
+      "90871": "wit",
+      "97664": "than",
+      "3466": "be",
+      "0": "a",
+      "345": "fool"
+    }
+  }
+}

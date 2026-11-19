@@ -1,0 +1,34 @@
+[
+  {
+    "id": "honeminas_correct",
+    "requested_url": "https://www.tibiawiki.com.br/Honeminas_Formula",
+    "requested_at_utc": "2026-11-19T17:51:20.562077+00:00",
+    "method": "one public HTTPS GET; inherited proxy/TLS trust; no retries",
+    "http_status": 200,
+    "content_type": "text/html; charset=UTF-8",
+    "http_last_modified": "Tue, 27 Oct 2026 20:51:21 GMT",
+    "memento_datetime": null,
+    "final_url_without_query": "https://www.tibiawiki.com.br/Honeminas_Formula",
+    "body_truncated": false,
+    "bytes": 57724,
+    "sha256": "a45cbed51a6c56837af3df1b01380c9961ba3704484c974a83b72dc9b5981edb",
+    "human_check_marker": false,
+    "body_local_ignored": "data/historical_refresh/round24/final/honeminas_correct.body"
+  },
+  {
+    "id": "historic_books",
+    "requested_url": "https://nightmareknights.com/historyprojects/books.html",
+    "requested_at_utc": "2026-11-19T17:51:20.562790+00:00",
+    "method": "one public HTTPS GET; inherited proxy/TLS trust; no retries",
+    "http_status": 503,
+    "content_type": "text/plain",
+    "http_last_modified": null,
+    "memento_datetime": null,
+    "final_url_without_query": "https://nightmareknights.com/historyprojects/books.html",
+    "body_truncated": false,
+    "bytes": 98,
+    "sha256": "33fbc61ad080ef68dd7a6479f8c53f1bf864dba2930567dbbc4ceb47490a1909",
+    "human_check_marker": false,
+    "body_local_ignored": "data/historical_refresh/round24/final/historic_books.body"
+  }
+]

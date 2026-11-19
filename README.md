@@ -1,6 +1,6 @@
 # 469-tibia-investigation — investigação reproduzível
 
-**Estado: vinte e três rodadas executadas; nenhuma tradução verificável encontrada.**
+**Estado: vinte e quatro rodadas executadas; nenhuma tradução verificável encontrada.**
 Não afirmamos que o corpus é indecifrável nem que qualquer solução comunitária
 foi confirmada. O alvo é um algoritmo integral que generalize para textos inéditos.
 
@@ -10,11 +10,19 @@ Destino público: https://github.com/felipekelemen/469-tibia-investigation
 com [balanço de cada rodada](docs/rounds_01_23_review.md) e
 [formato obrigatório de resultados e candidatas](docs/round_report_template_v2.md).
 Prioridade: Avar Tar, Knightmare e Chayenne; decisões delimitadas sobre3478/nomes
-e matrizes; investigação própria de geração sem texto. As rodadas24–30 são
-propostas, ainda não executadas por essa revisão. Estado da missão: inconclusivo.
+e matrizes; investigação própria de geração sem texto. A rodada24 está concluída;
+as rodadas25–30 permanecem planejadas. [Progresso atual](data/plan_progress_round24.json).
+Estado da missão: inconclusivo.
 
-**Publicado:** corpus normalizado, código, testes e resultados das vinte e três rodadas
+**Publicado:** corpus normalizado, código, testes e resultados das vinte e quatro rodadas
 disponíveis neste repositório. O acesso de escrita foi confirmado após nova reconexão.
+
+A [vigésima quarta rodada](docs/round24.md) auditou fontes e alegações públicas.
+Reproduziu a compressão dos70 livros e três saídas de uma tabela comunitária,
+sem validar sua tradução. Os pares3478/4378 e345/453 entre Avar Tar e Knightmare
+são raros nos controles testados, mas foram selecionados previamente e não
+fornecem significado. A busca não encontrou um novo par inglês469 atestado.
+Replay offline: `make round24`;236 testes de software passaram.
 
 A [vigésima terceira rodada](docs/round23.md) acrescentou um dicionário externo
 de grafias e pronúncias e testou quatro regras de unidades por dígito. Os
@@ -186,6 +194,7 @@ make round15
 make round16
 make round17
 make round18
+make round24
 make test
 ```
 

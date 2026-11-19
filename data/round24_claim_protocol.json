@@ -1,0 +1,17 @@
+{
+  "status": "Frozen before numerical reproduction",
+  "module_source": "sources/kimlage/analysis/audit_20260609/dedup_canonical/c2_generative_mdl.py",
+  "upstream_commit": "4d726a8de7af1f2216bd48d9b86165e0c50616b6",
+  "execution_scope": "Execute only unmodified AST function definitions tile/gamma_bits/two_part_module_code after inspection; not upstream SQL, control suite or 1GB database. Independently serialize/deserialize modules+literal payload and recompute costs.",
+  "module_min_length": 20,
+  "module_alphabet_size": 10,
+  "controls": [
+    "70 copied English messages built from eight fixed original synthetic sentences, encoded as3digit ASCII; full plaintext roundtrip checked",
+    "shuffle each copied-English numeric message internally, preserving lengths and per-message digit counts",
+    "70 uniform-digit strings with the real corpus message lengths"
+  ],
+  "seed": 24639470,
+  "interpretation": "An exact compressed reconstruction can also encode English-bearing data. No inference of original authorial intent from this result. Bit estimates are the upstream idealized code-length formula, not an actual packed file size.",
+  "phrase_scope": "Literal independent implementation of the published13-entry wordcode table, not the unavailable upstream database decoder. Leave each attributed source out; do not assign words to unknown codes.",
+  "phrase_null": "999 permutations of published gloss labels among13codes; count numeric parsing and a self-output equality gate. Measures circularity/structural invariance only; not a test against authenticated English."
+}

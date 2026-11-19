@@ -1,0 +1,27 @@
+{
+  "round": 24,
+  "basis": "2d8aa534765bb38cfb65f433754ed0ae9ff3ff67",
+  "scope": "Bounded source/claim/context audit under mission plan v2; no new universal cipher-family rejection.",
+  "priority_targets": [
+    "avar_tar_poem",
+    "knightmare_2012",
+    "chayenne_2009_part1",
+    "chayenne_2009_part2"
+  ],
+  "budgets": {
+    "distinct_search_queries": 80,
+    "priority_documents_read": 40
+  },
+  "method": [
+    "Refresh upstream heads without replacing historical pinned clones. Record identical heads rather than claiming new versions.",
+    "Discovery searches across priority texts, official/creator evidence, lore anchors, matrix history, published algorithms, forums and videos. Follow primary citations in a second pass.",
+    "Distinguish search snippets, read documents, primary/copy provenance and inaccessible material. Do not claim a video scene from a title.",
+    "Inspect before executing selected upstream code. Reproduce a concrete phrase-codebook claim and a concrete nontextual-origin claim if runnable evidence exists; otherwise record why not.",
+    "Independent checks must distinguish hardcoded/inferred labels from external plaintext, and exact reconstruction from proof of authorial intent.",
+    "Freeze each new numerical test specification before running its target comparison; paired nulls preserve the properties relevant to that test.",
+    "Publish short attributed excerpts/analytical metadata and licensed small code fixtures only; keep third-party page bodies and full repo clones local."
+  ],
+  "closure": "One source round with scoped decisions, unresolved sources and explicit triggers for R25/R26; no unbounded search for attractive English.",
+  "candidate_policy": "Literal outputs with provenance and status; a published translation remains unverified unless its algorithm predicts independently authenticated content.",
+  "translation_validated": false
+}

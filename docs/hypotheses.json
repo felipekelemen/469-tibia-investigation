@@ -670,5 +670,33 @@
     "status": "not_qualified_all_forty_joint_positive_searches_budget_limited",
     "evidence": "120/120testes locais retêm partição verdadeira, mas40/40buscas conjuntas chegam a2000estados sem enumerar chave verdadeira.65673chaves alternativas em39casos. Nenhuma das280formas reservadas tem previsão certificada; listas condicionadas ao vocabulário não são prosa.",
     "artifact": "results/round23_qualification.json"
+  },
+  {
+    "id": "H97",
+    "hypothesis": "Avar Tar preserva multiconjuntos de dígitos de palavras de Knightmare",
+    "status": "retrospective_structural_signal_no_semantics",
+    "evidence": "3478/4378 e345/453 confirmados.299997 sorteios em3nulos: estatística abrangendo todas as assinaturas Knightmare p+=0.00031/0.00015/0.00009. Exemplos previamente selecionados; não há correção global por todas as teorias pesquisadas nem prova de intenção.",
+    "artifact": "results/round24_anagram.json"
+  },
+  {
+    "id": "H98",
+    "hypothesis": "A tabela comunitária de13códigos fornece tradução independente de frases",
+    "status": "self_consistency_reproduced_independent_translation_not_demonstrated",
+    "evidence": "Três saídas propostas reproduzidas; retirar uma fonte inteira deixa0/3frases decodificáveis.2997/2997controles com rótulos permutados preservam parses e igualdade com a própria saída. Banco original não executado.",
+    "artifact": "results/round24_claims.json"
+  },
+  {
+    "id": "H99",
+    "hypothesis": "Reconstrução comprimida exata prova que os livros não contêm texto",
+    "status": "inference_invalid_compression_reproduced",
+    "evidence": "Funções publicadas reproduzem62módulos,24627.846bits e70/70livros; serializer/decoder e custo independentes conferem. Mesmo mecanismo reconstrói70mensagens de inglês conhecido com cópias. Não autentica gerador original.",
+    "artifact": "results/round24_claims.json"
+  },
+  {
+    "id": "H100",
+    "hypothesis": "Novas fontes públicas fornecem um par inglês469 ou encerram a questão por declaração do criador",
+    "status": "no_authenticated_semantic_pair_in_bounded_audit",
+    "evidence": "16consultas,20unidades de fontes revisadas entre28entradas; entrevista2026não oferece algoritmo nem declara que469ésemtexto. Transcrições prioritárias reconferidas.3478como nome contextual permanece distinto de chave/tradução.",
+    "artifact": "data/round24_sources.json"
   }
 ]

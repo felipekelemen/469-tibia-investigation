@@ -1,0 +1,183 @@
+{
+  "batches": [
+    {
+      "batch": "web01",
+      "request": {
+        "system2_search_query": [
+          {
+            "q": "Tibia Avar Tar poem 469 translation original transcript"
+          },
+          {
+            "q": "Chayenne interview 2009 469 114514519485611451908304576512282177"
+          },
+          {
+            "q": "Knightmare 469 language interview solvable meaning CipSoft"
+          },
+          {
+            "q": "site:tibia.com 469 language bonelord"
+          }
+        ],
+        "response_length": "long"
+      },
+      "local_response_record_sha256": "fceece1fccfad08ef4378a7eac4b6003853332d41e06ae3ff40559793a419901",
+      "body_public": false
+    },
+    {
+      "batch": "web02",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://forum.portaltibia.com.br/topic/11420-entrevista-com-chayenne/"
+          },
+          {
+            "ref_id": "https://www.tibiawiki.com.br/wiki/Avar_Tar"
+          },
+          {
+            "ref_id": "https://www.reddit.com/r/TibiaMMO/comments/1u1i3ag/avar_tars_469_poem_seems_to_contain_scrambled/"
+          }
+        ],
+        "response_length": "long"
+      },
+      "local_response_record_sha256": "1a6f2415e14b8a3ea3911a6c13cdb116d7b0cf8c82c849f746fcc8285e45ad36",
+      "body_public": false
+    },
+    {
+      "batch": "web03",
+      "request": {
+        "system2_search_query": [
+          {
+            "q": "\"Tibia\" \"Knightmare\" interview 2026 469"
+          },
+          {
+            "q": "\"Tibia\" \"Chayenne\" \"interview\" \"2009\" beholder"
+          },
+          {
+            "q": "\"Tibia\" \"469\" \"Honeminas\" formula"
+          },
+          {
+            "q": "\"Tibia\" \"3478\" \"2023\" Bonelord"
+          }
+        ],
+        "response_length": "long"
+      },
+      "local_response_record_sha256": "fe170561c69a3cd8d813eca192cb8d28bff784a2a5212f4a9bec7172a1448374",
+      "body_public": false
+    },
+    {
+      "batch": "web04",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://rookie.com.pl/blogs/890/interview-with-knightmare"
+          },
+          {
+            "ref_id": "https://www.tibia.com/news/?id=8732&subtopic=newsarchive"
+          },
+          {
+            "ref_id": "https://linguagem469.wordpress.com/linguagem-469/"
+          },
+          {
+            "ref_id": "https://tibia.gg/en/wiki/avar-tar"
+          }
+        ],
+        "response_length": "long"
+      },
+      "local_response_record_sha256": "543dafe8cf44f2514b593233bfdb89736e6768dc9bf30af2b91270747f7aa217",
+      "body_public": false
+    },
+    {
+      "batch": "web05",
+      "request": {
+        "system2_search_query": [
+          {
+            "q": "site:rookie.com.pl/blogs/890 \"469\" \"Knightmare\""
+          },
+          {
+            "q": "site:youtube.com \"469\" \"Hellgate\" skull matrix"
+          },
+          {
+            "q": "site:tibiawiki.com.br \"Honeminas\" \"43153\""
+          },
+          {
+            "q": "\"Tibia\" \"469\" \"solvable\" Knightmare interview original"
+          }
+        ],
+        "response_length": "long"
+      },
+      "local_response_record_sha256": "5957e6f2e9b21e8e94cd48e697641f6abacc5d870d4acae36f895226b80a3ee5",
+      "body_public": false
+    },
+    {
+      "batch": "web06",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://github.com/arturoornelasb/tibia-bonelord-469-cipher/discussions/2"
+          },
+          {
+            "ref_id": "https://article.talesoftibia.com/469/1/"
+          },
+          {
+            "ref_id": "https://torg.pl/tibia/265100-hellgates-library-469-spoilery-2.html"
+          }
+        ],
+        "system2_search_query": [
+          {
+            "q": "\"Honeminas\" \"43153\" \"34784\""
+          },
+          {
+            "q": "\"Knightmare\" \"3478 67 90871\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "local_response_record_sha256": "fabe1a369c93f7a55c3b348f265daecee9e0727e521cf85ed5f3922fa2e4ef5a",
+      "body_public": false
+    },
+    {
+      "batch": "web07",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.tibiasecrets.com/article160"
+          },
+          {
+            "ref_id": "https://github.com/arturoornelasb/tibia-bonelord-469-cipher/discussions/2",
+            "lineno": 158
+          },
+          {
+            "ref_id": "https://article.talesoftibia.com/469/1/",
+            "lineno": 360
+          }
+        ],
+        "response_length": "long"
+      },
+      "local_response_record_sha256": "bb257e41ff9cffed534d6d5ef6780216fd4cb62f02ee671d469e80c8b249a553",
+      "body_public": false
+    },
+    {
+      "batch": "web08",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://tibia.fandom.com/wiki/The_Honeminas_Formula_(Book)"
+          }
+        ],
+        "system2_search_query": [
+          {
+            "q": "\"The Honeminas Formula\" \"4,3,1,5,3\""
+          },
+          {
+            "q": "\"Hellgate\" \"skulls\" \"2010\" matrix"
+          }
+        ],
+        "response_length": "long"
+      },
+      "local_response_record_sha256": "29f8885bdbdb9872af51cffbfbb92c260be0dc231ca3116b34f1587fa29836e7",
+      "body_public": false
+    }
+  ],
+  "distinct_queries": 16,
+  "open_operations": 14,
+  "note": "Fingerprints refer to local tool request/response JSON, not the original website body. Results may be indexed excerpts. No webpage text is republished."
+}

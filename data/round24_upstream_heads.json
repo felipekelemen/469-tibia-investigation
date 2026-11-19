@@ -1,0 +1,20 @@
+[
+  {
+    "repository": "arturoornelasb/tibia-bonelord-469-cipher",
+    "remote_head": "007dcf1707acc9b991642e68bcac08214a5bb38c",
+    "matches_previously_pinned": true,
+    "method": "git ls-remote public origin HEAD; no repository replacement"
+  },
+  {
+    "repository": "s2ward/469",
+    "remote_head": "4b1c4d3d2b07ed373f4cca44ac1270638614cef5",
+    "matches_previously_pinned": true,
+    "method": "git ls-remote public origin HEAD; no repository replacement"
+  },
+  {
+    "repository": "kimlage/tibia-469-cipher-casestudy",
+    "remote_head": "4d726a8de7af1f2216bd48d9b86165e0c50616b6",
+    "matches_previously_pinned": true,
+    "method": "git ls-remote public origin HEAD; no repository replacement"
+  }
+]
