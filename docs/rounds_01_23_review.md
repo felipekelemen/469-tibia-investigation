@@ -1,0 +1,50 @@
+# Balanço das rodadas 1–23 para a revisão do plano
+
+Base: commit `d0f50399b3bcc2b77e151ac431a181ea1e881ddd`, de 17/11/2026.
+Este documento consolida resultados já publicados; não executa uma rodada 24.
+O [plano revisado](mission_plan_v2.md) mantém as frentes P01–P07 do
+[plano inicial após o Deep Research](next_experiments.md).
+
+**Saldo: nenhum algoritmo de tradução validado e nenhuma prova de ausência
+universal de conteúdo textual.** Resultados condicionais, buscas incompletas
+e problemas de identificabilidade precisam permanecer separados.
+
+| Rodada / evidência | Resultado relevante | Consequência para o novo plano |
+| --- | --- | --- |
+| [1](report.md) | 70 livros, 11.263 dígitos; camada de 5.729 códigos reproduzida com mapa/segmentação importados. Reutilização conecta todos os livros no critério de 12 dígitos. Cifras clássicas e cribs matriciais sem inglês validado. | O corpus está disponível; a segmentação não está descoberta. Não contar 70 livros como 70 observações independentes. |
+| [2](round2.md) | Hill29, canal residual e 53 funções da tabela/matrizes sem tradução. Um controle homofônico recuperou somente 42,6% das letras. | Falha de otimização não refuta homofonia. Separar previsão de variantes de significado. |
+| [3](round3.md) | Inventário de 16 amostras; nenhum novo par completo oficial número/inglês. Solucionador falhou em um dos seis cenários; 192 leituras matriciais sem tradução. | Registrar modalidade e dependência por fonte; qualificar cada família antes de interpretar seus resultados. |
+| [4](round4.md) | Busca V2 qualificada em prosa comum; sinal não resistiu a controles estruturados. Prosa cifrada copiada ainda causou falhas. | Positivos com cópia são necessários; embaralhamento simples é insuficiente. |
+| [5](round5.md) | V4 qualificada no cenário delimitado; sinal de tetragramas superou três nulos, sem inglês coerente. | Uma pontuação significativa não é uma tradução. Não repetir busca pelo mesmo escore como se fosse nova confirmação. |
+| [6](round6.md) | Revisão das 70 saídas não encontrou candidata longa. Avaliador lexical e controle modular não qualificaram para os usos propostos. Dependência da tokenização importada explicitada. | Priorizar leitura literal, fronteiras e potência do avaliador; não selecionar parses pelo inglês desejado. |
+| [7](round7.md) | Dois parsers falharam globalmente mesmo recebendo chave correta; melhoras parciais preservadas. | Recuperação da chave e recuperação da segmentação são tarefas distintas. |
+| [8](round8.md) | 15 regras de zeros: 13 contraditórias na tokenização importada; duas sem identificação dos eventos reservados. | Fechar as regras refutadas nesse escopo; não concluir sobre toda serialização possível. |
+| [9](round9.md) | 18 regras adicionais de zeros incompatíveis. `book_positions.json` representa offsets textuais, não posições do mapa; gravação histórica não foi visualizada. | Excluir coordenadas fictícias como sementes; indisponibilidade de vídeo não demonstra ausência de evento. |
+| [10](round10.md) | Kharos acrescenta 137 dígitos externos ao conjunto de 70, mas já públicos. Parser qualificado em seus positivos não transferiu os códigos importados. | Kharos é teste de transferência exposto, não reserva semântica cega. |
+| [11](round11.md) | Dois codecs de cópia comparados; pequena vantagem condicional de nove bits não autentica a tokenização nem a intenção do autor. | Cobrar endereços, cortes, dicionários e exceções; compressão não decide significado sozinha. |
+| [12](round12.md) | Kharos e ID22 têm o mesmo histograma de dígitos; conservação exata dos códigos importados foi rejeitada por dois algoritmos. | Há relação numérica verificável, sem gloss inglês. Não confundir anagramas de dígitos com mesma mensagem. |
+| [13](round13.md) | Transposição colunar pura de 2–32 colunas, nas regras publicadas, não transforma ID22 em Kharos. | Família encerrada para esse par; outras composições exigem uma pista nova e uma regra especificada. |
+| [14](round14.md) | Tabela antiga atestada em arquivo de 2008. Relatos atribuídos a 2009/abril de 2010 enfraquecem coincidência com a renomeação de agosto de 2010; contagens completas e data da mudança continuam não autenticadas. | Separar história da criatura, aparência da sala e quantidades das pilhas. Não afirmar sincronismo. |
+| [15](round15.md) | 1.860 configurações 3×3/4×4/5×5 e 150 positivos; nenhuma tradução. Sem 25 contagens físicas autenticadas. Crib de dígrafos 3478→nome produz previsões sem validação. | Encerrar as construções enumeradas; não completar bordas de 5×5 para obter inglês. |
+| [16](round16.md) | Dicionário de 45 grupos numéricos não segmenta nenhum livro inteiro; certas cópias de gritos terminam dentro de códigos importados. | Cópia literal não fornece fronteiras de unidades nem prova um sistema universal de palavras. |
+| [17](round17.md) | Aprendizado com vocabulário oculto não qualificou. Dicionários distintos podem explicar os mesmos dados com mesmo custo. | Reduzir ambiguidade com observações novas; não promover compressão/BPE a decodificador de inglês. |
+| [18](round18.md) | Novos contextos reduzem ambiguidade em família fornecida; mais cópias dos mesmos pares não. 750 ajustes combinatórios sem semântica. | Procurar combinações e restrições novas, não apenas ampliar quantidade de texto repetido. |
+| [19](round19.md) | Seis projeções diretas de tabela pública não explicam 737→469. Corte 36+13 de Chayenne reproduzido mecanicamente, sem inglês. | A foto não fornece uma chave validada; as duas partes da entrevista continuam conteúdo reutilizado dos livros. |
+| [20](round20.md) | Sete codecs decimais com permutação fixa dos dígitos, léxico de 7.713 palavras, sem chave nos três alvos prioritários. | Encerrar essa busca no léxico e enquadramentos testados; não confundir ausência de palavra no léxico com impossibilidade de língua. |
+| [21](round21.md) | 96 configurações periódicas/com feedback: Avar e Knightmare sem chave; 12 casos de Chayenne limitados. | Manter falhas de orçamento separadas das rejeições. A chave periódica 3478 já está incluída na família de período quatro. |
+| [22](round22.md) | Os 12 casos pendentes de Chayenne foram concluídos, sem chave compartilhada; 360 positivos preservaram as chaves verdadeiras, muitos com ambiguidades lexicais. | A pendência da rodada 21 está fechada. Não aumentar períodos indefinidamente sem pista nova. |
+| [23](round23.md) | Quatro regras de unidades por dígito; 11/12 ajustes principais completos sem chave e um limitado com 1.769 chaves lexicais. Seis cribs de nomes sem chave; 40/40 buscas sintéticas limitadas. | Não promover o solver a tradutor; manter o caso de Knightmare inconclusivo. Dígito 2 ausente impede transferência completa para Chayenne. |
+
+## Decisões que esta revisão permite
+
+- Reutilizar corpus, fontes, implementações, controles e negativos já auditados.
+- Encerrar operacionalmente famílias com rejeição exata ou resultado negativo
+  qualificado no escopo registrado; reabertura exige evidência ou mecanismo novo.
+- Manter suspensas as generalizações para as quais faltam dados, identificação
+  ou capacidade de busca. Suspensão não é prova de falsidade.
+- Concentrar novos esforços nas falas prioritárias e em evidência que realmente
+  discrimine cifra textual, referência a entidades e construção decorativa.
+
+Os registros históricos `docs/plan_status.md` e `data/plan_status.json` estão
+congelados pela rodada 8. A revisão atual usa novos arquivos, sem alterar seus
+hashes nem reclassificar retrospectivamente resultados como confirmações.

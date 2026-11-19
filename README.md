@@ -6,6 +6,13 @@ foi confirmada. O alvo é um algoritmo integral que generalize para textos inéd
 
 Destino público: https://github.com/felipekelemen/469-tibia-investigation
 
+**Plano atual:** [revisão da missão após 23 rodadas](docs/mission_plan_v2.md),
+com [balanço de cada rodada](docs/rounds_01_23_review.md) e
+[formato obrigatório de resultados e candidatas](docs/round_report_template_v2.md).
+Prioridade: Avar Tar, Knightmare e Chayenne; decisões delimitadas sobre3478/nomes
+e matrizes; investigação própria de geração sem texto. As rodadas24–30 são
+propostas, ainda não executadas por essa revisão. Estado da missão: inconclusivo.
+
 **Publicado:** corpus normalizado, código, testes e resultados das vinte e três rodadas
 disponíveis neste repositório. O acesso de escrita foi confirmado após nova reconexão.
 
@@ -147,8 +154,8 @@ A [segunda rodada](docs/round2.md) testa Hill módulo29, homofonia com nulos de
 bigramas, o canal residual e a geometria do mapa.
 
 A [auditoria do Deep Research](docs/research_crosswalk.md) corrige as pistas de
-mapas e validação externa. O [plano atualizado](docs/next_experiments.md) define
-os próximos experimentos e seus critérios de avanço.
+mapas e validação externa. O [plano original](docs/next_experiments.md) preserva as frentes P01–P07;
+a [revisão atual](docs/mission_plan_v2.md) define as próximas decisões.
 
 O [relatório da primeira rodada](docs/report.md) distingue resultados demonstrados, indícios e
 hipóteses. [Protocolo de validação](docs/validation_protocol.md).

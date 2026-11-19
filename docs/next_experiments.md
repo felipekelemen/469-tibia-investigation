@@ -1,5 +1,8 @@
 # Próximos experimentos após auditoria do Deep Research
 
+> Registro histórico do plano e suas atualizações até a rodada23.
+> O [plano de missão v2](mission_plan_v2.md) é a orientação atual após o replanejamento.
+
 Base: duas rodadas científicas publicadas até `1246af8`, relatório integral
 recebido e [cruzamento de alegações](research_crosswalk.md). Não há tradução
 nova nem plaintext oficial descoberto nesta revisão. Este plano substitui

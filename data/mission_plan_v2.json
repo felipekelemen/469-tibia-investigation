@@ -1,0 +1,328 @@
+{
+  "version": 2,
+  "initiated_date": "2026-11-17",
+  "baseline_commit": "d0f50399b3bcc2b77e151ac431a181ea1e881ddd",
+  "completed_experimental_rounds": 23,
+  "revision_kind": "replanning; rounds24-30 not executed by this revision",
+  "current_mission_outcome": "I_inconclusive",
+  "mission": "Find a reproducible raw-digit decoder yielding intelligible text, preferably English, with independently verifiable predictions outside discovery; alternatively establish the original nontextual production process within an authenticated source/version scope.",
+  "priority_targets": [
+    "avar_tar_poem",
+    "knightmare_2012",
+    "chayenne_2009_part1",
+    "chayenne_2009_part2"
+  ],
+  "original_plan": "docs/next_experiments.md",
+  "current_plan": "docs/mission_plan_v2.md",
+  "retrospective": "docs/rounds_01_23_review.md",
+  "report_template": "docs/round_report_template_v2.md",
+  "outcomes": {
+    "T_validated_translation": "Frozen end-to-end rule and key; coherent literal output; independent content and external semantic evidence; separately implemented reproduction. Scope by source/version.",
+    "G_documented_nontextual_origin": "Authenticated evidence of original authorial/generative process without textual message input for specified sources/versions. A newly invented generator alone is insufficient.",
+    "I_inconclusive": "Preserve excluded families, ambiguities, source gaps and computational limits. No forced binary verdict."
+  },
+  "logical_limits": [
+    "Failure to find a decoder does not prove absence of all possible decoders.",
+    "An arbitrary lookup table can assign sentences to any finite set of distinct digit strings; fitting such a table is not discovery of the game language.",
+    "Nontextual origin does not imply absence of narrative, aesthetic, identification or game-interaction utility.",
+    "Different sources and epochs may use different mechanisms; neither a universal cipher nor universal decoration is assumed."
+  ],
+  "user_requirements": [
+    {
+      "id": 1,
+      "goal": "Demonstrate a reusable translation algorithm",
+      "rounds": [
+        27,
+        28,
+        30
+      ]
+    },
+    {
+      "id": 2,
+      "goal": "Investigate original production without textual message",
+      "rounds": [
+        24,
+        29,
+        30
+      ]
+    },
+    {
+      "id": 3,
+      "goal": "Systematic lore and published-research evidence intake",
+      "rounds": [
+        24
+      ],
+      "continuous": true
+    },
+    {
+      "id": 4,
+      "goal": "Prioritize Avar Tar, Knightmare and Chayenne",
+      "rounds": [
+        24,
+        25,
+        27,
+        28,
+        30
+      ]
+    },
+    {
+      "id": 5,
+      "goal": "Adjudicate 3478/BEHOLDER/BONELORD as separate lexical, entity, key and historical claims",
+      "rounds": [
+        25
+      ]
+    },
+    {
+      "id": 6,
+      "goal": "Adjudicate Hellgate historical grids and finite cryptographic mechanisms",
+      "rounds": [
+        26
+      ]
+    },
+    {
+      "id": 7,
+      "goal": "Publish hypotheses, findings and literal potential translations every round",
+      "rounds": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "continuous": true
+    }
+  ],
+  "workstreams": [
+    {
+      "id": "P01",
+      "name": "Sources and independent validation",
+      "status": "primary_evidence_pending",
+      "next_rounds": [
+        24,
+        28,
+        30
+      ]
+    },
+    {
+      "id": "P02",
+      "name": "Solver capability",
+      "status": "known_token_scenario_qualified_raw_joint_recovery_pending",
+      "next_rounds": [
+        27
+      ]
+    },
+    {
+      "id": "P03",
+      "name": "Modules and generators",
+      "status": "predictive_discrimination_pending",
+      "next_rounds": [
+        29
+      ]
+    },
+    {
+      "id": "P04",
+      "name": "Qualified translation search",
+      "status": "bounded_searches_executed_semantic_success_pending",
+      "next_rounds": [
+        28,
+        30
+      ]
+    },
+    {
+      "id": "P05",
+      "name": "Word and concept codebooks",
+      "status": "semantics_and_identifiability_pending",
+      "next_rounds": [
+        24,
+        25,
+        27,
+        28
+      ]
+    },
+    {
+      "id": "P06",
+      "name": "Skull-matrix history",
+      "status": "partial_documentary_evidence_object_transition_unverified",
+      "next_rounds": [
+        24,
+        26
+      ]
+    },
+    {
+      "id": "P07",
+      "name": "Specified matrix algorithms",
+      "status": "finite_families_tested_no_matrix_key_validated",
+      "next_rounds": [
+        26,
+        28
+      ]
+    }
+  ],
+  "proposed_rounds": [
+    {
+      "round": 24,
+      "status": "planned_not_executed",
+      "name": "Sources, lore and published solution claims",
+      "dependencies": [],
+      "actions": [
+        "Refresh pinned repository changes and published claims",
+        "Audit full contexts and variants of the three priority texts",
+        "Trace interviews, historical captures, videos and mirrors to their origins",
+        "Reproduce eligible published algorithms with an independent check"
+      ],
+      "initial_source_batch": {
+        "maximum_distinct_queries": 80,
+        "maximum_priority_documents_read": 40,
+        "coverage_claim": "bounded discovery batch, not exhaustive internet coverage",
+        "continuation": "new primary leads or documented source gaps"
+      },
+      "deliverable": "Source/claim registry, context corpus and testable evidence requirements; report inaccessible/unread sources."
+    },
+    {
+      "round": 25,
+      "status": "planned_not_executed",
+      "name": "3478, names and identifiers",
+      "dependencies": [
+        24
+      ],
+      "actions": [
+        "Audit literal-name, entity-label, key/seed and coordinated-history claims separately",
+        "Reuse existing negative catalog without recounting it as new evidence",
+        "Execute only newly specified eligible rules; test full Knightmare and other fixed contexts"
+      ],
+      "deliverable": "Scoped decision per subhypothesis; suspend active search absent new evidence or mechanism. History-dependent verdict may remain suspended pending R26."
+    },
+    {
+      "round": 26,
+      "status": "planned_not_executed",
+      "name": "Hellgate grids and mechanisms",
+      "dependencies": [
+        24
+      ],
+      "actions": [
+        "Resolve documented historical gaps when possible",
+        "Distinguish partial3x3, reported4x4 and unobserved physical5x5",
+        "Close already tested families; admit only specified nonredundant mechanisms with controls and predictions"
+      ],
+      "deliverable": "Separate decisions for chronology, observed cells/dimensions and each cryptographic family. No invented border cells."
+    },
+    {
+      "round": 27,
+      "status": "planned_not_executed",
+      "name": "Qualify hidden-key and segmentation recovery",
+      "dependencies": [],
+      "actions": [
+        "Distinguish local correctness, known-vocabulary key recovery and hidden vocabulary/boundaries",
+        "Include missing digits, names, homophones, ambiguous and identifiable cases",
+        "Compare recovery and abstention under a frozen budget on new qualification cases"
+      ],
+      "proposed_gate": {
+        "minimum_cases_per_relevant_scenario": 30,
+        "minimum_cases_passing": 27,
+        "minimum_heldout_recovery": 0.95,
+        "required_before_execution": "Freeze unit of evaluation, boundary metrics, coverage, consensus/abstention and budget; include exact-recovery and error rates"
+      },
+      "deliverable": "Eligibility by scenario or documented failure; not a general English-decoding qualification."
+    },
+    {
+      "round": 28,
+      "status": "planned_not_executed",
+      "name": "Literal translation candidates for the three priority sources",
+      "dependencies": [
+        24
+      ],
+      "conditional_requirements": [
+        "Relevant method qualified in its own scenario, from R27 or existing evidence",
+        "R25/R26 only when a candidate depends on their mechanisms"
+      ],
+      "actions": [
+        "Freeze framing, lexicon, language, key and model-selection policy",
+        "Run complete words/messages with all alternatives and unknown digits preserved",
+        "Repeat model/key selection in matched nulls",
+        "Freeze transfer predictions before evaluation"
+      ],
+      "deliverable": "Literal candidate catalog or scoped negative result; advance any strong candidate immediately to R30."
+    },
+    {
+      "round": 29,
+      "status": "planned_not_executed",
+      "name": "Textual, nontextual and mixed generators",
+      "dependencies": [
+        24
+      ],
+      "actions": [
+        "Qualify discrimination on encrypted English, copied English, nontextual and mixed controls",
+        "Charge full model, dictionary, seed, address and exception costs",
+        "Test prediction outside fitted motif families where feasible",
+        "Search for authenticated evidence of original production"
+      ],
+      "deliverable": "Scoped model comparison; no universal nonmeaning verdict from compression or fit alone."
+    },
+    {
+      "round": 30,
+      "status": "planned_not_executed",
+      "name": "Adjudication and independent implementation",
+      "dependencies": [],
+      "conditional_requirements": [
+        "A candidate from any round, or the bounded work batch ready for adjudication"
+      ],
+      "actions": [
+        "Freeze and test genuinely new predictions where such data exist",
+        "Audit source and motif dependence",
+        "Reproduce with a separately implemented method",
+        "Adjudicate T/G/I per source, version and mechanism"
+      ],
+      "deliverable": "Validated scoped finding or an explicit inconclusive dossier with concrete reopening conditions."
+    }
+  ],
+  "hypothesis_states": [
+    "planned",
+    "running",
+    "confirmed_within_scope",
+    "refuted_within_scope",
+    "inconclusive_budget_or_ambiguity",
+    "suspended_missing_evidence"
+  ],
+  "operational_closure": "Remove a bounded negative or unsupported hypothesis from the computation queue; do not equate suspension with universal falsity.",
+  "reopening_triggers": [
+    "New authenticated source",
+    "Demonstrated error in prior implementation or scope",
+    "A distinct specified mechanism with an independent falsifiable prediction"
+  ],
+  "candidate_reporting": {
+    "levels": [
+      "external_claim_not_reproduced",
+      "mechanical_output",
+      "contextual_candidate_unvalidated",
+      "validated_translation"
+    ],
+    "required_fields": [
+      "exact_numeric_input_and_source",
+      "algorithm_version_and_key",
+      "literal_output_with_unknowns_and_alternatives",
+      "selection_policy_and_number_of_models",
+      "independent_lore_support_or_contradiction",
+      "frozen_transfer_predictions",
+      "positive_and_null_controls",
+      "failures_and_pending_confirmation"
+    ],
+    "empty_result": "Nenhuma candidata nova; tradução potencial não identificada.",
+    "forbidden_repairs": [
+      "Silent letter changes",
+      "Free anagrams",
+      "Lore-driven completion of unseen digits",
+      "Treating training glosses as independent confirmation"
+    ]
+  },
+  "validation_policy": {
+    "preserve_frozen_history": true,
+    "new_lexicon_after_fit": "new disclosed exploratory version, not validation",
+    "shared_copies": "audit before claiming independence",
+    "whole_search_in_nulls": true,
+    "exact_contradiction": "Scoped algebraic/exhaustive certificates may reject a specified model without a heuristic-recovery gate; incomplete search cannot.",
+    "new_web_survey_completed_in_this_revision": false,
+    "new_cryptanalytic_experiment_completed_in_this_revision": false
+  }
+}
