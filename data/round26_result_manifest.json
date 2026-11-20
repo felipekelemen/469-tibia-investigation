@@ -1,0 +1,28 @@
+{
+  "scope": "Post-execution integrity envelope; numeric protocol separately frozen before outcomes",
+  "sha256": {
+    "data/plan_progress_round26.json": "782b5efb04f81668284445d304b163a99d419cf9da0cf13c6b0229101f35eab4",
+    "data/round26_decisions.json": "b51be30ca3046306f2e506e0e9668f7e2c633584685ca768f5aa8e0b17efd788",
+    "data/round26_discovery_log.json": "3f6b986839b6cef9701b25f7f297dae4b7c220f1f5ddcddb041a1cc55f1db714",
+    "data/round26_experiment_manifest.json": "dec36bdf340aefc781dc6a7556fd01052d44ee398a4c0c9c264fb3fd64103112",
+    "data/round26_http_final.json": "1664e7c0df39aba0434b48b2bdffcd655f9460c74be12ca3a23cb39d00506e4e",
+    "data/round26_http_followup.json": "73969f39afcc3bb63285c4009501246d46f9578a97c0e27a5f2581e931216ccc",
+    "data/round26_http_initial.json": "eb7ee12a06451dad23799f4e66b6fa2dc5efa75d0cfa2ae359a24f26d42613ef",
+    "data/round26_prior_catalog.json": "a1e82504638857e8daae5be6ae18e8c2eb7bea6f92fed3248107aa12d0b38811",
+    "data/round26_protocol.json": "67dfb7d7dd25d1a216604f8161c9e2af0e3cac62e92ed331014182637fba759d",
+    "data/round26_targets_final.json": "993a78fe1a6ed69480282a364fede8ad904e00ae7613a4218d63032d309f97ca",
+    "data/round26_targets_followup.json": "bfcf33bea25fdb147ba495761623c63279ef2ebb214843e5bef8adcd4d3267d4",
+    "data/round26_targets_initial.json": "16491df0afa9f1f9612892ac1ae28f48fc8f24815252e5d9187b91b0fbdfafb6",
+    "docs/round26.md": "b03063ac6c5269628f5832b053e5632bacbee351bccb4b7ea66725569e751550",
+    "results/round26_cam_probe.json": "7cefe3a8f9527d13d8f6553ad0693365c792e6ef16f3ee7b4a75ee155e7b647f",
+    "results/round26_matrix_consistency.json": "7a1755742c247642cefe382cf990b1abe9cea22ba4aa166cf0341084fc1e115c",
+    "results/round26_matrix_consistency.log": "c537f72eca3ce3d91dee95531f0b13aa3d390a006f94a25dcd03a96157563e22",
+    "results/round26_sources.json": "3b9c36b419c3d8ccd3fad63c8244a525976b55d4cb5692e79aa896a6baed4cfb",
+    "scripts/round26_cam_probe.py": "c0ec426d54de29f66bc30dc0cd50450e655374de593a7b6c1aeb4c443d2569ca",
+    "scripts/round26_matrix_consistency.py": "ae7dffeb402d087f22d8c87b363d057f751df06f9ba5b3c1f973a1e144ecd248",
+    "scripts/round26_source_audit.py": "b1d929657f26bc67628359110a7128836f2a084a7f0633ed8072eb08db37dc24",
+    "scripts/round26_source_fetch.py": "cd76793ead0122596b81d3cd4d8032dd52eab544d9e9ae148892863e97e9eac1",
+    "scripts/run_round26.py": "d48bf150c8f605cfe9bc73debd62445f371d2ff34bf592daafdd4a9161d5e33c",
+    "tests/test_round26_matrix_consistency.py": "d34980382c431fb9658b68a4b0dc3a9647afd0f3ad2b35b302ee30387ee23d0c"
+  }
+}

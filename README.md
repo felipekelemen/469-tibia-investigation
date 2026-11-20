@@ -1,6 +1,6 @@
 # 469-tibia-investigation — investigação reproduzível
 
-**Estado: vinte e cinco rodadas executadas; nenhuma tradução verificável encontrada.**
+**Estado: vinte e seis rodadas executadas; nenhuma tradução verificável encontrada.**
 Não afirmamos que o corpus é indecifrável nem que qualquer solução comunitária
 foi confirmada. O alvo é um algoritmo integral que generalize para textos inéditos.
 
@@ -10,12 +10,19 @@ Destino público: https://github.com/felipekelemen/469-tibia-investigation
 com [balanço de cada rodada](docs/rounds_01_23_review.md) e
 [formato obrigatório de resultados e candidatas](docs/round_report_template_v2.md).
 Prioridade: Avar Tar, Knightmare e Chayenne; decisões delimitadas sobre3478/nomes
-e matrizes; investigação própria de geração sem texto. As rodadas24–25 estão concluídas;
-as rodadas26–30 permanecem planejadas. [Progresso atual](data/plan_progress_round25.json).
+e matrizes; investigação própria de geração sem texto. As rodadas 24–26 estão concluídas;
+as rodadas 27–30 permanecem planejadas. [Progresso atual](data/plan_progress_round26.json).
 Estado da missão: inconclusivo.
 
-**Publicado:** corpus normalizado, código, testes e resultados das vinte e cinco rodadas
+**Publicado:** corpus normalizado, código, testes e resultados das vinte e seis rodadas
 disponíveis neste repositório. O acesso de escrita foi confirmado após nova reconexão.
+
+A [vigésima sexta rodada](docs/round26.md) adjudicou as matrizes 3×3, 4×4 e 5×5.
+As lacunas históricas permanecem. Um teste novo deriva as condições para trocar
+a chave de Hill sem alterar plaintext e criptograma; os blocos atuais não as
+satisfazem nas representações fixadas, mas faltam versões históricas pareadas
+para avaliar essa hipótese no jogo. Não houve tradução. Foram conferidos 90
+controles sintéticos e passaram 249 testes de software. Replay: `make round26`.
 
 A [vigésima quinta rodada](docs/round25.md) recuperou revisões de2012/2023 da
 wiki que documentam3478 como nome da criatura. O teste ampliado dos anagramas,
@@ -204,6 +211,7 @@ make round17
 make round18
 make round24
 make round25
+make round26
 make test
 ```
 

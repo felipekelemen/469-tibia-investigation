@@ -1,0 +1,80 @@
+{
+  "earliest_available_wiki_records": [
+    {
+      "page": "469",
+      "revision_id": 4534,
+      "timestamp": "2011-02-20T21:31:13Z",
+      "sha1_verified": "85fded39ff093ff1978957222d7e9b8287d4a99d",
+      "mentions_matrix_or_skulls": false
+    },
+    {
+      "page": "Hellgate",
+      "revision_id": 6868,
+      "timestamp": "2011-03-06T04:53:35Z",
+      "sha1_verified": "e10c6bf1a3db07ed3a4c64f14b954ba45dd1a852",
+      "mentions_matrix_or_skulls": false
+    }
+  ],
+  "wiki2008_2010_intervals": [
+    {
+      "capture_id": "wiki469_history",
+      "revisions_in_requested_interval": 0,
+      "continuation_present": false
+    },
+    {
+      "capture_id": "hellgate_history",
+      "revisions_in_requested_interval": 0,
+      "continuation_present": false
+    }
+  ],
+  "image_versions_returned": [
+    {
+      "timestamp": "2014-01-01T01:03:39Z",
+      "size": 85388,
+      "width": 386,
+      "height": 282,
+      "url": "https://www.tibiawiki.com.br/images/2/28/Hellgate_Misterio02.jpg",
+      "descriptionurl": "https://www.tibiawiki.com.br/wiki/Arquivo:Hellgate_Misterio02.jpg",
+      "descriptionshorturl": "https://www.tibiawiki.com.br/index.php?curid=32564",
+      "sha1": "9be31ed9e07478ee2ac20aee583d54530b6a2c05"
+    }
+  ],
+  "forum_posts": [
+    {
+      "post_id": "6999332",
+      "displayed_post_timestamp": "2017-05-08T00:19:00",
+      "timezone_authenticated": false,
+      "reports_middle_stack_look_count_six": true,
+      "matrix_image_link_present": true
+    },
+    {
+      "post_id": "6999460",
+      "displayed_post_timestamp": "2017-05-09T06:00:00",
+      "timezone_authenticated": false,
+      "reports_middle_stack_look_count_six": true,
+      "matrix_image_link_present": true
+    }
+  ],
+  "forum_lineage": "Post6999460quotes post6999332; one reported observation, not two independent counts. Internal capture ID forum2016_look was a tentative label; displayed original post date is2017.",
+  "archive_requests": [
+    {
+      "capture_id": "archive2010_page58_index",
+      "returned_cdx_rows": 0,
+      "scope": "exact requested URL/time interval only; not global archive absence"
+    },
+    {
+      "capture_id": "archive2010_page59_index",
+      "returned_cdx_rows": 0,
+      "scope": "exact requested URL/time interval only; not global archive absence"
+    },
+    {
+      "capture_id": "forum2017_image_cdx",
+      "returned_cdx_rows": 0,
+      "scope": "exact requested URL/time interval only; not global archive absence"
+    }
+  ],
+  "recording_probe": "results/round26_cam_probe.json",
+  "new_authenticated_full_5x5_keys": 0,
+  "new_authenticated_game_transition_dates": 0,
+  "new_english_numeric_pairs": 0
+}

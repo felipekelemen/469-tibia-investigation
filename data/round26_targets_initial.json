@@ -1,0 +1,26 @@
+[
+  {
+    "id": "wiki469_history",
+    "url": "https://www.tibiawiki.com.br/api.php?action=query&format=json&formatversion=2&prop=revisions&rvstart=2011-01-01T00%3A00%3A00Z&rvend=2008-01-01T00%3A00%3A00Z&rvprop=ids%7Ctimestamp%7Csha1%7Ccomment&rvlimit=50&titles=469"
+  },
+  {
+    "id": "hellgate_history",
+    "url": "https://www.tibiawiki.com.br/api.php?action=query&format=json&formatversion=2&prop=revisions&rvstart=2011-01-01T00%3A00%3A00Z&rvend=2008-01-01T00%3A00%3A00Z&rvprop=ids%7Ctimestamp%7Csha1%7Ccomment&rvlimit=50&titles=Hellgate"
+  },
+  {
+    "id": "matrix_image_history",
+    "url": "https://www.tibiawiki.com.br/api.php?action=query&format=json&formatversion=2&titles=File%3AHellgate+Misterio02.jpg&prop=imageinfo&iiprop=timestamp%7Curl%7Csha1%7Csize&iilimit=50"
+  },
+  {
+    "id": "official_rename1437",
+    "url": "https://www.tibia.com/news/?id=1437&subtopic=newsarchive"
+  },
+  {
+    "id": "tetuni_watch",
+    "url": "https://tibiacams.com/watch/e15cded1cdfb?t=0"
+  },
+  {
+    "id": "archive2010_page58_index",
+    "url": "https://web.archive.org/cdx/search/cdx?url=forum.tibia.org.pl%2Fshowthread.php%3Ft%3D265100%26page%3D58&output=json&filter=statuscode%3A200&from=2010&to=2010&limit=10"
+  }
+]

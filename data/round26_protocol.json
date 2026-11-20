@@ -1,0 +1,24 @@
+{
+  "round": 26,
+  "basis": "f25c01f870830889a60e9a8dd438908a71125186",
+  "scope": "Adjudicate historical object, dimensions and finite matrix mechanisms separately. Preserve previously frozen results. No arbitrary extension of key search.",
+  "history_budget": {"maximum_distinct_queries":20,"maximum_direct_requests":20},
+  "history_targets": ["Versioned wiki history of469/Hellgate and relevant image", "Original rename announcement if retrievable", "Targeted archived2010forum records", "Previously inaccessible historical recording; record actual access and never infer frames from metadata"],
+  "new_mathematical_question": "Conditional compatibility if a fixed plaintext was encrypted by the old and later4x4matrices with the same alphabet, framing and modulus. Does matrix replacement leave ciphertext unchanged, and what would it predict? This is not an authenticated historical claim.",
+  "matrix_inputs": {
+    "old": [[3,1,6,1],[1,2,1,1],[1,1,3,1],[4,6,1,1]],
+    "later": [[1,1,1,1],[1,3,6,1],[1,1,4,1],[4,6,1,1]],
+    "partial3": [[1,1,1],[1,3,6],[1,1,4]],
+    "physical5": null
+  },
+  "moduli": [25,26,29],
+  "orientations": ["column", "row_as_transpose"],
+  "fixed_plaintext_relation": "C_old=A*P; C_later=B*P; since A invertible in chosen moduli, predict C_later=B*A^-1*C_old. Unchanged ciphertext requires (A-B)*P=0. Same framing/alphabet only; no IV, additional whitening, omissions or changed plaintext.",
+  "corpus_screen": "Diagnostic only: two representations (fixed raw pairs from offset0, imported codes), base0, complete4value blocks reset perbook; report tails unprocessed. Current corpus is not an old/new paired historical sample. Test whether all complete blocks could belong to the unchanged-ciphertext subspace.",
+  "symbolic_uncertainty": "For reported later M(x,y)=1111/13x1/1141/4y11, derive difference-kernel constraints rather than choosing x,y for English.",
+  "validation": ["Independent determinant/inverse/cross-key algebra checks", "Exhaustive difference-kernel check for moduli2..7 against analytic forms in both orientations", "30 English-input synthetic cases per modulus with old/new entry-histogram-preserving shuffled matrices; require old matrix invertible, cap10000draws; changed ciphertext predicted exactly, one-cell perturbed output rejected", "Canonical known old/later matrices tested in both orientations on the same synthetic plaintext"],
+  "seed": 263478,
+  "candidate_policy": "No English output claimed by a matrix-consistency test. No new decoder search unless sources supply a distinct specified rule and independent prediction.",
+  "closure": "Scoped historical/dimensional/mechanism decisions; absent new authenticated cells or specified mechanism suspend matrix expansion. No universal impossibility claim.",
+  "translation_validated": false
+}

@@ -1,0 +1,107 @@
+{
+  "determinants": {
+    "old": -7,
+    "later": -18,
+    "partial3": 6
+  },
+  "small_exhaustive_checks": 48,
+  "synthetic_cases": 90,
+  "diagnostics": [
+    {
+      "modulus": 25,
+      "orientation": "column",
+      "representation": "raw_pairs",
+      "complete_blocks": 1378,
+      "compatible_blocks": 0,
+      "books_all_complete_blocks_compatible": 0
+    },
+    {
+      "modulus": 25,
+      "orientation": "column",
+      "representation": "imported_codes",
+      "complete_blocks": 1403,
+      "compatible_blocks": 0,
+      "books_all_complete_blocks_compatible": 0
+    },
+    {
+      "modulus": 25,
+      "orientation": "row_as_transpose",
+      "representation": "raw_pairs",
+      "complete_blocks": 1378,
+      "compatible_blocks": 0,
+      "books_all_complete_blocks_compatible": 0
+    },
+    {
+      "modulus": 25,
+      "orientation": "row_as_transpose",
+      "representation": "imported_codes",
+      "complete_blocks": 1403,
+      "compatible_blocks": 0,
+      "books_all_complete_blocks_compatible": 0
+    },
+    {
+      "modulus": 26,
+      "orientation": "column",
+      "representation": "raw_pairs",
+      "complete_blocks": 1378,
+      "compatible_blocks": 0,
+      "books_all_complete_blocks_compatible": 0
+    },
+    {
+      "modulus": 26,
+      "orientation": "column",
+      "representation": "imported_codes",
+      "complete_blocks": 1403,
+      "compatible_blocks": 0,
+      "books_all_complete_blocks_compatible": 0
+    },
+    {
+      "modulus": 26,
+      "orientation": "row_as_transpose",
+      "representation": "raw_pairs",
+      "complete_blocks": 1378,
+      "compatible_blocks": 0,
+      "books_all_complete_blocks_compatible": 0
+    },
+    {
+      "modulus": 26,
+      "orientation": "row_as_transpose",
+      "representation": "imported_codes",
+      "complete_blocks": 1403,
+      "compatible_blocks": 0,
+      "books_all_complete_blocks_compatible": 0
+    },
+    {
+      "modulus": 29,
+      "orientation": "column",
+      "representation": "raw_pairs",
+      "complete_blocks": 1378,
+      "compatible_blocks": 0,
+      "books_all_complete_blocks_compatible": 0
+    },
+    {
+      "modulus": 29,
+      "orientation": "column",
+      "representation": "imported_codes",
+      "complete_blocks": 1403,
+      "compatible_blocks": 0,
+      "books_all_complete_blocks_compatible": 0
+    },
+    {
+      "modulus": 29,
+      "orientation": "row_as_transpose",
+      "representation": "raw_pairs",
+      "complete_blocks": 1378,
+      "compatible_blocks": 0,
+      "books_all_complete_blocks_compatible": 0
+    },
+    {
+      "modulus": 29,
+      "orientation": "row_as_transpose",
+      "representation": "imported_codes",
+      "complete_blocks": 1403,
+      "compatible_blocks": 0,
+      "books_all_complete_blocks_compatible": 0
+    }
+  ]
+}

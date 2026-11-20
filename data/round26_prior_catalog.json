@@ -1,0 +1,73 @@
+{
+  "prior_families": [
+    {
+      "id": "R1_Hill26",
+      "scope": "144 fixed matrix/orientation/framing/base configurations, including complete domain singularity check",
+      "count": 144,
+      "result": "finite_screen_no_validated_translation",
+      "artifact": "results/matrix.json",
+      "report": "docs/matrix.md",
+      "artifact_sha256": "5af4a540f8c3644c31cf48ece1c4c90a4cb66b712b971cd5c3520652d3253e02",
+      "execution_in_round26": "catalog_review_and_integrity_check_only_not_new_cipher_search"
+    },
+    {
+      "id": "R2_Hill29",
+      "scope": "320 fixed configurations; selected on discovery, exposed/dependent holdout",
+      "count": 320,
+      "result": "finite_screen_no_validated_translation",
+      "artifact": "results/hill29.json",
+      "report": "docs/round2.md",
+      "artifact_sha256": "4d6876efe671c66bcf7b3e14cc5b4bda68c005640be06164a830df8feb088358",
+      "execution_in_round26": "catalog_review_and_integrity_check_only_not_new_cipher_search"
+    },
+    {
+      "id": "R2_digit_functions",
+      "scope": "53 arithmetic/bitwise/lookup/bilinear functions; deterministic projection to imported99code labels",
+      "count": 53,
+      "result": "specified_single_layer_projections_fail_exact_consistency",
+      "artifact": "results/map_geometry.json",
+      "report": "docs/map_geometry.md",
+      "artifact_sha256": "5dfb9f467b28cb24a6fea80cf3bc133f830e6709428a2c25386254aff3cdf8cb",
+      "execution_in_round26": "catalog_review_and_integrity_check_only_not_new_cipher_search"
+    },
+    {
+      "id": "R3_skull_position_ranking",
+      "scope": "192 fixed rank-order transpositions and representations",
+      "count": 192,
+      "result": "no_qualified_translation_signal",
+      "artifact": "results/matrix_walk.json",
+      "report": "docs/p07_execution.md",
+      "artifact_sha256": "56f8cc7f70fd8f714da471f08c2629968a48f6ec40ebf000e6f29f670441a92c",
+      "execution_in_round26": "catalog_review_and_integrity_check_only_not_new_cipher_search"
+    },
+    {
+      "id": "R14_partial_geometry",
+      "scope": "All8views and contiguous3x3crops of supplied4x4tables; symbolic later determinant with uncertain cells",
+      "result": "old_no_match_later_partial_match_unknown_cells_unresolved",
+      "artifact": "results/history_round14_analysis.json",
+      "report": "docs/round14.md",
+      "artifact_sha256": "65755587f9ab26bbcd0c7cc3354addd1db02b991939056ace76ebe963544d204",
+      "execution_in_round26": "catalog_review_and_integrity_check_only_not_new_cipher_search"
+    },
+    {
+      "id": "R15_dimensional_password_family",
+      "scope": "1860distinct configurations, two corpus representations; actual3x3partial/4x4reported tables, speculative3x3/5x5name-derived keys",
+      "count": 1860,
+      "result": "150exact_positive_controls_no_verified_real_translation",
+      "artifact": "results/round15_matrix_search.json",
+      "report": "docs/round15.md",
+      "artifact_sha256": "dffc2a5750ed3e90fb923a6c879e6a1ad2d3f77a7e509f5b8a84935d36559b0c",
+      "execution_in_round26": "catalog_review_and_integrity_check_only_not_new_cipher_search"
+    },
+    {
+      "id": "R15_dimension_name_certificates",
+      "scope": "Singular constant borders, invertible illustrative borders, literal coordinates and count-only digraph rule",
+      "result": "bounded_constructions_rejected_other_borders_underdetermined",
+      "artifact": "results/round15_dimension_analysis.json",
+      "report": "docs/round15.md",
+      "artifact_sha256": "896934b6297520cb0739b866e810d3199e4778e1fbef553d9fd7c2ad5242a83d",
+      "execution_in_round26": "catalog_review_and_integrity_check_only_not_new_cipher_search"
+    }
+  ],
+  "warning": "Counts refer to different scopes, share targets and may overlap; do not sum as independent experiments. No arbitrary matrix family is excluded."
+}

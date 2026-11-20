@@ -712,5 +712,26 @@
     "status": "structural_relation_reproduced_semantics_unidentified_null_dependent",
     "evidence": "45grupos/44distintos em8conjuntos,28pares,7famílias e29997sorteios. Caudas do máximo0.0014/0.0015alterando dígitos,0.0906redistribuindo grupos inteiros de mesmo comprimento. Nenhum inglês ou reservado semântico. Suspender expansão sem previsão adicional.",
     "artifact": "results/round25_structure.json"
+  },
+  {
+    "id": "H103",
+    "hypothesis": "Novas capturas permitem autenticar dimensão completa e data de mudança das caveiras",
+    "status": "suspended_historical_gaps_persist",
+    "evidence": "14GETs delimitados; arquivos específicos vazios, primeiras versõeswiki2011, uploadimagem2014. RelatoLOOKé2017, não cadastro2009; cobre apenas pilha central. Player403, nenhum quadro examinado.",
+    "artifact": "results/round26_sources.json"
+  },
+  {
+    "id": "H104",
+    "hypothesis": "Trocar a matriz antiga pela posterior numa cifra Hill preserva o texto cifrado sem alterar plaintext, alfabeto ou framing",
+    "status": "conditional_constraints_derived_current_canonical_representations_incompatible",
+    "evidence": "Núcleo deA−B temm*gcd(2,m)vetores.48enumerações exatas,90controles de matrizes com histogramas preservados e180conferências canônicas.0blocos compatíveis em12diagnósticos do corpusatual; faltam livros históricos pareados, portanto não é refutação da origem real.",
+    "artifact": "results/round26_matrix_consistency.json"
+  },
+  {
+    "id": "H105",
+    "hypothesis": "Ampliar livremente matrizes3x3/4x4/5x5e bordas aproxima uma tradução",
+    "status": "active_expansion_suspended_without_new_cells_or_mechanism",
+    "evidence": "Catálogo deR1–3/R14–15 consolidado.3x3éparcial;4x4temcontagens históricas incertas;5x5sem25medições. Nenhuma saída inglesa nova ou regra independente autoriza nova busca de chaves.",
+    "artifact": "data/round26_decisions.json"
   }
 ]

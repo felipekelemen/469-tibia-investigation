@@ -1,0 +1,60 @@
+{
+  "batches": [
+    {
+      "batch": "web01",
+      "request": {
+        "system2_search_query": [
+          {
+            "q": "Tibia Hellgate skull matrix changed 2009 2010 3 1 6"
+          },
+          {
+            "q": "Tibia Hellgate skull matrix 5x5 3x3 counts"
+          },
+          {
+            "q": "\"Hellgate\" \"Tetuni\" tibiacams"
+          },
+          {
+            "q": "\"Bonelord\" \"August 23, 2010\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "request_response_record_sha256": "1d0e1c627735752017dc14ecc43bcca751313ace92450a615da5389ba8e3dd05",
+      "raw_response_public": false
+    },
+    {
+      "batch": "web02",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.tibia.com/news/?id=1437&subtopic=newsarchive"
+          },
+          {
+            "ref_id": "https://torg.pl/tibia/265100-hellgates-library-469-spoilery-58.html#post4148484"
+          },
+          {
+            "ref_id": "https://www.tibiawiki.com.br/469"
+          }
+        ],
+        "system2_search_query": [
+          {
+            "q": "\"Tibia\" \"1437\" \"August\" \"2010\""
+          },
+          {
+            "q": "\"Hellgate\" \"matrix\" \"skulls\" changed"
+          },
+          {
+            "q": "\"Hellgate\" \"matriz\" \"caveiras\" \"2009\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "request_response_record_sha256": "cc3d078dd0975721ca1e10f4badec2bb363d1b2f86608ed659575a33b9bd5642",
+      "raw_response_public": false
+    }
+  ],
+  "distinct_queries": 7,
+  "direct_capture_requests": 14,
+  "browser_probe": "results/round26_cam_probe.json",
+  "limits": "Request/response fingerprints are not original webpage hashes. Browser asset requests separate from direct captures. Search snippets are leads, not authenticated game records."
+}

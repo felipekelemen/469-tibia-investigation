@@ -1,0 +1,22 @@
+[
+  {
+    "id": "wiki469_first",
+    "url": "https://www.tibiawiki.com.br/api.php?action=query&format=json&formatversion=2&prop=revisions&rvdir=newer&rvprop=ids%7Ctimestamp%7Csha1%7Ccontent&rvslots=main&rvlimit=1&titles=469"
+  },
+  {
+    "id": "hellgate_first",
+    "url": "https://www.tibiawiki.com.br/api.php?action=query&format=json&formatversion=2&prop=revisions&rvdir=newer&rvprop=ids%7Ctimestamp%7Csha1%7Ccontent&rvslots=main&rvlimit=1&titles=Hellgate"
+  },
+  {
+    "id": "forum2016_look",
+    "url": "https://forums.tibiabr.com/threads/511342-Linguagem-469-Isso-%C3%A9-um-padr%C3%A3o/page14"
+  },
+  {
+    "id": "wiki469_live",
+    "url": "https://www.tibiawiki.com.br/wiki/469"
+  },
+  {
+    "id": "official_retrospective3777",
+    "url": "https://www.tibia.com/news/?id=3777&subtopic=newsarchive"
+  }
+]

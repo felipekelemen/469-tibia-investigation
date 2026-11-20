@@ -1,0 +1,11 @@
+{
+  "scope": "Frozen before new matrix-consistency outcomes; corpus and source matrices already exposed",
+  "sha256": {
+    "data/round26_protocol.json": "67dfb7d7dd25d1a216604f8161c9e2af0e3cac62e92ed331014182637fba759d",
+    "scripts/round26_matrix_consistency.py": "ae7dffeb402d087f22d8c87b363d057f751df06f9ba5b3c1f973a1e144ecd248",
+    "scripts/matrix_experiments.py": "476d3365708aa4409d4253d3983449a6a166517b5960c7e1b7b66de4b092b37f",
+    "data/normalized_books.json": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+    "data/english_reference/alice.txt": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+    "data/english_reference/SOURCE.json": "c43d8fc9715131216f17ccbc01eb664a68c89fbecce4aeede535e5aded57b2a5"
+  }
+}

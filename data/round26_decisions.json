@@ -1,0 +1,47 @@
+[
+  {
+    "hypothesis": "old4x4historical_object",
+    "status": "archived_written_table_known_physical_capture_not_authenticated",
+    "source": "docs/round14.md",
+    "reopen": "Versioned object data or complete observed stack counts"
+  },
+  {
+    "hypothesis": "later4x4all_counts",
+    "status": "partial_layout_supported_hidden_counts_unresolved",
+    "source": "results/round26_sources.json",
+    "reopen": "All16counts from one attributable game version"
+  },
+  {
+    "hypothesis": "physical3x3",
+    "status": "visible_partial_block_not_complete_key_dimension",
+    "source": "docs/round15.md",
+    "reopen": "Evidence that the cryptographic rule uses exactly the9visible cells"
+  },
+  {
+    "hypothesis": "physical5x5",
+    "status": "suspended_no25authenticated_counts",
+    "reopen": "25attributable counts and a distinct specified mechanism"
+  },
+  {
+    "hypothesis": "rename_matrix_same_date",
+    "status": "unconfirmed_existing_pre_rename_reports_remain_circumstantial",
+    "source": "docs/round14.md",
+    "reopen": "Comparable dated objects/names/books across transition"
+  },
+  {
+    "hypothesis": "canonical_Hill_replacement_unchanged_plaintext_and_ciphertext",
+    "status": "conditional_algebraic_constraints_derived_current_representations_incompatible",
+    "source": "results/round26_matrix_consistency.json",
+    "limit": "No old/new paired game texts authenticated. Fixedalphabet/framing/moduli only. Not a rejection of all historical key-change models."
+  },
+  {
+    "hypothesis": "prior_Hill_lookup_transposition_password_families",
+    "status": "prior_scoped_negatives_retained_no_repeat_as_new_evidence",
+    "source": "data/round26_prior_catalog.json"
+  },
+  {
+    "hypothesis": "unspecified_multilayer_matrix_cipher",
+    "status": "suspended_no_falsifiable_mechanism",
+    "reopen": "A fixed nonredundant rule and an independently checkable prediction"
+  }
+]

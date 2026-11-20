@@ -1,0 +1,50 @@
+[
+  {
+    "id": "forum2017_matrix_image",
+    "requested_url": "http://i63.tinypic.com/14v7969.jpg",
+    "requested_at_utc": "2026-11-20T03:09:32.918386+00:00",
+    "method": "one public HTTPS GET; inherited proxy/TLS trust; no retries",
+    "http_status": 403,
+    "content_type": "text/plain",
+    "http_last_modified": null,
+    "memento_datetime": null,
+    "final_url_without_query": "http://i63.tinypic.com/14v7969.jpg",
+    "body_truncated": false,
+    "bytes": 33,
+    "sha256": "beb861eaa39f786b701fafe0c93827f91c26b4fd7bda29668712515b031e2569",
+    "human_check_marker": false,
+    "body_local_ignored": "data/historical_refresh/round26/final/forum2017_matrix_image.body"
+  },
+  {
+    "id": "forum2017_image_cdx",
+    "requested_url": "https://web.archive.org/cdx/search/cdx?url=i63.tinypic.com%2F14v7969.jpg&output=json&filter=statuscode%3A200&limit=10",
+    "requested_at_utc": "2026-11-20T03:09:32.919086+00:00",
+    "method": "one public HTTPS GET; inherited proxy/TLS trust; no retries",
+    "http_status": 200,
+    "content_type": "application/json",
+    "http_last_modified": null,
+    "memento_datetime": null,
+    "final_url_without_query": "https://web.archive.org/cdx/search/cdx",
+    "body_truncated": false,
+    "bytes": 3,
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "human_check_marker": false,
+    "body_local_ignored": "data/historical_refresh/round26/final/forum2017_image_cdx.body"
+  },
+  {
+    "id": "archive2010_page59_index",
+    "requested_url": "https://web.archive.org/cdx/search/cdx?url=forum.tibia.org.pl%2Fshowthread.php%3Ft%3D265100%26page%3D59&output=json&filter=statuscode%3A200&from=2010&to=2010&limit=10",
+    "requested_at_utc": "2026-11-20T03:09:32.919609+00:00",
+    "method": "one public HTTPS GET; inherited proxy/TLS trust; no retries",
+    "http_status": 200,
+    "content_type": "application/json",
+    "http_last_modified": null,
+    "memento_datetime": null,
+    "final_url_without_query": "https://web.archive.org/cdx/search/cdx",
+    "body_truncated": false,
+    "bytes": 3,
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "human_check_marker": false,
+    "body_local_ignored": "data/historical_refresh/round26/final/archive2010_page59_index.body"
+  }
+]
