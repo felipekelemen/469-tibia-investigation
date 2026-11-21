@@ -733,5 +733,33 @@
     "status": "active_expansion_suspended_without_new_cells_or_mechanism",
     "evidence": "Catálogo deR1–3/R14–15 consolidado.3x3éparcial;4x4temcontagens históricas incertas;5x5sem25medições. Nenhuma saída inglesa nova ou regra independente autoriza nova busca de chaves.",
     "artifact": "data/round26_decisions.json"
+  },
+  {
+    "id": "H106",
+    "hypothesis": "Consultas exatas de contraprova qualificam a recuperação de chaves de dígitos para unidades de1a3letras",
+    "status": "not_qualified_in_declared_synthetic_scenarios",
+    "evidence": "120ajustes:17/30com30grupos,4/30com7,13/30homofônicos,0/30comdígitoausente; meta27/30. Zero erros certificados. Comparador97formas contra117do novo, mas4/30casos emambos e4,07vezes mais estados no novo. Sem ajuste ao jogo.",
+    "artifact": "results/round27_qualification.json"
+  },
+  {
+    "id": "H107",
+    "hypothesis": "Fornecer a chave correta determina a divisão de palavras em um fluxo sem espaços",
+    "status": "counterexamples_in_120_of_150_synthetic_streams",
+    "evidence": "DAG lexical restrito às fronteiras das unidades:30/150divisões únicas com chaveverdadeira,120ambíguas. Apenas4/150únicas comchaveinteiraaprendida.0/30casos recuperam oscinco pares. Nãoqualifica treino semfronteiras.",
+    "artifact": "results/round27_qualification.json"
+  },
+  {
+    "id": "H108",
+    "hypothesis": "Recuperar fonemas implica recuperar uma grafia inglesa única",
+    "status": "known_key_phonetic_ambiguity_verified",
+    "evidence": "30formas CMU distintas, chavefornecida e fonemasexatos, mas múltiplas grafias preservadas. Diagnóstico deortografia isolada, não descoberta dechavefonética nem tradução469.",
+    "artifact": "results/round27_qualification.json"
+  },
+  {
+    "id": "H109",
+    "hypothesis": "Prefixos livres, frequências e soma dos comprimentos bastam para identificar um vocabulário oculto",
+    "status": "specific_hidden_vocabulary_counterexample_verified",
+    "evidence": "30relabelingsdeuma construção:doisdicionários detrêsunidades, ambos prefixfree, mesmosbytesdetreino, frequências e somadecomprimentos12, fronteirasdiferentes. Uma mensagemnovadiscrimina. Nãoautentica geradororiginal de469.",
+    "artifact": "results/round27_qualification.json"
   }
 ]

@@ -1,0 +1,9 @@
+{
+  "stage": "After equivalence checks; before continuing the remaining fits with cache",
+  "sha256": {
+    "data/round27_execution_protocol.json": "508215bd7a70cd076ef6e5826cbbb3146b9884d38a67956001767ed07107d8af",
+    "scripts/round27_cached_model.py": "654c76fa08f6e4c9bc3419ee7f6453cc75b031e88cf48e698a37f3166954a9f1",
+    "scripts/round27_shard.py": "3da706c7452520b1ada4e13c2eedf87b525b19d07c610926381bf7eb6803f286",
+    "tests/test_round27_cache.py": "e8a1d880c1cf57fd4834d5e739ddfb89014f1fae58168f84881cb79e6827fde2"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "round": 27,
+  "translation_validated": false,
+  "new_game_candidates": [],
+  "mission_outcome": "I_inconclusive",
+  "newly_qualified_families": [],
+  "decisions": [
+    {
+      "hypothesis": "Bounded exact counterexample queries qualify fixed digit-to1..3letter decoding with the full known lexicon",
+      "status": "not_qualified_in_sampled_scenarios",
+      "evidence": "rich30:17/30; sparse7:4/30; homophonic30:13/30 versus27required. Missing-digit scenario0/30with126necessary unknown-digit abstentions. Zero certified errors. Names48/54instances; not Tibia translations.",
+      "scope": "Dictionary-conditioned synthetic forms, supplied training-word boundaries, no natural prose or hidden vocabulary qualification",
+      "reopening": "New specified method or evidence, fresh frozen qualification data and adequate controls; never retune these exposed cases as an independent test"
+    },
+    {
+      "hypothesis": "A recovered unspaced string determines its word boundaries",
+      "status": "false_in_120_of_150_constructed_streams_even_with_true_key",
+      "evidence": "Oracle30unique/150,120ambiguous; learned unique4/150; zero30basecases recover allfivepairs uniquely",
+      "scope": "Lexicon DAG with cuts at digit-unit boundaries; not a proof about all English contexts or Tibia"
+    },
+    {
+      "hypothesis": "Known phones or prefix-free hidden vocabularies identify spelling or segmentation by themselves",
+      "status": "specific_counterexamples_verified",
+      "evidence": "30CMUphoneforms preserve multiple spellings;30digit-relabelings preserve two prefix-free dictionaries with equal training bytes, frequencies and unit-lengthsum but different boundaries",
+      "scope": "Known-key diagnostics and one relabeled counterexample construction; not qualification of phonetic-key or hidden-vocabulary learning"
+    },
+    {
+      "hypothesis": "Failed qualification proves469has no text",
+      "status": "inference_not_supported",
+      "evidence": "No game fit or authenticated original generator this round; six paired-scenario fits did not find a first key within budget despite admissible true synthetic keys",
+      "scope": "Retain inconclusive mission status and carry explicit limitations to round28"
+    }
+  ]
+}

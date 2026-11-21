@@ -1,0 +1,34 @@
+{
+  "completed_original_records_retained": {
+    "results/round27_progress.jsonl": 6,
+    "/tmp/round27_shard.jsonl": 18
+  },
+  "completed_fit_equivalence_checks": [
+    "base_00 rich30_known_lexicon",
+    "base_18 sparse7_known_lexicon",
+    "base_01 sparse7_known_lexicon"
+  ],
+  "cache_changes_search_budget": false,
+  "cache_changes_answer_or_state_counts": false,
+  "range_a": [
+    0,
+    15
+  ],
+  "range_b": [
+    15,
+    60
+  ],
+  "interrupted_unfinished_fits": [
+    "base_02 rich30_known_lexicon",
+    "base_21 rich30_known_lexicon"
+  ],
+  "negative_results_from_interruption": 0,
+  "completed_fits": 120,
+  "completed_range_counts": [
+    45,
+    75
+  ],
+  "consolidated_local_date": "2026-11-21",
+  "timezone": "America/Sao_Paulo",
+  "environment_resume": "All120completed records recovered intact after environment restart; no fit rerun for the restart"
+}

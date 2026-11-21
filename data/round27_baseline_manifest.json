@@ -1,0 +1,8 @@
+{
+  "stage": "Before baseline execution; first primary outcomes exposed",
+  "sha256": {
+    "data/round27_baseline_protocol.json": "3fcd4795a060b78ebc1a1fd4cddb5982d3fee84a20cfd6c75b0e0a6fd28ce928",
+    "scripts/round27_baseline.py": "63be38862d323ac42a31b836fafd5c22851bb8e99f9f0163a24bec1cf6f0c3df",
+    "data/round27_experiment_manifest.json": "8284b7d80cc0b430686eecb98a8724dacd00807b10aa4d44a50a3abcb72ed0ba"
+  }
+}

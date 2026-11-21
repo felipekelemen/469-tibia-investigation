@@ -1,0 +1,9 @@
+{
+  "stage": "Operational supplement after partial outcomes; primary model, input fixtures, thresholds, state and local-assignment budgets unchanged",
+  "parallelism": "Two disjoint case-index ranges,0:15and15:60; reuse only fully written completed records, never select cases by fit result",
+  "cache": "Memoize filtered lexical domains by partial key between queries. A domain equals the root-domain intersection with that key's constraints, independent of search ancestry and query exclusion. Do not cache query answers, alter traversal order, count cached states differently, or change budgets.",
+  "reference": "The frozen round27_witness_solver.Model.find is preserved. All original replay commands remain executable; cached traversal must match SAT/UNSAT/UNKNOWN, keys, exclusions and state counts.",
+  "checks": "Mixed queries and state/local-assignment limits exhaustively compared on small instances; complete fits base00rich30,base18sparse7,base01sparse7 compared against completed unoptimized records before cached continuation",
+  "interruption": "In-flight unfinished work may be discarded when switching execution engine; retained completed records remain unchanged. An interrupted computation is not a negative scientific result.",
+  "effect_on_qualification": "None; caching accelerates repeated constraint checks and confers no additional search states or success criterion"
+}

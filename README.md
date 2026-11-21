@@ -1,6 +1,6 @@
 # 469-tibia-investigation — investigação reproduzível
 
-**Estado: vinte e seis rodadas executadas; nenhuma tradução verificável encontrada.**
+**Estado: vinte e sete rodadas executadas; nenhuma tradução verificável encontrada.**
 Não afirmamos que o corpus é indecifrável nem que qualquer solução comunitária
 foi confirmada. O alvo é um algoritmo integral que generalize para textos inéditos.
 
@@ -10,12 +10,22 @@ Destino público: https://github.com/felipekelemen/469-tibia-investigation
 com [balanço de cada rodada](docs/rounds_01_23_review.md) e
 [formato obrigatório de resultados e candidatas](docs/round_report_template_v2.md).
 Prioridade: Avar Tar, Knightmare e Chayenne; decisões delimitadas sobre3478/nomes
-e matrizes; investigação própria de geração sem texto. As rodadas 24–26 estão concluídas;
-as rodadas 27–30 permanecem planejadas. [Progresso atual](data/plan_progress_round26.json).
+e matrizes; investigação própria de geração sem texto. As rodadas 24–27 estão concluídas;
+as rodadas 28–30 permanecem planejadas. [Progresso atual](data/plan_progress_round27.json).
 Estado da missão: inconclusivo.
 
-**Publicado:** corpus normalizado, código, testes e resultados das vinte e seis rodadas
+**Publicado:** corpus normalizado, código, testes e resultados das vinte e sete rodadas
 disponíveis neste repositório. O acesso de escrita foi confirmado após nova reconexão.
+
+A [vigésima sétima rodada](docs/round27.md) executou 120 ajustes sintéticos de
+recuperação de chave e 30 comparações com o solver anterior. Nenhum cenário
+atingiu a meta de 27/30: foram 17/30 com mais contexto, 4/30 com sete grupos,
+13/30 com dígitos homofônicos e 0/30 no controle com dígito ausente. Houve
+abstenção nas ambiguidades e nenhum erro certificado. Mesmo com chave verdadeira,
+120/150 mensagens concatenadas admitem várias divisões lexicais. Isso não prova
+que 469 seja sem texto. Nenhuma tradução nova; replay: `make round27`;
+reajuste integral com o mesmo orçamento: `make round27-full`. Passaram 265
+testes automatizados; eles não substituem a qualificação de recuperação.
 
 A [vigésima sexta rodada](docs/round26.md) adjudicou as matrizes 3×3, 4×4 e 5×5.
 As lacunas históricas permanecem. Um teste novo deriva as condições para trocar

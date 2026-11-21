@@ -1,0 +1,18 @@
+{
+  "round": 27,
+  "stage": "Before any benchmark fit; synthetic inputs and code frozen",
+  "sha256": {
+    "data/round27_protocol.json": "a94e82d7f50a714d4cdf043801f7d8906e034050f2c7b1cd43bd30940017e3fb",
+    "data/round27_fixtures.json": "96881d88bdf922f36d1ff4a265ada5348410ddb7c77e4ce5e9c62938c7b44f9d",
+    "scripts/round27_fixtures.py": "ec5e589e1dfe1417d7d6598beef34ceab7fc8861ae7aace4620b0d39e7d49c0e",
+    "scripts/round27_witness_solver.py": "923f334df674ec48f300ed7741465e7d2a41e9c55325bee6aa66a0ef7126df73",
+    "scripts/round27_experiment.py": "d0b3051dd4f5f284cf8b7cc228d229b819088f1dec1bb639e4f489e53f31cc4e",
+    "scripts/run_round27.py": "2b29252d1c89b59a4cb201eb280342c479889aaf41c380f805da521b72eecb9f",
+    "tests/test_round27.py": "d4c46a85d54220e05af555a04631b27f5c18e5a77a5a0286bc9c38d25a45b7ab",
+    "scripts/unit_morphism_solver.py": "28ef1716a9e3213a8e1ac8321446323e66bba9affc40a488894425d0dfa1627e",
+    "scripts/unit_morphism_lexicon.py": "4e1bc4aef71d2b8d6146f00fe2f917d0934743ebb2e79ada737a2ce53c113e9d",
+    "data/cmudict_reference/cmudict.dict": "81917843c7f44ce2b094ac63873c2c7a4cf802040792c455ba3ca406891c3d22",
+    "data/cmudict_reference/cmudict.phones": "ffb588a5e55684723582c7256e1d2f9fadb130011392d9e59237c76e34c2cfd6",
+    "data/cmudict_reference/LICENSE": "bd4ce8e44170a5f9f481310ca85c51de3c4f851a65e679b40e603b143bd3542a"
+  }
+}

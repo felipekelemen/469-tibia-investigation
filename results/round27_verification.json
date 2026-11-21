@@ -1,0 +1,22 @@
+{
+  "local_date": "2026-11-21",
+  "timezone": "America/Sao_Paulo",
+  "python": "3.12.14",
+  "primary_fits_completed": 120,
+  "baseline_fits_completed": 30,
+  "unittest": {
+    "command": "python3 -m unittest discover -s tests -v",
+    "tests": 265,
+    "exit_code": 0
+  },
+  "quick_replay": {
+    "command": "make round27",
+    "exit_code": 0,
+    "scope": "All artifact hashes, aggregates, SAT witnesses,60diagnostics and first fit using original implementation"
+  },
+  "full120fit_replay_repeated_during_consolidation": false,
+  "full_fit_cache_equivalence_checks": 3,
+  "small_query_cache_equivalence_comparisons": 1056,
+  "publication_manifest_finalized_after_documentation": true,
+  "translation_validated": false
+}

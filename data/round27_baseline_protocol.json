@@ -1,0 +1,8 @@
+{
+  "stage": "Supplement frozen after first base-case witness outcomes were visible, before any new baseline fit; exploratory paired comparison, not part of primary qualification gate",
+  "cases": "All30base fixtures; same seven training groups and ten held groups as sparse7_known_lexicon, same bank excluding names",
+  "baseline": "Unmodified round23 unit_morphism_solver.solve with max_states2000/max_solutions2000/local_cap20000",
+  "comparison": "Do not infer uniqueness from incomplete enumeration. Count true keys present as a diagnostic only, never choose one using truth. Certify target form and chunk consensus only after complete enumeration. Compare actual state costs; new witness method may spend up to20000states across queries so this is not an equal-total-budget superiority claim.",
+  "selection": "All30cases, no subset chosen by outcome; no retuning or change to primary protocol",
+  "translation_validated": false
+}

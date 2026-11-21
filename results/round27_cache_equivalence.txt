@@ -1,0 +1,3 @@
+base_00 rich30_known_lexicon identical including every state 202 seconds 2.998
+base_18 sparse7_known_lexicon identical including every state 10687 seconds 21.212
+base_01 sparse7_known_lexicon identical including every state 20000 seconds 32.776
