@@ -1,0 +1,23 @@
+{
+  "plan": "docs/mission_plan_v2.md",
+  "completed_through_round": 28,
+  "completed_this_execution": [
+    28
+  ],
+  "remaining_planned_rounds": [
+    29,
+    30
+  ],
+  "mission_outcome": "I_inconclusive",
+  "translation_validated": false,
+  "original_nontextual_generator_authenticated": false,
+  "latest_report": "docs/round28.md",
+  "qualification": "18 known-codec/framing letter cells qualified with 532/540 exact unique keys and held letter strings. No qualification for unknown model selection or base26 word boundaries.",
+  "priority_source_result": "No full-source lexical witnesses or discovery-prefix keys in the declared 1,872-configuration whole-integer family; 7,488 real key cases independently checked.",
+  "next_round": {
+    "number": 29,
+    "focus": "Compare textual, nontextual and mixed generators with explicit description costs and predictive assessment",
+    "constraints": "Freeze generators and selection before comparisons; test discrimination on encrypted English with and without copying, nontext generators and statistical controls. Audit copied dependencies. Compression preference is not proof of original authorship.",
+    "matrix_and_name_reopening": "Retain rounds25/26 decisions; require new attributable evidence, an implementation error or a distinct fixed mechanism with independent predictions"
+  }
+}

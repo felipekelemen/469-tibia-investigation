@@ -1,0 +1,24 @@
+{
+  "stage": "Before any qualification fit or actual target decoding",
+  "basis": "5ab9a832b0614f4c2ec48dde57924d3ca7331a8e",
+  "sha256": {
+    "data/cmudict_reference/LICENSE": "bd4ce8e44170a5f9f481310ca85c51de3c4f851a65e679b40e603b143bd3542a",
+    "data/cmudict_reference/cmudict.dict": "81917843c7f44ce2b094ac63873c2c7a4cf802040792c455ba3ca406891c3d22",
+    "data/cmudict_reference/cmudict.phones": "ffb588a5e55684723582c7256e1d2f9fadb130011392d9e59237c76e34c2cfd6",
+    "data/normalized_books.json": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+    "data/round28_fixtures.json": "659bde5874742e3af5fbedbc704fc218989f6512142ee4a3a7b2b01765350d58",
+    "data/round28_protocol.json": "ac802c8e261eb19e9e2da9276519da3edd4c80c956daed17263da70321a7f806",
+    "data/round28_reference/SOURCES.json": "e1f7fcb437dd59463d2c4b4f81217b885f3df8b7e978e069e9b959a2799fde67",
+    "data/round28_reference/little_women.txt": "b20d98130841548c2137476e18fb1fe3bc7d666202985cafa09b5e02e54f7d7f",
+    "data/round28_reference/scarlet_letter.txt": "2341afcae7b06db1c80549fd700ddf10e8af12ca8e774c4747840a9ab8e81a14",
+    "data/source_validation_inventory.json": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+    "scripts/round28_certificates.py": "c190b804e7de9542386a4ea2e49ccfe7de0659c665719523536ee0a1fd81f5bc",
+    "scripts/round28_experiment.py": "0c7b3a5a63c9f037250da60190601e69991eb6a539e342b5b4c6c97cba352a51",
+    "scripts/round28_fixtures.py": "e336d7127e117e4e342bca70803848a24feffd6a6f481a6893f947eb56ace93c",
+    "scripts/round28_qualification.py": "50c677d5abfdb6f5ad171ed8b2c308cb4f0f641430a82094d65477f191b2a7a3",
+    "scripts/round28_radix.py": "7159db28081014fed98119b8425e0f57e492c421477ea5ac43c6898dce7a580c",
+    "scripts/run_round28.py": "c406e6c532a626d1e303305f8e0e9a7c762b260f8ff7ddb3c8fcda75c346c825",
+    "scripts/unit_morphism_lexicon.py": "4e1bc4aef71d2b8d6146f00fe2f917d0934743ebb2e79ada737a2ce53c113e9d",
+    "tests/test_round28_radix.py": "70be2c29495e16dbf93cb37b351f41562c18913c07a338414815e1e45a39a549"
+  }
+}

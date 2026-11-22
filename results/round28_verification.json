@@ -1,0 +1,23 @@
+{
+  "local_date": "2026-11-22",
+  "timezone": "America/Sao_Paulo",
+  "python": "3.12.14",
+  "positive_fits_completed": 540,
+  "paired_source_windows": 90,
+  "null_joint_replicates_completed": 396,
+  "real_key_cases_completed": 7488,
+  "null_key_cases_completed": 2223936,
+  "unittest": {
+    "command": "python3 -m unittest discover -s tests -v",
+    "tests": 279,
+    "exit_code": 0
+  },
+  "quick_replay": {
+    "command": "make round28",
+    "exit_code": 0,
+    "scope": "Input/result hashes, all real fits and7488independent key-case certificates, first positive fit, null invariants and selection aggregates"
+  },
+  "full540positive_and396null_replay_repeated_during_consolidation": false,
+  "publication_manifest_finalized_after_documentation": true,
+  "translation_validated": false
+}

@@ -1,0 +1,29 @@
+{
+  "stage": "Final publication integrity manifest after completed experiments, verification and documentation; not preregistration",
+  "sha256": {
+    "data/plan_progress_round28.json": "c6cb8f7c751871dc6313d2ae71f39f2bc355e12dab5e14b1b1f297dd022a708a",
+    "data/round28_decisions.json": "7d9eb0a2e464a193047e2a2ac7e15d22a28d3876f38686daeec5af2affd0f1cd",
+    "data/round28_experiment_manifest.json": "1c2098495e423e96dfd67417025ffea07a884fa2ea222fd0aa06e069e9dcca4b",
+    "data/round28_fixtures.json": "659bde5874742e3af5fbedbc704fc218989f6512142ee4a3a7b2b01765350d58",
+    "data/round28_protocol.json": "ac802c8e261eb19e9e2da9276519da3edd4c80c956daed17263da70321a7f806",
+    "data/round28_reference/SOURCES.json": "e1f7fcb437dd59463d2c4b4f81217b885f3df8b7e978e069e9b959a2799fde67",
+    "data/round28_reference/little_women.txt": "b20d98130841548c2137476e18fb1fe3bc7d666202985cafa09b5e02e54f7d7f",
+    "data/round28_reference/scarlet_letter.txt": "2341afcae7b06db1c80549fd700ddf10e8af12ca8e774c4747840a9ab8e81a14",
+    "docs/round28.md": "4bc050564c4bfdabbf8fbb65e58a03f46148657a37aae7446a87db184fc59eae",
+    "results/round28_certificates.json": "2e48c328c1ea827c230a8fd8b49fa8ef299c190cde4279adc10ddbc55a3a867c",
+    "results/round28_nulls.json": "fcc7f12c2c14f7088e2cafb54dea0141d975eab209397284e3e460668e49c5cf",
+    "results/round28_qualification.json": "18f0b6e8e5ea823e372265d4d1a3c381fec851957493840fab0aed74ef2e7640",
+    "results/round28_summary.json": "a81a6ec6a623f32ee8efd2f8a11157460e44b1334a7889dd3e7ce49abbb2b682",
+    "results/round28_targets.json": "40eb43082b1039e7f297352b73e1e9c070b9f215c27207174fceb9ec21165a31",
+    "results/round28_verification.json": "248b7aec16707bb681aa6253d6765dd51e8fc6b3a1bd172a2b7f1cb4b66fd7e6",
+    "scripts/round28_certificates.py": "c190b804e7de9542386a4ea2e49ccfe7de0659c665719523536ee0a1fd81f5bc",
+    "scripts/round28_experiment.py": "0c7b3a5a63c9f037250da60190601e69991eb6a539e342b5b4c6c97cba352a51",
+    "scripts/round28_fixtures.py": "e336d7127e117e4e342bca70803848a24feffd6a6f481a6893f947eb56ace93c",
+    "scripts/round28_qualification.py": "50c677d5abfdb6f5ad171ed8b2c308cb4f0f641430a82094d65477f191b2a7a3",
+    "scripts/round28_radix.py": "7159db28081014fed98119b8425e0f57e492c421477ea5ac43c6898dce7a580c",
+    "scripts/round28_summary.py": "1578b50d544b282849a3f6c29dffdb0eff4a53f191773d28002ba39913f61bbb",
+    "scripts/run_round28.py": "c406e6c532a626d1e303305f8e0e9a7c762b260f8ff7ddb3c8fcda75c346c825",
+    "tests/test_round28_artifacts.py": "1bc7194488f454e07ae676a565e76b86bba7601cc45dbf224190caad505c8e3f",
+    "tests/test_round28_radix.py": "70be2c29495e16dbf93cb37b351f41562c18913c07a338414815e1e45a39a549"
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "method": "Length intervals and positional powers, without importing radix decoder; reverse word-length DP instead of trie. Same frozen lexical source.",
+  "jobs": [
+    {
+      "source": "knightmare_2012",
+      "role": "whole_source",
+      "codec": "bijective26",
+      "framing": "runs",
+      "keys_exhaustively_checked": 312,
+      "frames_checked": 356,
+      "accepted_keys": [],
+      "all_first_failure_certificates_match": true
+    },
+    {
+      "source": "knightmare_2012",
+      "role": "whole_source",
+      "codec": "bijective26",
+      "framing": "utterance",
+      "keys_exhaustively_checked": 312,
+      "frames_checked": 312,
+      "accepted_keys": [],
+      "all_first_failure_certificates_match": true
+    },
+    {
+      "source": "knightmare_2012",
+      "role": "whole_source",
+      "codec": "canonical26",
+      "framing": "runs",
+      "keys_exhaustively_checked": 312,
+      "frames_checked": 356,
+      "accepted_keys": [],
+      "all_first_failure_certificates_match": true
+    },
+    {
+      "source": "knightmare_2012",
+      "role": "whole_source",
+      "codec": "canonical26",
+      "framing": "utterance",
+      "keys_exhaustively_checked": 312,
+      "frames_checked": 312,
+      "accepted_keys": [],
+      "all_first_failure_certificates_match": true
+    },
+    {
+      "source": "knightmare_2012",
+      "role": "whole_source",
+      "codec": "space27",
+      "framing": "runs",
+      "keys_exhaustively_checked": 312,
+      "frames_checked": 348,
+      "accepted_keys": [],
+      "all_first_failure_certificates_match": true
+    },
+    {
+      "source": "knightmare_2012",
+      "role": "whole_source",
+      "codec": "space27",
+      "framing": "utterance",
+      "keys_exhaustively_checked": 312,
+      "frames_checked": 312,
+      "accepted_keys": [],
+      "all_first_failure_certificates_match": true
+    },
+    {
+      "source": "avar_tar_poem",
+      "role": "whole_source",
+      "codec": "bijective26",
+      "framing": "runs",
+      "keys_exhaustively_checked": 312,
+      "frames_checked": 371,
+      "accepted_keys": [],
+      "all_first_failure_certificates_match": true
+    },
+    {
+      "source": "avar_tar_poem",
+      "role": "whole_source",
+      "codec": "bijective26",
+      "framing": "utterance",
+      "keys_exhaustively_checked": 312,
+      "frames_checked": 312,
+      "accepted_keys": [],
+      "all_first_failure_certificates_match": true
+    },
+    {
+      "source": "avar_tar_poem",
+      "role": "whole_source",
+      "codec": "canonical26",
+      "framing": "runs",
+      "keys_exhaustively_checked": 312,
+      "frames_checked": 371,
+      "accepted_keys": [],
+      "all_first_failure_certificates_match": true
+    },
+    {
+      "source": "avar_tar_poem",
+      "role": "whole_source",
+      "codec": "canonical26",
+      "framing": "utterance",
+      "keys_exhaustively_checked": 312,
+      "frames_checked": 312,
+      "accepted_keys": [],
+      "all_first_failure_certificates_match": true
+    },
+    {
+      "source": "avar_tar_poem",
+      "role": "whole_source",
+      "codec": "space27",
+      "framing": "runs",
+      "keys_exhaustively_checked": 312,
+      "frames_checked": 315,
+      "accepted_keys": [],
+      "all_first_failure_certificates_match": true
+    },
+    {
+      "source": "avar_tar_poem",
+      "role": "whole_source",
+      "codec": "space27",
+      "framing": "utterance",
+      "keys_exhaustively_checked": 312,
+      "frames_checked": 312,
+      "accepted_keys": [],
+      "all_first_failure_certificates_match": true
+    },
+    {
+      "source": "chayenne_2009",
+      "role": "whole_source",
+      "codec": "bijective26",
+      "framing": "runs",
+      "keys_exhaustively_checked": 312,
+      "frames_checked": 312,
+      "accepted_keys": [],
+      "all_first_failure_certificates_match": true
+    },
+    {
+      "source": "chayenne_2009",
+      "role": "whole_source",
+      "codec": "bijective26",
+      "framing": "utterance",
+      "keys_exhaustively_checked": 312,
+      "frames_checked": 312,
+      "accepted_keys": [],
+      "all_first_failure_certificates_match": true
+    },
+    {
+      "source": "chayenne_2009",
+      "role": "whole_source",
+      "codec": "canonical26",
+      "framing": "runs",
+      "keys_exhaustively_checked": 312,
+      "frames_checked": 312,
+      "accepted_keys": [],
+      "all_first_failure_certificates_match": true
+    },
+    {
+      "source": "chayenne_2009",
+      "role": "whole_source",
+      "codec": "canonical26",
+      "framing": "utterance",
+      "keys_exhaustively_checked": 312,
+      "frames_checked": 312,
+      "accepted_keys": [],
+      "all_first_failure_certificates_match": true
+    },
+    {
+      "source": "chayenne_2009",
+      "role": "whole_source",
+      "codec": "space27",
+      "framing": "runs",
+      "keys_exhaustively_checked": 312,
+      "frames_checked": 312,
+      "accepted_keys": [],
+      "all_first_failure_certificates_match": true
+    },
+    {
+      "source": "chayenne_2009",
+      "role": "whole_source",
+      "codec": "space27",
+      "framing": "utterance",
+      "keys_exhaustively_checked": 312,
+      "frames_checked": 312,
+      "accepted_keys": [],
+      "all_first_failure_certificates_match": true
+    },
+    {
+      "source": "avar_tar_poem",
+      "role": "prefix_discovery",
+      "codec": "bijective26",
+      "framing": "runs",
+      "keys_exhaustively_checked": 312,
+      "frames_checked": 371,
+      "accepted_keys": [],
+      "all_first_failure_certificates_match": true
+    },
+    {
+      "source": "avar_tar_poem",
+      "role": "prefix_discovery",
+      "codec": "canonical26",
+      "framing": "runs",
+      "keys_exhaustively_checked": 312,
+      "frames_checked": 371,
+      "accepted_keys": [],
+      "all_first_failure_certificates_match": true
+    },
+    {
+      "source": "avar_tar_poem",
+      "role": "prefix_discovery",
+      "codec": "space27",
+      "framing": "runs",
+      "keys_exhaustively_checked": 312,
+      "frames_checked": 315,
+      "accepted_keys": [],
+      "all_first_failure_certificates_match": true
+    },
+    {
+      "source": "chayenne_2009",
+      "role": "prefix_discovery",
+      "codec": "bijective26",
+      "framing": "runs",
+      "keys_exhaustively_checked": 312,
+      "frames_checked": 312,
+      "accepted_keys": [],
+      "all_first_failure_certificates_match": true
+    },
+    {
+      "source": "chayenne_2009",
+      "role": "prefix_discovery",
+      "codec": "canonical26",
+      "framing": "runs",
+      "keys_exhaustively_checked": 312,
+      "frames_checked": 312,
+      "accepted_keys": [],
+      "all_first_failure_certificates_match": true
+    },
+    {
+      "source": "chayenne_2009",
+      "role": "prefix_discovery",
+      "codec": "space27",
+      "framing": "runs",
+      "keys_exhaustively_checked": 312,
+      "frames_checked": 312,
+      "accepted_keys": [],
+      "all_first_failure_certificates_match": true
+    }
+  ],
+  "total_key_cases_checked": 7488,
+  "semantic_scope": "Exact arithmetic/lexical compatibility only, not independently attested English translation"
+}

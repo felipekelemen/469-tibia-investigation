@@ -1,6 +1,6 @@
 # 469-tibia-investigation — investigação reproduzível
 
-**Estado: vinte e sete rodadas executadas; nenhuma tradução verificável encontrada.**
+**Estado: vinte e oito rodadas executadas; nenhuma tradução verificável encontrada.**
 Não afirmamos que o corpus é indecifrável nem que qualquer solução comunitária
 foi confirmada. O alvo é um algoritmo integral que generalize para textos inéditos.
 
@@ -10,12 +10,23 @@ Destino público: https://github.com/felipekelemen/469-tibia-investigation
 com [balanço de cada rodada](docs/rounds_01_23_review.md) e
 [formato obrigatório de resultados e candidatas](docs/round_report_template_v2.md).
 Prioridade: Avar Tar, Knightmare e Chayenne; decisões delimitadas sobre3478/nomes
-e matrizes; investigação própria de geração sem texto. As rodadas 24–27 estão concluídas;
-as rodadas 28–30 permanecem planejadas. [Progresso atual](data/plan_progress_round27.json).
+e matrizes; investigação própria de geração sem texto. As rodadas 24–28 estão concluídas;
+as rodadas 29–30 permanecem planejadas. [Progresso atual](data/plan_progress_round28.json).
 Estado da missão: inconclusivo.
 
-**Publicado:** corpus normalizado, código, testes e resultados das vinte e sete rodadas
+**Publicado:** corpus normalizado, código, testes e resultados das vinte e oito rodadas
 disponíveis neste repositório. O acesso de escrita foi confirmado após nova reconexão.
+
+A [vigésima oitava rodada](docs/round28.md) tratou os grupos decimais como
+inteiros em bases alfabéticas 26/27, com alfabetos afins: 1.872 configurações
+por fonte. Nenhuma explica integralmente Avar Tar, Knightmare ou Chayenne no
+léxico fixado; uma implementação independente confirmou os 7.488 casos reais
+de chave. Nos controles com a família fornecida, 532/540 ajustes recuperaram
+a chave e todas as letras reservadas, mas isso não qualifica um detector de
+inglês geral. Dos 396 conjuntos de controles aleatórios/estruturais, 106
+admitiram algum encaixe lexical completo, sem validar significado. Não houve
+tradução nova. Passaram 279 testes; replay: `make round28`; repetição de todos
+os ajustes positivos e controles: `make round28-full`.
 
 A [vigésima sétima rodada](docs/round27.md) executou 120 ajustes sintéticos de
 recuperação de chave e 30 comparações com o solver anterior. Nenhum cenário

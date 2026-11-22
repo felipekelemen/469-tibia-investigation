@@ -1,0 +1,30 @@
+[
+  {
+    "path": "data/round28_reference/scarlet_letter.txt",
+    "url": "https://raw.githubusercontent.com/GITenberg/The-Scarlet-Letter_33/ab23ba5a4570fd0337e63f6b226be3cfa652ff34/33.txt",
+    "upstream_commit": "ab23ba5a4570fd0337e63f6b226be3cfa652ff34",
+    "upstream_repository": "GITenberg/The-Scarlet-Letter_33",
+    "author": "Nathaniel Hawthorne",
+    "title": "The Scarlet Letter",
+    "encoding": "utf-8-sig",
+    "bytes": 516453,
+    "sha256": "2341afcae7b06db1c80549fd700ddf10e8af12ca8e774c4747840a9ab8e81a14",
+    "retrieved_utc": "2026-11-22T02:31:54.897732+00:00",
+    "rights": "Public-domain works; full Gutenberg notice retained in source bytes",
+    "primary_access": "Gutenberg website returned503; public GITenberg mirror pinned by commit"
+  },
+  {
+    "path": "data/round28_reference/little_women.txt",
+    "url": "https://raw.githubusercontent.com/GITenberg/Little-Women_514/2b0c302d954a57cfa42c95d88ef053fd1b1aef55/514.txt",
+    "upstream_commit": "2b0c302d954a57cfa42c95d88ef053fd1b1aef55",
+    "upstream_repository": "GITenberg/Little-Women_514",
+    "author": "Louisa May Alcott",
+    "title": "Little Women",
+    "encoding": "utf-8-sig",
+    "bytes": 1053433,
+    "sha256": "b20d98130841548c2137476e18fb1fe3bc7d666202985cafa09b5e02e54f7d7f",
+    "retrieved_utc": "2026-11-22T02:31:55.660652+00:00",
+    "rights": "Public-domain works; full Gutenberg notice retained in source bytes",
+    "primary_access": "Gutenberg website returned503; public GITenberg mirror pinned by commit"
+  }
+]

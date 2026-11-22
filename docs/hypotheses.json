@@ -761,5 +761,26 @@
     "status": "specific_hidden_vocabulary_counterexample_verified",
     "evidence": "30relabelingsdeuma construção:doisdicionários detrêsunidades, ambos prefixfree, mesmosbytesdetreino, frequências e somadecomprimentos12, fronteirasdiferentes. Uma mensagemnovadiscrimina. Nãoautentica geradororiginal de469.",
     "artifact": "results/round27_qualification.json"
+  },
+  {
+    "id": "H110",
+    "hypothesis": "Cada quadro decimal é um inteiro em base alfabética 26/27 seguido de um alfabeto afim fixo",
+    "status": "no_lexical_key_in_complete_declared_search",
+    "evidence": "3 codecs × 2 enquadramentos × 312 chaves = 1.872 configurações por fonte; zero ajustes completos para Avar Tar, Knightmare ou Chayenne. Prefixos de descoberta de Avar/Chayenne também sem chave. Todos os 7.488 casos reais conferidos por implementação independente. 106/396 réplicas nulas admitem algum encaixe lexical, sem significado validado. Resultado restrito ao léxico e à família fixados.",
+    "artifact": "results/round28_targets.json"
+  },
+  {
+    "id": "H111",
+    "hypothesis": "A conversão de inteiro em base 26/27 com alfabeto afim traduz o quadro isolado 3478 em BEHOLDER ou BONELORD",
+    "status": "excluded_by_length_in_declared_radix_family",
+    "evidence": "3478 produz três símbolos em cada codec declarado; os dois nomes têm oito letras. Alfabetos afins preservam comprimento. Não rejeita nome contextual, identificador, código de palavra ou outros mecanismos.",
+    "artifact": "results/round28_targets.json"
+  },
+  {
+    "id": "H112",
+    "hypothesis": "Enumeração afim e compatibilidade lexical recuperam letras reservadas quando o codec de inteiro e o enquadramento são fornecidos",
+    "status": "qualified_in_18_declared_synthetic_cells_not_general_english_detection",
+    "evidence": "90 janelas de dois autores, emparelhadas em 540 ajustes. Chave verdadeira retida em 540/540; chave única e todas as letras reservadas corretas em 532/540; zero letras certificadas erradas. 18 células atingem 27/30, mas palavras/fronteiras exatas somente em 216/540, incluindo 180/180 com espaços explícitos. Não qualifica seleção de família desconhecida nem tradução de Tibia.",
+    "artifact": "results/round28_qualification.json"
   }
 ]

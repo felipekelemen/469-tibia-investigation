@@ -1,0 +1,647 @@
+{
+  "round": 28,
+  "translation_validated": false,
+  "new_semantic_candidates": [],
+  "lexical_witness_count": 0,
+  "qualification": {
+    "fits": 540,
+    "source_windows": 90,
+    "cells": 18,
+    "known_family_letter_cells_qualified": 18,
+    "letter_cases_passed": 532,
+    "full_keys_exact_unique": 532,
+    "exact_word_sequences": 216,
+    "confidently_wrong_letters": 0,
+    "unknown_family_selection_qualified": false
+  },
+  "overlap_audit": {
+    "nonoverlapping_source_positions": true,
+    "profiles": {
+      "avar_context": {
+        "windows": 30,
+        "held_sequence_repeated_own": 0,
+        "held_sequence_repeated_any": 0
+      },
+      "chayenne_parts": {
+        "windows": 30,
+        "held_sequence_repeated_own": 0,
+        "held_sequence_repeated_any": 1
+      },
+      "knight_short": {
+        "windows": 30,
+        "held_sequence_repeated_own": 0,
+        "held_sequence_repeated_any": 0
+      }
+    },
+    "windows": [
+      {
+        "id": "knight_short_00",
+        "profile": "knight_short",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "knight_short_01",
+        "profile": "knight_short",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "knight_short_02",
+        "profile": "knight_short",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "knight_short_03",
+        "profile": "knight_short",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "knight_short_04",
+        "profile": "knight_short",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "knight_short_05",
+        "profile": "knight_short",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "knight_short_06",
+        "profile": "knight_short",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "knight_short_07",
+        "profile": "knight_short",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "knight_short_08",
+        "profile": "knight_short",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "knight_short_09",
+        "profile": "knight_short",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "knight_short_10",
+        "profile": "knight_short",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "knight_short_11",
+        "profile": "knight_short",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "knight_short_12",
+        "profile": "knight_short",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "knight_short_13",
+        "profile": "knight_short",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "knight_short_14",
+        "profile": "knight_short",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "knight_short_15",
+        "profile": "knight_short",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "knight_short_16",
+        "profile": "knight_short",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "knight_short_17",
+        "profile": "knight_short",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "knight_short_18",
+        "profile": "knight_short",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "knight_short_19",
+        "profile": "knight_short",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "knight_short_20",
+        "profile": "knight_short",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "knight_short_21",
+        "profile": "knight_short",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "knight_short_22",
+        "profile": "knight_short",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "knight_short_23",
+        "profile": "knight_short",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "knight_short_24",
+        "profile": "knight_short",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "knight_short_25",
+        "profile": "knight_short",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "knight_short_26",
+        "profile": "knight_short",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "knight_short_27",
+        "profile": "knight_short",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "knight_short_28",
+        "profile": "knight_short",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "knight_short_29",
+        "profile": "knight_short",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "avar_context_30",
+        "profile": "avar_context",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "avar_context_31",
+        "profile": "avar_context",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "avar_context_32",
+        "profile": "avar_context",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "avar_context_33",
+        "profile": "avar_context",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "avar_context_34",
+        "profile": "avar_context",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "avar_context_35",
+        "profile": "avar_context",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "avar_context_36",
+        "profile": "avar_context",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "avar_context_37",
+        "profile": "avar_context",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "avar_context_38",
+        "profile": "avar_context",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "avar_context_39",
+        "profile": "avar_context",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "avar_context_40",
+        "profile": "avar_context",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "avar_context_41",
+        "profile": "avar_context",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "avar_context_42",
+        "profile": "avar_context",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "avar_context_43",
+        "profile": "avar_context",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "avar_context_44",
+        "profile": "avar_context",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "avar_context_45",
+        "profile": "avar_context",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "avar_context_46",
+        "profile": "avar_context",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "avar_context_47",
+        "profile": "avar_context",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "avar_context_48",
+        "profile": "avar_context",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "avar_context_49",
+        "profile": "avar_context",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "avar_context_50",
+        "profile": "avar_context",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "avar_context_51",
+        "profile": "avar_context",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "avar_context_52",
+        "profile": "avar_context",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "avar_context_53",
+        "profile": "avar_context",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "avar_context_54",
+        "profile": "avar_context",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "avar_context_55",
+        "profile": "avar_context",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "avar_context_56",
+        "profile": "avar_context",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "avar_context_57",
+        "profile": "avar_context",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "avar_context_58",
+        "profile": "avar_context",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "avar_context_59",
+        "profile": "avar_context",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "chayenne_parts_60",
+        "profile": "chayenne_parts",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": true
+      },
+      {
+        "id": "chayenne_parts_61",
+        "profile": "chayenne_parts",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "chayenne_parts_62",
+        "profile": "chayenne_parts",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "chayenne_parts_63",
+        "profile": "chayenne_parts",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "chayenne_parts_64",
+        "profile": "chayenne_parts",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "chayenne_parts_65",
+        "profile": "chayenne_parts",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "chayenne_parts_66",
+        "profile": "chayenne_parts",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "chayenne_parts_67",
+        "profile": "chayenne_parts",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "chayenne_parts_68",
+        "profile": "chayenne_parts",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "chayenne_parts_69",
+        "profile": "chayenne_parts",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "chayenne_parts_70",
+        "profile": "chayenne_parts",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "chayenne_parts_71",
+        "profile": "chayenne_parts",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "chayenne_parts_72",
+        "profile": "chayenne_parts",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "chayenne_parts_73",
+        "profile": "chayenne_parts",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "chayenne_parts_74",
+        "profile": "chayenne_parts",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "chayenne_parts_75",
+        "profile": "chayenne_parts",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "chayenne_parts_76",
+        "profile": "chayenne_parts",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "chayenne_parts_77",
+        "profile": "chayenne_parts",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "chayenne_parts_78",
+        "profile": "chayenne_parts",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "chayenne_parts_79",
+        "profile": "chayenne_parts",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "chayenne_parts_80",
+        "profile": "chayenne_parts",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "chayenne_parts_81",
+        "profile": "chayenne_parts",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "chayenne_parts_82",
+        "profile": "chayenne_parts",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "chayenne_parts_83",
+        "profile": "chayenne_parts",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "chayenne_parts_84",
+        "profile": "chayenne_parts",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "chayenne_parts_85",
+        "profile": "chayenne_parts",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "chayenne_parts_86",
+        "profile": "chayenne_parts",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "chayenne_parts_87",
+        "profile": "chayenne_parts",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "chayenne_parts_88",
+        "profile": "chayenne_parts",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      },
+      {
+        "id": "chayenne_parts_89",
+        "profile": "chayenne_parts",
+        "held_sequence_in_own_training": false,
+        "held_sequence_in_any_training": false
+      }
+    ],
+    "scope": "Paired codecs share windows; short common phrases can recur. Each fit has its own key and receives only its own training ciphertext."
+  },
+  "controls": {
+    "uniform": {
+      "replicates": 99,
+      "replicates_with_any_full_lexical_source": 33,
+      "p_upper": 1.0,
+      "changed_sources": {
+        "knightmare_2012": 99,
+        "avar_tar_poem": 99,
+        "chayenne_2009": 99
+      },
+      "distinct_outputs": {
+        "knightmare_2012": 99,
+        "avar_tar_poem": 99,
+        "chayenne_2009": 99
+      }
+    },
+    "global_shuffle": {
+      "replicates": 99,
+      "replicates_with_any_full_lexical_source": 27,
+      "p_upper": 1.0,
+      "changed_sources": {
+        "knightmare_2012": 99,
+        "avar_tar_poem": 99,
+        "chayenne_2009": 99
+      },
+      "distinct_outputs": {
+        "knightmare_2012": 99,
+        "avar_tar_poem": 99,
+        "chayenne_2009": 99
+      }
+    },
+    "distinct_group_shuffle": {
+      "replicates": 99,
+      "replicates_with_any_full_lexical_source": 24,
+      "p_upper": 1.0,
+      "changed_sources": {
+        "knightmare_2012": 99,
+        "avar_tar_poem": 99,
+        "chayenne_2009": 99
+      },
+      "distinct_outputs": {
+        "knightmare_2012": 99,
+        "avar_tar_poem": 99,
+        "chayenne_2009": 99
+      }
+    },
+    "book_substrings": {
+      "replicates": 99,
+      "replicates_with_any_full_lexical_source": 22,
+      "p_upper": 1.0,
+      "changed_sources": {
+        "knightmare_2012": 99,
+        "avar_tar_poem": 99,
+        "chayenne_2009": 99
+      },
+      "distinct_outputs": {
+        "knightmare_2012": 99,
+        "avar_tar_poem": 99,
+        "chayenne_2009": 99
+      }
+    }
+  },
+  "limits": [
+    "Frozen lexicon and six declared radix/framing models with312affine keys; not all English or all ciphers.",
+    "No authoritative game plaintext, new game source or authenticated original generator.",
+    "Chayenne copies remain exposed dependent material; no semantic holdout claimed."
+  ]
+}

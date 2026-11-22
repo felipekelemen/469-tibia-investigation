@@ -1,0 +1,34 @@
+{
+  "round": 28,
+  "basis": "5ab9a832b0614f4c2ec48dde57924d3ca7331a8e",
+  "status": "Frozen before synthetic fits or target decoding; prior rounds and target ciphertexts already exposed",
+  "hypothesis": "A decimal frame is one whole integer, converted to a conventional alphabetic radix, then transformed by one shared affine alphabet. This differs from per-letter decimal codecs and per-digit units rejected earlier.",
+  "codecs": ["bijective26", "canonical26", "space27"],
+  "definitions": {
+    "bijective26": "Positive integer, repeated divmod(n-1,26), values1..26 map to letter symbols0..25. Integer0 invalid.",
+    "canonical26": "Ordinary minimal base26 representation, values0..25 are letters; integer0 is one symbol0. No unrecorded leading base26zero symbols can be recovered.",
+    "space27": "Ordinary minimal base27; value0 is a literal space and1..26 are letter symbols0..25. Integer0 is one space. Spaces are retained, not encrypted by the affine alphabet.",
+    "affine": "Plain letter index=(a*symbol+b)mod26; a in1,3,5,7,9,11,15,17,19,21,23,25 and b in0..25. Enumerate all312keys, no optimization, arbitrary alphabet permutations, extra offsets, reversal or named-key expansion.",
+    "decimal_zero_padding": "Leading decimal zeros are numerical padding, recorded in input but ignored by integer conversion; no other digit removed or changed. All-zero frames follow each codec's integer0rule."
+  },
+  "framings": ["runs", "utterance"],
+  "framing_rules": "runs decodes each numeric run independently, with each frame beginning/ending at a lexical boundary;26codecs may have hidden internal word cuts. utterance concatenates all runs in that source and decodes one integer, treating the printed grouping as formatting. Original punctuation/raw text retained; no claim that it authenticates plaintext punctuation. Chayenne runs remain36and13digits; utterance is their49digit concatenation.",
+  "lexicon": "Unmodified pinned round23 CMU orthographic bank, including its predeclared hypothetical BONELORD addition; no new lore words.26codecs use an exact all-path lexical DAG;27uses only explicitly decoded spaces, allowing consecutive/edge spaces and the standalone space frame. A full fitted source must contain at least one letter.",
+  "real_order": ["knightmare_2012", "avar_tar_poem", "chayenne_2009"],
+  "order_reason": "Knightmare has seven explicit short groups and the standalone0, which discriminate these arithmetic models. This is independent of a desired English reading.",
+  "discovery_and_transfer": "In runs mode: Knightmare all7groups; Avar first10groups, last10exposed holdout; Chayenne first36digits, second13digits exposed holdout. In utterance mode fit the whole source because integer conversion does not commute with splitting decimal prefixes; cross-source transfer only. Never filter training keys with held output to claim prediction. All source and joint-key intersections are diagnostic, not independent English validation.",
+  "positive_profiles": {
+    "knight_short": {"train_words":7,"held_words":7,"train_letter_range":[14,24],"held_letter_range":null},
+    "avar_context": {"train_words":10,"held_words":10,"train_letter_range":[35,55],"held_letter_range":null},
+    "chayenne_parts": {"train_words":5,"held_words":2,"train_letter_range":[22,28],"held_letter_range":[7,12]}
+  },
+  "positives": "30nonoverlapping source windows per profile,15per new author Hawthorne/Alcott; same90windows paired across3codecs and2framings for540fits. Discovery words must be in the frozen lexicon, held words need not be. One uniformly sampled affine key per case/codec/framing; canonical26keys are conditioned on nonzero leading encoded symbol in every multi-letter frame so encoding is lossless. Random0..2leading decimal zero padding per frame. Do not select by solver success. These profiles approximate decoded lengths, not exact observed decimal lengths or unseen Tibia semantics.",
+  "generator_attempt_limit_per_profile_author":100000,
+  "positive_seed":283478,
+  "gate": {"cases_per_cell":30,"minimum_cases_passing":27,"minimum_certified_held_letter_accuracy":0.95,"maximum_certified_wrong_letters":0,"scope":"Known codec/framing only. Preserve alternate keys; certify each held character only if all training-compatible keys agree. Report unique full literal and exact word-boundary recovery separately; no inherited unknown-family or hidden-boundary qualification."},
+  "nulls": {"replicates_each":99,"seed":284690,"families":["uniform","global_shuffle","distinct_group_shuffle","book_substrings"],"rules":"Preserve run lengths in all controls. Global shuffle preserves total digit counts; distinct-group shuffle also preserves per-group counts and repeated groups; book_substrings draws same-length substrings from the70exposed books and reuses the same draw for repeated groups. Repeat all1872codec/framing/key combinations on every full source for every replicate. Record effective changes and distinct outputs; no re-draw conditioned on fitting. Book-derived controls are not independent semantic holdouts."},
+  "statistics": "For each replicate and real data, maximize the number of completely lexically compatible sources over all1872configurations; report plus-one upper-tail MonteCarlo diagnostic. This is a lexical compatibility statistic, not a probability of English, meaning or original authorship. Publish full per-source compatible key sets; correct selection by repeating the entire finite search.",
+  "validation": "Exact inverse arithmetic checked independently using positional polynomial formulas. Synthetic recovery gates are distinct from software checks. No actual game plaintext exists for these targets; copies of Chayenne in books cannot validate semantics.",
+  "candidate_rule": "Publish all full-source lexical compatibility witnesses and their literal outputs, not chosen pretty fragments. Do not rank or repair them into translations. Any substantive English needs one fixed mechanism, coherent complete reading, independent transfer and external attestation; short coincidences never suffice.",
+  "translation_validated": false
+}
