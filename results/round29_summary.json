@@ -1,0 +1,477 @@
+{
+  "round": 29,
+  "profiles": {
+    "text_affine": {
+      "expected": "T",
+      "cases": 30,
+      "total_correct": 0,
+      "predictive_correct": 30,
+      "total_confusion": {
+        "N": 30
+      },
+      "predictive_confusion": {
+        "T": 30
+      },
+      "true_affine_key_recovered": 30,
+      "authors": {
+        "Elizabeth Gaskell": {
+          "cases": 15,
+          "total_confusion": {
+            "N": 15
+          },
+          "predictive_confusion": {
+            "T": 15
+          }
+        },
+        "George Eliot": {
+          "cases": 15,
+          "total_confusion": {
+            "N": 15
+          },
+          "predictive_confusion": {
+            "T": 15
+          }
+        }
+      },
+      "T_minus_N_total_bits": {
+        "mean": 2372.1041463387423,
+        "min": 1843.9040953293443,
+        "max": 2926.170007326844
+      },
+      "T_minus_N_held_bits": {
+        "mean": -1545.7986954467096,
+        "min": -1723.6729307626629,
+        "max": -1304.4086238011723
+      },
+      "selected_text_key_equals_affine_fixture_relabeling": 30,
+      "held_coverage_raw12": {
+        "mean": 0.3151053639846743,
+        "min": 0.21149425287356322,
+        "max": 0.3899425287356322
+      },
+      "held_coverage_raw24": {
+        "mean": 0.019339080459770116,
+        "min": 0.0,
+        "max": 0.1028735632183908
+      }
+    },
+    "text_copied": {
+      "expected": "T",
+      "cases": 30,
+      "total_correct": 0,
+      "predictive_correct": 30,
+      "total_confusion": {
+        "N": 30
+      },
+      "predictive_confusion": {
+        "T": 30
+      },
+      "true_affine_key_recovered": 30,
+      "authors": {
+        "Elizabeth Gaskell": {
+          "cases": 15,
+          "total_confusion": {
+            "N": 15
+          },
+          "predictive_confusion": {
+            "T": 15
+          }
+        },
+        "George Eliot": {
+          "cases": 15,
+          "total_confusion": {
+            "N": 15
+          },
+          "predictive_confusion": {
+            "T": 15
+          }
+        }
+      },
+      "T_minus_N_total_bits": {
+        "mean": 6063.4447796953955,
+        "min": 5417.293665840116,
+        "max": 6676.489010537451
+      },
+      "T_minus_N_held_bits": {
+        "mean": -1345.8051480764693,
+        "min": -1913.0421005954877,
+        "max": -832.7185442114151
+      },
+      "selected_text_key_equals_affine_fixture_relabeling": 30,
+      "held_coverage_raw12": {
+        "mean": 0.6893486590038315,
+        "min": 0.5370689655172414,
+        "max": 0.7910919540229885
+      },
+      "held_coverage_raw24": {
+        "mean": 0.6289080459770114,
+        "min": 0.44310344827586207,
+        "max": 0.7528735632183908
+      }
+    },
+    "numeric_uniform": {
+      "expected": "N",
+      "cases": 30,
+      "total_correct": 30,
+      "predictive_correct": 30,
+      "total_confusion": {
+        "N": 30
+      },
+      "predictive_confusion": {
+        "N": 30
+      },
+      "true_affine_key_recovered": 0,
+      "authors": {
+        "Elizabeth Gaskell": {
+          "cases": 15,
+          "total_confusion": {
+            "N": 15
+          },
+          "predictive_confusion": {
+            "N": 15
+          }
+        },
+        "George Eliot": {
+          "cases": 15,
+          "total_confusion": {
+            "N": 15
+          },
+          "predictive_confusion": {
+            "N": 15
+          }
+        }
+      },
+      "T_minus_N_total_bits": {
+        "mean": 21646.2758547549,
+        "min": 21369.71441047106,
+        "max": 22052.9459808901
+      },
+      "T_minus_N_held_bits": {
+        "mean": 4297.496793465753,
+        "min": 4132.394913941607,
+        "max": 4552.335946475487
+      },
+      "selected_text_key_equals_affine_fixture_relabeling": 0,
+      "held_coverage_raw12": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      },
+      "held_coverage_raw24": {
+        "mean": 0.0,
+        "min": 0.0,
+        "max": 0.0
+      }
+    },
+    "numeric_markov": {
+      "expected": "N",
+      "cases": 30,
+      "total_correct": 30,
+      "predictive_correct": 30,
+      "total_confusion": {
+        "N": 30
+      },
+      "predictive_confusion": {
+        "N": 30
+      },
+      "true_affine_key_recovered": 0,
+      "authors": {
+        "Elizabeth Gaskell": {
+          "cases": 15,
+          "total_confusion": {
+            "N": 15
+          },
+          "predictive_confusion": {
+            "N": 15
+          }
+        },
+        "George Eliot": {
+          "cases": 15,
+          "total_confusion": {
+            "N": 15
+          },
+          "predictive_confusion": {
+            "N": 15
+          }
+        }
+      },
+      "T_minus_N_total_bits": {
+        "mean": 30541.69245316663,
+        "min": 29597.586927870114,
+        "max": 31702.914968519035
+      },
+      "T_minus_N_held_bits": {
+        "mean": 7397.915457050945,
+        "min": 6782.088771368865,
+        "max": 8249.280453222025
+      },
+      "selected_text_key_equals_affine_fixture_relabeling": 0,
+      "held_coverage_raw12": {
+        "mean": 0.3854406130268199,
+        "min": 0.3442528735632184,
+        "max": 0.44080459770114944
+      },
+      "held_coverage_raw24": {
+        "mean": 0.00024904214559386974,
+        "min": 0.0,
+        "max": 0.007471264367816092
+      }
+    },
+    "numeric_shuffled_modules": {
+      "expected": "N",
+      "cases": 30,
+      "total_correct": 30,
+      "predictive_correct": 2,
+      "total_confusion": {
+        "N": 30
+      },
+      "predictive_confusion": {
+        "T": 28,
+        "N": 2
+      },
+      "true_affine_key_recovered": 0,
+      "authors": {
+        "Elizabeth Gaskell": {
+          "cases": 15,
+          "total_confusion": {
+            "N": 15
+          },
+          "predictive_confusion": {
+            "T": 15
+          }
+        },
+        "George Eliot": {
+          "cases": 15,
+          "total_confusion": {
+            "N": 15
+          },
+          "predictive_confusion": {
+            "T": 13,
+            "N": 2
+          }
+        }
+      },
+      "T_minus_N_total_bits": {
+        "mean": 7258.869507991364,
+        "min": 6443.773614585109,
+        "max": 7904.9934504592675
+      },
+      "T_minus_N_held_bits": {
+        "mean": -424.85862932435856,
+        "min": -1102.436580717791,
+        "max": 23.442577985875687
+      },
+      "selected_text_key_equals_affine_fixture_relabeling": 30,
+      "held_coverage_raw12": {
+        "mean": 0.6499329501915708,
+        "min": 0.46436781609195404,
+        "max": 0.7778735632183909
+      },
+      "held_coverage_raw24": {
+        "mean": 0.6242337164750958,
+        "min": 0.43994252873563217,
+        "max": 0.7502873563218391
+      }
+    },
+    "mixed": {
+      "expected": "M",
+      "cases": 30,
+      "total_correct": 0,
+      "predictive_correct": 30,
+      "total_confusion": {
+        "N": 30
+      },
+      "predictive_confusion": {
+        "M": 30
+      },
+      "true_affine_key_recovered": 0,
+      "authors": {
+        "Elizabeth Gaskell": {
+          "cases": 15,
+          "total_confusion": {
+            "N": 15
+          },
+          "predictive_confusion": {
+            "M": 15
+          }
+        },
+        "George Eliot": {
+          "cases": 15,
+          "total_confusion": {
+            "N": 15
+          },
+          "predictive_confusion": {
+            "M": 15
+          }
+        }
+      },
+      "T_minus_N_total_bits": {
+        "mean": 15888.163705448562,
+        "min": 14584.566980580887,
+        "max": 17404.996590990166
+      },
+      "T_minus_N_held_bits": {
+        "mean": 2920.288473672766,
+        "min": 2344.4383610826117,
+        "max": 3461.065764551795
+      },
+      "selected_text_key_equals_affine_fixture_relabeling": 30,
+      "held_coverage_raw12": {
+        "mean": 0.2608524904214559,
+        "min": 0.21551724137931033,
+        "max": 0.32701149425287357
+      },
+      "held_coverage_raw24": {
+        "mean": 0.0069061302681992336,
+        "min": 0.0,
+        "max": 0.03218390804597701
+      }
+    },
+    "text_permutation_challenge": {
+      "expected": "T",
+      "cases": 30,
+      "total_correct": 0,
+      "predictive_correct": 0,
+      "total_confusion": {
+        "N": 30
+      },
+      "predictive_confusion": {
+        "N": 30
+      },
+      "true_affine_key_recovered": 0,
+      "authors": {
+        "Elizabeth Gaskell": {
+          "cases": 15,
+          "total_confusion": {
+            "N": 15
+          },
+          "predictive_confusion": {
+            "N": 15
+          }
+        },
+        "George Eliot": {
+          "cases": 15,
+          "total_confusion": {
+            "N": 15
+          },
+          "predictive_confusion": {
+            "N": 15
+          }
+        }
+      },
+      "T_minus_N_total_bits": {
+        "mean": 12923.344833470295,
+        "min": 11116.706245340523,
+        "max": 14112.27410650329
+      },
+      "T_minus_N_held_bits": {
+        "mean": 1919.8569628857224,
+        "min": 1277.0960203403392,
+        "max": 2340.8019344993463
+      },
+      "selected_text_key_equals_affine_fixture_relabeling": 0,
+      "held_coverage_raw12": {
+        "mean": 0.3126149425287356,
+        "min": 0.20919540229885059,
+        "max": 0.3850574712643678
+      },
+      "held_coverage_raw24": {
+        "mean": 0.01957854406130268,
+        "min": 0.0,
+        "max": 0.1014367816091954
+      }
+    },
+    "copied_permutation_challenge": {
+      "expected": "T",
+      "cases": 30,
+      "total_correct": 0,
+      "predictive_correct": 8,
+      "total_confusion": {
+        "N": 30
+      },
+      "predictive_confusion": {
+        "N": 20,
+        "T": 8,
+        "M": 2
+      },
+      "true_affine_key_recovered": 0,
+      "authors": {
+        "Elizabeth Gaskell": {
+          "cases": 15,
+          "total_confusion": {
+            "N": 15
+          },
+          "predictive_confusion": {
+            "T": 3,
+            "N": 11,
+            "M": 1
+          }
+        },
+        "George Eliot": {
+          "cases": 15,
+          "total_confusion": {
+            "N": 15
+          },
+          "predictive_confusion": {
+            "N": 9,
+            "T": 5,
+            "M": 1
+          }
+        }
+      },
+      "T_minus_N_total_bits": {
+        "mean": 7940.430684741318,
+        "min": 6965.733028810791,
+        "max": 8936.279125372443
+      },
+      "T_minus_N_held_bits": {
+        "mean": 115.51196972081756,
+        "min": -711.8194328626141,
+        "max": 1027.0235816094546
+      },
+      "selected_text_key_equals_affine_fixture_relabeling": 0,
+      "held_coverage_raw12": {
+        "mean": 0.6899521072796935,
+        "min": 0.5238505747126436,
+        "max": 0.7899425287356322
+      },
+      "held_coverage_raw24": {
+        "mean": 0.6287260536398468,
+        "min": 0.4419540229885057,
+        "max": 0.7522988505747127
+      }
+    }
+  },
+  "total_rule_confusion": {
+    "T": {
+      "N": 120
+    },
+    "N": {
+      "N": 90
+    },
+    "M": {
+      "N": 30
+    }
+  },
+  "predictive_rule_confusion": {
+    "T": {
+      "T": 68,
+      "N": 50,
+      "M": 2
+    },
+    "N": {
+      "N": 62,
+      "T": 28
+    },
+    "M": {
+      "M": 30
+    }
+  },
+  "general_origin_application_eligible": {
+    "total": false,
+    "predictive": false
+  },
+  "new_game_candidates": [],
+  "translation_validated": false,
+  "scope": "N for shuffled modules is a predeclared structural-control label: composition comes from English, and this is not a proof that all text information is absent. Separate per-author counts are descriptive; no per-author qualification claimed."
+}

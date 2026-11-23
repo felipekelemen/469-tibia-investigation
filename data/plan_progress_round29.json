@@ -1,0 +1,22 @@
+{
+  "plan": "docs/mission_plan_v2.md",
+  "completed_through_round": 29,
+  "completed_this_execution": [
+    29
+  ],
+  "remaining_planned_rounds": [
+    30
+  ],
+  "mission_outcome": "I_inconclusive",
+  "translation_validated": false,
+  "original_nontextual_generator_authenticated": false,
+  "latest_report": "docs/round29.md",
+  "qualification": "Neither total-description nor held-predictive comparison passes the declared profile gates; no game-origin labels applied.",
+  "results": "240corpora fully fitted and replayed; independent scalar/forward-DP checks verify50400selected document/model lengths.293software tests pass.",
+  "next_round": {
+    "number": 30,
+    "focus": "Adjudicate T/G/I within the documented scope; consolidate closed families, suspended hypotheses, evidence gaps and replication",
+    "constraints": "Do not turn failed cipher searches or shorter numeric codes into proof of no text. No third-party replication claim for internal checks. Preserve priority-source candidate catalogues and require new independent evidence for reopening.",
+    "candidate_rule": "If an actual candidate emerges, freeze decoder and predictions before independent semantic validation; none currently qualifies."
+  }
+}

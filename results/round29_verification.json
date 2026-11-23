@@ -1,0 +1,27 @@
+{
+  "local_date": "2026-11-23",
+  "timezone": "America/Sao_Paulo",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "qualification_corpora_completed": 240,
+  "source_windows": 30,
+  "configurations_per_corpus": 4374,
+  "unittest": {
+    "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3 -m unittest discover -s tests -v",
+    "tests": 293,
+    "exit_code": 0
+  },
+  "full_replay": {
+    "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3 scripts/run_round29.py --full",
+    "exit_code": 0,
+    "all240corpora_repeated": true,
+    "all_results_equal": true
+  },
+  "independent_selected_model_document_checks": 50400,
+  "max_difference_bits": 1.8189894035458565e-12,
+  "independent_implementation_scope": "Selected costs and headers; optimal-selection search verified by original-implementation replay, not third-party review.",
+  "game_origin_fit_performed": false,
+  "game_origin_fit_reason": "Both qualification rules failed",
+  "translation_validated": false,
+  "publication_manifest_finalized_after_documentation": true
+}

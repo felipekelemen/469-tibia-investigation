@@ -1,0 +1,28 @@
+[
+  {
+    "path": "data/round29_reference/silas_marner.txt",
+    "url": "https://raw.githubusercontent.com/GITenberg/Silas-Marner_550/a4c56c3b0a355f69ceba3fb73adf25579ad3ddd9/550.txt",
+    "upstream_repository": "GITenberg/Silas-Marner_550",
+    "upstream_commit": "a4c56c3b0a355f69ceba3fb73adf25579ad3ddd9",
+    "author": "George Eliot",
+    "title": "Silas Marner",
+    "encoding": "utf-8-sig",
+    "bytes": 420906,
+    "sha256": "46b39559666acdce85bfbea4d98df3b3db0e044bcbacd22f4a55ba86be76a189",
+    "retrieved_utc": "2026-11-23T20:44:24.736844+00:00",
+    "rights": "Public-domain work, full Gutenberg notice retained"
+  },
+  {
+    "path": "data/round29_reference/north_south.txt",
+    "url": "https://raw.githubusercontent.com/GITenberg/North-and-South_4276/aeffaffe76f31ee5bf6e9608e825e3b38947c025/4276.txt",
+    "upstream_repository": "GITenberg/North-and-South_4276",
+    "upstream_commit": "aeffaffe76f31ee5bf6e9608e825e3b38947c025",
+    "author": "Elizabeth Gaskell",
+    "title": "North and South",
+    "encoding": "utf-8-sig",
+    "bytes": 1034710,
+    "sha256": "0eeef1601e32c53fb1c729caf6d5314747b8f14b72eed8cbb3bb9ed8de405fef",
+    "retrieved_utc": "2026-11-23T20:44:25.875125+00:00",
+    "rights": "Public-domain work, full Gutenberg notice retained"
+  }
+]

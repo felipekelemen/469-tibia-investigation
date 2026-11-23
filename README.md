@@ -1,6 +1,6 @@
 # 469-tibia-investigation — investigação reproduzível
 
-**Estado: vinte e oito rodadas executadas; nenhuma tradução verificável encontrada.**
+**Estado: vinte e nove rodadas executadas; nenhuma tradução verificável encontrada.**
 Não afirmamos que o corpus é indecifrável nem que qualquer solução comunitária
 foi confirmada. O alvo é um algoritmo integral que generalize para textos inéditos.
 
@@ -10,12 +10,22 @@ Destino público: https://github.com/felipekelemen/469-tibia-investigation
 com [balanço de cada rodada](docs/rounds_01_23_review.md) e
 [formato obrigatório de resultados e candidatas](docs/round_report_template_v2.md).
 Prioridade: Avar Tar, Knightmare e Chayenne; decisões delimitadas sobre3478/nomes
-e matrizes; investigação própria de geração sem texto. As rodadas 24–28 estão concluídas;
-as rodadas 29–30 permanecem planejadas. [Progresso atual](data/plan_progress_round28.json).
+e matrizes; investigação própria de geração sem texto. As rodadas 24–29 estão concluídas;
+a rodada 30 permanece planejada. [Progresso atual](data/plan_progress_round29.json).
 Estado da missão: inconclusivo.
 
-**Publicado:** corpus normalizado, código, testes e resultados das vinte e oito rodadas
+**Publicado:** corpus normalizado, código, testes e resultados das vinte e nove rodadas
 disponíveis neste repositório. O acesso de escrita foi confirmado após nova reconexão.
+
+A [vigésima nona rodada](docs/round29.md) comparou modelos textuais, numéricos
+e mistos em 240 corpora sintéticos, com chaves, dicionários, programas e
+exceções pagos. O custo total escolheu o modelo numérico até nos 60 controles
+de inglês da família prevista, embora a chave verdadeira tenha sido recuperada
+em todos. A previsão reservada também falhou em distinguir os perfis
+embaralhados e as cifras fora da família. Nenhuma regra se qualificou para
+atribuir origem a 469. Uma implementação independente conferiu 50.400 custos
+de documento/modelo; os 240 ajustes foram reproduzidos e passaram 293 testes.
+Nenhuma tradução nova. Replay: `make round29`; completo: `make round29-full`.
 
 A [vigésima oitava rodada](docs/round28.md) tratou os grupos decimais como
 inteiros em bases alfabéticas 26/27, com alfabetos afins: 1.872 configurações

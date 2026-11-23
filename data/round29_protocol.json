@@ -1,0 +1,43 @@
+{
+  "round": 29,
+  "basis": "22b4d09c3fbd0e4827beed8055fe672c1194cee4",
+  "status": "Specified before fixture selection, any qualification fit or target scoring; previous Tibia data exposed",
+  "question": "Can an explicit two-part code comparison distinguish message-bearing, numeric-only and mixed synthetic production without mistaking copying for absence of text?",
+  "text_family": "A-Z letters encrypted by one affine bijection modulo26, emitted as decimal pairs00..25. Enumerate all312keys. A fixed external English letter-bigram model with alpha0.5; mass15/16on valid pairs, mass1/16uniformly distributed over74escaped pairs26..99. Escapes reset letter context. Odd terminal digit paid uniformly. Not arbitrary substitution, homophony, unit codes or all possible English.",
+  "english_training_sources": ["data/english_reference/alice.txt", "data/benchmark_reference/pride_prejudice.txt"],
+  "english_training_limit_letters_per_source": 100000,
+  "numeric_families": ["uniform digits", "discovery-fitted digit IID", "discovery-fitted digit Markov1"],
+  "copy_facility": "Both text and numeric models may use the same dictionary fitted ONLY on discovery. Existing deterministic greedy coverage at pair lengths4,8,12,16,24,32; maximum64entries. Pair alphabet00..99, encoded7bits each in the dictionary. Exact shortest-path parse, literal flag+arithmetic pair or reference flag+fixedwidth index. Context updates through all recovered digits including references. No dictionary adaptation on held data.",
+  "mixed_family": "One text configuration and one numeric configuration; each document carries one paid route bit and uses the cheaper component. Both components fit only discovery. This is a description of mixture, not an assertion that route bits are predicted before seeing a document.",
+  "cost_accounting": "Gamma(length+1) and2arithmetic termination bits perdocument; gamma counts for document numbers.2bits for T/N/Mclass. Text key9bits, copyflag1, English counts26+676serialized by gamma(count+1). Numeric base2bits, copyflag1, IID10orMarkov110counts gamma-coded. Mixed key9, base2, two copyflags and route1perdocument. Shared dictionary charged once when used. Common decoder source bytes of round29_models.py and generative_comparison.py charged8bits/byte plus gamma(bytecount+1), equally to all classes. Python/numpy interpreter and decoding language assumed shared. No fitted seed: seed cost0; fixture seeds generate controls only and never decode data. Cuts, exceptions and copied payloads are paid by length, escape and reference codes. These are explicit ideal code lengths, not machine-independent Kolmogorov minima or measured compressed bytes.",
+  "selection": "Exhaust all624text configurations,6numeric configurations and3744mixed combinations, using parameter+discovery data cost only. Then compare frozen component models by total two-part cost and separately held-data cost. T,N,M fixed tie order. Never select a key/dictionary from held data.",
+  "fixtures": {
+    "seed": 293478,
+    "replicates_per_profile": 30,
+    "authors": ["George Eliot", "Elizabeth Gaskell"],
+    "replicates_per_author": 15,
+    "windows": "Nonoverlapping normalized-letter windows, starting10000and advancing needed_letters+1024, alternating authors. Same30windows and document sizes paired across8profiles, not240independent source samples.",
+    "lengths": "70book digit lengths, each rounded DOWN to an even number for synthetic paired encodings; original lengths recorded. First50synthetic documents discovery, last20reserved. Real corpus kept unchanged.",
+    "profiles": {
+      "text_affine": "T: fresh natural prose encrypted by a sampled affine key",
+      "text_copied": "T: sampled32letter modules from the same source window,16discovery modules and8additional novel modules available in held data; assembly is message-bearing fragments, not necessarily a coherent essay",
+      "numeric_uniform": "N: independent uniform digits",
+      "numeric_markov": "N: probability0.65repeat digit,0.20successor modulo10,0.15uniform digit",
+      "numeric_shuffled_modules": "N: same module identities and assembly as copied English, but each module's letter order shuffled once before encoding; preserves per-module histograms and repeat structure, removes supplied ordered plaintext",
+      "mixed": "M: alternate complete prose ciphertext and numericMarkov documents; no fitted source labels supplied",
+      "text_permutation_challenge": "T: same natural prose but a non-affine arbitrary permutation of26letter symbols; outside textual search family",
+      "copied_permutation_challenge": "T: same copied English through that arbitrary permutation; outside textual search family"
+    },
+    "no_outcome_filtering": true
+  },
+  "gate": {
+    "minimum_correct_per_profile": 27,
+    "primary_rule": "total_winner",
+    "secondary_rule": "predictive_winner",
+    "general_application": "Require27/30correct for EACH of8profiles separately for the relevant rule; no pooling successes across profiles or authors. Report six in-family profiles separately. Even passing does not authenticate game authorship or qualify untested cipher families.",
+    "failed_gate_action": "Do not apply T/N/Morigin labels or compare game model costs as origin evidence. Perform corpus/source copy audit only, preserve inconclusive mission state. No threshold retuning or additional family search in this round."
+  },
+  "dependence_audit": "Report exact12and24digit window overlap for every synthetic train/held pair. For exposed real corpus, reproduce12digit book connected components and first50/last20coverage, and all occurrences of priority-source groups length>=12inbooks. Do not turn connected copies into independent evidence or select a new split to improve a result.",
+  "translation_rule": "No candidate plaintext from a compressor win. A real translation still needs one fixed decoder, coherent unseen English, dependency audit and external attestation. No authenticated original game generator is available.",
+  "runtime_rule": "Complete finite searches; stop and report any incomplete fits rather than truncate or change the gate. No target-origin search if gate fails."
+}

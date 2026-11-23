@@ -1,0 +1,8 @@
+{
+  "selected_model_documents_checked": 16800,
+  "model_document_lengths_checked": 50400,
+  "max_absolute_bit_difference": 1.8189894035458565e-12,
+  "all_within_tolerance": true,
+  "tolerance_bits": 1e-08,
+  "method": "Independent scalar probabilities and forward DP vs vectorized backward DP. Verifies selected codes/headers, not all fitted choices or semantic origin."
+}

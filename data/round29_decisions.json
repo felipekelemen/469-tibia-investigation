@@ -1,0 +1,35 @@
+{
+  "round": 29,
+  "mission_outcome": "I_inconclusive",
+  "translation_validated": false,
+  "new_game_candidates": [],
+  "original_nontextual_generator_authenticated": false,
+  "decisions": [
+    {
+      "id": "H113",
+      "hypothesis": "Menor descrição total entre os modelos T/N/M identifica o processo textual, numérico ou misto",
+      "status": "not_qualified_counterexamples_in_known_text_and_mixed_controls",
+      "evidence": "240 corpora, 30 janelas de dois autores emparelhadas em oito perfis. N vence todos por custo total, inclusive 60 controles textuais afins com chave verdadeira recuperada e 30 mistos. Modelo inglês custa 7.998 bits e não amortiza o cabeçalho nas amostras. Não permite inferir ausência de texto em469.",
+      "artifact": "results/round29_qualification.json"
+    },
+    {
+      "id": "H114",
+      "hypothesis": "Melhor previsão dos dados reservados distingue os processos declarados mesmo quando o custo total falha",
+      "status": "not_qualified_structural_controls_and_out_of_family_ciphers_fail",
+      "evidence": "30/30 nos textos afins comuns e copiados, uniformes, Markov e mistos. Só2/30 no perfil de módulos embaralhados;0/30 no texto com permutação não afim e8/30 nas suas cópias. O perfil embaralhado preserva composição inglesa: rótuloN é controle estrutural, não prova de inexistência de informação textual. Gate27/30 por perfil falha; nenhuma classificação de origem aplicada ao jogo.",
+      "artifact": "results/round29_summary.json"
+    },
+    {
+      "id": "H115",
+      "hypothesis": "Separar os primeiros50e últimos20livros fornece uma avaliação semanticamente independente",
+      "status": "independence_not_supported_by_copy_audit",
+      "evidence": "Os70livros estão conectados por igualdades de12dígitos. No reservado,3394/3489dígitos cobertos por igualdades de12e3304/3489por24. Chayenne repete11e9vezes. Janelas curtas também se repetem em prosa/Markov sintéticos; igualdade não identifica a causa autoral. Nenhum plaintext independente novo.",
+      "artifact": "results/round29_corpus_audit.json"
+    }
+  ],
+  "game_origin_scoring": "not_performed_gate_failed",
+  "protocol_interpretation_note": "27/30 gate was applied to each paired-author profile as implemented before fitting. Wording about not pooling authors is ambiguous: only15cases perauthor exist. Separate author counts are published; no perauthor qualification claimed. Both authors exhibit the decisive failures.",
+  "control_interpretation": "Shuffled modules are a declared structural negative retaining English composition and provenance, not a universal proof that no textual information remains.",
+  "matrix_and_name_policy": "No new evidence or searches for3478/BEHOLDER/BONELORDorHellgate matrices; retain rounds25,26,28scoped decisions.",
+  "reopening": "New specified model/cost convention and fresh controlled data, not retuning these exposed results. Generator preference never authenticates original Tibia authorship."
+}

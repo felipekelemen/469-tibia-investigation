@@ -1,0 +1,26 @@
+{
+  "stage": "Frozen before qualification and real corpus audit; toy unit tests already run. No model selection on qualification outcomes.",
+  "basis": "22b4d09c3fbd0e4827beed8055fe672c1194cee4",
+  "sha256": {
+    "data/benchmark_reference/pride_prejudice.txt": "3f6bb9d6f78e0293b56acd4714dd68cb7d6d1d293402031ce9d5a216bcaf9d75",
+    "data/english_reference/alice.txt": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+    "data/normalized_books.json": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+    "data/round29_english_model.json": "8243e63b2867687851b6b0b0f0f45cea721c91aa91636ef88ad67d71248dbef5",
+    "data/round29_fixtures.json": "23910d5d791482cb697c53d8fd6a16a5554fa5c07c5139f9015e153e5ac90752",
+    "data/round29_protocol.json": "dd12e428e881df049e192e71e877926bcd51e5ada82ac5188d309987eff06c93",
+    "data/round29_reference/SOURCES.json": "2ceab76eccd74036b09bbc6656a0a25b7e6a62579014fdf6779e6c0c07fd30fa",
+    "data/round29_reference/north_south.txt": "0eeef1601e32c53fb1c729caf6d5314747b8f14b72eed8cbb3bb9ed8de405fef",
+    "data/round29_reference/silas_marner.txt": "46b39559666acdce85bfbea4d98df3b3db0e044bcbacd22f4a55ba86be76a189",
+    "data/source_validation_inventory.json": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+    "scripts/generative_comparison.py": "41fb5d3361b39c3ed14929f8b326954b4bac1cfecebda1d90f83142bba355266",
+    "scripts/round28_experiment.py": "0c7b3a5a63c9f037250da60190601e69991eb6a539e342b5b4c6c97cba352a51",
+    "scripts/round28_radix.py": "7159db28081014fed98119b8425e0f57e492c421477ea5ac43c6898dce7a580c",
+    "scripts/round29_certificates.py": "eb6f65758e3b58cdd6afa87dce4c5c4338a6f39533d7333fc8008bbe1cbb726b",
+    "scripts/round29_corpus_audit.py": "698e8e8ffb44db130ec8b190b74cca8f687b56b3cc15f62f155947af4e7c2cca",
+    "scripts/round29_experiment.py": "b724ba82e9bd3e51fb1e21c626f4fb5f82153e3d5b0f7e6a5b67eaa4bb52fd72",
+    "scripts/round29_fixtures.py": "60426768f5441aa1c6ff03b9616dc4083b0f3201c08bdf112cd97bb92bfbf228",
+    "scripts/round29_models.py": "e96bc75c4e34a1b0ae0a7ff4d3d637533fd7688a447edec16c3c56e5f8fafdb9",
+    "scripts/unit_morphism_lexicon.py": "4e1bc4aef71d2b8d6146f00fe2f917d0934743ebb2e79ada737a2ce53c113e9d",
+    "tests/test_round29_models.py": "8f3d199acf81ca14f98d1cbacbb0d9531c3a72acd87a7eef5c13942a81901f72"
+  }
+}

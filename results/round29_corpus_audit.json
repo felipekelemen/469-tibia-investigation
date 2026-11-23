@@ -1,0 +1,200 @@
+{
+  "round": 29,
+  "semantic_translation_validated": false,
+  "source_windows_verified": 30,
+  "nonoverlapping_source_positions": true,
+  "paired_profiles_per_window": 8,
+  "book_components_raw12": [
+    [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "60",
+      "61",
+      "62",
+      "63",
+      "64",
+      "65",
+      "66",
+      "67",
+      "68",
+      "69"
+    ]
+  ],
+  "independent_book_component_holdout_possible": false,
+  "exposed_first50_last20_overlap": [
+    {
+      "k": 12,
+      "held_windows": 3269,
+      "exact_window_hits": 2968,
+      "held_digits_covered": 3394,
+      "held_digits": 3489
+    },
+    {
+      "k": 24,
+      "held_windows": 3029,
+      "exact_window_hits": 2510,
+      "held_digits_covered": 3304,
+      "held_digits": 3489
+    }
+  ],
+  "priority_groups_at_least12_digits": [
+    {
+      "source": "chayenne_2009",
+      "digits": "114514519485611451908304576512282177",
+      "occurrences": [
+        {
+          "book": "1",
+          "offset": 16
+        },
+        {
+          "book": "8",
+          "offset": 6
+        },
+        {
+          "book": "10",
+          "offset": 165
+        },
+        {
+          "book": "19",
+          "offset": 48
+        },
+        {
+          "book": "27",
+          "offset": 13
+        },
+        {
+          "book": "31",
+          "offset": 143
+        },
+        {
+          "book": "35",
+          "offset": 172
+        },
+        {
+          "book": "37",
+          "offset": 55
+        },
+        {
+          "book": "41",
+          "offset": 72
+        },
+        {
+          "book": "63",
+          "offset": 53
+        },
+        {
+          "book": "66",
+          "offset": 165
+        }
+      ]
+    },
+    {
+      "source": "chayenne_2009",
+      "digits": "6612527570584",
+      "occurrences": [
+        {
+          "book": "2",
+          "offset": 111
+        },
+        {
+          "book": "5",
+          "offset": 72
+        },
+        {
+          "book": "9",
+          "offset": 70
+        },
+        {
+          "book": "22",
+          "offset": 73
+        },
+        {
+          "book": "28",
+          "offset": 21
+        },
+        {
+          "book": "46",
+          "offset": 207
+        },
+        {
+          "book": "48",
+          "offset": 44
+        },
+        {
+          "book": "51",
+          "offset": 217
+        },
+        {
+          "book": "53",
+          "offset": 188
+        }
+      ]
+    }
+  ],
+  "qualification": {
+    "total": false,
+    "predictive": false
+  },
+  "game_origin_model_scoring": "not_performed_gate_failed",
+  "game_origin_label": null,
+  "original_nontextual_generator_authenticated": false,
+  "limit": "All game data already exposed. Connected copies do not establish semantic plaintext or independent validation."
+}

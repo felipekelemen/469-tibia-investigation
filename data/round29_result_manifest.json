@@ -1,0 +1,29 @@
+{
+  "stage": "Final publication integrity manifest after completed experiments, full replay, verification and documentation; not preregistration",
+  "sha256": {
+    "data/plan_progress_round29.json": "5d45ed9bdb38ef7c5cf28bfa0bd7a604dd9bb9b5e7b4117405c4060de46945ac",
+    "data/round29_decisions.json": "8e999d8039bb5b9c0666d65f492130bca18af8f3812525feedec6ffa3c35a2e0",
+    "data/round29_english_model.json": "8243e63b2867687851b6b0b0f0f45cea721c91aa91636ef88ad67d71248dbef5",
+    "data/round29_experiment_manifest.json": "937aa480ec1abcfc5a43dc5345a167b8a294f24389332d9a51130633a48631f4",
+    "data/round29_fixtures.json": "23910d5d791482cb697c53d8fd6a16a5554fa5c07c5139f9015e153e5ac90752",
+    "data/round29_protocol.json": "dd12e428e881df049e192e71e877926bcd51e5ada82ac5188d309987eff06c93",
+    "data/round29_reference/SOURCES.json": "2ceab76eccd74036b09bbc6656a0a25b7e6a62579014fdf6779e6c0c07fd30fa",
+    "data/round29_reference/north_south.txt": "0eeef1601e32c53fb1c729caf6d5314747b8f14b72eed8cbb3bb9ed8de405fef",
+    "data/round29_reference/silas_marner.txt": "46b39559666acdce85bfbea4d98df3b3db0e044bcbacd22f4a55ba86be76a189",
+    "docs/round29.md": "55ed0600200e8e61c41f47670c21cf993c05b900a1d559e9527896c392691d6e",
+    "results/round29_certificates.json": "4232da7d49bb03e9a7628ea67988ee6913d83939d9c98315e67d33b8c778eb4a",
+    "results/round29_corpus_audit.json": "6fc9c9b1aab550cd0e06a8158a95ad29d4dc0b836854cb498813eff0465f6005",
+    "results/round29_qualification.json": "76f633fa45d3f392f550ae7eb31b9ac7d7fc449f28d9ce72e9ad2b57a2e23756",
+    "results/round29_summary.json": "870bafb85c41242e8257cc56927a7c0b38c8a264449d036194e768ff17c98216",
+    "results/round29_verification.json": "2433bf28877b8646baf14f99c0c04f37923680e903160eb2164c168caa3a5b96",
+    "scripts/round29_certificates.py": "eb6f65758e3b58cdd6afa87dce4c5c4338a6f39533d7333fc8008bbe1cbb726b",
+    "scripts/round29_corpus_audit.py": "698e8e8ffb44db130ec8b190b74cca8f687b56b3cc15f62f155947af4e7c2cca",
+    "scripts/round29_experiment.py": "b724ba82e9bd3e51fb1e21c626f4fb5f82153e3d5b0f7e6a5b67eaa4bb52fd72",
+    "scripts/round29_fixtures.py": "60426768f5441aa1c6ff03b9616dc4083b0f3201c08bdf112cd97bb92bfbf228",
+    "scripts/round29_models.py": "e96bc75c4e34a1b0ae0a7ff4d3d637533fd7688a447edec16c3c56e5f8fafdb9",
+    "scripts/round29_summary.py": "667681b9496bbc1f60fbe9bb01b6ca395fbed71e64e367121300d64494add7e3",
+    "scripts/run_round29.py": "23c27a623eabbe3d353c61e268c36e6b42e3f3471a1f6d7e6b273d5eebb8f9fe",
+    "tests/test_round29_artifacts.py": "142b4fc6d9d2b113033df4523cfb1934db511d64ce7a87167fa89b1bc5730561",
+    "tests/test_round29_models.py": "8f3d199acf81ca14f98d1cbacbb0d9531c3a72acd87a7eef5c13942a81901f72"
+  }
+}
