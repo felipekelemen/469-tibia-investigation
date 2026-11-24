@@ -1,0 +1,215 @@
+{
+  "rounds": [
+    {
+      "round": 1,
+      "report": "docs/report.md",
+      "result_summary": "70 livros, 11.263 dígitos; camada de 5.729 códigos reproduzida com mapa/segmentação importados. Reutilização conecta todos os livros no critério de 12 dígitos. Cifras clássicas e cribs matriciais sem inglês validado.",
+      "decision_or_limit": "O corpus está disponível; a segmentação não está descoberta. Não contar 70 livros como 70 observações independentes.",
+      "origin": "Prior frozen review, not a new execution"
+    },
+    {
+      "round": 2,
+      "report": "docs/round2.md",
+      "result_summary": "Hill29, canal residual e 53 funções da tabela/matrizes sem tradução. Um controle homofônico recuperou somente 42,6% das letras.",
+      "decision_or_limit": "Falha de otimização não refuta homofonia. Separar previsão de variantes de significado.",
+      "origin": "Prior frozen review, not a new execution"
+    },
+    {
+      "round": 3,
+      "report": "docs/round3.md",
+      "result_summary": "Inventário de 16 amostras; nenhum novo par completo oficial número/inglês. Solucionador falhou em um dos seis cenários; 192 leituras matriciais sem tradução.",
+      "decision_or_limit": "Registrar modalidade e dependência por fonte; qualificar cada família antes de interpretar seus resultados.",
+      "origin": "Prior frozen review, not a new execution"
+    },
+    {
+      "round": 4,
+      "report": "docs/round4.md",
+      "result_summary": "Busca V2 qualificada em prosa comum; sinal não resistiu a controles estruturados. Prosa cifrada copiada ainda causou falhas.",
+      "decision_or_limit": "Positivos com cópia são necessários; embaralhamento simples é insuficiente.",
+      "origin": "Prior frozen review, not a new execution"
+    },
+    {
+      "round": 5,
+      "report": "docs/round5.md",
+      "result_summary": "V4 qualificada no cenário delimitado; sinal de tetragramas superou três nulos, sem inglês coerente.",
+      "decision_or_limit": "Uma pontuação significativa não é uma tradução. Não repetir busca pelo mesmo escore como se fosse nova confirmação.",
+      "origin": "Prior frozen review, not a new execution"
+    },
+    {
+      "round": 6,
+      "report": "docs/round6.md",
+      "result_summary": "Revisão das 70 saídas não encontrou candidata longa. Avaliador lexical e controle modular não qualificaram para os usos propostos. Dependência da tokenização importada explicitada.",
+      "decision_or_limit": "Priorizar leitura literal, fronteiras e potência do avaliador; não selecionar parses pelo inglês desejado.",
+      "origin": "Prior frozen review, not a new execution"
+    },
+    {
+      "round": 7,
+      "report": "docs/round7.md",
+      "result_summary": "Dois parsers falharam globalmente mesmo recebendo chave correta; melhoras parciais preservadas.",
+      "decision_or_limit": "Recuperação da chave e recuperação da segmentação são tarefas distintas.",
+      "origin": "Prior frozen review, not a new execution"
+    },
+    {
+      "round": 8,
+      "report": "docs/round8.md",
+      "result_summary": "15 regras de zeros: 13 contraditórias na tokenização importada; duas sem identificação dos eventos reservados.",
+      "decision_or_limit": "Fechar as regras refutadas nesse escopo; não concluir sobre toda serialização possível.",
+      "origin": "Prior frozen review, not a new execution"
+    },
+    {
+      "round": 9,
+      "report": "docs/round9.md",
+      "result_summary": "18 regras adicionais de zeros incompatíveis. `book_positions.json` representa offsets textuais, não posições do mapa; gravação histórica não foi visualizada.",
+      "decision_or_limit": "Excluir coordenadas fictícias como sementes; indisponibilidade de vídeo não demonstra ausência de evento.",
+      "origin": "Prior frozen review, not a new execution"
+    },
+    {
+      "round": 10,
+      "report": "docs/round10.md",
+      "result_summary": "Kharos acrescenta 137 dígitos externos ao conjunto de 70, mas já públicos. Parser qualificado em seus positivos não transferiu os códigos importados.",
+      "decision_or_limit": "Kharos é teste de transferência exposto, não reserva semântica cega.",
+      "origin": "Prior frozen review, not a new execution"
+    },
+    {
+      "round": 11,
+      "report": "docs/round11.md",
+      "result_summary": "Dois codecs de cópia comparados; pequena vantagem condicional de nove bits não autentica a tokenização nem a intenção do autor.",
+      "decision_or_limit": "Cobrar endereços, cortes, dicionários e exceções; compressão não decide significado sozinha.",
+      "origin": "Prior frozen review, not a new execution"
+    },
+    {
+      "round": 12,
+      "report": "docs/round12.md",
+      "result_summary": "Kharos e ID22 têm o mesmo histograma de dígitos; conservação exata dos códigos importados foi rejeitada por dois algoritmos.",
+      "decision_or_limit": "Há relação numérica verificável, sem gloss inglês. Não confundir anagramas de dígitos com mesma mensagem.",
+      "origin": "Prior frozen review, not a new execution"
+    },
+    {
+      "round": 13,
+      "report": "docs/round13.md",
+      "result_summary": "Transposição colunar pura de 2–32 colunas, nas regras publicadas, não transforma ID22 em Kharos.",
+      "decision_or_limit": "Família encerrada para esse par; outras composições exigem uma pista nova e uma regra especificada.",
+      "origin": "Prior frozen review, not a new execution"
+    },
+    {
+      "round": 14,
+      "report": "docs/round14.md",
+      "result_summary": "Tabela antiga atestada em arquivo de 2008. Relatos atribuídos a 2009/abril de 2010 enfraquecem coincidência com a renomeação de agosto de 2010; contagens completas e data da mudança continuam não autenticadas.",
+      "decision_or_limit": "Separar história da criatura, aparência da sala e quantidades das pilhas. Não afirmar sincronismo.",
+      "origin": "Prior frozen review, not a new execution"
+    },
+    {
+      "round": 15,
+      "report": "docs/round15.md",
+      "result_summary": "1.860 configurações 3×3/4×4/5×5 e 150 positivos; nenhuma tradução. Sem 25 contagens físicas autenticadas. Crib de dígrafos 3478→nome produz previsões sem validação.",
+      "decision_or_limit": "Encerrar as construções enumeradas; não completar bordas de 5×5 para obter inglês.",
+      "origin": "Prior frozen review, not a new execution"
+    },
+    {
+      "round": 16,
+      "report": "docs/round16.md",
+      "result_summary": "Dicionário de 45 grupos numéricos não segmenta nenhum livro inteiro; certas cópias de gritos terminam dentro de códigos importados.",
+      "decision_or_limit": "Cópia literal não fornece fronteiras de unidades nem prova um sistema universal de palavras.",
+      "origin": "Prior frozen review, not a new execution"
+    },
+    {
+      "round": 17,
+      "report": "docs/round17.md",
+      "result_summary": "Aprendizado com vocabulário oculto não qualificou. Dicionários distintos podem explicar os mesmos dados com mesmo custo.",
+      "decision_or_limit": "Reduzir ambiguidade com observações novas; não promover compressão/BPE a decodificador de inglês.",
+      "origin": "Prior frozen review, not a new execution"
+    },
+    {
+      "round": 18,
+      "report": "docs/round18.md",
+      "result_summary": "Novos contextos reduzem ambiguidade em família fornecida; mais cópias dos mesmos pares não. 750 ajustes combinatórios sem semântica.",
+      "decision_or_limit": "Procurar combinações e restrições novas, não apenas ampliar quantidade de texto repetido.",
+      "origin": "Prior frozen review, not a new execution"
+    },
+    {
+      "round": 19,
+      "report": "docs/round19.md",
+      "result_summary": "Seis projeções diretas de tabela pública não explicam 737→469. Corte 36+13 de Chayenne reproduzido mecanicamente, sem inglês.",
+      "decision_or_limit": "A foto não fornece uma chave validada; as duas partes da entrevista continuam conteúdo reutilizado dos livros.",
+      "origin": "Prior frozen review, not a new execution"
+    },
+    {
+      "round": 20,
+      "report": "docs/round20.md",
+      "result_summary": "Sete codecs decimais com permutação fixa dos dígitos, léxico de 7.713 palavras, sem chave nos três alvos prioritários.",
+      "decision_or_limit": "Encerrar essa busca no léxico e enquadramentos testados; não confundir ausência de palavra no léxico com impossibilidade de língua.",
+      "origin": "Prior frozen review, not a new execution"
+    },
+    {
+      "round": 21,
+      "report": "docs/round21.md",
+      "result_summary": "96 configurações periódicas/com feedback: Avar e Knightmare sem chave; 12 casos de Chayenne limitados.",
+      "decision_or_limit": "Manter falhas de orçamento separadas das rejeições. A chave periódica 3478 já está incluída na família de período quatro.",
+      "origin": "Prior frozen review, not a new execution"
+    },
+    {
+      "round": 22,
+      "report": "docs/round22.md",
+      "result_summary": "Os 12 casos pendentes de Chayenne foram concluídos, sem chave compartilhada; 360 positivos preservaram as chaves verdadeiras, muitos com ambiguidades lexicais.",
+      "decision_or_limit": "A pendência da rodada 21 está fechada. Não aumentar períodos indefinidamente sem pista nova.",
+      "origin": "Prior frozen review, not a new execution"
+    },
+    {
+      "round": 23,
+      "report": "docs/round23.md",
+      "result_summary": "Quatro regras de unidades por dígito; 11/12 ajustes principais completos sem chave e um limitado com 1.769 chaves lexicais. Seis cribs de nomes sem chave; 40/40 buscas sintéticas limitadas.",
+      "decision_or_limit": "Não promover o solver a tradutor; manter o caso de Knightmare inconclusivo. Dígito 2 ausente impede transferência completa para Chayenne.",
+      "origin": "Prior frozen review, not a new execution"
+    },
+    {
+      "round": 24,
+      "report": "docs/round24.md",
+      "result_summary": "Fontes públicas e tabelas de frases auditadas; três saídas comunitárias reproduzidas sem semântica independente.",
+      "decision_or_limit": "Nenhum novo par completo atestado; retirar a fonte do ajuste inviabiliza os três parses da tabela.",
+      "origin": "Round report and results"
+    },
+    {
+      "round": 25,
+      "report": "docs/round25.md",
+      "result_summary": "3478 documentado como nome da criatura em revisões da wiki de 2012/2023; controles estruturais ampliados.",
+      "decision_or_limit": "Nome contextual não equivale a grafia inglesa, ID interno, chave ou data de renomeação no jogo.",
+      "origin": "Round report and results"
+    },
+    {
+      "round": 26,
+      "report": "docs/round26.md",
+      "result_summary": "Matrizes 3×3/4×4/5×5 adjudicadas; condições algébricas para troca de chave de Hill testadas.",
+      "decision_or_limit": "Faltam contagens completas datadas e livros históricos pareados; expansão arbitrária suspensa.",
+      "origin": "Round report and results"
+    },
+    {
+      "round": 27,
+      "report": "docs/round27.md",
+      "result_summary": "120 ajustes sintéticos e 30 comparações com o solver anterior; quatro cenários abaixo do limiar.",
+      "decision_or_limit": "Modelo de dígitos para unidades de 1–3 letras não qualificado nesses cenários; ambiguidades de fronteiras preservadas.",
+      "origin": "Round report and results"
+    },
+    {
+      "round": 28,
+      "report": "docs/round28.md",
+      "result_summary": "1.872 configurações de inteiros/bases por fonte; nenhum ajuste lexical integral ou nos prefixos declarados.",
+      "decision_or_limit": "7.488 casos reais conferidos independentemente; recuperação sintética em 532/540 casos não valida um decoder do jogo.",
+      "origin": "Round report and results"
+    },
+    {
+      "round": 29,
+      "report": "docs/round29.md",
+      "result_summary": "240 controles textuais/numéricos/mistos ajustados e reproduzidos; ambas as regras de comparação falharam.",
+      "decision_or_limit": "Nenhuma classificação de origem aplicada ao jogo. Modelo numérico menor também descreve inglês cifrado conhecido.",
+      "origin": "Round report and results"
+    },
+    {
+      "round": 30,
+      "report": "docs/round30.md",
+      "result_summary": "Auditoria de integridade, reconstrução dos arquivos originais e reprodução em snapshot limpo.",
+      "decision_or_limit": "Fechamento inconclusivo do lote; nenhuma tradução validada ou geração original sem texto autenticada.",
+      "origin": "Round report and results"
+    }
+  ],
+  "scope": "One synopsis perround; not a statement that every hypothesis inside a round has the same status. R21pendingcasesclosedbyR22; R23Knightmare limitedfit remains unresolved."
+}

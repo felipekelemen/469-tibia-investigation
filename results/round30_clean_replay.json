@@ -1,0 +1,140 @@
+{
+  "input_commit": "eabfc706df1b98a5b2444fcffd5517c378df035f",
+  "snapshot_path": "/tmp/469-round30-tlrtsru9/snapshot",
+  "archive_sha256": "6db981742eef8a5a25b568f6d134b29efd05ac13568f17bd4e37041f810f657d",
+  "python": "3.12.14",
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "tracked_snapshot_files": 759,
+  "changed_or_removed_snapshot_files": [],
+  "created_snapshot_files": [],
+  "all_commands_passed": true,
+  "jobs": [
+    {
+      "id": "baseline_tests",
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "scope": "Software tests including new closure checks; report actual count",
+      "exit_code": 0,
+      "timed_out": false,
+      "seconds": 15.67,
+      "log_path": "results/round30_replay/baseline_tests.log",
+      "log_sha256": "55e93c99968a281859f2530b3b078d77aa5c92b8224f57f59922bae5e2919749",
+      "fresh_runtime_files": {
+        "469-periodic-a937e320740040c533e2": "066920572c4a64b531ef4823043ec28a58b98bf903f757ba49db98c552266667",
+        "tibia469-solver-f8db9a142d180aa02903.so": "c628a9eca14673fa6dd83d9bb1e90965a0d84365be77ca922c054d99a9fb903d"
+      }
+    },
+    {
+      "id": "round22",
+      "command": [
+        "python3",
+        "scripts/run_round22.py"
+      ],
+      "scope": "Recompile and repeat828finite-key fits closing Chayenne pending cases",
+      "exit_code": 0,
+      "timed_out": false,
+      "seconds": 35.427,
+      "log_path": "results/round30_replay/round22.log",
+      "log_sha256": "a2cab7110e0fe8360cf4b4a3649c538fc1dcbe6beac3629f7d57d464c68d2a90",
+      "fresh_runtime_files": {
+        "469-periodic-a937e320740040c533e2": "066920572c4a64b531ef4823043ec28a58b98bf903f757ba49db98c552266667"
+      }
+    },
+    {
+      "id": "round23_certificates",
+      "command": [
+        "python3",
+        "scripts/round23_certificate_audit.py",
+        "--check"
+      ],
+      "scope": "Independent local/fixed constraints and returned-key checks only; NOT full bounded search",
+      "exit_code": 0,
+      "timed_out": false,
+      "seconds": 5.781,
+      "log_path": "results/round30_replay/round23_certificates.log",
+      "log_sha256": "71fb6dae856529e27d505e99a17c2c8d2227e41458dc533e3a0062b20476d34d",
+      "fresh_runtime_files": {}
+    },
+    {
+      "id": "round24",
+      "command": [
+        "python3",
+        "scripts/run_round24.py"
+      ],
+      "scope": "Offline structural/claim reproductions; not a new web-source capture",
+      "exit_code": 0,
+      "timed_out": false,
+      "seconds": 10.043,
+      "log_path": "results/round30_replay/round24.log",
+      "log_sha256": "7f9eda1eb5d168fcc9be4ede51f2b56343515a95de3feef8df2709302d73b9c5",
+      "fresh_runtime_files": {}
+    },
+    {
+      "id": "round25",
+      "command": [
+        "python3",
+        "scripts/run_round25.py"
+      ],
+      "scope": "Finite structural null experiment and metadata hashes; not live revision retrieval",
+      "exit_code": 0,
+      "timed_out": false,
+      "seconds": 13.31,
+      "log_path": "results/round30_replay/round25.log",
+      "log_sha256": "c4dfaab8f947185a16aca699377afc4d7739a696172e2d253b50b61880afa89e",
+      "fresh_runtime_files": {}
+    },
+    {
+      "id": "round26",
+      "command": [
+        "python3",
+        "scripts/run_round26.py"
+      ],
+      "scope": "Matrix consistency and synthetic checks; HTTP source bodies may be unavailable in public snapshot",
+      "exit_code": 0,
+      "timed_out": false,
+      "seconds": 0.415,
+      "log_path": "results/round30_replay/round26.log",
+      "log_sha256": "dccc6dcac68ce76cd0811b074bf20f10e4a6da34f1e5ee3197cb2a6cd2d93636",
+      "fresh_runtime_files": {}
+    },
+    {
+      "id": "round28_full",
+      "command": [
+        "python3",
+        "scripts/run_round28.py",
+        "--full"
+      ],
+      "scope": "All540positive fits,396joint nulls and real-key certificates",
+      "exit_code": 0,
+      "timed_out": false,
+      "seconds": 19.084,
+      "log_path": "results/round30_replay/round28_full.log",
+      "log_sha256": "deac39355589ebc850cf108982f0ae65e84cc0926348d60c1fb88dad13f451bf",
+      "fresh_runtime_files": {}
+    },
+    {
+      "id": "round29_full",
+      "command": [
+        "python3",
+        "scripts/run_round29.py",
+        "--full"
+      ],
+      "scope": "All240corpora and50400selected-code lengths",
+      "exit_code": 0,
+      "timed_out": false,
+      "seconds": 22.427,
+      "log_path": "results/round30_replay/round29_full.log",
+      "log_sha256": "d3c5e9a30d54b8ef3fb6dc90f50ab88b4a0d9e5d786941773f53a0313645db7f",
+      "fresh_runtime_files": {}
+    }
+  ],
+  "scope": "Same-environment internal replay from a fresh committed archive; no third-party replication or claim that all29rounds were recomputed.",
+  "omitted_original_http_bodies": "Ignored HTML/source captures are not included; inspect round26log for explicit metadata-only source verification."
+}

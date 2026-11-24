@@ -1,0 +1,30 @@
+{
+  "plan": "docs/mission_plan_v2.md",
+  "completed_through_round": 30,
+  "completed_this_execution": [
+    30
+  ],
+  "remaining_planned_rounds": [],
+  "batch_completed": true,
+  "translation_mission_closed": false,
+  "mission_outcome": "I_inconclusive",
+  "translation_validated": false,
+  "original_nontextual_generator_authenticated": false,
+  "latest_report": "docs/round30.md",
+  "round_ledger": "docs/rounds_01_30_review.md",
+  "remaining_scientific_gap": "No validated decoder and no authenticated original nontext production process. Completion refers to planned experiment batch, not solution of the mission.",
+  "unfinished_prior_main_fit": {
+    "source": "Knightmare",
+    "round": 23,
+    "family": "grapheme1_3",
+    "returned_lexical_keys": 1769,
+    "status": "bounded_not_exhaustive"
+  },
+  "next_discriminating_inputs": [
+    "Independent authoritative number/plaintext pairs with frozen discovery/validation roles",
+    "Attributable original production method tied to source/version",
+    "Complete versioned skull measurements and paired historical names/books",
+    "A distinct qualified method or additional constraints for bounded searches"
+  ],
+  "reopening_rule": "New evidence, a reproducible implementation defect or a distinct falsifiable model; no repeated uncontrolled searches or invented lore repairs."
+}

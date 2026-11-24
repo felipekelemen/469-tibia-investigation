@@ -1,0 +1,8 @@
+{
+  "stage": "Evidence judgments and decision rule fixed after historical inspection, before computing final T/G/I disposition; not blinded science",
+  "sha256": {
+    "data/round30_evidence_catalog.json": "e9c1f14f0ac272ade0876374526aa6b24c70285ca2660f442320729cd4e796fa",
+    "scripts/round30_adjudicate.py": "1ba55defbdb5408ad95569a09eec17457a1b674760848a31cc32442dd39b4fc0",
+    "tests/test_round30_adjudication.py": "437283b55c15841aa136ad29a3f2aec7e8d533b600c1d678660f6e1514a0008f"
+  }
+}

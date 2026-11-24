@@ -1,0 +1,218 @@
+{
+  "scope": "Closure of existing candidate families, not a new web search or new plaintext proposal.",
+  "translation_requirements": [
+    "fixed_reproducible_rule",
+    "full_coherent_literal",
+    "independent_novel_prediction",
+    "external_semantic_attestation",
+    "independent_implementation"
+  ],
+  "candidate_families": [
+    {
+      "id": "community_evil_eye_shout",
+      "source": "evil_eye_shout",
+      "input_literal": "653768764!",
+      "literal_outputs": [
+        "look at you"
+      ],
+      "status": "previously_reproduced_community_gloss_not_validated_translation",
+      "requirements": {
+        "fixed_reproducible_rule": "met",
+        "full_coherent_literal": "met",
+        "independent_novel_prediction": "not_established",
+        "external_semantic_attestation": "not_established",
+        "independent_implementation": "met"
+      },
+      "evidence": [
+        "data/round24_reference/phrase_claims.json",
+        "results/round24_claims.json",
+        "scripts/round24_claim_audit.py"
+      ],
+      "limits": "The English labels are supplied by the proposal itself. Leave-source-out numerical parsing finds0solutions; no independent English attestation."
+    },
+    {
+      "id": "community_elder_bonelord_phrase",
+      "source": "elder_bonelord_phrase",
+      "input_literal": "659978 54764!",
+      "literal_outputs": [
+        "let me see you"
+      ],
+      "status": "previously_reproduced_community_gloss_not_validated_translation",
+      "requirements": {
+        "fixed_reproducible_rule": "met",
+        "full_coherent_literal": "met",
+        "independent_novel_prediction": "not_established",
+        "external_semantic_attestation": "not_established",
+        "independent_implementation": "met"
+      },
+      "evidence": [
+        "data/round24_reference/phrase_claims.json",
+        "results/round24_claims.json",
+        "scripts/round24_claim_audit.py"
+      ],
+      "limits": "The English labels are supplied by the proposal itself. Leave-source-out numerical parsing finds0solutions; no independent English attestation."
+    },
+    {
+      "id": "community_knightmare_2012",
+      "source": "knightmare_2012",
+      "input_literal": "3478 67 90871 97664 3466 0 345!",
+      "literal_outputs": [
+        "be a wit than be a fool"
+      ],
+      "status": "previously_reproduced_community_gloss_not_validated_translation",
+      "requirements": {
+        "fixed_reproducible_rule": "met",
+        "full_coherent_literal": "not_established",
+        "independent_novel_prediction": "not_established",
+        "external_semantic_attestation": "not_established",
+        "independent_implementation": "met"
+      },
+      "evidence": [
+        "data/round24_reference/phrase_claims.json",
+        "results/round24_claims.json",
+        "scripts/round24_claim_audit.py"
+      ],
+      "limits": "The English labels are supplied by the proposal itself. Leave-source-out numerical parsing finds0solutions; no independent English attestation."
+    },
+    {
+      "id": "v4_book_literals",
+      "status": "prior_catalogue_not_validated_translation",
+      "requirements": {
+        "fixed_reproducible_rule": "met",
+        "full_coherent_literal": "not_established",
+        "independent_novel_prediction": "not_established",
+        "external_semantic_attestation": "not_established",
+        "independent_implementation": "not_established"
+      },
+      "evidence": [
+        "results/literal_candidate_audit.json",
+        "docs/literal_candidate_review.md"
+      ],
+      "limits": "70outputs under one frozen fitted key. BUTIWASandTHESANDare short fragments; full contexts not validated English."
+    },
+    {
+      "id": "mapping_v7_transfer",
+      "status": "prior_catalogue_not_validated_translation",
+      "requirements": {
+        "fixed_reproducible_rule": "met",
+        "full_coherent_literal": "not_established",
+        "independent_novel_prediction": "not_established",
+        "external_semantic_attestation": "not_established",
+        "independent_implementation": "not_established"
+      },
+      "evidence": [
+        "results/claimed_translation.json",
+        "scripts/audit_claimed_translation.py"
+      ],
+      "limits": "Previously published German-like mapping transfer,51unmapped symbols. Public corpus used for fitting; no independent meaning validation."
+    },
+    {
+      "id": "matrix_catalogue",
+      "status": "prior_catalogue_not_validated_translation",
+      "requirements": {
+        "fixed_reproducible_rule": "met",
+        "full_coherent_literal": "not_established",
+        "independent_novel_prediction": "not_established",
+        "external_semantic_attestation": "not_established",
+        "independent_implementation": "not_established"
+      },
+      "evidence": [
+        "data/round15_candidate_catalog.json",
+        "docs/round15.md"
+      ],
+      "limits": "1860recorded matrix configurations; no validated English, unknown physical counts and provisional name cribs."
+    },
+    {
+      "id": "knightmare_grapheme_keys",
+      "status": "prior_catalogue_not_validated_translation",
+      "requirements": {
+        "fixed_reproducible_rule": "met",
+        "full_coherent_literal": "not_established",
+        "independent_novel_prediction": "not_established",
+        "external_semantic_attestation": "not_established",
+        "independent_implementation": "not_established"
+      },
+      "evidence": [
+        "results/round23_targets.json",
+        "results/round23_certificate_audit.json"
+      ],
+      "limits": "1769lexical keys are only a bounded prefix of an incomplete grapheme search. No semantic candidate selected."
+    },
+    {
+      "id": "radix_priority_search",
+      "status": "prior_catalogue_not_validated_translation",
+      "requirements": {
+        "fixed_reproducible_rule": "met",
+        "full_coherent_literal": "not_established",
+        "independent_novel_prediction": "not_established",
+        "external_semantic_attestation": "not_established",
+        "independent_implementation": "not_established"
+      },
+      "evidence": [
+        "results/round28_targets.json",
+        "results/round28_certificates.json"
+      ],
+      "limits": "No full-source lexical candidates in the declared finite family; empty catalogue is not a translation."
+    }
+  ],
+  "nontext_requirements": [
+    "authenticated_original_authorship",
+    "specified_source_and_version",
+    "production_without_textual_input_demonstrated",
+    "reproducible_original_mechanism_or_equivalent_primary_attestation"
+  ],
+  "nontext_claims": [
+    {
+      "id": "compression_as_original_generator",
+      "requirements": {
+        "authenticated_original_authorship": "not_established",
+        "specified_source_and_version": "not_established",
+        "production_without_textual_input_demonstrated": "not_established",
+        "reproducible_original_mechanism_or_equivalent_primary_attestation": "not_established"
+      },
+      "evidence": [
+        "results/round24_claims.json",
+        "results/round29_qualification.json",
+        "docs/round29.md"
+      ],
+      "limits": "New fitted statistical codes do not authenticate original CipSoft production; qualification failed."
+    }
+  ],
+  "priority_sources": [
+    {
+      "id": "avar_tar_poem",
+      "input_literal": "29639 46781! 9063376290 3222011 677 80322429 67538 14805394, 6880326 677 63378129 337011 72683 149630 4378! 453 639 578300 986372 2953639!",
+      "original_url": "https://tibia.fandom.com/wiki/Avar_Tar",
+      "gloss_status": "untranslated",
+      "validated_translation": null
+    },
+    {
+      "id": "knightmare_2012",
+      "input_literal": "3478 67 90871 97664 3466 0 345!",
+      "original_url": "https://tibia.fandom.com/wiki/Knightmare_(NPC)",
+      "gloss_status": "community_gloss_only",
+      "validated_translation": null
+    },
+    {
+      "id": "chayenne_2009_part1",
+      "input_literal": "114514519485611451908304576512282177",
+      "original_url": "https://forum.portaltibia.com.br/topic/11420-entrevista-com-chayenne/",
+      "gloss_status": "untranslated",
+      "validated_translation": null
+    },
+    {
+      "id": "chayenne_2009_part2",
+      "input_literal": "6612527570584",
+      "original_url": "https://forum.portaltibia.com.br/topic/11420-entrevista-com-chayenne/",
+      "gloss_status": "untranslated",
+      "validated_translation": null
+    }
+  ],
+  "historical_decision_sources": [
+    "data/round25_decisions.json",
+    "data/round26_decisions.json",
+    "data/round28_decisions.json"
+  ],
+  "live_web_update_performed": false,
+  "new_semantic_candidates": []
+}

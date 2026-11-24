@@ -1,0 +1,4073 @@
+{
+  "scope": "Baseline path-to-SHA256 manifests only; no live network reauthentication",
+  "manifest_count": 48,
+  "reference_count": 636,
+  "distinct_referenced_paths": 487,
+  "statuses": {
+    "match": 636
+  },
+  "all_current_references_match": true,
+  "other_manifest_schemas": [
+    "data/history_round14_http_manifest.json",
+    "data/research_report_manifest.json",
+    "data/round19_http_manifest.json"
+  ],
+  "manifests": [
+    {
+      "manifest": "data/round10_evidence_manifest.json",
+      "checks": [
+        {
+          "path": "data/copy_parser_protocol.json",
+          "expected": "271e079a59c0ddf5cd6c65896fd6c63813d86b95e38d7c3a8a3d77025a236949",
+          "actual": "271e079a59c0ddf5cd6c65896fd6c63813d86b95e38d7c3a8a3d77025a236949",
+          "status": "match"
+        },
+        {
+          "path": "data/external_book_round10.json",
+          "expected": "9a5deda3b400350304f0346c89a54855129491bbeacb86bc07776b9e12a5cf25",
+          "actual": "9a5deda3b400350304f0346c89a54855129491bbeacb86bc07776b9e12a5cf25",
+          "status": "match"
+        },
+        {
+          "path": "data/external_source_reference/books_sorted_unique_with_kharos.json",
+          "expected": "02c649b315af8a1c61662b96bc003c7007abfcc0957e1f57b6e5d84513f041ea",
+          "actual": "02c649b315af8a1c61662b96bc003c7007abfcc0957e1f57b6e5d84513f041ea",
+          "status": "match"
+        },
+        {
+          "path": "data/kharos_copy_diagnostic_plan.json",
+          "expected": "4630f7cc463fcc2c80c08daaa21b813409f7ba01fa73ac84a8a03d5378ec6b48",
+          "actual": "4630f7cc463fcc2c80c08daaa21b813409f7ba01fa73ac84a8a03d5378ec6b48",
+          "status": "match"
+        },
+        {
+          "path": "data/normalized_books.json",
+          "expected": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+          "actual": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+          "status": "match"
+        },
+        {
+          "path": "data/npc_digit_relation_plan.json",
+          "expected": "e7bf4a4fc6d8646e3a95e899722d14693fa92aa66ea7b8d2232637fc548d7a4a",
+          "actual": "e7bf4a4fc6d8646e3a95e899722d14693fa92aa66ea7b8d2232637fc548d7a4a",
+          "status": "match"
+        },
+        {
+          "path": "data/plan_progress_round10.json",
+          "expected": "a61c53431074a8943d647cdc74d9f6620f5955193c443f820da7ab50634d7d4e",
+          "actual": "a61c53431074a8943d647cdc74d9f6620f5955193c443f820da7ab50634d7d4e",
+          "status": "match"
+        },
+        {
+          "path": "data/source_review_round10.json",
+          "expected": "7bae246bb950a41e9840b7629aee68eee6f4eef26cabe21e2c957c205cc970d9",
+          "actual": "7bae246bb950a41e9840b7629aee68eee6f4eef26cabe21e2c957c205cc970d9",
+          "status": "match"
+        },
+        {
+          "path": "data/source_validation_inventory.json",
+          "expected": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+          "actual": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+          "status": "match"
+        },
+        {
+          "path": "docs/round10.md",
+          "expected": "065c6fb021eb63df574a20b3f7f4ae37d0e40bfa27e6303bb8b0a474142b4fb9",
+          "actual": "065c6fb021eb63df574a20b3f7f4ae37d0e40bfa27e6303bb8b0a474142b4fb9",
+          "status": "match"
+        },
+        {
+          "path": "results/copy_parser_experiment.json",
+          "expected": "8e4984d2604de48d7b9369b0fd7c0a4cf8d06642fdf2af287fdefe19c9cf3b2b",
+          "actual": "8e4984d2604de48d7b9369b0fd7c0a4cf8d06642fdf2af287fdefe19c9cf3b2b",
+          "status": "match"
+        },
+        {
+          "path": "results/kharos_boundary_audit.json",
+          "expected": "6942855104b744b5d938f1e4633c4906d2653190cf4923225e57be142a5ea0ec",
+          "actual": "6942855104b744b5d938f1e4633c4906d2653190cf4923225e57be142a5ea0ec",
+          "status": "match"
+        },
+        {
+          "path": "results/kharos_copy_diagnosis.json",
+          "expected": "a2a274e8d8b15aa3f49b6b9c25680221c912f7a2b81f2b71d1fbf4ebd4ad27c0",
+          "actual": "a2a274e8d8b15aa3f49b6b9c25680221c912f7a2b81f2b71d1fbf4ebd4ad27c0",
+          "status": "match"
+        },
+        {
+          "path": "results/npc_digit_relation_audit.json",
+          "expected": "ab508e04fce66788daea9ec460678fcc89a50cfd3d892b1e81f08f62fe0705a2",
+          "actual": "ab508e04fce66788daea9ec460678fcc89a50cfd3d892b1e81f08f62fe0705a2",
+          "status": "match"
+        },
+        {
+          "path": "results/official_poll_http_round10.json",
+          "expected": "9936b42d05ee1070ae670b5684faeb0b2fb1d25b545d2a646c514860b1238cb7",
+          "actual": "9936b42d05ee1070ae670b5684faeb0b2fb1d25b545d2a646c514860b1238cb7",
+          "status": "match"
+        },
+        {
+          "path": "results/round10_execution.json",
+          "expected": "790a126d5a02645bc2c143c967aebfdef24c7ec4c31b5a3fd2249eb20b87aadf",
+          "actual": "790a126d5a02645bc2c143c967aebfdef24c7ec4c31b5a3fd2249eb20b87aadf",
+          "status": "match"
+        },
+        {
+          "path": "results/tests_round10.log",
+          "expected": "255ad02580441c60fbea0f4db220e4f9fd60c8161f993bc5d45a1004dec0f3f8",
+          "actual": "255ad02580441c60fbea0f4db220e4f9fd60c8161f993bc5d45a1004dec0f3f8",
+          "status": "match"
+        },
+        {
+          "path": "scripts/copy_parser_experiment.py",
+          "expected": "5007f05c3e46e11515fbf5d8d7c411aa524467078d7f3c38c7360bf7eac27348",
+          "actual": "5007f05c3e46e11515fbf5d8d7c411aa524467078d7f3c38c7360bf7eac27348",
+          "status": "match"
+        },
+        {
+          "path": "scripts/kharos_boundary_audit.py",
+          "expected": "30782c09ff153f2e80a1ed85b159e5dbc81321c37b5b26502d4178fd7229c3a1",
+          "actual": "30782c09ff153f2e80a1ed85b159e5dbc81321c37b5b26502d4178fd7229c3a1",
+          "status": "match"
+        },
+        {
+          "path": "scripts/kharos_copy_diagnosis.py",
+          "expected": "1561ba6a6c71f0db08b4e18d0f90f47bd7ceabd80b20064b73e216af957bb544",
+          "actual": "1561ba6a6c71f0db08b4e18d0f90f47bd7ceabd80b20064b73e216af957bb544",
+          "status": "match"
+        },
+        {
+          "path": "scripts/npc_digit_relation_audit.py",
+          "expected": "fcb765c102c937355c9c55ba59af9ed6fab41fafb5d5232160d974d19f62bdbc",
+          "actual": "fcb765c102c937355c9c55ba59af9ed6fab41fafb5d5232160d974d19f62bdbc",
+          "status": "match"
+        },
+        {
+          "path": "scripts/raw_copy_parser.py",
+          "expected": "f2f90c4cb1f8a3dfb655c71cbb5a9772730c7a40a524f1dc30bca3f6b5158750",
+          "actual": "f2f90c4cb1f8a3dfb655c71cbb5a9772730c7a40a524f1dc30bca3f6b5158750",
+          "status": "match"
+        },
+        {
+          "path": "scripts/raw_fragment_cover.py",
+          "expected": "20fe21fd1975cf7c57f3b61f92d2a7075391f0b37fa62caea6783cfb75b5655d",
+          "actual": "20fe21fd1975cf7c57f3b61f92d2a7075391f0b37fa62caea6783cfb75b5655d",
+          "status": "match"
+        },
+        {
+          "path": "scripts/run_round10.py",
+          "expected": "c32f72a9e1a1c77ca5b2c8291920c9791fd6e846a0f466a3fab2515753901b82",
+          "actual": "c32f72a9e1a1c77ca5b2c8291920c9791fd6e846a0f466a3fab2515753901b82",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_raw_copy_parser.py",
+          "expected": "22a9435b051097723260ff74604f19c5bffdd3aa2edec5f7a0f787263f21625b",
+          "actual": "22a9435b051097723260ff74604f19c5bffdd3aa2edec5f7a0f787263f21625b",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_raw_fragment_cover.py",
+          "expected": "38c81421b25844b8fb066f448f7f1adebc617fba034ff2568d18b5c7333b72e2",
+          "actual": "38c81421b25844b8fb066f448f7f1adebc617fba034ff2568d18b5c7333b72e2",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round11_evidence_manifest.json",
+      "checks": [
+        {
+          "path": "data/copy_wire_protocol.json",
+          "expected": "4d051ddf91b2c34e4bb435b6911488bf285feb8ac326e8ce3732d02bce4ea2d9",
+          "actual": "4d051ddf91b2c34e4bb435b6911488bf285feb8ac326e8ce3732d02bce4ea2d9",
+          "status": "match"
+        },
+        {
+          "path": "data/plan_progress_round11.json",
+          "expected": "280a79820bf1db5237c011e50124aa2f00c99bfbf5a775e7ba8bd77d2d1ef0fb",
+          "actual": "280a79820bf1db5237c011e50124aa2f00c99bfbf5a775e7ba8bd77d2d1ef0fb",
+          "status": "match"
+        },
+        {
+          "path": "docs/round11.md",
+          "expected": "21dd118ff167eedae2931fc54c86490aeaf1ee15f8d1ec41e7d9cf188f55444e",
+          "actual": "21dd118ff167eedae2931fc54c86490aeaf1ee15f8d1ec41e7d9cf188f55444e",
+          "status": "match"
+        },
+        {
+          "path": "results/copy_wire_experiment.json",
+          "expected": "0ac7808d5f4018c7b54014a38d07431041b72128581d6545ba68a4bd5ba5fb1c",
+          "actual": "0ac7808d5f4018c7b54014a38d07431041b72128581d6545ba68a4bd5ba5fb1c",
+          "status": "match"
+        },
+        {
+          "path": "results/round11_execution.json",
+          "expected": "66946df01ce526f38d976add8f438cf18ad0f7f0e74cf97444cc814913dfeb6e",
+          "actual": "66946df01ce526f38d976add8f438cf18ad0f7f0e74cf97444cc814913dfeb6e",
+          "status": "match"
+        },
+        {
+          "path": "results/tests_round11.log",
+          "expected": "929156b54557bc4200594c3df553a78743954eceabe3ca96e4bf5b3c5a1310d6",
+          "actual": "929156b54557bc4200594c3df553a78743954eceabe3ca96e4bf5b3c5a1310d6",
+          "status": "match"
+        },
+        {
+          "path": "scripts/copy_wire_codec.py",
+          "expected": "425f7a73f58155d2f61d565be51fa84506003112e1ae25290241bbc3bc061630",
+          "actual": "425f7a73f58155d2f61d565be51fa84506003112e1ae25290241bbc3bc061630",
+          "status": "match"
+        },
+        {
+          "path": "scripts/copy_wire_experiment.py",
+          "expected": "420ae15a77ce95bb4ed1babb0a371c784bee5fb7eaf5a4a08986ecc4f957a457",
+          "actual": "420ae15a77ce95bb4ed1babb0a371c784bee5fb7eaf5a4a08986ecc4f957a457",
+          "status": "match"
+        },
+        {
+          "path": "scripts/run_round11.py",
+          "expected": "b47358cc9ab2ad4831b443aba0f2d1de13f2ad36210acf3ceeaff3702047d4c6",
+          "actual": "b47358cc9ab2ad4831b443aba0f2d1de13f2ad36210acf3ceeaff3702047d4c6",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_copy_wire_codec.py",
+          "expected": "387411ece4e25f2d555034633bb07cbf2303f7cdb59a6305fa0e3fe3ec662d89",
+          "actual": "387411ece4e25f2d555034633bb07cbf2303f7cdb59a6305fa0e3fe3ec662d89",
+          "status": "match"
+        },
+        {
+          "path": "results/replay_round11.log",
+          "expected": "a4f6bd51c8a1ee1cca49f661f2f41c74092ecd50de180995a8d92fc3a4204cac",
+          "actual": "a4f6bd51c8a1ee1cca49f661f2f41c74092ecd50de180995a8d92fc3a4204cac",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round12_evidence_manifest.json",
+      "checks": [
+        {
+          "path": "data/conserved_code_protocol.json",
+          "expected": "847b427ba85b3fd1447cd06e225f12040d1977e5cf9d032dc40d24b27776703b",
+          "actual": "847b427ba85b3fd1447cd06e225f12040d1977e5cf9d032dc40d24b27776703b",
+          "status": "match"
+        },
+        {
+          "path": "data/external_samples_round12.json",
+          "expected": "984c51348de23530b9ea8cc10d571fac89dcf0f5d3e19256739efed78056a2be",
+          "actual": "984c51348de23530b9ea8cc10d571fac89dcf0f5d3e19256739efed78056a2be",
+          "status": "match"
+        },
+        {
+          "path": "data/source_review_round12.json",
+          "expected": "e363b1aa9878070d2c9d94cef044124ae09ee4c93877ee681b867a4ee53c47ca",
+          "actual": "e363b1aa9878070d2c9d94cef044124ae09ee4c93877ee681b867a4ee53c47ca",
+          "status": "match"
+        },
+        {
+          "path": "data/plan_progress_round12.json",
+          "expected": "d78d90d0ebee8b268067a3ace1894b82a7d44fd44bff968f7e3a7b9be3c55260",
+          "actual": "d78d90d0ebee8b268067a3ace1894b82a7d44fd44bff968f7e3a7b9be3c55260",
+          "status": "match"
+        },
+        {
+          "path": "data/normalized_code_map.json",
+          "expected": "d2884c34addbce207678b014e6fc9f9de9ae4fe7280d94b19adb1bb86e72cfac",
+          "actual": "d2884c34addbce207678b014e6fc9f9de9ae4fe7280d94b19adb1bb86e72cfac",
+          "status": "match"
+        },
+        {
+          "path": "docs/round12.md",
+          "expected": "c3dfd0e3707c7f4bbac481c04bf276936916a3da6d116fc9a92022887bf18ada",
+          "actual": "c3dfd0e3707c7f4bbac481c04bf276936916a3da6d116fc9a92022887bf18ada",
+          "status": "match"
+        },
+        {
+          "path": "results/conserved_code_experiment.json",
+          "expected": "9ca151dbf8ba43f2b4d7d75bd2e58c4da95a534c5c5cac8fe63efda171a04f31",
+          "actual": "9ca151dbf8ba43f2b4d7d75bd2e58c4da95a534c5c5cac8fe63efda171a04f31",
+          "status": "match"
+        },
+        {
+          "path": "results/external_source_audit_round12.json",
+          "expected": "ee32e274ec0ada0d9c7a56775aa02be96e3e09574a754adae5826c7b88085cc6",
+          "actual": "ee32e274ec0ada0d9c7a56775aa02be96e3e09574a754adae5826c7b88085cc6",
+          "status": "match"
+        },
+        {
+          "path": "results/round12_execution.json",
+          "expected": "65733fc4556f88fb3f777b04be105a6c93023e64acdec64a0e65b94365b69c0e",
+          "actual": "65733fc4556f88fb3f777b04be105a6c93023e64acdec64a0e65b94365b69c0e",
+          "status": "match"
+        },
+        {
+          "path": "results/tests_round12.log",
+          "expected": "6d37855d40deec652d0885b2a6701963e5df6a2c4b4c581393d1030f276d79bd",
+          "actual": "6d37855d40deec652d0885b2a6701963e5df6a2c4b4c581393d1030f276d79bd",
+          "status": "match"
+        },
+        {
+          "path": "scripts/conserved_code_parser.py",
+          "expected": "63385fa846c1c9ff43720c5bd3bdd2102c3d93441ad2854085d7e67bcbc25274",
+          "actual": "63385fa846c1c9ff43720c5bd3bdd2102c3d93441ad2854085d7e67bcbc25274",
+          "status": "match"
+        },
+        {
+          "path": "scripts/conserved_code_experiment.py",
+          "expected": "80d4808a7570fbb9681f3f360babf2e2325a47c0cc853912d0436e6449dd9147",
+          "actual": "80d4808a7570fbb9681f3f360babf2e2325a47c0cc853912d0436e6449dd9147",
+          "status": "match"
+        },
+        {
+          "path": "scripts/omission_set_reference.py",
+          "expected": "c3bd6ae810ef87f5a269a80a2e5ee116f0dbab0b69ffba7daa3c03fd56b33a81",
+          "actual": "c3bd6ae810ef87f5a269a80a2e5ee116f0dbab0b69ffba7daa3c03fd56b33a81",
+          "status": "match"
+        },
+        {
+          "path": "scripts/run_round12.py",
+          "expected": "771c2946f0742e879db91f27b007a0bcbbebe4f99ac1362eeeac45c6931e5d68",
+          "actual": "771c2946f0742e879db91f27b007a0bcbbebe4f99ac1362eeeac45c6931e5d68",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_conserved_code_parser.py",
+          "expected": "6bc7d663bd6fe4fe42bed8aac48a8f2a07c188814ddc8548a989efd5a128c6b0",
+          "actual": "6bc7d663bd6fe4fe42bed8aac48a8f2a07c188814ddc8548a989efd5a128c6b0",
+          "status": "match"
+        },
+        {
+          "path": "results/replay_round12.log",
+          "expected": "80ef7a5cfef4581774640dd797785b5168733f28527124d82ddc6a4e3a9d613c",
+          "actual": "80ef7a5cfef4581774640dd797785b5168733f28527124d82ddc6a4e3a9d613c",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round13_evidence_manifest.json",
+      "checks": [
+        {
+          "path": "data/columnar_pair_protocol.json",
+          "expected": "94c3b78d44637131d01883d1f477e777c81534ff2bc83f43be8dd314f8c70c51",
+          "actual": "94c3b78d44637131d01883d1f477e777c81534ff2bc83f43be8dd314f8c70c51",
+          "status": "match"
+        },
+        {
+          "path": "data/plan_progress_round13.json",
+          "expected": "7dcc16a0c36afb17d26373d5c3465fd502bf5128c196a58c248c0b829cdd4170",
+          "actual": "7dcc16a0c36afb17d26373d5c3465fd502bf5128c196a58c248c0b829cdd4170",
+          "status": "match"
+        },
+        {
+          "path": "docs/round13.md",
+          "expected": "3967f689cb0e79d2880db5279d42785de702cdd2b590777697fcbe8a6c4309b2",
+          "actual": "3967f689cb0e79d2880db5279d42785de702cdd2b590777697fcbe8a6c4309b2",
+          "status": "match"
+        },
+        {
+          "path": "results/columnar_pair_experiment.json",
+          "expected": "43595df4de9352d488db558d7dd8a1959707e765751b5c57e1260f0e8c7485fb",
+          "actual": "43595df4de9352d488db558d7dd8a1959707e765751b5c57e1260f0e8c7485fb",
+          "status": "match"
+        },
+        {
+          "path": "results/columnar_prefix_certificates.json",
+          "expected": "04c83c1e333882e0aca0c0ac470843ba8304be57c7fc85290410a7b796ed0be4",
+          "actual": "04c83c1e333882e0aca0c0ac470843ba8304be57c7fc85290410a7b796ed0be4",
+          "status": "match"
+        },
+        {
+          "path": "results/round13_execution.json",
+          "expected": "2beba7c74415b41a775022253360c0a6e4507a000e8db35c7286986d8e02ce69",
+          "actual": "2beba7c74415b41a775022253360c0a6e4507a000e8db35c7286986d8e02ce69",
+          "status": "match"
+        },
+        {
+          "path": "results/tests_round13.log",
+          "expected": "db7edb5cf34ab1d2117ced4cb3537af41799d164522a30fe377a6b9dcc04e1be",
+          "actual": "db7edb5cf34ab1d2117ced4cb3537af41799d164522a30fe377a6b9dcc04e1be",
+          "status": "match"
+        },
+        {
+          "path": "scripts/exact_columnar_keys.py",
+          "expected": "989ec6f506dafafbbebef7f8f645aaa59a46adf1beb985a6fc2cab76d52e9373",
+          "actual": "989ec6f506dafafbbebef7f8f645aaa59a46adf1beb985a6fc2cab76d52e9373",
+          "status": "match"
+        },
+        {
+          "path": "scripts/columnar_pair_experiment.py",
+          "expected": "c21e3bf46d72b7ddf5765cc33060aaedd7710ee8dba288a314a145cb34b9b823",
+          "actual": "c21e3bf46d72b7ddf5765cc33060aaedd7710ee8dba288a314a145cb34b9b823",
+          "status": "match"
+        },
+        {
+          "path": "scripts/columnar_prefix_audit.py",
+          "expected": "abf44a273b3fab405b59170b37e892cd471147d59453334d34a29630db92afb8",
+          "actual": "abf44a273b3fab405b59170b37e892cd471147d59453334d34a29630db92afb8",
+          "status": "match"
+        },
+        {
+          "path": "scripts/run_round13.py",
+          "expected": "062ca033f859291c06235bc971de2b5109a54e36a853de70936be94ab415ec92",
+          "actual": "062ca033f859291c06235bc971de2b5109a54e36a853de70936be94ab415ec92",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_exact_columnar_keys.py",
+          "expected": "fbc8e41b2b8d66c910bef225cc86e4ebf31b6ce9f2d761b8a98bcf2a7e3f3a88",
+          "actual": "fbc8e41b2b8d66c910bef225cc86e4ebf31b6ce9f2d761b8a98bcf2a7e3f3a88",
+          "status": "match"
+        },
+        {
+          "path": "results/replay_round13.log",
+          "expected": "a50613f06591aae090e3bac0de2106ef55f16cbb5d9c764111ee1969e18dd9e5",
+          "actual": "a50613f06591aae090e3bac0de2106ef55f16cbb5d9c764111ee1969e18dd9e5",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round14_evidence_manifest.json",
+      "checks": [
+        {
+          "path": "data/history_round14_targets.json",
+          "expected": "798d58cd80cbb8d89289bc331e7c38b68294af3739928aa00b36f87b89b37d84",
+          "actual": "798d58cd80cbb8d89289bc331e7c38b68294af3739928aa00b36f87b89b37d84",
+          "status": "match"
+        },
+        {
+          "path": "data/history_round14_http_manifest.json",
+          "expected": "a8069bc24d201719846159f3740da090cbd862076b9d684e6f8a5988524ee672",
+          "actual": "a8069bc24d201719846159f3740da090cbd862076b9d684e6f8a5988524ee672",
+          "status": "match"
+        },
+        {
+          "path": "data/history_round14_sources.json",
+          "expected": "b6f74ac04b38204860273d26b4c6b27497464c44ad49a480f636bde71910ab02",
+          "actual": "b6f74ac04b38204860273d26b4c6b27497464c44ad49a480f636bde71910ab02",
+          "status": "match"
+        },
+        {
+          "path": "data/history_round14_reference/wiki_matrix_history.json",
+          "expected": "f9f6a587479aaa5998807c9a403ceeb7099075a05d340452c76fbd38d76763c7",
+          "actual": "f9f6a587479aaa5998807c9a403ceeb7099075a05d340452c76fbd38d76763c7",
+          "status": "match"
+        },
+        {
+          "path": "data/history_round14_reference/cdx_old_domain_any_order.json",
+          "expected": "fbeef02198ad6da697086e82ddf72aa6264637a71344fca7e849672f424f959c",
+          "actual": "fbeef02198ad6da697086e82ddf72aa6264637a71344fca7e849672f424f959c",
+          "status": "match"
+        },
+        {
+          "path": "data/history_round14_reference/archive2008_matrix_numeric_excerpt.txt",
+          "expected": "32224c41142ecec4ebfa21beeee9484ca8b8fb3fc402e040d6523827a8d405da",
+          "actual": "32224c41142ecec4ebfa21beeee9484ca8b8fb3fc402e040d6523827a8d405da",
+          "status": "match"
+        },
+        {
+          "path": "data/plan_progress_round14.json",
+          "expected": "f7d0585f2b4f4409eb0a5b7cb979dbf759f8f7493df0648128aca5468a1faf2b",
+          "actual": "f7d0585f2b4f4409eb0a5b7cb979dbf759f8f7493df0648128aca5468a1faf2b",
+          "status": "match"
+        },
+        {
+          "path": "docs/round14.md",
+          "expected": "9de34cbde895ec828dff4b610a918276959a3e9c4f6d7571d449a774d69deee6",
+          "actual": "9de34cbde895ec828dff4b610a918276959a3e9c4f6d7571d449a774d69deee6",
+          "status": "match"
+        },
+        {
+          "path": "results/history_round14_analysis.json",
+          "expected": "65755587f9ab26bbcd0c7cc3354addd1db02b991939056ace76ebe963544d204",
+          "actual": "65755587f9ab26bbcd0c7cc3354addd1db02b991939056ace76ebe963544d204",
+          "status": "match"
+        },
+        {
+          "path": "results/round14_execution.json",
+          "expected": "ebd612d2fd9abfbb37c59423f38ca5455caefc3d87b495c7e58ede3f1a77a9cc",
+          "actual": "ebd612d2fd9abfbb37c59423f38ca5455caefc3d87b495c7e58ede3f1a77a9cc",
+          "status": "match"
+        },
+        {
+          "path": "results/tests_round14.log",
+          "expected": "19705a7dda2de7b903c933ca5423300c50d8e94ac34142f7168f30721f2afb60",
+          "actual": "19705a7dda2de7b903c933ca5423300c50d8e94ac34142f7168f30721f2afb60",
+          "status": "match"
+        },
+        {
+          "path": "scripts/history_source_fetch.py",
+          "expected": "639d7b61ff654999785af723df795cb480f845a25ae3c119406f9b9eb0ff3d05",
+          "actual": "639d7b61ff654999785af723df795cb480f845a25ae3c119406f9b9eb0ff3d05",
+          "status": "match"
+        },
+        {
+          "path": "scripts/history_source_extract.py",
+          "expected": "b83ae42aa9c55f906bf3deffefa9f9990f3ab4466e10de3a7aff7e4a998987b8",
+          "actual": "b83ae42aa9c55f906bf3deffefa9f9990f3ab4466e10de3a7aff7e4a998987b8",
+          "status": "match"
+        },
+        {
+          "path": "scripts/history_round14_build.py",
+          "expected": "45a7d628e61fe703f8452533f7b8da7f403c67f65007c1bee267d209cdba0626",
+          "actual": "45a7d628e61fe703f8452533f7b8da7f403c67f65007c1bee267d209cdba0626",
+          "status": "match"
+        },
+        {
+          "path": "scripts/historical_matrix_checks.py",
+          "expected": "4d133ed4ed25d10beedaef8a1c9bfc42f6632c4cd71cf533de2060da8444b763",
+          "actual": "4d133ed4ed25d10beedaef8a1c9bfc42f6632c4cd71cf533de2060da8444b763",
+          "status": "match"
+        },
+        {
+          "path": "scripts/run_round14.py",
+          "expected": "b97092993b90184474e92e516ef26df745bfe510dd185fb55d16a37dc4b0d1dd",
+          "actual": "b97092993b90184474e92e516ef26df745bfe510dd185fb55d16a37dc4b0d1dd",
+          "status": "match"
+        },
+        {
+          "path": "scripts/matrix_experiments.py",
+          "expected": "476d3365708aa4409d4253d3983449a6a166517b5960c7e1b7b66de4b092b37f",
+          "actual": "476d3365708aa4409d4253d3983449a6a166517b5960c7e1b7b66de4b092b37f",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_history_round14.py",
+          "expected": "b55a6ad4dbf85c6094b67f721a6e49128a751d56f5c6bab70e3e02632143d1cf",
+          "actual": "b55a6ad4dbf85c6094b67f721a6e49128a751d56f5c6bab70e3e02632143d1cf",
+          "status": "match"
+        },
+        {
+          "path": "results/replay_round14.log",
+          "expected": "cd968942a4e2c81ca8a36e48451223091778178abeedbd7d54c078e3d224e2f1",
+          "actual": "cd968942a4e2c81ca8a36e48451223091778178abeedbd7d54c078e3d224e2f1",
+          "status": "match"
+        },
+        {
+          "path": "data/history_round14_query_log.json",
+          "expected": "11d35a3296a970ed7aa439d5604fc465f21a063950282e879a6f1f67c7c351ca",
+          "actual": "11d35a3296a970ed7aa439d5604fc465f21a063950282e879a6f1f67c7c351ca",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round15_evidence_manifest.json",
+      "checks": [
+        {
+          "path": "data/round15_protocol.json",
+          "expected": "a53d8fb20f07d988319249947dd863b14bceb8e6ec61085b885d92b3581b4291",
+          "actual": "a53d8fb20f07d988319249947dd863b14bceb8e6ec61085b885d92b3581b4291",
+          "status": "match"
+        },
+        {
+          "path": "data/round15_candidate_catalog.json",
+          "expected": "653208cfe164fb1158d5cef465323074ffe1cf1387a7d573ef2602910f1399d1",
+          "actual": "653208cfe164fb1158d5cef465323074ffe1cf1387a7d573ef2602910f1399d1",
+          "status": "match"
+        },
+        {
+          "path": "scripts/dimension_name_experiments.py",
+          "expected": "3a12fdd192e23cb692c82b141994d6542afcff86d9f1b9a6606bc1fbf602aed1",
+          "actual": "3a12fdd192e23cb692c82b141994d6542afcff86d9f1b9a6606bc1fbf602aed1",
+          "status": "match"
+        },
+        {
+          "path": "scripts/matrix_experiments.py",
+          "expected": "476d3365708aa4409d4253d3983449a6a166517b5960c7e1b7b66de4b092b37f",
+          "actual": "476d3365708aa4409d4253d3983449a6a166517b5960c7e1b7b66de4b092b37f",
+          "status": "match"
+        },
+        {
+          "path": "scripts/historical_matrix_checks.py",
+          "expected": "4d133ed4ed25d10beedaef8a1c9bfc42f6632c4cd71cf533de2060da8444b763",
+          "actual": "4d133ed4ed25d10beedaef8a1c9bfc42f6632c4cd71cf533de2060da8444b763",
+          "status": "match"
+        },
+        {
+          "path": "scripts/hill29_experiments.py",
+          "expected": "9f0dc48baf0fc191fa1f216a30e67fe9c7b9999bf32f99c3eb11dad3fd6fd13f",
+          "actual": "9f0dc48baf0fc191fa1f216a30e67fe9c7b9999bf32f99c3eb11dad3fd6fd13f",
+          "status": "match"
+        },
+        {
+          "path": "data/normalized_books.json",
+          "expected": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+          "actual": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+          "status": "match"
+        },
+        {
+          "path": "data/normalized_splits.json",
+          "expected": "0a0f9d3b60b4077bf9e3074919d35e754f6f77fd4ca4423b160e14e5a58ac3de",
+          "actual": "0a0f9d3b60b4077bf9e3074919d35e754f6f77fd4ca4423b160e14e5a58ac3de",
+          "status": "match"
+        },
+        {
+          "path": "data/source_validation_inventory.json",
+          "expected": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+          "actual": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+          "status": "match"
+        },
+        {
+          "path": "data/external_book_round10.json",
+          "expected": "9a5deda3b400350304f0346c89a54855129491bbeacb86bc07776b9e12a5cf25",
+          "actual": "9a5deda3b400350304f0346c89a54855129491bbeacb86bc07776b9e12a5cf25",
+          "status": "match"
+        },
+        {
+          "path": "data/english_reference/alice.txt",
+          "expected": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+          "actual": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+          "status": "match"
+        },
+        {
+          "path": "data/word_validator_reference/wizard_oz.txt",
+          "expected": "969bffab7740d4d8a0bac332d78bd0152ad4a40a2efc52f06c74a9bb6120be75",
+          "actual": "969bffab7740d4d8a0bac332d78bd0152ad4a40a2efc52f06c74a9bb6120be75",
+          "status": "match"
+        },
+        {
+          "path": "data/word_validator_reference/peter_pan.txt",
+          "expected": "6b08714281fe38266a756741e4c62915cda7536c2f78cca501f7fd53f3f445ae",
+          "actual": "6b08714281fe38266a756741e4c62915cda7536c2f78cca501f7fd53f3f445ae",
+          "status": "match"
+        },
+        {
+          "path": "data/history_round14_sources.json",
+          "expected": "b6f74ac04b38204860273d26b4c6b27497464c44ad49a480f636bde71910ab02",
+          "actual": "b6f74ac04b38204860273d26b4c6b27497464c44ad49a480f636bde71910ab02",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round15_result_manifest.json",
+      "checks": [
+        {
+          "path": "data/round15_source_notes.json",
+          "expected": "730729b1b3d4061c0fce339c16c738913cbdc971d2508033a17cfe751ec7bcfe",
+          "actual": "730729b1b3d4061c0fce339c16c738913cbdc971d2508033a17cfe751ec7bcfe",
+          "status": "match"
+        },
+        {
+          "path": "data/plan_progress_round15.json",
+          "expected": "1cf177be9552deab3835cff2524632ddc4600ea4ca11def3ca544c72820bf074",
+          "actual": "1cf177be9552deab3835cff2524632ddc4600ea4ca11def3ca544c72820bf074",
+          "status": "match"
+        },
+        {
+          "path": "scripts/check_round15.py",
+          "expected": "4078b114c12d4ca353880f71cddcb03e48efd984e2672a25ba4f74c56e239c76",
+          "actual": "4078b114c12d4ca353880f71cddcb03e48efd984e2672a25ba4f74c56e239c76",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round15_dimension_leaders.py",
+          "expected": "239af5acf2884992cdd16071b1b43042bf9a15c3d0c9b3579abf00b20ff8627c",
+          "actual": "239af5acf2884992cdd16071b1b43042bf9a15c3d0c9b3579abf00b20ff8627c",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_dimension_names.py",
+          "expected": "81bb53296210db0b18d5d2c928b23fa44fc7d7e48663b7f237449a8d11af7f42",
+          "actual": "81bb53296210db0b18d5d2c928b23fa44fc7d7e48663b7f237449a8d11af7f42",
+          "status": "match"
+        },
+        {
+          "path": "results/round15_dimension_analysis.json",
+          "expected": "896934b6297520cb0739b866e810d3199e4778e1fbef553d9fd7c2ad5242a83d",
+          "actual": "896934b6297520cb0739b866e810d3199e4778e1fbef553d9fd7c2ad5242a83d",
+          "status": "match"
+        },
+        {
+          "path": "results/round15_dimension_leaders.json",
+          "expected": "2f0ab1e3c0bc6531dd7ba6174bfaf361d1dede441df4b200a59ac7a89802b90a",
+          "actual": "2f0ab1e3c0bc6531dd7ba6174bfaf361d1dede441df4b200a59ac7a89802b90a",
+          "status": "match"
+        },
+        {
+          "path": "results/round15_matrix_search.json",
+          "expected": "dffc2a5750ed3e90fb923a6c879e6a1ad2d3f77a7e509f5b8a84935d36559b0c",
+          "actual": "dffc2a5750ed3e90fb923a6c879e6a1ad2d3f77a7e509f5b8a84935d36559b0c",
+          "status": "match"
+        },
+        {
+          "path": "results/round15_qualification.json",
+          "expected": "5db2cda915cf95e6b865bb6d2f43b7f82833e38dad44166efdb5b8e3365cc3de",
+          "actual": "5db2cda915cf95e6b865bb6d2f43b7f82833e38dad44166efdb5b8e3365cc3de",
+          "status": "match"
+        },
+        {
+          "path": "docs/round15.md",
+          "expected": "36ffb64abdce380a611352ba574d93150da913cd267a0b23a72f336fb968e957",
+          "actual": "36ffb64abdce380a611352ba574d93150da913cd267a0b23a72f336fb968e957",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round16_evidence_manifest.json",
+      "checks": [
+        {
+          "path": "data/round16_protocol.json",
+          "expected": "0f23a41a317298e7e03eb6e0835844c9bdb25c0b53386075404d84ed0cf401ad",
+          "actual": "0f23a41a317298e7e03eb6e0835844c9bdb25c0b53386075404d84ed0cf401ad",
+          "status": "match"
+        },
+        {
+          "path": "data/round16_numeric_groups.json",
+          "expected": "78c3e327c6c83c811a632829f60db7b9c164bd579f88cf5cf35c6fae207ff2f5",
+          "actual": "78c3e327c6c83c811a632829f60db7b9c164bd579f88cf5cf35c6fae207ff2f5",
+          "status": "match"
+        },
+        {
+          "path": "scripts/numeric_word_codec.py",
+          "expected": "40996ba337f7c9941451e40dead6c8c523ade7ad0e2ab1d0a568633a42b249bc",
+          "actual": "40996ba337f7c9941451e40dead6c8c523ade7ad0e2ab1d0a568633a42b249bc",
+          "status": "match"
+        },
+        {
+          "path": "scripts/wordcode_transfer_experiment.py",
+          "expected": "c756666c8276fc0aa76e0284fe440cb9300086d9d78b8ad79619bed5920f0537",
+          "actual": "c756666c8276fc0aa76e0284fe440cb9300086d9d78b8ad79619bed5920f0537",
+          "status": "match"
+        },
+        {
+          "path": "scripts/zero_rule_constraints.py",
+          "expected": "1b2c29541fb49f8e0ddbbdb2f756c442b2f57faf984e1a94c80d29bcb3a4a34e",
+          "actual": "1b2c29541fb49f8e0ddbbdb2f756c442b2f57faf984e1a94c80d29bcb3a4a34e",
+          "status": "match"
+        },
+        {
+          "path": "data/normalized_books.json",
+          "expected": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+          "actual": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+          "status": "match"
+        },
+        {
+          "path": "data/normalized_splits.json",
+          "expected": "0a0f9d3b60b4077bf9e3074919d35e754f6f77fd4ca4423b160e14e5a58ac3de",
+          "actual": "0a0f9d3b60b4077bf9e3074919d35e754f6f77fd4ca4423b160e14e5a58ac3de",
+          "status": "match"
+        },
+        {
+          "path": "data/source_validation_inventory.json",
+          "expected": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+          "actual": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+          "status": "match"
+        },
+        {
+          "path": "data/word_validator_reference/wizard_oz.txt",
+          "expected": "969bffab7740d4d8a0bac332d78bd0152ad4a40a2efc52f06c74a9bb6120be75",
+          "actual": "969bffab7740d4d8a0bac332d78bd0152ad4a40a2efc52f06c74a9bb6120be75",
+          "status": "match"
+        },
+        {
+          "path": "data/word_validator_reference/peter_pan.txt",
+          "expected": "6b08714281fe38266a756741e4c62915cda7536c2f78cca501f7fd53f3f445ae",
+          "actual": "6b08714281fe38266a756741e4c62915cda7536c2f78cca501f7fd53f3f445ae",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round16_result_manifest.json",
+      "checks": [
+        {
+          "path": "data/round16_evidence_manifest.json",
+          "expected": "0dfd750966c43c16f50ea6221c6454e4e65709613c03ec2758d39295b3a026ed",
+          "actual": "0dfd750966c43c16f50ea6221c6454e4e65709613c03ec2758d39295b3a026ed",
+          "status": "match"
+        },
+        {
+          "path": "data/round16_scope_notes.json",
+          "expected": "74d4cb743976d5422723f1cd47eccd9823896fa2558c9e11edd50cd3c2dff8cb",
+          "actual": "74d4cb743976d5422723f1cd47eccd9823896fa2558c9e11edd50cd3c2dff8cb",
+          "status": "match"
+        },
+        {
+          "path": "data/plan_progress_round16.json",
+          "expected": "f37ca6a8ef99b2f3fc296cf1ea1147328cca06ad949d64b52f2ae14c55759468",
+          "actual": "f37ca6a8ef99b2f3fc296cf1ea1147328cca06ad949d64b52f2ae14c55759468",
+          "status": "match"
+        },
+        {
+          "path": "scripts/run_round16.py",
+          "expected": "26b6cc50971c3d72ce1e7b53501d3a7bc30a7116c7f70dd67e03a0365e343a46",
+          "actual": "26b6cc50971c3d72ce1e7b53501d3a7bc30a7116c7f70dd67e03a0365e343a46",
+          "status": "match"
+        },
+        {
+          "path": "scripts/wordcode_boundary_certificates.py",
+          "expected": "8b87b1e3d86570e82142927d1b569c919ddae38be7652406ea74dbbf82f34b00",
+          "actual": "8b87b1e3d86570e82142927d1b569c919ddae38be7652406ea74dbbf82f34b00",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_numeric_word_codec.py",
+          "expected": "aff1b8ec9a3065b813716c01be8402f737ac5046dd593a74f217b41bf298388e",
+          "actual": "aff1b8ec9a3065b813716c01be8402f737ac5046dd593a74f217b41bf298388e",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_wordcode_boundary_certificates.py",
+          "expected": "30c84f6156bac19eac39d2030ba7581f680672f00dac44c940ccc642e0ce8a9e",
+          "actual": "30c84f6156bac19eac39d2030ba7581f680672f00dac44c940ccc642e0ce8a9e",
+          "status": "match"
+        },
+        {
+          "path": "docs/round16.md",
+          "expected": "4caa6bf7d237131fd73bb9326ac48cc5c845c9e0380ec1aff7eefa7f09b13c1c",
+          "actual": "4caa6bf7d237131fd73bb9326ac48cc5c845c9e0380ec1aff7eefa7f09b13c1c",
+          "status": "match"
+        },
+        {
+          "path": "results/round16_boundaries.json",
+          "expected": "29d1b1835fe94516997427c37a8ef9e04eefde1f6c61b9eb117a0220b34ad741",
+          "actual": "29d1b1835fe94516997427c37a8ef9e04eefde1f6c61b9eb117a0220b34ad741",
+          "status": "match"
+        },
+        {
+          "path": "results/round16_boundary_certificates.json",
+          "expected": "78b2ebe71c7605c0ed461f195d51ee9c02b16dc575c405e06aae0d1ff1d7ffa4",
+          "actual": "78b2ebe71c7605c0ed461f195d51ee9c02b16dc575c405e06aae0d1ff1d7ffa4",
+          "status": "match"
+        },
+        {
+          "path": "results/round16_decodability.json",
+          "expected": "e784d7b365aecdf489e855b6c96b21e29e9857df7d53e0691b9b093745ca7f8b",
+          "actual": "e784d7b365aecdf489e855b6c96b21e29e9857df7d53e0691b9b093745ca7f8b",
+          "status": "match"
+        },
+        {
+          "path": "results/round16_qualification.json",
+          "expected": "883d0fc8920ce01d469cecd4690ee3b9276e541fd2c8ab10dc45781127827324",
+          "actual": "883d0fc8920ce01d469cecd4690ee3b9276e541fd2c8ab10dc45781127827324",
+          "status": "match"
+        },
+        {
+          "path": "results/round16_wordcode_transfer.json",
+          "expected": "49456dc3cb806868a6ee0bc3a9ecda2aa89ce614bf6662b9cd83b46f2e856fc5",
+          "actual": "49456dc3cb806868a6ee0bc3a9ecda2aa89ce614bf6662b9cd83b46f2e856fc5",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round17_development_manifest.json",
+      "checks": [
+        {
+          "path": "data/round17_protocol.json",
+          "expected": "59eca93cfce17a9a43ecd62618c1c602f4500afb633fac3d48cb813f797dcbc4",
+          "actual": "59eca93cfce17a9a43ecd62618c1c602f4500afb633fac3d48cb813f797dcbc4",
+          "status": "match"
+        },
+        {
+          "path": "scripts/hidden_unit_segmenter.py",
+          "expected": "7d9904c3529ebacb135e250847cf945313ab3f4d6964506e3f95fc3a70a085bb",
+          "actual": "7d9904c3529ebacb135e250847cf945313ab3f4d6964506e3f95fc3a70a085bb",
+          "status": "match"
+        },
+        {
+          "path": "scripts/hidden_unit_benchmark.py",
+          "expected": "107fe9ee78025a7267a200fa8cf7c46b2f2bfa8e5cfdfe6fc8e4c0b2b80acce9",
+          "actual": "107fe9ee78025a7267a200fa8cf7c46b2f2bfa8e5cfdfe6fc8e4c0b2b80acce9",
+          "status": "match"
+        },
+        {
+          "path": "scripts/numeric_word_codec.py",
+          "expected": "40996ba337f7c9941451e40dead6c8c523ade7ad0e2ab1d0a568633a42b249bc",
+          "actual": "40996ba337f7c9941451e40dead6c8c523ade7ad0e2ab1d0a568633a42b249bc",
+          "status": "match"
+        },
+        {
+          "path": "data/segmentation_reference/SOURCES.json",
+          "expected": "a009708032da499eccc835dc89b0b8bc6ac4b4af540cddc95e2b9c8aaca21af6",
+          "actual": "a009708032da499eccc835dc89b0b8bc6ac4b4af540cddc95e2b9c8aaca21af6",
+          "status": "match"
+        },
+        {
+          "path": "data/word_validator_reference/wizard_oz.txt",
+          "expected": "969bffab7740d4d8a0bac332d78bd0152ad4a40a2efc52f06c74a9bb6120be75",
+          "actual": "969bffab7740d4d8a0bac332d78bd0152ad4a40a2efc52f06c74a9bb6120be75",
+          "status": "match"
+        },
+        {
+          "path": "data/word_validator_reference/peter_pan.txt",
+          "expected": "6b08714281fe38266a756741e4c62915cda7536c2f78cca501f7fd53f3f445ae",
+          "actual": "6b08714281fe38266a756741e4c62915cda7536c2f78cca501f7fd53f3f445ae",
+          "status": "match"
+        },
+        {
+          "path": "data/segmentation_reference/dorian_gray.txt",
+          "expected": "38f36b510417177aa87a6a24c968e3ec63a447b7df36a9c1a7c5a3f2d9e51547",
+          "actual": "38f36b510417177aa87a6a24c968e3ec63a447b7df36a9c1a7c5a3f2d9e51547",
+          "status": "match"
+        },
+        {
+          "path": "data/segmentation_reference/age_innocence.txt",
+          "expected": "aae279f1a60ac64be53f63357e708a2fdaabdb334a1c92f81fc1c3b5c848a092",
+          "actual": "aae279f1a60ac64be53f63357e708a2fdaabdb334a1c92f81fc1c3b5c848a092",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round17_qualification_manifest.json",
+      "checks": [
+        {
+          "path": "data/round17_protocol.json",
+          "expected": "59eca93cfce17a9a43ecd62618c1c602f4500afb633fac3d48cb813f797dcbc4",
+          "actual": "59eca93cfce17a9a43ecd62618c1c602f4500afb633fac3d48cb813f797dcbc4",
+          "status": "match"
+        },
+        {
+          "path": "scripts/hidden_unit_segmenter.py",
+          "expected": "7d9904c3529ebacb135e250847cf945313ab3f4d6964506e3f95fc3a70a085bb",
+          "actual": "7d9904c3529ebacb135e250847cf945313ab3f4d6964506e3f95fc3a70a085bb",
+          "status": "match"
+        },
+        {
+          "path": "scripts/hidden_unit_benchmark.py",
+          "expected": "107fe9ee78025a7267a200fa8cf7c46b2f2bfa8e5cfdfe6fc8e4c0b2b80acce9",
+          "actual": "107fe9ee78025a7267a200fa8cf7c46b2f2bfa8e5cfdfe6fc8e4c0b2b80acce9",
+          "status": "match"
+        },
+        {
+          "path": "scripts/numeric_word_codec.py",
+          "expected": "40996ba337f7c9941451e40dead6c8c523ade7ad0e2ab1d0a568633a42b249bc",
+          "actual": "40996ba337f7c9941451e40dead6c8c523ade7ad0e2ab1d0a568633a42b249bc",
+          "status": "match"
+        },
+        {
+          "path": "data/segmentation_reference/SOURCES.json",
+          "expected": "a009708032da499eccc835dc89b0b8bc6ac4b4af540cddc95e2b9c8aaca21af6",
+          "actual": "a009708032da499eccc835dc89b0b8bc6ac4b4af540cddc95e2b9c8aaca21af6",
+          "status": "match"
+        },
+        {
+          "path": "data/word_validator_reference/wizard_oz.txt",
+          "expected": "969bffab7740d4d8a0bac332d78bd0152ad4a40a2efc52f06c74a9bb6120be75",
+          "actual": "969bffab7740d4d8a0bac332d78bd0152ad4a40a2efc52f06c74a9bb6120be75",
+          "status": "match"
+        },
+        {
+          "path": "data/word_validator_reference/peter_pan.txt",
+          "expected": "6b08714281fe38266a756741e4c62915cda7536c2f78cca501f7fd53f3f445ae",
+          "actual": "6b08714281fe38266a756741e4c62915cda7536c2f78cca501f7fd53f3f445ae",
+          "status": "match"
+        },
+        {
+          "path": "data/segmentation_reference/dorian_gray.txt",
+          "expected": "38f36b510417177aa87a6a24c968e3ec63a447b7df36a9c1a7c5a3f2d9e51547",
+          "actual": "38f36b510417177aa87a6a24c968e3ec63a447b7df36a9c1a7c5a3f2d9e51547",
+          "status": "match"
+        },
+        {
+          "path": "data/segmentation_reference/age_innocence.txt",
+          "expected": "aae279f1a60ac64be53f63357e708a2fdaabdb334a1c92f81fc1c3b5c848a092",
+          "actual": "aae279f1a60ac64be53f63357e708a2fdaabdb334a1c92f81fc1c3b5c848a092",
+          "status": "match"
+        },
+        {
+          "path": "results/round17_development.json",
+          "expected": "9308acf314d29f6336bc8a999eec1d55c63488d6f6e6374687ff76df69e43b77",
+          "actual": "9308acf314d29f6336bc8a999eec1d55c63488d6f6e6374687ff76df69e43b77",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round17_result_manifest.json",
+      "checks": [
+        {
+          "path": "data/round17_development_manifest.json",
+          "expected": "f53720c314a5b05915c1be7f0848bc1727af185351a5f04ccabdb14c4714a930",
+          "actual": "f53720c314a5b05915c1be7f0848bc1727af185351a5f04ccabdb14c4714a930",
+          "status": "match"
+        },
+        {
+          "path": "data/round17_qualification_manifest.json",
+          "expected": "67c121c28ce5e4d3dbca2ac26b4b8041477b2d6951b64021875dcca741b40d17",
+          "actual": "67c121c28ce5e4d3dbca2ac26b4b8041477b2d6951b64021875dcca741b40d17",
+          "status": "match"
+        },
+        {
+          "path": "data/plan_progress_round17.json",
+          "expected": "7cfad65cfa92f8b527a2a7a8bd93d12b025b4392e64dbc1738285cae205897aa",
+          "actual": "7cfad65cfa92f8b527a2a7a8bd93d12b025b4392e64dbc1738285cae205897aa",
+          "status": "match"
+        },
+        {
+          "path": "scripts/run_round17.py",
+          "expected": "c360bc7f2dd174aebc43cb394e7089d35af66fc192d65dfb8cc51638ee5c773b",
+          "actual": "c360bc7f2dd174aebc43cb394e7089d35af66fc192d65dfb8cc51638ee5c773b",
+          "status": "match"
+        },
+        {
+          "path": "scripts/hidden_unit_diagnostics.py",
+          "expected": "3f2ac25521a6f3d3a525dca19b7089430497985ddd352d943d3cdbd32976c5f5",
+          "actual": "3f2ac25521a6f3d3a525dca19b7089430497985ddd352d943d3cdbd32976c5f5",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_hidden_unit_segmenter.py",
+          "expected": "1e935bd45613643ca9fdf9b25e42ac703a0acb477016051c5ba764b5347ad23d",
+          "actual": "1e935bd45613643ca9fdf9b25e42ac703a0acb477016051c5ba764b5347ad23d",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_hidden_unit_diagnostics.py",
+          "expected": "5537e5e68643e6e2eb56d2065138d5349efd9369708bbef66d4742cdf5f52217",
+          "actual": "5537e5e68643e6e2eb56d2065138d5349efd9369708bbef66d4742cdf5f52217",
+          "status": "match"
+        },
+        {
+          "path": "docs/round17.md",
+          "expected": "fe1895b43ea472f0a0a18e0ae45cf601133170808baaa76e44eafcb8bf465f0e",
+          "actual": "fe1895b43ea472f0a0a18e0ae45cf601133170808baaa76e44eafcb8bf465f0e",
+          "status": "match"
+        },
+        {
+          "path": "results/round17_development.json",
+          "expected": "9308acf314d29f6336bc8a999eec1d55c63488d6f6e6374687ff76df69e43b77",
+          "actual": "9308acf314d29f6336bc8a999eec1d55c63488d6f6e6374687ff76df69e43b77",
+          "status": "match"
+        },
+        {
+          "path": "results/round17_qualification.json",
+          "expected": "324a894d55b622e9751c85e1ff7f1aaf11fccba6a7e542467873cf4c8abdd8e9",
+          "actual": "324a894d55b622e9751c85e1ff7f1aaf11fccba6a7e542467873cf4c8abdd8e9",
+          "status": "match"
+        },
+        {
+          "path": "results/round17_identifiability_certificate.json",
+          "expected": "4e4586bf63ca6307cdb50dc9c3b7c869f1d0d36e273d7d791474b70e6b7b93c0",
+          "actual": "4e4586bf63ca6307cdb50dc9c3b7c869f1d0d36e273d7d791474b70e6b7b93c0",
+          "status": "match"
+        },
+        {
+          "path": "results/round17_failure_diagnostics.json",
+          "expected": "6b10297da2d3d09b1654f38165655df4f030fa8ead12bfe97d533c0f50e50344",
+          "actual": "6b10297da2d3d09b1654f38165655df4f030fa8ead12bfe97d533c0f50e50344",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round18_evidence_manifest.json",
+      "checks": [
+        {
+          "path": "data/round18_protocol.json",
+          "expected": "22de66196951bfe945444860fc9add25a1bfa53e8d8ae99ba01aa449920732f3",
+          "actual": "22de66196951bfe945444860fc9add25a1bfa53e8d8ae99ba01aa449920732f3",
+          "status": "match"
+        },
+        {
+          "path": "scripts/context_constraint_solver.py",
+          "expected": "ba4371153c26a0382827d77269f324db60cb205a6cd6ebd94bb43903fd3ffa64",
+          "actual": "ba4371153c26a0382827d77269f324db60cb205a6cd6ebd94bb43903fd3ffa64",
+          "status": "match"
+        },
+        {
+          "path": "scripts/context_evidence_experiment.py",
+          "expected": "4b91fcb6be47d2db4cd5757a7f1af597c9129b50853e997105377e50a31e402d",
+          "actual": "4b91fcb6be47d2db4cd5757a7f1af597c9129b50853e997105377e50a31e402d",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round18_framing_manifest.json",
+      "checks": [
+        {
+          "path": "data/round18_framing_protocol.json",
+          "expected": "855c8936f4e86acf7a18e19e00099171a2a361dbf5d143fbbc19215e52f89092",
+          "actual": "855c8936f4e86acf7a18e19e00099171a2a361dbf5d143fbbc19215e52f89092",
+          "status": "match"
+        },
+        {
+          "path": "scripts/npc_framing_census.py",
+          "expected": "80b7de10f413cb827f7a436a9227fac6ee30d29f6317573449ab16d66c9b98a3",
+          "actual": "80b7de10f413cb827f7a436a9227fac6ee30d29f6317573449ab16d66c9b98a3",
+          "status": "match"
+        },
+        {
+          "path": "data/source_validation_inventory.json",
+          "expected": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+          "actual": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+          "status": "match"
+        },
+        {
+          "path": "data/normalized_books.json",
+          "expected": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+          "actual": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round18_result_manifest.json",
+      "checks": [
+        {
+          "path": "data/round18_evidence_manifest.json",
+          "expected": "735adaec30cf0d902d2b694006174c5ae6c063c9c534f5b93d820875a522e03f",
+          "actual": "735adaec30cf0d902d2b694006174c5ae6c063c9c534f5b93d820875a522e03f",
+          "status": "match"
+        },
+        {
+          "path": "data/round18_framing_manifest.json",
+          "expected": "d974884fe1e9d841cb319d76c66b40fc28e87af315bbdd8305fba3ef53b825eb",
+          "actual": "d974884fe1e9d841cb319d76c66b40fc28e87af315bbdd8305fba3ef53b825eb",
+          "status": "match"
+        },
+        {
+          "path": "data/round18_framing_scope_notes.json",
+          "expected": "2a450212bf04e8c22b75784c749900a00017962136df5cd823a8fa1fa0aac86a",
+          "actual": "2a450212bf04e8c22b75784c749900a00017962136df5cd823a8fa1fa0aac86a",
+          "status": "match"
+        },
+        {
+          "path": "data/plan_progress_round18.json",
+          "expected": "a2744bea496fc394aecbd310f429d0682023131bb41d91374a54823e8d9df312",
+          "actual": "a2744bea496fc394aecbd310f429d0682023131bb41d91374a54823e8d9df312",
+          "status": "match"
+        },
+        {
+          "path": "data/source_review_round18.json",
+          "expected": "90c44c5447b2869ab79a50f24f10960ac3fc435f8cc74cca8a82c1fb2e02f1be",
+          "actual": "90c44c5447b2869ab79a50f24f10960ac3fc435f8cc74cca8a82c1fb2e02f1be",
+          "status": "match"
+        },
+        {
+          "path": "scripts/run_round18.py",
+          "expected": "8757834ff4507bdc7508bd27f49e10f024166a4e42cb2bc5123d5a128f384a86",
+          "actual": "8757834ff4507bdc7508bd27f49e10f024166a4e42cb2bc5123d5a128f384a86",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_context_constraint_solver.py",
+          "expected": "ce3c72e199cab4ca4a6af41979fda47096e7454aa2253f638b0774db6b42b8ff",
+          "actual": "ce3c72e199cab4ca4a6af41979fda47096e7454aa2253f638b0774db6b42b8ff",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_context_consensus_limit.py",
+          "expected": "b4e9d33c1ecfe0c16bf6bfdc0bfff0e31f3250552d44d0184cd6abe80e7f2e68",
+          "actual": "b4e9d33c1ecfe0c16bf6bfdc0bfff0e31f3250552d44d0184cd6abe80e7f2e68",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_npc_framing_census.py",
+          "expected": "38b582c284ca53f05508e06be3f57b2cc9cded0bfa9932f18f34c7e67bd93f23",
+          "actual": "38b582c284ca53f05508e06be3f57b2cc9cded0bfa9932f18f34c7e67bd93f23",
+          "status": "match"
+        },
+        {
+          "path": "docs/round18.md",
+          "expected": "856fd857ef77b4d7d9a266f8e3e9671cde685f0bc08dee762ea04b374c0ab302",
+          "actual": "856fd857ef77b4d7d9a266f8e3e9671cde685f0bc08dee762ea04b374c0ab302",
+          "status": "match"
+        },
+        {
+          "path": "results/round18_context_evidence.json",
+          "expected": "3ea89edbed758a42487b991ba140837ab5e3aee7bd4cc0f052d8a7b58a8169b9",
+          "actual": "3ea89edbed758a42487b991ba140837ab5e3aee7bd4cc0f052d8a7b58a8169b9",
+          "status": "match"
+        },
+        {
+          "path": "results/round18_npc_framing.json",
+          "expected": "442e4367ed6c4a11c8738d767a4c9402cbf49aee2d48289142e1247c0cbef873",
+          "actual": "442e4367ed6c4a11c8738d767a4c9402cbf49aee2d48289142e1247c0cbef873",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round19_copy_boundary_manifest.json",
+      "checks": [
+        {
+          "path": "data/round19_copy_boundary_protocol.json",
+          "expected": "935fd29cbbdfd35678c947cd173e90d7395fea281497109d4bbfa71a650bc017",
+          "actual": "935fd29cbbdfd35678c947cd173e90d7395fea281497109d4bbfa71a650bc017",
+          "status": "match"
+        },
+        {
+          "path": "scripts/source_copy_seams.py",
+          "expected": "e886c4776842a994c8a8f9b127328b5310ac601a39c364205958fbad50661b52",
+          "actual": "e886c4776842a994c8a8f9b127328b5310ac601a39c364205958fbad50661b52",
+          "status": "match"
+        },
+        {
+          "path": "scripts/zero_rule_constraints.py",
+          "expected": "1b2c29541fb49f8e0ddbbdb2f756c442b2f57faf984e1a94c80d29bcb3a4a34e",
+          "actual": "1b2c29541fb49f8e0ddbbdb2f756c442b2f57faf984e1a94c80d29bcb3a4a34e",
+          "status": "match"
+        },
+        {
+          "path": "data/source_validation_inventory.json",
+          "expected": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+          "actual": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+          "status": "match"
+        },
+        {
+          "path": "data/normalized_books.json",
+          "expected": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+          "actual": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+          "status": "match"
+        },
+        {
+          "path": "data/normalized_splits.json",
+          "expected": "0a0f9d3b60b4077bf9e3074919d35e754f6f77fd4ca4423b160e14e5a58ac3de",
+          "actual": "0a0f9d3b60b4077bf9e3074919d35e754f6f77fd4ca4423b160e14e5a58ac3de",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round19_evidence_manifest.json",
+      "checks": [
+        {
+          "path": "data/round19_protocol.json",
+          "expected": "416296c5dd614243a39ccb83561ad42d4080db9266191f8588aa363b1a200453",
+          "actual": "416296c5dd614243a39ccb83561ad42d4080db9266191f8588aa363b1a200453",
+          "status": "match"
+        },
+        {
+          "path": "data/round19_photo_transcription.json",
+          "expected": "5febeacd8e4d17c4001b1b6f4f6a897826444a73cb70a953859fedde3b406688",
+          "actual": "5febeacd8e4d17c4001b1b6f4f6a897826444a73cb70a953859fedde3b406688",
+          "status": "match"
+        },
+        {
+          "path": "data/round19_http_manifest.json",
+          "expected": "0103c399e00b57d381ace44c3bcb27efa2d541c585a08508312a9692c73c57c0",
+          "actual": "0103c399e00b57d381ace44c3bcb27efa2d541c585a08508312a9692c73c57c0",
+          "status": "match"
+        },
+        {
+          "path": "data/round19_source_targets.json",
+          "expected": "45a2c63ef3f8f9cb74df816fbc9150eefa4ace3361f58a3719e3c30cae820d82",
+          "actual": "45a2c63ef3f8f9cb74df816fbc9150eefa4ace3361f58a3719e3c30cae820d82",
+          "status": "match"
+        },
+        {
+          "path": "data/round19_conversion_numeric.json",
+          "expected": "603541d3bbf638001a1f6eb53ac5efce446f90a00f3ecfa923d8651800ba4e03",
+          "actual": "603541d3bbf638001a1f6eb53ac5efce446f90a00f3ecfa923d8651800ba4e03",
+          "status": "match"
+        },
+        {
+          "path": "scripts/photo_conversion_audit.py",
+          "expected": "b7a5d610352b744b7aec9937e51127375fbc19a4ee6f70302a0adad6d2d289c0",
+          "actual": "b7a5d610352b744b7aec9937e51127375fbc19a4ee6f70302a0adad6d2d289c0",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round19_result_manifest.json",
+      "checks": [
+        {
+          "path": "data/round19_evidence_manifest.json",
+          "expected": "50c4da717ec094702b07bd0df3e4274f5b9a893abb28f3e21f097067170a9b18",
+          "actual": "50c4da717ec094702b07bd0df3e4274f5b9a893abb28f3e21f097067170a9b18",
+          "status": "match"
+        },
+        {
+          "path": "data/round19_copy_boundary_manifest.json",
+          "expected": "cdc33657a570197b37bbb82d01ae749648400d22039d5463f2ce9e4a96c1ab3f",
+          "actual": "cdc33657a570197b37bbb82d01ae749648400d22039d5463f2ce9e4a96c1ab3f",
+          "status": "match"
+        },
+        {
+          "path": "data/round19_scope_notes.json",
+          "expected": "3e8997f41c31b6aa091c494e10413018bf1b8067b9d2ea29255081eeec8af2ab",
+          "actual": "3e8997f41c31b6aa091c494e10413018bf1b8067b9d2ea29255081eeec8af2ab",
+          "status": "match"
+        },
+        {
+          "path": "data/plan_progress_round19.json",
+          "expected": "94da05062b9195cebadadb0ac81a3ab091e322e412fcf52b4ae7340714446595",
+          "actual": "94da05062b9195cebadadb0ac81a3ab091e322e412fcf52b4ae7340714446595",
+          "status": "match"
+        },
+        {
+          "path": "data/source_review_round19.json",
+          "expected": "0938faa41d5974d4bc2549fe3ae099fbaf3589fa00016c40347c36b0be941a3b",
+          "actual": "0938faa41d5974d4bc2549fe3ae099fbaf3589fa00016c40347c36b0be941a3b",
+          "status": "match"
+        },
+        {
+          "path": "scripts/run_round19.py",
+          "expected": "c6912420e6e6438096cdce62c92243c359342364859e51b105257c45be046c43",
+          "actual": "c6912420e6e6438096cdce62c92243c359342364859e51b105257c45be046c43",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_photo_conversion_audit.py",
+          "expected": "f384c2c45acce5e6154220c9963a5b59ad6f838440bd6548997779987e51def0",
+          "actual": "f384c2c45acce5e6154220c9963a5b59ad6f838440bd6548997779987e51def0",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_source_copy_seams.py",
+          "expected": "c849158d83e18fe1a90de3d0efe63cf9e4298968f53e128e8fc11d4a787a621d",
+          "actual": "c849158d83e18fe1a90de3d0efe63cf9e4298968f53e128e8fc11d4a787a621d",
+          "status": "match"
+        },
+        {
+          "path": "docs/round19.md",
+          "expected": "4240077736c4a4333c90c3f32c1a8b7af18b78e70c90039a97bd8475f25afb97",
+          "actual": "4240077736c4a4333c90c3f32c1a8b7af18b78e70c90039a97bd8475f25afb97",
+          "status": "match"
+        },
+        {
+          "path": "results/round19_photo_conversion.json",
+          "expected": "c3bb1e071567a91a7675721463c8eb7994bae9bf412b709b07037b64b2b6478e",
+          "actual": "c3bb1e071567a91a7675721463c8eb7994bae9bf412b709b07037b64b2b6478e",
+          "status": "match"
+        },
+        {
+          "path": "results/round19_copy_seams.json",
+          "expected": "217670f55ae1640f9174058423cb3b7b48a25553fe11a7cf8b34e807fdb07343",
+          "actual": "217670f55ae1640f9174058423cb3b7b48a25553fe11a7cf8b34e807fdb07343",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round20_chayenne_manifest.json",
+      "checks": [
+        {
+          "path": "data/round20_chayenne_protocol.json",
+          "expected": "8bcfbf3d4d39e6976dfe5c2ad695d3b3218e0d7d53210978e6a08ebd90501bdb",
+          "actual": "8bcfbf3d4d39e6976dfe5c2ad695d3b3218e0d7d53210978e6a08ebd90501bdb",
+          "status": "match"
+        },
+        {
+          "path": "data/round20_evidence_manifest.json",
+          "expected": "334f09e3c1c120c68944dfa43eee3a300d956f0b64b8eb326df010c75515f5ba",
+          "actual": "334f09e3c1c120c68944dfa43eee3a300d956f0b64b8eb326df010c75515f5ba",
+          "status": "match"
+        },
+        {
+          "path": "scripts/chayenne_decimal_search.py",
+          "expected": "398d7a2a47cbb88bb0a7b18ad69c7f9ac4623b2a1f83955b1bf112ba9cd9fe60",
+          "actual": "398d7a2a47cbb88bb0a7b18ad69c7f9ac4623b2a1f83955b1bf112ba9cd9fe60",
+          "status": "match"
+        },
+        {
+          "path": "data/normalized_books.json",
+          "expected": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+          "actual": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+          "status": "match"
+        },
+        {
+          "path": "data/normalized_splits.json",
+          "expected": "0a0f9d3b60b4077bf9e3074919d35e754f6f77fd4ca4423b160e14e5a58ac3de",
+          "actual": "0a0f9d3b60b4077bf9e3074919d35e754f6f77fd4ca4423b160e14e5a58ac3de",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round20_evidence_manifest.json",
+      "checks": [
+        {
+          "path": "data/round20_protocol.json",
+          "expected": "cf850f278d74067ff365693509a1a5c7b67e5e44068f099dbb9f6869fa602db4",
+          "actual": "cf850f278d74067ff365693509a1a5c7b67e5e44068f099dbb9f6869fa602db4",
+          "status": "match"
+        },
+        {
+          "path": "scripts/target_decimal_solver.py",
+          "expected": "1a88f2bb1e49295c7d6485dec23890f23f67def06420278898613e5b2ce2260c",
+          "actual": "1a88f2bb1e49295c7d6485dec23890f23f67def06420278898613e5b2ce2260c",
+          "status": "match"
+        },
+        {
+          "path": "scripts/target_decimal_experiment.py",
+          "expected": "151c74cf3300b277e2a93eebdf9e2f066e9725dbd83bc42832275f91fc31164b",
+          "actual": "151c74cf3300b277e2a93eebdf9e2f066e9725dbd83bc42832275f91fc31164b",
+          "status": "match"
+        },
+        {
+          "path": "scripts/independent_word_validator.py",
+          "expected": "7f5b318fd6fca3fa1983a62c88a09599cbc758e22a58decf934ab814709c0da8",
+          "actual": "7f5b318fd6fca3fa1983a62c88a09599cbc758e22a58decf934ab814709c0da8",
+          "status": "match"
+        },
+        {
+          "path": "data/source_validation_inventory.json",
+          "expected": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+          "actual": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+          "status": "match"
+        },
+        {
+          "path": "data/word_validator_reference/secret_garden.txt",
+          "expected": "40709a2894f0816a97dd8a67d3082cfc4dac31e45b45ee55a908d62e1dd18c23",
+          "actual": "40709a2894f0816a97dd8a67d3082cfc4dac31e45b45ee55a908d62e1dd18c23",
+          "status": "match"
+        },
+        {
+          "path": "data/word_validator_reference/my_man_jeeves.txt",
+          "expected": "e8fff3273914c243fb8c0d35513e4397df4f64bf438e92c173d3ae13b000adb7",
+          "actual": "e8fff3273914c243fb8c0d35513e4397df4f64bf438e92c173d3ae13b000adb7",
+          "status": "match"
+        },
+        {
+          "path": "data/word_validator_reference/wizard_oz.txt",
+          "expected": "969bffab7740d4d8a0bac332d78bd0152ad4a40a2efc52f06c74a9bb6120be75",
+          "actual": "969bffab7740d4d8a0bac332d78bd0152ad4a40a2efc52f06c74a9bb6120be75",
+          "status": "match"
+        },
+        {
+          "path": "data/word_validator_reference/peter_pan.txt",
+          "expected": "6b08714281fe38266a756741e4c62915cda7536c2f78cca501f7fd53f3f445ae",
+          "actual": "6b08714281fe38266a756741e4c62915cda7536c2f78cca501f7fd53f3f445ae",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round20_result_manifest.json",
+      "checks": [
+        {
+          "path": "data/round20_evidence_manifest.json",
+          "expected": "334f09e3c1c120c68944dfa43eee3a300d956f0b64b8eb326df010c75515f5ba",
+          "actual": "334f09e3c1c120c68944dfa43eee3a300d956f0b64b8eb326df010c75515f5ba",
+          "status": "match"
+        },
+        {
+          "path": "data/round20_chayenne_manifest.json",
+          "expected": "c8a9135810f35a898a7451759f3c29218647dbf416408cc5e53290f663681252",
+          "actual": "c8a9135810f35a898a7451759f3c29218647dbf416408cc5e53290f663681252",
+          "status": "match"
+        },
+        {
+          "path": "data/plan_progress_round20.json",
+          "expected": "d82244a12b31481d52fbee2fc8779abcfa69e3cb11d1343b2e14d076f6e3873c",
+          "actual": "d82244a12b31481d52fbee2fc8779abcfa69e3cb11d1343b2e14d076f6e3873c",
+          "status": "match"
+        },
+        {
+          "path": "data/source_review_round20.json",
+          "expected": "054845546391b731e83635ef3ce03bfc28cb905d439ae6351ebdae51ced5149c",
+          "actual": "054845546391b731e83635ef3ce03bfc28cb905d439ae6351ebdae51ced5149c",
+          "status": "match"
+        },
+        {
+          "path": "scripts/run_round20.py",
+          "expected": "0689178a85a762c6008380c6358bd0f4b67679ad39572634fd8cc5dace3f450d",
+          "actual": "0689178a85a762c6008380c6358bd0f4b67679ad39572634fd8cc5dace3f450d",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_target_decimal_solver.py",
+          "expected": "47267c8a5506bb3bca0bc986d7f1df1293c1a7dc40dcd996c650486c5d2ecbb1",
+          "actual": "47267c8a5506bb3bca0bc986d7f1df1293c1a7dc40dcd996c650486c5d2ecbb1",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_chayenne_decimal_search.py",
+          "expected": "16ef28b9fbe64730c05cd70baac366df41dcd5cd4c76f4a9959eb351eedb9d04",
+          "actual": "16ef28b9fbe64730c05cd70baac366df41dcd5cd4c76f4a9959eb351eedb9d04",
+          "status": "match"
+        },
+        {
+          "path": "docs/round20.md",
+          "expected": "67b63c6a727a12dd835df9fdbf37d16f1cf99791bd2257abb003f7c7a9621d3b",
+          "actual": "67b63c6a727a12dd835df9fdbf37d16f1cf99791bd2257abb003f7c7a9621d3b",
+          "status": "match"
+        },
+        {
+          "path": "results/round20_target_decimal.json",
+          "expected": "73960e633ffa80f955b90e18e6c62da2373485fed583dd0e6a82c1e1853fa4c2",
+          "actual": "73960e633ffa80f955b90e18e6c62da2373485fed583dd0e6a82c1e1853fa4c2",
+          "status": "match"
+        },
+        {
+          "path": "results/round20_chayenne_decimal.json",
+          "expected": "c0a32ff4e646540f474d96d0c2ce6e92369faf098a8132aad1761374653bedc7",
+          "actual": "c0a32ff4e646540f474d96d0c2ce6e92369faf098a8132aad1761374653bedc7",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round21_evidence_manifest.json",
+      "checks": [
+        {
+          "path": "data/round21_protocol.json",
+          "expected": "f46fc24cebe441e90b2871f3ac433e08df3270f4be55d4fcbbb493ba5892f6df",
+          "actual": "f46fc24cebe441e90b2871f3ac433e08df3270f4be55d4fcbbb493ba5892f6df",
+          "status": "match"
+        },
+        {
+          "path": "scripts/periodic_decimal_solver.py",
+          "expected": "ba0cc7b6a4a6de960c53532e800c5736d0e62b7bef9639393277677a07021ff9",
+          "actual": "ba0cc7b6a4a6de960c53532e800c5736d0e62b7bef9639393277677a07021ff9",
+          "status": "match"
+        },
+        {
+          "path": "scripts/periodic_decimal_experiment.py",
+          "expected": "f7d432a52734b1cb7396708721057a7756e7f38197d6acf6a36d78086efcd336",
+          "actual": "f7d432a52734b1cb7396708721057a7756e7f38197d6acf6a36d78086efcd336",
+          "status": "match"
+        },
+        {
+          "path": "scripts/target_decimal_solver.py",
+          "expected": "1a88f2bb1e49295c7d6485dec23890f23f67def06420278898613e5b2ce2260c",
+          "actual": "1a88f2bb1e49295c7d6485dec23890f23f67def06420278898613e5b2ce2260c",
+          "status": "match"
+        },
+        {
+          "path": "scripts/target_decimal_experiment.py",
+          "expected": "151c74cf3300b277e2a93eebdf9e2f066e9725dbd83bc42832275f91fc31164b",
+          "actual": "151c74cf3300b277e2a93eebdf9e2f066e9725dbd83bc42832275f91fc31164b",
+          "status": "match"
+        },
+        {
+          "path": "scripts/independent_word_validator.py",
+          "expected": "7f5b318fd6fca3fa1983a62c88a09599cbc758e22a58decf934ab814709c0da8",
+          "actual": "7f5b318fd6fca3fa1983a62c88a09599cbc758e22a58decf934ab814709c0da8",
+          "status": "match"
+        },
+        {
+          "path": "data/source_validation_inventory.json",
+          "expected": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+          "actual": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+          "status": "match"
+        },
+        {
+          "path": "data/normalized_books.json",
+          "expected": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+          "actual": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+          "status": "match"
+        },
+        {
+          "path": "data/normalized_splits.json",
+          "expected": "0a0f9d3b60b4077bf9e3074919d35e754f6f77fd4ca4423b160e14e5a58ac3de",
+          "actual": "0a0f9d3b60b4077bf9e3074919d35e754f6f77fd4ca4423b160e14e5a58ac3de",
+          "status": "match"
+        },
+        {
+          "path": "requirements.txt",
+          "expected": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7",
+          "actual": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7",
+          "status": "match"
+        },
+        {
+          "path": "data/word_validator_reference/secret_garden.txt",
+          "expected": "40709a2894f0816a97dd8a67d3082cfc4dac31e45b45ee55a908d62e1dd18c23",
+          "actual": "40709a2894f0816a97dd8a67d3082cfc4dac31e45b45ee55a908d62e1dd18c23",
+          "status": "match"
+        },
+        {
+          "path": "data/word_validator_reference/my_man_jeeves.txt",
+          "expected": "e8fff3273914c243fb8c0d35513e4397df4f64bf438e92c173d3ae13b000adb7",
+          "actual": "e8fff3273914c243fb8c0d35513e4397df4f64bf438e92c173d3ae13b000adb7",
+          "status": "match"
+        },
+        {
+          "path": "data/word_validator_reference/wizard_oz.txt",
+          "expected": "969bffab7740d4d8a0bac332d78bd0152ad4a40a2efc52f06c74a9bb6120be75",
+          "actual": "969bffab7740d4d8a0bac332d78bd0152ad4a40a2efc52f06c74a9bb6120be75",
+          "status": "match"
+        },
+        {
+          "path": "data/word_validator_reference/peter_pan.txt",
+          "expected": "6b08714281fe38266a756741e4c62915cda7536c2f78cca501f7fd53f3f445ae",
+          "actual": "6b08714281fe38266a756741e4c62915cda7536c2f78cca501f7fd53f3f445ae",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round21_optimization_manifest.json",
+      "checks": [
+        {
+          "path": "scripts/periodic_decimal_fast.py",
+          "expected": "65d4fff14fbd6a56d9f27cfd21fd6ea1087c1f6f33495a52e14de95d5f3479d5",
+          "actual": "65d4fff14fbd6a56d9f27cfd21fd6ea1087c1f6f33495a52e14de95d5f3479d5",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_periodic_fast_equivalence.py",
+          "expected": "4ff9c1c6c4040080178ad8753d2a49f7f20c433c93f212991e68f515a054ebd4",
+          "actual": "4ff9c1c6c4040080178ad8753d2a49f7f20c433c93f212991e68f515a054ebd4",
+          "status": "match"
+        },
+        {
+          "path": "data/round21_evidence_manifest.json",
+          "expected": "cd6105b64591211b648786d97ee83e57c5299b4a17d3b53da4dd18e615bdd5d1",
+          "actual": "cd6105b64591211b648786d97ee83e57c5299b4a17d3b53da4dd18e615bdd5d1",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round21_result_manifest.json",
+      "checks": [
+        {
+          "path": "data/round21_evidence_manifest.json",
+          "expected": "cd6105b64591211b648786d97ee83e57c5299b4a17d3b53da4dd18e615bdd5d1",
+          "actual": "cd6105b64591211b648786d97ee83e57c5299b4a17d3b53da4dd18e615bdd5d1",
+          "status": "match"
+        },
+        {
+          "path": "data/round21_optimization_manifest.json",
+          "expected": "6f688904a478abab1db665ba4f53375ac7f786d12de7c764f52d5c0a17a02d82",
+          "actual": "6f688904a478abab1db665ba4f53375ac7f786d12de7c764f52d5c0a17a02d82",
+          "status": "match"
+        },
+        {
+          "path": "data/round21_vectorized_manifest.json",
+          "expected": "44226af7ebee7f1229140f8552b998ef1c830941e4c6a4b577cc799c98ab6805",
+          "actual": "44226af7ebee7f1229140f8552b998ef1c830941e4c6a4b577cc799c98ab6805",
+          "status": "match"
+        },
+        {
+          "path": "data/round21_summary.json",
+          "expected": "2cfed9c93ce769f144d2ab18dd8a520458f72b3ea9e2baab5b0fc215063e2fad",
+          "actual": "2cfed9c93ce769f144d2ab18dd8a520458f72b3ea9e2baab5b0fc215063e2fad",
+          "status": "match"
+        },
+        {
+          "path": "data/plan_progress_round21.json",
+          "expected": "af1a5eb39ed0507edd8f77914732a50de57574fbc10e19f80b58ec305249de17",
+          "actual": "af1a5eb39ed0507edd8f77914732a50de57574fbc10e19f80b58ec305249de17",
+          "status": "match"
+        },
+        {
+          "path": "docs/round21.md",
+          "expected": "cc0bb17e6ab3ef95dd579a6247beb1bb9bb781ed654c87fa995509c175171b6c",
+          "actual": "cc0bb17e6ab3ef95dd579a6247beb1bb9bb781ed654c87fa995509c175171b6c",
+          "status": "match"
+        },
+        {
+          "path": "scripts/run_round21.py",
+          "expected": "6e323c61e83280f32d25bafc0b052c79179d7733cbc141f64e7b14c70e106ffe",
+          "actual": "6e323c61e83280f32d25bafc0b052c79179d7733cbc141f64e7b14c70e106ffe",
+          "status": "match"
+        },
+        {
+          "path": "scripts/periodic_result_summary.py",
+          "expected": "5dbf0520a23ee6a893c1510ba8809b27debbe6e961421237a4024c5a6835d351",
+          "actual": "5dbf0520a23ee6a893c1510ba8809b27debbe6e961421237a4024c5a6835d351",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_periodic_decimal_solver.py",
+          "expected": "7773858db5e11a619036c929577fb6dbe77456e3fdf4b7f041c9a52caee63a62",
+          "actual": "7773858db5e11a619036c929577fb6dbe77456e3fdf4b7f041c9a52caee63a62",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_periodic_transfer_consensus.py",
+          "expected": "c0cfd6ac05c454c4e771b575547f6a0cb666f5a7d59820abadb953e9364f675d",
+          "actual": "c0cfd6ac05c454c4e771b575547f6a0cb666f5a7d59820abadb953e9364f675d",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_periodic_key_union.py",
+          "expected": "c715e8611181932af960fcd231201276cdb575e165250e5c2097c4d2f7e072b5",
+          "actual": "c715e8611181932af960fcd231201276cdb575e165250e5c2097c4d2f7e072b5",
+          "status": "match"
+        },
+        {
+          "path": "results/round21_periodic_decimal.json",
+          "expected": "3f50620d9b64a90f0574331e1cef4aceeefe481a73051bbfe92c37686d4eab18",
+          "actual": "3f50620d9b64a90f0574331e1cef4aceeefe481a73051bbfe92c37686d4eab18",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round21_vectorized_manifest.json",
+      "checks": [
+        {
+          "path": "data/round21_evidence_manifest.json",
+          "expected": "cd6105b64591211b648786d97ee83e57c5299b4a17d3b53da4dd18e615bdd5d1",
+          "actual": "cd6105b64591211b648786d97ee83e57c5299b4a17d3b53da4dd18e615bdd5d1",
+          "status": "match"
+        },
+        {
+          "path": "data/round21_optimization_manifest.json",
+          "expected": "6f688904a478abab1db665ba4f53375ac7f786d12de7c764f52d5c0a17a02d82",
+          "actual": "6f688904a478abab1db665ba4f53375ac7f786d12de7c764f52d5c0a17a02d82",
+          "status": "match"
+        },
+        {
+          "path": "scripts/periodic_decimal_vectorized.py",
+          "expected": "fd344e894080d8cf8311200700ea39b91e93fe22e4c9aa80e13d3f8a19955f6e",
+          "actual": "fd344e894080d8cf8311200700ea39b91e93fe22e4c9aa80e13d3f8a19955f6e",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_periodic_vectorized_equivalence.py",
+          "expected": "c9cea8be83f4850658df78b0c50f32f44a79a0b088f96f4d2855371fdfcb39b5",
+          "actual": "c9cea8be83f4850658df78b0c50f32f44a79a0b088f96f4d2855371fdfcb39b5",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round22_evidence_manifest.json",
+      "checks": [
+        {
+          "path": "data/round22_protocol.json",
+          "expected": "cf9bacc5d09c5eeb8187373f682c95415bb58a9964ff0483f3d942561045f102",
+          "actual": "cf9bacc5d09c5eeb8187373f682c95415bb58a9964ff0483f3d942561045f102",
+          "status": "match"
+        },
+        {
+          "path": "data/round22_cases.json",
+          "expected": "de564e2a4b48c64fb058a864ae3020d38100000b9672c22f4c5564ebc92cd9dd",
+          "actual": "de564e2a4b48c64fb058a864ae3020d38100000b9672c22f4c5564ebc92cd9dd",
+          "status": "match"
+        },
+        {
+          "path": "native/periodic_dictionary_search.cpp",
+          "expected": "0d0183efefdb263c78d2b3e34f7f80e75d3328baa3f3a99317f2a24614bb44aa",
+          "actual": "0d0183efefdb263c78d2b3e34f7f80e75d3328baa3f3a99317f2a24614bb44aa",
+          "status": "match"
+        },
+        {
+          "path": "scripts/exhaustive_periodic_native.py",
+          "expected": "8fc5e092b9d0182cea08feea666d6a9f69b3ea0de3476cf60e4283d8ee3f7688",
+          "actual": "8fc5e092b9d0182cea08feea666d6a9f69b3ea0de3476cf60e4283d8ee3f7688",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round22_exhaustive_experiment.py",
+          "expected": "e9dc0462fa206606ac13da7b7a12d75c42259cf5009d27e2bf38ca4190238c21",
+          "actual": "e9dc0462fa206606ac13da7b7a12d75c42259cf5009d27e2bf38ca4190238c21",
+          "status": "match"
+        },
+        {
+          "path": "scripts/periodic_decimal_solver.py",
+          "expected": "ba0cc7b6a4a6de960c53532e800c5736d0e62b7bef9639393277677a07021ff9",
+          "actual": "ba0cc7b6a4a6de960c53532e800c5736d0e62b7bef9639393277677a07021ff9",
+          "status": "match"
+        },
+        {
+          "path": "scripts/periodic_decimal_fast.py",
+          "expected": "65d4fff14fbd6a56d9f27cfd21fd6ea1087c1f6f33495a52e14de95d5f3479d5",
+          "actual": "65d4fff14fbd6a56d9f27cfd21fd6ea1087c1f6f33495a52e14de95d5f3479d5",
+          "status": "match"
+        },
+        {
+          "path": "scripts/target_decimal_experiment.py",
+          "expected": "151c74cf3300b277e2a93eebdf9e2f066e9725dbd83bc42832275f91fc31164b",
+          "actual": "151c74cf3300b277e2a93eebdf9e2f066e9725dbd83bc42832275f91fc31164b",
+          "status": "match"
+        },
+        {
+          "path": "scripts/target_decimal_solver.py",
+          "expected": "1a88f2bb1e49295c7d6485dec23890f23f67def06420278898613e5b2ce2260c",
+          "actual": "1a88f2bb1e49295c7d6485dec23890f23f67def06420278898613e5b2ce2260c",
+          "status": "match"
+        },
+        {
+          "path": "scripts/independent_word_validator.py",
+          "expected": "7f5b318fd6fca3fa1983a62c88a09599cbc758e22a58decf934ab814709c0da8",
+          "actual": "7f5b318fd6fca3fa1983a62c88a09599cbc758e22a58decf934ab814709c0da8",
+          "status": "match"
+        },
+        {
+          "path": "data/source_validation_inventory.json",
+          "expected": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+          "actual": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+          "status": "match"
+        },
+        {
+          "path": "results/round21_periodic_decimal.json",
+          "expected": "3f50620d9b64a90f0574331e1cef4aceeefe481a73051bbfe92c37686d4eab18",
+          "actual": "3f50620d9b64a90f0574331e1cef4aceeefe481a73051bbfe92c37686d4eab18",
+          "status": "match"
+        },
+        {
+          "path": "data/word_validator_reference/secret_garden.txt",
+          "expected": "40709a2894f0816a97dd8a67d3082cfc4dac31e45b45ee55a908d62e1dd18c23",
+          "actual": "40709a2894f0816a97dd8a67d3082cfc4dac31e45b45ee55a908d62e1dd18c23",
+          "status": "match"
+        },
+        {
+          "path": "data/word_validator_reference/my_man_jeeves.txt",
+          "expected": "e8fff3273914c243fb8c0d35513e4397df4f64bf438e92c173d3ae13b000adb7",
+          "actual": "e8fff3273914c243fb8c0d35513e4397df4f64bf438e92c173d3ae13b000adb7",
+          "status": "match"
+        },
+        {
+          "path": "data/word_validator_reference/wizard_oz.txt",
+          "expected": "969bffab7740d4d8a0bac332d78bd0152ad4a40a2efc52f06c74a9bb6120be75",
+          "actual": "969bffab7740d4d8a0bac332d78bd0152ad4a40a2efc52f06c74a9bb6120be75",
+          "status": "match"
+        },
+        {
+          "path": "data/word_validator_reference/peter_pan.txt",
+          "expected": "6b08714281fe38266a756741e4c62915cda7536c2f78cca501f7fd53f3f445ae",
+          "actual": "6b08714281fe38266a756741e4c62915cda7536c2f78cca501f7fd53f3f445ae",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round22_result_manifest.json",
+      "checks": [
+        {
+          "path": "data/round22_evidence_manifest.json",
+          "expected": "43a7099d2367a6b8b07a4b2e76c19bb668625def05f8dfdf37407cb9f2bdb342",
+          "actual": "43a7099d2367a6b8b07a4b2e76c19bb668625def05f8dfdf37407cb9f2bdb342",
+          "status": "match"
+        },
+        {
+          "path": "data/round22_summary.json",
+          "expected": "53a072ea2652255936cfce8255fbabb57be1402d3a9008af2b8363563d95454c",
+          "actual": "53a072ea2652255936cfce8255fbabb57be1402d3a9008af2b8363563d95454c",
+          "status": "match"
+        },
+        {
+          "path": "data/plan_progress_round22.json",
+          "expected": "c0f821772c1de857a62420b237bc0cd8556d634520f967a72e97896b28a46c85",
+          "actual": "c0f821772c1de857a62420b237bc0cd8556d634520f967a72e97896b28a46c85",
+          "status": "match"
+        },
+        {
+          "path": "docs/round22.md",
+          "expected": "c110c296bc567354b0707de7537752390c655634d89aa69f855c6bf1adc34102",
+          "actual": "c110c296bc567354b0707de7537752390c655634d89aa69f855c6bf1adc34102",
+          "status": "match"
+        },
+        {
+          "path": "scripts/run_round22.py",
+          "expected": "ee35ed23bd7cf85d5f203bfcbae98369c45beb37dab7d58d46548efdc04c5560",
+          "actual": "ee35ed23bd7cf85d5f203bfcbae98369c45beb37dab7d58d46548efdc04c5560",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round22_summary.py",
+          "expected": "410702652fcc29e12f6702c0c779825702fa5b5a18bbe1d3aaa0810ec58608db",
+          "actual": "410702652fcc29e12f6702c0c779825702fa5b5a18bbe1d3aaa0810ec58608db",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_exhaustive_periodic_native.py",
+          "expected": "147b9d39af7defcfdc6b58213e2403fa0ce0ac50ee18d9d97cb02fb2f00a7d1b",
+          "actual": "147b9d39af7defcfdc6b58213e2403fa0ce0ac50ee18d9d97cb02fb2f00a7d1b",
+          "status": "match"
+        },
+        {
+          "path": "results/round22_exhaustive.json",
+          "expected": "0fd5636499b6030a51ad3579c233d980aa3f0ade7ec35469caa2d5c1fcc009d8",
+          "actual": "0fd5636499b6030a51ad3579c233d980aa3f0ade7ec35469caa2d5c1fcc009d8",
+          "status": "match"
+        },
+        {
+          "path": "results/round22_compiler.json",
+          "expected": "04f41921f25e71954d331a162b6927c8968afb5d7b7d4c80a115d14e97402743",
+          "actual": "04f41921f25e71954d331a162b6927c8968afb5d7b7d4c80a115d14e97402743",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round23_input_manifest.json",
+      "checks": [
+        {
+          "path": "data/round23_protocol.json",
+          "expected": "c606be946248994ee9c1439bcd257a7592ae21c9590d4930669f6a0979907e0c",
+          "actual": "c606be946248994ee9c1439bcd257a7592ae21c9590d4930669f6a0979907e0c",
+          "status": "match"
+        },
+        {
+          "path": "data/round23_fixtures.json",
+          "expected": "c2778295ea2a4a6e0defc53f455a866701ec53f138a41848a652227f6a36b2fd",
+          "actual": "c2778295ea2a4a6e0defc53f455a866701ec53f138a41848a652227f6a36b2fd",
+          "status": "match"
+        },
+        {
+          "path": "data/source_validation_inventory.json",
+          "expected": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+          "actual": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+          "status": "match"
+        },
+        {
+          "path": "scripts/unit_morphism_lexicon.py",
+          "expected": "4e1bc4aef71d2b8d6146f00fe2f917d0934743ebb2e79ada737a2ce53c113e9d",
+          "actual": "4e1bc4aef71d2b8d6146f00fe2f917d0934743ebb2e79ada737a2ce53c113e9d",
+          "status": "match"
+        },
+        {
+          "path": "scripts/unit_morphism_solver.py",
+          "expected": "28ef1716a9e3213a8e1ac8321446323e66bba9affc40a488894425d0dfa1627e",
+          "actual": "28ef1716a9e3213a8e1ac8321446323e66bba9affc40a488894425d0dfa1627e",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round23_fixtures.py",
+          "expected": "f1c73bf11f5220313a272952acccfd10813c3763de67db1f7134c731caeafc28",
+          "actual": "f1c73bf11f5220313a272952acccfd10813c3763de67db1f7134c731caeafc28",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round23_experiment.py",
+          "expected": "f01bc1c61abb2ca20dc02bf02cc8f29881166fe36933cc8fe5e2d1c0b971edfe",
+          "actual": "f01bc1c61abb2ca20dc02bf02cc8f29881166fe36933cc8fe5e2d1c0b971edfe",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_unit_morphism.py",
+          "expected": "d547b60094d90ce692ab6f7064756c0a5dcf4ad9d507c21446b9db9686cb384a",
+          "actual": "d547b60094d90ce692ab6f7064756c0a5dcf4ad9d507c21446b9db9686cb384a",
+          "status": "match"
+        },
+        {
+          "path": "data/cmudict_reference/LICENSE",
+          "expected": "bd4ce8e44170a5f9f481310ca85c51de3c4f851a65e679b40e603b143bd3542a",
+          "actual": "bd4ce8e44170a5f9f481310ca85c51de3c4f851a65e679b40e603b143bd3542a",
+          "status": "match"
+        },
+        {
+          "path": "data/cmudict_reference/README",
+          "expected": "00c34e7564f1f6a68de02e12c123d801471da92bc3091f7d89b605f238bf8554",
+          "actual": "00c34e7564f1f6a68de02e12c123d801471da92bc3091f7d89b605f238bf8554",
+          "status": "match"
+        },
+        {
+          "path": "data/cmudict_reference/SOURCE.json",
+          "expected": "7343d456b768e116c3f02a8c27ea1fa2eb7a1cd036a94589d7278a085e6d43c6",
+          "actual": "7343d456b768e116c3f02a8c27ea1fa2eb7a1cd036a94589d7278a085e6d43c6",
+          "status": "match"
+        },
+        {
+          "path": "data/cmudict_reference/cmudict.dict",
+          "expected": "81917843c7f44ce2b094ac63873c2c7a4cf802040792c455ba3ca406891c3d22",
+          "actual": "81917843c7f44ce2b094ac63873c2c7a4cf802040792c455ba3ca406891c3d22",
+          "status": "match"
+        },
+        {
+          "path": "data/cmudict_reference/cmudict.phones",
+          "expected": "ffb588a5e55684723582c7256e1d2f9fadb130011392d9e59237c76e34c2cfd6",
+          "actual": "ffb588a5e55684723582c7256e1d2f9fadb130011392d9e59237c76e34c2cfd6",
+          "status": "match"
+        },
+        {
+          "path": "data/cmudict_reference/cmudict.symbols",
+          "expected": "408ccaae803641c6d7b626b6299949320c2dbca96b2220fd3fb17887b023b027",
+          "actual": "408ccaae803641c6d7b626b6299949320c2dbca96b2220fd3fb17887b023b027",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round23_result_manifest.json",
+      "checks": [
+        {
+          "path": "results/round23_qualification.json",
+          "expected": "346221e8ff9f864f7d141638eb16c61c462b10ea8a39605eda13bfb3251bcccf",
+          "actual": "346221e8ff9f864f7d141638eb16c61c462b10ea8a39605eda13bfb3251bcccf",
+          "status": "match"
+        },
+        {
+          "path": "results/round23_targets.json",
+          "expected": "bbe0037f3f8a92ac46a7143f259dc111a74bedda14e1454fb6ddf6be7f4b51ed",
+          "actual": "bbe0037f3f8a92ac46a7143f259dc111a74bedda14e1454fb6ddf6be7f4b51ed",
+          "status": "match"
+        },
+        {
+          "path": "results/round23_certificate_audit.json",
+          "expected": "71fb6dae856529e27d505e99a17c2c8d2227e41458dc533e3a0062b20476d34d",
+          "actual": "71fb6dae856529e27d505e99a17c2c8d2227e41458dc533e3a0062b20476d34d",
+          "status": "match"
+        },
+        {
+          "path": "data/round23_summary.json",
+          "expected": "ef6e43069b66d41f795d4184685f5faea0c9baadb68984c69bc5ac96032f50c4",
+          "actual": "ef6e43069b66d41f795d4184685f5faea0c9baadb68984c69bc5ac96032f50c4",
+          "status": "match"
+        },
+        {
+          "path": "data/round23_input_manifest.json",
+          "expected": "8b696397453a884f30cf88c414545f68fb921eddf07fdc0aa6829dbac2a76dd9",
+          "actual": "8b696397453a884f30cf88c414545f68fb921eddf07fdc0aa6829dbac2a76dd9",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round23_certificate_audit.py",
+          "expected": "0eaac12eb7b157529729e8be4667f6bf3260c8b28fc7c75ddd9ef6a66540eb35",
+          "actual": "0eaac12eb7b157529729e8be4667f6bf3260c8b28fc7c75ddd9ef6a66540eb35",
+          "status": "match"
+        },
+        {
+          "path": "scripts/run_round23.py",
+          "expected": "3558504ed17e37c2173f31984fbed24945444ee5cf89bbd8220a7c9441bd913b",
+          "actual": "3558504ed17e37c2173f31984fbed24945444ee5cf89bbd8220a7c9441bd913b",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_unit_morphism_certificates.py",
+          "expected": "e502bce851ff1beeea81c36fe51e760378a21b3a8d16febb21bc979b60ca4289",
+          "actual": "e502bce851ff1beeea81c36fe51e760378a21b3a8d16febb21bc979b60ca4289",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round24_anagram_manifest.json",
+      "checks": [
+        {
+          "path": "data/round24_protocol.json",
+          "expected": "2a2a078338787eccd14c3f9e7758102427a0675cafdd336744785535a2c75342",
+          "actual": "2a2a078338787eccd14c3f9e7758102427a0675cafdd336744785535a2c75342",
+          "status": "match"
+        },
+        {
+          "path": "data/round24_anagram_protocol.json",
+          "expected": "1ab7c800618651a1d34ee5e033dc2b4b8f289ae6383e1913c04f95e652dd1f16",
+          "actual": "1ab7c800618651a1d34ee5e033dc2b4b8f289ae6383e1913c04f95e652dd1f16",
+          "status": "match"
+        },
+        {
+          "path": "data/source_validation_inventory.json",
+          "expected": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+          "actual": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round24_anagram_audit.py",
+          "expected": "0db74effb1d30ece089d96b8ca9dbe646ad7b8d06f20eb45bf7a750232c84817",
+          "actual": "0db74effb1d30ece089d96b8ca9dbe646ad7b8d06f20eb45bf7a750232c84817",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round24_claim_manifest.json",
+      "checks": [
+        {
+          "path": "data/round24_claim_protocol.json",
+          "expected": "c977b413af65294d5da35f3b72708d0b0d3c6d98aad874ae4b05335bd82a64a1",
+          "actual": "c977b413af65294d5da35f3b72708d0b0d3c6d98aad874ae4b05335bd82a64a1",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round24_claim_audit.py",
+          "expected": "b808c6ff0fe11961086eb26b29c97399bc0e22544a2f5407c952226a5198cc89",
+          "actual": "b808c6ff0fe11961086eb26b29c97399bc0e22544a2f5407c952226a5198cc89",
+          "status": "match"
+        },
+        {
+          "path": "data/normalized_books.json",
+          "expected": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+          "actual": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+          "status": "match"
+        },
+        {
+          "path": "data/source_validation_inventory.json",
+          "expected": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+          "actual": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+          "status": "match"
+        },
+        {
+          "path": "data/round24_reference/KIMLAGE_LICENSE",
+          "expected": "009b107a614999e5a066d75e81319eb455a7dec9de3bc8ffea750d86bcb4c25f",
+          "actual": "009b107a614999e5a066d75e81319eb455a7dec9de3bc8ffea750d86bcb4c25f",
+          "status": "match"
+        },
+        {
+          "path": "data/round24_reference/c2_generative_mdl.py",
+          "expected": "1a1703d2b78fdabbe47a43550b0fb93e3b7227f02b09e5f18970ebc3a3cd19aa",
+          "actual": "1a1703d2b78fdabbe47a43550b0fb93e3b7227f02b09e5f18970ebc3a3cd19aa",
+          "status": "match"
+        },
+        {
+          "path": "data/round24_reference/english_control.json",
+          "expected": "99a70eff5fb2f560a0df0c07536a5152fc93ac48a98f1db20029e9a5fed62223",
+          "actual": "99a70eff5fb2f560a0df0c07536a5152fc93ac48a98f1db20029e9a5fed62223",
+          "status": "match"
+        },
+        {
+          "path": "data/round24_reference/phrase_claims.json",
+          "expected": "cefb264d348da30282ff2d41022b86d9f0876f07fe1584a0af492832c4b38270",
+          "actual": "cefb264d348da30282ff2d41022b86d9f0876f07fe1584a0af492832c4b38270",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round24_result_manifest.json",
+      "checks": [
+        {
+          "path": "data/plan_progress_round24.json",
+          "expected": "959755ce181c2b6db1507f594b59b09c0d8cedb00819c4b3c6f08e56c76a7b16",
+          "actual": "959755ce181c2b6db1507f594b59b09c0d8cedb00819c4b3c6f08e56c76a7b16",
+          "status": "match"
+        },
+        {
+          "path": "data/round24_anagram_manifest.json",
+          "expected": "dfecf13e73f65d90139501c98c65e433f671895391fa780a544c822c09fe09f0",
+          "actual": "dfecf13e73f65d90139501c98c65e433f671895391fa780a544c822c09fe09f0",
+          "status": "match"
+        },
+        {
+          "path": "data/round24_anagram_protocol.json",
+          "expected": "1ab7c800618651a1d34ee5e033dc2b4b8f289ae6383e1913c04f95e652dd1f16",
+          "actual": "1ab7c800618651a1d34ee5e033dc2b4b8f289ae6383e1913c04f95e652dd1f16",
+          "status": "match"
+        },
+        {
+          "path": "data/round24_claim_manifest.json",
+          "expected": "7861f6f71408355285e0c2d87d6f5735bb0dcdba0140fdf8e4d55b17a4be9bf1",
+          "actual": "7861f6f71408355285e0c2d87d6f5735bb0dcdba0140fdf8e4d55b17a4be9bf1",
+          "status": "match"
+        },
+        {
+          "path": "data/round24_claim_protocol.json",
+          "expected": "c977b413af65294d5da35f3b72708d0b0d3c6d98aad874ae4b05335bd82a64a1",
+          "actual": "c977b413af65294d5da35f3b72708d0b0d3c6d98aad874ae4b05335bd82a64a1",
+          "status": "match"
+        },
+        {
+          "path": "data/round24_discovery_log.json",
+          "expected": "0681d0c186552855ddb62cafa1fbf590d2ed11afb05e15c539e56978060b6c42",
+          "actual": "0681d0c186552855ddb62cafa1fbf590d2ed11afb05e15c539e56978060b6c42",
+          "status": "match"
+        },
+        {
+          "path": "data/round24_http_final.json",
+          "expected": "e798d08da2ce232ef795e7968087251d41c52546638527200018253360ac9eb9",
+          "actual": "e798d08da2ce232ef795e7968087251d41c52546638527200018253360ac9eb9",
+          "status": "match"
+        },
+        {
+          "path": "data/round24_http_followup.json",
+          "expected": "2db4358d8340c9765067458ef954f29e9f31e1cfb753dcd5b5bac5333764f918",
+          "actual": "2db4358d8340c9765067458ef954f29e9f31e1cfb753dcd5b5bac5333764f918",
+          "status": "match"
+        },
+        {
+          "path": "data/round24_http_initial.json",
+          "expected": "a7f6e82b9f52514d955e65accb48e341a5aa776f96d419ebb649395419d879da",
+          "actual": "a7f6e82b9f52514d955e65accb48e341a5aa776f96d419ebb649395419d879da",
+          "status": "match"
+        },
+        {
+          "path": "data/round24_http_targets_final.json",
+          "expected": "66c21377af42ec5c811219bcb1bf8feac3d9eb447ba2c71d1461cc68b03da4e4",
+          "actual": "66c21377af42ec5c811219bcb1bf8feac3d9eb447ba2c71d1461cc68b03da4e4",
+          "status": "match"
+        },
+        {
+          "path": "data/round24_http_targets_followup.json",
+          "expected": "354488efebee8f5944ad7149507f2a5d1b8a094ffd838ca5bae68ea27d2b1806",
+          "actual": "354488efebee8f5944ad7149507f2a5d1b8a094ffd838ca5bae68ea27d2b1806",
+          "status": "match"
+        },
+        {
+          "path": "data/round24_http_targets_initial.json",
+          "expected": "74d6c00e93649959c67e938c2f00db0ec1f67978e006fef0b8f62f03668ba58c",
+          "actual": "74d6c00e93649959c67e938c2f00db0ec1f67978e006fef0b8f62f03668ba58c",
+          "status": "match"
+        },
+        {
+          "path": "data/round24_protocol.json",
+          "expected": "2a2a078338787eccd14c3f9e7758102427a0675cafdd336744785535a2c75342",
+          "actual": "2a2a078338787eccd14c3f9e7758102427a0675cafdd336744785535a2c75342",
+          "status": "match"
+        },
+        {
+          "path": "data/round24_reference/KIMLAGE_LICENSE",
+          "expected": "009b107a614999e5a066d75e81319eb455a7dec9de3bc8ffea750d86bcb4c25f",
+          "actual": "009b107a614999e5a066d75e81319eb455a7dec9de3bc8ffea750d86bcb4c25f",
+          "status": "match"
+        },
+        {
+          "path": "data/round24_reference/c2_generative_mdl.py",
+          "expected": "1a1703d2b78fdabbe47a43550b0fb93e3b7227f02b09e5f18970ebc3a3cd19aa",
+          "actual": "1a1703d2b78fdabbe47a43550b0fb93e3b7227f02b09e5f18970ebc3a3cd19aa",
+          "status": "match"
+        },
+        {
+          "path": "data/round24_reference/english_control.json",
+          "expected": "99a70eff5fb2f560a0df0c07536a5152fc93ac48a98f1db20029e9a5fed62223",
+          "actual": "99a70eff5fb2f560a0df0c07536a5152fc93ac48a98f1db20029e9a5fed62223",
+          "status": "match"
+        },
+        {
+          "path": "data/round24_reference/phrase_claims.json",
+          "expected": "cefb264d348da30282ff2d41022b86d9f0876f07fe1584a0af492832c4b38270",
+          "actual": "cefb264d348da30282ff2d41022b86d9f0876f07fe1584a0af492832c4b38270",
+          "status": "match"
+        },
+        {
+          "path": "data/round24_sources.json",
+          "expected": "df4a6f2884127a78c784f4deab9f822b8d378340fb1b772c483e6e40137e466b",
+          "actual": "df4a6f2884127a78c784f4deab9f822b8d378340fb1b772c483e6e40137e466b",
+          "status": "match"
+        },
+        {
+          "path": "data/round24_upstream_heads.json",
+          "expected": "f70aff3d1a71410131ae62662f454abf0f240779d6a51382fc85623089d7ca75",
+          "actual": "f70aff3d1a71410131ae62662f454abf0f240779d6a51382fc85623089d7ca75",
+          "status": "match"
+        },
+        {
+          "path": "docs/round24.md",
+          "expected": "6a099d112eb7a05c8ff453468b6489711cd337439ffabf53513b0edcf96a07ed",
+          "actual": "6a099d112eb7a05c8ff453468b6489711cd337439ffabf53513b0edcf96a07ed",
+          "status": "match"
+        },
+        {
+          "path": "results/round24_anagram.json",
+          "expected": "753a0301f400e8ca320e48a457d961e465cbdbc5aef696e1176eeb20fba14c92",
+          "actual": "753a0301f400e8ca320e48a457d961e465cbdbc5aef696e1176eeb20fba14c92",
+          "status": "match"
+        },
+        {
+          "path": "results/round24_anagram.log",
+          "expected": "c0de8eba14c9901cacd28abf8f46beae9896246c7c769937b8c6addef8de8ccb",
+          "actual": "c0de8eba14c9901cacd28abf8f46beae9896246c7c769937b8c6addef8de8ccb",
+          "status": "match"
+        },
+        {
+          "path": "results/round24_claims.json",
+          "expected": "3b771b677a66e47a21949c168298ab5c6867750034b3660fa2e2af1753c6383a",
+          "actual": "3b771b677a66e47a21949c168298ab5c6867750034b3660fa2e2af1753c6383a",
+          "status": "match"
+        },
+        {
+          "path": "results/round24_claims.log",
+          "expected": "b1f55fc0f3b9adc85d01678f664aa3c5e14604ecff219280b98a9fdb7e1230d8",
+          "actual": "b1f55fc0f3b9adc85d01678f664aa3c5e14604ecff219280b98a9fdb7e1230d8",
+          "status": "match"
+        },
+        {
+          "path": "results/round24_context.json",
+          "expected": "1bab9944a2816abfd59ba738b66ca7947428b360b33a0dfa84f4ccf4f4e08be0",
+          "actual": "1bab9944a2816abfd59ba738b66ca7947428b360b33a0dfa84f4ccf4f4e08be0",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round24_anagram_audit.py",
+          "expected": "0db74effb1d30ece089d96b8ca9dbe646ad7b8d06f20eb45bf7a750232c84817",
+          "actual": "0db74effb1d30ece089d96b8ca9dbe646ad7b8d06f20eb45bf7a750232c84817",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round24_claim_audit.py",
+          "expected": "b808c6ff0fe11961086eb26b29c97399bc0e22544a2f5407c952226a5198cc89",
+          "actual": "b808c6ff0fe11961086eb26b29c97399bc0e22544a2f5407c952226a5198cc89",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round24_context_audit.py",
+          "expected": "734c3ae8d65b6695399bf3d7c4042004904f6a752733d6caac6d4e5c656d94d7",
+          "actual": "734c3ae8d65b6695399bf3d7c4042004904f6a752733d6caac6d4e5c656d94d7",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round24_source_capture.py",
+          "expected": "1c182ba57a44d23aeedb4e851cc15f8a2ed908d855076f0107928ea740c2f0a8",
+          "actual": "1c182ba57a44d23aeedb4e851cc15f8a2ed908d855076f0107928ea740c2f0a8",
+          "status": "match"
+        },
+        {
+          "path": "scripts/run_round24.py",
+          "expected": "cefc12e3a733685e58c8af3757d000b26b8f33b1a832a05981073a3d8c8cbc25",
+          "actual": "cefc12e3a733685e58c8af3757d000b26b8f33b1a832a05981073a3d8c8cbc25",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_round24_audit.py",
+          "expected": "3c4e08b1f6936671a2e59fe20d0462616c916eee3549de994cc7b86e55db6ff8",
+          "actual": "3c4e08b1f6936671a2e59fe20d0462616c916eee3549de994cc7b86e55db6ff8",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round25_manifest.json",
+      "checks": [
+        {
+          "path": "data/round25_protocol.json",
+          "expected": "bc0a66c4ab2bc1bfad983126ce4d239cc2e18dc6804da225ffc6ef21726a7b68",
+          "actual": "bc0a66c4ab2bc1bfad983126ce4d239cc2e18dc6804da225ffc6ef21726a7b68",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round25_name_structure.py",
+          "expected": "7764b162eba3baf236b29ee29d32d91069cd7759683f21c20a52bc7bede8e11e",
+          "actual": "7764b162eba3baf236b29ee29d32d91069cd7759683f21c20a52bc7bede8e11e",
+          "status": "match"
+        },
+        {
+          "path": "data/source_validation_inventory.json",
+          "expected": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+          "actual": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round25_result_manifest.json",
+      "checks": [
+        {
+          "path": "data/plan_progress_round25.json",
+          "expected": "11c56be6ff0317183c8f5f272e2b705805588d3a202a9db82dbedc51004c98a9",
+          "actual": "11c56be6ff0317183c8f5f272e2b705805588d3a202a9db82dbedc51004c98a9",
+          "status": "match"
+        },
+        {
+          "path": "data/round25_decisions.json",
+          "expected": "79dbb1bc1a5b3b8e79b508820fde175e62ff2f238471e35436ca0f1ad9f52e0f",
+          "actual": "79dbb1bc1a5b3b8e79b508820fde175e62ff2f238471e35436ca0f1ad9f52e0f",
+          "status": "match"
+        },
+        {
+          "path": "data/round25_history_http_initial.json",
+          "expected": "e5800da3387b31e057bc33b4e14ff3b851ac9841ad293aea136b7c80df86b20a",
+          "actual": "e5800da3387b31e057bc33b4e14ff3b851ac9841ad293aea136b7c80df86b20a",
+          "status": "match"
+        },
+        {
+          "path": "data/round25_history_http_selected.json",
+          "expected": "f73f84cbe408850812407c8eef3955f5d68c98b99e1bf3889e1521e86e43a8a1",
+          "actual": "f73f84cbe408850812407c8eef3955f5d68c98b99e1bf3889e1521e86e43a8a1",
+          "status": "match"
+        },
+        {
+          "path": "data/round25_manifest.json",
+          "expected": "764535a1c3a11e636787d92458f3e9092bdb4adb8462c57f44cd56f3c2301e37",
+          "actual": "764535a1c3a11e636787d92458f3e9092bdb4adb8462c57f44cd56f3c2301e37",
+          "status": "match"
+        },
+        {
+          "path": "data/round25_protocol.json",
+          "expected": "bc0a66c4ab2bc1bfad983126ce4d239cc2e18dc6804da225ffc6ef21726a7b68",
+          "actual": "bc0a66c4ab2bc1bfad983126ce4d239cc2e18dc6804da225ffc6ef21726a7b68",
+          "status": "match"
+        },
+        {
+          "path": "docs/round25.md",
+          "expected": "97065cb2f5e08c6e1027eed0d697a3183e418991c39c033c8f5349568849340a",
+          "actual": "97065cb2f5e08c6e1027eed0d697a3183e418991c39c033c8f5349568849340a",
+          "status": "match"
+        },
+        {
+          "path": "results/round25_history.json",
+          "expected": "2174fc3bd5e9b28dccb21561233ce2b22e8dde8115ecc81f007f7a89a34e8107",
+          "actual": "2174fc3bd5e9b28dccb21561233ce2b22e8dde8115ecc81f007f7a89a34e8107",
+          "status": "match"
+        },
+        {
+          "path": "results/round25_structure.json",
+          "expected": "5f77ee77537dcaaae21bc044e6d004d63066c7350e73e50c5bc6464940b33e03",
+          "actual": "5f77ee77537dcaaae21bc044e6d004d63066c7350e73e50c5bc6464940b33e03",
+          "status": "match"
+        },
+        {
+          "path": "results/round25_structure.log",
+          "expected": "f8de123c2a215016e294e5d8d989893a5b35c8a92bb49633db4de71c6dc3236e",
+          "actual": "f8de123c2a215016e294e5d8d989893a5b35c8a92bb49633db4de71c6dc3236e",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round25_history_audit.py",
+          "expected": "c1fc0f2e036a57fb7081b9aeb917a64864a030e53c6acb1648440a6c2ed1fed8",
+          "actual": "c1fc0f2e036a57fb7081b9aeb917a64864a030e53c6acb1648440a6c2ed1fed8",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round25_history_fetch.py",
+          "expected": "b818514771892b5b903b6dbf0a8953a0ce3dad68a697905d5fae8a6de6127ab5",
+          "actual": "b818514771892b5b903b6dbf0a8953a0ce3dad68a697905d5fae8a6de6127ab5",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round25_name_structure.py",
+          "expected": "7764b162eba3baf236b29ee29d32d91069cd7759683f21c20a52bc7bede8e11e",
+          "actual": "7764b162eba3baf236b29ee29d32d91069cd7759683f21c20a52bc7bede8e11e",
+          "status": "match"
+        },
+        {
+          "path": "scripts/run_round25.py",
+          "expected": "46cd6c8dc29e1b1b2858a1e438923bf913eb5dad2afdb4266dbb736622896637",
+          "actual": "46cd6c8dc29e1b1b2858a1e438923bf913eb5dad2afdb4266dbb736622896637",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_round25_structure.py",
+          "expected": "bc50fbc324e03c761a4643203cc1f8903055b556ce585b1cd2d84a9d8e9f4612",
+          "actual": "bc50fbc324e03c761a4643203cc1f8903055b556ce585b1cd2d84a9d8e9f4612",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round26_experiment_manifest.json",
+      "checks": [
+        {
+          "path": "data/round26_protocol.json",
+          "expected": "67dfb7d7dd25d1a216604f8161c9e2af0e3cac62e92ed331014182637fba759d",
+          "actual": "67dfb7d7dd25d1a216604f8161c9e2af0e3cac62e92ed331014182637fba759d",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round26_matrix_consistency.py",
+          "expected": "ae7dffeb402d087f22d8c87b363d057f751df06f9ba5b3c1f973a1e144ecd248",
+          "actual": "ae7dffeb402d087f22d8c87b363d057f751df06f9ba5b3c1f973a1e144ecd248",
+          "status": "match"
+        },
+        {
+          "path": "scripts/matrix_experiments.py",
+          "expected": "476d3365708aa4409d4253d3983449a6a166517b5960c7e1b7b66de4b092b37f",
+          "actual": "476d3365708aa4409d4253d3983449a6a166517b5960c7e1b7b66de4b092b37f",
+          "status": "match"
+        },
+        {
+          "path": "data/normalized_books.json",
+          "expected": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+          "actual": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+          "status": "match"
+        },
+        {
+          "path": "data/english_reference/alice.txt",
+          "expected": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+          "actual": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+          "status": "match"
+        },
+        {
+          "path": "data/english_reference/SOURCE.json",
+          "expected": "c43d8fc9715131216f17ccbc01eb664a68c89fbecce4aeede535e5aded57b2a5",
+          "actual": "c43d8fc9715131216f17ccbc01eb664a68c89fbecce4aeede535e5aded57b2a5",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round26_result_manifest.json",
+      "checks": [
+        {
+          "path": "data/plan_progress_round26.json",
+          "expected": "782b5efb04f81668284445d304b163a99d419cf9da0cf13c6b0229101f35eab4",
+          "actual": "782b5efb04f81668284445d304b163a99d419cf9da0cf13c6b0229101f35eab4",
+          "status": "match"
+        },
+        {
+          "path": "data/round26_decisions.json",
+          "expected": "b51be30ca3046306f2e506e0e9668f7e2c633584685ca768f5aa8e0b17efd788",
+          "actual": "b51be30ca3046306f2e506e0e9668f7e2c633584685ca768f5aa8e0b17efd788",
+          "status": "match"
+        },
+        {
+          "path": "data/round26_discovery_log.json",
+          "expected": "3f6b986839b6cef9701b25f7f297dae4b7c220f1f5ddcddb041a1cc55f1db714",
+          "actual": "3f6b986839b6cef9701b25f7f297dae4b7c220f1f5ddcddb041a1cc55f1db714",
+          "status": "match"
+        },
+        {
+          "path": "data/round26_experiment_manifest.json",
+          "expected": "dec36bdf340aefc781dc6a7556fd01052d44ee398a4c0c9c264fb3fd64103112",
+          "actual": "dec36bdf340aefc781dc6a7556fd01052d44ee398a4c0c9c264fb3fd64103112",
+          "status": "match"
+        },
+        {
+          "path": "data/round26_http_final.json",
+          "expected": "1664e7c0df39aba0434b48b2bdffcd655f9460c74be12ca3a23cb39d00506e4e",
+          "actual": "1664e7c0df39aba0434b48b2bdffcd655f9460c74be12ca3a23cb39d00506e4e",
+          "status": "match"
+        },
+        {
+          "path": "data/round26_http_followup.json",
+          "expected": "73969f39afcc3bb63285c4009501246d46f9578a97c0e27a5f2581e931216ccc",
+          "actual": "73969f39afcc3bb63285c4009501246d46f9578a97c0e27a5f2581e931216ccc",
+          "status": "match"
+        },
+        {
+          "path": "data/round26_http_initial.json",
+          "expected": "eb7ee12a06451dad23799f4e66b6fa2dc5efa75d0cfa2ae359a24f26d42613ef",
+          "actual": "eb7ee12a06451dad23799f4e66b6fa2dc5efa75d0cfa2ae359a24f26d42613ef",
+          "status": "match"
+        },
+        {
+          "path": "data/round26_prior_catalog.json",
+          "expected": "a1e82504638857e8daae5be6ae18e8c2eb7bea6f92fed3248107aa12d0b38811",
+          "actual": "a1e82504638857e8daae5be6ae18e8c2eb7bea6f92fed3248107aa12d0b38811",
+          "status": "match"
+        },
+        {
+          "path": "data/round26_protocol.json",
+          "expected": "67dfb7d7dd25d1a216604f8161c9e2af0e3cac62e92ed331014182637fba759d",
+          "actual": "67dfb7d7dd25d1a216604f8161c9e2af0e3cac62e92ed331014182637fba759d",
+          "status": "match"
+        },
+        {
+          "path": "data/round26_targets_final.json",
+          "expected": "993a78fe1a6ed69480282a364fede8ad904e00ae7613a4218d63032d309f97ca",
+          "actual": "993a78fe1a6ed69480282a364fede8ad904e00ae7613a4218d63032d309f97ca",
+          "status": "match"
+        },
+        {
+          "path": "data/round26_targets_followup.json",
+          "expected": "bfcf33bea25fdb147ba495761623c63279ef2ebb214843e5bef8adcd4d3267d4",
+          "actual": "bfcf33bea25fdb147ba495761623c63279ef2ebb214843e5bef8adcd4d3267d4",
+          "status": "match"
+        },
+        {
+          "path": "data/round26_targets_initial.json",
+          "expected": "16491df0afa9f1f9612892ac1ae28f48fc8f24815252e5d9187b91b0fbdfafb6",
+          "actual": "16491df0afa9f1f9612892ac1ae28f48fc8f24815252e5d9187b91b0fbdfafb6",
+          "status": "match"
+        },
+        {
+          "path": "docs/round26.md",
+          "expected": "b03063ac6c5269628f5832b053e5632bacbee351bccb4b7ea66725569e751550",
+          "actual": "b03063ac6c5269628f5832b053e5632bacbee351bccb4b7ea66725569e751550",
+          "status": "match"
+        },
+        {
+          "path": "results/round26_cam_probe.json",
+          "expected": "7cefe3a8f9527d13d8f6553ad0693365c792e6ef16f3ee7b4a75ee155e7b647f",
+          "actual": "7cefe3a8f9527d13d8f6553ad0693365c792e6ef16f3ee7b4a75ee155e7b647f",
+          "status": "match"
+        },
+        {
+          "path": "results/round26_matrix_consistency.json",
+          "expected": "7a1755742c247642cefe382cf990b1abe9cea22ba4aa166cf0341084fc1e115c",
+          "actual": "7a1755742c247642cefe382cf990b1abe9cea22ba4aa166cf0341084fc1e115c",
+          "status": "match"
+        },
+        {
+          "path": "results/round26_matrix_consistency.log",
+          "expected": "c537f72eca3ce3d91dee95531f0b13aa3d390a006f94a25dcd03a96157563e22",
+          "actual": "c537f72eca3ce3d91dee95531f0b13aa3d390a006f94a25dcd03a96157563e22",
+          "status": "match"
+        },
+        {
+          "path": "results/round26_sources.json",
+          "expected": "3b9c36b419c3d8ccd3fad63c8244a525976b55d4cb5692e79aa896a6baed4cfb",
+          "actual": "3b9c36b419c3d8ccd3fad63c8244a525976b55d4cb5692e79aa896a6baed4cfb",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round26_cam_probe.py",
+          "expected": "c0ec426d54de29f66bc30dc0cd50450e655374de593a7b6c1aeb4c443d2569ca",
+          "actual": "c0ec426d54de29f66bc30dc0cd50450e655374de593a7b6c1aeb4c443d2569ca",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round26_matrix_consistency.py",
+          "expected": "ae7dffeb402d087f22d8c87b363d057f751df06f9ba5b3c1f973a1e144ecd248",
+          "actual": "ae7dffeb402d087f22d8c87b363d057f751df06f9ba5b3c1f973a1e144ecd248",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round26_source_audit.py",
+          "expected": "b1d929657f26bc67628359110a7128836f2a084a7f0633ed8072eb08db37dc24",
+          "actual": "b1d929657f26bc67628359110a7128836f2a084a7f0633ed8072eb08db37dc24",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round26_source_fetch.py",
+          "expected": "cd76793ead0122596b81d3cd4d8032dd52eab544d9e9ae148892863e97e9eac1",
+          "actual": "cd76793ead0122596b81d3cd4d8032dd52eab544d9e9ae148892863e97e9eac1",
+          "status": "match"
+        },
+        {
+          "path": "scripts/run_round26.py",
+          "expected": "d48bf150c8f605cfe9bc73debd62445f371d2ff34bf592daafdd4a9161d5e33c",
+          "actual": "d48bf150c8f605cfe9bc73debd62445f371d2ff34bf592daafdd4a9161d5e33c",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_round26_matrix_consistency.py",
+          "expected": "d34980382c431fb9658b68a4b0dc3a9647afd0f3ad2b35b302ee30387ee23d0c",
+          "actual": "d34980382c431fb9658b68a4b0dc3a9647afd0f3ad2b35b302ee30387ee23d0c",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round27_baseline_manifest.json",
+      "checks": [
+        {
+          "path": "data/round27_baseline_protocol.json",
+          "expected": "3fcd4795a060b78ebc1a1fd4cddb5982d3fee84a20cfd6c75b0e0a6fd28ce928",
+          "actual": "3fcd4795a060b78ebc1a1fd4cddb5982d3fee84a20cfd6c75b0e0a6fd28ce928",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round27_baseline.py",
+          "expected": "63be38862d323ac42a31b836fafd5c22851bb8e99f9f0163a24bec1cf6f0c3df",
+          "actual": "63be38862d323ac42a31b836fafd5c22851bb8e99f9f0163a24bec1cf6f0c3df",
+          "status": "match"
+        },
+        {
+          "path": "data/round27_experiment_manifest.json",
+          "expected": "8284b7d80cc0b430686eecb98a8724dacd00807b10aa4d44a50a3abcb72ed0ba",
+          "actual": "8284b7d80cc0b430686eecb98a8724dacd00807b10aa4d44a50a3abcb72ed0ba",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round27_execution_manifest.json",
+      "checks": [
+        {
+          "path": "data/round27_execution_protocol.json",
+          "expected": "508215bd7a70cd076ef6e5826cbbb3146b9884d38a67956001767ed07107d8af",
+          "actual": "508215bd7a70cd076ef6e5826cbbb3146b9884d38a67956001767ed07107d8af",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round27_cached_model.py",
+          "expected": "654c76fa08f6e4c9bc3419ee7f6453cc75b031e88cf48e698a37f3166954a9f1",
+          "actual": "654c76fa08f6e4c9bc3419ee7f6453cc75b031e88cf48e698a37f3166954a9f1",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round27_shard.py",
+          "expected": "3da706c7452520b1ada4e13c2eedf87b525b19d07c610926381bf7eb6803f286",
+          "actual": "3da706c7452520b1ada4e13c2eedf87b525b19d07c610926381bf7eb6803f286",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_round27_cache.py",
+          "expected": "e8a1d880c1cf57fd4834d5e739ddfb89014f1fae58168f84881cb79e6827fde2",
+          "actual": "e8a1d880c1cf57fd4834d5e739ddfb89014f1fae58168f84881cb79e6827fde2",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round27_experiment_manifest.json",
+      "checks": [
+        {
+          "path": "data/round27_protocol.json",
+          "expected": "a94e82d7f50a714d4cdf043801f7d8906e034050f2c7b1cd43bd30940017e3fb",
+          "actual": "a94e82d7f50a714d4cdf043801f7d8906e034050f2c7b1cd43bd30940017e3fb",
+          "status": "match"
+        },
+        {
+          "path": "data/round27_fixtures.json",
+          "expected": "96881d88bdf922f36d1ff4a265ada5348410ddb7c77e4ce5e9c62938c7b44f9d",
+          "actual": "96881d88bdf922f36d1ff4a265ada5348410ddb7c77e4ce5e9c62938c7b44f9d",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round27_fixtures.py",
+          "expected": "ec5e589e1dfe1417d7d6598beef34ceab7fc8861ae7aace4620b0d39e7d49c0e",
+          "actual": "ec5e589e1dfe1417d7d6598beef34ceab7fc8861ae7aace4620b0d39e7d49c0e",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round27_witness_solver.py",
+          "expected": "923f334df674ec48f300ed7741465e7d2a41e9c55325bee6aa66a0ef7126df73",
+          "actual": "923f334df674ec48f300ed7741465e7d2a41e9c55325bee6aa66a0ef7126df73",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round27_experiment.py",
+          "expected": "d0b3051dd4f5f284cf8b7cc228d229b819088f1dec1bb639e4f489e53f31cc4e",
+          "actual": "d0b3051dd4f5f284cf8b7cc228d229b819088f1dec1bb639e4f489e53f31cc4e",
+          "status": "match"
+        },
+        {
+          "path": "scripts/run_round27.py",
+          "expected": "2b29252d1c89b59a4cb201eb280342c479889aaf41c380f805da521b72eecb9f",
+          "actual": "2b29252d1c89b59a4cb201eb280342c479889aaf41c380f805da521b72eecb9f",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_round27.py",
+          "expected": "d4c46a85d54220e05af555a04631b27f5c18e5a77a5a0286bc9c38d25a45b7ab",
+          "actual": "d4c46a85d54220e05af555a04631b27f5c18e5a77a5a0286bc9c38d25a45b7ab",
+          "status": "match"
+        },
+        {
+          "path": "scripts/unit_morphism_solver.py",
+          "expected": "28ef1716a9e3213a8e1ac8321446323e66bba9affc40a488894425d0dfa1627e",
+          "actual": "28ef1716a9e3213a8e1ac8321446323e66bba9affc40a488894425d0dfa1627e",
+          "status": "match"
+        },
+        {
+          "path": "scripts/unit_morphism_lexicon.py",
+          "expected": "4e1bc4aef71d2b8d6146f00fe2f917d0934743ebb2e79ada737a2ce53c113e9d",
+          "actual": "4e1bc4aef71d2b8d6146f00fe2f917d0934743ebb2e79ada737a2ce53c113e9d",
+          "status": "match"
+        },
+        {
+          "path": "data/cmudict_reference/cmudict.dict",
+          "expected": "81917843c7f44ce2b094ac63873c2c7a4cf802040792c455ba3ca406891c3d22",
+          "actual": "81917843c7f44ce2b094ac63873c2c7a4cf802040792c455ba3ca406891c3d22",
+          "status": "match"
+        },
+        {
+          "path": "data/cmudict_reference/cmudict.phones",
+          "expected": "ffb588a5e55684723582c7256e1d2f9fadb130011392d9e59237c76e34c2cfd6",
+          "actual": "ffb588a5e55684723582c7256e1d2f9fadb130011392d9e59237c76e34c2cfd6",
+          "status": "match"
+        },
+        {
+          "path": "data/cmudict_reference/LICENSE",
+          "expected": "bd4ce8e44170a5f9f481310ca85c51de3c4f851a65e679b40e603b143bd3542a",
+          "actual": "bd4ce8e44170a5f9f481310ca85c51de3c4f851a65e679b40e603b143bd3542a",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round27_result_manifest.json",
+      "checks": [
+        {
+          "path": "data/plan_progress_round27.json",
+          "expected": "20b4bc2ed6c85236f1878051295768b5d91b9f5899d8a5dff7b6d2b8bc61d614",
+          "actual": "20b4bc2ed6c85236f1878051295768b5d91b9f5899d8a5dff7b6d2b8bc61d614",
+          "status": "match"
+        },
+        {
+          "path": "data/round27_baseline_manifest.json",
+          "expected": "145e532fcafbb9732f5316fa6301365461a672e33b65701c2c1068e4b97c32d6",
+          "actual": "145e532fcafbb9732f5316fa6301365461a672e33b65701c2c1068e4b97c32d6",
+          "status": "match"
+        },
+        {
+          "path": "data/round27_baseline_protocol.json",
+          "expected": "3fcd4795a060b78ebc1a1fd4cddb5982d3fee84a20cfd6c75b0e0a6fd28ce928",
+          "actual": "3fcd4795a060b78ebc1a1fd4cddb5982d3fee84a20cfd6c75b0e0a6fd28ce928",
+          "status": "match"
+        },
+        {
+          "path": "data/round27_decisions.json",
+          "expected": "90af3cc989bbea5f2c466fce6a87ce6e1dde2026b4c6f9eeaa407b10dbe172ee",
+          "actual": "90af3cc989bbea5f2c466fce6a87ce6e1dde2026b4c6f9eeaa407b10dbe172ee",
+          "status": "match"
+        },
+        {
+          "path": "data/round27_execution.json",
+          "expected": "cbc7355d828c9aa08d86d39188ba72a3581c17d0a5133486025c95fc5aed36b7",
+          "actual": "cbc7355d828c9aa08d86d39188ba72a3581c17d0a5133486025c95fc5aed36b7",
+          "status": "match"
+        },
+        {
+          "path": "data/round27_execution_manifest.json",
+          "expected": "4370f0a6e47a51355c3b2b085649d24e31532730eff5d3414cb01946eadbca45",
+          "actual": "4370f0a6e47a51355c3b2b085649d24e31532730eff5d3414cb01946eadbca45",
+          "status": "match"
+        },
+        {
+          "path": "data/round27_execution_protocol.json",
+          "expected": "508215bd7a70cd076ef6e5826cbbb3146b9884d38a67956001767ed07107d8af",
+          "actual": "508215bd7a70cd076ef6e5826cbbb3146b9884d38a67956001767ed07107d8af",
+          "status": "match"
+        },
+        {
+          "path": "data/round27_experiment_manifest.json",
+          "expected": "8284b7d80cc0b430686eecb98a8724dacd00807b10aa4d44a50a3abcb72ed0ba",
+          "actual": "8284b7d80cc0b430686eecb98a8724dacd00807b10aa4d44a50a3abcb72ed0ba",
+          "status": "match"
+        },
+        {
+          "path": "data/round27_fixtures.json",
+          "expected": "96881d88bdf922f36d1ff4a265ada5348410ddb7c77e4ce5e9c62938c7b44f9d",
+          "actual": "96881d88bdf922f36d1ff4a265ada5348410ddb7c77e4ce5e9c62938c7b44f9d",
+          "status": "match"
+        },
+        {
+          "path": "data/round27_protocol.json",
+          "expected": "a94e82d7f50a714d4cdf043801f7d8906e034050f2c7b1cd43bd30940017e3fb",
+          "actual": "a94e82d7f50a714d4cdf043801f7d8906e034050f2c7b1cd43bd30940017e3fb",
+          "status": "match"
+        },
+        {
+          "path": "docs/round27.md",
+          "expected": "368541227e65d5db10b1cf8009cd6895634c5a9d41209a01e0af97587fb07a92",
+          "actual": "368541227e65d5db10b1cf8009cd6895634c5a9d41209a01e0af97587fb07a92",
+          "status": "match"
+        },
+        {
+          "path": "results/round27_baseline.json",
+          "expected": "51718e892b2f75c31b5fb0a388750612ae97c7f9789df49afa50b15b2d69e87e",
+          "actual": "51718e892b2f75c31b5fb0a388750612ae97c7f9789df49afa50b15b2d69e87e",
+          "status": "match"
+        },
+        {
+          "path": "results/round27_cache_equivalence.txt",
+          "expected": "8e33dac4d4445f06670c53545ea56603d9af8f48c73c577904cb738b3ac42489",
+          "actual": "8e33dac4d4445f06670c53545ea56603d9af8f48c73c577904cb738b3ac42489",
+          "status": "match"
+        },
+        {
+          "path": "results/round27_overlap_audit.json",
+          "expected": "6d697170cd2d5e6a8242f34eb7109d20e9bec833d95e47473897629e5da0d865",
+          "actual": "6d697170cd2d5e6a8242f34eb7109d20e9bec833d95e47473897629e5da0d865",
+          "status": "match"
+        },
+        {
+          "path": "results/round27_qualification.json",
+          "expected": "078fe45431ae39e24079d6174460fd2f42e34d9964de98d8a9238d5a8cc9a73b",
+          "actual": "078fe45431ae39e24079d6174460fd2f42e34d9964de98d8a9238d5a8cc9a73b",
+          "status": "match"
+        },
+        {
+          "path": "results/round27_verification.json",
+          "expected": "ee4da63168331f51c8af3aa7bfae358469405d655870d36ada4d7499c2f8e593",
+          "actual": "ee4da63168331f51c8af3aa7bfae358469405d655870d36ada4d7499c2f8e593",
+          "status": "match"
+        },
+        {
+          "path": "scripts/replay_round27_cached.py",
+          "expected": "3f8ebd29d763039c8584694b0eabb6153647912b08c4c75987c8f00895db7914",
+          "actual": "3f8ebd29d763039c8584694b0eabb6153647912b08c4c75987c8f00895db7914",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round27_baseline.py",
+          "expected": "63be38862d323ac42a31b836fafd5c22851bb8e99f9f0163a24bec1cf6f0c3df",
+          "actual": "63be38862d323ac42a31b836fafd5c22851bb8e99f9f0163a24bec1cf6f0c3df",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round27_cached_model.py",
+          "expected": "654c76fa08f6e4c9bc3419ee7f6453cc75b031e88cf48e698a37f3166954a9f1",
+          "actual": "654c76fa08f6e4c9bc3419ee7f6453cc75b031e88cf48e698a37f3166954a9f1",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round27_experiment.py",
+          "expected": "d0b3051dd4f5f284cf8b7cc228d229b819088f1dec1bb639e4f489e53f31cc4e",
+          "actual": "d0b3051dd4f5f284cf8b7cc228d229b819088f1dec1bb639e4f489e53f31cc4e",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round27_fixtures.py",
+          "expected": "ec5e589e1dfe1417d7d6598beef34ceab7fc8861ae7aace4620b0d39e7d49c0e",
+          "actual": "ec5e589e1dfe1417d7d6598beef34ceab7fc8861ae7aace4620b0d39e7d49c0e",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round27_merge_shards.py",
+          "expected": "686268d692589ffcb28aab4c9368e68dc421056cbd64b870e95d9d8d71ceafb8",
+          "actual": "686268d692589ffcb28aab4c9368e68dc421056cbd64b870e95d9d8d71ceafb8",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round27_result_audit.py",
+          "expected": "4f6e2391c85659c7e36ab3ee18f0e1c9bdd2baf10d1059fe8ae6eec6a6e0ea54",
+          "actual": "4f6e2391c85659c7e36ab3ee18f0e1c9bdd2baf10d1059fe8ae6eec6a6e0ea54",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round27_shard.py",
+          "expected": "3da706c7452520b1ada4e13c2eedf87b525b19d07c610926381bf7eb6803f286",
+          "actual": "3da706c7452520b1ada4e13c2eedf87b525b19d07c610926381bf7eb6803f286",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round27_witness_solver.py",
+          "expected": "923f334df674ec48f300ed7741465e7d2a41e9c55325bee6aa66a0ef7126df73",
+          "actual": "923f334df674ec48f300ed7741465e7d2a41e9c55325bee6aa66a0ef7126df73",
+          "status": "match"
+        },
+        {
+          "path": "scripts/run_round27.py",
+          "expected": "2b29252d1c89b59a4cb201eb280342c479889aaf41c380f805da521b72eecb9f",
+          "actual": "2b29252d1c89b59a4cb201eb280342c479889aaf41c380f805da521b72eecb9f",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_round27.py",
+          "expected": "d4c46a85d54220e05af555a04631b27f5c18e5a77a5a0286bc9c38d25a45b7ab",
+          "actual": "d4c46a85d54220e05af555a04631b27f5c18e5a77a5a0286bc9c38d25a45b7ab",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_round27_artifacts.py",
+          "expected": "02bf211d72209813950c64eca2adc800fd733b4837a3efa854dfebefe9bd6d89",
+          "actual": "02bf211d72209813950c64eca2adc800fd733b4837a3efa854dfebefe9bd6d89",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_round27_cache.py",
+          "expected": "e8a1d880c1cf57fd4834d5e739ddfb89014f1fae58168f84881cb79e6827fde2",
+          "actual": "e8a1d880c1cf57fd4834d5e739ddfb89014f1fae58168f84881cb79e6827fde2",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round28_experiment_manifest.json",
+      "checks": [
+        {
+          "path": "data/cmudict_reference/LICENSE",
+          "expected": "bd4ce8e44170a5f9f481310ca85c51de3c4f851a65e679b40e603b143bd3542a",
+          "actual": "bd4ce8e44170a5f9f481310ca85c51de3c4f851a65e679b40e603b143bd3542a",
+          "status": "match"
+        },
+        {
+          "path": "data/cmudict_reference/cmudict.dict",
+          "expected": "81917843c7f44ce2b094ac63873c2c7a4cf802040792c455ba3ca406891c3d22",
+          "actual": "81917843c7f44ce2b094ac63873c2c7a4cf802040792c455ba3ca406891c3d22",
+          "status": "match"
+        },
+        {
+          "path": "data/cmudict_reference/cmudict.phones",
+          "expected": "ffb588a5e55684723582c7256e1d2f9fadb130011392d9e59237c76e34c2cfd6",
+          "actual": "ffb588a5e55684723582c7256e1d2f9fadb130011392d9e59237c76e34c2cfd6",
+          "status": "match"
+        },
+        {
+          "path": "data/normalized_books.json",
+          "expected": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+          "actual": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+          "status": "match"
+        },
+        {
+          "path": "data/round28_fixtures.json",
+          "expected": "659bde5874742e3af5fbedbc704fc218989f6512142ee4a3a7b2b01765350d58",
+          "actual": "659bde5874742e3af5fbedbc704fc218989f6512142ee4a3a7b2b01765350d58",
+          "status": "match"
+        },
+        {
+          "path": "data/round28_protocol.json",
+          "expected": "ac802c8e261eb19e9e2da9276519da3edd4c80c956daed17263da70321a7f806",
+          "actual": "ac802c8e261eb19e9e2da9276519da3edd4c80c956daed17263da70321a7f806",
+          "status": "match"
+        },
+        {
+          "path": "data/round28_reference/SOURCES.json",
+          "expected": "e1f7fcb437dd59463d2c4b4f81217b885f3df8b7e978e069e9b959a2799fde67",
+          "actual": "e1f7fcb437dd59463d2c4b4f81217b885f3df8b7e978e069e9b959a2799fde67",
+          "status": "match"
+        },
+        {
+          "path": "data/round28_reference/little_women.txt",
+          "expected": "b20d98130841548c2137476e18fb1fe3bc7d666202985cafa09b5e02e54f7d7f",
+          "actual": "b20d98130841548c2137476e18fb1fe3bc7d666202985cafa09b5e02e54f7d7f",
+          "status": "match"
+        },
+        {
+          "path": "data/round28_reference/scarlet_letter.txt",
+          "expected": "2341afcae7b06db1c80549fd700ddf10e8af12ca8e774c4747840a9ab8e81a14",
+          "actual": "2341afcae7b06db1c80549fd700ddf10e8af12ca8e774c4747840a9ab8e81a14",
+          "status": "match"
+        },
+        {
+          "path": "data/source_validation_inventory.json",
+          "expected": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+          "actual": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round28_certificates.py",
+          "expected": "c190b804e7de9542386a4ea2e49ccfe7de0659c665719523536ee0a1fd81f5bc",
+          "actual": "c190b804e7de9542386a4ea2e49ccfe7de0659c665719523536ee0a1fd81f5bc",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round28_experiment.py",
+          "expected": "0c7b3a5a63c9f037250da60190601e69991eb6a539e342b5b4c6c97cba352a51",
+          "actual": "0c7b3a5a63c9f037250da60190601e69991eb6a539e342b5b4c6c97cba352a51",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round28_fixtures.py",
+          "expected": "e336d7127e117e4e342bca70803848a24feffd6a6f481a6893f947eb56ace93c",
+          "actual": "e336d7127e117e4e342bca70803848a24feffd6a6f481a6893f947eb56ace93c",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round28_qualification.py",
+          "expected": "50c677d5abfdb6f5ad171ed8b2c308cb4f0f641430a82094d65477f191b2a7a3",
+          "actual": "50c677d5abfdb6f5ad171ed8b2c308cb4f0f641430a82094d65477f191b2a7a3",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round28_radix.py",
+          "expected": "7159db28081014fed98119b8425e0f57e492c421477ea5ac43c6898dce7a580c",
+          "actual": "7159db28081014fed98119b8425e0f57e492c421477ea5ac43c6898dce7a580c",
+          "status": "match"
+        },
+        {
+          "path": "scripts/run_round28.py",
+          "expected": "c406e6c532a626d1e303305f8e0e9a7c762b260f8ff7ddb3c8fcda75c346c825",
+          "actual": "c406e6c532a626d1e303305f8e0e9a7c762b260f8ff7ddb3c8fcda75c346c825",
+          "status": "match"
+        },
+        {
+          "path": "scripts/unit_morphism_lexicon.py",
+          "expected": "4e1bc4aef71d2b8d6146f00fe2f917d0934743ebb2e79ada737a2ce53c113e9d",
+          "actual": "4e1bc4aef71d2b8d6146f00fe2f917d0934743ebb2e79ada737a2ce53c113e9d",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_round28_radix.py",
+          "expected": "70be2c29495e16dbf93cb37b351f41562c18913c07a338414815e1e45a39a549",
+          "actual": "70be2c29495e16dbf93cb37b351f41562c18913c07a338414815e1e45a39a549",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round28_result_manifest.json",
+      "checks": [
+        {
+          "path": "data/plan_progress_round28.json",
+          "expected": "c6cb8f7c751871dc6313d2ae71f39f2bc355e12dab5e14b1b1f297dd022a708a",
+          "actual": "c6cb8f7c751871dc6313d2ae71f39f2bc355e12dab5e14b1b1f297dd022a708a",
+          "status": "match"
+        },
+        {
+          "path": "data/round28_decisions.json",
+          "expected": "7d9eb0a2e464a193047e2a2ac7e15d22a28d3876f38686daeec5af2affd0f1cd",
+          "actual": "7d9eb0a2e464a193047e2a2ac7e15d22a28d3876f38686daeec5af2affd0f1cd",
+          "status": "match"
+        },
+        {
+          "path": "data/round28_experiment_manifest.json",
+          "expected": "1c2098495e423e96dfd67417025ffea07a884fa2ea222fd0aa06e069e9dcca4b",
+          "actual": "1c2098495e423e96dfd67417025ffea07a884fa2ea222fd0aa06e069e9dcca4b",
+          "status": "match"
+        },
+        {
+          "path": "data/round28_fixtures.json",
+          "expected": "659bde5874742e3af5fbedbc704fc218989f6512142ee4a3a7b2b01765350d58",
+          "actual": "659bde5874742e3af5fbedbc704fc218989f6512142ee4a3a7b2b01765350d58",
+          "status": "match"
+        },
+        {
+          "path": "data/round28_protocol.json",
+          "expected": "ac802c8e261eb19e9e2da9276519da3edd4c80c956daed17263da70321a7f806",
+          "actual": "ac802c8e261eb19e9e2da9276519da3edd4c80c956daed17263da70321a7f806",
+          "status": "match"
+        },
+        {
+          "path": "data/round28_reference/SOURCES.json",
+          "expected": "e1f7fcb437dd59463d2c4b4f81217b885f3df8b7e978e069e9b959a2799fde67",
+          "actual": "e1f7fcb437dd59463d2c4b4f81217b885f3df8b7e978e069e9b959a2799fde67",
+          "status": "match"
+        },
+        {
+          "path": "data/round28_reference/little_women.txt",
+          "expected": "b20d98130841548c2137476e18fb1fe3bc7d666202985cafa09b5e02e54f7d7f",
+          "actual": "b20d98130841548c2137476e18fb1fe3bc7d666202985cafa09b5e02e54f7d7f",
+          "status": "match"
+        },
+        {
+          "path": "data/round28_reference/scarlet_letter.txt",
+          "expected": "2341afcae7b06db1c80549fd700ddf10e8af12ca8e774c4747840a9ab8e81a14",
+          "actual": "2341afcae7b06db1c80549fd700ddf10e8af12ca8e774c4747840a9ab8e81a14",
+          "status": "match"
+        },
+        {
+          "path": "docs/round28.md",
+          "expected": "4bc050564c4bfdabbf8fbb65e58a03f46148657a37aae7446a87db184fc59eae",
+          "actual": "4bc050564c4bfdabbf8fbb65e58a03f46148657a37aae7446a87db184fc59eae",
+          "status": "match"
+        },
+        {
+          "path": "results/round28_certificates.json",
+          "expected": "2e48c328c1ea827c230a8fd8b49fa8ef299c190cde4279adc10ddbc55a3a867c",
+          "actual": "2e48c328c1ea827c230a8fd8b49fa8ef299c190cde4279adc10ddbc55a3a867c",
+          "status": "match"
+        },
+        {
+          "path": "results/round28_nulls.json",
+          "expected": "fcc7f12c2c14f7088e2cafb54dea0141d975eab209397284e3e460668e49c5cf",
+          "actual": "fcc7f12c2c14f7088e2cafb54dea0141d975eab209397284e3e460668e49c5cf",
+          "status": "match"
+        },
+        {
+          "path": "results/round28_qualification.json",
+          "expected": "18f0b6e8e5ea823e372265d4d1a3c381fec851957493840fab0aed74ef2e7640",
+          "actual": "18f0b6e8e5ea823e372265d4d1a3c381fec851957493840fab0aed74ef2e7640",
+          "status": "match"
+        },
+        {
+          "path": "results/round28_summary.json",
+          "expected": "a81a6ec6a623f32ee8efd2f8a11157460e44b1334a7889dd3e7ce49abbb2b682",
+          "actual": "a81a6ec6a623f32ee8efd2f8a11157460e44b1334a7889dd3e7ce49abbb2b682",
+          "status": "match"
+        },
+        {
+          "path": "results/round28_targets.json",
+          "expected": "40eb43082b1039e7f297352b73e1e9c070b9f215c27207174fceb9ec21165a31",
+          "actual": "40eb43082b1039e7f297352b73e1e9c070b9f215c27207174fceb9ec21165a31",
+          "status": "match"
+        },
+        {
+          "path": "results/round28_verification.json",
+          "expected": "248b7aec16707bb681aa6253d6765dd51e8fc6b3a1bd172a2b7f1cb4b66fd7e6",
+          "actual": "248b7aec16707bb681aa6253d6765dd51e8fc6b3a1bd172a2b7f1cb4b66fd7e6",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round28_certificates.py",
+          "expected": "c190b804e7de9542386a4ea2e49ccfe7de0659c665719523536ee0a1fd81f5bc",
+          "actual": "c190b804e7de9542386a4ea2e49ccfe7de0659c665719523536ee0a1fd81f5bc",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round28_experiment.py",
+          "expected": "0c7b3a5a63c9f037250da60190601e69991eb6a539e342b5b4c6c97cba352a51",
+          "actual": "0c7b3a5a63c9f037250da60190601e69991eb6a539e342b5b4c6c97cba352a51",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round28_fixtures.py",
+          "expected": "e336d7127e117e4e342bca70803848a24feffd6a6f481a6893f947eb56ace93c",
+          "actual": "e336d7127e117e4e342bca70803848a24feffd6a6f481a6893f947eb56ace93c",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round28_qualification.py",
+          "expected": "50c677d5abfdb6f5ad171ed8b2c308cb4f0f641430a82094d65477f191b2a7a3",
+          "actual": "50c677d5abfdb6f5ad171ed8b2c308cb4f0f641430a82094d65477f191b2a7a3",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round28_radix.py",
+          "expected": "7159db28081014fed98119b8425e0f57e492c421477ea5ac43c6898dce7a580c",
+          "actual": "7159db28081014fed98119b8425e0f57e492c421477ea5ac43c6898dce7a580c",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round28_summary.py",
+          "expected": "1578b50d544b282849a3f6c29dffdb0eff4a53f191773d28002ba39913f61bbb",
+          "actual": "1578b50d544b282849a3f6c29dffdb0eff4a53f191773d28002ba39913f61bbb",
+          "status": "match"
+        },
+        {
+          "path": "scripts/run_round28.py",
+          "expected": "c406e6c532a626d1e303305f8e0e9a7c762b260f8ff7ddb3c8fcda75c346c825",
+          "actual": "c406e6c532a626d1e303305f8e0e9a7c762b260f8ff7ddb3c8fcda75c346c825",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_round28_artifacts.py",
+          "expected": "1bc7194488f454e07ae676a565e76b86bba7601cc45dbf224190caad505c8e3f",
+          "actual": "1bc7194488f454e07ae676a565e76b86bba7601cc45dbf224190caad505c8e3f",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_round28_radix.py",
+          "expected": "70be2c29495e16dbf93cb37b351f41562c18913c07a338414815e1e45a39a549",
+          "actual": "70be2c29495e16dbf93cb37b351f41562c18913c07a338414815e1e45a39a549",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round29_experiment_manifest.json",
+      "checks": [
+        {
+          "path": "data/benchmark_reference/pride_prejudice.txt",
+          "expected": "3f6bb9d6f78e0293b56acd4714dd68cb7d6d1d293402031ce9d5a216bcaf9d75",
+          "actual": "3f6bb9d6f78e0293b56acd4714dd68cb7d6d1d293402031ce9d5a216bcaf9d75",
+          "status": "match"
+        },
+        {
+          "path": "data/english_reference/alice.txt",
+          "expected": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+          "actual": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+          "status": "match"
+        },
+        {
+          "path": "data/normalized_books.json",
+          "expected": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+          "actual": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+          "status": "match"
+        },
+        {
+          "path": "data/round29_english_model.json",
+          "expected": "8243e63b2867687851b6b0b0f0f45cea721c91aa91636ef88ad67d71248dbef5",
+          "actual": "8243e63b2867687851b6b0b0f0f45cea721c91aa91636ef88ad67d71248dbef5",
+          "status": "match"
+        },
+        {
+          "path": "data/round29_fixtures.json",
+          "expected": "23910d5d791482cb697c53d8fd6a16a5554fa5c07c5139f9015e153e5ac90752",
+          "actual": "23910d5d791482cb697c53d8fd6a16a5554fa5c07c5139f9015e153e5ac90752",
+          "status": "match"
+        },
+        {
+          "path": "data/round29_protocol.json",
+          "expected": "dd12e428e881df049e192e71e877926bcd51e5ada82ac5188d309987eff06c93",
+          "actual": "dd12e428e881df049e192e71e877926bcd51e5ada82ac5188d309987eff06c93",
+          "status": "match"
+        },
+        {
+          "path": "data/round29_reference/SOURCES.json",
+          "expected": "2ceab76eccd74036b09bbc6656a0a25b7e6a62579014fdf6779e6c0c07fd30fa",
+          "actual": "2ceab76eccd74036b09bbc6656a0a25b7e6a62579014fdf6779e6c0c07fd30fa",
+          "status": "match"
+        },
+        {
+          "path": "data/round29_reference/north_south.txt",
+          "expected": "0eeef1601e32c53fb1c729caf6d5314747b8f14b72eed8cbb3bb9ed8de405fef",
+          "actual": "0eeef1601e32c53fb1c729caf6d5314747b8f14b72eed8cbb3bb9ed8de405fef",
+          "status": "match"
+        },
+        {
+          "path": "data/round29_reference/silas_marner.txt",
+          "expected": "46b39559666acdce85bfbea4d98df3b3db0e044bcbacd22f4a55ba86be76a189",
+          "actual": "46b39559666acdce85bfbea4d98df3b3db0e044bcbacd22f4a55ba86be76a189",
+          "status": "match"
+        },
+        {
+          "path": "data/source_validation_inventory.json",
+          "expected": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+          "actual": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5",
+          "status": "match"
+        },
+        {
+          "path": "scripts/generative_comparison.py",
+          "expected": "41fb5d3361b39c3ed14929f8b326954b4bac1cfecebda1d90f83142bba355266",
+          "actual": "41fb5d3361b39c3ed14929f8b326954b4bac1cfecebda1d90f83142bba355266",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round28_experiment.py",
+          "expected": "0c7b3a5a63c9f037250da60190601e69991eb6a539e342b5b4c6c97cba352a51",
+          "actual": "0c7b3a5a63c9f037250da60190601e69991eb6a539e342b5b4c6c97cba352a51",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round28_radix.py",
+          "expected": "7159db28081014fed98119b8425e0f57e492c421477ea5ac43c6898dce7a580c",
+          "actual": "7159db28081014fed98119b8425e0f57e492c421477ea5ac43c6898dce7a580c",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round29_certificates.py",
+          "expected": "eb6f65758e3b58cdd6afa87dce4c5c4338a6f39533d7333fc8008bbe1cbb726b",
+          "actual": "eb6f65758e3b58cdd6afa87dce4c5c4338a6f39533d7333fc8008bbe1cbb726b",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round29_corpus_audit.py",
+          "expected": "698e8e8ffb44db130ec8b190b74cca8f687b56b3cc15f62f155947af4e7c2cca",
+          "actual": "698e8e8ffb44db130ec8b190b74cca8f687b56b3cc15f62f155947af4e7c2cca",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round29_experiment.py",
+          "expected": "b724ba82e9bd3e51fb1e21c626f4fb5f82153e3d5b0f7e6a5b67eaa4bb52fd72",
+          "actual": "b724ba82e9bd3e51fb1e21c626f4fb5f82153e3d5b0f7e6a5b67eaa4bb52fd72",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round29_fixtures.py",
+          "expected": "60426768f5441aa1c6ff03b9616dc4083b0f3201c08bdf112cd97bb92bfbf228",
+          "actual": "60426768f5441aa1c6ff03b9616dc4083b0f3201c08bdf112cd97bb92bfbf228",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round29_models.py",
+          "expected": "e96bc75c4e34a1b0ae0a7ff4d3d637533fd7688a447edec16c3c56e5f8fafdb9",
+          "actual": "e96bc75c4e34a1b0ae0a7ff4d3d637533fd7688a447edec16c3c56e5f8fafdb9",
+          "status": "match"
+        },
+        {
+          "path": "scripts/unit_morphism_lexicon.py",
+          "expected": "4e1bc4aef71d2b8d6146f00fe2f917d0934743ebb2e79ada737a2ce53c113e9d",
+          "actual": "4e1bc4aef71d2b8d6146f00fe2f917d0934743ebb2e79ada737a2ce53c113e9d",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_round29_models.py",
+          "expected": "8f3d199acf81ca14f98d1cbacbb0d9531c3a72acd87a7eef5c13942a81901f72",
+          "actual": "8f3d199acf81ca14f98d1cbacbb0d9531c3a72acd87a7eef5c13942a81901f72",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round29_result_manifest.json",
+      "checks": [
+        {
+          "path": "data/plan_progress_round29.json",
+          "expected": "5d45ed9bdb38ef7c5cf28bfa0bd7a604dd9bb9b5e7b4117405c4060de46945ac",
+          "actual": "5d45ed9bdb38ef7c5cf28bfa0bd7a604dd9bb9b5e7b4117405c4060de46945ac",
+          "status": "match"
+        },
+        {
+          "path": "data/round29_decisions.json",
+          "expected": "8e999d8039bb5b9c0666d65f492130bca18af8f3812525feedec6ffa3c35a2e0",
+          "actual": "8e999d8039bb5b9c0666d65f492130bca18af8f3812525feedec6ffa3c35a2e0",
+          "status": "match"
+        },
+        {
+          "path": "data/round29_english_model.json",
+          "expected": "8243e63b2867687851b6b0b0f0f45cea721c91aa91636ef88ad67d71248dbef5",
+          "actual": "8243e63b2867687851b6b0b0f0f45cea721c91aa91636ef88ad67d71248dbef5",
+          "status": "match"
+        },
+        {
+          "path": "data/round29_experiment_manifest.json",
+          "expected": "937aa480ec1abcfc5a43dc5345a167b8a294f24389332d9a51130633a48631f4",
+          "actual": "937aa480ec1abcfc5a43dc5345a167b8a294f24389332d9a51130633a48631f4",
+          "status": "match"
+        },
+        {
+          "path": "data/round29_fixtures.json",
+          "expected": "23910d5d791482cb697c53d8fd6a16a5554fa5c07c5139f9015e153e5ac90752",
+          "actual": "23910d5d791482cb697c53d8fd6a16a5554fa5c07c5139f9015e153e5ac90752",
+          "status": "match"
+        },
+        {
+          "path": "data/round29_protocol.json",
+          "expected": "dd12e428e881df049e192e71e877926bcd51e5ada82ac5188d309987eff06c93",
+          "actual": "dd12e428e881df049e192e71e877926bcd51e5ada82ac5188d309987eff06c93",
+          "status": "match"
+        },
+        {
+          "path": "data/round29_reference/SOURCES.json",
+          "expected": "2ceab76eccd74036b09bbc6656a0a25b7e6a62579014fdf6779e6c0c07fd30fa",
+          "actual": "2ceab76eccd74036b09bbc6656a0a25b7e6a62579014fdf6779e6c0c07fd30fa",
+          "status": "match"
+        },
+        {
+          "path": "data/round29_reference/north_south.txt",
+          "expected": "0eeef1601e32c53fb1c729caf6d5314747b8f14b72eed8cbb3bb9ed8de405fef",
+          "actual": "0eeef1601e32c53fb1c729caf6d5314747b8f14b72eed8cbb3bb9ed8de405fef",
+          "status": "match"
+        },
+        {
+          "path": "data/round29_reference/silas_marner.txt",
+          "expected": "46b39559666acdce85bfbea4d98df3b3db0e044bcbacd22f4a55ba86be76a189",
+          "actual": "46b39559666acdce85bfbea4d98df3b3db0e044bcbacd22f4a55ba86be76a189",
+          "status": "match"
+        },
+        {
+          "path": "docs/round29.md",
+          "expected": "55ed0600200e8e61c41f47670c21cf993c05b900a1d559e9527896c392691d6e",
+          "actual": "55ed0600200e8e61c41f47670c21cf993c05b900a1d559e9527896c392691d6e",
+          "status": "match"
+        },
+        {
+          "path": "results/round29_certificates.json",
+          "expected": "4232da7d49bb03e9a7628ea67988ee6913d83939d9c98315e67d33b8c778eb4a",
+          "actual": "4232da7d49bb03e9a7628ea67988ee6913d83939d9c98315e67d33b8c778eb4a",
+          "status": "match"
+        },
+        {
+          "path": "results/round29_corpus_audit.json",
+          "expected": "6fc9c9b1aab550cd0e06a8158a95ad29d4dc0b836854cb498813eff0465f6005",
+          "actual": "6fc9c9b1aab550cd0e06a8158a95ad29d4dc0b836854cb498813eff0465f6005",
+          "status": "match"
+        },
+        {
+          "path": "results/round29_qualification.json",
+          "expected": "76f633fa45d3f392f550ae7eb31b9ac7d7fc449f28d9ce72e9ad2b57a2e23756",
+          "actual": "76f633fa45d3f392f550ae7eb31b9ac7d7fc449f28d9ce72e9ad2b57a2e23756",
+          "status": "match"
+        },
+        {
+          "path": "results/round29_summary.json",
+          "expected": "870bafb85c41242e8257cc56927a7c0b38c8a264449d036194e768ff17c98216",
+          "actual": "870bafb85c41242e8257cc56927a7c0b38c8a264449d036194e768ff17c98216",
+          "status": "match"
+        },
+        {
+          "path": "results/round29_verification.json",
+          "expected": "2433bf28877b8646baf14f99c0c04f37923680e903160eb2164c168caa3a5b96",
+          "actual": "2433bf28877b8646baf14f99c0c04f37923680e903160eb2164c168caa3a5b96",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round29_certificates.py",
+          "expected": "eb6f65758e3b58cdd6afa87dce4c5c4338a6f39533d7333fc8008bbe1cbb726b",
+          "actual": "eb6f65758e3b58cdd6afa87dce4c5c4338a6f39533d7333fc8008bbe1cbb726b",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round29_corpus_audit.py",
+          "expected": "698e8e8ffb44db130ec8b190b74cca8f687b56b3cc15f62f155947af4e7c2cca",
+          "actual": "698e8e8ffb44db130ec8b190b74cca8f687b56b3cc15f62f155947af4e7c2cca",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round29_experiment.py",
+          "expected": "b724ba82e9bd3e51fb1e21c626f4fb5f82153e3d5b0f7e6a5b67eaa4bb52fd72",
+          "actual": "b724ba82e9bd3e51fb1e21c626f4fb5f82153e3d5b0f7e6a5b67eaa4bb52fd72",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round29_fixtures.py",
+          "expected": "60426768f5441aa1c6ff03b9616dc4083b0f3201c08bdf112cd97bb92bfbf228",
+          "actual": "60426768f5441aa1c6ff03b9616dc4083b0f3201c08bdf112cd97bb92bfbf228",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round29_models.py",
+          "expected": "e96bc75c4e34a1b0ae0a7ff4d3d637533fd7688a447edec16c3c56e5f8fafdb9",
+          "actual": "e96bc75c4e34a1b0ae0a7ff4d3d637533fd7688a447edec16c3c56e5f8fafdb9",
+          "status": "match"
+        },
+        {
+          "path": "scripts/round29_summary.py",
+          "expected": "667681b9496bbc1f60fbe9bb01b6ca395fbed71e64e367121300d64494add7e3",
+          "actual": "667681b9496bbc1f60fbe9bb01b6ca395fbed71e64e367121300d64494add7e3",
+          "status": "match"
+        },
+        {
+          "path": "scripts/run_round29.py",
+          "expected": "23c27a623eabbe3d353c61e268c36e6b42e3f3471a1f6d7e6b273d5eebb8f9fe",
+          "actual": "23c27a623eabbe3d353c61e268c36e6b42e3f3471a1f6d7e6b273d5eebb8f9fe",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_round29_artifacts.py",
+          "expected": "142b4fc6d9d2b113033df4523cfb1934db511d64ce7a87167fa89b1bc5730561",
+          "actual": "142b4fc6d9d2b113033df4523cfb1934db511d64ce7a87167fa89b1bc5730561",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_round29_models.py",
+          "expected": "8f3d199acf81ca14f98d1cbacbb0d9531c3a72acd87a7eef5c13942a81901f72",
+          "actual": "8f3d199acf81ca14f98d1cbacbb0d9531c3a72acd87a7eef5c13942a81901f72",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round6_evidence_manifest.json",
+      "checks": [
+        {
+          "path": "data/normalized_books.json",
+          "expected": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+          "actual": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+          "status": "match"
+        },
+        {
+          "path": "data/normalized_code_map.json",
+          "expected": "d2884c34addbce207678b014e6fc9f9de9ae4fe7280d94b19adb1bb86e72cfac",
+          "actual": "d2884c34addbce207678b014e6fc9f9de9ae4fe7280d94b19adb1bb86e72cfac",
+          "status": "match"
+        },
+        {
+          "path": "data/normalized_splits.json",
+          "expected": "0a0f9d3b60b4077bf9e3074919d35e754f6f77fd4ca4423b160e14e5a58ac3de",
+          "actual": "0a0f9d3b60b4077bf9e3074919d35e754f6f77fd4ca4423b160e14e5a58ac3de",
+          "status": "match"
+        },
+        {
+          "path": "data/word_validator_protocol.json",
+          "expected": "2d73e385b8b578ee4c1046d7de60971e3d601096e291593859907b1903449c75",
+          "actual": "2d73e385b8b578ee4c1046d7de60971e3d601096e291593859907b1903449c75",
+          "status": "match"
+        },
+        {
+          "path": "data/word_validator_reference/SOURCES.json",
+          "expected": "99c4f8559f658db10d77082d5e45530868e6c889363d155321ec8b613f30f5b7",
+          "actual": "99c4f8559f658db10d77082d5e45530868e6c889363d155321ec8b613f30f5b7",
+          "status": "match"
+        },
+        {
+          "path": "data/word_validator_reference/my_man_jeeves.txt",
+          "expected": "e8fff3273914c243fb8c0d35513e4397df4f64bf438e92c173d3ae13b000adb7",
+          "actual": "e8fff3273914c243fb8c0d35513e4397df4f64bf438e92c173d3ae13b000adb7",
+          "status": "match"
+        },
+        {
+          "path": "data/word_validator_reference/peter_pan.txt",
+          "expected": "6b08714281fe38266a756741e4c62915cda7536c2f78cca501f7fd53f3f445ae",
+          "actual": "6b08714281fe38266a756741e4c62915cda7536c2f78cca501f7fd53f3f445ae",
+          "status": "match"
+        },
+        {
+          "path": "data/word_validator_reference/secret_garden.txt",
+          "expected": "40709a2894f0816a97dd8a67d3082cfc4dac31e45b45ee55a908d62e1dd18c23",
+          "actual": "40709a2894f0816a97dd8a67d3082cfc4dac31e45b45ee55a908d62e1dd18c23",
+          "status": "match"
+        },
+        {
+          "path": "data/word_validator_reference/wizard_oz.txt",
+          "expected": "969bffab7740d4d8a0bac332d78bd0152ad4a40a2efc52f06c74a9bb6120be75",
+          "actual": "969bffab7740d4d8a0bac332d78bd0152ad4a40a2efc52f06c74a9bb6120be75",
+          "status": "match"
+        },
+        {
+          "path": "docs/literal_candidate_review.md",
+          "expected": "e4bbc5a7135e3a7df8e3aa6e0f2270ee360a458ace222b8a3eb68d139b102e92",
+          "actual": "e4bbc5a7135e3a7df8e3aa6e0f2270ee360a458ace222b8a3eb68d139b102e92",
+          "status": "match"
+        },
+        {
+          "path": "docs/module_signal_audit.md",
+          "expected": "2e28d2c6b908739c854cae8f7a3604cf5e49bc6c6fb79bc38991fc312b40803d",
+          "actual": "2e28d2c6b908739c854cae8f7a3604cf5e49bc6c6fb79bc38991fc312b40803d",
+          "status": "match"
+        },
+        {
+          "path": "docs/round6.md",
+          "expected": "214bb19334a3286d4f1e775fd28367c9865491bf2871dc33190d3fe0459638d7",
+          "actual": "214bb19334a3286d4f1e775fd28367c9865491bf2871dc33190d3fe0459638d7",
+          "status": "match"
+        },
+        {
+          "path": "docs/word_validator_audit.md",
+          "expected": "8574404aecf2d734e22c0656e706d55c30329a3cafcbe8e3ee00b71903def6ce",
+          "actual": "8574404aecf2d734e22c0656e706d55c30329a3cafcbe8e3ee00b71903def6ce",
+          "status": "match"
+        },
+        {
+          "path": "docs/zero_restoration_audit.md",
+          "expected": "435acf714552abcb3ce915bbc487ae25a62d5685fa94f264ac6bc66bc0906947",
+          "actual": "435acf714552abcb3ce915bbc487ae25a62d5685fa94f264ac6bc66bc0906947",
+          "status": "match"
+        },
+        {
+          "path": "results/literal_candidate_audit.json",
+          "expected": "0eac1491deb6122b0044cf7b54ffea50445785a3c7930fc288ac284aa4fdbe0f",
+          "actual": "0eac1491deb6122b0044cf7b54ffea50445785a3c7930fc288ac284aa4fdbe0f",
+          "status": "match"
+        },
+        {
+          "path": "results/module_signal_audit.json",
+          "expected": "ada682443f166d1e3cdfc88eb664382085fca4f890aecddd9c41d37dcc998485",
+          "actual": "ada682443f166d1e3cdfc88eb664382085fca4f890aecddd9c41d37dcc998485",
+          "status": "match"
+        },
+        {
+          "path": "results/qualified_tibia_search_v4.json",
+          "expected": "05459a9d4c65a7dc8330298b005b2c46224839a625f8b84699fc033b8010c1b1",
+          "actual": "05459a9d4c65a7dc8330298b005b2c46224839a625f8b84699fc033b8010c1b1",
+          "status": "match"
+        },
+        {
+          "path": "results/round6_execution.json",
+          "expected": "f482829b7abb610eb8d82dd0c139e36f38bf87b398af30aac723d7588258bd0b",
+          "actual": "f482829b7abb610eb8d82dd0c139e36f38bf87b398af30aac723d7588258bd0b",
+          "status": "match"
+        },
+        {
+          "path": "results/tests_round6.log",
+          "expected": "d655caa70773945473de2ad604a84688552a5df3896e2f2271e9134b7e96f7d2",
+          "actual": "d655caa70773945473de2ad604a84688552a5df3896e2f2271e9134b7e96f7d2",
+          "status": "match"
+        },
+        {
+          "path": "results/word_validator_audit.json",
+          "expected": "20d41ac6c2b47984b1b96941a33aa4b7a2cfb880cd47acae33414dda789b2cb8",
+          "actual": "20d41ac6c2b47984b1b96941a33aa4b7a2cfb880cd47acae33414dda789b2cb8",
+          "status": "match"
+        },
+        {
+          "path": "results/word_validator_development.json",
+          "expected": "bd9aa1ab89b09abfaf910991ad24b77411bc767a2d3785fe1c1b00fc38a7bb48",
+          "actual": "bd9aa1ab89b09abfaf910991ad24b77411bc767a2d3785fe1c1b00fc38a7bb48",
+          "status": "match"
+        },
+        {
+          "path": "results/zero_restoration_audit.json",
+          "expected": "81416561727e405a19160c75dddd88d3c6d5000f1119034663804684a15ac532",
+          "actual": "81416561727e405a19160c75dddd88d3c6d5000f1119034663804684a15ac532",
+          "status": "match"
+        },
+        {
+          "path": "scripts/copied_homophonic_v3.py",
+          "expected": "f37ed2623143e583ec81bf9bb747f4ae972e5be07c2e95a27ece8e1ab496338f",
+          "actual": "f37ed2623143e583ec81bf9bb747f4ae972e5be07c2e95a27ece8e1ab496338f",
+          "status": "match"
+        },
+        {
+          "path": "scripts/homophonic_benchmark.py",
+          "expected": "759b096e9b5e9b354926fcdf5d5cedab66346fb5114aa1530d520b51a04baea7",
+          "actual": "759b096e9b5e9b354926fcdf5d5cedab66346fb5114aa1530d520b51a04baea7",
+          "status": "match"
+        },
+        {
+          "path": "scripts/independent_word_validator.py",
+          "expected": "7f5b318fd6fca3fa1983a62c88a09599cbc758e22a58decf934ab814709c0da8",
+          "actual": "7f5b318fd6fca3fa1983a62c88a09599cbc758e22a58decf934ab814709c0da8",
+          "status": "match"
+        },
+        {
+          "path": "scripts/literal_candidate_audit.py",
+          "expected": "8e76d721ce1b833eacc7163c0e6e626774fc683057ee4300ff629a979c009e08",
+          "actual": "8e76d721ce1b833eacc7163c0e6e626774fc683057ee4300ff629a979c009e08",
+          "status": "match"
+        },
+        {
+          "path": "scripts/module_signal_audit.py",
+          "expected": "b1f205baeef8e67da93c6c0e11f86bbfec561d27e61601a65ac9fa2da748fb5c",
+          "actual": "b1f205baeef8e67da93c6c0e11f86bbfec561d27e61601a65ac9fa2da748fb5c",
+          "status": "match"
+        },
+        {
+          "path": "scripts/run_round6.py",
+          "expected": "82ba5f7b21cbd71638db7386127b184d0342fc5ec1528e99fcdf163cbd8e6440",
+          "actual": "82ba5f7b21cbd71638db7386127b184d0342fc5ec1528e99fcdf163cbd8e6440",
+          "status": "match"
+        },
+        {
+          "path": "scripts/word_validator_experiment.py",
+          "expected": "6c5312a44b8f0c822178ea0d35ce5082cd37b2ae529119374767827b003957cb",
+          "actual": "6c5312a44b8f0c822178ea0d35ce5082cd37b2ae529119374767827b003957cb",
+          "status": "match"
+        },
+        {
+          "path": "scripts/zero_restoration_audit.py",
+          "expected": "f1fa9bc178cd3283c775d1e5e2221ce5ae7bdd504d76080a3b9fe310af76d0d5",
+          "actual": "f1fa9bc178cd3283c775d1e5e2221ce5ae7bdd504d76080a3b9fe310af76d0d5",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_independent_word_validator.py",
+          "expected": "78be18d60d8f2af34fc1c229ccf039c81a949184a31adb111050b53edb2f60aa",
+          "actual": "78be18d60d8f2af34fc1c229ccf039c81a949184a31adb111050b53edb2f60aa",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_module_signal_audit.py",
+          "expected": "8a6fd91d28e3dbec3ef400465ee4ed9c6abc3b2789233f92508ba24ec8d06026",
+          "actual": "8a6fd91d28e3dbec3ef400465ee4ed9c6abc3b2789233f92508ba24ec8d06026",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_zero_restoration_audit.py",
+          "expected": "200411f69cff6fb052edab258102f1aa79b76ffded029cc33a294fbdc8200cc0",
+          "actual": "200411f69cff6fb052edab258102f1aa79b76ffded029cc33a294fbdc8200cc0",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round7_evidence_manifest.json",
+      "checks": [
+        {
+          "path": "data/normalized_code_map.json",
+          "expected": "d2884c34addbce207678b014e6fc9f9de9ae4fe7280d94b19adb1bb86e72cfac",
+          "actual": "d2884c34addbce207678b014e6fc9f9de9ae4fe7280d94b19adb1bb86e72cfac",
+          "status": "match"
+        },
+        {
+          "path": "data/raw_parser_reference/SOURCES.json",
+          "expected": "1da4731f1c279ad13493510c896119561a6163c24415b0aa324825a111dd3f50",
+          "actual": "1da4731f1c279ad13493510c896119561a6163c24415b0aa324825a111dd3f50",
+          "status": "match"
+        },
+        {
+          "path": "data/raw_parser_reference/call_wild.txt",
+          "expected": "30f569c5671bba7bbc4a92ab6d8ee01a0d3be00f994819c77da62c28041eb8a2",
+          "actual": "30f569c5671bba7bbc4a92ab6d8ee01a0d3be00f994819c77da62c28041eb8a2",
+          "status": "match"
+        },
+        {
+          "path": "data/raw_parser_reference/treasure_island.txt",
+          "expected": "5bc08275eacea8640b1aa185c645283bb8c564d7b23df6b03437d229b4fc6ebd",
+          "actual": "5bc08275eacea8640b1aa185c645283bb8c564d7b23df6b03437d229b4fc6ebd",
+          "status": "match"
+        },
+        {
+          "path": "data/raw_parser_reference_v2/SOURCES.json",
+          "expected": "c514116004bca357575bd9122ef69c32ec811be0bf3df62c07cdb927226e322f",
+          "actual": "c514116004bca357575bd9122ef69c32ec811be0bf3df62c07cdb927226e322f",
+          "status": "match"
+        },
+        {
+          "path": "data/raw_parser_reference_v2/anne_green_gables.txt",
+          "expected": "89a5e9fb2e0bb44562a969785385366f94e1da736aebee7d9cdf459eb0b5f9f6",
+          "actual": "89a5e9fb2e0bb44562a969785385366f94e1da736aebee7d9cdf459eb0b5f9f6",
+          "status": "match"
+        },
+        {
+          "path": "data/raw_parser_reference_v2/secret_agent.txt",
+          "expected": "0a37c8fc9a62db2efcea487f02c1cdd4d48657c66b54af3ad90f2317e42b7588",
+          "actual": "0a37c8fc9a62db2efcea487f02c1cdd4d48657c66b54af3ad90f2317e42b7588",
+          "status": "match"
+        },
+        {
+          "path": "data/raw_parser_v1_protocol.json",
+          "expected": "37d57ec2e0bed8a3f06a283a3a19b0abd9b3020d33099ac85883132729e23328",
+          "actual": "37d57ec2e0bed8a3f06a283a3a19b0abd9b3020d33099ac85883132729e23328",
+          "status": "match"
+        },
+        {
+          "path": "data/raw_parser_v2_protocol.json",
+          "expected": "cd1782c8ab1819d28dae9959d7f58cd5ec04ee87e22f74ae78a74df0bebdfe3d",
+          "actual": "cd1782c8ab1819d28dae9959d7f58cd5ec04ee87e22f74ae78a74df0bebdfe3d",
+          "status": "match"
+        },
+        {
+          "path": "docs/raw_parser.md",
+          "expected": "3c70cba9bba5ec56e0f7441ee01b23549b322b7ca7f1f8cdf059c29c5fabff80",
+          "actual": "3c70cba9bba5ec56e0f7441ee01b23549b322b7ca7f1f8cdf059c29c5fabff80",
+          "status": "match"
+        },
+        {
+          "path": "docs/round7.md",
+          "expected": "51c29bd0aae527111024842e12827bbfb21c32f50eb0a7faa029a6e3d0cd03c6",
+          "actual": "51c29bd0aae527111024842e12827bbfb21c32f50eb0a7faa029a6e3d0cd03c6",
+          "status": "match"
+        },
+        {
+          "path": "results/raw_codebook_ambiguity.json",
+          "expected": "a7d19cf437de7edb5600815afe13b6695de79eceaec94166f8ac97965c8a46f8",
+          "actual": "a7d19cf437de7edb5600815afe13b6695de79eceaec94166f8ac97965c8a46f8",
+          "status": "match"
+        },
+        {
+          "path": "results/raw_parser_summary.json",
+          "expected": "c1a2b4893a751cde1802c486713138319defb7780d4f3c2ece22065f7d605473",
+          "actual": "c1a2b4893a751cde1802c486713138319defb7780d4f3c2ece22065f7d605473",
+          "status": "match"
+        },
+        {
+          "path": "results/raw_parser_v1.json",
+          "expected": "05a1d1f7f049701ccbca77ebc45a9bce6423b0351990493b37fdd0f1d3c056c7",
+          "actual": "05a1d1f7f049701ccbca77ebc45a9bce6423b0351990493b37fdd0f1d3c056c7",
+          "status": "match"
+        },
+        {
+          "path": "results/raw_parser_v1_diagnosis.json",
+          "expected": "b290634bb55cdb327a1a5eb14b40603f2f8bf333fddd1d0cc8a7477123799be7",
+          "actual": "b290634bb55cdb327a1a5eb14b40603f2f8bf333fddd1d0cc8a7477123799be7",
+          "status": "match"
+        },
+        {
+          "path": "results/raw_parser_v2.json",
+          "expected": "dc3202238a7f8bde3b7153179ef9c18ba94a6a4854baac094debcb59ffce2870",
+          "actual": "dc3202238a7f8bde3b7153179ef9c18ba94a6a4854baac094debcb59ffce2870",
+          "status": "match"
+        },
+        {
+          "path": "results/round7_execution.json",
+          "expected": "34afa038726dccc71d436408b9c9240e3ec46da08fe676b91679dc238f2bf116",
+          "actual": "34afa038726dccc71d436408b9c9240e3ec46da08fe676b91679dc238f2bf116",
+          "status": "match"
+        },
+        {
+          "path": "results/tests_round7.log",
+          "expected": "bbd656575880152665abc5ad18049f33b86e266b92b9dd4a30752a974b8faeba",
+          "actual": "bbd656575880152665abc5ad18049f33b86e266b92b9dd4a30752a974b8faeba",
+          "status": "match"
+        },
+        {
+          "path": "scripts/raw_codebook_ambiguity.py",
+          "expected": "9c3eaddc1157fe55babde7821d373e9a61e8aa147f7e7ddd73ca4adcd80d0d19",
+          "actual": "9c3eaddc1157fe55babde7821d373e9a61e8aa147f7e7ddd73ca4adcd80d0d19",
+          "status": "match"
+        },
+        {
+          "path": "scripts/raw_digit_decoder.py",
+          "expected": "7361ecc965a87e33e766933d10b90a903ab1d1b3e53c9988706ccb3184c9010f",
+          "actual": "7361ecc965a87e33e766933d10b90a903ab1d1b3e53c9988706ccb3184c9010f",
+          "status": "match"
+        },
+        {
+          "path": "scripts/raw_parser_benchmark.py",
+          "expected": "895993259cb1afd81b21e6ebeecda327fd9e6aeeb4a211d4c3c4f4ec47aaac95",
+          "actual": "895993259cb1afd81b21e6ebeecda327fd9e6aeeb4a211d4c3c4f4ec47aaac95",
+          "status": "match"
+        },
+        {
+          "path": "scripts/raw_parser_benchmark_v2.py",
+          "expected": "782ecaac8d7a583451c0ce25310277ff379f9bb1bd4bf238d07e168abb73cbfe",
+          "actual": "782ecaac8d7a583451c0ce25310277ff379f9bb1bd4bf238d07e168abb73cbfe",
+          "status": "match"
+        },
+        {
+          "path": "scripts/raw_parser_diagnosis.py",
+          "expected": "f16a2d7d89cd60c4a9acb9ff414ee519c7d70d41996b3d19155b5fdc25960168",
+          "actual": "f16a2d7d89cd60c4a9acb9ff414ee519c7d70d41996b3d19155b5fdc25960168",
+          "status": "match"
+        },
+        {
+          "path": "scripts/raw_parser_long_context.py",
+          "expected": "bfd7da2787763cf40e4a174e39e360d15c32b408d517f314ddc3d6592ea2f816",
+          "actual": "bfd7da2787763cf40e4a174e39e360d15c32b408d517f314ddc3d6592ea2f816",
+          "status": "match"
+        },
+        {
+          "path": "scripts/run_round7.py",
+          "expected": "2f601328682ec6a9db9bfefca08f7eb87dc231d9d9b29761aac5658f3acde93c",
+          "actual": "2f601328682ec6a9db9bfefca08f7eb87dc231d9d9b29761aac5658f3acde93c",
+          "status": "match"
+        },
+        {
+          "path": "scripts/summarize_raw_parsers.py",
+          "expected": "334f945b9ec8fabfe019f8683766b5e313d26f2bb2229afd5efc5697b7f26c5f",
+          "actual": "334f945b9ec8fabfe019f8683766b5e313d26f2bb2229afd5efc5697b7f26c5f",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_raw_digit_decoder.py",
+          "expected": "e8da20838026de799e8c531edbc34f8c4b35e7e06d6525e2a991d095562a2d3f",
+          "actual": "e8da20838026de799e8c531edbc34f8c4b35e7e06d6525e2a991d095562a2d3f",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_raw_parser_long_context.py",
+          "expected": "e51813832ffef06d79ff95e50e6d568e278ab121c7c16377d16bed60ac808b8a",
+          "actual": "e51813832ffef06d79ff95e50e6d568e278ab121c7c16377d16bed60ac808b8a",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round8_evidence_manifest.json",
+      "checks": [
+        {
+          "path": "data/normalized_books.json",
+          "expected": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+          "actual": "bd47aee14b58975f5aa981c8666030f88439af01b77ce70b3d74bbc05457c862",
+          "status": "match"
+        },
+        {
+          "path": "data/normalized_code_map.json",
+          "expected": "d2884c34addbce207678b014e6fc9f9de9ae4fe7280d94b19adb1bb86e72cfac",
+          "actual": "d2884c34addbce207678b014e6fc9f9de9ae4fe7280d94b19adb1bb86e72cfac",
+          "status": "match"
+        },
+        {
+          "path": "data/normalized_splits.json",
+          "expected": "0a0f9d3b60b4077bf9e3074919d35e754f6f77fd4ca4423b160e14e5a58ac3de",
+          "actual": "0a0f9d3b60b4077bf9e3074919d35e754f6f77fd4ca4423b160e14e5a58ac3de",
+          "status": "match"
+        },
+        {
+          "path": "data/plan_status.json",
+          "expected": "b53c80fcb8a5285fcac92fa660b1987327d2accd3dab6845059372724ec85897",
+          "actual": "b53c80fcb8a5285fcac92fa660b1987327d2accd3dab6845059372724ec85897",
+          "status": "match"
+        },
+        {
+          "path": "data/zero_rule_constraints_protocol.json",
+          "expected": "92dcd705b7d1f231b539b065931144d77f63a6d4cec6756232833c578693383c",
+          "actual": "92dcd705b7d1f231b539b065931144d77f63a6d4cec6756232833c578693383c",
+          "status": "match"
+        },
+        {
+          "path": "data/zero_rule_prior_sources.json",
+          "expected": "a3b85231238307f93f827e373ca71c3e2163755b14c37af2cd0e49a3660b8770",
+          "actual": "a3b85231238307f93f827e373ca71c3e2163755b14c37af2cd0e49a3660b8770",
+          "status": "match"
+        },
+        {
+          "path": "docs/plan_status.md",
+          "expected": "b00b57b0a5cced8f3ad44cebbc05b93f683840914efb69df967fc49e958c7368",
+          "actual": "b00b57b0a5cced8f3ad44cebbc05b93f683840914efb69df967fc49e958c7368",
+          "status": "match"
+        },
+        {
+          "path": "docs/round8.md",
+          "expected": "eafdcda8c942aab9f4b38dadac5ba1fd5740aa3530a8a2e63dc7d4387352c021",
+          "actual": "eafdcda8c942aab9f4b38dadac5ba1fd5740aa3530a8a2e63dc7d4387352c021",
+          "status": "match"
+        },
+        {
+          "path": "results/round8_execution.json",
+          "expected": "35eb6101c052959d0e8d6bfe4de68e6d6e9b9b7c5cadfa351a9589f3e3dd834c",
+          "actual": "35eb6101c052959d0e8d6bfe4de68e6d6e9b9b7c5cadfa351a9589f3e3dd834c",
+          "status": "match"
+        },
+        {
+          "path": "results/tests_round8.log",
+          "expected": "f31655e2f878366527f98fb7477e58181c8e0d8bd7eb29a259e0ec49ec502cb4",
+          "actual": "f31655e2f878366527f98fb7477e58181c8e0d8bd7eb29a259e0ec49ec502cb4",
+          "status": "match"
+        },
+        {
+          "path": "results/zero_rule_constraints.json",
+          "expected": "d32975103c3816b8a85bad3b2963d80169d015304d341b8d01e7100cc966de4e",
+          "actual": "d32975103c3816b8a85bad3b2963d80169d015304d341b8d01e7100cc966de4e",
+          "status": "match"
+        },
+        {
+          "path": "results/zero_rule_identifiability.json",
+          "expected": "1158f6326315c82aa605b97c1425ca798f369eab45ee71261d6cc8afdfcc3c5b",
+          "actual": "1158f6326315c82aa605b97c1425ca798f369eab45ee71261d6cc8afdfcc3c5b",
+          "status": "match"
+        },
+        {
+          "path": "scripts/run_round8.py",
+          "expected": "dd24094f1344a60d57278d03c132fd5b432b5f913eb86397ac48256c36afb586",
+          "actual": "dd24094f1344a60d57278d03c132fd5b432b5f913eb86397ac48256c36afb586",
+          "status": "match"
+        },
+        {
+          "path": "scripts/zero_rule_constraints.py",
+          "expected": "1b2c29541fb49f8e0ddbbdb2f756c442b2f57faf984e1a94c80d29bcb3a4a34e",
+          "actual": "1b2c29541fb49f8e0ddbbdb2f756c442b2f57faf984e1a94c80d29bcb3a4a34e",
+          "status": "match"
+        },
+        {
+          "path": "scripts/zero_rule_experiment.py",
+          "expected": "fea3e77b71b94de9ee30ad35a04392efcc020e7cd517504f19209005145dd0d6",
+          "actual": "fea3e77b71b94de9ee30ad35a04392efcc020e7cd517504f19209005145dd0d6",
+          "status": "match"
+        },
+        {
+          "path": "scripts/zero_rule_identifiability.py",
+          "expected": "99a9269984288ba3f8b63c9cdff75c0b2cf6631482b2825ef560b2f76aedc3e5",
+          "actual": "99a9269984288ba3f8b63c9cdff75c0b2cf6631482b2825ef560b2f76aedc3e5",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_zero_rule_constraints.py",
+          "expected": "f8997e40b664d40df0e623869e7e871594454a2bf46999073e237289c603e44d",
+          "actual": "f8997e40b664d40df0e623869e7e871594454a2bf46999073e237289c603e44d",
+          "status": "match"
+        }
+      ]
+    },
+    {
+      "manifest": "data/round9_evidence_manifest.json",
+      "checks": [
+        {
+          "path": "data/book_location_listing.json",
+          "expected": "b389e1d2f72a004d570ef62a274cdd876e777eb6c4baeee7ba1ae3fbebcef3bd",
+          "actual": "b389e1d2f72a004d570ef62a274cdd876e777eb6c4baeee7ba1ae3fbebcef3bd",
+          "status": "match"
+        },
+        {
+          "path": "data/metadata_reference/arturo/LICENSE",
+          "expected": "bdc7236cbefc3b7a41193466ac17f193430a8e5bf863fc8fcfca9c156a19dbd3",
+          "actual": "bdc7236cbefc3b7a41193466ac17f193430a8e5bf863fc8fcfca9c156a19dbd3",
+          "status": "match"
+        },
+        {
+          "path": "data/metadata_reference/arturo/data/README.md",
+          "expected": "a4792d91f4b77d7857541a3d64d533f07db03bb6d851f87e34d9852f2f43c111",
+          "actual": "a4792d91f4b77d7857541a3d64d533f07db03bb6d851f87e34d9852f2f43c111",
+          "status": "match"
+        },
+        {
+          "path": "data/metadata_reference/arturo/data/book_positions.json",
+          "expected": "af180d44697fa4bb5460cf6fa9df97f5a75d7ed547980e481d44248648cae125",
+          "actual": "af180d44697fa4bb5460cf6fa9df97f5a75d7ed547980e481d44248648cae125",
+          "status": "match"
+        },
+        {
+          "path": "data/metadata_reference/arturo/data/bookcase_mapping.json",
+          "expected": "8b4ac2b571b52820ee8bf1a2e62fb8186d567bc9a9967de03c248d623a8becff",
+          "actual": "8b4ac2b571b52820ee8bf1a2e62fb8186d567bc9a9967de03c248d623a8becff",
+          "status": "match"
+        },
+        {
+          "path": "data/metadata_reference/arturo/data/master_text.txt",
+          "expected": "7b8ae4738f6f4530e667f69f184341d22a55d32b33d5e05c72f426cdc62d79e5",
+          "actual": "7b8ae4738f6f4530e667f69f184341d22a55d32b33d5e05c72f426cdc62d79e5",
+          "status": "match"
+        },
+        {
+          "path": "data/metadata_reference/arturo/docs/archive/Hellgate_Library.txt",
+          "expected": "2cac6747e356c0110b2c5e9ba0ac6fbe17f2dc3f22951d563f0cfb5202b84892",
+          "actual": "2cac6747e356c0110b2c5e9ba0ac6fbe17f2dc3f22951d563f0cfb5202b84892",
+          "status": "match"
+        },
+        {
+          "path": "data/metadata_reference/arturo/scripts/experimental/master_text.py",
+          "expected": "f1887aaf89a636298c91ea5a53f8515e0e3060d8ba76be036adc070f6e89ee23",
+          "actual": "f1887aaf89a636298c91ea5a53f8515e0e3060d8ba76be036adc070f6e89ee23",
+          "status": "match"
+        },
+        {
+          "path": "data/metadata_web_evidence.json",
+          "expected": "551807c5f35aa318a0a27afee8cfcd2cb6a2dfbe8bd09979697d5210553fdc5d",
+          "actual": "551807c5f35aa318a0a27afee8cfcd2cb6a2dfbe8bd09979697d5210553fdc5d",
+          "status": "match"
+        },
+        {
+          "path": "data/plan_progress_round9.json",
+          "expected": "52f7c763c2a768b0ff75e580b36ead471748ac8300f0cb3965995cc0b2d3f805",
+          "actual": "52f7c763c2a768b0ff75e580b36ead471748ac8300f0cb3965995cc0b2d3f805",
+          "status": "match"
+        },
+        {
+          "path": "data/zero_state_protocol.json",
+          "expected": "e39492ad9e8d46668dd07d8ab375e785591b1ee55e0d9b9d759d2508c81ee354",
+          "actual": "e39492ad9e8d46668dd07d8ab375e785591b1ee55e0d9b9d759d2508c81ee354",
+          "status": "match"
+        },
+        {
+          "path": "docs/round9.md",
+          "expected": "73e383ae7044c243a26c2ddef250c5a54648beef68e4a03f9b33156240d99903",
+          "actual": "73e383ae7044c243a26c2ddef250c5a54648beef68e4a03f9b33156240d99903",
+          "status": "match"
+        },
+        {
+          "path": "results/book_metadata_audit.json",
+          "expected": "070280436d423434b755bfd4fc56f1cec261670829c4057dbb0fb52a2dc9da00",
+          "actual": "070280436d423434b755bfd4fc56f1cec261670829c4057dbb0fb52a2dc9da00",
+          "status": "match"
+        },
+        {
+          "path": "results/historical_cam_probe_round9.json",
+          "expected": "a09fa3a7080c63331f2413016b43e05caecc71daec738199b19d0fecfd45ceb4",
+          "actual": "a09fa3a7080c63331f2413016b43e05caecc71daec738199b19d0fecfd45ceb4",
+          "status": "match"
+        },
+        {
+          "path": "results/round9_execution.json",
+          "expected": "99dc4b6aca2318adb6b20d3108dafab4d2f7af95a8368416a40b991701ec355a",
+          "actual": "99dc4b6aca2318adb6b20d3108dafab4d2f7af95a8368416a40b991701ec355a",
+          "status": "match"
+        },
+        {
+          "path": "results/tests_round9.log",
+          "expected": "3535505465f66cbdf80c354c9621d8319dd3b6f43d6451361022ea79a5caf78d",
+          "actual": "3535505465f66cbdf80c354c9621d8319dd3b6f43d6451361022ea79a5caf78d",
+          "status": "match"
+        },
+        {
+          "path": "results/zero_state_constraints.json",
+          "expected": "14e01a32c5cc8a5d38daf43a00db8790f466ed9b1e5d9800807d4a25bb33d6fa",
+          "actual": "14e01a32c5cc8a5d38daf43a00db8790f466ed9b1e5d9800807d4a25bb33d6fa",
+          "status": "match"
+        },
+        {
+          "path": "scripts/book_metadata_audit.py",
+          "expected": "812c4ccb5aa5a1b7d60fa884566c287af6c947b2ebbb60439bc64d0beca5e066",
+          "actual": "812c4ccb5aa5a1b7d60fa884566c287af6c947b2ebbb60439bc64d0beca5e066",
+          "status": "match"
+        },
+        {
+          "path": "scripts/historical_cam_probe.py",
+          "expected": "10623c1d392ed89a4447eb7d24407d6a4e5e71565e00254fac92cb951f5e49a8",
+          "actual": "10623c1d392ed89a4447eb7d24407d6a4e5e71565e00254fac92cb951f5e49a8",
+          "status": "match"
+        },
+        {
+          "path": "scripts/run_round9.py",
+          "expected": "7bd70375d8822f95f7f4d3a0ebb1faa676eb643b923632a1920212a5bba095e7",
+          "actual": "7bd70375d8822f95f7f4d3a0ebb1faa676eb643b923632a1920212a5bba095e7",
+          "status": "match"
+        },
+        {
+          "path": "scripts/zero_state_constraints.py",
+          "expected": "a9401fd80bc4a794ddd6cac20a3c1941e310e101b8e4513a2c911f105fd6f2a5",
+          "actual": "a9401fd80bc4a794ddd6cac20a3c1941e310e101b8e4513a2c911f105fd6f2a5",
+          "status": "match"
+        },
+        {
+          "path": "scripts/zero_state_experiment.py",
+          "expected": "aae9821f2ff3720916b680a63e69a8818c8f0de392729f0c98c084fd7ca4dc22",
+          "actual": "aae9821f2ff3720916b680a63e69a8818c8f0de392729f0c98c084fd7ca4dc22",
+          "status": "match"
+        },
+        {
+          "path": "sources/manifest.json",
+          "expected": "d7771ae7c7ebd8f67810538a6e0c05bf73a9928e3848baff0b98706737820fdd",
+          "actual": "d7771ae7c7ebd8f67810538a6e0c05bf73a9928e3848baff0b98706737820fdd",
+          "status": "match"
+        },
+        {
+          "path": "tests/test_zero_state_constraints.py",
+          "expected": "91f859079f53fecf35c167db0abe1c7cd15166c1d210de1d4fb1f8ca0692babc",
+          "actual": "91f859079f53fecf35c167db0abe1c7cd15166c1d210de1d4fb1f8ca0692babc",
+          "status": "match"
+        }
+      ]
+    }
+  ]
+}

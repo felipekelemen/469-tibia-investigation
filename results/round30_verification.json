@@ -1,0 +1,32 @@
+{
+  "local_date": "2026-11-24",
+  "timezone": "America/Sao_Paulo",
+  "python": "3.12.14",
+  "baseline_commit": "d13c49b3d83651ab9127adbadbaddc00e26e6229",
+  "frozen_input_commit": "eabfc706df1b98a5b2444fcffd5517c378df035f",
+  "historical_manifest_references_checked": 636,
+  "historical_hash_manifests": 48,
+  "distinct_referenced_paths": 487,
+  "raw_source_inputs_matching_round1_hashes": 5,
+  "corpus_reconstruction": "70books/11263digits/5729imported symbols/195omissions/9ambiguous alignments",
+  "clean_snapshot_tests": 298,
+  "clean_replay_commands": 8,
+  "clean_replay_all_passed": true,
+  "tracked_snapshot_files": 759,
+  "tracked_snapshot_changes": 0,
+  "final_unittest": {
+    "command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 python3 -m unittest discover -s tests -v",
+    "tests": 301,
+    "exit_code": 0
+  },
+  "known_nonfatal_warning": "CSV reader file-handle ResourceWarning in frozen round30_audit.py; no failed tests or altered results. Frozen implementation preserved.",
+  "source_replay_limit": "Round26original HTTP bodies unavailable in public snapshot; metadata and mathematics checked, source bytes not re-fetched.",
+  "third_party_replication": false,
+  "all29historical_rounds_fully_recomputed": false,
+  "translation_validated": false,
+  "original_nontextual_generator_authenticated": false,
+  "closure_replay": {
+    "command": "make round30",
+    "exit_code": 0
+  }
+}

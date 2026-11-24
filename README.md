@@ -1,6 +1,6 @@
 # 469-tibia-investigation — investigação reproduzível
 
-**Estado: vinte e nove rodadas executadas; nenhuma tradução verificável encontrada.**
+**Estado: lote de trinta rodadas concluído; resultado inconclusivo. Nenhuma tradução verificável encontrada.**
 Não afirmamos que o corpus é indecifrável nem que qualquer solução comunitária
 foi confirmada. O alvo é um algoritmo integral que generalize para textos inéditos.
 
@@ -10,12 +10,23 @@ Destino público: https://github.com/felipekelemen/469-tibia-investigation
 com [balanço de cada rodada](docs/rounds_01_23_review.md) e
 [formato obrigatório de resultados e candidatas](docs/round_report_template_v2.md).
 Prioridade: Avar Tar, Knightmare e Chayenne; decisões delimitadas sobre3478/nomes
-e matrizes; investigação própria de geração sem texto. As rodadas 24–29 estão concluídas;
-a rodada 30 permanece planejada. [Progresso atual](data/plan_progress_round29.json).
+e matrizes; investigação própria de geração sem texto. As rodadas 24–30 estão concluídas;
+não há etapas pendentes neste lote. [Progresso atual](data/plan_progress_round30.json).
 Estado da missão: inconclusivo.
 
-**Publicado:** corpus normalizado, código, testes e resultados das vinte e nove rodadas
+**Publicado:** corpus normalizado, código, testes e resultados das trinta rodadas
 disponíveis neste repositório. O acesso de escrita foi confirmado após nova reconexão.
+
+A [trigésima rodada](docs/round30.md) fecha o lote com auditoria e reprodução,
+sem uma nova busca de cifras. Conferiu 636 referências em 48 manifestos e
+reproduziu os 70 livros e 5.729 símbolos a partir dos arquivos originais agora
+incluídos no repositório. Oito procedimentos passaram em uma cópia limpa,
+incluindo as rodadas 28/29 completas; 301 testes passaram na árvore final.
+Nenhuma tradução ou origem original sem texto foi demonstrada. A busca limitada
+de Knightmare na R23 continua explícita;3478 e Hellgate mantêm conclusões
+restritas às evidências. Veja o [balanço das30rodadas](docs/rounds_01_30_review.md)
+e os [próximos dados discriminantes](docs/round30.md#próximos-experimentos-com-maior-valor-informativo).
+Replay de fechamento: `make round30`. A missão de decifração permanece aberta.
 
 A [vigésima nona rodada](docs/round29.md) comparou modelos textuais, numéricos
 e mistos em 240 corpora sintéticos, com chaves, dicionários, programas e

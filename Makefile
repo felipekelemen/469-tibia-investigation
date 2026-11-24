@@ -1,5 +1,5 @@
 PYTHON ?= python3
-.PHONY: sources audit experiments round2 round3 round4 round5 round6 round7 round8 round9 round10 round11 round12 round13 round14 round15 round15-full round16 round17 round18 round19 round20 round21 round22 round23 round24 round25 round26 round27 round27-full round28 round28-full round29 round29-full research-audit test reproduce
+.PHONY: sources audit experiments round2 round3 round4 round5 round6 round7 round8 round9 round10 round11 round12 round13 round14 round15 round15-full round16 round17 round18 round19 round20 round21 round22 round23 round24 round25 round26 round27 round27-full round28 round28-full round29 round29-full round30 research-audit test reproduce
 sources:
 	$(PYTHON) scripts/bootstrap_sources.py
 audit:
@@ -81,6 +81,8 @@ round29:
 	OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 $(PYTHON) scripts/run_round29.py
 round29-full:
 	OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 $(PYTHON) scripts/run_round29.py --full
+round30:
+	$(PYTHON) scripts/run_round30.py
 research-audit:
 	$(PYTHON) scripts/audit_external_samples.py
 test:

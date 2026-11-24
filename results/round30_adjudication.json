@@ -1,0 +1,46 @@
+{
+  "round": 30,
+  "mission_outcome": "I_inconclusive",
+  "qualified_translation_ids": [],
+  "qualified_original_nontext_generator_ids": [],
+  "translation_validated": false,
+  "original_nontextual_generator_authenticated": false,
+  "batch_completed_through_round": 30,
+  "remaining_rounds_in_mission_plan_v2": [],
+  "translation_mission_closed": false,
+  "new_semantic_candidates": [],
+  "pending_prior_main_fits": [
+    {
+      "source": "knightmare",
+      "family": "grapheme1_3",
+      "returned_lexical_keys": 1769,
+      "status": "bounded_search_not_exhaustive"
+    }
+  ],
+  "evidence_sha256": {
+    "data/round15_candidate_catalog.json": "653208cfe164fb1158d5cef465323074ffe1cf1387a7d573ef2602910f1399d1",
+    "data/round24_reference/phrase_claims.json": "cefb264d348da30282ff2d41022b86d9f0876f07fe1584a0af492832c4b38270",
+    "data/round25_decisions.json": "79dbb1bc1a5b3b8e79b508820fde175e62ff2f238471e35436ca0f1ad9f52e0f",
+    "data/round26_decisions.json": "b51be30ca3046306f2e506e0e9668f7e2c633584685ca768f5aa8e0b17efd788",
+    "data/round28_decisions.json": "7d9eb0a2e464a193047e2a2ac7e15d22a28d3876f38686daeec5af2affd0f1cd",
+    "docs/literal_candidate_review.md": "e4bbc5a7135e3a7df8e3aa6e0f2270ee360a458ace222b8a3eb68d139b102e92",
+    "docs/round15.md": "36ffb64abdce380a611352ba574d93150da913cd267a0b23a72f336fb968e957",
+    "docs/round29.md": "55ed0600200e8e61c41f47670c21cf993c05b900a1d559e9527896c392691d6e",
+    "results/claimed_translation.json": "4f582ff21e545402e166d6d89a51e026ea20178f0d65f373b93ae4fa61968a73",
+    "results/literal_candidate_audit.json": "0eac1491deb6122b0044cf7b54ffea50445785a3c7930fc288ac284aa4fdbe0f",
+    "results/round23_certificate_audit.json": "71fb6dae856529e27d505e99a17c2c8d2227e41458dc533e3a0062b20476d34d",
+    "results/round23_targets.json": "bbe0037f3f8a92ac46a7143f259dc111a74bedda14e1454fb6ddf6be7f4b51ed",
+    "results/round24_claims.json": "3b771b677a66e47a21949c168298ab5c6867750034b3660fa2e2af1753c6383a",
+    "results/round28_certificates.json": "2e48c328c1ea827c230a8fd8b49fa8ef299c190cde4279adc10ddbc55a3a867c",
+    "results/round28_targets.json": "40eb43082b1039e7f297352b73e1e9c070b9f215c27207174fceb9ec21165a31",
+    "results/round29_qualification.json": "76f633fa45d3f392f550ae7eb31b9ac7d7fc449f28d9ce72e9ad2b57a2e23756",
+    "scripts/audit_claimed_translation.py": "9d8ff2da8472a9806d6b8093fa1f0c4960b00277814ca095fde4453da014f2a8",
+    "scripts/round24_claim_audit.py": "b808c6ff0fe11961086eb26b29c97399bc0e22544a2f5407c952226a5198cc89"
+  },
+  "names_and_matrices": "Retain scoped rounds25/26/28 decisions; no new measurements, rename coincidence or cipher key authenticated.",
+  "limits": [
+    "Evidence requirement statuses are explicit research judgments grounded in linked audits, not an automated English oracle.",
+    "No new blinded semantic test or newly authenticated original game production process.",
+    "Current inconclusive disposition cannot prove that no possible numeric-to-text function exists."
+  ]
+}

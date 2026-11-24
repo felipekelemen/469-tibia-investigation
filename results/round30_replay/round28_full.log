@@ -1,0 +1,55 @@
+qualification 30 / 540
+qualification 60 / 540
+qualification 90 / 540
+qualification 120 / 540
+qualification 150 / 540
+qualification 180 / 540
+qualification 210 / 540
+qualification 240 / 540
+qualification 270 / 540
+qualification 300 / 540
+qualification 330 / 540
+qualification 360 / 540
+qualification 390 / 540
+qualification 420 / 540
+qualification 450 / 540
+qualification 480 / 540
+qualification 510 / 540
+qualification 540 / 540
+null uniform 10
+null uniform 20
+null uniform 30
+null uniform 40
+null uniform 50
+null uniform 60
+null uniform 70
+null uniform 80
+null uniform 90
+null global_shuffle 10
+null global_shuffle 20
+null global_shuffle 30
+null global_shuffle 40
+null global_shuffle 50
+null global_shuffle 60
+null global_shuffle 70
+null global_shuffle 80
+null global_shuffle 90
+null distinct_group_shuffle 10
+null distinct_group_shuffle 20
+null distinct_group_shuffle 30
+null distinct_group_shuffle 40
+null distinct_group_shuffle 50
+null distinct_group_shuffle 60
+null distinct_group_shuffle 70
+null distinct_group_shuffle 80
+null distinct_group_shuffle 90
+null book_substrings 10
+null book_substrings 20
+null book_substrings 30
+null book_substrings 40
+null book_substrings 50
+null book_substrings 60
+null book_substrings 70
+null book_substrings 80
+null book_substrings 90
+Round28: input/result integrity, all real fits, independent certificates, first positive and null invariants passed. All540positive fits and396joint null replicates replayed.

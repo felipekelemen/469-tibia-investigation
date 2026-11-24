@@ -803,5 +803,19 @@
     "status": "independence_not_supported_by_copy_audit",
     "evidence": "Os70livros estão conectados por igualdades de12dígitos. No reservado,3394/3489dígitos cobertos por igualdades de12e3304/3489por24. Chayenne repete11e9vezes. Janelas curtas também se repetem em prosa/Markov sintéticos; igualdade não identifica a causa autoral. Nenhum plaintext independente novo.",
     "artifact": "results/round29_corpus_audit.json"
+  },
+  {
+    "id": "H116",
+    "hypothesis": "Os arquivos originais empacotados reproduzem o corpus e a camada intermediária sem os clones ignorados",
+    "status": "confirmed_arithmetic_reproduction_not_semantic_validation",
+    "evidence": "Cinco hashes dos insumos da R1 conferidos; três cópias iguais. DP independente reproduz70livros,11263dígitos,5729símbolos,195zeros omitidos e9ambiguidades.636referências em48manifestos coincidem. Segmentação e rótulos continuam importados.",
+    "artifact": "results/round30_corpus.json"
+  },
+  {
+    "id": "H117",
+    "hypothesis": "As evidências reunidas no lote já satisfazem os critérios de tradução T ou origem original sem texto G",
+    "status": "not_established_batch_disposition_I",
+    "evidence": "Oito famílias de candidatas anteriores catalogadas, nenhuma satisfaz todos os requisitos semânticos; nenhum gerador original autenticado. Oito procedimentos passam em snapshot limpo, mas isso não cria verdade semântica. R23Knightmare continua limitada com1769chaves lexicais.",
+    "artifact": "results/round30_adjudication.json"
   }
 ]

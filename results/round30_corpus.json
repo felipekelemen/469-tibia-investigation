@@ -1,0 +1,600 @@
+{
+  "books": 70,
+  "unique_digit_strings": 70,
+  "digits": 11263,
+  "imported_symbols": 5729,
+  "omitted_leading_zeros": 195,
+  "observed_codes": 99,
+  "label_alphabet": [
+    "*",
+    "A",
+    "B",
+    "C",
+    "E",
+    "F",
+    "I",
+    "L",
+    "N",
+    "O",
+    "R",
+    "S",
+    "T",
+    "V"
+  ],
+  "ambiguous_alignment_book_ids": [
+    "2",
+    "10",
+    "13",
+    "14",
+    "19",
+    "27",
+    "35",
+    "57",
+    "67"
+  ],
+  "three_original_digit_copies_equal": true,
+  "normalized_records_equal": true,
+  "rows": [
+    {
+      "id": "0",
+      "digits": 144,
+      "imported_codes": 74,
+      "omitted_zeros": 4,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "d96c596e0aa62e16e5041e4f943a44285e71d5824d5fa536228e9d584f260dd2"
+    },
+    {
+      "id": "1",
+      "digits": 92,
+      "imported_codes": 47,
+      "omitted_zeros": 2,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "4cf08eb8f04ea0bad722be4982f3d179491fe19217c816753ac2f1ed4deb9a6b"
+    },
+    {
+      "id": "2",
+      "digits": 177,
+      "imported_codes": 90,
+      "omitted_zeros": 3,
+      "alignment_count_capped_2": 2,
+      "raw_sha256": "d4d44c2a0d4923a5ed78391e08382cc41c82cc6e0d67a3fbc065d618bd89c982"
+    },
+    {
+      "id": "3",
+      "digits": 140,
+      "imported_codes": 71,
+      "omitted_zeros": 2,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "e699cf31fc90eb01cb9d82e89010d79df72c602e5f00be93972dad3e041fa465"
+    },
+    {
+      "id": "4",
+      "digits": 140,
+      "imported_codes": 71,
+      "omitted_zeros": 2,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "99616230b08c91c5bbdeb6a9e6683df9541e636890edf1735a3d3a6d63377ad4"
+    },
+    {
+      "id": "5",
+      "digits": 273,
+      "imported_codes": 138,
+      "omitted_zeros": 3,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "100c04293972b9b3b333a7eef87d7d8dfff820a3f0535a552749a68dd4e73b54"
+    },
+    {
+      "id": "6",
+      "digits": 175,
+      "imported_codes": 91,
+      "omitted_zeros": 7,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "2f8664c75e34053df5aae48e00b94db44c4c47d05366466ae0e2b35e79256526"
+    },
+    {
+      "id": "7",
+      "digits": 106,
+      "imported_codes": 55,
+      "omitted_zeros": 4,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "808b0fca8220c055198fea6fdfa2cf1cb400b16e0cf67b4c0096514f066b1dda"
+    },
+    {
+      "id": "8",
+      "digits": 155,
+      "imported_codes": 79,
+      "omitted_zeros": 3,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "8c5f67498fcb39adf51de402039a4d4fe8befc6a5e8d279b195bc9ab42347977"
+    },
+    {
+      "id": "9",
+      "digits": 294,
+      "imported_codes": 149,
+      "omitted_zeros": 4,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "80260a5598c4880456d8a7221d6e1ca21263400342a069996d859a6e74bbd4b6"
+    },
+    {
+      "id": "10",
+      "digits": 281,
+      "imported_codes": 144,
+      "omitted_zeros": 7,
+      "alignment_count_capped_2": 2,
+      "raw_sha256": "9865800cc4bc4d51970e93b3ef07083d2a54ad01dc8b5ad719785ff508d98a09"
+    },
+    {
+      "id": "11",
+      "digits": 137,
+      "imported_codes": 70,
+      "omitted_zeros": 3,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "1169025456b4d06625c6829fa56746f11b62446801ea372cc13cc4e0523c3ebb"
+    },
+    {
+      "id": "12",
+      "digits": 137,
+      "imported_codes": 70,
+      "omitted_zeros": 3,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "8663bd683aa53f4e33c1ce2fd9365562cf92e57cf4e13db1030c9ab871365979"
+    },
+    {
+      "id": "13",
+      "digits": 141,
+      "imported_codes": 71,
+      "omitted_zeros": 1,
+      "alignment_count_capped_2": 2,
+      "raw_sha256": "eddcada2f3616378c13f4469cc4a7f3845d052e3d19c8fbbd13cf53cdcb6b7f6"
+    },
+    {
+      "id": "14",
+      "digits": 133,
+      "imported_codes": 68,
+      "omitted_zeros": 3,
+      "alignment_count_capped_2": 2,
+      "raw_sha256": "88d836f677880189c05413781594ee787d446e1b7258d8a1683beae7195b6c11"
+    },
+    {
+      "id": "15",
+      "digits": 143,
+      "imported_codes": 72,
+      "omitted_zeros": 1,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "a6dabe14ee6eb29ff8f669b6bb0a2d6248c8f135fa5e81ad616182cdf4bc94e2"
+    },
+    {
+      "id": "16",
+      "digits": 174,
+      "imported_codes": 89,
+      "omitted_zeros": 4,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "6eb2b1288dec40595850a8ea3fc3a882f2031f736f1d1bd99825ba82c6597a99"
+    },
+    {
+      "id": "17",
+      "digits": 274,
+      "imported_codes": 139,
+      "omitted_zeros": 4,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "4216870138b09a8580ee215043cf52e9d263ab0d6d2882be5e9c2119c2b22556"
+    },
+    {
+      "id": "18",
+      "digits": 93,
+      "imported_codes": 47,
+      "omitted_zeros": 1,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "0d4d568282e943c368db0f65a173f27d11e4a1806956bd158756dda982dc9c21"
+    },
+    {
+      "id": "19",
+      "digits": 129,
+      "imported_codes": 66,
+      "omitted_zeros": 3,
+      "alignment_count_capped_2": 2,
+      "raw_sha256": "3f1cc6b9abfee4dc2380ebb5d7ba7c99ef2c0d438ce38744a45653e33a0e39b5"
+    },
+    {
+      "id": "20",
+      "digits": 63,
+      "imported_codes": 32,
+      "omitted_zeros": 1,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "dc224ab75155a8c08787d4bdce0c8e648f8f43f19499e6de4ec4e7da30780bfe"
+    },
+    {
+      "id": "21",
+      "digits": 176,
+      "imported_codes": 89,
+      "omitted_zeros": 2,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "c1c520cae3404bbb4d774a733c50530bed6225c24375a5c2d1c3676f09e41955"
+    },
+    {
+      "id": "22",
+      "digits": 137,
+      "imported_codes": 70,
+      "omitted_zeros": 3,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "e17e9c50fa46c6ed6d0bd7a53b1c5ebad4333c5698921c1084edca6ca1bc7c1f"
+    },
+    {
+      "id": "23",
+      "digits": 177,
+      "imported_codes": 90,
+      "omitted_zeros": 3,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "edfa17ad483af29c811342cabf4a4598bbc01d2ef87c0d3bbfd075298bb01b29"
+    },
+    {
+      "id": "24",
+      "digits": 119,
+      "imported_codes": 60,
+      "omitted_zeros": 1,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "7e87852bf4b277eee239c15cf2b28920c280618b5b715ab9d2a1f24b489b6a48"
+    },
+    {
+      "id": "25",
+      "digits": 35,
+      "imported_codes": 18,
+      "omitted_zeros": 1,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "0dfd80499f8ec828940b1474d396198cfcc2b1e1e7434555651889025fe6d4d6"
+    },
+    {
+      "id": "26",
+      "digits": 170,
+      "imported_codes": 87,
+      "omitted_zeros": 4,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "36b2712c6d5338afafa9abdf0e19e9bd9f2aa27659a1249bce735ac41725b23a"
+    },
+    {
+      "id": "27",
+      "digits": 124,
+      "imported_codes": 63,
+      "omitted_zeros": 2,
+      "alignment_count_capped_2": 2,
+      "raw_sha256": "84b0b4305e8cfcfc2359750e0355bb6f6d3382c733b6c527dbd08b3c72ac9aa2"
+    },
+    {
+      "id": "28",
+      "digits": 146,
+      "imported_codes": 74,
+      "omitted_zeros": 2,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "eb58f4d5c1c9e02080347a04018127561b70580ac3a33f2946f220d9eda0f837"
+    },
+    {
+      "id": "29",
+      "digits": 151,
+      "imported_codes": 76,
+      "omitted_zeros": 1,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "f9227c160f9cb4eafe8f62f3173c5a4c1db97746dc2811c6f30d5fba4e3018f5"
+    },
+    {
+      "id": "30",
+      "digits": 150,
+      "imported_codes": 77,
+      "omitted_zeros": 4,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "fc09e7f34434d3da10a0db3b6b53f3d5654e69516de20e30eb6894d5245e9912"
+    },
+    {
+      "id": "31",
+      "digits": 248,
+      "imported_codes": 127,
+      "omitted_zeros": 6,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "b1322c2e355dab961919a213197f47e3392de13e2bc62da7069a18d9ec1ac25c"
+    },
+    {
+      "id": "32",
+      "digits": 137,
+      "imported_codes": 69,
+      "omitted_zeros": 1,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "2c12647f99385548b413ceb2c3745cd597856881118653b2c4f2e04cf3fff1f5"
+    },
+    {
+      "id": "33",
+      "digits": 134,
+      "imported_codes": 68,
+      "omitted_zeros": 2,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "2d0b11f62bcca2d397a16d91bbaa0c2141d795519f8128aba146ff4562f2ca7e"
+    },
+    {
+      "id": "34",
+      "digits": 123,
+      "imported_codes": 63,
+      "omitted_zeros": 3,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "b6c1c6bd15955b629015624ea87836960db88b45e26b21f013101cf8e89c112f"
+    },
+    {
+      "id": "35",
+      "digits": 286,
+      "imported_codes": 146,
+      "omitted_zeros": 6,
+      "alignment_count_capped_2": 2,
+      "raw_sha256": "01edcc4dd8c38472c108c95a6adb56a7e291700984e41235ad0ac8afcdbdf9e7"
+    },
+    {
+      "id": "36",
+      "digits": 137,
+      "imported_codes": 69,
+      "omitted_zeros": 1,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "7b0e5bb20655fa89ec3a6519aa7d5371e1cfa7160dfef15397b528686dddcde6"
+    },
+    {
+      "id": "37",
+      "digits": 160,
+      "imported_codes": 81,
+      "omitted_zeros": 2,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "465f7fff04c0181499643024401a796d4bdcf5965039a4884e7a05aa58661a40"
+    },
+    {
+      "id": "38",
+      "digits": 134,
+      "imported_codes": 67,
+      "omitted_zeros": 0,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "25b985149a61c5b165c5f68ad29b3ff680346dd5b0f7f06050e144785642a4f6"
+    },
+    {
+      "id": "39",
+      "digits": 59,
+      "imported_codes": 30,
+      "omitted_zeros": 1,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "d08a294dc12ce046a85b037a1f5e4e79777737a8ada95aff8d0524dbb67b72b6"
+    },
+    {
+      "id": "40",
+      "digits": 168,
+      "imported_codes": 86,
+      "omitted_zeros": 4,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "b107457136fbe635e4ed679c9c551f594561696378d760cfbd1701f5e4a539c2"
+    },
+    {
+      "id": "41",
+      "digits": 136,
+      "imported_codes": 69,
+      "omitted_zeros": 2,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "7f135f6cbe319a197594383f54f9d06d37a42631d1413e675da4a756652d5e67"
+    },
+    {
+      "id": "42",
+      "digits": 187,
+      "imported_codes": 95,
+      "omitted_zeros": 3,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "d5109a4e052e01ad95b09cdbca5fbd9f99eae05269bfd3e9d8efda1edb3e9129"
+    },
+    {
+      "id": "43",
+      "digits": 141,
+      "imported_codes": 71,
+      "omitted_zeros": 1,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "7b28da83304a26bbabff15ec6081b1b0867db09b755dd1a7d8cc2fdbc41104b8"
+    },
+    {
+      "id": "44",
+      "digits": 126,
+      "imported_codes": 64,
+      "omitted_zeros": 2,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "6662f9ce85ddfac20b5a8262cc2b583f63df66f5d78b83d3c7d3c063d63d586b"
+    },
+    {
+      "id": "45",
+      "digits": 149,
+      "imported_codes": 75,
+      "omitted_zeros": 1,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "5842d90a346543511e7a1cf84a3385587e36ebbbc98c14453a33a1ae1ef29b69"
+    },
+    {
+      "id": "46",
+      "digits": 253,
+      "imported_codes": 129,
+      "omitted_zeros": 5,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "f20b5f23bd2f92b6591d5c90fe8683b444f5780da145df39183b762778421675"
+    },
+    {
+      "id": "47",
+      "digits": 126,
+      "imported_codes": 65,
+      "omitted_zeros": 4,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "51ae8924a819f1081b3191c0f5469ef1fe0cd983e00f8a0e8ff3cb6ccd8bb526"
+    },
+    {
+      "id": "48",
+      "digits": 169,
+      "imported_codes": 85,
+      "omitted_zeros": 1,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "10312425844dad07ff08f4c0d9cf393fd5ad280618fec6a51d86a364469f63fa"
+    },
+    {
+      "id": "49",
+      "digits": 115,
+      "imported_codes": 60,
+      "omitted_zeros": 5,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "2ca2c645fae93905fea9fa19b52309a52bba441ace9ab731123d915d5e12b79c"
+    },
+    {
+      "id": "50",
+      "digits": 141,
+      "imported_codes": 73,
+      "omitted_zeros": 5,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "89ba7f3350615054bb1314e918852a4c88adf335fa45fdd160acf882d2f22f05"
+    },
+    {
+      "id": "51",
+      "digits": 268,
+      "imported_codes": 136,
+      "omitted_zeros": 4,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "952c90d7034de32c4239f4f0460c658cdc929b14c9cc858e06ef4049729c689f"
+    },
+    {
+      "id": "52",
+      "digits": 137,
+      "imported_codes": 70,
+      "omitted_zeros": 3,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "2b8b56700aee5696676c73d3030c2a50fd7aa1883443592992f3036ac2b7b6fc"
+    },
+    {
+      "id": "53",
+      "digits": 271,
+      "imported_codes": 137,
+      "omitted_zeros": 3,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "8f2d2d0fab87109e4c65ef2be0caa4f6876410649197a18bed675a62e0337fd7"
+    },
+    {
+      "id": "54",
+      "digits": 57,
+      "imported_codes": 29,
+      "omitted_zeros": 1,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "b4126f6633790c213bf827af0eed7ec5f464c0e6f9ef65b38a62c592daeae568"
+    },
+    {
+      "id": "55",
+      "digits": 116,
+      "imported_codes": 59,
+      "omitted_zeros": 2,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "715da6080c9ca3fbab2cd8c44bc41992d99f749ed44428b8fba64924dfd5bdeb"
+    },
+    {
+      "id": "56",
+      "digits": 266,
+      "imported_codes": 134,
+      "omitted_zeros": 2,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "c876bb0a06716129c3b2fc7cbcb229a7da182b503ce88dc7599f24fc97de4ca8"
+    },
+    {
+      "id": "57",
+      "digits": 230,
+      "imported_codes": 118,
+      "omitted_zeros": 6,
+      "alignment_count_capped_2": 2,
+      "raw_sha256": "0484ce6bc4d8721ae8e0936817daf01e6e48952cbfa4187e2389e9a9209b7019"
+    },
+    {
+      "id": "58",
+      "digits": 272,
+      "imported_codes": 139,
+      "omitted_zeros": 6,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "56af3a896daf2f28962e517f12b6a72a66aa05300247e82bcf8096f8386ab7ec"
+    },
+    {
+      "id": "59",
+      "digits": 272,
+      "imported_codes": 138,
+      "omitted_zeros": 4,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "39f0bf5f5d45469f56e03f80e085929e19cd5fa4de811ede848153ff8d78e649"
+    },
+    {
+      "id": "60",
+      "digits": 151,
+      "imported_codes": 76,
+      "omitted_zeros": 1,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "35dac18f957d3114b80976b6b55a6353bdcbfba717e5ad1589100111339c6963"
+    },
+    {
+      "id": "61",
+      "digits": 145,
+      "imported_codes": 74,
+      "omitted_zeros": 3,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "def270d21c1bb6de0cec1f45fbbc07399602bd69b179195b8d93205ea1791f06"
+    },
+    {
+      "id": "62",
+      "digits": 126,
+      "imported_codes": 64,
+      "omitted_zeros": 2,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "4d57346bb0cf8da83b6591b5755d7509fc15c46cd506479f992c1f491d836b68"
+    },
+    {
+      "id": "63",
+      "digits": 126,
+      "imported_codes": 63,
+      "omitted_zeros": 0,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "6ca2886b22f0d3102fb07b205390d5843f37abf0b65dd68d0eca0721a8b0d43e"
+    },
+    {
+      "id": "64",
+      "digits": 151,
+      "imported_codes": 76,
+      "omitted_zeros": 1,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "de7fde77ea3d3390c9526c83f5552b856c5d758259926b0d2cd6dbef5c37d58e"
+    },
+    {
+      "id": "65",
+      "digits": 169,
+      "imported_codes": 85,
+      "omitted_zeros": 1,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "21207fb8459bc472bfa315b55ac832946fe5d39ae6e5c32c45471664ff238789"
+    },
+    {
+      "id": "66",
+      "digits": 210,
+      "imported_codes": 107,
+      "omitted_zeros": 4,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "e2d0c599db739df7124f5d18ef7a8d652d86582133b7cb4ff00825669ebcb250"
+    },
+    {
+      "id": "67",
+      "digits": 98,
+      "imported_codes": 50,
+      "omitted_zeros": 2,
+      "alignment_count_capped_2": 2,
+      "raw_sha256": "dee9f4f07db21fc05a8704a210601e5df4e88e62ab45ff33a8ab74c8090f9780"
+    },
+    {
+      "id": "68",
+      "digits": 143,
+      "imported_codes": 73,
+      "omitted_zeros": 3,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "897f172cbee91e39a1ca131c667df7951414a632dd54ebd70e40ac8b7ee7d302"
+    },
+    {
+      "id": "69",
+      "digits": 140,
+      "imported_codes": 72,
+      "omitted_zeros": 4,
+      "alignment_count_capped_2": 1,
+      "raw_sha256": "7627e5aff8b935a12523a56df784820a175af87a30c08543f3e16456af3a32b4"
+    }
+  ],
+  "scope": "Independent byte/arithmetic reproduction from packaged original files. Imported segmentation and labels remain inputs; no live-game authenticity or English semantics implied."
+}

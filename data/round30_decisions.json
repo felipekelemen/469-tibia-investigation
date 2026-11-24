@@ -1,0 +1,29 @@
+{
+  "round": 30,
+  "mission_outcome": "I_inconclusive",
+  "new_semantic_candidates": [],
+  "translation_validated": false,
+  "original_nontextual_generator_authenticated": false,
+  "batch_closed": true,
+  "translation_mission_closed": false,
+  "closure_checks": [
+    {
+      "id": "H116",
+      "hypothesis": "Os arquivos originais empacotados reproduzem o corpus e a camada intermediária sem os clones ignorados",
+      "status": "confirmed_arithmetic_reproduction_not_semantic_validation",
+      "evidence": "Cinco hashes dos insumos da R1 conferidos; três cópias iguais. DP independente reproduz70livros,11263dígitos,5729símbolos,195zeros omitidos e9ambiguidades.636referências em48manifestos coincidem. Segmentação e rótulos continuam importados.",
+      "artifact": "results/round30_corpus.json"
+    },
+    {
+      "id": "H117",
+      "hypothesis": "As evidências reunidas no lote já satisfazem os critérios de tradução T ou origem original sem texto G",
+      "status": "not_established_batch_disposition_I",
+      "evidence": "Oito famílias de candidatas anteriores catalogadas, nenhuma satisfaz todos os requisitos semânticos; nenhum gerador original autenticado. Oito procedimentos passam em snapshot limpo, mas isso não cria verdade semântica. R23Knightmare continua limitada com1769chaves lexicais.",
+      "artifact": "results/round30_adjudication.json"
+    }
+  ],
+  "scientific_scope": "Internal reproduction and explicit evidence adjudication, no new semantic discovery, web sweep or third-party replication.",
+  "name_decisions": "Contextual3478name documented in wiki; literal spelling/internalID/key remain unvalidated outside scoped negatives.",
+  "matrix_decisions": "Retain enumerated-family negatives; physical dimensions/counts and rename timing not fully authenticated. Do not reopen without new measurements or mechanism.",
+  "pending_case": "R23Knightmare/grapheme1_3remains incomplete;1769returned keys are not exhaustive or validated English."
+}
