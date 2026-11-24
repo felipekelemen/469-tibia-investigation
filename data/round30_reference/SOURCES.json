@@ -1,0 +1,84 @@
+{
+  "sources": [
+    {
+      "path": "data/round30_reference/s2ward_books.json",
+      "upstream_repository": "https://github.com/s2ward/469",
+      "upstream_commit": "4b1c4d3d2b07ed373f4cca44ac1270638614cef5",
+      "upstream_path": "books.json",
+      "url": "https://github.com/s2ward/469/blob/4b1c4d3d2b07ed373f4cca44ac1270638614cef5/books.json",
+      "sha256": "3442402335f33e2124a0d1e05658a1d78d044ac4383c3c84442ac21c350a7eef",
+      "bytes": 11826,
+      "role": "original community source",
+      "round1_recorded_hash_match": true
+    },
+    {
+      "path": "data/round30_reference/arturo_books.json",
+      "upstream_repository": "https://github.com/arturoornelasb/tibia-bonelord-469-cipher",
+      "upstream_commit": "007dcf1707acc9b991642e68bcac08214a5bb38c",
+      "upstream_path": "data/books.json",
+      "url": "https://github.com/arturoornelasb/tibia-bonelord-469-cipher/blob/007dcf1707acc9b991642e68bcac08214a5bb38c/data/books.json",
+      "sha256": "3442402335f33e2124a0d1e05658a1d78d044ac4383c3c84442ac21c350a7eef",
+      "bytes": 11826,
+      "role": "original community source",
+      "round1_recorded_hash_match": true
+    },
+    {
+      "path": "data/round30_reference/kimlage_books.json",
+      "upstream_repository": "https://github.com/kimlage/tibia-469-cipher-casestudy",
+      "upstream_commit": "4d726a8de7af1f2216bd48d9b86165e0c50616b6",
+      "upstream_path": "analysis/audit_20260609/books_digits.json",
+      "url": "https://github.com/kimlage/tibia-469-cipher-casestudy/blob/4d726a8de7af1f2216bd48d9b86165e0c50616b6/analysis/audit_20260609/books_digits.json",
+      "sha256": "3153ff6407005bd5642ec853e1c903f97d2d8b82965fc89bf51859c2649259b2",
+      "bytes": 11953,
+      "role": "original community source",
+      "round1_recorded_hash_match": true
+    },
+    {
+      "path": "data/round30_reference/imported_tokens.json",
+      "upstream_repository": "https://github.com/kimlage/tibia-469-cipher-casestudy",
+      "upstream_commit": "4d726a8de7af1f2216bd48d9b86165e0c50616b6",
+      "upstream_path": "analysis/audit_20260609/hs_corpus.json",
+      "url": "https://github.com/kimlage/tibia-469-cipher-casestudy/blob/4d726a8de7af1f2216bd48d9b86165e0c50616b6/analysis/audit_20260609/hs_corpus.json",
+      "sha256": "61e2ba8d897b20c9adca2f810b3946cc26111e0161da90f242f3449a8e7148c5",
+      "bytes": 67771,
+      "role": "imported token sequence, not discovered segmentation",
+      "round1_recorded_hash_match": true
+    },
+    {
+      "path": "data/round30_reference/imported_labels.csv",
+      "upstream_repository": "https://github.com/kimlage/tibia-469-cipher-casestudy",
+      "upstream_commit": "4d726a8de7af1f2216bd48d9b86165e0c50616b6",
+      "upstream_path": "analysis/row0_origin_parallel_20260621/data/row0_pair_table_canonical.csv",
+      "url": "https://github.com/kimlage/tibia-469-cipher-casestudy/blob/4d726a8de7af1f2216bd48d9b86165e0c50616b6/analysis/row0_origin_parallel_20260621/data/row0_pair_table_canonical.csv",
+      "sha256": "405eff8a2331c6e953d80ccfbdde94be5b4caa6fecd51e3380ae686faed22235",
+      "bytes": 2410,
+      "role": "imported labels, not English plaintext",
+      "round1_recorded_hash_match": true
+    },
+    {
+      "path": "data/round30_reference/arturo_LICENSE",
+      "upstream_repository": "https://github.com/arturoornelasb/tibia-bonelord-469-cipher",
+      "upstream_commit": "007dcf1707acc9b991642e68bcac08214a5bb38c",
+      "upstream_path": "LICENSE",
+      "url": "https://github.com/arturoornelasb/tibia-bonelord-469-cipher/blob/007dcf1707acc9b991642e68bcac08214a5bb38c/LICENSE",
+      "sha256": "bdc7236cbefc3b7a41193466ac17f193430a8e5bf863fc8fcfca9c156a19dbd3",
+      "bytes": 1250,
+      "role": "available upstream license",
+      "round1_recorded_hash_match": null
+    },
+    {
+      "path": "data/round30_reference/kimlage_LICENSE",
+      "upstream_repository": "https://github.com/kimlage/tibia-469-cipher-casestudy",
+      "upstream_commit": "4d726a8de7af1f2216bd48d9b86165e0c50616b6",
+      "upstream_path": "LICENSE",
+      "url": "https://github.com/kimlage/tibia-469-cipher-casestudy/blob/4d726a8de7af1f2216bd48d9b86165e0c50616b6/LICENSE",
+      "sha256": "009b107a614999e5a066d75e81319eb455a7dec9de3bc8ffea750d86bcb4c25f",
+      "bytes": 1427,
+      "role": "available upstream license",
+      "round1_recorded_hash_match": null
+    }
+  ],
+  "independence": "Three repositories share lineage; not independent in-game attestations.",
+  "s2ward_license": "No LICENSE file found at the recorded commit; only the existing numeric corpus is packaged.",
+  "new_lore_evidence": false
+}

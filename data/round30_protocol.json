@@ -1,0 +1,28 @@
+{
+  "round": 30,
+  "basis": "d13c49b3d83651ab9127adbadbaddc00e26e6229",
+  "status": "Closure protocol fixed before integrity audit, independent corpus reconstruction, clean-snapshot replays or final adjudication. Prior results already exposed; no new blinded semantic test.",
+  "mission": "Decide T/G/I only within documented evidence; close this experiment batch without asserting a universal impossibility or ending the translation mission.",
+  "raw_inputs": "Package the three original public digit copies, the imported token stream and CSV label table from their recorded Git commits; verify against round1SHA256values. Preserve available upstream licenses. These are previously used sources, not new in-game captures or independent witnesses.",
+  "integrity_scope": "Enumerate baseline data/*manifest*.json files whose sha256 field is a path-to-digest dictionary. Compare every referenced file at the frozen input commit. Record missing/mismatched files without rewriting manifests. If mismatch occurs, separately check recorded Git versions; a historical match does not turn a current mismatch into a pass. List other manifest schemas as not covered by that generic check.",
+  "corpus_reconstruction": "Compare all three original digit copies, parse imported code lists and CSV label assignments independently, verify70normalized books and chosen zero omissions, and count zero-only alignment alternatives with forward dynamic programming instead of the original recursive solver. Reproduce counts and hashes, not the origin of the segmentation or English meanings.",
+  "clean_replays": [
+    {"id":"baseline_tests","command":["python3","-m","unittest","discover","-s","tests","-v"],"scope":"Software tests including new closure checks; report actual count"},
+    {"id":"round22","command":["python3","scripts/run_round22.py"],"scope":"Recompile and repeat828finite-key fits closing Chayenne pending cases"},
+    {"id":"round23_certificates","command":["python3","scripts/round23_certificate_audit.py","--check"],"scope":"Independent local/fixed constraints and returned-key checks only; NOT full bounded search"},
+    {"id":"round24","command":["python3","scripts/run_round24.py"],"scope":"Offline structural/claim reproductions; not a new web-source capture"},
+    {"id":"round25","command":["python3","scripts/run_round25.py"],"scope":"Finite structural null experiment and metadata hashes; not live revision retrieval"},
+    {"id":"round26","command":["python3","scripts/run_round26.py"],"scope":"Matrix consistency and synthetic checks; HTTP source bodies may be unavailable in public snapshot"},
+    {"id":"round28_full","command":["python3","scripts/run_round28.py","--full"],"scope":"All540positive fits,396joint nulls and real-key certificates"},
+    {"id":"round29_full","command":["python3","scripts/run_round29.py","--full"],"scope":"All240corpora and50400selected-code lengths"}
+  ],
+  "replay_execution": "Create a fresh archive of the committed round30inputs. No ignored clones, downloaded HTML, caches or old native binaries. Commands execute offline, sequentially; Python/numpy/g++versions recorded. Each command has a declared1800second ceiling; report timeouts/failures instead of changing old protocols. Capture logs and hashes of all snapshot files before/after, distinguishing created caches/binaries from changes to tracked experimental inputs/results. Do not claim full re-execution of all29rounds or external third-party replication.",
+  "adjudication": {
+    "T": "Requires fixed complete decoder, literal coherent outputs, independent prediction not explained by reuse, external semantic attestation and independent implementation. Existing short fragments/community labels alone do not qualify.",
+    "G": "Requires authenticated original production process without textual input, tied to source/version and scope, with reproduction when available. A short numeric model or failed cipher search does not qualify.",
+    "I": "Use when neither evidence requirement is met; preserve exact exclusions, incomplete searches and suspended historical claims separately. No arbitrary plaintext invention."
+  },
+  "priority_sources": ["avar_tar_poem", "knightmare_2012", "chayenne_2009_part1", "chayenne_2009_part2"],
+  "required_outputs": ["Input/publication integrity audit", "Independent corpus reconstruction", "Clean replay log and limitations", "Evidence-linked round1–30 ledger", "Literal candidate status catalogue", "T/G/I decision and scoped3478/matrix decisions", "Ranked evidence acquisition and reopening criteria"],
+  "source_update": "No new web/lore discovery planned in this closure. Existing sources and unavailable capture bytes must remain distinguished. No contact with other people."
+}
