@@ -1,0 +1,24 @@
+{
+  "method": "GitHub connector search_commits, empty query, repository_full_name, topn=1; latest listed commit, not a remote-ref protocol check",
+  "repositories": [
+    {
+      "repository_full_name": "arturoornelasb/tibia-bonelord-469-cipher",
+      "sha": "007dcf1707acc9b991642e68bcac08214a5bb38c",
+      "created_at": "2026-07-04T16:41:48Z",
+      "html_url": "https://github.com/arturoornelasb/tibia-bonelord-469-cipher/commit/007dcf1707acc9b991642e68bcac08214a5bb38c"
+    },
+    {
+      "repository_full_name": "s2ward/469",
+      "sha": "4b1c4d3d2b07ed373f4cca44ac1270638614cef5",
+      "created_at": "2024-12-06T12:29:43Z",
+      "html_url": "https://github.com/s2ward/469/commit/4b1c4d3d2b07ed373f4cca44ac1270638614cef5"
+    },
+    {
+      "repository_full_name": "kimlage/tibia-469-cipher-casestudy",
+      "sha": "4d726a8de7af1f2216bd48d9b86165e0c50616b6",
+      "created_at": "2026-06-23T01:14:41Z",
+      "html_url": "https://github.com/kimlage/tibia-469-cipher-casestudy/commit/4d726a8de7af1f2216bd48d9b86165e0c50616b6"
+    }
+  ],
+  "same_as_round24_pins": true
+}

@@ -1,0 +1,305 @@
+{
+  "calls": [
+    {
+      "id": "web01",
+      "request": {
+        "system2_search_query": [
+          {
+            "q": "\"Tibia\" \"469\" \"Knightmare\" \"2026\""
+          },
+          {
+            "q": "\"Chayenne\" \"469\" interview 2009 language"
+          }
+        ]
+      },
+      "executed": true,
+      "response_archived": false,
+      "note": "Initial lead search; request reconstructed from session. No response hash is claimed."
+    },
+    {
+      "id": "round31_web02",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Knightmare\" \"bonelord language\" \"dictionary\" interview"
+          },
+          {
+            "q": "\"Teyrata\" \"469\" interview"
+          },
+          {
+            "q": "\"Knightmare\" \"Beholdersprache\""
+          },
+          {
+            "q": "\"Chayenne\" \"May 15, 2009\" interview Tibia"
+          }
+        ],
+        "response_length": "long"
+      },
+      "executed": true,
+      "response_archived": true,
+      "private_record": "data/private/round31/round31_web02.json",
+      "private_record_sha256": "c4e23860c30b009fe848edaaa408fb603a143febbabc95cd7a2a92ad55dbe1be",
+      "note": "Search results are discovery leads; not all hits were reviewed."
+    },
+    {
+      "id": "round31_web03",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Teyrata\" \"interview\" \"2014\""
+          },
+          {
+            "q": "\"Teyrata\" \"469\" \"2014\""
+          },
+          {
+            "q": "\"Teyrata\" \"entrevista\" \"06\" \"maio\""
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "https://www.tibiawiki.com.br/wiki/469"
+          }
+        ],
+        "response_length": "long"
+      },
+      "executed": true,
+      "response_archived": true,
+      "private_record": "data/private/round31/round31_web03.json",
+      "private_record_sha256": "67f2d0da0520c3111e04f02387d9538694dc7de9947bc01849798e2f6dc1d0a5",
+      "note": "Search results are discovery leads; not all hits were reviewed."
+    },
+    {
+      "id": "round31_web04",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Knightmare\" \"TibiaEvents\" \"2014\" interview"
+          },
+          {
+            "q": "\"Knightmare\" \"language\" \"dictionary\" interview -site:github.com -site:forums.tibiabr.com"
+          },
+          {
+            "q": "\"Chayenne\" \"interview\" \"2009\" site:tibia.com/news"
+          },
+          {
+            "q": "\"Knightmare\" \"bonelord\" \"solvable\" interview -site:github.com -site:reddit.com"
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "https://www.tibiawiki.com.br/wiki/Tibia_Wiki%3AInterview_with_Teyrata"
+          },
+          {
+            "ref_id": "https://www.tibia.com/news/?id=2746&subtopic=newsarchive"
+          },
+          {
+            "ref_id": "https://portaltibia.com.br/pt/interview-with-teyrata/"
+          }
+        ],
+        "response_length": "long"
+      },
+      "executed": true,
+      "response_archived": true,
+      "private_record": "data/private/round31/round31_web04.json",
+      "private_record_sha256": "2fdc3706d7a192b9589b79c75d8e6937b0ec8f1800718f76dbfdb24bbfff0af4",
+      "note": "Search results are discovery leads; not all hits were reviewed."
+    },
+    {
+      "id": "round31_web05",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn14view0",
+            "lineno": 137,
+            "num_lines": 25
+          },
+          {
+            "ref_id": "turn14view2",
+            "lineno": 160,
+            "num_lines": 25
+          },
+          {
+            "ref_id": "https://portaltibia.com.br/pt/tibiaevents-entrevista-com-knightmare/"
+          },
+          {
+            "ref_id": "https://forum.portaltibia.com.br/topic/11420-entrevista-com-chayenne/"
+          },
+          {
+            "ref_id": "https://tibia.fandom.com/wiki/Interviews"
+          }
+        ],
+        "response_length": "long"
+      },
+      "executed": false,
+      "response_archived": true,
+      "private_record": "data/private/round31/round31_web05.json",
+      "private_record_sha256": "ef634698b46b19724757c712574268038bb91f5493d1713b1612eb04438890d0",
+      "note": "Tool argument validation rejected num_lines; zero requests executed."
+    },
+    {
+      "id": "round31_web06",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn14view0",
+            "lineno": 137
+          },
+          {
+            "ref_id": "turn14view2",
+            "lineno": 160
+          },
+          {
+            "ref_id": "https://portaltibia.com.br/pt/tibiaevents-entrevista-com-knightmare/"
+          },
+          {
+            "ref_id": "https://forum.portaltibia.com.br/topic/11420-entrevista-com-chayenne/"
+          },
+          {
+            "ref_id": "https://tibia.fandom.com/wiki/Interviews"
+          }
+        ],
+        "response_length": "long"
+      },
+      "executed": true,
+      "response_archived": true,
+      "private_record": "data/private/round31/round31_web06.json",
+      "private_record_sha256": "b06c013a027828f8ebf304a1087b0331e68723b4ede72bab4e8482121e7aea5d",
+      "note": "Search results are discovery leads; not all hits were reviewed."
+    },
+    {
+      "id": "round31_web07",
+      "request": {
+        "find": [
+          {
+            "ref_id": "turn15view2",
+            "pattern": "Bonelord"
+          },
+          {
+            "ref_id": "turn15view3",
+            "pattern": "Beholder"
+          },
+          {
+            "ref_id": "turn15view2",
+            "pattern": "Poderia?"
+          }
+        ],
+        "response_length": "long"
+      },
+      "executed": true,
+      "response_archived": true,
+      "private_record": "data/private/round31/round31_web07.json",
+      "private_record_sha256": "c4b07ddba18838081b0b3919bd91044d336dffd1faa6a8c39d77f7641cbb767c",
+      "note": "Search results are discovery leads; not all hits were reviewed."
+    },
+    {
+      "id": "round31_web08",
+      "request": {
+        "system2_search_query": [
+          {
+            "q": "\"Knightmare\" \"TibiaEvents\" \"Could I\""
+          },
+          {
+            "q": "\"Knightmare\" \"dictionary\" \"language\" interview"
+          },
+          {
+            "q": "\"Knightmare\" \"translator\" \"eyes\" interview"
+          },
+          {
+            "q": "\"Avar Tar\" \"poem\" \"469\" translation"
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "turn15view2",
+            "lineno": 35
+          }
+        ],
+        "response_length": "long"
+      },
+      "executed": true,
+      "response_archived": true,
+      "private_record": "data/private/round31/round31_web08.json",
+      "private_record_sha256": "944b1ecee08789cd35b809265318a57f9569b822fe1867c7ce0ac3f5b1f0e741",
+      "note": "Search results are discovery leads; not all hits were reviewed."
+    },
+    {
+      "id": "round31_web09",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn15view2",
+            "id": 22
+          }
+        ],
+        "system2_search_query": [
+          {
+            "q": "\"Tibia\" \"Knightmare\" \"translator\" \"eyes\""
+          },
+          {
+            "q": "\"Tibia\" \"Knightmare\" \"dictionary\" \"469\""
+          },
+          {
+            "q": "\"TibiaEvents\" \"Knightmare\" \"interview\" \"2014\" \"language\""
+          },
+          {
+            "q": "\"Bom Dia Tibia\" \"Knightmare\" entrevista"
+          }
+        ],
+        "response_length": "long"
+      },
+      "executed": true,
+      "response_archived": true,
+      "private_record": "data/private/round31/round31_web09.json",
+      "private_record_sha256": "a78b51e07e7b0464c2c91e651d315115b7b4f9c33cdbdb5cfa8425da21f02d0c",
+      "note": "Search results are discovery leads; not all hits were reviewed."
+    },
+    {
+      "id": "round31_web10",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn18view0",
+            "id": 24
+          }
+        ],
+        "system2_search_query": [
+          {
+            "q": "\"Tibia\" \"Knightmare\" \"tradutor\" \"olhos\""
+          },
+          {
+            "q": "\"Knightmare\" \"Bonelord language\" \"Could\" \"Should\""
+          },
+          {
+            "q": "\"bomdiatibia.com\" \"knightmare\" \"entrevista\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "executed": true,
+      "response_archived": true,
+      "private_record": "data/private/round31/round31_web10.json",
+      "private_record_sha256": "393000a173e0bdeb62b30cf7f4a66991b5d15919e8728ed034531f9e46c800bb",
+      "note": "Search results are discovery leads; not all hits were reviewed."
+    },
+    {
+      "id": "round31_web11",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn19view0",
+            "id": 6
+          }
+        ],
+        "response_length": "short"
+      },
+      "executed": true,
+      "response_archived": true,
+      "private_record": "data/private/round31/round31_web11.json",
+      "private_record_sha256": "0e392db473a0f5386fdecef409a7e7478193b3951c4564bc58d56ceac1bde021",
+      "note": "Search results are discovery leads; not all hits were reviewed."
+    }
+  ],
+  "http_requests": 8,
+  "counting": "Count explicit search queries, open, click and find operations. Invalid call excluded. Conservatively include clicks/finds in the page-open budget. HTTP redirects within one bounded GET are not separate targeted requests.",
+  "stop_reason": "24-query cap reached; principal source-gap resolved; no new attributable numeric material."
+}

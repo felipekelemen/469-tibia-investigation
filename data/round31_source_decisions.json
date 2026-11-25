@@ -1,0 +1,40 @@
+{
+  "basis": "3196a8d3507ea35f04efca09ebb7cdbe26659603",
+  "judgment_type": "Manual context/provenance judgments after page inspection; software checks consistency, not speaker intent or truth.",
+  "teyrata": {
+    "language_reply_complete": "Not yet! If you don’t count the bonelords shouting at me, that is. :)",
+    "name_answer_context": "Her personal character name, not the numeric language.",
+    "disposition": "source_gap_closed_no_new_numeric_reply",
+    "independent_utterances": 1,
+    "semantic_pair_supplied": false,
+    "original_generation_supplied": false
+  },
+  "knightmare": {
+    "short_answer_excerpt": "Poderia? Claro. Devo? Claro que não.",
+    "excerpt_is_complete_answer": false,
+    "context": "Compound question asks whether random/solvable, quest-related and whether a hint can be provided; remainder refuses to eliminate or endorse community theories.",
+    "disposition": "no_specific_algorithm_or_original_generation_evidence",
+    "original_english_recovered": false,
+    "semantic_pair_supplied": false,
+    "original_generation_supplied": false
+  },
+  "chayenne": {
+    "disposition": "existing_numeric_response_reconfirmed",
+    "inventory_ids": [
+      "chayenne_2009_part1",
+      "chayenne_2009_part2"
+    ],
+    "new_numeric_response": false,
+    "semantic_pair_supplied": false,
+    "original_generation_supplied": false
+  },
+  "remaining_gaps": [
+    "Original English TibiaEvents2014interview permalink/body",
+    "Original BomDiaTibia interview behind the eyes attribution",
+    "Original source, if any, for the dictionary attribution",
+    "Attested English gloss or original production material for priority sources"
+  ],
+  "mission_disposition": "I",
+  "candidate_translation": null,
+  "next_priority": "Acquire a primary semantic anchor or source-specific authoring process; pursue exact historical publisher permalinks before more generic keyword searches. Reopen cryptanalysis only with a discriminating new constraint or qualified method."
+}

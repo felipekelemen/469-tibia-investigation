@@ -1,0 +1,36 @@
+{
+  "round": 31,
+  "basis": "3196a8d3507ea35f04efca09ebb7cdbe26659603",
+  "audit_scope": "Offline consistency of source records and manual decisions; not fresh web retrieval or proof of meaning.",
+  "operation_counts": {
+    "search_queries_total": 24,
+    "open": 10,
+    "click": 3,
+    "find": 3,
+    "page_opens_total": 16,
+    "followup_assets_or_api_requests": 8
+  },
+  "rejected_calls_not_counted": [
+    "round31_web05"
+  ],
+  "source_records": 13,
+  "direct_http_status_counts": {
+    "200": 7,
+    "403": 1
+  },
+  "upstream_latest_listed_commits_matching_R24": 3,
+  "teyrata_captured_representations": 3,
+  "teyrata_distinct_interview_exchanges": 1,
+  "teyrata_language_answer_digits": [],
+  "chayenne_existing_digit_lengths": [
+    36,
+    13
+  ],
+  "new_attributable_numeric_responses_recovered": 0,
+  "conditional_cipher_experiments": "not_triggered_no_new_digits",
+  "new_semantic_pairs": 0,
+  "original_production_descriptions": 0,
+  "candidate_translation": null,
+  "mission_disposition": "I",
+  "limits": "The original English2014interview and two attributed creator-quote sources remain unrecovered. Absence in this search is not global absence or a proof of undecipherability."
+}

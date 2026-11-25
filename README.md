@@ -1,6 +1,6 @@
 # 469-tibia-investigation — investigação reproduzível
 
-**Estado: lote de trinta rodadas concluído; resultado inconclusivo. Nenhuma tradução verificável encontrada.**
+**Estado: 31 rodadas registradas; resultado inconclusivo. Nenhuma tradução verificável encontrada.**
 Não afirmamos que o corpus é indecifrável nem que qualquer solução comunitária
 foi confirmada. O alvo é um algoritmo integral que generalize para textos inéditos.
 
@@ -11,11 +11,19 @@ com [balanço de cada rodada](docs/rounds_01_23_review.md) e
 [formato obrigatório de resultados e candidatas](docs/round_report_template_v2.md).
 Prioridade: Avar Tar, Knightmare e Chayenne; decisões delimitadas sobre3478/nomes
 e matrizes; investigação própria de geração sem texto. As rodadas 24–30 estão concluídas;
-não há etapas pendentes neste lote. [Progresso atual](data/plan_progress_round30.json).
-Estado da missão: inconclusivo.
+não há etapas pendentes neste lote. A R31 acrescenta uma investigação de fontes.
+[Progresso atual](data/plan_progress_round31.json). Estado da missão: inconclusivo.
 
-**Publicado:** corpus normalizado, código, testes e resultados das trinta rodadas
+**Publicado:** corpus normalizado, código, testes e resultados das 31 rodadas
 disponíveis neste repositório. O acesso de escrita foi confirmado após nova reconexão.
+
+A [rodada 31](docs/round31.md) executou uma busca limitada de fontes: 24 consultas,
+16 operações de página e oito capturas HTTP. A entrevista de Teyrata não contém
+uma resposta numérica; a de Knightmare de 2014 não decide entre texto cifrado
+e números sem texto. A resposta conhecida de Chayenne foi reconferida, sem
+uma equivalência inglesa nova. Não houve novo material numérico para acionar
+os testes condicionais de cifras. Os três últimos commits upstream listados
+coincidem com os da R24. Auditoria offline: `make round31`.
 
 A [trigésima rodada](docs/round30.md) fecha o lote com auditoria e reprodução,
 sem uma nova busca de cifras. Conferiu 636 referências em 48 manifestos e
@@ -254,6 +262,7 @@ make round18
 make round24
 make round25
 make round26
+make round31
 make test
 ```
 

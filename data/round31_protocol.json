@@ -1,0 +1,18 @@
+{
+  "round": 31,
+  "basis": "3196a8d3507ea35f04efca09ebb7cdbe26659603",
+  "status": "Targeted source-gap investigation after closed30round batch. Initial6discovery queries and latest-commit metadata already inspected; numerical Teyrata response not yet recovered or examined.",
+  "priority": "Locate primary/attributable semantic or authoring-process evidence for Avar Tar, Knightmare and Chayenne; investigate the specifically identified Teyrata2014interview omission from the16sample inventory.",
+  "limits": {"search_queries_total":24,"page_opens_total":20,"followup_assets_or_api_requests":20},
+  "source_rules": "Record exactURLs, dates, retrieval status, original versus repost, revisions and previous exposure. Search snippets are leads, not primary authentication. No contact with people. Existing upstream commits are not new findings; new sources can still contain previously copied material.",
+  "numerical_gate": "If an attributable additional numeric response is recovered, preserve exact digits/grouping/punctuation, inspect original image where necessary, cross-check another attributable representation if available, then freeze extraction before computational tests. If no numeric response exists, do not manufacture one or force a cipher experiment.",
+  "predeclared_tests_for_new_digits": [
+    "Exact occurrences and longest exact matches in70books and16source-inventory entries; preserve copy dependency and prior exposure",
+    "Coverage by12and24digit windows occurring in books; report raw length limitations and do not call short coincidences translation",
+    "Apply the frozen13entry community phrase codebook without changing labels or adding lore words; count complete parses, preserve unknown spans and do not promote supplied glosses to semantic ground truth",
+    "Compare reuse/lexical parse diagnostics with99uniform and99digit-histogram shuffles using the same parsing budget; repeat the full predefined diagnostic on each control"
+  ],
+  "no_numeric_case": "Publish source-evidence audit and specifically closed/open acquisition gaps. No repeat of old cipher searches advertised as new evidence.",
+  "success": "Authenticated new plaintext correspondence or original production evidence, or a precisely documented new restriction/source-gap result. A source quote about mystery or solvability is not an algorithm; neither T nor G follows from generic statements.",
+  "publication": "Brief attributable excerpts and provenance metadata; full website/tool captures private/ignored unless redistributable. No copyrighted page dumps in public repo. Distinguish reviewed pages from search-only and failed retrievals."
+}

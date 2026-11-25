@@ -1,0 +1,28 @@
+{
+  "stage": "Post-execution publication integrity manifest; not preregistration",
+  "sha256": {
+    "data/plan_progress_round31.json": "d2da2f6f5a86d220df3dca7463b6e9fb81a213bbd21aad85a64def1a6e64c277",
+    "data/round31_capture_inspection.json": "18ad2eda00863bb219850ed879f5319699ec7e089ded3b379cbbb337e97406d8",
+    "data/round31_discovery_log.json": "fd503208462c9e94c5a09e13acc7b0f225830a871041fac2a4880c9eeb0cc93a",
+    "data/round31_fetch_targets.json": "31ba08e247a081cc9b7bee8e509a26967a2c78468b7743e9176d5478011e2de9",
+    "data/round31_http.json": "7806e3d2104a8ce32d2ad9cc865a1449426ac800cdd171cbe4d0d3cd34c59ea2",
+    "data/round31_input_manifest.json": "dd0620baa3f7c4d0f4a319121d5348818f8f41edf77b3202eb33eb98cb9c4756",
+    "data/round31_protocol.json": "50893d5e309c272ef7fe24a1f2230d3a2cdfa0c9636eff072d6c132ed5743cd2",
+    "data/round31_source_decisions.json": "d501ffbb61c15c06b2535b85a8de921733bc0ae71a2cb52447c27f35e20032ca",
+    "data/round31_sources.json": "98e081b0ea4c2a8f729ace5a1da274ed6af4d7df49248dd51315eeb960e28636",
+    "data/round31_upstream.json": "892481ec39f63956da3ed18b2ee268890efc511df91d6625b486cfc0eb8326aa",
+    "docs/round31.md": "eb55e7cdbfe23b9705666d901c2d1ab44a85d538787bdbdb5c5dc54f76046e81",
+    "results/round31_replay/audit.log": "81e672eb7cd61886f46a137624e4c22b77058afc00428636613b13b12e0d408e",
+    "results/round31_replay/historical_round30.log": "32630ab739714d143fe2553d24873fd1f033a23618654fdc20f198c1a906e9c5",
+    "results/round31_replay/offline.log": "e8f1f5f262a41f3d248a9a8e968b2d0df933e4ee0c5c428af27f6fa1005d82dd",
+    "results/round31_replay/private_capture_check.log": "fc122364d5c8074db7ead4b76ed2b995e8d57603685bb8c7701c0b7a96d14bb4",
+    "results/round31_replay/tests.log": "23a85da0160cd96a52157891186f3e3a648fca7309329290027bd80770402643",
+    "results/round31_source_audit.json": "756ef128370f60ce56d69c09efc7cda1de59e729d59843f968380f47a21f5471",
+    "results/round31_verification.json": "440a5ddff1a61e07d5385104d775d4c7de031e94f2475ead2b7382bec11062e3",
+    "scripts/round31_extract.py": "d1dc366dfacb41c79b549a25ab18bc6d20f2f63de5b0e4bad6c3cb0c538bcb58",
+    "scripts/round31_fetch_sources.py": "773d24e2619add49896344888af63b0b4e2dd8887b2dfa044c54d952275df771",
+    "scripts/round31_inspect_captures.py": "20b503468e3ff7d83e063b1fac2bed6015fb5517c3e9821d544c962454092508",
+    "scripts/run_round31.py": "dd4cee228731e6244ab873c4445a821b244e15b231bf250844fd125d59c38797",
+    "tests/test_round31_extract.py": "5fa5b2ba4354679371411afa967d1bb953591d49875efdb2c9141db8cf0ba082"
+  }
+}

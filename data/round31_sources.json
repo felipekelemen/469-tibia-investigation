@@ -1,0 +1,120 @@
+{
+  "review_date": "2026-11-24",
+  "scope": "Targeted source audit, not comprehensive internet coverage; artifact records are not independent samples. Current re-captures do not prove publication-time bytes.",
+  "sources": [
+    {
+      "id": "teyrata_wiki",
+      "url": "https://www.tibiawiki.com.br/wiki/Tibia_Wiki:Interview_with_Teyrata",
+      "access": "direct_HTTP_200; web_success_then403",
+      "kind": "interview_publisher",
+      "lineage": "teyrata_2014",
+      "new_to_R24_registry": true,
+      "finding": "Complete language-answer recovered; English, no numeric response. Separate name-answer is not about469."
+    },
+    {
+      "id": "teyrata_oldid",
+      "url": "https://www.tibiawiki.com.br/index.php?title=Tibia_Wiki:Interview_with_Teyrata&oldid=150650",
+      "access": "direct_HTTP_200",
+      "kind": "publisher_revision",
+      "lineage": "teyrata_2014",
+      "revision_id": 150650,
+      "displayed_last_edit": "2015-04-20 08:51 (site display; timezone not inferred)",
+      "finding": "Same lexical language-answer as current wiki and Portal; not a second independent utterance."
+    },
+    {
+      "id": "teyrata_portal",
+      "url": "https://portaltibia.com.br/pt/interview-with-teyrata/",
+      "access": "direct_HTTP_200_and_web",
+      "kind": "attributed_republication",
+      "lineage": "teyrata_2014",
+      "displayed_publication_date": "2014-05-06",
+      "finding": "Credits TibiaWiki interview; agrees on complete language reply; emoji differs from wiki ASCII smile."
+    },
+    {
+      "id": "teyrata_official_notice",
+      "url": "https://www.tibia.com/news/?id=2746&subtopic=newsarchive",
+      "access": "indexed_excerpt_only; web_and_direct_HTTP_403",
+      "kind": "official_announcement_not_interview_body",
+      "lineage": "teyrata_2014",
+      "indexed_date": "2014-05-08",
+      "finding": "Indexed announcement supports existence of interview, not an authenticated plaintext pairing."
+    },
+    {
+      "id": "teyrata_secondary",
+      "url": "https://www.tibialife.com.br/nostalgia-tibiana-hellgate/",
+      "access": "direct_HTTP_200_and_search_lead",
+      "kind": "later_community_retelling",
+      "lineage": "teyrata_2014_and_chayenne_2009",
+      "finding": "Groups Teyrata with Chayenne when discussing numeric replies. Original Teyrata language exchange does not supply digits."
+    },
+    {
+      "id": "knightmare_portal_2014",
+      "url": "https://portaltibia.com.br/pt/tibiaevents-entrevista-com-knightmare/",
+      "access": "direct_HTTP_200_and_web",
+      "kind": "publisher_authorized_PT_translation_of_interview",
+      "lineage": "tibiaevents_knightmare_2014",
+      "new_to_R24_registry": true,
+      "displayed_publication_date": "2014-10-23",
+      "finding": "Multi-part question asks randomness/solvability/quest/hint. Answer declines adjudication and points to community discussion. Neither algorithm nor specific original nontext production is supplied."
+    },
+    {
+      "id": "knightmare_notice",
+      "url": "https://forum.portaltibia.com.br/topic/29686-tibiaevents-entrevista-knightmare/",
+      "access": "direct_HTTP_200_and_web",
+      "kind": "contemporary_notice",
+      "lineage": "tibiaevents_knightmare_2014",
+      "displayed_publication_date": "2014-10-16",
+      "finding": "Links TibiaEvents domain, not an extant exact interview permalink."
+    },
+    {
+      "id": "tibiaevents_home",
+      "url": "https://www.tibiaevents.com/",
+      "access": "web_click_success_homepage",
+      "kind": "publisher_homepage",
+      "lineage": "tibiaevents_knightmare_2014",
+      "finding": "Following contemporary link reaches current home, not original English interview."
+    },
+    {
+      "id": "tibiaevents_archive",
+      "url": "https://www.tibiaevents.com/blog/",
+      "access": "web_click_success_archive_index",
+      "kind": "archive_index",
+      "lineage": "tibiaevents_knightmare_2014",
+      "finding": "Inspected index viewport contains recent material; original English2014interview not recovered. Not an exhaustive archive search."
+    },
+    {
+      "id": "chayenne_2009",
+      "url": "https://forum.portaltibia.com.br/topic/11420-entrevista-com-chayenne/",
+      "access": "direct_HTTP_200_and_web",
+      "kind": "interview_publisher",
+      "lineage": "chayenne_2009",
+      "new_to_R24_registry": false,
+      "displayed_publication_date": "2009-05-15",
+      "finding": "English-language section contains existing36and13digit response. Repeated Portuguese/English/quoted versions are not independent samples; no accompanying English gloss."
+    },
+    {
+      "id": "dictionary_attribution",
+      "url": "https://www.reddit.com/r/TibiaMMO/comments/1rgakrg/solving_469_part_13/",
+      "access": "indexed_search_content_only",
+      "kind": "community_attribution",
+      "lineage": "unresolved_dictionary_claim",
+      "finding": "2026post attributes dictionary idea through another community participant; original developer statement not recovered. Not accepted as primary quotation."
+    },
+    {
+      "id": "more_eyes_attribution",
+      "url": "https://forums.tibiabr.com/printthread.php?page=38&pp=10&t=511342",
+      "access": "indexed_search_content_only",
+      "kind": "community_quote_of_interview",
+      "lineage": "unresolved_bomdiatibia_interview",
+      "finding": "Quote attributed to BomDiaTibia interview; original interview body not recovered. Numeric implication unspecified; do not infer eye-count matrix size."
+    },
+    {
+      "id": "interview_index_failed",
+      "url": "https://tibia.fandom.com/wiki/Interviews",
+      "access": "web_restricted_fetch_failure",
+      "kind": "unreviewed_index",
+      "lineage": null,
+      "finding": "No content reviewed; absence of access is not absence of evidence."
+    }
+  ]
+}

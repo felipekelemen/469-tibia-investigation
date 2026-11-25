@@ -1,0 +1,42 @@
+{
+  "teyrata": [
+    {
+      "source": "teyrata_portal",
+      "revision_id": null,
+      "answer_sha256": "5fb86f6579a486252f7ad758b5f1452191fab055b011b5cdda351d26efa0ed97",
+      "answer_digit_runs": [],
+      "lexical_reply_sha256": "f3d20adf6164a4772540d14907c6552551d09cfe82d125d5d46a47ee8479fdfb"
+    },
+    {
+      "source": "teyrata_wiki",
+      "revision_id": 150650,
+      "answer_sha256": "2f2a4908ebf911139d7071321ef0ec9c2044042162e112ce85143cddc06057f7",
+      "answer_digit_runs": [],
+      "lexical_reply_sha256": "f3d20adf6164a4772540d14907c6552551d09cfe82d125d5d46a47ee8479fdfb"
+    },
+    {
+      "source": "teyrata_oldid",
+      "revision_id": 150650,
+      "answer_sha256": "2f2a4908ebf911139d7071321ef0ec9c2044042162e112ce85143cddc06057f7",
+      "answer_digit_runs": [],
+      "lexical_reply_sha256": "f3d20adf6164a4772540d14907c6552551d09cfe82d125d5d46a47ee8479fdfb"
+    }
+  ],
+  "knightmare": {
+    "question_index": 32,
+    "answer_index": 33,
+    "question_sha256": "ce9dfd95d347df86a32eb1bb16123651f221c664972009f58f0039c285e68c8b",
+    "answer_sha256": "a5cef78c9b2d9d09188c7f4669166c192bb95156bbdf76dfddb894cb1d184854",
+    "answer_digit_runs": []
+  },
+  "chayenne": {
+    "chayenne_2009_part1": {
+      "digits": "114514519485611451908304576512282177",
+      "raw_html_occurrences": 9
+    },
+    "chayenne_2009_part2": {
+      "digits": "6612527570584",
+      "raw_html_occurrences": 9
+    }
+  }
+}

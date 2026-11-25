@@ -817,5 +817,19 @@
     "status": "not_established_batch_disposition_I",
     "evidence": "Oito famílias de candidatas anteriores catalogadas, nenhuma satisfaz todos os requisitos semânticos; nenhum gerador original autenticado. Oito procedimentos passam em snapshot limpo, mas isso não cria verdade semântica. R23Knightmare continua limitada com1769chaves lexicais.",
     "artifact": "results/round30_adjudication.json"
+  },
+  {
+    "id": "H118",
+    "hypothesis": "A entrevista de Teyrata de 2014 contém uma resposta numérica adicional omitida do inventário",
+    "status": "closed_for_recovered_language_exchange_no_new_numeric_reply",
+    "evidence": "Wiki atual, revisão150650 e republicação concordam na resposta inglesa sem dígitos. São representações da mesma entrevista. A resposta sobre ausência de significado pertence ao nome da entrevistada, não à linguagem469. Não refuta outras fontes nem fornece tradução.",
+    "artifact": "results/round31_source_audit.json"
+  },
+  {
+    "id": "H119",
+    "hypothesis": "A entrevista TibiaEvents de Knightmare de 2014 decide se469é texto cifrado ou números sem texto",
+    "status": "not_established_by_recovered_publisher_translation",
+    "evidence": "A tradução portuguesa publicada contém pergunta composta e resposta que evita confirmar ou eliminar teorias; não fornece algoritmo, par inglês/números ou geração original. Original inglês não recuperado nesta busca. Nenhum estado T/G estabelecido.",
+    "artifact": "results/round31_source_audit.json"
   }
 ]

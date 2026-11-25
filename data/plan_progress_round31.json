@@ -1,0 +1,28 @@
+{
+  "plan": "docs/mission_plan_v2.md",
+  "completed_through_round": 31,
+  "completed_this_execution": [31],
+  "original_v2_batch_completed_through": 30,
+  "remaining_planned_rounds": [],
+  "additional_round_scope": "Bounded source-gap investigation following R30 priorities; no new fixed-length batch introduced",
+  "translation_mission_closed": false,
+  "mission_outcome": "I_inconclusive",
+  "translation_validated": false,
+  "original_nontextual_generator_authenticated": false,
+  "latest_report": "docs/round31.md",
+  "new_candidate_translation": null,
+  "new_attributable_numeric_responses": 0,
+  "conditional_cipher_experiments": "not_triggered_no_new_digits",
+  "completed_source_gaps": [
+    "Teyrata2014 language exchange recovered: English, no new numeric reply",
+    "Knightmare2014 Portuguese publisher translation: no specific algorithm or original generation description"
+  ],
+  "pending_acquisition": [
+    "Original English TibiaEvents2014interview permalink/body",
+    "Original BomDiaTibia interview behind the eyes attribution",
+    "Primary source, if any, behind the dictionary attribution",
+    "Independent authoritative number/plaintext pairs or source-specific original production material"
+  ],
+  "preserved_limits": "3478 and Hellgate retain R30 scoped findings; no new historical measurements. Knightmare R23 grapheme1_3 remains bounded, with1769lexical keys, not exhaustive.",
+  "reopening_rule": "A new discriminating source/constraint, a reproducible defect, or a qualified distinct method; no repeated unqualified cipher searches."
+}

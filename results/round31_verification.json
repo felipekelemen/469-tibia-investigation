@@ -1,0 +1,27 @@
+{
+  "completed_at_utc": "2026-11-25T13:03:08.168752+00:00",
+  "python": "3.12.14",
+  "tests": {
+    "command": "python -m unittest discover -s tests -v",
+    "count": 308,
+    "seconds": 12.08,
+    "exit_code": 0
+  },
+  "new_extraction_tests": 7,
+  "offline_replay": {
+    "exit_code": 0,
+    "public_files_copied": 18,
+    "private_capture_directory_present": false
+  },
+  "private_capture_inspection_exit_code": 0,
+  "round30_integrity_and_saved_results_exit_code": 0,
+  "git_diff_check_exit_code": 0,
+  "known_nonfatal_warning": "Historical frozen round30 CSV reader emits ResourceWarning; no test failure or output divergence.",
+  "logs_sha256": {
+    "results/round31_replay/audit.log": "81e672eb7cd61886f46a137624e4c22b77058afc00428636613b13b12e0d408e",
+    "results/round31_replay/historical_round30.log": "32630ab739714d143fe2553d24873fd1f033a23618654fdc20f198c1a906e9c5",
+    "results/round31_replay/offline.log": "e8f1f5f262a41f3d248a9a8e968b2d0df933e4ee0c5c428af27f6fa1005d82dd",
+    "results/round31_replay/private_capture_check.log": "fc122364d5c8074db7ead4b76ed2b995e8d57603685bb8c7701c0b7a96d14bb4",
+    "results/round31_replay/tests.log": "23a85da0160cd96a52157891186f3e3a648fca7309329290027bd80770402643"
+  }
+}
