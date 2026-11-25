@@ -1,0 +1,43 @@
+{
+  "round": 32,
+  "basis": "9f59d7e6eac3955c951bff26534fd14af856b78c",
+  "operations": {
+    "search_queries": 16,
+    "web_page_operations": 9,
+    "targeted_http_gets": 21
+  },
+  "http_status_counts": {
+    "200": 18,
+    "402": 1,
+    "404": 2
+  },
+  "http200_without_requested_content": [
+    "dictionary_reddit"
+  ],
+  "recovered_original_interview_lineages": 2,
+  "verified_primary_capture_bodies": 4,
+  "pairs": [
+    {
+      "lineage": "bomdiatibia_knightmare_2018",
+      "captures": 2,
+      "answer_hashes_equal": true,
+      "independent_interviews": 1
+    },
+    {
+      "lineage": "tibiaevents_knightmare_2014",
+      "captures": 2,
+      "answer_hashes_equal": true,
+      "independent_interviews": 1
+    }
+  ],
+  "bdt_future_civilisation_context_same_in_both_captures": true,
+  "dictionary_visible_page_scans": 8,
+  "dictionary_term_hits": 0,
+  "dictionary_creator_attribution": "unresolved_not_disproved",
+  "new_attributable_numeric_answers": 0,
+  "new_semantic_pairs": 0,
+  "cipher_experiments": "not_triggered_no_specific_mechanism_or_new_pairs",
+  "candidate_translation": null,
+  "mission_disposition": "I",
+  "scope": "Offline consistency of public records. Actual HTML extraction was performed separately on private preserved bodies. Source interpretation is explicit manual analysis; matching hashes do not prove a decoder or authorial intent."
+}

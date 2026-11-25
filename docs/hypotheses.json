@@ -831,5 +831,26 @@
     "status": "not_established_by_recovered_publisher_translation",
     "evidence": "A tradução portuguesa publicada contém pergunta composta e resposta que evita confirmar ou eliminar teorias; não fornece algoritmo, par inglês/números ou geração original. Original inglês não recuperado nesta busca. Nenhum estado T/G estabelecido.",
     "artifact": "results/round31_source_audit.json"
+  },
+  {
+    "id": "H120",
+    "hypothesis": "A frase atribuída a Knightmare sobre um tradutor com mais olhos consta da entrevista original BomDiaTibia",
+    "status": "attribution_confirmed_in_archived_publisher_interview_no_decoder_specified",
+    "evidence": "Anúncio original leva ao fórum hoje404; capturas2018/2019preservam a mesma resposta inglesa, com URL/CDX/Memento conferidos. Contexto da civilização futura também recuperado. Nenhuma quantidade de olhos, dimensão matricial ou operação é determinada.",
+    "artifact": "results/round32_source_audit.json"
+  },
+  {
+    "id": "H121",
+    "hypothesis": "O original inglês da entrevista TibiaEvents permite verificar o contexto da tradução portuguesa examinada na R31",
+    "status": "original_english_recovered_context_agrees_no_algorithm_or_nontext_proof",
+    "evidence": "Capturas2016/2019do endereço histórico contêm a mesma resposta à pergunta composta sobre469. O original evita eliminar ou reconhecer especulações. Fecha a lacuna de aquisição, sem estabelecer tradução ou processo original de geração.",
+    "artifact": "results/round32_source_audit.json"
+  },
+  {
+    "id": "H122",
+    "hypothesis": "Há uma declaração original recuperável de Knightmare confirmando que basta um dicionário para469",
+    "status": "unresolved_in_bounded_source_search_not_disproved",
+    "evidence": "16consultas no total; fontes históricas adicionais recuperadas. Oito representações de entrevistas não têm os termos literais fixados de dicionário. Isso não cobre sinônimos, imagens, áudio ou todas as entrevistas; atribuição comunitária permanece sem original.",
+    "artifact": "results/round32_source_audit.json"
   }
 ]

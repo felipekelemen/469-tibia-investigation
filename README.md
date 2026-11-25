@@ -1,6 +1,6 @@
 # 469-tibia-investigation — investigação reproduzível
 
-**Estado: 31 rodadas registradas; resultado inconclusivo. Nenhuma tradução verificável encontrada.**
+**Estado: 32 rodadas registradas; resultado inconclusivo. Nenhuma tradução verificável encontrada.**
 Não afirmamos que o corpus é indecifrável nem que qualquer solução comunitária
 foi confirmada. O alvo é um algoritmo integral que generalize para textos inéditos.
 
@@ -11,11 +11,19 @@ com [balanço de cada rodada](docs/rounds_01_23_review.md) e
 [formato obrigatório de resultados e candidatas](docs/round_report_template_v2.md).
 Prioridade: Avar Tar, Knightmare e Chayenne; decisões delimitadas sobre3478/nomes
 e matrizes; investigação própria de geração sem texto. As rodadas 24–30 estão concluídas;
-não há etapas pendentes neste lote. A R31 acrescenta uma investigação de fontes.
-[Progresso atual](data/plan_progress_round31.json). Estado da missão: inconclusivo.
+não há etapas pendentes neste lote. As R31–32 acrescentam investigações de fontes.
+[Progresso atual](data/plan_progress_round32.json). Estado da missão: inconclusivo.
 
-**Publicado:** corpus normalizado, código, testes e resultados das 31 rodadas
+**Publicado:** corpus normalizado, código, testes e resultados das 32 rodadas
 disponíveis neste repositório. O acesso de escrita foi confirmado após nova reconexão.
+
+A [rodada 32](docs/round32.md) recuperou as entrevistas originais BomDiaTibia
+e TibiaEvents em quatro capturas históricas. Confirmou a atribuição sobre
+um tradutor com mais olhos e o contexto de recusa em decidir entre teorias;
+nenhuma operação de decodificação foi especificada. Foram 16 consultas e
+21 GETs. A atribuição sobre um dicionário continua não verificada. Não houve
+nova resposta numérica nem tradução candidata. Replay: `make round32`.
+Passaram 317 testes e o replay sem capturas privadas.
 
 A [rodada 31](docs/round31.md) executou uma busca limitada de fontes: 24 consultas,
 16 operações de página e oito capturas HTTP. A entrevista de Teyrata não contém
@@ -263,6 +271,7 @@ make round24
 make round25
 make round26
 make round31
+make round32
 make test
 ```
 

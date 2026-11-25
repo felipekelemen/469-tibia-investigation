@@ -1,0 +1,85 @@
+{
+  "review_date_utc": "2026-11-25",
+  "scope": "Bounded historical source tracing. Dates of original publication, archive capture and current retrieval are distinct. No contact with people.",
+  "sources": [
+    {
+      "id": "bdt_notice",
+      "url": "https://www.bomdiatibia.com/entrevista-knightmare-o-mito-por-tras-das-criacoes-tibianas/",
+      "kind": "original_publisher_notice",
+      "displayed_date": "2018-01-10",
+      "status": "HTTP200; links exact original forum URL; not the full interview"
+    },
+    {
+      "id": "bdt_eyes_original",
+      "url": "https://web.archive.org/web/20180504032226/https://www.bomdiatibia.com/forum/entrevistas/membros-da-cipsoft-knightmare-o-mito-por-tras-das-historias-tibianas/",
+      "kind": "archived_original_publisher_interview",
+      "status": "HTTP200, exact replay timestamp and Memento confirmed; same relevant answers in2019capture",
+      "lineage": "bomdiatibia_knightmare_2018",
+      "finding": "English and Portuguese sections; more-eyes response present. Future-civilisation comment also attributable here. Neither supplies a decoder."
+    },
+    {
+      "id": "tibiaevents_original",
+      "url": "https://web.archive.org/web/20160401184506/https://www.tibiaevents.com/knightmare",
+      "kind": "archived_original_publisher_interview",
+      "status": "HTTP200; same relevant English answer in2019capture;2014date is supported by prior contemporary publication notice, not a2014capture",
+      "lineage": "tibiaevents_knightmare_2014",
+      "finding": "Refuses to select among community interpretations. No new number/plaintext pairing."
+    },
+    {
+      "id": "interview_index",
+      "url": "https://web.archive.org/web/20230107101212/https://tibia.fandom.com/wiki/Interviews",
+      "kind": "archived_community_link_index",
+      "status": "HTTP200; live page402",
+      "finding": "Provided exact historical interview links, including nested Wayback links. Index entries are not interview bodies."
+    },
+    {
+      "id": "secrets_colossus",
+      "url": "https://tibiasecrets.com/article87",
+      "kind": "secondary_referral",
+      "status": "HTTP200",
+      "finding": "Supplies TibiaEvents/knightmare permalink. Used to locate original, not as independent469semantic evidence."
+    },
+    {
+      "id": "forum_eyes",
+      "url": "https://forums.tibiabr.com/printthread.php?page=38&pp=10&t=511342",
+      "kind": "contemporary_community_quotation",
+      "status": "HTTP200",
+      "finding": "2018quote attribution now traced to the original publisher; repeats it and is not a new utterance."
+    },
+    {
+      "id": "dictionary_lead",
+      "url": "https://www.reddit.com/r/TibiaMMO/comments/1rgakrg/solving_469_part_13/",
+      "kind": "community_attribution",
+      "status": "Web-index content; direct HTTP200 non-content shell",
+      "finding": "No original developer source located in this bounded search."
+    },
+    {
+      "id": "rookie_2016_archive",
+      "url": "https://web.archive.org/web/20190302203457/https://rookie.com.pl/Thread-5-Questions-to-Knightmare",
+      "kind": "archived_publisher_interview",
+      "status": "HTTP200; targeted literal-term scan, not exhaustive semantic review",
+      "finding": "No dictionary-term match in visible text."
+    },
+    {
+      "id": "tibiabr_2010",
+      "url": "https://forums.tibiabr.com/showthread.php?p=5353142#post5353142",
+      "kind": "original_publisher_interview_current_representation",
+      "status": "HTTP200; ISO8859-1; redirects to thread378403",
+      "finding": "Separates early orc-language design from a fictional bonelord-employee anecdote. Anecdote is not an authenticated technical production account. No dictionary-term match."
+    },
+    {
+      "id": "tibianews_2004_archive",
+      "url": "https://web.archive.org/web/20111105153731/http://www.tibianews.net/component/content/article/83-interviews/682-interview-with-cipsoft-knightmare.html",
+      "kind": "archived_publisher_interview",
+      "status": "HTTP200; targeted literal-term scan",
+      "finding": "No dictionary-term match in visible text."
+    },
+    {
+      "id": "tibianews_unscripted_archive",
+      "url": "https://web.archive.org/web/20110820173042/http://www.tibianews.net/component/content/article/87-old-articles/618-inside-tibia-knightmare-unscripted.html",
+      "kind": "archived_publisher_interview",
+      "status": "HTTP200; targeted literal-term scan",
+      "finding": "No dictionary-term match in visible text."
+    }
+  ]
+}

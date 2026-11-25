@@ -1,0 +1,18 @@
+{
+  "round": 32,
+  "basis": "9f59d7e6eac3955c951bff26534fd14af856b78c",
+  "stage": "Written before new source retrieval; inherited leads and findings from R31 are already exposed.",
+  "question": "Can the original Knightmare interview sources behind the dictionary and more-eyes attributions be recovered, and do they specify a falsifiable mechanism or an attested semantic pairing?",
+  "priority": ["Resolve BomDiaTibia historical permalink from contemporary forum links", "Trace dictionary attribution to an original statement, if one exists", "Recover original English TibiaEvents2014interview through precise publisher/archive routes"],
+  "limits": {"search_queries":16,"web_page_operations":24,"targeted_http_gets":32},
+  "rules": [
+    "Record requests, failures, final URLs, dates and shared lineage. Search excerpts and community quotes remain leads unless the original body or an attributable historical capture is recovered.",
+    "Do not treat a current placeholder page or HTTP200 challenge as an interview. No access-control bypass, no messages to people.",
+    "Save full bodies and search responses in ignored private storage; publish brief excerpts, provenance and hashes.",
+    "A statement that eyes or a dictionary are needed does not by itself specify dimensions, a key, an alphabet or a cipher. Do not silently supply them from lore."
+  ],
+  "numeric_gate": "If new attributable digits and explicit corresponding meaning are found, freeze source/extraction before decoding or reuse tests. Separate previously exposed samples from genuinely independent validation. If only existing numbers or generic advice are recovered, do not advertise a repeated cipher search as a new experiment.",
+  "mechanism_gate": "Before searching keys, a recovered statement must fix a reproducible operation or a finite, justified constraint. Specify that interpretation and independent controls in an additive dated protocol before execution; otherwise record what remains unspecified.",
+  "no_new_mechanism_case": "Publish source-chain findings and a concrete acquisition frontier; do not infer no meaning from a failed retrieval or an inconclusive quotation.",
+  "mission_status": "T requires independently validated translation. G requires authenticated original nontext production tied to a source/version. Neither follows from generic interview remarks."
+}

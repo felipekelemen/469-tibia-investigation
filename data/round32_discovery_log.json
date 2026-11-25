@@ -1,0 +1,195 @@
+{
+  "calls": [
+    {
+      "id": "round32_web01",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://forums.tibiabr.com/printthread.php?page=38&pp=10&t=511342"
+          },
+          {
+            "ref_id": "https://www.reddit.com/r/TibiaMMO/comments/1rgakrg/solving_469_part_13/"
+          }
+        ],
+        "system2_search_query": [
+          {
+            "q": "\"Knightmare\" \"entrevista\" \"BomDiaTibia\" -site:forums.tibiabr.com"
+          },
+          {
+            "q": "\"Knightmare\" \"interview\" \"more eyes\""
+          },
+          {
+            "q": "\"Knightmare\" \"all you need\" \"dictionary\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "executed": true,
+      "private_record": "data/private/round32/round32_web01.json",
+      "private_record_sha256": "2fc37dcef9a5c968521322c69cc3ad019b0b0dced0f364852321850fe63ba23c"
+    },
+    {
+      "id": "round32_web02",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.bomdiatibia.com/entrevistas/"
+          }
+        ],
+        "system2_search_query": [
+          {
+            "q": "site:bomdiatibia.com \"Knightmare\" \"2018\""
+          },
+          {
+            "q": "\"Tibia\" \"Knightmare\" \"dictionary\" interview -site:github.com -site:reddit.com"
+          },
+          {
+            "q": "\"TibiaEvents\" \"Knightmare\" \"interview\" \"2014\" -site:portaltibia.com.br"
+          }
+        ],
+        "response_length": "long"
+      },
+      "executed": true,
+      "private_record": "data/private/round32/round32_web02.json",
+      "private_record_sha256": "73ce78fa5691cc4e3eac6f3fbfc37f4a70feaf360ea15b89d29ada075a8eda56"
+    },
+    {
+      "id": "round32_web03",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn22view0",
+            "id": 18
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "https://tibia.fandom.com/wiki/Interviews"
+          }
+        ],
+        "response_length": "long"
+      },
+      "executed": true,
+      "private_record": "data/private/round32/round32_web03.json",
+      "private_record_sha256": "2e267bcacd732bdae199724ee6f85000d7c76b3039dfd02d96f920d7a885b081"
+    },
+    {
+      "id": "round32_web04",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn23view1",
+            "id": 18
+          }
+        ],
+        "response_length": "short"
+      },
+      "executed": true,
+      "private_record": "data/private/round32/round32_web04.json",
+      "private_record_sha256": "7c561caa4ee981bd15a48bda96d0f9ff0e785be06e9ffe01d81e3f0ccc00bc6b"
+    },
+    {
+      "id": "round32_web05",
+      "request": {
+        "system2_search_query": [
+          {
+            "q": "\"membros-da-cipsoft-knightmare-o-mito-por-tras-das-historias-tibianas\""
+          },
+          {
+            "q": "\"Knightmare\" \"TibiaEvents\" \"web.archive.org\""
+          },
+          {
+            "q": "\"Tibia\" \"Knightmare\" \"dicionário\""
+          },
+          {
+            "q": "\"Tibia\" \"Knightmare\" \"translator with\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "executed": true,
+      "private_record": "data/private/round32/round32_web05.json",
+      "private_record_sha256": "a8d132da6a17a73f67922623c9511627921b367574d2f0f64004075487264498"
+    },
+    {
+      "id": "round32_web06",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://tibiaevents.com/knightmare"
+          },
+          {
+            "ref_id": "https://tibiasecrets.com/article87"
+          }
+        ],
+        "response_length": "short"
+      },
+      "executed": true,
+      "private_record": "data/private/round32/round32_web06.json",
+      "private_record_sha256": "1f7d632ca70c64b49a47009f457bab0a118dc18c6d0875e48e55613e68cbeacc"
+    },
+    {
+      "id": "round32_web07",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://web.archive.org/web/20180504032226/https://www.bomdiatibia.com/forum/entrevistas/membros-da-cipsoft-knightmare-o-mito-por-tras-das-historias-tibianas/"
+          }
+        ],
+        "response_length": "short"
+      },
+      "executed": true,
+      "private_record": "data/private/round32/round32_web07.json",
+      "private_record_sha256": "ca1d1d93eb9ef4d01f921f8f0ef550ce744d65078f350e34f8b017deb2739a6d"
+    },
+    {
+      "id": "round32_web08",
+      "request": {
+        "system2_search_query": [
+          {
+            "q": "\"Knightmare\" \"469\" \"dictionary\" -site:github.com -site:reddit.com -site:ithub.global.ssl.fastly.net"
+          },
+          {
+            "q": "\"Knightmare\" \"Wörterbuch\" Tibia"
+          },
+          {
+            "q": "\"Knightmare\" \"dicionário\" \"linguagem\""
+          },
+          {
+            "q": "\"Knightmare\" \"dictionary\" \"Bonelord\" -site:github.com -site:reddit.com"
+          }
+        ],
+        "response_length": "long"
+      },
+      "executed": true,
+      "private_record": "data/private/round32/round32_web08.json",
+      "private_record_sha256": "10e27e08f89e5124c1a84d64320771107af39e150d53aec6b7eb6bb02e6121d1"
+    },
+    {
+      "id": "round32_web09",
+      "request": {
+        "system2_search_query": [
+          {
+            "q": "\"Tibia\" \"all you need is the dictionary\""
+          },
+          {
+            "q": "\"Tibia\" \"Knightmare\" \"a dictionary\" -site:github.com -site:ithub.global.ssl.fastly.net"
+          }
+        ],
+        "response_length": "long"
+      },
+      "executed": true,
+      "private_record": "data/private/round32/round32_web09.json",
+      "private_record_sha256": "12464002c6fb1492c162263d37fda2d2e16e0504489871d5a61c41852b117472"
+    }
+  ],
+  "target_batches": [
+    "initial",
+    "archive",
+    "snapshots",
+    "confirm",
+    "dictionary"
+  ],
+  "counting": "Queries counted individually. Each open/click/find counts as a page operation. Explicit HTTP targets counted individually; redirects within one GET are not extra targeted requests.",
+  "stop": "16-query limit reached; two original interview chains recovered. Dictionary attribution remains unresolved."
+}

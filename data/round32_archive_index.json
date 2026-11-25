@@ -1,0 +1,201 @@
+{
+  "bdt_availability": {
+    "body_sha256": "af185b84e8da332a0349b18804487973c3ad270cc593ee782a465e84b65571c2",
+    "parsed_json": {
+      "url": "https://bomdiatibia.com/forum/entrevistas/membros-da-cipsoft-knightmare-o-mito-por-tras-das-historias-tibianas/",
+      "archived_snapshots": {
+        "closest": {
+          "status": "200",
+          "available": true,
+          "url": "http://web.archive.org/web/20180504032226/https://www.bomdiatibia.com/forum/entrevistas/membros-da-cipsoft-knightmare-o-mito-por-tras-das-historias-tibianas/",
+          "timestamp": "20180504032226"
+        }
+      },
+      "timestamp": "20180111"
+    }
+  },
+  "bdt_cdx": {
+    "body_sha256": "852e946f58301ad5c0256fb232268edd22706087365ad9c643782a46a780a8ae",
+    "parsed_json": [
+      [
+        "urlkey",
+        "timestamp",
+        "original",
+        "mimetype",
+        "statuscode",
+        "digest",
+        "length"
+      ],
+      [
+        "com,bomdiatibia)/forum/entrevistas/membros-da-cipsoft-knightmare-o-mito-por-tras-das-historias-tibianas",
+        "20180504032226",
+        "https://www.bomdiatibia.com/forum/entrevistas/membros-da-cipsoft-knightmare-o-mito-por-tras-das-historias-tibianas/",
+        "text/html",
+        "200",
+        "CYLDPRYUPQY2MIWJQE3KXRQMLZ6PQMU7",
+        "49175"
+      ],
+      [
+        "com,bomdiatibia)/forum/entrevistas/membros-da-cipsoft-knightmare-o-mito-por-tras-das-historias-tibianas",
+        "20190722122025",
+        "https://bomdiatibia.com/forum/entrevistas/membros-da-cipsoft-knightmare-o-mito-por-tras-das-historias-tibianas/",
+        "text/html",
+        "200",
+        "UZNHTLDD3YN7S5HBOGI6YJ4EYYSVGPUO",
+        "49744"
+      ],
+      [
+        "com,bomdiatibia)/forum/entrevistas/membros-da-cipsoft-knightmare-o-mito-por-tras-das-historias-tibianas",
+        "20191018191502",
+        "https://bomdiatibia.com/forum/entrevistas/membros-da-cipsoft-knightmare-o-mito-por-tras-das-historias-tibianas/",
+        "text/html",
+        "200",
+        "U4CMOKGUJDA77FHW2IZAMWNWZCQUVQ62",
+        "49707"
+      ],
+      [
+        "com,bomdiatibia)/forum/entrevistas/membros-da-cipsoft-knightmare-o-mito-por-tras-das-historias-tibianas",
+        "20201111212331",
+        "https://www.bomdiatibia.com/forum/entrevistas/membros-da-cipsoft-knightmare-o-mito-por-tras-das-historias-tibianas/",
+        "text/html",
+        "200",
+        "IEGAF7QH5WYE5SOTQ25KBE3XFBAI5F5I",
+        "52491"
+      ],
+      [
+        "com,bomdiatibia)/forum/entrevistas/membros-da-cipsoft-knightmare-o-mito-por-tras-das-historias-tibianas",
+        "20210228062404",
+        "https://www.bomdiatibia.com/forum/entrevistas/membros-da-cipsoft-knightmare-o-mito-por-tras-das-historias-tibianas/",
+        "text/html",
+        "200",
+        "BTVSJNUHRM7SW6OUBX3A6XRQVPGBRZNY",
+        "59201"
+      ],
+      [
+        "com,bomdiatibia)/forum/entrevistas/membros-da-cipsoft-knightmare-o-mito-por-tras-das-historias-tibianas",
+        "20211003232346",
+        "https://www.bomdiatibia.com/forum/entrevistas/membros-da-cipsoft-knightmare-o-mito-por-tras-das-historias-tibianas/",
+        "text/html",
+        "200",
+        "GGRB2VXOQA5XF2NQZBTK7NKDAGE3HDPJ",
+        "52332"
+      ],
+      [
+        "com,bomdiatibia)/forum/entrevistas/membros-da-cipsoft-knightmare-o-mito-por-tras-das-historias-tibianas",
+        "20250119023105",
+        "https://www.bomdiatibia.com/forum/entrevistas/membros-da-cipsoft-knightmare-o-mito-por-tras-das-historias-tibianas/",
+        "text/html",
+        "200",
+        "3PTFLF5LHAGLBBAWQXSP47LQL3EZQT3U",
+        "42418"
+      ],
+      [
+        "com,bomdiatibia)/forum/entrevistas/membros-da-cipsoft-knightmare-o-mito-por-tras-das-historias-tibianas",
+        "20250209112054",
+        "https://www.bomdiatibia.com/forum/entrevistas/membros-da-cipsoft-knightmare-o-mito-por-tras-das-historias-tibianas/",
+        "text/html",
+        "200",
+        "X4MZRELJIM66VMWYZPKY4A3ZA5VFC4HR",
+        "42422"
+      ],
+      [
+        "com,bomdiatibia)/forum/entrevistas/membros-da-cipsoft-knightmare-o-mito-por-tras-das-historias-tibianas",
+        "20250913042229",
+        "https://www.bomdiatibia.com/forum/entrevistas/membros-da-cipsoft-knightmare-o-mito-por-tras-das-historias-tibianas/",
+        "text/html",
+        "200",
+        "275EYTC56CGPR6OH6J5EKBSUKHWG5FL5",
+        "48079"
+      ]
+    ]
+  },
+  "interview_index_availability": {
+    "body_sha256": "f6ab9205b969bafa149173b3293c0ce1e307a14e4d7ac22d3ae29fc9afded84a",
+    "parsed_json": {
+      "url": "https://tibia.fandom.com/wiki/Interviews",
+      "archived_snapshots": {
+        "closest": {
+          "status": "200",
+          "available": true,
+          "url": "http://web.archive.org/web/20230107101212/https://tibia.fandom.com/wiki/Interviews",
+          "timestamp": "20230107101212"
+        }
+      },
+      "timestamp": "20200101"
+    }
+  },
+  "tibiaevents_availability": {
+    "body_sha256": "af597491d02156c5cc3e4604aac2ea410a994bd119fd5a814335094e6066ef83",
+    "parsed_json": {
+      "url": "https://tibiaevents.com/knightmare",
+      "archived_snapshots": {
+        "closest": {
+          "status": "200",
+          "available": true,
+          "url": "http://web.archive.org/web/20160401184506/https://www.tibiaevents.com/knightmare",
+          "timestamp": "20160401184506"
+        }
+      },
+      "timestamp": "20141017"
+    }
+  },
+  "tibiaevents_cdx": {
+    "body_sha256": "fba274784093976250ffff6cda781848f582c76ccaa615fbd3f1ee26b6c995ac",
+    "parsed_json": [
+      [
+        "urlkey",
+        "timestamp",
+        "original",
+        "mimetype",
+        "statuscode",
+        "digest",
+        "length"
+      ],
+      [
+        "com,tibiaevents)/knightmare",
+        "20160401184506",
+        "https://www.tibiaevents.com/knightmare",
+        "text/html",
+        "200",
+        "O3QUVOQ6A5GC7I2YZF54XPNFEQKZC5SL",
+        "19701"
+      ],
+      [
+        "com,tibiaevents)/knightmare",
+        "20190302202917",
+        "https://tibiaevents.com/knightmare",
+        "text/html",
+        "200",
+        "SVPJTQQNDRQONJYDB3OJ57VDGBA2GNCC",
+        "22328"
+      ],
+      [
+        "com,tibiaevents)/knightmare",
+        "20190918094045",
+        "https://tibiaevents.com/knightmare",
+        "text/html",
+        "200",
+        "Z3WF2ZE7USDDZ3WJCUCYJBPCQDLYQNEQ",
+        "22512"
+      ],
+      [
+        "com,tibiaevents)/knightmare",
+        "20211018202223",
+        "https://tibiaevents.com/knightmare",
+        "text/html",
+        "200",
+        "KYRDS54OYI3VJTUZTHDHCHANKVTGQLKP",
+        "24765"
+      ],
+      [
+        "com,tibiaevents)/knightmare",
+        "20220819141819",
+        "https://tibiaevents.com/knightmare",
+        "text/html",
+        "200",
+        "ELQLBDRSM5EVFL7SUV2AOZGWXASSFJ6U",
+        "23143"
+      ]
+    ]
+  }
+}

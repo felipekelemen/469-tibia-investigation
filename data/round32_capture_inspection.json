@@ -1,0 +1,101 @@
+{
+  "primary_exchanges": {
+    "bdt_20180504": {
+      "capture_timestamp": "20180504032226",
+      "original_url": "https://www.bomdiatibia.com/forum/entrevistas/membros-da-cipsoft-knightmare-o-mito-por-tras-das-historias-tibianas/",
+      "memento_matches": true,
+      "answer_sha256": "6ea9b7a235b2b2685a369856e408af220993f2e4f37e2037a8124f20fddb5b75",
+      "answer_characters": 48,
+      "answer_digit_runs": [],
+      "obvious_context_sha256": "ffd4386106b65202173f4e2eca1d7bbd31da0860f85f1f5ae7ccfabf34ed4ff6"
+    },
+    "bdt_20190722": {
+      "capture_timestamp": "20190722122025",
+      "original_url": "https://bomdiatibia.com/forum/entrevistas/membros-da-cipsoft-knightmare-o-mito-por-tras-das-historias-tibianas/",
+      "memento_matches": true,
+      "answer_sha256": "6ea9b7a235b2b2685a369856e408af220993f2e4f37e2037a8124f20fddb5b75",
+      "answer_characters": 48,
+      "answer_digit_runs": [],
+      "obvious_context_sha256": "ffd4386106b65202173f4e2eca1d7bbd31da0860f85f1f5ae7ccfabf34ed4ff6"
+    },
+    "tibiaevents_20160401": {
+      "capture_timestamp": "20160401184506",
+      "original_url": "https://www.tibiaevents.com/knightmare",
+      "memento_matches": true,
+      "answer_sha256": "6157a27c7967be6e3b0ed5ae078ebd5c57bf88ed93d4985f984ab89c7fbe67eb",
+      "answer_characters": 304,
+      "answer_digit_runs": [],
+      "obvious_context_sha256": null
+    },
+    "tibiaevents_20190302": {
+      "capture_timestamp": "20190302202917",
+      "original_url": "https://tibiaevents.com/knightmare",
+      "memento_matches": true,
+      "answer_sha256": "6157a27c7967be6e3b0ed5ae078ebd5c57bf88ed93d4985f984ab89c7fbe67eb",
+      "answer_characters": 304,
+      "answer_digit_runs": [],
+      "obvious_context_sha256": null
+    }
+  },
+  "literal_term_scans": [
+    {
+      "source": "bdt_20180504",
+      "encoding": "UTF-8",
+      "visible_text_sha256": "19205d29d5066b7a58e073419120282958a62c9034d983896ac8a8a72d6955b5",
+      "visible_text_characters": 34580,
+      "literal_dictionary_term_matches": []
+    },
+    {
+      "source": "bdt_20190722",
+      "encoding": "UTF-8",
+      "visible_text_sha256": "fee1a86f0b968a69c6933d2bc36a1a13a8c0f139908d2f6d99801aa816902f18",
+      "visible_text_characters": 35207,
+      "literal_dictionary_term_matches": []
+    },
+    {
+      "source": "tibiaevents_20160401",
+      "encoding": "UTF-8",
+      "visible_text_sha256": "47ecb77c26e05a6e207981ce54cc2e1afdee8cd8ae3195662468fefb548cc6f1",
+      "visible_text_characters": 15349,
+      "literal_dictionary_term_matches": []
+    },
+    {
+      "source": "tibiaevents_20190302",
+      "encoding": "UTF-8",
+      "visible_text_sha256": "0ac79a74c1fea4881136322fd3502839f2fb20f1f9ea40145f2ac93fe59c586b",
+      "visible_text_characters": 15709,
+      "literal_dictionary_term_matches": []
+    },
+    {
+      "source": "rookie_2016_archive",
+      "encoding": "UTF-8",
+      "visible_text_sha256": "cd84e49b251849b0be01e767284c40786bbbd913135c29e39dbc88f1a576b1b5",
+      "visible_text_characters": 13615,
+      "literal_dictionary_term_matches": []
+    },
+    {
+      "source": "tibiabr_2010",
+      "encoding": "ISO-8859-1",
+      "visible_text_sha256": "a1e39ecb8ca82c2adf6adf688b9eca09cd8548a027ec49b147b6c8bea8886e39",
+      "visible_text_characters": 55492,
+      "literal_dictionary_term_matches": []
+    },
+    {
+      "source": "tibianews_2004_archive",
+      "encoding": "utf-8",
+      "visible_text_sha256": "ede21244a59cf45f5a5378a9b00b12f455a1df0c53d830759a8a0a4442e4ffc5",
+      "visible_text_characters": 16273,
+      "literal_dictionary_term_matches": []
+    },
+    {
+      "source": "tibianews_unscripted_archive",
+      "encoding": "utf-8",
+      "visible_text_sha256": "9c22c471fc545b7b6e2dbd7dcf0c511a76ad8a22c98125345870ffa5150298e9",
+      "visible_text_characters": 15306,
+      "literal_dictionary_term_matches": []
+    }
+  ],
+  "literal_scan_scope": "Visible page text, not a semantic/synonym search or exhaustive archive review.",
+  "bdt_notice_interview_href_verified": true,
+  "secrets_tibiaevents_href_verified": true
+}

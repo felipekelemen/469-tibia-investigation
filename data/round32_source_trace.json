@@ -1,0 +1,66 @@
+{
+  "basis": "9f59d7e6eac3955c951bff26534fd14af856b78c",
+  "method": "Publisher/referral hyperlink -> exact original URL -> public availability/CDX record -> replay body and matching Memento header. Copies from different dates retain shared lineage.",
+  "chains": [
+    {
+      "id": "bdt_eyes",
+      "referrer": "bdt_notice",
+      "original_live": "bdt_forum_live",
+      "availability": "bdt_availability",
+      "cdx": "bdt_cdx",
+      "snapshots": [
+        "bdt_20180504",
+        "bdt_20190722"
+      ],
+      "lineage": "bomdiatibia_knightmare_2018",
+      "independent_interviews": 1,
+      "short_complete_answer": "You only need a translator with way more eyes :p",
+      "answer_is_translation_of_469_digits": false,
+      "conclusion": "Attribution recovered in original publisher archive. No eye count, key, matrix, alphabet or decoder operation specified."
+    },
+    {
+      "id": "tibiaevents_2014",
+      "referrer": "secrets_colossus",
+      "secondary_index": "interview_index_20230107",
+      "original_live": "tibiaevents_live",
+      "availability": "tibiaevents_availability",
+      "cdx": "tibiaevents_cdx",
+      "snapshots": [
+        "tibiaevents_20160401",
+        "tibiaevents_20190302"
+      ],
+      "lineage": "tibiaevents_knightmare_2014",
+      "independent_interviews": 1,
+      "short_answer_excerpt": "Could I? Of course. Should I? Of course not ;o)",
+      "excerpt_is_complete_answer": false,
+      "conclusion": "Original English recovered. Compound question asks random/solvable/quest/hint. Answer declines eliminating or endorsing community theories; agrees in context with R31 Portuguese translation."
+    }
+  ],
+  "additional_bdt_context": {
+    "source_lineage": "bomdiatibia_knightmare_2018",
+    "attribution_recovered": true,
+    "topic": "Hypothetical future civilisation finding bonelord language obvious, within an answer about continuing content work.",
+    "independent_from_eyes_interview": false,
+    "conclusion": "Raises a possible intent-to-be-understood reading, but does not explicitly state an English encoding rule or demonstrate that all existing469sources share one algorithm."
+  },
+  "dictionary": {
+    "lead": "https://www.reddit.com/r/TibiaMMO/comments/1rgakrg/solving_469_part_13/",
+    "lead_status": "Search-index representation of community attribution; direct HTTP200 body contains only a Reddit title, not the post.",
+    "additional_sources_scanned": [
+      "rookie_2016_archive",
+      "tibiabr_2010",
+      "tibianews_2004_archive",
+      "tibianews_unscripted_archive"
+    ],
+    "original_attribution_recovered": false,
+    "conclusion": "Unresolved within the declared search. Literal-term absence in scanned pages does not prove the statement was never made."
+  },
+  "new_numeric_or_plaintext_pairs": 0,
+  "new_mechanism_specified": false,
+  "new_original_nontext_process": false,
+  "numeric_gate": "not_triggered",
+  "mechanism_gate": "not_triggered",
+  "mission_disposition": "I",
+  "candidate_translation": null,
+  "judgment_scope": "Manual context and source-lineage judgments. Software verifies artifacts and exact comparisons, not semantic truth or authorial intent."
+}

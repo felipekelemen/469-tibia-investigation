@@ -1,0 +1,33 @@
+{
+  "stage": "Post-execution publication integrity; not preregistration",
+  "sha256": {
+    "data/plan_progress_round32.json": "4eccc70a1631ac0236cf7ac4b874df1ec29aecb6d3fd00fe06da508a2f538cd9",
+    "data/round32_archive_index.json": "f5f14319f42c0f079e2f456419362a2281e51d87ed5751e61894cae28e8f41d1",
+    "data/round32_capture_inspection.json": "9226bac750a29134dddb93bded02158e93ddad3c9b69266b25d957dd821ed26a",
+    "data/round32_discovery_log.json": "f81881ff159064fcd62408afcfd7db5ffab1bd0bebc6d033918bebab18df55b3",
+    "data/round32_http.json": "fb9a7fb310cd12f83638b1b01e3f47bf5314eaa36cc33f0dc95357be0f5004a8",
+    "data/round32_input_manifest.json": "d237425db66e7acb4b8dd9dbadb0aefc65243ef605d427a03d8c66ec3c8a9708",
+    "data/round32_protocol.json": "7c509263209db9be51dde67aa88920d18d036632401fdfa72d469caafbf35556",
+    "data/round32_source_trace.json": "ac1c16ceea489b11092f8ae32349eaf61ee76aa6bcf2452011ae5d53a0f7de96",
+    "data/round32_sources.json": "479f8a606346cfa6743143b192f2d963738fd21294e21113cf99eb8e407238ca",
+    "data/round32_targets_archive.json": "299ae546acdcc1ed08c40938f46e2aaf0013c00d7e1eb9e15dd8ef46aa35ab12",
+    "data/round32_targets_confirm.json": "33f7ce3c2b7c245872954603a6608b129d137bd6a3b807655b3022145b58aac0",
+    "data/round32_targets_dictionary.json": "d7951483bd863437798fba596d0e544a04ea1d1b666397d2abfbeff6da9ca326",
+    "data/round32_targets_initial.json": "32d3ae080cdc7dd0369278b8f704aa3671ee4722c9ec25a92f4ba6b935606c9e",
+    "data/round32_targets_snapshots.json": "87250908e795dbb28caad6d25e7276ce80500a762b8f92f58dcc29602e8e3f88",
+    "docs/round32.md": "a94b9adb665346e6fbd4b3d743c7146860dd687f09d1769a2a0a18498c687a88",
+    "results/round32_replay/audit.log": "72a78f7dc539a4ec2ca4cfc95948431935fbb003d3a327c42f313b089dc302fa",
+    "results/round32_replay/offline.log": "e790b6cf57a6167cf36adc4de4620b8f395846682755da3514f777b872567b60",
+    "results/round32_replay/private_capture_check.log": "c20156813d3108120058b396b2a848e112b74639813c775c6cb3db789033ef7d",
+    "results/round32_replay/round30_preservation.log": "32630ab739714d143fe2553d24873fd1f033a23618654fdc20f198c1a906e9c5",
+    "results/round32_replay/round31_preservation.log": "81e672eb7cd61886f46a137624e4c22b77058afc00428636613b13b12e0d408e",
+    "results/round32_replay/tests.log": "c6e242967ccf7abd0a25e13f7a165de148e724b6c4877eb4936fee00e20df31d",
+    "results/round32_source_audit.json": "f2fbc137feea5a8517cdfdabd7e06fa239db693b64fe5e97f0942a8a6d909bb5",
+    "results/round32_verification.json": "645737fa1ffd383f73156638dff522961297c87e5d49a31b597f0efbaa39c744",
+    "scripts/round32_archive.py": "01ba155dd21bcf1f06b9ccf59b5d452f4d44301d6a8264a8d9c8b0823dd510e9",
+    "scripts/round32_fetch_sources.py": "5950010578c0970eece9ed2762cb3720673e5ef2ac405bfbc08efcf65a877943",
+    "scripts/round32_inspect_captures.py": "b409198c674b2bf0d4ee0e01d45cbca88b6e0cc94d6cf144764161eef9ee1090",
+    "scripts/run_round32.py": "1c6b0f50daae12f8a55ad193b374694d068e2fc161ebc21c74c180dbbfca2aeb",
+    "tests/test_round32_archive.py": "a3b85101819b21899c4c65c461ec08cec5c4557e2a4a8a944685cdf640059ee9"
+  }
+}

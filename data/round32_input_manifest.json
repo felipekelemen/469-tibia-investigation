@@ -1,0 +1,25 @@
+{
+  "stage": "Frozen after source recovery, extraction and nine utility checks; before offline consistency-audit execution. Not blinded validation or a preregistered claim of meaning.",
+  "basis": "9f59d7e6eac3955c951bff26534fd14af856b78c",
+  "sha256": {
+    "data/round32_archive_index.json": "f5f14319f42c0f079e2f456419362a2281e51d87ed5751e61894cae28e8f41d1",
+    "data/round32_capture_inspection.json": "9226bac750a29134dddb93bded02158e93ddad3c9b69266b25d957dd821ed26a",
+    "data/round32_discovery_log.json": "f81881ff159064fcd62408afcfd7db5ffab1bd0bebc6d033918bebab18df55b3",
+    "data/round32_http.json": "fb9a7fb310cd12f83638b1b01e3f47bf5314eaa36cc33f0dc95357be0f5004a8",
+    "data/round32_protocol.json": "7c509263209db9be51dde67aa88920d18d036632401fdfa72d469caafbf35556",
+    "data/round32_source_trace.json": "ac1c16ceea489b11092f8ae32349eaf61ee76aa6bcf2452011ae5d53a0f7de96",
+    "data/round32_sources.json": "479f8a606346cfa6743143b192f2d963738fd21294e21113cf99eb8e407238ca",
+    "data/round32_targets_archive.json": "299ae546acdcc1ed08c40938f46e2aaf0013c00d7e1eb9e15dd8ef46aa35ab12",
+    "data/round32_targets_confirm.json": "33f7ce3c2b7c245872954603a6608b129d137bd6a3b807655b3022145b58aac0",
+    "data/round32_targets_dictionary.json": "d7951483bd863437798fba596d0e544a04ea1d1b666397d2abfbeff6da9ca326",
+    "data/round32_targets_initial.json": "32d3ae080cdc7dd0369278b8f704aa3671ee4722c9ec25a92f4ba6b935606c9e",
+    "data/round32_targets_snapshots.json": "87250908e795dbb28caad6d25e7276ce80500a762b8f92f58dcc29602e8e3f88",
+    "scripts/history_source_fetch.py": "639d7b61ff654999785af723df795cb480f845a25ae3c119406f9b9eb0ff3d05",
+    "scripts/round31_extract.py": "d1dc366dfacb41c79b549a25ab18bc6d20f2f63de5b0e4bad6c3cb0c538bcb58",
+    "scripts/round32_archive.py": "01ba155dd21bcf1f06b9ccf59b5d452f4d44301d6a8264a8d9c8b0823dd510e9",
+    "scripts/round32_fetch_sources.py": "5950010578c0970eece9ed2762cb3720673e5ef2ac405bfbc08efcf65a877943",
+    "scripts/round32_inspect_captures.py": "b409198c674b2bf0d4ee0e01d45cbca88b6e0cc94d6cf144764161eef9ee1090",
+    "scripts/run_round32.py": "1c6b0f50daae12f8a55ad193b374694d068e2fc161ebc21c74c180dbbfca2aeb",
+    "tests/test_round32_archive.py": "a3b85101819b21899c4c65c461ec08cec5c4557e2a4a8a944685cdf640059ee9"
+  }
+}

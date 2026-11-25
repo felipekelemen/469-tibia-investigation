@@ -1,0 +1,24 @@
+{
+  "plan": "docs/mission_plan_v2.md",
+  "completed_through_round": 32,
+  "completed_this_execution": [32],
+  "original_v2_batch_completed_through": 30,
+  "remaining_planned_rounds": [],
+  "additional_round_scope": "Bounded historical recovery of two original interview lineages and dictionary attribution tracing",
+  "translation_mission_closed": false,
+  "mission_outcome": "I_inconclusive",
+  "translation_validated": false,
+  "original_nontextual_generator_authenticated": false,
+  "latest_report": "docs/round32.md",
+  "new_candidate_translation": null,
+  "closed_acquisition_gaps": [
+    "Original BomDiaTibia2018interview: more-eyes and hypothetical future-civilisation passages recovered",
+    "Original English TibiaEvents2014interview: two agreeing historical captures recovered"
+  ],
+  "pending_acquisition": [
+    "Original source, if any, for the dictionary attribution",
+    "Independent attested number/plaintext pairs or original production material tied to a source/version"
+  ],
+  "preserved_limits": "No new historical skull measurements or mechanism connecting3478to English names. R23Knightmare/grapheme1_3 remains incomplete, with1769lexical keys.",
+  "next_computational_gate": "Specify an additional discriminating constraint or qualify a distinct recovery method before a new game fit. Generic more-eyes advice fixes no matrix dimension or decoder."
+}
