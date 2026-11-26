@@ -6,13 +6,18 @@ foi confirmada. O alvo é um algoritmo integral que generalize para textos inéd
 
 Destino público: https://github.com/felipekelemen/469-tibia-investigation
 
-**Plano atual:** [revisão da missão após 23 rodadas](docs/mission_plan_v2.md),
-com [balanço de cada rodada](docs/rounds_01_23_review.md) e
-[formato obrigatório de resultados e candidatas](docs/round_report_template_v2.md).
-Prioridade: Avar Tar, Knightmare e Chayenne; decisões delimitadas sobre3478/nomes
-e matrizes; investigação própria de geração sem texto. As rodadas 24–30 estão concluídas;
-não há etapas pendentes neste lote. As R31–33 acrescentam fontes e contagem exata.
-[Progresso atual](data/plan_progress_round33.json). Estado da missão: inconclusivo.
+**Plano atual:** [plano de conclusão v3, após 33 rodadas](docs/mission_plan_v3.md),
+com [estado e critérios computáveis](data/mission_plan_v3.json).
+O lote 24–30 foi executado, mas os objetivos científicos não foram todos atingidos
+e nem todas as buscas antigas foram completadas. As R31–33 acrescentaram fontes
+e contagem exata. O novo ciclo tem **seis etapas ainda não executadas**, limites
+de busca e critérios de conclusão por fonte: tradução validada, origem sem texto
+documentada ou resultado inconclusivo. Não promete uma resposta binária sem evidência.
+Prioridade: Avar Tar, Knightmare e Chayenne;3478 e Hellgate só reabrem com dados
+ou mecanismo novos. Esta revisão é planejamento, não uma rodada34.
+[Último progresso experimental](data/plan_progress_round33.json),
+[plano v2 histórico](docs/mission_plan_v2.md) e
+[formato de resultados e candidatas](docs/round_report_template_v2.md).
 
 **Publicado:** corpus normalizado, código, testes e resultados das 33 rodadas
 disponíveis neste repositório. O acesso de escrita foi confirmado após nova reconexão.
@@ -47,8 +52,9 @@ sem uma nova busca de cifras. Conferiu 636 referências em 48 manifestos e
 reproduziu os 70 livros e 5.729 símbolos a partir dos arquivos originais agora
 incluídos no repositório. Oito procedimentos passaram em uma cópia limpa,
 incluindo as rodadas 28/29 completas; 301 testes passaram na árvore final.
-Nenhuma tradução ou origem original sem texto foi demonstrada. A busca limitada
-de Knightmare na R23 continua explícita;3478 e Hellgate mantêm conclusões
+Nenhuma tradução ou origem original sem texto foi demonstrada. A busca de
+Knightmare ainda limitada naquele fechamento foi concluída depois, na R33;
+3478 e Hellgate mantêm conclusões
 restritas às evidências. Veja o [balanço das30rodadas](docs/rounds_01_30_review.md)
 e os [próximos dados discriminantes](docs/round30.md#próximos-experimentos-com-maior-valor-informativo).
 Replay de fechamento: `make round30`. A missão de decifração permanece aberta.

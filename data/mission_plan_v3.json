@@ -1,0 +1,177 @@
+{
+  "version": 3,
+  "date_utc": "2026-11-26",
+  "baseline_commit": "72b559a48ca93138d3f8e74add938dfa3dc424c2",
+  "kind": "status_audit_and_finite_closure_plan_not_round34",
+  "current_plan": "docs/mission_plan_v3.md",
+  "previous_plan": "docs/mission_plan_v2.md",
+  "completed_experimental_rounds": 33,
+  "v2_scheduled_rounds_24_to_30_complete": true,
+  "all_original_scientific_deliverables_satisfied": false,
+  "all_historical_searches_exhausted": false,
+  "mission_outcome": "I_inconclusive",
+  "translation_validated": false,
+  "original_nontextual_process_authenticated": false,
+  "new_experiments_executed_by_this_revision": [],
+  "remaining_v3_stages": ["E1", "E2", "E3", "E4", "E5", "E6"],
+  "guaranteed_rounds_to_binary_answer": null,
+  "priority_targets": ["avar_tar_poem", "knightmare_2012", "chayenne_2009_part1", "chayenne_2009_part2"],
+  "evidence_baseline": {
+    "books": 70,
+    "raw_digits": 11263,
+    "imported_intermediate_symbols": 5729,
+    "segmentation_discovered": false,
+    "knightmare_grapheme1_3_observed_digit_keys": "153174074",
+    "knightmare_count_is_translation_count": false,
+    "round33_secondary_incomplete_jobs": 7,
+    "latest_experimental_progress": "data/plan_progress_round33.json",
+    "latest_report": "docs/round33.md"
+  },
+  "original_workstreams": [
+    {"id": "P01", "status": "corpus_and_dependencies_audited_independent_semantic_evidence_missing", "next": ["E1", "E5"]},
+    {"id": "P02", "status": "scoped_qualification_only_general_recovery_not_demonstrated", "next": ["E2"]},
+    {"id": "P03", "status": "structure_measured_original_process_unidentified", "next": ["E1", "E4"]},
+    {"id": "P04", "status": "searches_executed_no_validated_translation", "next": ["E3", "E5"]},
+    {"id": "P05", "status": "units_and_codebooks_tested_meaning_unidentified", "next": ["E1", "E2", "E3"]},
+    {"id": "P06", "status": "partial_history_counts_and_transition_not_authenticated", "next": ["E1"]},
+    {"id": "P07", "status": "finite_matrix_families_tested_no_key_validated", "next": ["E1", "E3"]}
+  ],
+  "stages": [
+    {
+      "id": "E1",
+      "status": "planned",
+      "name": "Acquire decisive primary evidence and adjudicate name/matrix gaps",
+      "dependencies": [],
+      "deliverable": "e1_sources with provenance, exposure and per-claim dispositions",
+      "exit": "Bounded search complete, or decisive evidence acquired; unsupported matrix/name mechanisms suspended"
+    },
+    {
+      "id": "E2",
+      "status": "planned",
+      "name": "Qualify semantic selection and abstention on unseen controls",
+      "dependencies": ["E1"],
+      "deliverable": "e2_qualification with eligibility per target scenario",
+      "exit": "Method qualifies or two versions fail; no indefinite tuning"
+    },
+    {
+      "id": "E3",
+      "status": "planned_conditional",
+      "name": "Test up to three justified families on priority messages",
+      "dependencies": ["E1", "E2"],
+      "activation": "Relevant scenario qualification or a complete exact algebraic certificate; source-derived mechanism if applicable",
+      "deliverable": "e3_candidates with literal outputs, alternatives, full-search controls and scoped negatives",
+      "exit": "Eligible finite families complete, capped, or not activated; strong candidate advances immediately to E5"
+    },
+    {
+      "id": "E4",
+      "status": "planned_conditional",
+      "name": "Authenticate the original production process",
+      "dependencies": ["E1"],
+      "activation": "Eligible original artifact or specific authenticated authorial statement",
+      "deliverable": "e4_origin separating technical reproduction, testimony and unsupported allegation",
+      "exit": "At most two eligible artifact sets audited; missing original evidence leads to suspension"
+    },
+    {
+      "id": "E5",
+      "status": "planned_conditional",
+      "name": "Validate frozen predictions or provenance independently",
+      "dependencies": [],
+      "activation": "T candidate or G evidence from any stage; independent validation evidence available",
+      "deliverable": "Frozen predictions, exposure audit, complete validation outcomes and covered scope",
+      "exit": "One validation attempt per frozen candidate; unavailable independent evidence remains I"
+    },
+    {
+      "id": "E6",
+      "status": "planned",
+      "name": "Replicate decisive results and close the cycle",
+      "dependencies": [],
+      "activation": "Decisive candidate ready or earlier stages have terminal/conditional-not-activated dispositions",
+      "deliverable": "T/G/I decision per source and version, optional mixed M summary, bounded exclusion catalog and reopening conditions",
+      "exit": "Stop active investigation in this cycle even if I; no automatic equivalent next search"
+    }
+  ],
+  "budgets": {
+    "distinct_search_queries": 30,
+    "unique_documents_or_captures": 60,
+    "maximum_source_passes": 2,
+    "retry_per_transient_access_failure": 1,
+    "eligible_original_artifact_sets": 2,
+    "selection_methods": 2,
+    "versions_per_method": 2,
+    "target_model_families": 3,
+    "total_core_cpu_hours": 48,
+    "reserved_core_cpu_hours_for_validation_and_replay": 8,
+    "per_process_memory_gib": 4,
+    "aggregate_memory_gib": 8,
+    "temporary_disk_gib": 20,
+    "resource_ceiling_reduced_to_available_capacity": true,
+    "paid_services_authorized_by_this_plan": false,
+    "contact_with_others_authorized_by_this_plan": false,
+    "limit_outcome": "unknown_or_incomplete_never_zero"
+  },
+  "qualification_policy": {
+    "minimum_new_cases_per_relevant_scenario": 30,
+    "minimum_positive_cases_passing": 27,
+    "minimum_heldout_letter_recovery_per_passing_case": 0.95,
+    "minimum_negative_cases_per_scenario": 30,
+    "maximum_false_acceptances_in_negative_qualification": 0,
+    "report_false_acceptance_binomial_interval": true,
+    "ambiguous_cases_require_alternatives_or_abstention": true,
+    "identifiability_rules_frozen_before_evaluation": true,
+    "natural_prose_separate_from_dictionary_conditioned_lists": true,
+    "report_representability_and_coverage": true,
+    "qualification_is_not_semantic_validation_of_game": true
+  },
+  "new_statistical_claim_policy": {
+    "minimum_replicates_per_declared_null_type": 999,
+    "entire_fit_and_selection_repeated_in_nulls": true,
+    "adjust_for_families_and_targets_selected_in_this_cycle": true,
+    "historical_community_selection_not_fully_corrected": true,
+    "censored_nulls_forbid_complete_rank_or_invented_pvalue": true,
+    "statistical_significance_is_not_translation": true
+  },
+  "translation_validation_gate": {
+    "rule_kind": "operational_minimum_not_universal_proof",
+    "minimum_independent_complete_messages_or_units": 3,
+    "minimum_total_english_letters": 100,
+    "required_exact_letter_recovery_under_frozen_normalization": 1.0,
+    "minimum_source_origins_for_cross_source_claim": 2,
+    "single_origin_result_restricted_to_that_origin": true,
+    "authenticated_plaintext_or_specific_authorial_correspondence_required": true,
+    "all_preselected_eligible_units_reported": true,
+    "literal_predictions_frozen_before_reserved_meanings_revealed": true,
+    "audited_motif_and_source_independence_required": true,
+    "one_validation_attempt_per_frozen_candidate": true,
+    "unseen_symbols_not_completed_by_lore": true,
+    "one_authenticated_pair_can_confirm_only_that_pair": true
+  },
+  "nontextual_origin_gate": {
+    "authenticated_original_process_or_specific_authorial_testimony_required": true,
+    "trace_seeds_constants_tables_copied_sources_and_manual_selection": true,
+    "no_text_argument_alone_is_insufficient": true,
+    "reproduce_original_artifacts_when_available": true,
+    "testimony_not_labeled_technical_reproduction": true,
+    "new_memorizing_generator_or_compression_score_is_insufficient": true,
+    "scope_by_source_and_version": true
+  },
+  "outcomes": {
+    "T": "Validated translation within declared scope",
+    "G": "Documented original nontextual production within declared scope",
+    "M": "T and G demonstrated in distinct subsets; other subsets may remain I",
+    "I": "Inconclusive after bounded work; not universal impossibility"
+  },
+  "stop_and_reopen": {
+    "close_cycle_even_if_inconclusive": true,
+    "no_indefinite_wait_for_external_response": true,
+    "round33_secondary_caps_not_automatically_reopened": true,
+    "reopening_requires": [
+      "New authenticated primary evidence",
+      "Demonstrated material error in earlier work",
+      "Method newly qualified for the relevant scenario",
+      "Distinct specified mechanism with independent falsifiable prediction"
+    ]
+  },
+  "historical_artifacts_preserved": true,
+  "independent_third_party_review_already_obtained": false,
+  "next_action": "E1: bounded primary-evidence acquisition with inventory and source priorities frozen before reading"
+}
