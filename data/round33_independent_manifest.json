@@ -1,0 +1,11 @@
+{
+  "stage": "Post-main-result audit frozen before independent counter execution",
+  "sha256": {
+    "data/round33_independent_audit_protocol.json": "94cde5eadbdf3361dee20be09633ed98787e19b3779a30fb5074bbcced639ece",
+    "scripts/round33_independent.cpp": "f74e73969418b12acff0c64e19db524078147ec7d5d73af8177a8b0ba8b0c3bf",
+    "tests/test_round33_independent.py": "d6c462eca9b1aa182ea67ffdde1ea54ffafa8134b6f63358f9245c86ca83fe7d",
+    "scripts/unit_morphism_lexicon.py": "4e1bc4aef71d2b8d6146f00fe2f917d0934743ebb2e79ada737a2ce53c113e9d",
+    "data/cmudict_reference/cmudict.dict": "81917843c7f44ce2b094ac63873c2c7a4cf802040792c455ba3ca406891c3d22",
+    "data/cmudict_reference/cmudict.phones": "ffb588a5e55684723582c7256e1d2f9fadb130011392d9e59237c76e34c2cfd6"
+  }
+}

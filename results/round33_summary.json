@@ -1,0 +1,83 @@
+{
+  "round": 33,
+  "main_jobs": 51,
+  "completed_jobs": 44,
+  "incomplete_reasons": {
+    "table_row_limit": 7
+  },
+  "knightmare_observed_digit_keys": "153174074",
+  "count_agrees_with_independent_contraction": true,
+  "key_count_is_not_distinct_plaintext_count": true,
+  "observed_digits": [
+    "0",
+    "1",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+  ],
+  "unobserved_digits": [
+    "2"
+  ],
+  "old1769distinct_keys_rechecked": 1769,
+  "tiny_independent_count_checks": 100,
+  "chayenne_sources_requiring_missing_digit": [
+    "chayenne_2009_part1",
+    "chayenne_2009_part2"
+  ],
+  "per_kind": {
+    "real": {
+      "cases": 1,
+      "complete": 1,
+      "incomplete": 0,
+      "zero": 0,
+      "positive": 1,
+      "min_complete_count": "153174074",
+      "max_complete_count": "153174074"
+    },
+    "previous_zero_regression": {
+      "cases": 2,
+      "complete": 2,
+      "incomplete": 0,
+      "zero": 2,
+      "positive": 0,
+      "min_complete_count": "0",
+      "max_complete_count": "0"
+    },
+    "known_key_regression": {
+      "cases": 10,
+      "complete": 7,
+      "incomplete": 3,
+      "zero": 0,
+      "positive": 7,
+      "min_complete_count": "71424",
+      "max_complete_count": "42791921919291633"
+    },
+    "within_word_shuffle": {
+      "cases": 19,
+      "complete": 19,
+      "incomplete": 0,
+      "zero": 1,
+      "positive": 18,
+      "min_complete_count": "0",
+      "max_complete_count": "9676507"
+    },
+    "uniform_lengths": {
+      "cases": 19,
+      "complete": 15,
+      "incomplete": 4,
+      "zero": 3,
+      "positive": 12,
+      "min_complete_count": "0",
+      "max_complete_count": "241916343"
+    }
+  },
+  "significance_or_rank_test": null,
+  "comparison_limits": "Previous shuffle cases are reused/exposed; uniform controls can observe a different number of digits. Counts of observed-digit assignments are descriptive, not language scores or an independent significance test.",
+  "candidate_translation": null,
+  "mission_disposition": "I",
+  "scope": "Exact finite lexical counting. R23Knightmare and completed shuffle counts now closed; prior bounded files preserved. No English/semantic translator qualified. Incomplete control counts remain unknown."
+}

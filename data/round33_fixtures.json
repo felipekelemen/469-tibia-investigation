@@ -1,0 +1,2717 @@
+{
+  "tiny_seed": 334690033,
+  "tiny": [
+    {
+      "id": "tiny_0",
+      "words": [
+        "11",
+        "111"
+      ],
+      "lexicon": [
+        "AAABAB",
+        "ABABA",
+        "ABABBB",
+        "BABA",
+        "BABABA",
+        "BBAB"
+      ]
+    },
+    {
+      "id": "tiny_1",
+      "words": [
+        "1120"
+      ],
+      "lexicon": [
+        "ABA",
+        "ABAAAA",
+        "BABBBB",
+        "BBB",
+        "BBBA",
+        "BBBBAB"
+      ]
+    },
+    {
+      "id": "tiny_2",
+      "words": [
+        "0000",
+        "2022"
+      ],
+      "lexicon": [
+        "AAAA",
+        "AAAABB",
+        "AAABAA",
+        "AAABB",
+        "AABABA",
+        "AABABB",
+        "ABAAA",
+        "ABAABAB",
+        "ABABB",
+        "ABBAAB",
+        "B",
+        "BABABB",
+        "BBAAAA"
+      ]
+    },
+    {
+      "id": "tiny_3",
+      "words": [
+        "1021",
+        "100",
+        "2221"
+      ],
+      "lexicon": [
+        "AAABA",
+        "AABA",
+        "AB",
+        "ABAABB",
+        "ABBBA",
+        "BAABAB",
+        "BABAB",
+        "BABBAB",
+        "BBABA",
+        "BBABBA",
+        "BBBBAB"
+      ]
+    },
+    {
+      "id": "tiny_4",
+      "words": [
+        "1110"
+      ],
+      "lexicon": [
+        "AAAAA",
+        "ABBBA",
+        "BAB",
+        "BABA",
+        "BBAAA",
+        "BBBB"
+      ]
+    },
+    {
+      "id": "tiny_5",
+      "words": [
+        "2020"
+      ],
+      "lexicon": [
+        "AAAB",
+        "ABABBA",
+        "BAAAB",
+        "BBA"
+      ]
+    },
+    {
+      "id": "tiny_6",
+      "words": [
+        "100"
+      ],
+      "lexicon": [
+        "AAABAA",
+        "AAABAB",
+        "AABAAA",
+        "ABBBB",
+        "B",
+        "BAAAAA",
+        "BAAB",
+        "BABABA",
+        "BBABAA",
+        "BBABB",
+        "BBB",
+        "BBBBAA",
+        "BBBBAB"
+      ]
+    },
+    {
+      "id": "tiny_7",
+      "words": [
+        "2110",
+        "0",
+        "2002"
+      ],
+      "lexicon": [
+        "AAAAAA",
+        "AAAABA",
+        "ABBAA",
+        "BAAB",
+        "BAABA",
+        "BAABAA",
+        "BBAAA",
+        "BBAAAA",
+        "BBAABA",
+        "BBABB",
+        "BBBABA",
+        "BBBBA"
+      ]
+    },
+    {
+      "id": "tiny_8",
+      "words": [
+        "1"
+      ],
+      "lexicon": [
+        "AAAA",
+        "AAAAAA",
+        "AAAABB",
+        "AABBA",
+        "BAB",
+        "BBB",
+        "BBBBA"
+      ]
+    },
+    {
+      "id": "tiny_9",
+      "words": [
+        "220",
+        "1"
+      ],
+      "lexicon": [
+        "AAABBB",
+        "AABA",
+        "ABAABB",
+        "ABABBA",
+        "BAAA",
+        "BABA",
+        "BABAB",
+        "BABBBA",
+        "BBBABA"
+      ]
+    },
+    {
+      "id": "tiny_10",
+      "words": [
+        "2"
+      ],
+      "lexicon": [
+        "AAAAA",
+        "AAAAAB",
+        "AAAABB",
+        "AAABBB",
+        "AABBA",
+        "ABAABB",
+        "ABABAA",
+        "ABBBA",
+        "ABBBAA",
+        "B",
+        "BAABBB",
+        "BBABBB",
+        "BBBBA",
+        "BBBBBB"
+      ]
+    },
+    {
+      "id": "tiny_11",
+      "words": [
+        "110",
+        "010",
+        "1000",
+        "2"
+      ],
+      "lexicon": [
+        "AAAAAA",
+        "AABAB",
+        "ABAAAA",
+        "BAA",
+        "BAAB",
+        "BABBA",
+        "BABBB",
+        "BB",
+        "BBAA",
+        "BBAAB",
+        "BBBBAB"
+      ]
+    },
+    {
+      "id": "tiny_12",
+      "words": [
+        "2120",
+        "0",
+        "1"
+      ],
+      "lexicon": [
+        "AA",
+        "AAAAB",
+        "ABBB",
+        "ABBBBABBAA",
+        "BB",
+        "BBABBB"
+      ]
+    },
+    {
+      "id": "tiny_13",
+      "words": [
+        "22",
+        "10"
+      ],
+      "lexicon": [
+        "ABAB",
+        "ABBABA",
+        "ABBBB",
+        "ABBBBA",
+        "BAAAB",
+        "BBAABB",
+        "BBBBA",
+        "BBBBAA"
+      ]
+    },
+    {
+      "id": "tiny_14",
+      "words": [
+        "021",
+        "002"
+      ],
+      "lexicon": [
+        "AAAAB",
+        "AABABB",
+        "AABBB",
+        "AB",
+        "ABAAB",
+        "ABBAB",
+        "ABBBB",
+        "ABBBBA",
+        "BAAAAA",
+        "BAAABA",
+        "BAABBA",
+        "BABAA",
+        "BABAB"
+      ]
+    },
+    {
+      "id": "tiny_15",
+      "words": [
+        "1",
+        "200",
+        "0100",
+        "121"
+      ],
+      "lexicon": [
+        "ABABBA",
+        "ABABBB",
+        "B",
+        "BBBBBB"
+      ]
+    },
+    {
+      "id": "tiny_16",
+      "words": [
+        "2200",
+        "1122",
+        "202"
+      ],
+      "lexicon": [
+        "AAAAABAB",
+        "AAABAA",
+        "AAABAB",
+        "ABAABAAAAA",
+        "ABBBBB",
+        "BAABBB"
+      ]
+    },
+    {
+      "id": "tiny_17",
+      "words": [
+        "12",
+        "21"
+      ],
+      "lexicon": [
+        "ABAAAB",
+        "ABABB",
+        "ABBB",
+        "BABAA",
+        "BBABA",
+        "BBABAA",
+        "BBABB",
+        "BBABBA",
+        "BBBBAA",
+        "BBBBBB"
+      ]
+    },
+    {
+      "id": "tiny_18",
+      "words": [
+        "0200"
+      ],
+      "lexicon": [
+        "AAABB",
+        "AABAA",
+        "ABB",
+        "BABBABA",
+        "BBBAB"
+      ]
+    },
+    {
+      "id": "tiny_19",
+      "words": [
+        "0221",
+        "0"
+      ],
+      "lexicon": [
+        "AB",
+        "ABAAB",
+        "ABBAAB",
+        "BAAA",
+        "BAB",
+        "BABBAA",
+        "BBAAA",
+        "BBABBB",
+        "BBBAA",
+        "BBBAB",
+        "BBBBB"
+      ]
+    },
+    {
+      "id": "tiny_20",
+      "words": [
+        "110"
+      ],
+      "lexicon": [
+        "AAB",
+        "AABA",
+        "AABBA",
+        "AABBB",
+        "ABAAB",
+        "ABABA",
+        "BBABAB"
+      ]
+    },
+    {
+      "id": "tiny_21",
+      "words": [
+        "1002",
+        "1211",
+        "0",
+        "11"
+      ],
+      "lexicon": [
+        "AAABBB",
+        "ABBAA",
+        "BAA",
+        "BBAABB",
+        "BBABAB",
+        "BBBABA"
+      ]
+    },
+    {
+      "id": "tiny_22",
+      "words": [
+        "001"
+      ],
+      "lexicon": [
+        "ABAAB",
+        "ABABAA",
+        "ABBAAB",
+        "ABBABBBBB",
+        "BBABA"
+      ]
+    },
+    {
+      "id": "tiny_23",
+      "words": [
+        "1",
+        "11",
+        "210",
+        "1021"
+      ],
+      "lexicon": [
+        "AABAAA",
+        "ABAAAB",
+        "ABABAA",
+        "B",
+        "BAAAA",
+        "BAAAAA",
+        "BAAABB",
+        "BAABAA",
+        "BABA",
+        "BABB",
+        "BABBBB",
+        "BBAAAB",
+        "BBAAB"
+      ]
+    },
+    {
+      "id": "tiny_24",
+      "words": [
+        "21",
+        "011"
+      ],
+      "lexicon": [
+        "AAAA",
+        "AAABBB",
+        "AAB",
+        "AABA",
+        "AABAB",
+        "AABBA",
+        "AB",
+        "ABB",
+        "ABBA",
+        "ABBBAA",
+        "BAAABB",
+        "BB",
+        "BBAAAA",
+        "BBB"
+      ]
+    },
+    {
+      "id": "tiny_25",
+      "words": [
+        "100",
+        "2",
+        "1",
+        "2100"
+      ],
+      "lexicon": [
+        "AAAAAB",
+        "AAAABA",
+        "AABBA",
+        "ABA",
+        "ABBB",
+        "ABBBB",
+        "BAAB",
+        "BABBAA",
+        "BBAAA",
+        "BBAABB",
+        "BBBABB"
+      ]
+    },
+    {
+      "id": "tiny_26",
+      "words": [
+        "2120",
+        "21",
+        "200",
+        "0102"
+      ],
+      "lexicon": [
+        "AAB",
+        "AABA",
+        "AABAABB",
+        "AB",
+        "ABAAAB",
+        "ABABB",
+        "ABABBA",
+        "ABBB",
+        "ABBBB",
+        "ABBBBA",
+        "BABBAA",
+        "BBAA",
+        "BBAB",
+        "BBABABBA",
+        "BBBAAB",
+        "BBBBAB",
+        "BBBBBB"
+      ]
+    },
+    {
+      "id": "tiny_27",
+      "words": [
+        "0",
+        "20",
+        "121"
+      ],
+      "lexicon": [
+        "AAAABA",
+        "AAAABB",
+        "ABABAB",
+        "ABABBB",
+        "ABBBBB",
+        "BABBA",
+        "BBBAAB"
+      ]
+    },
+    {
+      "id": "tiny_28",
+      "words": [
+        "1222",
+        "0",
+        "2111"
+      ],
+      "lexicon": [
+        "A",
+        "AAAAA",
+        "AAAB",
+        "AAABAA",
+        "AAABBA",
+        "AABB",
+        "ABA",
+        "ABABB",
+        "ABABBA",
+        "BA",
+        "BABB",
+        "BABBA",
+        "BABBAB",
+        "BABBB",
+        "BB",
+        "BBAABA",
+        "BBABABA"
+      ]
+    },
+    {
+      "id": "tiny_29",
+      "words": [
+        "2001",
+        "21",
+        "01"
+      ],
+      "lexicon": [
+        "AABAA",
+        "AABAAA",
+        "AABBA",
+        "AABBBB",
+        "ABAB",
+        "ABABA",
+        "ABABBB",
+        "ABB",
+        "BAA",
+        "BAAABA",
+        "BAABBB",
+        "BB",
+        "BBAABA"
+      ]
+    },
+    {
+      "id": "tiny_30",
+      "words": [
+        "2",
+        "02"
+      ],
+      "lexicon": [
+        "AAAABA",
+        "AAABBB",
+        "AABBBA",
+        "ABBAA",
+        "BAAABB",
+        "BBABBB",
+        "BBB",
+        "BBBB"
+      ]
+    },
+    {
+      "id": "tiny_31",
+      "words": [
+        "2111",
+        "201"
+      ],
+      "lexicon": [
+        "AA",
+        "AABBBB",
+        "ABA",
+        "ABAAAB",
+        "ABB",
+        "BABAB",
+        "BBB",
+        "BBBB"
+      ]
+    },
+    {
+      "id": "tiny_32",
+      "words": [
+        "210"
+      ],
+      "lexicon": [
+        "ABAABB",
+        "ABB",
+        "ABBBA",
+        "ABBBBA",
+        "B",
+        "BAAAA",
+        "BAABAA",
+        "BABAB",
+        "BABB",
+        "BBB",
+        "BBBA",
+        "BBBAA",
+        "BBBAAA",
+        "BBBBAA"
+      ]
+    },
+    {
+      "id": "tiny_33",
+      "words": [
+        "20",
+        "02"
+      ],
+      "lexicon": [
+        "AAA",
+        "AAABBB",
+        "ABA",
+        "BABBA"
+      ]
+    },
+    {
+      "id": "tiny_34",
+      "words": [
+        "121",
+        "0"
+      ],
+      "lexicon": [
+        "AAAB",
+        "AAABB",
+        "AABB",
+        "AABBAA",
+        "ABBA",
+        "BAAA",
+        "BAAAB",
+        "BAABBB",
+        "BAB",
+        "BABA",
+        "BABABA",
+        "BABBB",
+        "BBABA",
+        "BBB",
+        "BBBAB"
+      ]
+    },
+    {
+      "id": "tiny_35",
+      "words": [
+        "1022",
+        "212",
+        "0"
+      ],
+      "lexicon": [
+        "ABAABB",
+        "BBAB",
+        "BBBBAA"
+      ]
+    },
+    {
+      "id": "tiny_36",
+      "words": [
+        "0"
+      ],
+      "lexicon": [
+        "A",
+        "AABA",
+        "ABABBA",
+        "ABABBB",
+        "BAAABA"
+      ]
+    },
+    {
+      "id": "tiny_37",
+      "words": [
+        "1",
+        "100",
+        "21"
+      ],
+      "lexicon": [
+        "AABBBB",
+        "ABAA",
+        "ABABA",
+        "ABBAAB",
+        "ABBBBB",
+        "BA",
+        "BAAAAB",
+        "BAABBB",
+        "BABAB",
+        "BBABAA"
+      ]
+    },
+    {
+      "id": "tiny_38",
+      "words": [
+        "2121",
+        "220",
+        "12"
+      ],
+      "lexicon": [
+        "AAAAA",
+        "AAAAAA",
+        "AAAAAB",
+        "AABABB",
+        "AABB",
+        "AABBBA",
+        "ABAB",
+        "ABABB",
+        "BA",
+        "BABAAA",
+        "BB",
+        "BBBA",
+        "BBBABA"
+      ]
+    },
+    {
+      "id": "tiny_39",
+      "words": [
+        "12"
+      ],
+      "lexicon": [
+        "AAABBA",
+        "ABABAB",
+        "BBAAAB"
+      ]
+    },
+    {
+      "id": "tiny_40",
+      "words": [
+        "2",
+        "211",
+        "0",
+        "111"
+      ],
+      "lexicon": [
+        "AA",
+        "AAAAB",
+        "AAABBABB",
+        "AABABA",
+        "ABBABBABB",
+        "BA",
+        "BAABBB",
+        "BABAA",
+        "BABAB",
+        "BABBBB",
+        "BBAA",
+        "BBAAB",
+        "BBBABB"
+      ]
+    },
+    {
+      "id": "tiny_41",
+      "words": [
+        "0",
+        "1002",
+        "001",
+        "2102"
+      ],
+      "lexicon": [
+        "AAABA",
+        "AABBBA",
+        "ABBABA",
+        "BBBAAA"
+      ]
+    },
+    {
+      "id": "tiny_42",
+      "words": [
+        "10",
+        "2"
+      ],
+      "lexicon": [
+        "AAAAB",
+        "AAABA",
+        "AABAAB",
+        "ABB",
+        "B",
+        "BABAAA",
+        "BABBB",
+        "BBAAAA",
+        "BBAABB",
+        "BBABB"
+      ]
+    },
+    {
+      "id": "tiny_43",
+      "words": [
+        "01",
+        "10",
+        "2122"
+      ],
+      "lexicon": [
+        "AABAAA",
+        "ABAAA",
+        "ABBABA",
+        "ABBBAA",
+        "BABAA",
+        "BABAAB"
+      ]
+    },
+    {
+      "id": "tiny_44",
+      "words": [
+        "11",
+        "1001",
+        "2012"
+      ],
+      "lexicon": [
+        "AAAB",
+        "AABBBAAA",
+        "ABABA",
+        "ABABAB",
+        "ABBAAB",
+        "ABBB",
+        "BABA",
+        "BABBBBBA",
+        "BBABAA"
+      ]
+    },
+    {
+      "id": "tiny_45",
+      "words": [
+        "010",
+        "1",
+        "201"
+      ],
+      "lexicon": [
+        "A",
+        "AAAAAA",
+        "AAB",
+        "AABAB",
+        "AABBAA",
+        "AABBBA",
+        "ABBABB",
+        "ABBBA",
+        "BABABA",
+        "BBBBB"
+      ]
+    },
+    {
+      "id": "tiny_46",
+      "words": [
+        "221",
+        "211",
+        "1212",
+        "121"
+      ],
+      "lexicon": [
+        "AA",
+        "AAA",
+        "AAAABB",
+        "AABBBB",
+        "ABAABA",
+        "ABAABB",
+        "BA",
+        "BABABB",
+        "BABBAB",
+        "BBAA",
+        "BBAAAB",
+        "BBAABB",
+        "BBAABBAA",
+        "BBABAA",
+        "BBABBA"
+      ]
+    },
+    {
+      "id": "tiny_47",
+      "words": [
+        "2",
+        "110"
+      ],
+      "lexicon": [
+        "AAAAAB",
+        "ABBBAB",
+        "BAABAA",
+        "BABBBA"
+      ]
+    },
+    {
+      "id": "tiny_48",
+      "words": [
+        "10",
+        "1002"
+      ],
+      "lexicon": [
+        "AAAAAB",
+        "AABAAA",
+        "AABAAB",
+        "ABABAB",
+        "BAAB",
+        "BAB",
+        "BABBBAB",
+        "BBAAA",
+        "BBAAAB",
+        "BBBABB"
+      ]
+    },
+    {
+      "id": "tiny_49",
+      "words": [
+        "2"
+      ],
+      "lexicon": [
+        "AA",
+        "AAABAA",
+        "AAB",
+        "AABABB",
+        "ABBAA",
+        "ABBAB",
+        "BBA",
+        "BBAAB",
+        "BBABBA",
+        "BBB"
+      ]
+    },
+    {
+      "id": "tiny_50",
+      "words": [
+        "01",
+        "1",
+        "110"
+      ],
+      "lexicon": [
+        "AB",
+        "ABABB",
+        "BAB",
+        "BBABBA",
+        "BBBAA",
+        "BBBBA"
+      ]
+    },
+    {
+      "id": "tiny_51",
+      "words": [
+        "2202",
+        "212",
+        "122",
+        "1"
+      ],
+      "lexicon": [
+        "AABABA",
+        "BAB",
+        "BBBABB"
+      ]
+    },
+    {
+      "id": "tiny_52",
+      "words": [
+        "022",
+        "02"
+      ],
+      "lexicon": [
+        "AAABA",
+        "AABBAB",
+        "AABBBA",
+        "ABABAA",
+        "ABBAA",
+        "ABBBAB",
+        "BAAAAA",
+        "BAAAB",
+        "BAAABA",
+        "BAAABAB",
+        "BAABAB",
+        "BABBBB",
+        "BBBABB"
+      ]
+    },
+    {
+      "id": "tiny_53",
+      "words": [
+        "0"
+      ],
+      "lexicon": [
+        "AAAAAA",
+        "AAAAAB",
+        "AABABB",
+        "AB",
+        "ABAAAA",
+        "ABABB",
+        "ABBAA",
+        "BABABB",
+        "BBAAB",
+        "BBBABB",
+        "BBBBAA"
+      ]
+    },
+    {
+      "id": "tiny_54",
+      "words": [
+        "0012",
+        "21",
+        "0021",
+        "20"
+      ],
+      "lexicon": [
+        "AAAAAA",
+        "AAABBB",
+        "AABAABBABB",
+        "AABAABBBAB",
+        "ABBAAA",
+        "ABBABB",
+        "BAA",
+        "BAAA",
+        "BAAB",
+        "BAABBA",
+        "BAB",
+        "BABA",
+        "BABAB",
+        "BBA",
+        "BBAB",
+        "BBABBA"
+      ]
+    },
+    {
+      "id": "tiny_55",
+      "words": [
+        "2021",
+        "022",
+        "200"
+      ],
+      "lexicon": [
+        "AAABA",
+        "ABA",
+        "ABABB",
+        "ABABBB",
+        "ABBBAA",
+        "BAA",
+        "BBABA"
+      ]
+    },
+    {
+      "id": "tiny_56",
+      "words": [
+        "00",
+        "1"
+      ],
+      "lexicon": [
+        "AAAAAA",
+        "AAABBA",
+        "AAB",
+        "AABABA",
+        "ABA",
+        "ABBAAB",
+        "BAAABA",
+        "BBABAB"
+      ]
+    },
+    {
+      "id": "tiny_57",
+      "words": [
+        "220",
+        "1",
+        "0021"
+      ],
+      "lexicon": [
+        "AAA",
+        "AAABAA",
+        "AAABBB",
+        "AABABA",
+        "ABABB",
+        "ABBBA",
+        "ABBBAB",
+        "BBBABB"
+      ]
+    },
+    {
+      "id": "tiny_58",
+      "words": [
+        "0",
+        "1121"
+      ],
+      "lexicon": [
+        "ABA",
+        "ABAAA",
+        "ABABB",
+        "ABBAAA",
+        "ABBAB",
+        "B",
+        "BAABAA",
+        "BAABAB",
+        "BAABB",
+        "BABB",
+        "BABBB",
+        "BBAAA",
+        "BBAABA",
+        "BBABB",
+        "BBBBBBBBABBB"
+      ]
+    },
+    {
+      "id": "tiny_59",
+      "words": [
+        "1"
+      ],
+      "lexicon": [
+        "AABA",
+        "AABB",
+        "AABBB",
+        "ABA",
+        "ABAAA",
+        "BAABAA",
+        "BAABB",
+        "BABA",
+        "BBAAA",
+        "BBABA",
+        "BBBBAA"
+      ]
+    },
+    {
+      "id": "tiny_60",
+      "words": [
+        "121",
+        "201",
+        "002",
+        "1"
+      ],
+      "lexicon": [
+        "A",
+        "AAA",
+        "AAAA",
+        "AAABA",
+        "AAABAA",
+        "AABAABA",
+        "ABBAA",
+        "BAAAAB",
+        "BBAA",
+        "BBAABB",
+        "BBABAA",
+        "BBABBB",
+        "BBBABB",
+        "BBBBAB"
+      ]
+    },
+    {
+      "id": "tiny_61",
+      "words": [
+        "21",
+        "0200"
+      ],
+      "lexicon": [
+        "AAB",
+        "AABBBA",
+        "ABAA",
+        "ABAABB",
+        "ABBBBB",
+        "BAAAAA",
+        "BABAA",
+        "BABAAB",
+        "BABAB",
+        "BABBBB",
+        "BB",
+        "BBABB",
+        "BBBA"
+      ]
+    },
+    {
+      "id": "tiny_62",
+      "words": [
+        "12",
+        "01"
+      ],
+      "lexicon": [
+        "AAAABB",
+        "AAAB",
+        "AABB",
+        "AB",
+        "ABABAB",
+        "BAAAA",
+        "BAAAB",
+        "BAABA",
+        "BAB",
+        "BABBB",
+        "BABBBB",
+        "BB",
+        "BBAAB",
+        "BBAABA"
+      ]
+    },
+    {
+      "id": "tiny_63",
+      "words": [
+        "1122"
+      ],
+      "lexicon": [
+        "AAABAA",
+        "AABA",
+        "AABAB",
+        "ABBBAB",
+        "BAAAB",
+        "BABBB",
+        "BABBBB",
+        "BBAAAB"
+      ]
+    },
+    {
+      "id": "tiny_64",
+      "words": [
+        "2022",
+        "2202",
+        "1",
+        "0"
+      ],
+      "lexicon": [
+        "AAAAA",
+        "ABB",
+        "ABBABB",
+        "BAAABA",
+        "BAB",
+        "BABABABBA",
+        "BABABB",
+        "BABABBABA",
+        "BBB"
+      ]
+    },
+    {
+      "id": "tiny_65",
+      "words": [
+        "2200",
+        "1",
+        "11"
+      ],
+      "lexicon": [
+        "A",
+        "AAAAAA",
+        "AAABBB",
+        "ABAABB",
+        "ABABAA",
+        "BAAA",
+        "BAAB",
+        "BAABAB",
+        "BBABAA",
+        "BBBAA",
+        "BBBAAA"
+      ]
+    },
+    {
+      "id": "tiny_66",
+      "words": [
+        "2"
+      ],
+      "lexicon": [
+        "AABABB",
+        "AABBAB",
+        "ABAB",
+        "ABABBA",
+        "ABBAAA",
+        "ABBAAB",
+        "BAB",
+        "BABA",
+        "BBAABA",
+        "BBAB"
+      ]
+    },
+    {
+      "id": "tiny_67",
+      "words": [
+        "11"
+      ],
+      "lexicon": [
+        "AAABAA",
+        "AABABA",
+        "BAAA",
+        "BAABA",
+        "BABB",
+        "BBAA",
+        "BBABA",
+        "BBBAB"
+      ]
+    },
+    {
+      "id": "tiny_68",
+      "words": [
+        "000"
+      ],
+      "lexicon": [
+        "AAAABA",
+        "AABAAB",
+        "AABBBB",
+        "ABAA",
+        "ABAABB",
+        "ABABA",
+        "ABABBB",
+        "ABBAAA",
+        "BAAAB",
+        "BAABBA",
+        "BABBBA",
+        "BBBBBB"
+      ]
+    },
+    {
+      "id": "tiny_69",
+      "words": [
+        "0",
+        "012"
+      ],
+      "lexicon": [
+        "AAAAAA",
+        "AABAAA",
+        "AABAAB",
+        "AABBBB",
+        "BBBA"
+      ]
+    },
+    {
+      "id": "tiny_70",
+      "words": [
+        "121",
+        "10",
+        "202"
+      ],
+      "lexicon": [
+        "AABA",
+        "AABAAA",
+        "AABAB",
+        "AABBA",
+        "ABA",
+        "ABAAAA",
+        "ABAB",
+        "ABABAA",
+        "ABBAAB",
+        "ABBAB",
+        "ABBBAB",
+        "BAAB",
+        "BAB",
+        "BBAABA",
+        "BBABB",
+        "BBBBBB"
+      ]
+    },
+    {
+      "id": "tiny_71",
+      "words": [
+        "22",
+        "0011"
+      ],
+      "lexicon": [
+        "AAAAAA",
+        "AABABB",
+        "ABAAAB",
+        "BAAAB",
+        "BB",
+        "BBBBBA"
+      ]
+    },
+    {
+      "id": "tiny_72",
+      "words": [
+        "0222",
+        "0201",
+        "1"
+      ],
+      "lexicon": [
+        "ABA",
+        "ABAAB",
+        "ABAB",
+        "ABBBA",
+        "B",
+        "BAABB",
+        "BABAAB",
+        "BABB",
+        "BBBBA",
+        "BBBBB",
+        "BBBBBABA"
+      ]
+    },
+    {
+      "id": "tiny_73",
+      "words": [
+        "212",
+        "20",
+        "000"
+      ],
+      "lexicon": [
+        "AABBAB",
+        "ABBAB",
+        "ABBBBB",
+        "BAAAA",
+        "BABB",
+        "BABBBB"
+      ]
+    },
+    {
+      "id": "tiny_74",
+      "words": [
+        "2",
+        "2010",
+        "0"
+      ],
+      "lexicon": [
+        "AAA",
+        "AAABBB",
+        "AABBAB",
+        "ABAAAA",
+        "ABABAB",
+        "ABB",
+        "ABBBA",
+        "ABBBAB",
+        "ABBBBBBB",
+        "BAAABA",
+        "BAABB",
+        "BABBA",
+        "BABBBA",
+        "BB"
+      ]
+    },
+    {
+      "id": "tiny_75",
+      "words": [
+        "201"
+      ],
+      "lexicon": [
+        "A",
+        "AAA",
+        "AAAB",
+        "AABABA",
+        "AABABB",
+        "ABABBB",
+        "BBAAAB",
+        "BBBB",
+        "BBBBA",
+        "BBBBAB",
+        "BBBBB"
+      ]
+    },
+    {
+      "id": "tiny_76",
+      "words": [
+        "11",
+        "2"
+      ],
+      "lexicon": [
+        "AA",
+        "AAABAA",
+        "AAABAB",
+        "ABABBA",
+        "BBA"
+      ]
+    },
+    {
+      "id": "tiny_77",
+      "words": [
+        "02",
+        "101",
+        "002",
+        "0"
+      ],
+      "lexicon": [
+        "AABAB",
+        "BAA",
+        "BAAAB",
+        "BBA",
+        "BBB",
+        "BBBAB"
+      ]
+    },
+    {
+      "id": "tiny_78",
+      "words": [
+        "2011",
+        "2"
+      ],
+      "lexicon": [
+        "AA",
+        "AAAAB",
+        "AABBAAAA",
+        "AABBBB",
+        "ABBAB",
+        "BABAAB",
+        "BABABB",
+        "BBAAA",
+        "BBAAAA",
+        "BBAABA",
+        "BBABBB",
+        "BBBA",
+        "BBBABB"
+      ]
+    },
+    {
+      "id": "tiny_79",
+      "words": [
+        "11",
+        "2",
+        "202"
+      ],
+      "lexicon": [
+        "AAABAA",
+        "AAABBA",
+        "ABABA",
+        "ABABAA",
+        "ABBBAA",
+        "ABBBBA",
+        "BAAABB",
+        "BAAB",
+        "BABAAA",
+        "BABBBA",
+        "BBABA",
+        "BBBBB"
+      ]
+    },
+    {
+      "id": "tiny_80",
+      "words": [
+        "02",
+        "102"
+      ],
+      "lexicon": [
+        "AABA",
+        "AABBAB",
+        "AB",
+        "ABABBB",
+        "ABB",
+        "ABBA",
+        "ABBABB",
+        "ABBBB",
+        "BAAAA",
+        "BAABBA",
+        "BB",
+        "BBA",
+        "BBABA",
+        "BBBBA"
+      ]
+    },
+    {
+      "id": "tiny_81",
+      "words": [
+        "21"
+      ],
+      "lexicon": [
+        "A",
+        "ABAB",
+        "BA",
+        "BBBAA",
+        "BBBB"
+      ]
+    },
+    {
+      "id": "tiny_82",
+      "words": [
+        "11"
+      ],
+      "lexicon": [
+        "AAAAAA",
+        "AAABBA",
+        "AABAAB",
+        "AABB",
+        "ABAAB",
+        "ABBAB",
+        "BAAAB",
+        "BABBAA",
+        "BBAB",
+        "BBABA",
+        "BBBBAA",
+        "BBBBAB"
+      ]
+    },
+    {
+      "id": "tiny_83",
+      "words": [
+        "0",
+        "2",
+        "200",
+        "12"
+      ],
+      "lexicon": [
+        "ABBAAB",
+        "BABBBB",
+        "BBBBBA"
+      ]
+    },
+    {
+      "id": "tiny_84",
+      "words": [
+        "0",
+        "22",
+        "2010",
+        "01"
+      ],
+      "lexicon": [
+        "AA",
+        "AABAAABA",
+        "AABBB",
+        "ABA",
+        "ABAA",
+        "BBA",
+        "BBBB"
+      ]
+    },
+    {
+      "id": "tiny_85",
+      "words": [
+        "0",
+        "1"
+      ],
+      "lexicon": [
+        "AAAAA",
+        "AAAAAB",
+        "AABAAB",
+        "ABAA",
+        "ABABB",
+        "BAAAA",
+        "BBA"
+      ]
+    },
+    {
+      "id": "tiny_86",
+      "words": [
+        "2",
+        "0202"
+      ],
+      "lexicon": [
+        "AAA",
+        "AABABA",
+        "AB",
+        "ABAABABAAB",
+        "ABABB",
+        "ABB",
+        "ABBAAA",
+        "ABBAAB",
+        "BAAAA",
+        "BBBABA",
+        "BBBABB"
+      ]
+    },
+    {
+      "id": "tiny_87",
+      "words": [
+        "0"
+      ],
+      "lexicon": [
+        "AABAAB",
+        "AABB",
+        "ABBABA",
+        "BAAAAA",
+        "BAAAAB",
+        "BABABA",
+        "BABBB",
+        "BBAAB",
+        "BBAB",
+        "BBABBB",
+        "BBBA",
+        "BBBBB"
+      ]
+    },
+    {
+      "id": "tiny_88",
+      "words": [
+        "002",
+        "22",
+        "02",
+        "20"
+      ],
+      "lexicon": [
+        "A",
+        "AAAA",
+        "AABAABABB",
+        "AABABB",
+        "ABBAAB",
+        "ABBABB",
+        "ABBBAB",
+        "BAABA",
+        "BABBAA",
+        "BBAB",
+        "BBABAA",
+        "BBABBA"
+      ]
+    },
+    {
+      "id": "tiny_89",
+      "words": [
+        "2002",
+        "100",
+        "0020",
+        "2222"
+      ],
+      "lexicon": [
+        "ABAABA",
+        "BABAAA",
+        "BABABA"
+      ]
+    },
+    {
+      "id": "tiny_90",
+      "words": [
+        "0",
+        "01",
+        "2"
+      ],
+      "lexicon": [
+        "ABABBB",
+        "ABB",
+        "B",
+        "BAAABA",
+        "BAABBA",
+        "BB",
+        "BBAA",
+        "BBBAA",
+        "BBBBAB"
+      ]
+    },
+    {
+      "id": "tiny_91",
+      "words": [
+        "002",
+        "21"
+      ],
+      "lexicon": [
+        "AAABBA",
+        "AABAAA",
+        "AABBAB",
+        "AABBB",
+        "ABABAA",
+        "ABBBA",
+        "BAABAA",
+        "BAABB",
+        "BABABB",
+        "BBABA",
+        "BBABAA"
+      ]
+    },
+    {
+      "id": "tiny_92",
+      "words": [
+        "220"
+      ],
+      "lexicon": [
+        "A",
+        "AABAABB",
+        "ABABAB",
+        "ABABB",
+        "ABBA",
+        "BAAAA",
+        "BBAA",
+        "BBBABB"
+      ]
+    },
+    {
+      "id": "tiny_93",
+      "words": [
+        "2",
+        "1",
+        "01"
+      ],
+      "lexicon": [
+        "AB",
+        "ABAAA",
+        "ABAABA",
+        "ABBBBB",
+        "BAAABA",
+        "BAAABB",
+        "BABAA",
+        "BABBB",
+        "BBAAAA",
+        "BBABA",
+        "BBABAA",
+        "BBBBA"
+      ]
+    },
+    {
+      "id": "tiny_94",
+      "words": [
+        "120"
+      ],
+      "lexicon": [
+        "AA",
+        "AAAAAB",
+        "ABAAA",
+        "ABAAAB",
+        "ABABBB",
+        "ABBBB",
+        "ABBBBA",
+        "BAABBB",
+        "BBABB",
+        "BBBAA",
+        "BBBB",
+        "BBBBB",
+        "BBBBBA"
+      ]
+    },
+    {
+      "id": "tiny_95",
+      "words": [
+        "1010",
+        "010",
+        "11"
+      ],
+      "lexicon": [
+        "AA",
+        "AAAABA",
+        "AAABBA",
+        "AABAAA",
+        "AABBA",
+        "AABBBA",
+        "ABAAB",
+        "ABABAB",
+        "BAA",
+        "BAAABB",
+        "BBA",
+        "BBAAB",
+        "BBAB",
+        "BBBBAB"
+      ]
+    },
+    {
+      "id": "tiny_96",
+      "words": [
+        "00",
+        "10"
+      ],
+      "lexicon": [
+        "AAAAB",
+        "AABBA",
+        "AABBAA",
+        "ABAB",
+        "ABBA",
+        "ABBAA",
+        "BAAAAB",
+        "BABAA",
+        "BABAB",
+        "BABBAB",
+        "BBA",
+        "BBAAAB",
+        "BBAB",
+        "BBABAA"
+      ]
+    },
+    {
+      "id": "tiny_97",
+      "words": [
+        "2",
+        "000",
+        "1222"
+      ],
+      "lexicon": [
+        "AA",
+        "AAAB",
+        "ABAABA",
+        "ABABBB",
+        "BBBBA"
+      ]
+    },
+    {
+      "id": "tiny_98",
+      "words": [
+        "1",
+        "2",
+        "2012"
+      ],
+      "lexicon": [
+        "A",
+        "AABABB",
+        "AABBBB",
+        "ABABA",
+        "ABBBAAA",
+        "BAA",
+        "BAABBA",
+        "BABAA",
+        "BABAB",
+        "BBBAAA",
+        "BBBBB"
+      ]
+    },
+    {
+      "id": "tiny_99",
+      "words": [
+        "22",
+        "2001",
+        "111"
+      ],
+      "lexicon": [
+        "ABBBAB",
+        "ABBBBA",
+        "BBBBA"
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "id": "knightmare",
+      "kind": "real",
+      "words": [
+        "3478",
+        "67",
+        "90871",
+        "97664",
+        "3466",
+        "0",
+        "345"
+      ],
+      "previous_returned_keys": 1769
+    },
+    {
+      "id": "knightmare_BEHOLDER",
+      "kind": "previous_zero_regression",
+      "words": [
+        "3478",
+        "67",
+        "90871",
+        "97664",
+        "3466",
+        "0",
+        "345"
+      ],
+      "forced": {
+        "3478": "BEHOLDER"
+      },
+      "expected_count": "0"
+    },
+    {
+      "id": "knightmare_BONELORD",
+      "kind": "previous_zero_regression",
+      "words": [
+        "3478",
+        "67",
+        "90871",
+        "97664",
+        "3466",
+        "0",
+        "345"
+      ],
+      "forced": {
+        "3478": "BONELORD"
+      },
+      "expected_count": "0"
+    },
+    {
+      "id": "grapheme1_3_0",
+      "kind": "known_key_regression",
+      "words": [
+        "96",
+        "04737",
+        "654",
+        "5455",
+        "40",
+        "05437",
+        "3"
+      ],
+      "true_key": {
+        "0": "F",
+        "1": "X",
+        "2": "V",
+        "3": "RE",
+        "4": "O",
+        "5": "L",
+        "6": "MA",
+        "7": "R",
+        "8": "GER",
+        "9": "VER"
+      },
+      "previous_returned_keys": 0
+    },
+    {
+      "id": "grapheme1_3_1",
+      "kind": "known_key_regression",
+      "words": [
+        "97",
+        "99",
+        "47",
+        "915",
+        "94",
+        "977",
+        "746"
+      ],
+      "true_key": {
+        "0": "EN",
+        "1": "T",
+        "2": "X",
+        "3": "V",
+        "4": "P",
+        "5": "TER",
+        "6": "F",
+        "7": "R",
+        "8": "RES",
+        "9": "TA"
+      },
+      "previous_returned_keys": 1993
+    },
+    {
+      "id": "grapheme1_3_2",
+      "kind": "known_key_regression",
+      "words": [
+        "68",
+        "6910",
+        "9672",
+        "73",
+        "60",
+        "90609",
+        "09690"
+      ],
+      "true_key": {
+        "0": "R",
+        "1": "NE",
+        "2": "B",
+        "3": "LLE",
+        "4": "TIO",
+        "5": "X",
+        "6": "D",
+        "7": "LI",
+        "8": "C",
+        "9": "A"
+      },
+      "previous_returned_keys": 1987
+    },
+    {
+      "id": "grapheme1_3_3",
+      "kind": "known_key_regression",
+      "words": [
+        "298",
+        "4",
+        "88",
+        "91",
+        "5961",
+        "222",
+        "69229"
+      ],
+      "true_key": {
+        "0": "TA",
+        "1": "M",
+        "2": "K",
+        "3": "LAN",
+        "4": "CO",
+        "5": "F",
+        "6": "R",
+        "7": "V",
+        "8": "GER",
+        "9": "I"
+      },
+      "previous_returned_keys": 1993
+    },
+    {
+      "id": "grapheme1_3_4",
+      "kind": "known_key_regression",
+      "words": [
+        "5",
+        "288",
+        "38",
+        "79",
+        "85",
+        "52",
+        "47"
+      ],
+      "true_key": {
+        "0": "M",
+        "1": "X",
+        "2": "CO",
+        "3": "H",
+        "4": "V",
+        "5": "RAN",
+        "6": "K",
+        "7": "EST",
+        "8": "P",
+        "9": "AN"
+      },
+      "previous_returned_keys": 1987
+    },
+    {
+      "id": "grapheme1_3_5",
+      "kind": "known_key_regression",
+      "words": [
+        "214",
+        "48",
+        "43",
+        "263",
+        "5858",
+        "08",
+        "364"
+      ],
+      "true_key": {
+        "0": "VER",
+        "1": "RA",
+        "2": "B",
+        "3": "R",
+        "4": "DER",
+        "5": "TI",
+        "6": "U",
+        "7": "Z",
+        "8": "N",
+        "9": "Q"
+      },
+      "previous_returned_keys": 1941
+    },
+    {
+      "id": "grapheme1_3_6",
+      "kind": "known_key_regression",
+      "words": [
+        "938",
+        "303",
+        "3887",
+        "84",
+        "132",
+        "53",
+        "388"
+      ],
+      "true_key": {
+        "0": "CH",
+        "1": "F",
+        "2": "X",
+        "3": "I",
+        "4": "AND",
+        "5": "Z",
+        "6": "ONS",
+        "7": "G",
+        "8": "L",
+        "9": "ST"
+      },
+      "previous_returned_keys": 1992
+    },
+    {
+      "id": "grapheme1_3_7",
+      "kind": "known_key_regression",
+      "words": [
+        "82",
+        "0",
+        "4298",
+        "246",
+        "48",
+        "76",
+        "86"
+      ],
+      "true_key": {
+        "0": "AS",
+        "1": "U",
+        "2": "A",
+        "3": "LI",
+        "4": "V",
+        "5": "Q",
+        "6": "ANT",
+        "7": "C",
+        "8": "Y",
+        "9": "LLE"
+      },
+      "previous_returned_keys": 1984
+    },
+    {
+      "id": "grapheme1_3_8",
+      "kind": "known_key_regression",
+      "words": [
+        "575",
+        "516",
+        "47",
+        "47889",
+        "81",
+        "476",
+        "48"
+      ],
+      "true_key": {
+        "0": "ST",
+        "1": "IN",
+        "2": "ENT",
+        "3": "F",
+        "4": "H",
+        "5": "W",
+        "6": "GER",
+        "7": "O",
+        "8": "P",
+        "9": "Y"
+      },
+      "previous_returned_keys": 194
+    },
+    {
+      "id": "grapheme1_3_9",
+      "kind": "known_key_regression",
+      "words": [
+        "962",
+        "27",
+        "42",
+        "352",
+        "32365",
+        "25",
+        "373"
+      ],
+      "true_key": {
+        "0": "LLE",
+        "1": "IC",
+        "2": "O",
+        "3": "C",
+        "4": "V",
+        "5": "LE",
+        "6": "K",
+        "7": "X",
+        "8": "R",
+        "9": "RIN"
+      },
+      "previous_returned_keys": 1948
+    },
+    {
+      "id": "knightmare_shuffle_0",
+      "kind": "within_word_shuffle",
+      "words": [
+        "7483",
+        "76",
+        "70189",
+        "69476",
+        "4636",
+        "0",
+        "354"
+      ],
+      "previous_returned_keys": 859
+    },
+    {
+      "id": "knightmare_shuffle_1",
+      "kind": "within_word_shuffle",
+      "words": [
+        "4873",
+        "67",
+        "78901",
+        "97646",
+        "4636",
+        "0",
+        "534"
+      ],
+      "previous_returned_keys": 347
+    },
+    {
+      "id": "knightmare_shuffle_2",
+      "kind": "within_word_shuffle",
+      "words": [
+        "8374",
+        "67",
+        "98701",
+        "79664",
+        "6463",
+        "0",
+        "453"
+      ],
+      "previous_returned_keys": 788
+    },
+    {
+      "id": "knightmare_shuffle_3",
+      "kind": "within_word_shuffle",
+      "words": [
+        "8347",
+        "67",
+        "79801",
+        "66974",
+        "6346",
+        "0",
+        "543"
+      ],
+      "previous_returned_keys": 1723
+    },
+    {
+      "id": "knightmare_shuffle_4",
+      "kind": "within_word_shuffle",
+      "words": [
+        "7384",
+        "67",
+        "78901",
+        "76694",
+        "3466",
+        "0",
+        "354"
+      ],
+      "previous_returned_keys": 100
+    },
+    {
+      "id": "knightmare_shuffle_5",
+      "kind": "within_word_shuffle",
+      "words": [
+        "4783",
+        "67",
+        "17908",
+        "96674",
+        "6346",
+        "0",
+        "534"
+      ],
+      "previous_returned_keys": 1738
+    },
+    {
+      "id": "knightmare_shuffle_6",
+      "kind": "within_word_shuffle",
+      "words": [
+        "8734",
+        "76",
+        "01978",
+        "67496",
+        "6463",
+        "0",
+        "543"
+      ],
+      "previous_returned_keys": 501
+    },
+    {
+      "id": "knightmare_shuffle_7",
+      "kind": "within_word_shuffle",
+      "words": [
+        "3784",
+        "76",
+        "91078",
+        "76496",
+        "6643",
+        "0",
+        "543"
+      ],
+      "previous_returned_keys": 1975
+    },
+    {
+      "id": "knightmare_shuffle_8",
+      "kind": "within_word_shuffle",
+      "words": [
+        "8473",
+        "67",
+        "91780",
+        "67946",
+        "4663",
+        "0",
+        "543"
+      ],
+      "previous_returned_keys": 210
+    },
+    {
+      "id": "knightmare_shuffle_9",
+      "kind": "within_word_shuffle",
+      "words": [
+        "8473",
+        "67",
+        "81970",
+        "76694",
+        "3466",
+        "0",
+        "543"
+      ],
+      "previous_returned_keys": 348
+    },
+    {
+      "id": "knightmare_shuffle_10",
+      "kind": "within_word_shuffle",
+      "words": [
+        "4387",
+        "76",
+        "71980",
+        "96674",
+        "4663",
+        "0",
+        "543"
+      ],
+      "previous_returned_keys": 400
+    },
+    {
+      "id": "knightmare_shuffle_11",
+      "kind": "within_word_shuffle",
+      "words": [
+        "4378",
+        "76",
+        "98701",
+        "64697",
+        "6634",
+        "0",
+        "453"
+      ],
+      "previous_returned_keys": 0
+    },
+    {
+      "id": "knightmare_shuffle_12",
+      "kind": "within_word_shuffle",
+      "words": [
+        "8437",
+        "67",
+        "90871",
+        "69476",
+        "3664",
+        "0",
+        "453"
+      ],
+      "previous_returned_keys": 377
+    },
+    {
+      "id": "knightmare_shuffle_13",
+      "kind": "within_word_shuffle",
+      "words": [
+        "8437",
+        "67",
+        "10789",
+        "96674",
+        "6634",
+        "0",
+        "534"
+      ],
+      "previous_returned_keys": 1954
+    },
+    {
+      "id": "knightmare_shuffle_14",
+      "kind": "within_word_shuffle",
+      "words": [
+        "3478",
+        "67",
+        "07819",
+        "76964",
+        "6436",
+        "0",
+        "543"
+      ],
+      "previous_returned_keys": 1762
+    },
+    {
+      "id": "knightmare_shuffle_15",
+      "kind": "within_word_shuffle",
+      "words": [
+        "4873",
+        "67",
+        "08719",
+        "49676",
+        "6634",
+        "0",
+        "345"
+      ],
+      "previous_returned_keys": 1985
+    },
+    {
+      "id": "knightmare_shuffle_16",
+      "kind": "within_word_shuffle",
+      "words": [
+        "7483",
+        "67",
+        "91708",
+        "69764",
+        "3646",
+        "0",
+        "435"
+      ],
+      "previous_returned_keys": 36
+    },
+    {
+      "id": "knightmare_shuffle_17",
+      "kind": "within_word_shuffle",
+      "words": [
+        "8347",
+        "67",
+        "01879",
+        "67649",
+        "6463",
+        "0",
+        "543"
+      ],
+      "previous_returned_keys": 535
+    },
+    {
+      "id": "knightmare_shuffle_18",
+      "kind": "within_word_shuffle",
+      "words": [
+        "8437",
+        "76",
+        "91078",
+        "97466",
+        "6436",
+        "0",
+        "354"
+      ],
+      "previous_returned_keys": 1111
+    },
+    {
+      "id": "uniform_0",
+      "kind": "uniform_lengths",
+      "words": [
+        "3467",
+        "67",
+        "06831",
+        "08043",
+        "9192",
+        "7",
+        "855"
+      ]
+    },
+    {
+      "id": "uniform_1",
+      "kind": "uniform_lengths",
+      "words": [
+        "7937",
+        "69",
+        "26343",
+        "23083",
+        "9756",
+        "8",
+        "083"
+      ]
+    },
+    {
+      "id": "uniform_2",
+      "kind": "uniform_lengths",
+      "words": [
+        "0091",
+        "53",
+        "59130",
+        "14517",
+        "5526",
+        "6",
+        "705"
+      ]
+    },
+    {
+      "id": "uniform_3",
+      "kind": "uniform_lengths",
+      "words": [
+        "7742",
+        "45",
+        "62403",
+        "61213",
+        "2152",
+        "5",
+        "492"
+      ]
+    },
+    {
+      "id": "uniform_4",
+      "kind": "uniform_lengths",
+      "words": [
+        "6450",
+        "15",
+        "61994",
+        "68533",
+        "7365",
+        "9",
+        "323"
+      ]
+    },
+    {
+      "id": "uniform_5",
+      "kind": "uniform_lengths",
+      "words": [
+        "7258",
+        "79",
+        "74221",
+        "03705",
+        "7780",
+        "0",
+        "726"
+      ]
+    },
+    {
+      "id": "uniform_6",
+      "kind": "uniform_lengths",
+      "words": [
+        "8381",
+        "01",
+        "09523",
+        "08439",
+        "9345",
+        "8",
+        "841"
+      ]
+    },
+    {
+      "id": "uniform_7",
+      "kind": "uniform_lengths",
+      "words": [
+        "8353",
+        "87",
+        "97030",
+        "55270",
+        "4290",
+        "7",
+        "405"
+      ]
+    },
+    {
+      "id": "uniform_8",
+      "kind": "uniform_lengths",
+      "words": [
+        "0269",
+        "83",
+        "79201",
+        "86850",
+        "8989",
+        "7",
+        "673"
+      ]
+    },
+    {
+      "id": "uniform_9",
+      "kind": "uniform_lengths",
+      "words": [
+        "0849",
+        "79",
+        "04191",
+        "90176",
+        "7034",
+        "6",
+        "334"
+      ]
+    },
+    {
+      "id": "uniform_10",
+      "kind": "uniform_lengths",
+      "words": [
+        "8848",
+        "59",
+        "15442",
+        "52052",
+        "3517",
+        "1",
+        "665"
+      ]
+    },
+    {
+      "id": "uniform_11",
+      "kind": "uniform_lengths",
+      "words": [
+        "6584",
+        "20",
+        "47225",
+        "42789",
+        "7073",
+        "2",
+        "483"
+      ]
+    },
+    {
+      "id": "uniform_12",
+      "kind": "uniform_lengths",
+      "words": [
+        "6975",
+        "97",
+        "38424",
+        "69878",
+        "0101",
+        "8",
+        "804"
+      ]
+    },
+    {
+      "id": "uniform_13",
+      "kind": "uniform_lengths",
+      "words": [
+        "6828",
+        "34",
+        "72745",
+        "89978",
+        "3664",
+        "0",
+        "163"
+      ]
+    },
+    {
+      "id": "uniform_14",
+      "kind": "uniform_lengths",
+      "words": [
+        "5736",
+        "36",
+        "02377",
+        "42401",
+        "2390",
+        "2",
+        "784"
+      ]
+    },
+    {
+      "id": "uniform_15",
+      "kind": "uniform_lengths",
+      "words": [
+        "2255",
+        "39",
+        "08257",
+        "44123",
+        "8313",
+        "6",
+        "919"
+      ]
+    },
+    {
+      "id": "uniform_16",
+      "kind": "uniform_lengths",
+      "words": [
+        "2791",
+        "47",
+        "56650",
+        "04142",
+        "8071",
+        "2",
+        "416"
+      ]
+    },
+    {
+      "id": "uniform_17",
+      "kind": "uniform_lengths",
+      "words": [
+        "0167",
+        "49",
+        "48923",
+        "95503",
+        "9159",
+        "7",
+        "434"
+      ]
+    },
+    {
+      "id": "uniform_18",
+      "kind": "uniform_lengths",
+      "words": [
+        "0062",
+        "11",
+        "81021",
+        "66922",
+        "4678",
+        "3",
+        "580"
+      ]
+    }
+  ],
+  "lexicon_forms": 122368,
+  "normalized_lexicon_sha256": "d79df6718c96d7bdd13a65b54003ef96f409bc64582f74984ae382b7fd7044d4",
+  "scope": "Same CMU bank asR23. Tiny brute-force cases qualify arithmetic only; known keys are never passed to the count engine."
+}

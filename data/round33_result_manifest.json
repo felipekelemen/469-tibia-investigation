@@ -1,0 +1,31 @@
+{
+  "stage": "Post-execution publication integrity; not preregistration",
+  "sha256": {
+    "data/plan_progress_round33.json": "5709e6966db4ed0a7cd89bdb50c0a46bbb047be8405431d12d6c3a291e4c497a",
+    "data/round33_fixtures.json": "afac8d4afb6dceb79b0061bd27b6da5095c2a519406147c3803f993432b700d9",
+    "data/round33_independent_audit_protocol.json": "94cde5eadbdf3361dee20be09633ed98787e19b3779a30fb5074bbcced639ece",
+    "data/round33_independent_manifest.json": "dfd7a14572cf1791279ef3378fab7d6c5d99b7b839ba0cb2d58f86eadc0f6849",
+    "data/round33_input_manifest.json": "4b0983d98a85c1d3f06cda48e21379783f9da4433abbc45c0b8869d94be9331d",
+    "data/round33_protocol.json": "6e6661e8cbc2e7342f1634f44151b0baabd1db74696248dfcdc2ce40ce32bb1e",
+    "docs/round33.md": "3b5b129caded65dc75c4acbead48a2b18b3eb8795d83f6819a33b6ed93fd0ec2",
+    "results/round33_count_qualification.json": "7237295459c6459e0b82b3487f8525a3740814803f6fb8cff943d93caf0f904a",
+    "results/round33_counts.json": "7b53c1dc932b2ee02def21de18ea6d1660e9148ea6234866b0696f0c02c50b64",
+    "results/round33_independent_count.json": "c1b8deabff023c0e01271978588a1917f53b822ae92718527e4ca030d820c325",
+    "results/round33_replay/independent_tests.log": "6cbdffe2aa49377d56a69e02eebcbb1067e121f633927e7039378cc7a45c12bc",
+    "results/round33_replay/main_execution.log": "483a5e3d6bf2097a192e9b298e592e20e95f849691f991ee256753258a7af6c8",
+    "results/round33_replay/offline.log": "76e8230b4b113da62d5054d739036c213d3fd603271aaf6623ce1e765f4323d7",
+    "results/round33_replay/round30_preservation.log": "32630ab739714d143fe2553d24873fd1f033a23618654fdc20f198c1a906e9c5",
+    "results/round33_replay/round31_preservation.log": "81e672eb7cd61886f46a137624e4c22b77058afc00428636613b13b12e0d408e",
+    "results/round33_replay/round32_preservation.log": "72a78f7dc539a4ec2ca4cfc95948431935fbb003d3a327c42f313b089dc302fa",
+    "results/round33_replay/tests.log": "49eb7d3d57862cc1ef17e36f111f815992216be53943424225d46079ba80dda3",
+    "results/round33_summary.json": "82eaebc5eb0d831dd63c6dda0d5527d5ace0f41b7ce09bf57a2155128fefd6c0",
+    "results/round33_verification.json": "4c517d668c3ab5a7d6bdf667f195b574bb4e7ca84f8402256a1d1033fa72283c",
+    "scripts/round33_audit.py": "98c776c65980129bcb3bd6b0617804c49c982387b12b62db52be5ed83c8796ae",
+    "scripts/round33_count.cpp": "746810ab1e6faef48dda8eb9915956a8ca6aab5597608608614f97d71de13473",
+    "scripts/round33_experiment.py": "6e429440e43adaaf166ad7c6479ab099ba1a83e3ef788f0e4c2a830558eeeeec",
+    "scripts/round33_independent.cpp": "f74e73969418b12acff0c64e19db524078147ec7d5d73af8177a8b0ba8b0c3bf",
+    "scripts/run_round33.py": "246e37a8eea1669db7a91fdc4ed60c632f6c98973c78bba7245f17c1849aa275",
+    "tests/test_round33_count.py": "4818b77b2854d80a7dafdd74aba8760ed3031d7c16d3455253d66def1332740b",
+    "tests/test_round33_independent.py": "d6c462eca9b1aa182ea67ffdde1ea54ffafa8134b6f63358f9245c86ca83fe7d"
+  }
+}

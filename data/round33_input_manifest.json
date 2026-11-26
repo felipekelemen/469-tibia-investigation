@@ -1,0 +1,17 @@
+{
+  "stage": "Frozen before100tiny-count verification and51main count jobs; seven focused engine tests already passed. EarlierR23data remain exposed; this is a new exact-count algorithm, not blinded translation.",
+  "sha256": {
+    "data/round33_protocol.json": "6e6661e8cbc2e7342f1634f44151b0baabd1db74696248dfcdc2ce40ce32bb1e",
+    "data/round33_fixtures.json": "afac8d4afb6dceb79b0061bd27b6da5095c2a519406147c3803f993432b700d9",
+    "scripts/round33_count.cpp": "746810ab1e6faef48dda8eb9915956a8ca6aab5597608608614f97d71de13473",
+    "scripts/round33_experiment.py": "6e429440e43adaaf166ad7c6479ab099ba1a83e3ef788f0e4c2a830558eeeeec",
+    "tests/test_round33_count.py": "4818b77b2854d80a7dafdd74aba8760ed3031d7c16d3455253d66def1332740b",
+    "scripts/unit_morphism_lexicon.py": "4e1bc4aef71d2b8d6146f00fe2f917d0934743ebb2e79ada737a2ce53c113e9d",
+    "data/cmudict_reference/cmudict.dict": "81917843c7f44ce2b094ac63873c2c7a4cf802040792c455ba3ca406891c3d22",
+    "data/cmudict_reference/cmudict.phones": "ffb588a5e55684723582c7256e1d2f9fadb130011392d9e59237c76e34c2cfd6",
+    "data/round23_fixtures.json": "c2778295ea2a4a6e0defc53f455a866701ec53f138a41848a652227f6a36b2fd",
+    "results/round23_targets.json": "bbe0037f3f8a92ac46a7143f259dc111a74bedda14e1454fb6ddf6be7f4b51ed",
+    "results/round23_qualification.json": "346221e8ff9f864f7d141638eb16c61c462b10ea8a39605eda13bfb3251bcccf",
+    "data/source_validation_inventory.json": "d0c6d5a9fb1b763877b63dd8249fa6ef09172f9f26c438637de2d595739e4fe5"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "round": 33,
+  "basis": "d464846bb4b387c6d0122fa6fe20427dc35d88d5",
+  "stage": "Written before new count-engine outcomes. R23/R27 data and earlier failures already exposed.",
+  "question": "Can exact weighted relational variable elimination close the bounded R23 Knightmare/grapheme1_3 key-count problem without enumerating every whole key?",
+  "family": "Unchanged R23 orthographic CMU bank, including its declared BONELORD addition. Each observed digit emits a fixed nonempty1..3letter unit, homophony allowed; each numeric group is one dictionary form. No grammar, lore repair or new word additions.",
+  "algorithm": "Enumerate complete local length assignments; make one relation per distinct group. Sum out digits private to one relation while building it. Natural-join factors and sum out shared variables in deterministic min-fill order. Nonnegative integer weights count distinct assignments to observed digits, not word sequences. Unobserved digits are not invented or included in the count.",
+  "qualification_scope": "Exact-count engine verification, not qualification as an English translator. Compare100tiny independent brute-force cases, regression-check10previous R23 grapheme fixtures and check known generating keys against unchanged training constraints. New count may be greater than the earlier bounded solution list; never smaller. A completed count ofone remains conditional on the lexicon/model.",
+  "cases": "Knightmare7groups; two previously certified zero crib regressions; ten R23grapheme1_3global fixtures;19previous R23Knightmarewithin-word shuffles;19new uniform decimal samples preserving seven group lengths. All groups, seeds, fixtures and source hashes frozen before main runs.",
+  "uniform_seed": 334693478,
+  "budgets": {"per_table_rows":6000000,"live_factor_rows":12000000,"join_pair_visits":100000000,"per_fit_wall_seconds":150,"per_fit_address_space_bytes":3221225472,"arithmetic_bits":128},
+  "completion": "A fully reduced scalar is an exact observed-key count within this family. Row, join, arithmetic, memory or time limit gives INCOMPLETE with null count, never zero or a false uniqueness certificate.",
+  "interpretation": "Report null counts under identical engine/budgets. Do not calculate a full rank/significance if any required fit is incomplete. Neither a high count nor fewer keys than controls proves English/nontext. No language-score selection or proposed translation is added in this round.",
+  "transfer": "All Knightmare fits still lack digit2; Chayenne contains2. Preserve this information barrier. Existing returned keys are checked unchanged as witnesses, not claimed as new translations.",
+  "success": "Close the exact lexical key count, or document the remaining computational limit with verified controls. Mission remainsIunless independent semantic/generalization evidence actually exists."
+}

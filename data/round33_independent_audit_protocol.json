@@ -1,0 +1,8 @@
+{
+  "stage": "Post-result arithmetic audit, after observing the main Knightmare count153174074 and before running the independent contraction. Does not change primary model, budgets or controls.",
+  "method": "Separate C++ program with per-word recursive partition generation, independent of main length-vector loops and min-fill variable elimination. For fixed Knightmare groups, count local5extensions for345, local(0,1)extensions for90871 subject to0being lexical, join core97664/3466/3478and membership67, then sum products. No main-engine tables or count used as input.",
+  "scope": "Verify the same exact observed-digit count. Deterministic lexical membership and no English scoring. Still not semantic validation.",
+  "budgets": {"wall_seconds":300,"address_space_bytes":3221225472},
+  "expected_from_primary": "153174074",
+  "report": "Report comparison even if it fails or is incomplete. Preserve both original programs and outcomes."
+}

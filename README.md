@@ -1,6 +1,6 @@
 # 469-tibia-investigation — investigação reproduzível
 
-**Estado: 32 rodadas registradas; resultado inconclusivo. Nenhuma tradução verificável encontrada.**
+**Estado: 33 rodadas registradas; resultado inconclusivo. Nenhuma tradução verificável encontrada.**
 Não afirmamos que o corpus é indecifrável nem que qualquer solução comunitária
 foi confirmada. O alvo é um algoritmo integral que generalize para textos inéditos.
 
@@ -11,11 +11,20 @@ com [balanço de cada rodada](docs/rounds_01_23_review.md) e
 [formato obrigatório de resultados e candidatas](docs/round_report_template_v2.md).
 Prioridade: Avar Tar, Knightmare e Chayenne; decisões delimitadas sobre3478/nomes
 e matrizes; investigação própria de geração sem texto. As rodadas 24–30 estão concluídas;
-não há etapas pendentes neste lote. As R31–32 acrescentam investigações de fontes.
-[Progresso atual](data/plan_progress_round32.json). Estado da missão: inconclusivo.
+não há etapas pendentes neste lote. As R31–33 acrescentam fontes e contagem exata.
+[Progresso atual](data/plan_progress_round33.json). Estado da missão: inconclusivo.
 
-**Publicado:** corpus normalizado, código, testes e resultados das 32 rodadas
+**Publicado:** corpus normalizado, código, testes e resultados das 33 rodadas
 disponíveis neste repositório. O acesso de escrita foi confirmado após nova reconexão.
+
+A [rodada 33](docs/round33.md) fechou a busca antes limitada de Knightmare:
+**153.174.074 chaves lexicais** na regra de uma a três letras por dígito.
+Duas implementações concordam no total; ele não conta traduções ou frases
+necessariamente distintas. Dos 51 ajustes, 44 foram completos e sete atingiram
+o limite de tabela. Dezoito dos 19 embaralhamentos também admitem chaves.
+Nenhuma tradução candidata nova. Replay: `make round33`; todos os ajustes:
+`make round33-full`.
+Passaram 326 testes e o replay principal em uma cópia somente com arquivos públicos.
 
 A [rodada 32](docs/round32.md) recuperou as entrevistas originais BomDiaTibia
 e TibiaEvents em quatro capturas históricas. Confirmou a atribuição sobre
@@ -272,6 +281,7 @@ make round25
 make round26
 make round31
 make round32
+make round33
 make test
 ```
 

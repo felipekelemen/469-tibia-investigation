@@ -1,0 +1,25 @@
+{
+  "plan": "docs/mission_plan_v2.md",
+  "completed_through_round": 33,
+  "completed_this_execution": [33],
+  "original_v2_batch_completed_through": 30,
+  "remaining_planned_rounds": [],
+  "translation_mission_closed": false,
+  "mission_outcome": "I_inconclusive",
+  "translation_validated": false,
+  "original_nontextual_generator_authenticated": false,
+  "latest_report": "docs/round33.md",
+  "new_candidate_translation": null,
+  "resolved_prior_main_fit": {
+    "source": "Knightmare",
+    "original_round": 23,
+    "family": "grapheme1_3",
+    "previous_returned_keys": 1769,
+    "exact_observed_digit_key_count": "153174074",
+    "status": "closed_exact_lexical_count_two_implementations_not_translation",
+    "historical_bounded_records_preserved": true
+  },
+  "new_secondary_limits": "Three known-key regression fixtures and four uniform controls hit table-row cap; counts unknown. Other old limited families were not reopened.",
+  "preserved_limits": "Digit2absent inKnightmare; Chayenne transfer not determined. BEHOLDER/BONELORD zero fits remain scoped to the unchanged model. No new Hellgate evidence.",
+  "next_discriminating_work": "Qualify grammatical selection on hidden known plaintext and out-of-family controls before a new game selection, or obtain an independent semantic constraint. Exact lexical multiplicity is not semantic validation."
+}

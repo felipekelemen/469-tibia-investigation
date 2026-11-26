@@ -852,5 +852,19 @@
     "status": "unresolved_in_bounded_source_search_not_disproved",
     "evidence": "16consultas no total; fontes históricas adicionais recuperadas. Oito representações de entrevistas não têm os termos literais fixados de dicionário. Isso não cobre sinônimos, imagens, áudio ou todas as entrevistas; atribuição comunitária permanece sem original.",
     "artifact": "results/round32_source_audit.json"
+  },
+  {
+    "id": "H123",
+    "hypothesis": "A contagem das chaves de Knightmare na família grapheme1_3 pode ser concluída sem enumerar todas as chaves inteiras",
+    "status": "exact_count_confirmed_by_two_implementations_in_frozen_model",
+    "evidence": "Eliminação ponderada de variáveis e contração independente concordam em153174074chaves para nove dígitos observados.100casos pequenos conferidos por enumeração direta. As1769testemunhas antigas foram rechecadas. Conta chaves lexicais, não traduções; dígito2continua desconhecido.",
+    "artifact": "results/round33_summary.json"
+  },
+  {
+    "id": "H124",
+    "hypothesis": "A existência de uma chave que produza palavras identifica uma tradução na família de unidades fixas",
+    "status": "not_supported_lexical_fits_also_present_in_random_and_shuffled_controls",
+    "evidence": "18/19embaralhamentos com contagem positiva;12dos15uniformes concluídos também positivos, quatro uniformes limitados. Sete controles de chave conhecida concluídos continuam ambíguos; três limitados. Sem teste de significância ou seleção semântica. Nenhuma tradução ou origem original sem texto estabelecida.",
+    "artifact": "results/round33_summary.json"
   }
 ]

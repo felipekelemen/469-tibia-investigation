@@ -1,0 +1,22 @@
+{
+  "complete": true,
+  "count": "153174074",
+  "observed_digits": 9,
+  "successful_core_extensions": 53465,
+  "local_assignment_counts": [
+    476634,
+    7534,
+    1356268,
+    1001932,
+    21271
+  ],
+  "local_order": [
+    "345",
+    "3466",
+    "3478",
+    "90871_with_lexical0",
+    "97664"
+  ],
+  "elapsed_seconds": 2.393822,
+  "scope": "Independent fixed-topology contraction after primary count was visible; no main-engine table inputs."
+}

@@ -1,0 +1,36 @@
+{
+  "completed_at_utc": "2026-11-26T12:05:29.533182+00:00",
+  "python": "3.12.14",
+  "compiler": "g++ (Debian 14.2.0-19) 14.2.0",
+  "tests": {
+    "count": 326,
+    "seconds": 15.844,
+    "exit_code": 0
+  },
+  "new_tests": 9,
+  "small_independent_count_cases": 100,
+  "main_jobs_executed_once": 51,
+  "main_jobs_complete": 44,
+  "main_jobs_row_limited": 7,
+  "separate_independent_counter_complete": true,
+  "independent_counter_agrees": true,
+  "public_only_replay": {
+    "files_copied": 23,
+    "exit_code": 0,
+    "primary_main_jobs_repeated": 1,
+    "tiny_count_cases_repeated": 100,
+    "private_files_or_old_binaries_present": false
+  },
+  "all51jobs_replayed": false,
+  "historical_round30_31_32_checks_passed": true,
+  "known_nonfatal_warning": "Frozen R30 CSV reader ResourceWarning; no failed test.",
+  "logs_sha256": {
+    "results/round33_replay/independent_tests.log": "6cbdffe2aa49377d56a69e02eebcbb1067e121f633927e7039378cc7a45c12bc",
+    "results/round33_replay/main_execution.log": "483a5e3d6bf2097a192e9b298e592e20e95f849691f991ee256753258a7af6c8",
+    "results/round33_replay/offline.log": "76e8230b4b113da62d5054d739036c213d3fd603271aaf6623ce1e765f4323d7",
+    "results/round33_replay/round30_preservation.log": "32630ab739714d143fe2553d24873fd1f033a23618654fdc20f198c1a906e9c5",
+    "results/round33_replay/round31_preservation.log": "81e672eb7cd61886f46a137624e4c22b77058afc00428636613b13b12e0d408e",
+    "results/round33_replay/round32_preservation.log": "72a78f7dc539a4ec2ca4cfc95948431935fbb003d3a327c42f313b089dc302fa",
+    "results/round33_replay/tests.log": "49eb7d3d57862cc1ef17e36f111f815992216be53943424225d46079ba80dda3"
+  }
+}
