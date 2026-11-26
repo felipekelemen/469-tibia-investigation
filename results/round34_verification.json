@@ -1,0 +1,14 @@
+{
+  "round": 34,
+  "public_offline_audit_passed": true,
+  "private_audit_passed": true,
+  "private_hashes_checked": 22,
+  "fresh_public_only_replay_passed": true,
+  "fresh_replay_public_file_count": 17,
+  "fresh_replay_output_equal": true,
+  "fresh_replay_child_cpu_seconds": 0.043419,
+  "new_cipher_experiments": 0,
+  "new_unit_tests": 0,
+  "full_test_suite_rerun": false,
+  "scope": "Source records, hashes, budgets, conditional arithmetic and post-table extraction; no semantic validation or external peer review."
+}

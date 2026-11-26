@@ -1,0 +1,20 @@
+{
+  "stage": "After public/private audits and clean public-only replay; before publication.",
+  "sha256": {
+    "data/plan_progress_round34.json": "a36ab4892c2a18ff38a356852f0a8c94968132f9aabe04f65fb9ef3991f73e1e",
+    "data/round34_discovery_log.json": "2ea7e67a16827c28b470417c8a4036670c58127bcebffd4a982f097a780fbcb5",
+    "data/round34_http.json": "afe263bed48ff7d1634db3d0f6912759802cf93d126686dccb9fb6817e91e1c3",
+    "data/round34_http_targets.json": "5326a872a117fe7eeb2e8c6b757b2e0539e34b06525daa1213e137d429d660bf",
+    "data/round34_input_manifest.json": "1fdea30de69cd17e2b7a8b73acc27d9b39e3c9315130d6b4b38edf2cb242b5b7",
+    "data/round34_observations.json": "037255f2f27a2f071981822c4637e8b8f39aa1e7fb465b07daae2c9023fe6f07",
+    "data/round34_preretrieval_manifest.json": "d23065f70169a2e6282075823fceeff6ceff9843f1aa72349a1b132e77e7cd19",
+    "data/round34_protocol.json": "339f0fb387773f448b385b95a37bd76afb8ab1d85e282348750a9cff0cad21a2",
+    "data/round34_second_pass.json": "699c51e5994509e5f30097b35381f4b46e0b5a0d65f8b0210782d9e033a5a5c4",
+    "data/round34_sources.json": "96c897c846ace5b39dde80b05ad239a6096aa7e60390cd8dc83cd0de75111ee8",
+    "data/round34_upstream.json": "dbcd3ede5e1a744a37d27ef6d9e2eff4c2062ab9feae56724c46a4cfb0546691",
+    "docs/round34.md": "4bf286a84f207fc8cf8dfe9f1702eb4256d552e24724a12c4e0fcc32865309ca",
+    "results/round34_source_audit.json": "ff50ec601f80757dbb9a2b54e71b126d44549de076df126c35d3da23fcd5e3d1",
+    "results/round34_verification.json": "75886d678523b047a179486bc451cbc38a28fd738f1883cf7410c6b36101e6dd",
+    "scripts/run_round34.py": "cafd4478023ddcb44c7beb9caf08a741bc6fa0e3b89fa7803c8f9cc2297cc179"
+  }
+}

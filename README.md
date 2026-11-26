@@ -1,6 +1,6 @@
 # 469-tibia-investigation — investigação reproduzível
 
-**Estado: 33 rodadas registradas; resultado inconclusivo. Nenhuma tradução verificável encontrada.**
+**Estado: 34 rodadas registradas; resultado inconclusivo. Nenhuma tradução verificável encontrada.**
 Não afirmamos que o corpus é indecifrável nem que qualquer solução comunitária
 foi confirmada. O alvo é um algoritmo integral que generalize para textos inéditos.
 
@@ -10,17 +10,26 @@ Destino público: https://github.com/felipekelemen/469-tibia-investigation
 com [estado e critérios computáveis](data/mission_plan_v3.json).
 O lote 24–30 foi executado, mas os objetivos científicos não foram todos atingidos
 e nem todas as buscas antigas foram completadas. As R31–33 acrescentaram fontes
-e contagem exata. O novo ciclo tem **seis etapas ainda não executadas**, limites
+e contagem exata. O novo ciclo tem **seis etapas**, limites
 de busca e critérios de conclusão por fonte: tradução validada, origem sem texto
 documentada ou resultado inconclusivo. Não promete uma resposta binária sem evidência.
 Prioridade: Avar Tar, Knightmare e Chayenne;3478 e Hellgate só reabrem com dados
-ou mecanismo novos. Esta revisão é planejamento, não uma rodada34.
-[Último progresso experimental](data/plan_progress_round33.json),
+ou mecanismo novos. A revisão do plano foi seguida pela execução de E1 na R34.
+E2 é a próxima etapa; E4 está suspensa por falta de material original elegível.
+[Progresso atual](data/plan_progress_round34.json),
 [plano v2 histórico](docs/mission_plan_v2.md) e
 [formato de resultados e candidatas](docs/round_report_template_v2.md).
 
-**Publicado:** corpus normalizado, código, testes e resultados das 33 rodadas
+**Publicado:** corpus normalizado, código, testes e resultados das 34 rodadas
 disponíveis neste repositório. O acesso de escrita foi confirmado após nova reconexão.
+
+A [rodada 34](docs/round34.md) concluiu E1 com 20 consultas e 27 operações
+de leitura/captura. Os três branches upstream permanecem nos mesmos commits.
+Foi recuperada outra referência à matriz antiga, em post com data exibida
+de janeiro de 2009, sem autenticar a medição ou a transição física. A atribuição
+de dicionário permanece comunitária, sem fonte original recuperada.
+Nenhum novo par numérico–inglês, processo autoral ou candidato a tradução.
+Auditoria offline: `make round34`; próximo trabalho: qualificação E2.
 
 A [rodada 33](docs/round33.md) fechou a busca antes limitada de Knightmare:
 **153.174.074 chaves lexicais** na regra de uma a três letras por dígito.

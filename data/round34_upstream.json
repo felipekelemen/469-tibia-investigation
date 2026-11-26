@@ -1,0 +1,42 @@
+{
+  "method": "GitHub branch endpoint reads, one explicit renamed-branch redirect followed; three requested default branches, not every branch or discussion.",
+  "reads": [
+    {
+      "repository": "arturoornelasb/tibia-bonelord-469-cipher",
+      "requested_url": "https://api.github.com/repos/arturoornelasb/tibia-bonelord-469-cipher/branches/master",
+      "sha256_response": "c1ea707e0ee66bd43e7bf152557fb66305cd7b000acd3c268fa1dc4d52168a11",
+      "private_response": "data/private/round34/upstream0.json",
+      "branch": "master",
+      "sha": "007dcf1707acc9b991642e68bcac08214a5bb38c",
+      "redirect_url": null
+    },
+    {
+      "repository": "s2ward/469",
+      "requested_url": "https://api.github.com/repos/s2ward/469/branches/master",
+      "sha256_response": "73f644eb36fa7e688a07a15edee0df03f275999f15912ae35429bb130c67d4d0",
+      "private_response": "data/private/round34/upstream1.json",
+      "branch": null,
+      "sha": null,
+      "redirect_url": "https://api.github.com/repos/s2ward/469/branches/main"
+    },
+    {
+      "repository": "kimlage/tibia-469-cipher-casestudy",
+      "requested_url": "https://api.github.com/repos/kimlage/tibia-469-cipher-casestudy/branches/main",
+      "sha256_response": "3e21287860ee8fa12386bdfbb32a9b46b8d9c0b0da7ba820da41807e2f673fbc",
+      "private_response": "data/private/round34/upstream2.json",
+      "branch": "main",
+      "sha": "4d726a8de7af1f2216bd48d9b86165e0c50616b6",
+      "redirect_url": null
+    },
+    {
+      "repository": "s2ward/469",
+      "requested_url": "https://api.github.com/repos/s2ward/469/branches/main",
+      "sha256_response": "36b56b0c08325b8daaae675fd08b047cca1853a57569979db532cca014f122a1",
+      "private_response": "data/private/round34/upstream3.json",
+      "branch": "main",
+      "sha": "4b1c4d3d2b07ed373f4cca44ac1270638614cef5",
+      "redirect_url": null
+    }
+  ],
+  "all_three_resolved_pins_equal_round31": true
+}

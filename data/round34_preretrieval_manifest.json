@@ -1,0 +1,12 @@
+{
+  "basis": "fcc6bcce77a26cc36b584db3b148563a1808d9f8",
+  "stage": "before_new_retrieval",
+  "sha256": {
+    "data/round34_protocol.json": "339f0fb387773f448b385b95a37bd76afb8ab1d85e282348750a9cff0cad21a2",
+    "data/mission_plan_v3.json": "62adeda044116eadd86c38f206832e782ac518aa13a3b2a5cd61c86843c0885f",
+    "data/round32_source_trace.json": "ac1c16ceea489b11092f8ae32349eaf61ee76aa6bcf2452011ae5d53a0f7de96",
+    "data/round31_upstream.json": "892481ec39f63956da3ed18b2ee268890efc511df91d6625b486cfc0eb8326aa",
+    "docs/round25.md": "97065cb2f5e08c6e1027eed0d697a3183e418991c39c033c8f5349568849340a",
+    "docs/round26.md": "b03063ac6c5269628f5832b053e5632bacbee351bccb4b7ea66725569e751550"
+  }
+}

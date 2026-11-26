@@ -1,0 +1,28 @@
+{
+  "round": 34,
+  "stage": "E1",
+  "counts": {
+    "search": 20,
+    "open": 11,
+    "find": 4,
+    "github_get": 4,
+    "http_get": 8,
+    "conservative_document_capture_budget_charge": 27
+  },
+  "http_status_counts": {
+    "200": 6,
+    "403": 2
+  },
+  "resolved_upstream_pins_unchanged": 3,
+  "source_context_judgments": 11,
+  "conditional_arithmetic_outputs": [
+    "by herrera",
+    "ID,1963"
+  ],
+  "conditional_outputs_are_translations": false,
+  "private_hashes_checked": 0,
+  "manual_context_judgments_automatically_proven": false,
+  "new_candidate_translation": null,
+  "mission_outcome": "I_inconclusive",
+  "scope": "Offline integrity/budget/arithmetic checks; no automated authorial authentication or semantic discovery."
+}

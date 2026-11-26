@@ -866,5 +866,19 @@
     "status": "not_supported_lexical_fits_also_present_in_random_and_shuffled_controls",
     "evidence": "18/19embaralhamentos com contagem positiva;12dos15uniformes concluídos também positivos, quatro uniformes limitados. Sete controles de chave conhecida concluídos continuam ambíguos; três limitados. Sem teste de significância ou seleção semântica. Nenhuma tradução ou origem original sem texto estabelecida.",
     "artifact": "results/round33_summary.json"
+  },
+  {
+    "id": "H125",
+    "hypothesis": "A aquisição E1 encontra evidência primária suficiente para validar significado ou origem original sem texto",
+    "status": "not_established_in_bounded_search_not_universal_refutation",
+    "evidence": "20 consultas,27 operações de leitura/captura,11 classificações contextuais. Três branches sem mudanças; nenhuma correspondência completa atestada ou processo original. A atribuição de dicionário passa por outro participante, sem fonte autoral.",
+    "artifact": "data/round34_observations.json"
+  },
+  {
+    "id": "H126",
+    "hypothesis": "A tabela antiga em outro post permite autenticar a mudança física de Hellgate ou sua coincidência com a renomeação",
+    "status": "table_text_confirmed_physical_history_and_causal_link_not_established",
+    "evidence": "Tabela4x4 coincide exatamente no post3169247, com data exibida25/01/2009. Captura atual, fuso desconhecido e possível fonte compartilhada; não é medição de pilhas nem captura arquivada em2009. Nenhuma chave ou transição nova.",
+    "artifact": "data/round34_sources.json"
   }
 ]

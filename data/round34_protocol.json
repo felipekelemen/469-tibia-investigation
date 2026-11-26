@@ -1,0 +1,44 @@
+{
+  "round": 34,
+  "stage": "E1",
+  "basis": "fcc6bcce77a26cc36b584db3b148563a1808d9f8",
+  "frozen_before_new_retrieval": true,
+  "question": "Does targeted primary-source acquisition add an attested meaning, original authoring process, or a historically authenticated matrix/name constraint?",
+  "prior_sources": "R24-R26 and R31-R32 are exposed; no claim of independent semantic holdout from their republication.",
+  "limits": {
+    "distinct_search_queries": 30,
+    "unique_documents_or_captures": 60,
+    "source_passes": 2,
+    "retry_per_transient_failure": 1
+  },
+  "priority_gaps": [
+    "Full Avar Tar, Knightmare and Chayenne meanings attributed to their authors, or original authoring instructions",
+    "Unresolved dictionary attribution traced beyond the community Reddit lead",
+    "Original generator or original no-text statement tied to specific books/messages",
+    "Upstream changes since the R24/R31 commit pins, eligible executable new claims",
+    "Exact historic skull counts and dated transition, separate from2010rename and nostalgia2012/2023"
+  ],
+  "initial_queries": [
+    "\"Chayenne\" \"469\" \"meaning\"",
+    "\"Avar Tar\" \"469\" \"translation\"",
+    "\"Knightmare\" \"469\" \"dictionary\"",
+    "\"Knightmare\" \"bonelord\" \"dictionary\"",
+    "\"Knightmare\" \"469\" \"random\" interview",
+    "\"Chayenne\" \"469\" \"generated\"",
+    "\"469\" \"CipSoft\" \"source code\"",
+    "\"469\" \"Hellgate\" \"skulls\" \"2009\"",
+    "\"469\" \"Hellgate\" \"matrix\" \"2010\"",
+    "\"3478\" \"Bonelord\" \"CipSoft\"",
+    "\"tibia\" \"469\" \"translator\" github",
+    "\"tibia\" \"469\" \"solved\" \"algorithm\""
+  ],
+  "selection": "Read original author/publisher or source-linked claims first; mirrors retain shared lineage. Adaptive second pass targets specific missing links, not unlimited new theory search.",
+  "gates": {
+    "semantic": "Full attributable numeric-English pairing, not lore paraphrase or table trained on itself",
+    "original_process": "Authorship/version and seed/template/copied-source provenance, not a new fitted generator",
+    "matrix": "Dated physical counts or specified independently falsifiable mechanism; no invented borders",
+    "no_eligible_find": "Close bounded E1 with scoped suspensions; E2 is next. No cipher search merely to inflate the round."
+  },
+  "publication": "Private full bodies/tool responses, public brief excerpts, URLs, hashes and context judgments. No contact with people, no bypass of access controls.",
+  "outcome_before_execution": "I_inconclusive"
+}

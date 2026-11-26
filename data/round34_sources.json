@@ -1,0 +1,127 @@
+{
+  "judgments": "Manual contextual/provenance judgments; hashes and audit scripts do not prove authorial intent.",
+  "sources": [
+    {
+      "id": "dictionary",
+      "url": "https://www.reddit.com/r/TibiaMMO/comments/1rgakrg/solving_469_part_13/",
+      "access": "web_reader_body; direct HTTP200 only six visible characters",
+      "lineage": "unresolved_dictionary_claim_already_seen_R31_R32",
+      "excerpt": "Alire (on tibiasecrets discord) said to me that:",
+      "finding": "The accessible reader representation explicitly routes the dictionary attribution through another community participant; no original interview/date/link authenticates the claimed Knightmare remark. Corpse counts plus32 yield ID,1963 conditionally, but neither counts nor original intended rule were independently authenticated.",
+      "classification": "community_attribution_not_primary_semantic_evidence"
+    },
+    {
+      "id": "qa_avar",
+      "url": "https://www.tibiaqa.com/25041/is-avar-tar-lying-about-his-stories",
+      "access": "web_reader_and_HTTP200",
+      "lineage": "avar_tibia_org_claim",
+      "finding": "Community discussion questions Avar credibility and links the modified website poem. Lore about boasting does not by itself establish meaningless numeric text. The cited website claim is not an author-confirmed translation.",
+      "classification": "community_inference"
+    },
+    {
+      "id": "reddit_avar",
+      "url": "https://www.reddit.com/r/TibiaMMO/comments/qh0nvd/469_language/",
+      "access": "web_reader_comments; direct HTTP200 only six visible characters",
+      "lineage": "avar_tibia_org_claim",
+      "finding": "Comments distinguish original group63378129 from website replacement62792068657272657261. The latter is ASCII hex for by herrera. Original post is deleted; comments speculate about tampering. This is not an authenticated original469message or proof of a particular intrusion. Previously flagged source problem, not a new translation.",
+      "classification": "contaminated_variant_not_validation"
+    },
+    {
+      "id": "portal_2012",
+      "url": "https://forum.portaltibia.com.br/topic/25048-desvendando-a-linguagem-dos-bonelords/",
+      "access": "web_reader_and_HTTP200",
+      "lineage": "portal_community_2012_with_tibiabr2010_quote",
+      "finding": "Post dated8December2012 reports3478nostalgia name; replies on9December give personal no-translation opinions and repeat the fictional bonelord employee story already recovered at its2010source inR32. Neither authorial nontext process nor literal3478translation is established.",
+      "classification": "community_context_and_reused_interview"
+    },
+    {
+      "id": "torg_2016",
+      "url": "https://torg.pl/tibia/472386-tibia-quot-niszczymy-quot-mity-legendy-14.html",
+      "access": "initial_reader_success_find403_HTTP200",
+      "lineage": "torg_community_2016",
+      "excerpt": "Być może Knightmare napisał sobie jakiś słownik",
+      "finding": "Dictionary discussion is explicitly speculative, not a quoted developer instruction. Uncertainty over books, names and eyes does not authenticate an original generator.",
+      "classification": "community_conjecture"
+    },
+    {
+      "id": "torg_matrix",
+      "url": "https://torg.pl/tibia/308246-kompendium-tibijskich-mitow-sekretow.html#post3169247",
+      "access": "reader403_HTTP200",
+      "lineage": "community_gematria_matrix_compilation_possible_shared_source",
+      "post_author": "Popek",
+      "post_date_as_displayed": "25-01-2009 19:03",
+      "edit_date_as_displayed": "26-01-2009 20:55",
+      "timezone_known": false,
+      "historic_capture_from2009": false,
+      "matrix": [
+        [
+          3,
+          1,
+          6,
+          1
+        ],
+        [
+          1,
+          2,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          3,
+          1
+        ],
+        [
+          4,
+          6,
+          1,
+          1
+        ]
+      ],
+      "finding": "Current page contains exactly the supplied old matrix within post3169247. Displayed historical dates are not authenticated2009captures or in-game stack observations. The page discusses existing gematria ideas; independent measurement lineage is not demonstrated. No new matrix values or transition date.",
+      "classification": "additional_documentary_attestation_not_physical_authentication"
+    },
+    {
+      "id": "pl_eye",
+      "url": "https://forum.tibia.pl/showthread.php?p=2834707",
+      "access": "web_reader_body_direct_HTTP403",
+      "lineage": "tibia_pl_community_2012",
+      "finding": "A post displayed as21July2012suggests Eye of the Beholder inspiration based on hearsay, without an original developer source, specific mathematical operation or number-English pair.",
+      "classification": "unverified_inspiration"
+    },
+    {
+      "id": "official_1612",
+      "url": "https://www.tibia.com/news/?id=1612&subtopic=latestnews",
+      "access": "search_excerpt_only_reader403_HTTP403_challenge",
+      "lineage": "official_mysteries_article_with_player_quotes",
+      "finding": "Indexed excerpt attributes translator/469claims to players. Full primary body not recovered in this batch, so not admitted as a developer declaration or an attested translation.",
+      "classification": "inaccessible_primary_body"
+    },
+    {
+      "id": "torg_2008_p6",
+      "url": "https://torg.pl/tibia/265100-hellgates-library-469-spoilery-6.html",
+      "access": "search_excerpt_only_reader403",
+      "lineage": "torg_historical469thread",
+      "finding": "Indexed old discussion of skulls, but no new complete counts or dated physical capture recovered.",
+      "classification": "unread_body_not_new_matrix_evidence"
+    },
+    {
+      "id": "torg_2008_p20",
+      "url": "https://torg.pl/tibia/265100-hellgates-library-469-spoilery-20.html",
+      "access": "search_excerpt_only_reader403",
+      "lineage": "torg_historical469thread",
+      "finding": "Indexed mathemagic discussion, but no new complete counts or transition evidence recovered.",
+      "classification": "unread_body_not_new_matrix_evidence"
+    },
+    {
+      "id": "tibiagg_2026",
+      "url": "https://tibia.gg/en/articles/unsolved-mysteries",
+      "access": "web_reader_body",
+      "lineage": "tibiagg_2026_secondary_overview",
+      "publication_date_as_displayed": "2026-11-11",
+      "finding": "Claims75numeric books and repeats NPC clues, without supplying an item-by-item derivation of that count or a numeric-English message pair. The claimed expanded inventory was not reproduced;70-book audited dataset is not replaced and is not asserted to contain every numeric book in the game.",
+      "classification": "secondary_inventory_claim_unverified"
+    }
+  ]
+}

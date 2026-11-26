@@ -1,0 +1,44 @@
+{
+  "new_attested_complete_numeric_english_pairs": 0,
+  "new_authenticated_original_generators": 0,
+  "new_authenticated_nontext_author_statements": 0,
+  "new_qualified_cipher_mechanisms": 0,
+  "new_authenticated_physical_matrices": 0,
+  "new_verified_matrix_transition_date": null,
+  "new_candidate_translation": null,
+  "illustrative_claim_checks": [
+    {
+      "claim": "website_replacement_is_ASCII_hex_signature",
+      "input": "62792068657272657261",
+      "expected_output": "by herrera",
+      "scope": "Mechanical check on an unauthenticated website variant, not a469translation or a proof of tampering."
+    },
+    {
+      "claim": "reported_corpse_counts_plus32",
+      "counts": [
+        41,
+        36,
+        12,
+        17,
+        25,
+        22,
+        19
+      ],
+      "offset": 32,
+      "expected_output": "ID,1963",
+      "scope": "Conditional arithmetic only; input measurements, offset motivation, selection and authorial intent unverified. Not a decoder for books or priority messages."
+    }
+  ],
+  "decisions": {
+    "3478": "Contextual entity label retained; spelling, internalID and key unvalidated; scoped cipher negatives retained.",
+    "matrices": "Additional exact old-table attestation; no new measurements or transition.3x3partial,4x4reported,5x5physicalunknown; no family reopened.",
+    "dictionary": "Original Knightmare attribution still unresolved; do not promote community transmission into an authenticated quote.",
+    "avar_tar": "Keep authentic target4378and original groups; exclude unauthenticated modified website variant as a semantic anchor.",
+    "origin": "E4not activated: no eligible original authoring artifacts or specific nontext testimony.",
+    "search_stop": "Two source passes,20queries, no eligible new mechanism or semantic pair. Remaining retrieval leads are blocked, exposed, or speculative; do not use unused budget for generic repeat searches."
+  },
+  "mission_outcome": "I_inconclusive",
+  "E1_status": "completed_bounded_source_acquisition",
+  "next_stage": "E2",
+  "no_new_cryptanalytic_search": true
+}

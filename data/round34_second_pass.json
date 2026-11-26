@@ -1,0 +1,10 @@
+{
+  "reason": "Trace original dictionary attribution in PT/DE/PL and dated skull observations; all first-pass priority source pins unchanged.",
+  "queries": [
+    "\"Knightmare\" \"dicionário\" \"469\"",
+    "\"Knightmare\" \"Wörterbuch\"",
+    "\"Knightmare\" \"słownik\" \"469\"",
+    "\"Hellgate\" \"czaszki\" \"2009\""
+  ],
+  "maximum_additional_queries": 18
+}

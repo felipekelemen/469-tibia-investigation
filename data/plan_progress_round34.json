@@ -1,0 +1,33 @@
+{
+  "plan": "docs/mission_plan_v3.md",
+  "completed_through_round": 34,
+  "latest_report": "docs/round34.md",
+  "mission_outcome": "I_inconclusive",
+  "translation_validated": false,
+  "original_nontextual_process_authenticated": false,
+  "stages": {
+    "E1": "completed_bounded_no_decisive_evidence",
+    "E2": "planned",
+    "E3": "conditional_on_qualification_or_exact_certificate",
+    "E4": "not_activated_missing_original_evidence",
+    "E5": "conditional_on_candidate_and_independent_evidence",
+    "E6": "planned"
+  },
+  "remaining_stages_requiring_future_disposition": [
+    "E2",
+    "E3",
+    "E5",
+    "E6"
+  ],
+  "suspended_conditional_stage": "E4; reopen only on eligible original evidence",
+  "v3_source_budget_used": {
+    "search": 20,
+    "open": 11,
+    "find": 4,
+    "github_get": 4,
+    "http_get": 8,
+    "conservative_document_capture_budget_charge": 27
+  },
+  "new_candidate_translation": null,
+  "next_action": "E2: freeze representative English/negative qualification and test grammatical selection before ranking game candidates."
+}

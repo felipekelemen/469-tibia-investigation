@@ -92,6 +92,9 @@ round33:
 	$(PYTHON) scripts/run_round33.py
 round33-full:
 	$(PYTHON) scripts/run_round33.py --full
+.PHONY: round34
+round34:
+	$(PYTHON) scripts/run_round34.py
 research-audit:
 	$(PYTHON) scripts/audit_external_samples.py
 test:
