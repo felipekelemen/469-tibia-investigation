@@ -1,0 +1,10 @@
+{
+  "stage": "Before oracle diagnostic; M1qualification results already exposed.",
+  "sha256": {
+    "data/round35_oracle_protocol.json": "39ed632f3c532214aa496004d7ebc7dbb640888f2cb0428416e7ac976edf0cb2",
+    "scripts/round35_oracle.py": "2e7de82608ce7680f3172ce56d8095fdac057aa09587bd0911e7b3f748829d74",
+    "scripts/unit_morphism_solver.py": "28ef1716a9e3213a8e1ac8321446323e66bba9affc40a488894425d0dfa1627e",
+    "data/round35_fixtures.json": "1ab04a4041d933de48885cbf4a8abb7b34beadb6bc71f6b0d36937d9404cfb0e",
+    "data/round35_model_manifest.json": "c362a449a676bbd7be81d36ae9fd9b31526f4d2e2ea419d1eaeded58e525f34a"
+  }
+}

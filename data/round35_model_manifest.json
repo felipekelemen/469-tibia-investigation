@@ -1,0 +1,8 @@
+{
+  "role": "Deterministic unigram/bigram model; regenerated from published pinned sources by round35_fixtures.py --model-only. No qualification-source input.",
+  "path": "data/round35_reference/language_model.txt",
+  "sha256": "93fcd9588477aaa62878246485022139f9972e0d5c3275a19984237fdfc31ab6",
+  "bytes": 2528822,
+  "model_words_including_start": 122369,
+  "bigram_pairs": 88307
+}

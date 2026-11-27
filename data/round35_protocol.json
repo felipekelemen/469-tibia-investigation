@@ -1,0 +1,106 @@
+{
+  "round": 35,
+  "stage": "E2",
+  "basis": "9672fa09bed19aaff8d4909a513a455152969150",
+  "frozen_before_fixture_generation_and_fitting": true,
+  "method": "M1: bounded beam search over fixed decimal-digit emissions of1..3letters; supplied word boundaries; frozen word unigram/bigram English score. No lore score, grammar repair or true key input.",
+  "versions": [
+    {
+      "id": "v1",
+      "beam": 64
+    },
+    {
+      "id": "v2",
+      "beam": 256
+    }
+  ],
+  "version_policy": "Two configurations specified before either result; disjoint natural qualification sentences per version. V2 runs if V1fails relevant gate, to test search-width limitation without tuning the score on test outputs.",
+  "language_model_sources": [
+    "data/english_reference/alice.txt",
+    "data/benchmark_reference/frankenstein.txt",
+    "data/benchmark_reference/pride_prejudice.txt"
+  ],
+  "qualification_sources": [
+    "data/benchmark_reference_v3/dracula.txt",
+    "data/benchmark_reference_v3/moby_dick.txt"
+  ],
+  "exposure": "These reference books existed in earlier benchmarks. New deterministic sentence/cipher fixtures, author-disjoint from M1training; no claim of externally blinded or previously unknown literature. Qualification plaintext is excluded from solver arguments and language-model fitting.",
+  "lexicon": "Pinned R23CMU orthographic bank including its historical BONELORD addition; lowercase normalization only. Novel names are deliberately outside the bank.",
+  "fixtures": {
+    "seed": 354693478,
+    "cases_per_scenario": 30,
+    "source_sentences_per_author_per_version": 15,
+    "natural_sentence_words": 7,
+    "max_candidate_sentences_per_author": 10000,
+    "maximum_bpe_merges": 30,
+    "unit_types_minimum": 7,
+    "unit_types_maximum": 10,
+    "multi_letter_unit_required": true,
+    "probe_count": 10,
+    "probe_units": 5
+  },
+  "encoding": "Select whole7word natural-source sentences in seeded order. Greedy pair merging limited to3letters derives a fixed unit inventory of<=10types, with a multiletter unit. Report attempted/eligible coverage and reasons; failure of this encoder is not an impossibility certificate. Eligibility is fixed before solver outcomes. Transfer probes use new unit combinations and do not assert English prose.",
+  "scenarios": [
+    "natural7",
+    "repeated21",
+    "unspaced",
+    "name_oov7",
+    "missing_digit",
+    "ambiguous_pair",
+    "uniform_null",
+    "within_group_shuffle"
+  ],
+  "scenario_limits": "Repeated, name and missing-symbol conditions share base fixtures and are not independent sentences. Ambiguous pairs use30controlled sentence pairs in3template families, not30independent prose sources. Unspaced training is explicitly unsupported by M1and must abstain. Missing-symbol probes must not invent emissions.",
+  "ambiguous_templates": {
+    "frames": [
+      "the cat sat on the",
+      "the cat hid by the",
+      "the cat ran to the"
+    ],
+    "objects": [
+      "old mat",
+      "red mat",
+      "wet mat",
+      "old hat",
+      "red hat",
+      "big hat",
+      "old box",
+      "red box",
+      "new box",
+      "low box"
+    ],
+    "alternative": "replace the protected unit c by r, preserving other units; CAT/RATboth grammatical. Random hidden intended member; same raw groups admit both keys."
+  },
+  "score": {
+    "unigram_weight": 0.35,
+    "bigram_weight": 0.65,
+    "additive_smoothing": 0.1,
+    "minimum_mean_log_score": -10.0,
+    "minimum_best_second_key_gap": 4.605170185988092,
+    "gap_scope": "Only retained beam keys, heuristic confidence, never an exhaustive uniqueness certificate. Equal-score alternative keys require abstention."
+  },
+  "budgets": {
+    "local_rows_per_group": 300000,
+    "compatibility_checks_per_fit": 20000000,
+    "generated_extensions_per_depth": 1000000,
+    "wall_seconds_per_fit": 30,
+    "address_space_bytes": 4294967296,
+    "maximum_total_fit_wall_seconds": 7200,
+    "concurrent_fits": 1
+  },
+  "gate": {
+    "positive_cases": 30,
+    "minimum_passing": 27,
+    "minimum_reserved_probe_letter_accuracy": 0.95,
+    "input_sentence_exact_required": true,
+    "model_acceptance_required": true,
+    "negative_cases_per_type": 30,
+    "maximum_false_acceptances": 0,
+    "binomial_interval": "Clopper-Pearson95percent; negative random-generation trials only, conditional on the benchmark, no claim of independent natural-language samples."
+  },
+  "positive_scope": "Natural7 and repeated21 assessed separately. OOV input recovery reported separately and cannot inherit in-vocabulary success. Missing/ambiguous safety separate from positive recovery. Fullkey, inputtext and probe accuracy reported independently.",
+  "controls": "Two negative generation types,30each per version. Uniform length matched; within-group shuffle preserves digits and lengths and must differ from input. Repeat full candidate search and thresholds. Accidental English-compatible keys remain possible; acceptance is a false alarm about the deliberately nontextual generator, not proof the numbers admit no sentence.",
+  "method2": "No second method invented merely to fill a slot. Additional source-constrained methods require new evidence; E1provided none.",
+  "next_gate": "If neither version qualifies, close M1for this cycle, leave other algorithms unrefuted, and do not rank game messages. E3activation must be adjudicated explicitly, then finish remaining conditional stages and E6.",
+  "mission_outcome_before_execution": "I_inconclusive"
+}

@@ -1,0 +1,54 @@
+{
+  "stage": "E6 frozen before clean replay",
+  "snapshot": "tracked baseline plus explicit R35 public files, without git metadata, private sources, caches or derived model",
+  "jobs": [
+    {
+      "id": "round30",
+      "command": [
+        "python",
+        "scripts/run_round30.py"
+      ]
+    },
+    {
+      "id": "round33",
+      "command": [
+        "python",
+        "scripts/run_round33.py"
+      ]
+    },
+    {
+      "id": "round34",
+      "command": [
+        "python",
+        "scripts/run_round34.py"
+      ]
+    },
+    {
+      "id": "round35_full",
+      "command": [
+        "python",
+        "scripts/run_round35.py",
+        "--full",
+        "--output",
+        "/tmp/469-e6-round35-replay.json"
+      ]
+    },
+    {
+      "id": "tests",
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ]
+    }
+  ],
+  "timeout_seconds_per_job": 1200,
+  "max_address_space_per_process_bytes": 4294967296,
+  "concurrency": 1,
+  "scientific_comparison": "Exact fixture/model regeneration and fit/oracle outputs except timing; paused original case compared with documented unchanged replay. All snapshot files must remain byte-identical.",
+  "interpretation": "Internal reproduction only, not third-party peer review or semantic authentication."
+}

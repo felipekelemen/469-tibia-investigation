@@ -1,0 +1,3079 @@
+{
+  "round": 35,
+  "diagnostic": "gold_assisted_not_blind_recovery",
+  "summary": {
+    "cases": 60,
+    "true_below_acceptance_threshold": 3,
+    "same_plaintext_transfer_counterexamples": 30,
+    "single_digit_equal_or_better_score_counterexamples": 54,
+    "either_counterexample": 55,
+    "threshold_or_counterexample_obstruction": 55,
+    "segmentation_limits": 0,
+    "cpu_seconds": 2.5809569999999997
+  },
+  "cases": [
+    {
+      "id": "v1_natural7_00",
+      "true_score": -50.255678369735456,
+      "true_mean_score": -7.179382624247922,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "complete_no_counterexample",
+      "same_plaintext_states": 12,
+      "single_digit_keys_visited": 18279,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "7": "an",
+            "4": "d",
+            "9": "e",
+            "8": "ha",
+            "2": "i",
+            "0": "l",
+            "1": "b",
+            "6": "s",
+            "5": "try",
+            "3": "xcu"
+          },
+          "training_output": [
+            "i",
+            "shall",
+            "be",
+            "an",
+            "excuse",
+            "and",
+            "try"
+          ],
+          "score": -46.25869620869784,
+          "probe_index": 1,
+          "probe_output": "aneibtry",
+          "probe_truth": "aneimaktry"
+        }
+      ]
+    },
+    {
+      "id": "v1_natural7_01",
+      "true_score": -40.38922633504856,
+      "true_mean_score": -5.769889476435509,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "complete_no_counterexample",
+      "same_plaintext_states": 10,
+      "single_digit_keys_visited": 182770,
+      "single_digit_neighborhood_exhausted": true,
+      "witnesses": []
+    },
+    {
+      "id": "v1_natural7_02",
+      "true_score": -38.950325000756834,
+      "true_mean_score": -5.564332142965262,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "complete_no_counterexample",
+      "same_plaintext_states": 8,
+      "single_digit_keys_visited": 109677,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "6": "o",
+            "8": "f",
+            "4": "ha",
+            "9": "i",
+            "3": "o",
+            "2": "r",
+            "7": "s",
+            "5": "t",
+            "0": "u",
+            "1": "y"
+          },
+          "training_output": [
+            "it",
+            "is",
+            "for",
+            "you",
+            "that",
+            "i",
+            "for"
+          ],
+          "score": -38.63859297176854,
+          "probe_index": 0,
+          "probe_output": "roshar",
+          "probe_truth": "reashar"
+        }
+      ]
+    },
+    {
+      "id": "v1_natural7_03",
+      "true_score": -52.1530574881214,
+      "true_mean_score": -7.450436784017342,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "witness",
+      "same_plaintext_states": 14,
+      "single_digit_keys_visited": 6612,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "same_plaintext",
+          "key": {
+            "2": "t",
+            "4": "h",
+            "6": "a",
+            "9": "s",
+            "5": "w",
+            "3": "r",
+            "0": "on",
+            "1": "g",
+            "7": "i",
+            "8": "e"
+          },
+          "training_output": [
+            "what",
+            "is",
+            "it",
+            "thats",
+            "wrong",
+            "with",
+            "her"
+          ],
+          "score": -52.1530574881214,
+          "probe_index": 5,
+          "probe_output": "riesg",
+          "probe_truth": "riesng"
+        },
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "6": "a",
+            "8": "e",
+            "4": "h",
+            "7": "i",
+            "1": "ng",
+            "0": "iti",
+            "3": "r",
+            "9": "s",
+            "2": "t",
+            "5": "w"
+          },
+          "training_output": [
+            "what",
+            "is",
+            "it",
+            "thats",
+            "writing",
+            "with",
+            "her"
+          ],
+          "score": -52.106687971032585,
+          "probe_index": 7,
+          "probe_output": "sititia",
+          "probe_truth": "sotia"
+        }
+      ]
+    },
+    {
+      "id": "v1_natural7_04",
+      "true_score": -51.4744659542479,
+      "true_mean_score": -7.353495136321128,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "complete_no_counterexample",
+      "same_plaintext_states": 16,
+      "single_digit_keys_visited": 18616,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "2": "ath",
+            "8": "de",
+            "7": "f",
+            "4": "me",
+            "6": "ne",
+            "3": "o",
+            "1": "ma",
+            "9": "s",
+            "0": "t",
+            "5": "we"
+          },
+          "training_output": [
+            "we",
+            "made",
+            "to",
+            "death",
+            "of",
+            "some",
+            "one"
+          ],
+          "score": -47.562174721830594,
+          "probe_index": 0,
+          "probe_output": "dememamema",
+          "probe_truth": "demerimeri"
+        }
+      ]
+    },
+    {
+      "id": "v1_natural7_05",
+      "true_score": -48.764024126965055,
+      "true_mean_score": -6.966289160995008,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "witness",
+      "same_plaintext_states": 22,
+      "single_digit_keys_visited": 46,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "same_plaintext",
+          "key": {
+            "7": "ou",
+            "1": "t",
+            "6": "si",
+            "5": "de",
+            "2": "hem",
+            "8": "he",
+            "4": "ar",
+            "0": "on",
+            "3": "i",
+            "9": "can"
+          },
+          "training_output": [
+            "i",
+            "can",
+            "hear",
+            "them",
+            "on",
+            "the",
+            "outside"
+          ],
+          "score": -48.764024126965055,
+          "probe_index": 0,
+          "probe_output": "heidetsi",
+          "probe_truth": "heiidets"
+        },
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "4": "ar",
+            "9": "can",
+            "8": "he",
+            "2": "hem",
+            "3": "i",
+            "5": "ide",
+            "0": "at",
+            "7": "ou",
+            "6": "s",
+            "1": "t"
+          },
+          "training_output": [
+            "i",
+            "can",
+            "hear",
+            "them",
+            "at",
+            "the",
+            "outside"
+          ],
+          "score": -48.70866625755735,
+          "probe_index": 2,
+          "probe_output": "ououtheat",
+          "probe_truth": "ououtheon"
+        }
+      ]
+    },
+    {
+      "id": "v1_natural7_06",
+      "true_score": -60.58961479350476,
+      "true_mean_score": -8.655659256214966,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "witness",
+      "same_plaintext_states": 8,
+      "single_digit_keys_visited": 18278,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "same_plaintext",
+          "key": {
+            "8": "sha",
+            "4": "l",
+            "5": "i",
+            "3": "f",
+            "6": "n",
+            "7": "eed",
+            "9": "br",
+            "0": "eak",
+            "1": "be",
+            "2": "we"
+          },
+          "training_output": [
+            "we",
+            "shall",
+            "break",
+            "in",
+            "if",
+            "need",
+            "be"
+          ],
+          "score": -60.58961479350476,
+          "probe_index": 2,
+          "probe_output": "eakffnbr",
+          "probe_truth": "akffnbre"
+        },
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "0": "ak",
+            "1": "a",
+            "9": "bre",
+            "7": "eed",
+            "3": "f",
+            "5": "i",
+            "4": "l",
+            "6": "n",
+            "8": "sha",
+            "2": "we"
+          },
+          "training_output": [
+            "we",
+            "shall",
+            "break",
+            "in",
+            "if",
+            "need",
+            "a"
+          ],
+          "score": -58.7403012074007,
+          "probe_index": 0,
+          "probe_output": "nnaeedwe",
+          "probe_truth": "nnbeeedwe"
+        }
+      ]
+    },
+    {
+      "id": "v1_natural7_07",
+      "true_score": -49.72843818876836,
+      "true_mean_score": -7.10406259839548,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "complete_no_counterexample",
+      "same_plaintext_states": 42,
+      "single_digit_keys_visited": 73117,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "4": "i",
+            "2": "ge",
+            "3": "i",
+            "7": "m",
+            "0": "n",
+            "9": "o",
+            "1": "r",
+            "8": "t",
+            "6": "the",
+            "5": "we"
+          },
+          "training_output": [
+            "i",
+            "together",
+            "we",
+            "went",
+            "into",
+            "the",
+            "room"
+          ],
+          "score": -48.76663673770077,
+          "probe_index": 1,
+          "probe_output": "theomithe",
+          "probe_truth": "theomandthe"
+        }
+      ]
+    },
+    {
+      "id": "v1_natural7_08",
+      "true_score": -49.466923278659735,
+      "true_mean_score": -7.066703325522819,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "witness",
+      "same_plaintext_states": 18,
+      "single_digit_keys_visited": 42827,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "same_plaintext",
+          "key": {
+            "3": "m",
+            "2": "us",
+            "0": "t",
+            "4": "w",
+            "7": "i",
+            "6": "fe",
+            "9": "y",
+            "8": "re",
+            "1": "ad",
+            "5": "oh"
+          },
+          "training_output": [
+            "oh",
+            "my",
+            "wife",
+            "must",
+            "i",
+            "read",
+            "it"
+          ],
+          "score": -49.466923278659735,
+          "probe_index": 4,
+          "probe_output": "usmadohy",
+          "probe_truth": "usmeadohy"
+        },
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "1": "ead",
+            "6": "fe",
+            "7": "i",
+            "3": "m",
+            "5": "oh",
+            "8": "r",
+            "0": "t",
+            "2": "igh",
+            "4": "w",
+            "9": "y"
+          },
+          "training_output": [
+            "oh",
+            "my",
+            "wife",
+            "might",
+            "i",
+            "read",
+            "it"
+          ],
+          "score": -48.97555080327055,
+          "probe_index": 0,
+          "probe_output": "mightyoh",
+          "probe_truth": "mustyoh"
+        }
+      ]
+    },
+    {
+      "id": "v1_natural7_09",
+      "true_score": -50.8414358553065,
+      "true_mean_score": -7.263062265043786,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "complete_no_counterexample",
+      "same_plaintext_states": 16,
+      "single_digit_keys_visited": 36687,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "9": "ad",
+            "4": "e",
+            "6": "f",
+            "7": "h",
+            "0": "m",
+            "2": "ec",
+            "5": "s",
+            "3": "t",
+            "8": "ucc",
+            "1": "wi"
+          },
+          "training_output": [
+            "she",
+            "had",
+            "made",
+            "the",
+            "effect",
+            "with",
+            "success"
+          ],
+          "score": -49.35337921525025,
+          "probe_index": 1,
+          "probe_output": "fseecucc",
+          "probe_truth": "fseorucc"
+        }
+      ]
+    },
+    {
+      "id": "v1_natural7_10",
+      "true_score": -47.14797083186159,
+      "true_mean_score": -6.735424404551656,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "complete_no_counterexample",
+      "same_plaintext_states": 9,
+      "single_digit_keys_visited": 37055,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "2": "sh",
+            "5": "av",
+            "4": "e",
+            "0": "g",
+            "7": "h",
+            "8": "i",
+            "6": "n",
+            "3": "o",
+            "1": "t",
+            "9": "w"
+          },
+          "training_output": [
+            "she",
+            "we",
+            "to",
+            "have",
+            "nothing",
+            "to",
+            "night"
+          ],
+          "score": -47.13942939230067,
+          "probe_index": 0,
+          "probe_output": "shnshgi",
+          "probe_truth": "arnargi"
+        }
+      ]
+    },
+    {
+      "id": "v1_natural7_11",
+      "true_score": -53.37482538144502,
+      "true_mean_score": -7.624975054492146,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "witness",
+      "same_plaintext_states": 15,
+      "single_digit_keys_visited": 13,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "same_plaintext",
+          "key": {
+            "2": "o",
+            "3": "th",
+            "5": "ers",
+            "0": "ese",
+            "6": "co",
+            "4": "me",
+            "7": "le",
+            "8": "ave",
+            "9": "t",
+            "1": "and"
+          },
+          "training_output": [
+            "leave",
+            "these",
+            "others",
+            "and",
+            "come",
+            "to",
+            "me"
+          ],
+          "score": -53.37482538144502,
+          "probe_index": 1,
+          "probe_output": "esetavecoand",
+          "probe_truth": "setavecoand"
+        },
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "1": "and",
+            "8": "ave",
+            "6": "co",
+            "7": "le",
+            "4": "me",
+            "2": "o",
+            "5": "rs",
+            "0": "m",
+            "9": "t",
+            "3": "the"
+          },
+          "training_output": [
+            "leave",
+            "them",
+            "others",
+            "and",
+            "come",
+            "to",
+            "me"
+          ],
+          "score": -50.81861290426414,
+          "probe_index": 1,
+          "probe_output": "mtavecoand",
+          "probe_truth": "setavecoand"
+        }
+      ]
+    },
+    {
+      "id": "v1_natural7_12",
+      "true_score": -75.06430486585998,
+      "true_mean_score": -10.723472123694282,
+      "true_below_acceptance_threshold": true,
+      "same_plaintext_search_status": "complete_no_counterexample",
+      "same_plaintext_states": 17,
+      "single_digit_keys_visited": 91666,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "9": "ary",
+            "0": "can",
+            "4": "d",
+            "7": "ea",
+            "3": "i",
+            "8": "n",
+            "6": "o",
+            "5": "ju",
+            "1": "s",
+            "2": "t"
+          },
+          "training_output": [
+            "cannot",
+            "eat",
+            "cannot",
+            "just",
+            "so",
+            "diary",
+            "instead"
+          ],
+          "score": -74.87543177481506,
+          "probe_index": 0,
+          "probe_output": "icanosju",
+          "probe_truth": "icanosre"
+        }
+      ]
+    },
+    {
+      "id": "v1_natural7_13",
+      "true_score": -48.87391474655719,
+      "true_mean_score": -6.981987820936742,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "complete_no_counterexample",
+      "same_plaintext_states": 31,
+      "single_digit_keys_visited": 182770,
+      "single_digit_neighborhood_exhausted": true,
+      "witnesses": []
+    },
+    {
+      "id": "v1_natural7_14",
+      "true_score": -51.416897250157156,
+      "true_mean_score": -7.345271035736737,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "witness",
+      "same_plaintext_states": 11,
+      "single_digit_keys_visited": 36568,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "same_plaintext",
+          "key": {
+            "8": "ha",
+            "2": "r",
+            "5": "ke",
+            "3": "t",
+            "1": "o",
+            "9": "ime",
+            "7": "lea",
+            "6": "ve",
+            "0": "was",
+            "4": "it"
+          },
+          "training_output": [
+            "harker",
+            "that",
+            "it",
+            "was",
+            "time",
+            "to",
+            "leave"
+          ],
+          "score": -51.416897250157156,
+          "probe_index": 0,
+          "probe_output": "wasleakerve",
+          "probe_truth": "waslekerave"
+        },
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "6": "ave",
+            "8": "ha",
+            "9": "ime",
+            "4": "it",
+            "5": "ke",
+            "7": "le",
+            "1": "o",
+            "2": "n",
+            "3": "t",
+            "0": "was"
+          },
+          "training_output": [
+            "hanken",
+            "that",
+            "it",
+            "was",
+            "time",
+            "to",
+            "leave"
+          ],
+          "score": -51.416897250157156,
+          "probe_index": 0,
+          "probe_output": "waslekenave",
+          "probe_truth": "waslekerave"
+        }
+      ]
+    },
+    {
+      "id": "v1_natural7_15",
+      "true_score": -48.57271454506453,
+      "true_mean_score": -6.938959220723504,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "complete_no_counterexample",
+      "same_plaintext_states": 8,
+      "single_digit_keys_visited": 54887,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "5": "a",
+            "2": "bu",
+            "3": "be",
+            "0": "e",
+            "8": "h",
+            "6": "i",
+            "7": "on",
+            "1": "s",
+            "9": "t",
+            "4": "w"
+          },
+          "training_output": [
+            "but",
+            "what",
+            "is",
+            "this",
+            "on",
+            "the",
+            "behest"
+          ],
+          "score": -48.57271454506453,
+          "probe_index": 2,
+          "probe_output": "abewona",
+          "probe_truth": "acwona"
+        }
+      ]
+    },
+    {
+      "id": "v1_natural7_16",
+      "true_score": -49.53517806833223,
+      "true_mean_score": -7.076454009761747,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "complete_no_counterexample",
+      "same_plaintext_states": 7,
+      "single_digit_keys_visited": 146216,
+      "single_digit_neighborhood_exhausted": true,
+      "witnesses": []
+    },
+    {
+      "id": "v1_natural7_17",
+      "true_score": -69.73645636127083,
+      "true_mean_score": -9.962350908752976,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "witness",
+      "same_plaintext_states": 13,
+      "single_digit_keys_visited": 18292,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "same_plaintext",
+          "key": {
+            "5": "gri",
+            "4": "n",
+            "0": "i",
+            "3": "g",
+            "6": "th",
+            "2": "e",
+            "8": "wh",
+            "1": "al",
+            "7": "ou",
+            "9": "at"
+          },
+          "training_output": [
+            "i",
+            "grin",
+            "at",
+            "thee",
+            "thou",
+            "grinning",
+            "whale"
+          ],
+          "score": -69.73645636127083,
+          "probe_index": 1,
+          "probe_output": "gwhwhouth",
+          "probe_truth": "gwwouth"
+        },
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "9": "at",
+            "2": "e",
+            "3": "g",
+            "5": "gri",
+            "1": "o",
+            "0": "i",
+            "4": "n",
+            "7": "ou",
+            "6": "th",
+            "8": "w"
+          },
+          "training_output": [
+            "i",
+            "grin",
+            "at",
+            "thee",
+            "thou",
+            "grinning",
+            "woe"
+          ],
+          "score": -69.44641392587616,
+          "probe_index": 0,
+          "probe_output": "ewonth",
+          "probe_truth": "ewhalnth"
+        }
+      ]
+    },
+    {
+      "id": "v1_natural7_18",
+      "true_score": -59.34827003904803,
+      "true_mean_score": -8.478324291292576,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "complete_no_counterexample",
+      "same_plaintext_states": 12,
+      "single_digit_keys_visited": 54936,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "1": "ad",
+            "9": "bu",
+            "7": "for",
+            "8": "go",
+            "5": "h",
+            "6": "i",
+            "0": "s",
+            "2": "t",
+            "3": "da",
+            "4": "y"
+          },
+          "training_output": [
+            "but",
+            "go",
+            "thy",
+            "days",
+            "i",
+            "had",
+            "forgot"
+          ],
+          "score": -56.18205546032199,
+          "probe_index": 0,
+          "probe_output": "ydaadit",
+          "probe_truth": "ywaadit"
+        }
+      ]
+    },
+    {
+      "id": "v1_natural7_19",
+      "true_score": -61.673130942988664,
+      "true_mean_score": -8.810447277569809,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "complete_no_counterexample",
+      "same_plaintext_states": 36,
+      "single_digit_keys_visited": 54832,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "7": "a",
+            "6": "h",
+            "9": "ham",
+            "8": "i",
+            "3": "a",
+            "5": "mov",
+            "4": "nd",
+            "1": "ng",
+            "2": "s",
+            "0": "wit"
+          },
+          "training_output": [
+            "moving",
+            "his",
+            "hand",
+            "as",
+            "with",
+            "a",
+            "hama"
+          ],
+          "score": -61.673130942988664,
+          "probe_index": 1,
+          "probe_output": "aingwita",
+          "probe_truth": "meringwita"
+        }
+      ]
+    },
+    {
+      "id": "v1_natural7_20",
+      "true_score": -56.299842249508224,
+      "true_mean_score": -8.042834607072603,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "complete_no_counterexample",
+      "same_plaintext_states": 17,
+      "single_digit_keys_visited": 6,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "7": "bus",
+            "3": "e",
+            "2": "hat",
+            "5": "hav",
+            "1": "i",
+            "8": "n",
+            "0": "f",
+            "4": "s",
+            "6": "th",
+            "9": "w"
+          },
+          "training_output": [
+            "what",
+            "business",
+            "have",
+            "i",
+            "with",
+            "this",
+            "fife"
+          ],
+          "score": -56.299842249508224,
+          "probe_index": 1,
+          "probe_output": "ifnhavf",
+          "probe_truth": "ipnhavp"
+        }
+      ]
+    },
+    {
+      "id": "v1_natural7_21",
+      "true_score": -57.27723924077194,
+      "true_mean_score": -8.182462748681706,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "witness",
+      "same_plaintext_states": 34,
+      "single_digit_keys_visited": 44,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "same_plaintext",
+          "key": {
+            "3": "p",
+            "0": "oin",
+            "7": "t",
+            "6": "ed",
+            "2": "ve",
+            "5": "ry",
+            "1": "he",
+            "4": "ube",
+            "8": "me",
+            "9": "at"
+          },
+          "training_output": [
+            "the",
+            "very",
+            "tube",
+            "he",
+            "pointed",
+            "at",
+            "me"
+          ],
+          "score": -57.27723924077194,
+          "probe_index": 2,
+          "probe_output": "tprytat",
+          "probe_truth": "tperytat"
+        },
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "9": "at",
+            "6": "ed",
+            "5": "ery",
+            "1": "he",
+            "8": "me",
+            "0": "ar",
+            "3": "p",
+            "7": "t",
+            "4": "ube",
+            "2": "v"
+          },
+          "training_output": [
+            "the",
+            "very",
+            "tube",
+            "he",
+            "parted",
+            "at",
+            "me"
+          ],
+          "score": -57.100310523710974,
+          "probe_index": 5,
+          "probe_output": "atheeryarat",
+          "probe_truth": "atheeryoinat"
+        }
+      ]
+    },
+    {
+      "id": "v1_natural7_22",
+      "true_score": -59.565467227981394,
+      "true_mean_score": -8.5093524611402,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "complete_no_counterexample",
+      "same_plaintext_states": 8,
+      "single_digit_keys_visited": 18278,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "6": "b",
+            "4": "e",
+            "0": "h",
+            "9": "i",
+            "7": "l",
+            "2": "mu",
+            "1": "a",
+            "8": "r",
+            "5": "s",
+            "3": "t"
+          },
+          "training_output": [
+            "it",
+            "must",
+            "be",
+            "hes",
+            "last",
+            "his",
+            "tiller"
+          ],
+          "score": -59.21131958714379,
+          "probe_index": 4,
+          "probe_output": "reaht",
+          "probe_truth": "reoht"
+        }
+      ]
+    },
+    {
+      "id": "v1_natural7_23",
+      "true_score": -59.000917810892446,
+      "true_mean_score": -8.428702544413207,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "witness",
+      "same_plaintext_states": 10,
+      "single_digit_keys_visited": 91408,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "same_plaintext",
+          "key": {
+            "7": "t",
+            "1": "hr",
+            "8": "o",
+            "5": "ats",
+            "2": "c",
+            "0": "me",
+            "4": "ut",
+            "9": "hat",
+            "3": "f",
+            "6": "ye"
+          },
+          "training_output": [
+            "come",
+            "out",
+            "of",
+            "that",
+            "ye",
+            "cut",
+            "throats"
+          ],
+          "score": -59.000917810892446,
+          "probe_index": 0,
+          "probe_output": "yehatatscf",
+          "probe_truth": "yeatatscf"
+        },
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "9": "at",
+            "5": "w",
+            "2": "c",
+            "3": "f",
+            "0": "me",
+            "8": "o",
+            "1": "r",
+            "7": "th",
+            "4": "ut",
+            "6": "ye"
+          },
+          "training_output": [
+            "come",
+            "out",
+            "of",
+            "that",
+            "ye",
+            "cut",
+            "throw"
+          ],
+          "score": -58.08413321348665,
+          "probe_index": 0,
+          "probe_output": "yeatwcf",
+          "probe_truth": "yeatatscf"
+        }
+      ]
+    },
+    {
+      "id": "v1_natural7_24",
+      "true_score": -64.70251029655523,
+      "true_mean_score": -9.243215756650747,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "complete_no_counterexample",
+      "same_plaintext_states": 9,
+      "single_digit_keys_visited": 73117,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "1": "a",
+            "3": "d",
+            "6": "duc",
+            "5": "e",
+            "0": "g",
+            "4": "i",
+            "2": "i",
+            "9": "k",
+            "8": "n",
+            "7": "p"
+          },
+          "training_output": [
+            "duck",
+            "i",
+            "again",
+            "and",
+            "keep",
+            "ducking",
+            "i"
+          ],
+          "score": -63.82287672857236,
+          "probe_index": 0,
+          "probe_output": "iniii",
+          "probe_truth": "inhimhimhim"
+        }
+      ]
+    },
+    {
+      "id": "v1_natural7_25",
+      "true_score": -34.001161075911675,
+      "true_mean_score": -4.857308725130239,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "witness",
+      "same_plaintext_states": 12,
+      "single_digit_keys_visited": 182770,
+      "single_digit_neighborhood_exhausted": true,
+      "witnesses": [
+        {
+          "kind": "same_plaintext",
+          "key": {
+            "1": "t",
+            "7": "h",
+            "5": "a",
+            "3": "s",
+            "4": "ur",
+            "8": "e",
+            "9": "d",
+            "2": "i",
+            "0": "no",
+            "6": "m"
+          },
+          "training_output": [
+            "i",
+            "am",
+            "sure",
+            "that",
+            "i",
+            "did",
+            "not"
+          ],
+          "score": -34.001161075911675,
+          "probe_index": 0,
+          "probe_output": "ursnoai",
+          "probe_truth": "usnoai"
+        }
+      ]
+    },
+    {
+      "id": "v1_natural7_26",
+      "true_score": -70.48142757604603,
+      "true_mean_score": -10.068775368006575,
+      "true_below_acceptance_threshold": true,
+      "same_plaintext_search_status": "complete_no_counterexample",
+      "same_plaintext_states": 8,
+      "single_digit_keys_visited": 483,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "5": "adv",
+            "9": "anc",
+            "0": "ro",
+            "4": "cup",
+            "7": "e",
+            "6": "now",
+            "2": "o",
+            "1": "r",
+            "8": "s",
+            "3": "y"
+          },
+          "training_output": [
+            "so",
+            "so",
+            "now",
+            "ye",
+            "cup",
+            "rorers",
+            "advance"
+          ],
+          "score": -70.48142757604603,
+          "probe_index": 1,
+          "probe_output": "ynownowroo",
+          "probe_truth": "ynownowbeao"
+        }
+      ]
+    },
+    {
+      "id": "v1_natural7_27",
+      "true_score": -51.741453735379224,
+      "true_mean_score": -7.391636247911317,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "witness",
+      "same_plaintext_states": 44,
+      "single_digit_keys_visited": 127944,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "same_plaintext",
+          "key": {
+            "4": "jud",
+            "2": "gm",
+            "8": "e",
+            "3": "n",
+            "9": "t",
+            "5": "d",
+            "1": "a",
+            "0": "th",
+            "7": "ink",
+            "6": "of"
+          },
+          "training_output": [
+            "think",
+            "of",
+            "death",
+            "and",
+            "the",
+            "judgment",
+            "then"
+          ],
+          "score": -51.741453735379224,
+          "probe_index": 0,
+          "probe_output": "njudntjud",
+          "probe_truth": "njuntju"
+        },
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "1": "a",
+            "5": "d",
+            "2": "dgm",
+            "8": "e",
+            "7": "e",
+            "4": "ju",
+            "3": "n",
+            "6": "of",
+            "9": "t",
+            "0": "th"
+          },
+          "training_output": [
+            "the",
+            "of",
+            "death",
+            "and",
+            "the",
+            "judgment",
+            "then"
+          ],
+          "score": -51.30233618125047,
+          "probe_index": 5,
+          "probe_output": "aedde",
+          "probe_truth": "aeddink"
+        }
+      ]
+    },
+    {
+      "id": "v1_natural7_28",
+      "true_score": -59.2377019406908,
+      "true_mean_score": -8.462528848670114,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "witness",
+      "same_plaintext_states": 10,
+      "single_digit_keys_visited": 46,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "same_plaintext",
+          "key": {
+            "2": "w",
+            "5": "e",
+            "9": "n",
+            "6": "t",
+            "8": "h",
+            "1": "a",
+            "7": "jo",
+            "0": "is",
+            "3": "ro",
+            "4": "ad"
+          },
+          "training_output": [
+            "is",
+            "this",
+            "the",
+            "road",
+            "that",
+            "jonah",
+            "went"
+          ],
+          "score": -59.2377019406908,
+          "probe_index": 0,
+          "probe_output": "roiseise",
+          "probe_truth": "riseise"
+        },
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "1": "a",
+            "5": "e",
+            "8": "h",
+            "0": "at",
+            "7": "jo",
+            "9": "n",
+            "4": "oad",
+            "3": "r",
+            "6": "t",
+            "2": "w"
+          },
+          "training_output": [
+            "at",
+            "that",
+            "the",
+            "road",
+            "that",
+            "jonah",
+            "went"
+          ],
+          "score": -55.691863005296184,
+          "probe_index": 0,
+          "probe_output": "rateate",
+          "probe_truth": "riseise"
+        }
+      ]
+    },
+    {
+      "id": "v1_natural7_29",
+      "true_score": -63.91171953971767,
+      "true_mean_score": -9.130245648531096,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "complete_no_counterexample",
+      "same_plaintext_states": 74,
+      "single_digit_keys_visited": 18616,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "4": "amo",
+            "7": "ell",
+            "8": "els",
+            "6": "em",
+            "9": "g",
+            "2": "he",
+            "5": "n",
+            "1": "ma",
+            "0": "t",
+            "3": "w"
+          },
+          "training_output": [
+            "well",
+            "the",
+            "man",
+            "he",
+            "wheels",
+            "among",
+            "em"
+          ],
+          "score": -61.75931279336179,
+          "probe_index": 3,
+          "probe_output": "matemman",
+          "probe_truth": "sutemsun"
+        }
+      ]
+    },
+    {
+      "id": "v2_natural7_00",
+      "true_score": -57.491329863292364,
+      "true_mean_score": -8.213047123327481,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "witness",
+      "same_plaintext_states": 16,
+      "single_digit_keys_visited": 2,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "same_plaintext",
+          "key": {
+            "5": "a",
+            "8": "bou",
+            "1": "t",
+            "0": "c",
+            "3": "are",
+            "2": "hem",
+            "9": "don",
+            "4": "a",
+            "6": "i",
+            "7": "pin"
+          },
+          "training_output": [
+            "i",
+            "dont",
+            "care",
+            "a",
+            "pin",
+            "about",
+            "them"
+          ],
+          "score": -57.491329863292364,
+          "probe_index": 0,
+          "probe_output": "bouiabouc",
+          "probe_truth": "uiaboucar"
+        },
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "4": "a",
+            "5": "abo",
+            "0": "b",
+            "9": "don",
+            "3": "e",
+            "2": "hem",
+            "6": "i",
+            "7": "pin",
+            "1": "t",
+            "8": "u"
+          },
+          "training_output": [
+            "i",
+            "dont",
+            "be",
+            "a",
+            "pin",
+            "about",
+            "them"
+          ],
+          "score": -51.18504363702816,
+          "probe_index": 0,
+          "probe_output": "uiaboub",
+          "probe_truth": "uiaboucar"
+        }
+      ]
+    },
+    {
+      "id": "v2_natural7_01",
+      "true_score": -43.816419279120375,
+      "true_mean_score": -6.259488468445768,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "complete_no_counterexample",
+      "same_plaintext_states": 10,
+      "single_digit_keys_visited": 127959,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "8": "and",
+            "6": "bl",
+            "3": "e",
+            "4": "ha",
+            "5": "i",
+            "0": "o",
+            "2": "r",
+            "9": "s",
+            "1": "t",
+            "7": "t"
+          },
+          "training_output": [
+            "and",
+            "that",
+            "is",
+            "that",
+            "is",
+            "so",
+            "terrible"
+          ],
+          "score": -42.595764627959774,
+          "probe_index": 1,
+          "probe_output": "thahatt",
+          "probe_truth": "thahatw"
+        }
+      ]
+    },
+    {
+      "id": "v2_natural7_02",
+      "true_score": -46.51081666396012,
+      "true_mean_score": -6.644402380565731,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "witness",
+      "same_plaintext_states": 8,
+      "single_digit_keys_visited": 36563,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "same_plaintext",
+          "key": {
+            "0": "kn",
+            "4": "own",
+            "1": "t",
+            "5": "hat",
+            "7": "bef",
+            "9": "ore",
+            "2": "we",
+            "3": "oh",
+            "6": "had",
+            "8": "it"
+          },
+          "training_output": [
+            "oh",
+            "that",
+            "we",
+            "had",
+            "known",
+            "it",
+            "before"
+          ],
+          "score": -46.51081666396012,
+          "probe_index": 0,
+          "probe_output": "hatknhadorekn",
+          "probe_truth": "hatknohadorekno"
+        },
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "7": "bef",
+            "6": "had",
+            "5": "hat",
+            "8": "it",
+            "0": "kno",
+            "3": "oh",
+            "9": "ore",
+            "1": "t",
+            "2": "i",
+            "4": "wn"
+          },
+          "training_output": [
+            "oh",
+            "that",
+            "i",
+            "had",
+            "known",
+            "it",
+            "before"
+          ],
+          "score": -42.39708861583578,
+          "probe_index": 3,
+          "probe_output": "orehathatihat",
+          "probe_truth": "orehathatwehat"
+        }
+      ]
+    },
+    {
+      "id": "v2_natural7_03",
+      "true_score": -47.40404193283392,
+      "true_mean_score": -6.772005990404845,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "complete_no_counterexample",
+      "same_plaintext_states": 13,
+      "single_digit_keys_visited": 9,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "6": "be",
+            "7": "by",
+            "8": "ere",
+            "1": "h",
+            "3": "n",
+            "2": "o",
+            "0": "i",
+            "9": "t",
+            "4": "ug",
+            "5": "w"
+          },
+          "training_output": [
+            "i",
+            "ought",
+            "to",
+            "be",
+            "here",
+            "by",
+            "now"
+          ],
+          "score": -45.24379419997149,
+          "probe_index": 2,
+          "probe_output": "oiiereby",
+          "probe_truth": "oshesheereby"
+        }
+      ]
+    },
+    {
+      "id": "v2_natural7_04",
+      "true_score": -60.99516910421186,
+      "true_mean_score": -8.71359558631598,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "witness",
+      "same_plaintext_states": 16,
+      "single_digit_keys_visited": 36584,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "same_plaintext",
+          "key": {
+            "1": "sh",
+            "3": "or",
+            "8": "tly",
+            "5": "a",
+            "4": "l",
+            "0": "re",
+            "2": "ady",
+            "6": "is",
+            "7": "we",
+            "9": "off"
+          },
+          "training_output": [
+            "all",
+            "is",
+            "ready",
+            "we",
+            "are",
+            "off",
+            "shortly"
+          ],
+          "score": -60.99516910421186,
+          "probe_index": 0,
+          "probe_output": "reisshshre",
+          "probe_truth": "reisssre"
+        },
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "5": "a",
+            "2": "ad",
+            "3": "hor",
+            "6": "is",
+            "4": "l",
+            "9": "off",
+            "0": "re",
+            "1": "s",
+            "8": "tly",
+            "7": "we"
+          },
+          "training_output": [
+            "all",
+            "is",
+            "read",
+            "we",
+            "are",
+            "off",
+            "shortly"
+          ],
+          "score": -60.64570724853483,
+          "probe_index": 2,
+          "probe_output": "weofftlyadad",
+          "probe_truth": "weofftlyadyady"
+        }
+      ]
+    },
+    {
+      "id": "v2_natural7_05",
+      "true_score": -47.62472683379955,
+      "true_mean_score": -6.803532404828507,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "witness",
+      "same_plaintext_states": 18,
+      "single_digit_keys_visited": 36959,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "same_plaintext",
+          "key": {
+            "1": "t",
+            "2": "hin",
+            "6": "k",
+            "0": "mus",
+            "5": "h",
+            "4": "ome",
+            "9": "bac",
+            "3": "go",
+            "7": "and",
+            "8": "i"
+          },
+          "training_output": [
+            "i",
+            "must",
+            "go",
+            "back",
+            "home",
+            "and",
+            "think"
+          ],
+          "score": -47.62472683379955,
+          "probe_index": 0,
+          "probe_output": "hinhikhin",
+          "probe_truth": "hinhomikhin"
+        },
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "7": "and",
+            "9": "bac",
+            "4": "e",
+            "3": "go",
+            "2": "oo",
+            "5": "hom",
+            "8": "i",
+            "6": "k",
+            "0": "mus",
+            "1": "t"
+          },
+          "training_output": [
+            "i",
+            "must",
+            "go",
+            "back",
+            "home",
+            "and",
+            "took"
+          ],
+          "score": -47.52220107425468,
+          "probe_index": 0,
+          "probe_output": "oohomikoo",
+          "probe_truth": "hinhomikhin"
+        }
+      ]
+    },
+    {
+      "id": "v2_natural7_06",
+      "true_score": -46.45153646622019,
+      "true_mean_score": -6.635933780888599,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "witness",
+      "same_plaintext_states": 7,
+      "single_digit_keys_visited": 54910,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "same_plaintext",
+          "key": {
+            "6": "a",
+            "3": "g",
+            "1": "i",
+            "5": "n",
+            "4": "c",
+            "7": "om",
+            "2": "e",
+            "8": "d",
+            "9": "h"
+          },
+          "training_output": [
+            "he",
+            "come",
+            "again",
+            "and",
+            "again",
+            "and",
+            "again"
+          ],
+          "score": -46.45153646622019,
+          "probe_index": 0,
+          "probe_output": "niomomc",
+          "probe_truth": "nimmco"
+        },
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "6": "a",
+            "4": "ca",
+            "8": "d",
+            "2": "e",
+            "3": "g",
+            "9": "h",
+            "1": "i",
+            "7": "m",
+            "5": "n"
+          },
+          "training_output": [
+            "he",
+            "came",
+            "again",
+            "and",
+            "again",
+            "and",
+            "again"
+          ],
+          "score": -42.95226800873651,
+          "probe_index": 0,
+          "probe_output": "nimmca",
+          "probe_truth": "nimmco"
+        }
+      ]
+    },
+    {
+      "id": "v2_natural7_07",
+      "true_score": -55.26264215081454,
+      "true_mean_score": -7.894663164402077,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "complete_no_counterexample",
+      "same_plaintext_states": 10,
+      "single_digit_keys_visited": 182770,
+      "single_digit_neighborhood_exhausted": true,
+      "witnesses": []
+    },
+    {
+      "id": "v2_natural7_08",
+      "true_score": -52.55700824605657,
+      "true_mean_score": -7.508144035150939,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "complete_no_counterexample",
+      "same_plaintext_states": 10,
+      "single_digit_keys_visited": 20,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "5": "for",
+            "8": "g",
+            "1": "ha",
+            "4": "ked",
+            "3": "l",
+            "6": "o",
+            "7": "t",
+            "2": "ve",
+            "0": "t",
+            "9": "you"
+          },
+          "training_output": [
+            "have",
+            "you",
+            "got",
+            "that",
+            "you",
+            "looked",
+            "for"
+          ],
+          "score": -51.1522483426897,
+          "probe_index": 0,
+          "probe_output": "youvettve",
+          "probe_truth": "youvetwve"
+        }
+      ]
+    },
+    {
+      "id": "v2_natural7_09",
+      "true_score": -52.632442352527825,
+      "true_mean_score": -7.5189203360754036,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "complete_no_counterexample",
+      "same_plaintext_states": 20,
+      "single_digit_keys_visited": 18278,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "7": "be",
+            "5": "ck",
+            "8": "for",
+            "4": "he",
+            "1": "a",
+            "3": "i",
+            "2": "me",
+            "9": "qu",
+            "0": "s",
+            "6": "t"
+          },
+          "training_output": [
+            "be",
+            "quick",
+            "for",
+            "the",
+            "time",
+            "is",
+            "sat"
+          ],
+          "score": -52.570460218993986,
+          "probe_index": 6,
+          "probe_output": "iaforckt",
+          "probe_truth": "ihorforckt"
+        }
+      ]
+    },
+    {
+      "id": "v2_natural7_10",
+      "true_score": -49.47661552769689,
+      "true_mean_score": -7.068087932528128,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "witness",
+      "same_plaintext_states": 9,
+      "single_digit_keys_visited": 13,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "same_plaintext",
+          "key": {
+            "2": "e",
+            "9": "y",
+            "6": "s",
+            "3": "n",
+            "5": "w",
+            "8": "it",
+            "7": "h",
+            "1": "av",
+            "0": "o",
+            "4": "ur"
+          },
+          "training_output": [
+            "we",
+            "have",
+            "seen",
+            "it",
+            "with",
+            "our",
+            "eyes"
+          ],
+          "score": -49.47661552769689,
+          "probe_index": 0,
+          "probe_output": "urosen",
+          "probe_truth": "rousen"
+        },
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "1": "av",
+            "2": "e",
+            "7": "h",
+            "8": "it",
+            "3": "n",
+            "0": "m",
+            "4": "r",
+            "6": "s",
+            "5": "w",
+            "9": "y"
+          },
+          "training_output": [
+            "we",
+            "have",
+            "seen",
+            "it",
+            "with",
+            "mr",
+            "eyes"
+          ],
+          "score": -48.10243396691893,
+          "probe_index": 0,
+          "probe_output": "rmsen",
+          "probe_truth": "rousen"
+        }
+      ]
+    },
+    {
+      "id": "v2_natural7_11",
+      "true_score": -62.35034858160615,
+      "true_mean_score": -8.907192654515164,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "witness",
+      "same_plaintext_states": 17,
+      "single_digit_keys_visited": 18,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "same_plaintext",
+          "key": {
+            "0": "g",
+            "3": "an",
+            "2": "mu",
+            "1": "s",
+            "4": "t",
+            "7": "the",
+            "8": "re",
+            "9": "cl",
+            "6": "ock",
+            "5": "i"
+          },
+          "training_output": [
+            "theres",
+            "the",
+            "clock",
+            "an",
+            "i",
+            "must",
+            "gang"
+          ],
+          "score": -62.35034858160615,
+          "probe_index": 0,
+          "probe_output": "sreockclt",
+          "probe_truth": "sreckclot"
+        },
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "3": "an",
+            "6": "ck",
+            "9": "clo",
+            "0": "s",
+            "5": "i",
+            "2": "mu",
+            "8": "re",
+            "1": "s",
+            "4": "t",
+            "7": "the"
+          },
+          "training_output": [
+            "theres",
+            "the",
+            "clock",
+            "an",
+            "i",
+            "must",
+            "sans"
+          ],
+          "score": -62.35034858160615,
+          "probe_index": 1,
+          "probe_output": "stclotan",
+          "probe_truth": "gtclotan"
+        }
+      ]
+    },
+    {
+      "id": "v2_natural7_12",
+      "true_score": -45.27654346557052,
+      "true_mean_score": -6.468077637938646,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "complete_no_counterexample",
+      "same_plaintext_states": 8,
+      "single_digit_keys_visited": 18281,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "3": "e",
+            "2": "d",
+            "8": "ha",
+            "1": "i",
+            "6": "m",
+            "5": "o",
+            "7": "s",
+            "9": "t"
+          },
+          "training_output": [
+            "it",
+            "is",
+            "time",
+            "that",
+            "i",
+            "do",
+            "too"
+          ],
+          "score": -44.00230540746059,
+          "probe_index": 3,
+          "probe_output": "ediei",
+          "probe_truth": "egiei"
+        }
+      ]
+    },
+    {
+      "id": "v2_natural7_13",
+      "true_score": -49.71430744303527,
+      "true_mean_score": -7.102043920433609,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "witness",
+      "same_plaintext_states": 9,
+      "single_digit_keys_visited": 55078,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "same_plaintext",
+          "key": {
+            "4": "st",
+            "9": "at",
+            "0": "ion",
+            "5": "m",
+            "1": "u",
+            "2": "yo",
+            "8": "eet",
+            "3": "at",
+            "6": "the",
+            "7": "her"
+          },
+          "training_output": [
+            "you",
+            "must",
+            "meet",
+            "her",
+            "at",
+            "the",
+            "station"
+          ],
+          "score": -49.71430744303527,
+          "probe_index": 0,
+          "probe_output": "ionhermherthe",
+          "probe_truth": "onhermherthe"
+        },
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "3": "in",
+            "9": "ati",
+            "8": "eet",
+            "7": "her",
+            "5": "m",
+            "0": "on",
+            "4": "st",
+            "6": "the",
+            "1": "u",
+            "2": "yo"
+          },
+          "training_output": [
+            "you",
+            "must",
+            "meet",
+            "her",
+            "in",
+            "the",
+            "station"
+          ],
+          "score": -48.289122538697136,
+          "probe_index": 1,
+          "probe_output": "theeetinmati",
+          "probe_truth": "theeetatmati"
+        }
+      ]
+    },
+    {
+      "id": "v2_natural7_14",
+      "true_score": -49.32635107690429,
+      "true_mean_score": -7.0466215824148986,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "complete_no_counterexample",
+      "same_plaintext_states": 10,
+      "single_digit_keys_visited": 54832,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "9": "ay",
+            "0": "d",
+            "8": "ec",
+            "6": "f",
+            "7": "i",
+            "3": "a",
+            "1": "o",
+            "2": "r",
+            "4": "s",
+            "5": "t"
+          },
+          "training_output": [
+            "it",
+            "is",
+            "a",
+            "record",
+            "of",
+            "to",
+            "day"
+          ],
+          "score": -47.88660845061069,
+          "probe_index": 6,
+          "probe_output": "arsecs",
+          "probe_truth": "myrsecs"
+        }
+      ]
+    },
+    {
+      "id": "v2_natural7_15",
+      "true_score": -58.55625451081956,
+      "true_mean_score": -8.365179215831365,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "witness",
+      "same_plaintext_states": 8,
+      "single_digit_keys_visited": 9,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "same_plaintext",
+          "key": {
+            "4": "w",
+            "7": "i",
+            "1": "l",
+            "3": "e",
+            "2": "ep",
+            "5": "mur",
+            "9": "der",
+            "6": "the",
+            "0": "so",
+            "8": "and"
+          },
+          "training_output": [
+            "weep",
+            "so",
+            "and",
+            "i",
+            "will",
+            "murder",
+            "thee"
+          ],
+          "score": -58.55625451081956,
+          "probe_index": 1,
+          "probe_output": "liepiand",
+          "probe_truth": "lipiand"
+        },
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "8": "and",
+            "9": "der",
+            "3": "ee",
+            "7": "i",
+            "1": "l",
+            "5": "mur",
+            "2": "p",
+            "0": "i",
+            "6": "th",
+            "4": "w"
+          },
+          "training_output": [
+            "weep",
+            "i",
+            "and",
+            "i",
+            "will",
+            "murder",
+            "thee"
+          ],
+          "score": -58.35870467988367,
+          "probe_index": 0,
+          "probe_output": "limuril",
+          "probe_truth": "lsomursol"
+        }
+      ]
+    },
+    {
+      "id": "v2_natural7_16",
+      "true_score": -49.50689202277353,
+      "true_mean_score": -7.072413146110504,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "witness",
+      "same_plaintext_states": 15,
+      "single_digit_keys_visited": 13732,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "same_plaintext",
+          "key": {
+            "9": "t",
+            "8": "ur",
+            "7": "n",
+            "1": "m",
+            "6": "y",
+            "2": "fro",
+            "4": "bod",
+            "5": "he",
+            "0": "i",
+            "3": "sun"
+          },
+          "training_output": [
+            "i",
+            "turn",
+            "my",
+            "body",
+            "from",
+            "the",
+            "sun"
+          ],
+          "score": -49.50689202277353,
+          "probe_index": 0,
+          "probe_output": "miboduri",
+          "probe_truth": "mibodui"
+        },
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "4": "bod",
+            "2": "fro",
+            "5": "he",
+            "0": "the",
+            "1": "m",
+            "7": "rn",
+            "3": "sun",
+            "9": "t",
+            "8": "u",
+            "6": "y"
+          },
+          "training_output": [
+            "the",
+            "turn",
+            "my",
+            "body",
+            "from",
+            "the",
+            "sun"
+          ],
+          "score": -49.49157878855801,
+          "probe_index": 0,
+          "probe_output": "mtheboduthe",
+          "probe_truth": "mibodui"
+        }
+      ]
+    },
+    {
+      "id": "v2_natural7_17",
+      "true_score": -71.55507851426952,
+      "true_mean_score": -10.222154073467076,
+      "true_below_acceptance_threshold": true,
+      "same_plaintext_search_status": "witness",
+      "same_plaintext_states": 6,
+      "single_digit_keys_visited": 36555,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "same_plaintext",
+          "key": {
+            "1": "t",
+            "6": "h",
+            "5": "em",
+            "7": "s",
+            "4": "ame",
+            "8": "cow",
+            "9": "ard",
+            "0": "u",
+            "3": "pon",
+            "2": "all"
+          },
+          "training_output": [
+            "shame",
+            "upon",
+            "all",
+            "cowards",
+            "shame",
+            "upon",
+            "them"
+          ],
+          "score": -71.55507851426952,
+          "probe_index": 0,
+          "probe_output": "ameponalltard",
+          "probe_truth": "ameonalltard"
+        },
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "2": "a",
+            "4": "ame",
+            "9": "ard",
+            "8": "cow",
+            "5": "em",
+            "6": "h",
+            "3": "on",
+            "7": "s",
+            "1": "t",
+            "0": "up"
+          },
+          "training_output": [
+            "shame",
+            "upon",
+            "a",
+            "cowards",
+            "shame",
+            "upon",
+            "them"
+          ],
+          "score": -68.35294441446791,
+          "probe_index": 0,
+          "probe_output": "ameonatard",
+          "probe_truth": "ameonalltard"
+        }
+      ]
+    },
+    {
+      "id": "v2_natural7_18",
+      "true_score": -46.514843453683135,
+      "true_mean_score": -6.644977636240448,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "witness",
+      "same_plaintext_states": 19,
+      "single_digit_keys_visited": 251,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "same_plaintext",
+          "key": {
+            "4": "t",
+            "8": "he",
+            "0": "m",
+            "3": "w",
+            "2": "hat",
+            "6": "ant",
+            "7": "d",
+            "1": "oes",
+            "5": "but",
+            "9": "of"
+          },
+          "training_output": [
+            "but",
+            "what",
+            "does",
+            "he",
+            "want",
+            "of",
+            "them"
+          ],
+          "score": -46.514843453683135,
+          "probe_index": 0,
+          "probe_output": "butdmoesoes",
+          "probe_truth": "butdoemss"
+        },
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "6": "ant",
+            "5": "but",
+            "7": "doe",
+            "2": "hat",
+            "8": "he",
+            "0": "ir",
+            "9": "of",
+            "1": "s",
+            "4": "t",
+            "3": "w"
+          },
+          "training_output": [
+            "but",
+            "what",
+            "does",
+            "he",
+            "want",
+            "of",
+            "their"
+          ],
+          "score": -46.268798243533105,
+          "probe_index": 0,
+          "probe_output": "butdoeirss",
+          "probe_truth": "butdoemss"
+        }
+      ]
+    },
+    {
+      "id": "v2_natural7_19",
+      "true_score": -49.25971276731335,
+      "true_mean_score": -7.037101823901907,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "witness",
+      "same_plaintext_states": 16,
+      "single_digit_keys_visited": 18286,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "same_plaintext",
+          "key": {
+            "4": "wo",
+            "8": "r",
+            "5": "d",
+            "0": "ep",
+            "2": "ly",
+            "1": "but",
+            "3": "not",
+            "6": "he",
+            "7": "did",
+            "9": "a"
+          },
+          "training_output": [
+            "but",
+            "not",
+            "a",
+            "word",
+            "did",
+            "he",
+            "reply"
+          ],
+          "score": -49.25971276731335,
+          "probe_index": 1,
+          "probe_output": "butrbutbutep",
+          "probe_truth": "butrbutbute"
+        },
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "9": "a",
+            "1": "i",
+            "5": "d",
+            "7": "did",
+            "0": "e",
+            "6": "he",
+            "3": "not",
+            "2": "ply",
+            "8": "r",
+            "4": "wo"
+          },
+          "training_output": [
+            "i",
+            "not",
+            "a",
+            "word",
+            "did",
+            "he",
+            "reply"
+          ],
+          "score": -48.46713291861434,
+          "probe_index": 1,
+          "probe_output": "iriie",
+          "probe_truth": "butrbutbute"
+        }
+      ]
+    },
+    {
+      "id": "v2_natural7_20",
+      "true_score": -67.7423219777427,
+      "true_mean_score": -9.677474568248957,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "witness",
+      "same_plaintext_states": 8,
+      "single_digit_keys_visited": 18620,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "same_plaintext",
+          "key": {
+            "6": "n",
+            "5": "e",
+            "2": "ar",
+            "9": "o",
+            "0": "w",
+            "7": "a",
+            "8": "liv",
+            "4": "ay",
+            "1": "all",
+            "3": "him"
+          },
+          "training_output": [
+            "aye",
+            "all",
+            "alive",
+            "now",
+            "we",
+            "near",
+            "him"
+          ],
+          "score": -67.7423219777427,
+          "probe_index": 0,
+          "probe_output": "himaaew",
+          "probe_truth": "himalialiew"
+        },
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "7": "ali",
+            "1": "me",
+            "2": "ar",
+            "4": "ay",
+            "5": "e",
+            "3": "him",
+            "6": "n",
+            "9": "o",
+            "8": "v",
+            "0": "w"
+          },
+          "training_output": [
+            "aye",
+            "me",
+            "alive",
+            "now",
+            "we",
+            "near",
+            "him"
+          ],
+          "score": -67.65406688576468,
+          "probe_index": 1,
+          "probe_output": "himnvwme",
+          "probe_truth": "himnvwall"
+        }
+      ]
+    },
+    {
+      "id": "v2_natural7_21",
+      "true_score": -60.58398213769176,
+      "true_mean_score": -8.654854591098823,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "witness",
+      "same_plaintext_states": 34,
+      "single_digit_keys_visited": 45,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "same_plaintext",
+          "key": {
+            "3": "h",
+            "4": "and",
+            "7": "s",
+            "1": "m",
+            "6": "ake",
+            "5": "t",
+            "9": "urn",
+            "8": "ail",
+            "0": "up",
+            "2": "all"
+          },
+          "training_output": [
+            "turn",
+            "up",
+            "all",
+            "hands",
+            "and",
+            "make",
+            "sail"
+          ],
+          "score": -60.58398213769176,
+          "probe_index": 2,
+          "probe_output": "sailmupurn",
+          "probe_truth": "sailmuprn"
+        },
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "8": "ail",
+            "6": "ake",
+            "2": "all",
+            "4": "and",
+            "3": "h",
+            "1": "m",
+            "9": "rn",
+            "7": "s",
+            "5": "tu",
+            "0": "as"
+          },
+          "training_output": [
+            "turn",
+            "as",
+            "all",
+            "hands",
+            "and",
+            "make",
+            "sail"
+          ],
+          "score": -60.329528127253084,
+          "probe_index": 0,
+          "probe_output": "andasasturn",
+          "probe_truth": "andupupturn"
+        }
+      ]
+    },
+    {
+      "id": "v2_natural7_22",
+      "true_score": -63.54583096330992,
+      "true_mean_score": -9.077975851901417,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "witness",
+      "same_plaintext_states": 8,
+      "single_digit_keys_visited": 45,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "same_plaintext",
+          "key": {
+            "4": "ga",
+            "3": "sps",
+            "7": "jo",
+            "9": "nah",
+            "8": "cl",
+            "1": "ose",
+            "0": "air",
+            "2": "is",
+            "5": "the",
+            "6": "and"
+          },
+          "training_output": [
+            "the",
+            "air",
+            "is",
+            "close",
+            "and",
+            "jonah",
+            "gasps"
+          ],
+          "score": -63.54583096330992,
+          "probe_index": 0,
+          "probe_output": "nahisspsandis",
+          "probe_truth": "ahispsandis"
+        },
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "9": "ah",
+            "0": "as",
+            "6": "and",
+            "8": "clo",
+            "4": "gas",
+            "2": "is",
+            "7": "jon",
+            "3": "ps",
+            "1": "se",
+            "5": "the"
+          },
+          "training_output": [
+            "the",
+            "as",
+            "is",
+            "close",
+            "and",
+            "jonah",
+            "gasps"
+          ],
+          "score": -63.26122642222574,
+          "probe_index": 2,
+          "probe_output": "andaspsandis",
+          "probe_truth": "andairpsandis"
+        }
+      ]
+    },
+    {
+      "id": "v2_natural7_23",
+      "true_score": -50.30656820079414,
+      "true_mean_score": -7.186652600113448,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "complete_no_counterexample",
+      "same_plaintext_states": 11,
+      "single_digit_keys_visited": 18593,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "9": "a",
+            "2": "e",
+            "6": "f",
+            "5": "i",
+            "1": "le",
+            "4": "o",
+            "3": "r",
+            "8": "sam",
+            "0": "th",
+            "7": "w"
+          },
+          "training_output": [
+            "with",
+            "a",
+            "feather",
+            "of",
+            "the",
+            "same",
+            "fowle"
+          ],
+          "score": -50.30656820079414,
+          "probe_index": 4,
+          "probe_output": "aoleee",
+          "probe_truth": "aolee"
+        }
+      ]
+    },
+    {
+      "id": "v2_natural7_24",
+      "true_score": -51.752660083884,
+      "true_mean_score": -7.3932371548405715,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "complete_no_counterexample",
+      "same_plaintext_states": 8,
+      "single_digit_keys_visited": 73125,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "7": "b",
+            "5": "ca",
+            "8": "e",
+            "4": "r",
+            "3": "i",
+            "0": "l",
+            "1": "n",
+            "6": "o",
+            "2": "t"
+          },
+          "training_output": [
+            "i",
+            "tell",
+            "tree",
+            "no",
+            "it",
+            "cannot",
+            "be"
+          ],
+          "score": -51.63609856883931,
+          "probe_index": 1,
+          "probe_output": "lnrei",
+          "probe_truth": "lnhei"
+        }
+      ]
+    },
+    {
+      "id": "v2_natural7_25",
+      "true_score": -68.92693425433644,
+      "true_mean_score": -9.846704893476636,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "complete_no_counterexample",
+      "same_plaintext_states": 7,
+      "single_digit_keys_visited": 36567,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "8": "a",
+            "6": "c",
+            "3": "e",
+            "7": "m",
+            "0": "n",
+            "1": "o",
+            "9": "s",
+            "4": "t",
+            "2": "m",
+            "5": "y"
+          },
+          "training_output": [
+            "my",
+            "stay",
+            "ye",
+            "not",
+            "men",
+            "ye",
+            "come"
+          ],
+          "score": -65.39653626185921,
+          "probe_index": 1,
+          "probe_output": "mmsnm",
+          "probe_truth": "whwhsnm"
+        }
+      ]
+    },
+    {
+      "id": "v2_natural7_26",
+      "true_score": -55.172990254940416,
+      "true_mean_score": -7.881855750705774,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "complete_no_counterexample",
+      "same_plaintext_states": 8,
+      "single_digit_keys_visited": 146216,
+      "single_digit_neighborhood_exhausted": true,
+      "witnesses": []
+    },
+    {
+      "id": "v2_natural7_27",
+      "true_score": -50.33792032819823,
+      "true_mean_score": -7.19113147545689,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "witness",
+      "same_plaintext_states": 17,
+      "single_digit_keys_visited": 36767,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "same_plaintext",
+          "key": {
+            "5": "t",
+            "3": "he",
+            "0": "y",
+            "7": "ab",
+            "8": "ou",
+            "1": "wh",
+            "4": "at",
+            "9": "ell",
+            "2": "did",
+            "6": "him"
+          },
+          "training_output": [
+            "what",
+            "did",
+            "they",
+            "tell",
+            "you",
+            "about",
+            "him"
+          ],
+          "score": -50.33792032819823,
+          "probe_index": 2,
+          "probe_output": "abyellwhy",
+          "probe_truth": "abyellwy"
+        },
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "7": "ab",
+            "2": "he",
+            "9": "ell",
+            "4": "hat",
+            "3": "he",
+            "6": "him",
+            "8": "ou",
+            "5": "t",
+            "1": "w",
+            "0": "y"
+          },
+          "training_output": [
+            "what",
+            "he",
+            "they",
+            "tell",
+            "you",
+            "about",
+            "him"
+          ],
+          "score": -50.27510098429874,
+          "probe_index": 0,
+          "probe_output": "tyhimyhe",
+          "probe_truth": "tyhimydid"
+        }
+      ]
+    },
+    {
+      "id": "v2_natural7_28",
+      "true_score": -53.80862446501349,
+      "true_mean_score": -7.686946352144784,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "witness",
+      "same_plaintext_states": 8,
+      "single_digit_keys_visited": 1,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "same_plaintext",
+          "key": {
+            "1": "cl",
+            "2": "ear",
+            "5": "b",
+            "4": "lue",
+            "9": "st",
+            "3": "eel",
+            "0": "day",
+            "6": "a",
+            "7": "was",
+            "8": "it"
+          },
+          "training_output": [
+            "it",
+            "was",
+            "a",
+            "clear",
+            "steel",
+            "blue",
+            "day"
+          ],
+          "score": -53.80862446501349,
+          "probe_index": 0,
+          "probe_output": "bearitearwas",
+          "probe_truth": "bluaritarwas"
+        },
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "6": "a",
+            "2": "ar",
+            "5": "blu",
+            "1": "cle",
+            "0": "a",
+            "4": "e",
+            "3": "eel",
+            "8": "it",
+            "9": "st",
+            "7": "was"
+          },
+          "training_output": [
+            "it",
+            "was",
+            "a",
+            "clear",
+            "steel",
+            "blue",
+            "a"
+          ],
+          "score": -52.8367952428278,
+          "probe_index": 2,
+          "probe_output": "eelwasaast",
+          "probe_truth": "eelwasdaydayst"
+        }
+      ]
+    },
+    {
+      "id": "v2_natural7_29",
+      "true_score": -53.84220834648305,
+      "true_mean_score": -7.691744049497578,
+      "true_below_acceptance_threshold": false,
+      "same_plaintext_search_status": "complete_no_counterexample",
+      "same_plaintext_states": 28,
+      "single_digit_keys_visited": 54850,
+      "single_digit_neighborhood_exhausted": false,
+      "witnesses": [
+        {
+          "kind": "single_digit_replacement",
+          "key": {
+            "9": "an",
+            "8": "but",
+            "1": "e",
+            "0": "i",
+            "3": "s",
+            "2": "o",
+            "5": "r",
+            "4": "s",
+            "6": "t",
+            "7": "th"
+          },
+          "training_output": [
+            "but",
+            "there",
+            "is",
+            "another",
+            "this",
+            "to",
+            "rebut"
+          ],
+          "score": -52.78548566234788,
+          "probe_index": 3,
+          "probe_output": "osrss",
+          "probe_truth": "osrngs"
+        }
+      ]
+    }
+  ],
+  "scope": "Verified finite witnesses against the unchanged score/model; absence of a witness is not global identifiability. No game ciphertext was fitted."
+}

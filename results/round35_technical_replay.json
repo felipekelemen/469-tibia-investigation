@@ -1,0 +1,182 @@
+{
+  "incident": "data/round35_execution_note.json",
+  "original_result_sha256": "f543a42f56bfcebdaa783fc214bc710b39746cd8beaddd5d50bbe0b4f1838b50",
+  "affected_index_zero_based": 257,
+  "original_row": {
+    "id": "v2_name_oov7_02",
+    "version": "v2",
+    "scenario": "name_oov7",
+    "fit": {
+      "status": "limit",
+      "limit": "outer_timeout",
+      "top": [],
+      "wall_seconds": 47.177600661991164,
+      "child_cpu_seconds": 1.022582000000023
+    },
+    "mean_log_score": null,
+    "retained_key_score_gap": null,
+    "training_candidate_accepted": false,
+    "input_exact": false,
+    "observed_key_exact": false,
+    "probes": [
+      {
+        "raw": "50690",
+        "missing_digits": [],
+        "output": null,
+        "accepted": false
+      },
+      {
+        "raw": "55895",
+        "missing_digits": [],
+        "output": null,
+        "accepted": false
+      },
+      {
+        "raw": "84411",
+        "missing_digits": [],
+        "output": null,
+        "accepted": false
+      },
+      {
+        "raw": "95525",
+        "missing_digits": [],
+        "output": null,
+        "accepted": false
+      },
+      {
+        "raw": "61840",
+        "missing_digits": [],
+        "output": null,
+        "accepted": false
+      },
+      {
+        "raw": "77516",
+        "missing_digits": [],
+        "output": null,
+        "accepted": false
+      },
+      {
+        "raw": "29887",
+        "missing_digits": [],
+        "output": null,
+        "accepted": false
+      },
+      {
+        "raw": "49107",
+        "missing_digits": [],
+        "output": null,
+        "accepted": false
+      },
+      {
+        "raw": "82903",
+        "missing_digits": [],
+        "output": null,
+        "accepted": false
+      },
+      {
+        "raw": "01017",
+        "missing_digits": [],
+        "output": null,
+        "accepted": false
+      }
+    ],
+    "reserved_probe_letter_accuracy": 0.0,
+    "passes_positive_gate": false,
+    "negative_false_acceptance": false,
+    "ambiguous_false_certainty": false,
+    "missing_symbol_false_prediction": false
+  },
+  "unchanged_replay_row": {
+    "id": "v2_name_oov7_02",
+    "version": "v2",
+    "scenario": "name_oov7",
+    "fit": {
+      "status": "limit",
+      "limit": "extensions",
+      "checks": 1001830,
+      "local_visits": 376629,
+      "generated_local_rows": 77537,
+      "pruned": 1573,
+      "extensions": 1001829,
+      "retained": 0,
+      "top": [],
+      "wall_seconds": 1.386269943031948,
+      "child_cpu_seconds": 1.3816879999999998
+    },
+    "mean_log_score": null,
+    "retained_key_score_gap": null,
+    "training_candidate_accepted": false,
+    "input_exact": false,
+    "observed_key_exact": false,
+    "probes": [
+      {
+        "raw": "50690",
+        "missing_digits": [],
+        "output": null,
+        "accepted": false
+      },
+      {
+        "raw": "55895",
+        "missing_digits": [],
+        "output": null,
+        "accepted": false
+      },
+      {
+        "raw": "84411",
+        "missing_digits": [],
+        "output": null,
+        "accepted": false
+      },
+      {
+        "raw": "95525",
+        "missing_digits": [],
+        "output": null,
+        "accepted": false
+      },
+      {
+        "raw": "61840",
+        "missing_digits": [],
+        "output": null,
+        "accepted": false
+      },
+      {
+        "raw": "77516",
+        "missing_digits": [],
+        "output": null,
+        "accepted": false
+      },
+      {
+        "raw": "29887",
+        "missing_digits": [],
+        "output": null,
+        "accepted": false
+      },
+      {
+        "raw": "49107",
+        "missing_digits": [],
+        "output": null,
+        "accepted": false
+      },
+      {
+        "raw": "82903",
+        "missing_digits": [],
+        "output": null,
+        "accepted": false
+      },
+      {
+        "raw": "01017",
+        "missing_digits": [],
+        "output": null,
+        "accepted": false
+      }
+    ],
+    "reserved_probe_letter_accuracy": 0.0,
+    "passes_positive_gate": false,
+    "negative_false_acceptance": false,
+    "ambiguous_false_certainty": false,
+    "missing_symbol_false_prediction": false
+  },
+  "evaluation_identical": true,
+  "fit_equal_except_timing": false,
+  "disposition": "Original run retained verbatim; replay additive, no scientific settings changed."
+}

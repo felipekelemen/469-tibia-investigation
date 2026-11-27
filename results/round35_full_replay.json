@@ -1,0 +1,92 @@
+{
+  "round": 35,
+  "frozen_hash_references": 40,
+  "fixtures_verified": 480,
+  "unique_natural_input_segments": 60,
+  "exact_normalized_training_sentence_overlap": 0,
+  "qualification_status_counts": {
+    "limit": 418,
+    "unsupported_unspaced_training": 60,
+    "no_candidate_in_beam": 2
+  },
+  "all_qualification_decisions_recomputed": true,
+  "technical_replay_decision_unchanged": true,
+  "independently_verified_witnesses": 84,
+  "cases_with_counterexamples": 55,
+  "same_plaintext_cases": 30,
+  "examples_are_synthetic_benchmark_not_469": [
+    {
+      "id": "v1_natural7_03",
+      "input_english": "what is it thats wrong with her",
+      "true_key": {
+        "6": "a",
+        "8": "e",
+        "4": "h",
+        "7": "i",
+        "1": "ng",
+        "0": "o",
+        "3": "r",
+        "9": "s",
+        "2": "t",
+        "5": "w"
+      },
+      "alternative_key": {
+        "2": "t",
+        "4": "h",
+        "6": "a",
+        "9": "s",
+        "5": "w",
+        "3": "r",
+        "0": "on",
+        "1": "g",
+        "7": "i",
+        "8": "e"
+      },
+      "probe": "37891",
+      "true_output": "riesng",
+      "alternative_output": "riesg"
+    },
+    {
+      "id": "v1_natural7_05",
+      "input_english": "i can hear them on the outside",
+      "true_key": {
+        "4": "ar",
+        "9": "can",
+        "8": "he",
+        "2": "hem",
+        "3": "i",
+        "5": "ide",
+        "0": "on",
+        "7": "ou",
+        "6": "s",
+        "1": "t"
+      },
+      "alternative_key": {
+        "7": "ou",
+        "1": "t",
+        "6": "si",
+        "5": "de",
+        "2": "hem",
+        "8": "he",
+        "4": "ar",
+        "0": "on",
+        "3": "i",
+        "9": "can"
+      },
+      "probe": "83516",
+      "true_output": "heiidets",
+      "alternative_output": "heidetsi"
+    }
+  ],
+  "external_peer_review": false,
+  "validated_translation": false,
+  "scope": "Internal independent implementation of literal witness and score checks; not source authentication, blind recovery or global impossibility.",
+  "full_replay": {
+    "fixture_and_model_regeneration": "identical",
+    "qualification_rows_replayed": 480,
+    "oracle_diagnostic_replayed": 60,
+    "scientific_outputs_identical": true,
+    "technical_pause_case_compared_with_documented_replay": true,
+    "replay_child_cpu_seconds": 239.784121
+  }
+}

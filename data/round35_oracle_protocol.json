@@ -1,0 +1,16 @@
+{
+  "stage": "Post-fit diagnostic, frozen after both M1versions failed and before oracle challenge; not a third recovery configuration or a qualified decoder.",
+  "question": "Does the unchanged score admit an alternative observed-digit key with equal/higher score but different reserved output, even when the correct natural input is supplied to the diagnostic?",
+  "cases": "All60natural7fixtures; do not select by score or observed success.",
+  "tests": [
+    "Check true mean score against the frozen acceptance threshold. A truth below threshold cannot be accepted by this configuration.",
+    "Search alternative segmentations of the same seven known English words under the unchanged1..3letter emissions; a different probe output at identical plaintext implies exactly tied language score.",
+    "Enumerate single-digit replacement units oflength1..3overa-z. Keep all training outputs lexical; return first candidate with score>=true score and a different probe output. Absence of a local witness does not exclude global alternatives."
+  ],
+  "limits": {
+    "segmentation_states_per_case": 100000,
+    "replacement_keys_per_case": 182780
+  },
+  "outputs": "Independent literal verification of every witness; counts of semantic-score and key-identification obstructions. Gold key/plaintext used intentionally; zero blind recovery claims.",
+  "interpretation": "If witness found, a higher score or equivalent training phrase does not uniquely determine the true transfer. If none found, unresolved outside these finite neighborhoods. No statement that469has no meaning."
+}

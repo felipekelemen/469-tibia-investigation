@@ -880,5 +880,26 @@
     "status": "table_text_confirmed_physical_history_and_causal_link_not_established",
     "evidence": "Tabela4x4 coincide exatamente no post3169247, com data exibida25/01/2009. Captura atual, fuso desconhecido e possível fonte compartilhada; não é medição de pilhas nem captura arquivada em2009. Nenhuma chave ou transição nova.",
     "artifact": "data/round34_sources.json"
+  },
+  {
+    "id": "H127",
+    "hypothesis": "Busca de emissões fixas de1–3letras com pontuação inglesa unigram/bigram recupera texto e chave no cenário curto",
+    "status": "not_qualified_two_frozen_configurations_bounded_searches",
+    "evidence": "M1beam64/256:0/30trechos naturais aprovados em cada;418ajustes limitados,60sem espaços não suportados,2sem candidata no beam. Abstenção total torna0falsas aceitações vacuamente seguro; não é rejeição exaustiva de inglês. Nenhum ajuste ao jogo.",
+    "artifact": "results/round35_qualification.json"
+  },
+  {
+    "id": "H128",
+    "hypothesis": "Mesmo o inglês verdadeiro e pontuação igual ou melhor identificam unicamente a chave para novos trechos no modelo fixo",
+    "status": "counterexamples_confirmed_in_synthetic_benchmark_not_game_translation",
+    "evidence": "Diagnóstico com verdade conhecida em60bases:30com mesmo inglês e transferência diferente;54com troca de uma emissão e escore igual/superior;55na união.84testemunhas verificadas por implementação separada. Nem todas as diferenças necessariamente excedem5%; alternativas lexicais não são automaticamente prosa.",
+    "artifact": "results/round35_oracle.json"
+  },
+  {
+    "id": "H129",
+    "hypothesis": "O ciclo finito v3 fornece evidência suficiente para conclusão T ou G",
+    "status": "not_established_cycle_closed_I_after_conditional_stage_disposition",
+    "evidence": "E1sem evidência decisiva;E2reprovada;E3/E4/E5não acionadas por dependências ausentes;E6reprodução e dossiê por fonte. I não é impossibilidade universal ou ausência de utilidade no jogo.",
+    "artifact": "data/mission_conclusion_v3.json"
   }
 ]

@@ -1,0 +1,22 @@
+{
+  "stage": "After blind fits, post-fit oracle diagnostic and independent witness audit; before clean public-only replay.",
+  "sha256": {
+    "data/round35_protocol.json": "78160bf47659fceb5ae044b381f8e1362334a4a8a581081935e6467a4ab9cdad",
+    "data/round35_fixtures.json": "1ab04a4041d933de48885cbf4a8abb7b34beadb6bc71f6b0d36937d9404cfb0e",
+    "data/round35_model_manifest.json": "c362a449a676bbd7be81d36ae9fd9b31526f4d2e2ea419d1eaeded58e525f34a",
+    "data/round35_prerun_manifest.json": "51a4dcd6df8d2655f40c093b1b98238a2b6c75cbe5d08f6255a502f0289ff202",
+    "data/round35_execution_manifest.json": "432e2b45c07c3a97570426523039011e84f9db60c44c0b4b7b63bc786d06d870",
+    "data/round35_execution_note.json": "93848f01f9da57b4258a68a1247037f053fe0de2e9c4bab6cdca3bb4be15b04e",
+    "data/round35_oracle_protocol.json": "39ed632f3c532214aa496004d7ebc7dbb640888f2cb0428416e7ac976edf0cb2",
+    "data/round35_oracle_manifest.json": "b5bbab4da1aa03473ba123252847d88c32e1bec4eb943a244daa9e02108b9766",
+    "scripts/round35_fixtures.py": "804d835804ee4a8a7c420fc483d30f84587925efbbfa56d10dd08e55f3d38bdb",
+    "scripts/round35_experiment.py": "5fa38ef43ecaab917cf28539298faec6dfa44b43169d6a15ef36d8b385599cf8",
+    "scripts/round35_beam.cpp": "a8508e590b59e691f9cc297da76fdd0815de5d6de22fc4da7af665d8e5a61553",
+    "scripts/round35_oracle.py": "2e7de82608ce7680f3172ce56d8095fdac057aa09587bd0911e7b3f748829d74",
+    "scripts/run_round35.py": "441b4fab2690f29f2ae7693021d9232cf7fda79495f26d865b542edeb831e640",
+    "tests/test_round35_beam.py": "1624b8837e96464f7ae3bdb4059bbdb030aca09a57a91a36627a6cb7a3847c25",
+    "results/round35_qualification.json": "f543a42f56bfcebdaa783fc214bc710b39746cd8beaddd5d50bbe0b4f1838b50",
+    "results/round35_technical_replay.json": "3c78f7075c89f70b24ae78762cfb809683b033081ab9f1674ab46a751694c4d7",
+    "results/round35_oracle.json": "690a59c77a1f81e5557d9f3025bd0a44e223e5caebc3cb770b9eea6f7eb10e37"
+  }
+}

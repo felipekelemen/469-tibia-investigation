@@ -1,0 +1,21 @@
+{
+  "stage": "After successful E6 public-only reproduction,330tests and final disposition; editorial README/Makefile/hypothesis registry remain mutable.",
+  "sha256": {
+    "data/mission_conclusion_v3.json": "3256ba22284a4320395f81f91e4f1dbbd69accb5dd8c64cb64438799bb556bfd",
+    "data/plan_progress_round35.json": "534b9c2f2ff9e935e606a18e5e7f7de582e0043a7824ef523ef303fdc66e30e8",
+    "data/round35_e6_protocol.json": "d9dc5e1890c8ff2a6cac2987401c7f43170677b35f110a1a70e58cffe2eab553",
+    "docs/mission_conclusion_v3.md": "2156d68aed876bc09a3af001c5f82998b05430b0fe3cc1c57f394f6e507c7e34",
+    "docs/round35.md": "2d2b5315d02f1f50ffb42a117bace4f641cfa239f988f0218834e1f650821e51",
+    "scripts/check_mission_v3.py": "869d3e65b199dfce8833df15e5c4571f42b2fa40b5ecb52a31943466ee21069f",
+    "scripts/round35_clean_replay.py": "f1325f1aeb8259f764be0133bf0487af1e39d6bc0b6fa143b135ea1049c45edd",
+    "results/round35_audit.json": "83bfbabcbdbef28b9a2068f5e8fb0e05cb2d5c47bd716b73996e93ecffd36cc1",
+    "results/round35_clean_replay.json": "0c6586a9f86dc1172aa8eb6bb174b05bdfddc284a38f37bc46867260cd85997e",
+    "results/round35_full_replay.json": "2b7f11fbc24e84d759757fbc368a79e50d6e162d0c3fd2cb69640e9411d367bc",
+    "data/round35_result_manifest.json": "36234c9846e7cf9218b748eadfacb5ce449126c9f256a0ee5292a748fcfe98d2",
+    "results/round35_replay/round30.log": "de738bbca23845aa095631a8408d2d9ae0e178e2107dfdc4ff93f4a566f45c6b",
+    "results/round35_replay/round33.log": "ea031b0a47d886c05ff8008eb839dd2315d499d8e94f723a91736bd53fe338da",
+    "results/round35_replay/round34.log": "a698dc25caf09b63dbafa7f0a745fac5e615952b92da372c9eb9e08f49cf126e",
+    "results/round35_replay/round35_full.log": "1615aae4424a480dc52362a0d1d601c84871343d50c9287ce3297caab5b17214",
+    "results/round35_replay/tests.log": "223aa3104fb453fb535a37969023cc5d469b9c71e31676cc643164bd5990963b"
+  }
+}

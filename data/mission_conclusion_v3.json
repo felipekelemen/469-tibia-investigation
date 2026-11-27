@@ -1,0 +1,157 @@
+{
+  "plan": "docs/mission_plan_v3.md",
+  "date_utc": "2026-11-27",
+  "completed_through_round": 35,
+  "mission_outcome": "I_inconclusive",
+  "cycle_closed": true,
+  "translation_validated": false,
+  "original_nontextual_process_authenticated": false,
+  "universal_impossibility_proved": false,
+  "stages": {
+    "E1": "completed_bounded_no_decisive_evidence",
+    "E2": "completed_M1_two_versions_not_qualified",
+    "E3": "not_activated_no_qualified_relevant_method_new_mechanism_or_semantic_anchor",
+    "E4": "not_activated_no_eligible_original_process_artifacts",
+    "E5": "not_activated_no_validatable_candidate_and_independent_reference",
+    "E6": "completed_clean_public_replay_internal_independent_witness_checks_cycle_closed_I"
+  },
+  "new_candidate_translation": null,
+  "sources": [
+    {
+      "id": "avar_tar_poem",
+      "input_literal": "29639 46781! 9063376290 3222011 677 80322429 67538 14805394, 6880326 677 63378129 337011 72683 149630 4378! 453 639 578300 986372 2953639!",
+      "original_url": "https://tibia.fandom.com/wiki/Avar_Tar",
+      "gloss_status": "untranslated",
+      "validated_translation": null,
+      "outcome": "I",
+      "mechanism_validated": null,
+      "version_scope": "Exact public transcription quoted here; provenance limitations retained from source catalog.",
+      "assessment": "No validated decoder or authenticated English counterpart; structural anagrams do not supply meaning. Preserve literal4378.",
+      "evidence": [
+        "results/round24_anagram.json",
+        "results/round25_structure.json",
+        "data/round34_observations.json"
+      ],
+      "G_evidence": "No authenticated original nontext production process for this source."
+    },
+    {
+      "id": "knightmare_2012",
+      "input_literal": "3478 67 90871 97664 3466 0 345!",
+      "original_url": "https://tibia.fandom.com/wiki/Knightmare_(NPC)",
+      "gloss_status": "community_gloss_only",
+      "validated_translation": null,
+      "outcome": "I",
+      "mechanism_validated": null,
+      "version_scope": "Exact public transcription quoted here; provenance limitations retained from source catalog.",
+      "assessment": "153174074 lexical observed-digit keys in frozen1..3letter model, not translations. E2M1not qualified; missing digit2unidentified.",
+      "evidence": [
+        "results/round33_summary.json",
+        "results/round35_qualification.json",
+        "results/round35_oracle.json"
+      ],
+      "G_evidence": "No authenticated original nontext production process for this source."
+    },
+    {
+      "id": "chayenne_2009_part1",
+      "input_literal": "114514519485611451908304576512282177",
+      "original_url": "https://forum.portaltibia.com.br/topic/11420-entrevista-com-chayenne/",
+      "gloss_status": "untranslated",
+      "validated_translation": null,
+      "outcome": "I",
+      "mechanism_validated": null,
+      "version_scope": "Exact public transcription quoted here; provenance limitations retained from source catalog.",
+      "assessment": "Public interview fragment overlaps books; not an independent semantic holdout. No authenticated plaintext.",
+      "evidence": [
+        "docs/round22.md",
+        "docs/round19.md",
+        "data/round34_observations.json"
+      ],
+      "G_evidence": "No authenticated original nontext production process for this source."
+    },
+    {
+      "id": "chayenne_2009_part2",
+      "input_literal": "6612527570584",
+      "original_url": "https://forum.portaltibia.com.br/topic/11420-entrevista-com-chayenne/",
+      "gloss_status": "untranslated",
+      "validated_translation": null,
+      "outcome": "I",
+      "mechanism_validated": null,
+      "version_scope": "Exact public transcription quoted here; provenance limitations retained from source catalog.",
+      "assessment": "Second interview fragment also reuses corpus material; no authenticated English correspondence or origin process.",
+      "evidence": [
+        "docs/round19.md",
+        "data/round34_observations.json"
+      ],
+      "G_evidence": "No authenticated original nontext production process for this source."
+    },
+    {
+      "id": "hellgate_70_books",
+      "outcome": "I",
+      "version_scope": "Frozen three-upstream corpus,70books11263digits; no matched original version history.",
+      "mechanism_validated": null,
+      "validated_translation": null,
+      "assessment": "5729imported symbols reproduced; boundaries and English semantics not discovered. Duplicated motifs prevent treating books as independent samples.",
+      "evidence": [
+        "results/round30_corpus.json",
+        "data/normalized_splits.json",
+        "data/round34_observations.json"
+      ],
+      "G_evidence": "No authenticated original production mechanism."
+    }
+  ],
+  "E2": {
+    "method": "M1 fixed1..3letter digit emissions with frozen word unigram/bigram score",
+    "configurations": 2,
+    "natural_cases_per_configuration": 30,
+    "passes": [
+      0,
+      0
+    ],
+    "required_per_configuration": 27,
+    "total_scenario_rows": 480,
+    "independent_natural_bases": 60,
+    "limitations": "418limited fits,60unsupported unspaced,2beam exhaustion; negative acceptance0is vacuous due complete abstention. Tests are internal, selected encoder/lexicon-eligible literature; probes are artificial combinations.",
+    "oracle_cases": 60,
+    "oracle_cases_with_equal_or_higher_scoring_wrong_transfer_witness": 55,
+    "oracle_witnesses_independently_checked": 84,
+    "oracle_diagnostic_not_blind_recovery": true,
+    "unused_second_method_slot": "No distinct motivated constraint supplied by E1; not mandatory to fill slot."
+  },
+  "names": {
+    "3478_contextual_name": "Documented in versioned wiki; not an English spelling or internal-ID proof.",
+    "3478_BEHOLDER_BONELORD": "Scoped crib/radix/lookup exclusions retained; arbitrary word code hypothesis unidentified.",
+    "hellgate": "Enumerated families closed, physical counts and transition unconfirmed; no5x5physical key authenticated.",
+    "rename_coincidence": "Not confirmed; pre-rename reports do not establish an exact transition."
+  },
+  "resources": {
+    "E1_queries": 20,
+    "E1_capture_operations": 27,
+    "original_fit_child_CPU_seconds": 235.812336,
+    "oracle_CPU_seconds": 2.580957,
+    "technical_replay_child_CPU_seconds": 1.381688,
+    "preparation_CPU_accounting": "Not fully instrumented. Reserve3600CPU-seconds as an administrative allowance, not an observed measurement.",
+    "CPU_ceiling_seconds": 172800,
+    "validation_reservation_seconds": 28800,
+    "budget_exhaustion_is_not_stop_reason": true,
+    "E6_child_CPU_seconds_including_full_replay_and_tests": 299.85604299999994,
+    "measured_total_R35_and_E6_CPU_seconds": 539.6310239999999
+  },
+  "reopening_requires": [
+    "New authenticated primary evidence",
+    "Demonstrated material error changing a result",
+    "Method newly qualified for the relevant scenario",
+    "Distinct specified mechanism with an independently falsifiable prediction"
+  ],
+  "external_peer_review_obtained": false,
+  "verification": {
+    "snapshot_files": 903,
+    "clean_replay_jobs_passed": 5,
+    "tests_passed": 330,
+    "changed_or_removed_snapshot_files": [],
+    "all_480_qualification_rows_reproduced": true,
+    "all_60_oracle_cases_reproduced": true,
+    "fixtures_and_model_rebuilt_identically": true,
+    "external_peer_review": false,
+    "artifact": "results/round35_clean_replay.json"
+  }
+}

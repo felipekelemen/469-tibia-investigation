@@ -1,0 +1,37 @@
+{
+  "plan": "docs/mission_plan_v3.md",
+  "completed_through_round": 35,
+  "latest_report": "docs/round35.md",
+  "mission_conclusion": "docs/mission_conclusion_v3.md",
+  "mission_outcome": "I_inconclusive",
+  "cycle_closed": true,
+  "translation_validated": false,
+  "original_nontextual_process_authenticated": false,
+  "stages": {
+    "E1": "completed_bounded_no_decisive_evidence",
+    "E2": "completed_M1_two_versions_not_qualified",
+    "E3": "not_activated_no_qualified_relevant_method_new_mechanism_or_semantic_anchor",
+    "E4": "not_activated_no_eligible_original_process_artifacts",
+    "E5": "not_activated_no_validatable_candidate_and_independent_reference",
+    "E6": "completed_clean_public_replay_internal_independent_witness_checks_cycle_closed_I"
+  },
+  "remaining_stages_requiring_future_disposition": [],
+  "conditional_stages_not_executed": [
+    "E3",
+    "E4",
+    "E5"
+  ],
+  "new_candidate_translation": null,
+  "hypotheses_added": [
+    "H127",
+    "H128",
+    "H129"
+  ],
+  "next_action": "No active round pending in v3. Reopen only on a listed scientific trigger.",
+  "reopening_requires": [
+    "New authenticated primary evidence",
+    "Demonstrated material error changing a result",
+    "Method newly qualified for the relevant scenario",
+    "Distinct specified mechanism with an independently falsifiable prediction"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "stage": "before_new_fixture_generation",
+  "sha256": {
+    "data/english_reference/alice.txt": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+    "data/benchmark_reference/frankenstein.txt": "2b97b7f8aad508649481d8dd4f6b54f9b965ddb3ba634e9151c815f537b49e42",
+    "data/benchmark_reference/pride_prejudice.txt": "3f6bb9d6f78e0293b56acd4714dd68cb7d6d1d293402031ce9d5a216bcaf9d75",
+    "data/benchmark_reference_v3/dracula.txt": "96cd16eacdbfebae8fdda5591f66e0cc8ee76be18e0cd1aca02bc00615782d28",
+    "data/benchmark_reference_v3/moby_dick.txt": "b5e88b71a1cda068e9ab1d94344c9d932338ba6da1a66def97a1aecd9cfcc87d",
+    "data/round35_protocol.json": "78160bf47659fceb5ae044b381f8e1362334a4a8a581081935e6467a4ab9cdad",
+    "data/mission_plan_v3.json": "62adeda044116eadd86c38f206832e782ac518aa13a3b2a5cd61c86843c0885f",
+    "scripts/unit_morphism_lexicon.py": "4e1bc4aef71d2b8d6146f00fe2f917d0934743ebb2e79ada737a2ce53c113e9d"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "resumed_at_utc": "2026-11-27T15:19:49.320398+00:00",
+  "completed_rows_at_pause": 257,
+  "last_completed_id": "v2_unspaced_02",
+  "completed_versions": [
+    "v1",
+    "v2"
+  ],
+  "action": "Resume unchanged predeclared V2; automatic V2dispatch had already begun, so proposed amendment is not made. One in-flight subprocess may have wall time affected by parent pause; replay that case with unchanged parameters before adjudication.",
+  "scientific_parameters_changed": false,
+  "qualification_rows_discarded": 0
+}

@@ -95,6 +95,13 @@ round33-full:
 .PHONY: round34
 round34:
 	$(PYTHON) scripts/run_round34.py
+.PHONY: round35 round35-full mission-audit
+round35:
+	$(PYTHON) scripts/run_round35.py
+round35-full:
+	$(PYTHON) scripts/run_round35.py --full
+mission-audit:
+	$(PYTHON) scripts/check_mission_v3.py
 research-audit:
 	$(PYTHON) scripts/audit_external_samples.py
 test:

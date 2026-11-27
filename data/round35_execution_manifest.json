@@ -1,0 +1,15 @@
+{
+  "stage": "After fixture generation and four independent utility checks; before any qualification fit.",
+  "sha256": {
+    "data/round35_protocol.json": "78160bf47659fceb5ae044b381f8e1362334a4a8a581081935e6467a4ab9cdad",
+    "data/round35_fixtures.json": "1ab04a4041d933de48885cbf4a8abb7b34beadb6bc71f6b0d36937d9404cfb0e",
+    "data/round35_model_manifest.json": "c362a449a676bbd7be81d36ae9fd9b31526f4d2e2ea419d1eaeded58e525f34a",
+    "scripts/round35_beam.cpp": "a8508e590b59e691f9cc297da76fdd0815de5d6de22fc4da7af665d8e5a61553",
+    "scripts/round35_experiment.py": "5fa38ef43ecaab917cf28539298faec6dfa44b43169d6a15ef36d8b385599cf8",
+    "scripts/round35_fixtures.py": "804d835804ee4a8a7c420fc483d30f84587925efbbfa56d10dd08e55f3d38bdb",
+    "scripts/unit_morphism_lexicon.py": "4e1bc4aef71d2b8d6146f00fe2f917d0934743ebb2e79ada737a2ce53c113e9d",
+    "data/cmudict_reference/cmudict.dict": "81917843c7f44ce2b094ac63873c2c7a4cf802040792c455ba3ca406891c3d22",
+    "data/cmudict_reference/cmudict.phones": "ffb588a5e55684723582c7256e1d2f9fadb130011392d9e59237c76e34c2cfd6",
+    "tests/test_round35_beam.py": "1624b8837e96464f7ae3bdb4059bbdb030aca09a57a91a36627a6cb7a3847c25"
+  }
+}
