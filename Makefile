@@ -107,6 +107,11 @@ round36:
 	$(PYTHON) scripts/run_round36.py
 round36-full:
 	$(PYTHON) scripts/run_round36.py --full
+.PHONY: round37 round37-full
+round37:
+	$(PYTHON) scripts/run_round37.py
+round37-full:
+	$(PYTHON) scripts/run_round37.py --full
 research-audit:
 	$(PYTHON) scripts/audit_external_samples.py
 test:

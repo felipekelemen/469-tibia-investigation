@@ -915,5 +915,26 @@
     "status": "not_supported_conditional_uniqueness_also_in_shuffled_controls",
     "evidence": "Todos os5embaralhamentos fixados contêm células com mensagem única. As131células únicas deKnightmare agrupam-se em12prefixos de6palavras; inspeção literal não encontrou frase inglesa coerente.267017testemunhas verificadas. Controle descritivo, sem p-valor ou autenticação semântica.",
     "artifact": "results/round36/unique_frames.json"
+  },
+  {
+    "id": "H132",
+    "hypothesis": "As fontes de 345 → KNOWLEDGE, 345 → FOOL ou 90871 → WIT fornecem uma âncora inglesa autoral independente",
+    "status": "not_authenticated_in_bounded_source_search",
+    "evidence": "12 consultas, 13 operações de página, 9 HTTPs. KNOWLEDGE aparece em trecho indexado de comentário de 2012 citando imagem não recuperada. WIT/FOOL derivam de leitura comunitária ajustada; upstream reconhece circularidade. Nenhuma nova correspondência autoral.",
+    "artifact": "data/round37_sources.json"
+  },
+  {
+    "id": "H133",
+    "hypothesis": "As três associações publicadas são compatíveis e suficientes no modelo fixo de 1–3 letras por dígito",
+    "status": "two_incompatible_one_compatible_but_underdetermined_in_frozen_family",
+    "evidence": "KNOWLEDGE = 0, FOOL = 3.976, WIT = 0 chaves da fala inteira; três contagens novas concordam com R36. As três âncoras dão zero nos cinco embaralhamentos antigos. Comparação posterior descritiva, sem significado autenticado; zero não refuta código de palavras inteiras.",
+    "artifact": "results/round37_claim_checks.json"
+  },
+  {
+    "id": "H134",
+    "hypothesis": "A tabela por pares do artigo 160 determina sua frase inglesa ajustada sem escolhas adicionais",
+    "status": "literal_output_reproduced_adjusted_reading_requires_occurrence_choices",
+    "evidence": "Saída literal BE A TIV TAN BE * VF. Expansões com ordem preservada dão 22.464 sequências e não a leitura ajustada; permutações prévias dos símbolos dão 6.469.632 e a incluem. Artigo permite anagramas: falha ordenada não refuta proposta inteira; alcance da frase não é transferência independente.",
+    "artifact": "results/round37_claim_checks.json"
   }
 ]

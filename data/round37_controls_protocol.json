@@ -1,0 +1,7 @@
+{
+  "stage": "After real-message results, before reading these conditioned shuffle counts",
+  "selection": "All five within-word shuffles already fixed and fully counted in R36, no new selection",
+  "anchor_claims": "Same three frozen claims from data/round37_claims.json, matched by word position",
+  "comparison": "Exact conditional key counts and descriptive surviving fraction; no p-value, significance claim, or newly held-out validation",
+  "scope": "A post-target diagnostic using previously exposed controls, not a preregistered predictive translation test"
+}

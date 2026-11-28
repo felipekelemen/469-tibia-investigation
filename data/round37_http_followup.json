@@ -1,0 +1,14 @@
+[
+  {
+    "id": "article160",
+    "url": "https://www.tibiasecrets.com/article160",
+    "retrieved_at_utc": "2026-11-28T16:28:50.354714+00:00",
+    "status": 403,
+    "final_url": "https://www.tibiasecrets.com/article160",
+    "content_type": null,
+    "bytes": 17,
+    "sha256": "2938e9f1284180959e33ab1718d0793a72ff6e4cdb8108c34dcd14e69446de5c",
+    "error": "HTTP Error 403: Forbidden",
+    "body_local_ignored": "data/private/round37/http2_article160.body"
+  }
+]

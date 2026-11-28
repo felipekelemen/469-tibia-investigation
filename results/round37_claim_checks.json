@@ -1,0 +1,430 @@
+{
+  "round": 37,
+  "article160": {
+    "padded_groups": [
+      "3478",
+      "67",
+      "090871",
+      "097664",
+      "3466",
+      "00",
+      "0345"
+    ],
+    "literal": "BE A TIV TAN BE * VF",
+    "adjusted_claim": "BE A WIT THAN BE A FOOL",
+    "modes": {
+      "ordered": {
+        "groups": [
+          {
+            "raw": "3478",
+            "literal": "BE",
+            "claimed": "BE",
+            "distinct_local_strings": 1,
+            "claim_is_reachable": true,
+            "claim_witness": {
+              "base_order": "BE",
+              "units": [
+                "B",
+                "E"
+              ]
+            }
+          },
+          {
+            "raw": "67",
+            "literal": "A",
+            "claimed": "A",
+            "distinct_local_strings": 1,
+            "claim_is_reachable": true,
+            "claim_witness": {
+              "base_order": "A",
+              "units": [
+                "A"
+              ]
+            }
+          },
+          {
+            "raw": "90871",
+            "literal": "TIV",
+            "claimed": "WIT",
+            "distinct_local_strings": 36,
+            "claim_is_reachable": false,
+            "claim_witness": null
+          },
+          {
+            "raw": "97664",
+            "literal": "TAN",
+            "claimed": "THAN",
+            "distinct_local_strings": 4,
+            "claim_is_reachable": true,
+            "claim_witness": {
+              "base_order": "TAN",
+              "units": [
+                "TH",
+                "A",
+                "N"
+              ]
+            }
+          },
+          {
+            "raw": "3466",
+            "literal": "BE",
+            "claimed": "BE",
+            "distinct_local_strings": 1,
+            "claim_is_reachable": true,
+            "claim_witness": {
+              "base_order": "BE",
+              "units": [
+                "B",
+                "E"
+              ]
+            }
+          },
+          {
+            "raw": "0",
+            "literal": "*",
+            "claimed": "A",
+            "distinct_local_strings": 26,
+            "claim_is_reachable": true,
+            "claim_witness": {
+              "base_order": "*",
+              "units": [
+                "A"
+              ]
+            }
+          },
+          {
+            "raw": "345",
+            "literal": "VF",
+            "claimed": "FOOL",
+            "distinct_local_strings": 6,
+            "claim_is_reachable": false,
+            "claim_witness": null
+          }
+        ],
+        "independent_position_choice_product": 22464,
+        "complete_claim_reachable": false
+      },
+      "permuted_base_symbols": {
+        "groups": [
+          {
+            "raw": "3478",
+            "literal": "BE",
+            "claimed": "BE",
+            "distinct_local_strings": 2,
+            "claim_is_reachable": true,
+            "claim_witness": {
+              "base_order": "BE",
+              "units": [
+                "B",
+                "E"
+              ]
+            }
+          },
+          {
+            "raw": "67",
+            "literal": "A",
+            "claimed": "A",
+            "distinct_local_strings": 1,
+            "claim_is_reachable": true,
+            "claim_witness": {
+              "base_order": "A",
+              "units": [
+                "A"
+              ]
+            }
+          },
+          {
+            "raw": "90871",
+            "literal": "TIV",
+            "claimed": "WIT",
+            "distinct_local_strings": 216,
+            "claim_is_reachable": true,
+            "claim_witness": {
+              "base_order": "VIT",
+              "units": [
+                "W",
+                "I",
+                "T"
+              ]
+            }
+          },
+          {
+            "raw": "97664",
+            "literal": "TAN",
+            "claimed": "THAN",
+            "distinct_local_strings": 24,
+            "claim_is_reachable": true,
+            "claim_witness": {
+              "base_order": "TAN",
+              "units": [
+                "TH",
+                "A",
+                "N"
+              ]
+            }
+          },
+          {
+            "raw": "3466",
+            "literal": "BE",
+            "claimed": "BE",
+            "distinct_local_strings": 2,
+            "claim_is_reachable": true,
+            "claim_witness": {
+              "base_order": "BE",
+              "units": [
+                "B",
+                "E"
+              ]
+            }
+          },
+          {
+            "raw": "0",
+            "literal": "*",
+            "claimed": "A",
+            "distinct_local_strings": 26,
+            "claim_is_reachable": true,
+            "claim_witness": {
+              "base_order": "*",
+              "units": [
+                "A"
+              ]
+            }
+          },
+          {
+            "raw": "345",
+            "literal": "VF",
+            "claimed": "FOOL",
+            "distinct_local_strings": 12,
+            "claim_is_reachable": true,
+            "claim_witness": {
+              "base_order": "FV",
+              "units": [
+                "F",
+                "OOL"
+              ]
+            }
+          }
+        ],
+        "independent_position_choice_product": 6469632,
+        "complete_claim_reachable": true
+      }
+    },
+    "scope": "Exact finite reconstruction, allowing occurrence-specific expansions. Cartesian counts are strings with fixed word boundaries, not probabilities, fixed keys, grammatical sentences, or new candidates. No unknown text decoded."
+  },
+  "anchors": {
+    "total_unconditioned_keys": 153174074,
+    "lexicon_forms": 122368,
+    "claims": [
+      {
+        "raw": "345",
+        "word": "KNOWLEDGE",
+        "word_in_lexicon": true,
+        "isolated_assignments": [
+          {
+            "3": "KNO",
+            "4": "WLE",
+            "5": "DGE"
+          }
+        ],
+        "marginal_count": 0,
+        "fresh_count": {
+          "complete": true,
+          "count": "0",
+          "observed_mask": 1019,
+          "private_mask": 34,
+          "pair_visits": 10268738,
+          "peak_table_rows": 4480512,
+          "elimination_order": [
+            0,
+            6,
+            9,
+            7,
+            8,
+            3
+          ],
+          "local_tables": [
+            {
+              "raw": "0",
+              "remaining_mask": 1,
+              "rows": 1829
+            },
+            {
+              "raw": "67",
+              "remaining_mask": 192,
+              "rows": 75708
+            },
+            {
+              "raw": "345",
+              "remaining_mask": 24,
+              "rows": 1
+            },
+            {
+              "raw": "3466",
+              "remaining_mask": 88,
+              "rows": 7534
+            },
+            {
+              "raw": "3478",
+              "remaining_mask": 408,
+              "rows": 1356268
+            },
+            {
+              "raw": "97664",
+              "remaining_mask": 720,
+              "rows": 21271
+            },
+            {
+              "raw": "90871",
+              "remaining_mask": 897,
+              "rows": 1762870
+            }
+          ]
+        },
+        "counts_match": true,
+        "forced_3466": {
+          "regex": "KNOWLE(?P<d6>[\\s\\S]{1,3})(?P=d6)",
+          "lexical_matches": []
+        }
+      },
+      {
+        "raw": "345",
+        "word": "FOOL",
+        "word_in_lexicon": true,
+        "isolated_assignments": [
+          {
+            "3": "F",
+            "4": "O",
+            "5": "OL"
+          },
+          {
+            "3": "F",
+            "4": "OO",
+            "5": "L"
+          },
+          {
+            "3": "FO",
+            "4": "O",
+            "5": "L"
+          }
+        ],
+        "marginal_count": 3976,
+        "fresh_count": {
+          "complete": true,
+          "count": "3976",
+          "observed_mask": 1019,
+          "private_mask": 34,
+          "pair_visits": 10268739,
+          "peak_table_rows": 4480512,
+          "elimination_order": [
+            0,
+            6,
+            9,
+            7,
+            8,
+            3,
+            4
+          ],
+          "local_tables": [
+            {
+              "raw": "0",
+              "remaining_mask": 1,
+              "rows": 1829
+            },
+            {
+              "raw": "67",
+              "remaining_mask": 192,
+              "rows": 75708
+            },
+            {
+              "raw": "345",
+              "remaining_mask": 24,
+              "rows": 3
+            },
+            {
+              "raw": "3466",
+              "remaining_mask": 88,
+              "rows": 7534
+            },
+            {
+              "raw": "3478",
+              "remaining_mask": 408,
+              "rows": 1356268
+            },
+            {
+              "raw": "97664",
+              "remaining_mask": 720,
+              "rows": 21271
+            },
+            {
+              "raw": "90871",
+              "remaining_mask": 897,
+              "rows": 1762870
+            }
+          ]
+        },
+        "counts_match": true
+      },
+      {
+        "raw": "90871",
+        "word": "WIT",
+        "word_in_lexicon": true,
+        "isolated_assignments": [],
+        "marginal_count": 0,
+        "fresh_count": {
+          "complete": true,
+          "count": "0",
+          "observed_mask": 1019,
+          "private_mask": 34,
+          "pair_visits": 0,
+          "peak_table_rows": 1356268,
+          "elimination_order": [],
+          "local_tables": [
+            {
+              "raw": "0",
+              "remaining_mask": 1,
+              "rows": 1829
+            },
+            {
+              "raw": "67",
+              "remaining_mask": 192,
+              "rows": 75708
+            },
+            {
+              "raw": "345",
+              "remaining_mask": 24,
+              "rows": 170568
+            },
+            {
+              "raw": "3466",
+              "remaining_mask": 88,
+              "rows": 7534
+            },
+            {
+              "raw": "3478",
+              "remaining_mask": 408,
+              "rows": 1356268
+            },
+            {
+              "raw": "97664",
+              "remaining_mask": 720,
+              "rows": 21271
+            },
+            {
+              "raw": "90871",
+              "remaining_mask": 897,
+              "rows": 0
+            }
+          ]
+        },
+        "counts_match": true,
+        "length_certificate": {
+          "minimum_output_letters": 5,
+          "claimed_letters": 3
+        }
+      }
+    ],
+    "scope": "R33/R36 fixed nonempty 1..3 letters per observed digit, numeric group equals lexical word. Zero rejects this conjunction only; does not reject arbitrary word codes or variable pair rules."
+  },
+  "new_validated_translation": null,
+  "mission_outcome": "I_inconclusive"
+}

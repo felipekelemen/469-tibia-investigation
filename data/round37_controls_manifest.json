@@ -1,0 +1,15 @@
+{
+  "stage": "Before conditioned control lookup",
+  "sha256": {
+    "scripts/round37_controls.py": "0a76f048b28b018737c965e90e5cc1e4ac63ca2db58ab740316d29119f5c2c9a",
+    "data/round37_controls_protocol.json": "a52effd297a77f7bb2b7cfccdbd9007557a7bd1b8d2c5f8f57f196c244481fe1",
+    "data/round37_claims.json": "4a9469cbfd786b3104826d9bd55f537aa5a8331eb526809fd6445cd5b820a850",
+    "data/round36_fixtures.json": "9d6be6accf73c777fa9d2b4931927709780e3237e081790fe9865774780ce338",
+    "results/round36/knightmare.json.gz": "591aad1f5c16325049f26c3ae8ed5648421dc0599d7f7738981222f5a7643136",
+    "results/round36/knightmare_shuffle_0.json.gz": "4fd7e60bbb3b0149dae69d4882d94720ea47f75bab02160caf651aea583c1626",
+    "results/round36/knightmare_shuffle_1.json.gz": "56873913a0521b31320899e2cba5e5df84b0f097347c44cffd33597c704ecdc8",
+    "results/round36/knightmare_shuffle_2.json.gz": "a4533baf2e20a18ec6f80a1ece9bdc386bd3af07f3f0c14897f04ff13516af28",
+    "results/round36/knightmare_shuffle_3.json.gz": "1525fcb79e6c0d24bbfa3a58f15087d73d0a1e6d3348c59f74c3f39905757340",
+    "results/round36/knightmare_shuffle_4.json.gz": "0d55c921d06bf4fddd4d530f2b1a1b3e0be139211c52c3507a17ed1f57080375"
+  }
+}

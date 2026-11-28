@@ -1,0 +1,17 @@
+{
+  "stage": "After computational results, before public replay",
+  "sha256": {
+    "results/round37_claim_checks.json": "009d6985b0a43cc577bbf5ae0f45c22e1e437c52c72b639eb2fed1443d6dd0fd",
+    "results/round37_controls.json": "d01b50b9c35f86b8f9d3883cdfb98c6aa628e2ff9ea39bfcd2f2eb78f49c796a",
+    "data/round37_discovery_log.json": "118d0f4fe28e339172e78b01729fe88f4d27670fa9abd63fad1e3d549fcc1b1e",
+    "data/round37_article_extract.json": "1e81b5822164286225e1882d10838d3c730a1dcc12dd75fd16eac7d40c3c1774",
+    "data/round37_sources.json": "6a5f9bef179c80cd4703c75949c7f63f67990d7a9e2b1d2b8a037298eeac1de8",
+    "data/round37_http.json": "8973067afc3f4a3071f8c38b650f8a3a20f5dbab29b203d23c7870540d14006e",
+    "data/round37_http_retry.json": "6515a17d16fc99078276bab760eacffd38f220204f4ada8ffa4b18b6da99a583",
+    "data/round37_http_followup.json": "57c949c43991c27a0e426cdbd702ec81abd0366e347eeb49af617239e85dc60b",
+    "scripts/round37_sources.py": "bb802647d52cc339ee98d4a3d764f5437bd2f7eb221280000b48c2ba78b1035c",
+    "scripts/round37_capture.py": "d5dfafcf287074a5a5abea9055fbc675d0439a5fc5409046ca3fe90bbc86abeb",
+    "scripts/run_round37.py": "94cd1c0692386f5072f1eb6bb1f7492853d6b953971ef5ae3a19bc93424424f1",
+    "tests/test_round37_claims.py": "b8caa3bbcc4e1e465af00208bcdb43c4bd198bd3b2411f21e5a3c9ae575d1e10"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "url": "https://www.tibiasecrets.com/article160",
+  "capture_local_ignored": "data/private/round37/find01.json",
+  "capture_sha256": "ebcc95c5aaac1e19976d1435d933e6c79f7913f3f1079cba617407cee0726e65",
+  "access": "Search connector extracted page; direct HTTP returned 403",
+  "relevant_pair_map": {
+    "34": "B",
+    "78": "E",
+    "67": "A",
+    "09": "T",
+    "08": "I",
+    "71": "V",
+    "76": "A",
+    "64": "N",
+    "66": "E",
+    "00": "*",
+    "03": "V",
+    "45": "F"
+  },
+  "relevant_expansions": {
+    "A": [
+      "A"
+    ],
+    "B": [
+      "B"
+    ],
+    "E": [
+      "E"
+    ],
+    "F": [
+      "F"
+    ],
+    "I": [
+      "I",
+      "Y",
+      "EE"
+    ],
+    "N": [
+      "M",
+      "N"
+    ],
+    "T": [
+      "T",
+      "TH"
+    ],
+    "V": [
+      "V",
+      "U",
+      "W",
+      "OO",
+      "OOL",
+      "UE"
+    ]
+  },
+  "wildcard_operationalization": "Any letter restricted here to uppercase English A..Z; declared assumption, not an authenticated alphabet",
+  "table_and_expansions_match_frozen_claims": true
+}

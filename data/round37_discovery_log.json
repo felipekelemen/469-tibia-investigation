@@ -1,0 +1,314 @@
+{
+  "round": 37,
+  "retrieval_date_utc": "2026-11-28",
+  "counts": {
+    "search": 12,
+    "open": 10,
+    "find": 2,
+    "click": 1,
+    "direct_http": 9,
+    "web_open_click_find": 13
+  },
+  "counting": "Every request including failed and repeated reads; counts are not independent sources.",
+  "distinct_queries": 12,
+  "queries": [
+    "\"90871\" \"translation\"",
+    "\"90871\" \"meaning\"",
+    "\"345\" \"Knightmare\" \"means\"",
+    "\"90871\" site:tibia.com",
+    "\"3478 67\" \"2012\" \"Knightmare\"",
+    "\"90871\" \"wit\"",
+    "\"345\" \"469\" \"fool\"",
+    "\"Knightmare\" \"469\" \"word boundaries\"",
+    "\"345\" \"knowledge\" cipher",
+    "\"345\" \"knowledge\" \"Elminster\"",
+    "\"90871\" \"Tibia\" \"translation\"",
+    "\"345\" \"Tibia\" \"translation\""
+  ],
+  "prior_query_inventory": {
+    "paths": [
+      "data/round24_discovery_log.json",
+      "data/round26_discovery_log.json",
+      "data/round31_discovery_log.json",
+      "data/round32_discovery_log.json",
+      "data/round34_discovery_log.json"
+    ],
+    "count": 83,
+    "literal_repeats": []
+  },
+  "calls": [
+    {
+      "path_local_ignored": "data/private/round37/search01.json",
+      "sha256": "ae026d7fe46283c35d5b94fec6388ff0db73ca313b5888c101ad2c95b0866df0",
+      "params": {
+        "system2_search_query": [
+          {
+            "q": "\"90871\" \"translation\""
+          },
+          {
+            "q": "\"90871\" \"meaning\""
+          },
+          {
+            "q": "\"345\" \"Knightmare\" \"means\""
+          },
+          {
+            "q": "\"90871\" site:tibia.com"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "path_local_ignored": "data/private/round37/search02.json",
+      "sha256": "2de6ad73a2515413b3c83ac5e9cd9ac327ff7fb5d1b7b658e159623483ccf5bf",
+      "params": {
+        "system2_search_query": [
+          {
+            "q": "\"3478 67\" \"2012\" \"Knightmare\""
+          },
+          {
+            "q": "\"90871\" \"wit\""
+          },
+          {
+            "q": "\"345\" \"469\" \"fool\""
+          },
+          {
+            "q": "\"Knightmare\" \"469\" \"word boundaries\""
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "path_local_ignored": "data/private/round37/open01.json",
+      "sha256": "be990c62ab09893413b74928a2f85fb2978d171f368eccf628ed4e601ab45017",
+      "params": {
+        "open": [
+          {
+            "ref_id": "https://forums.tibiabr.com/threads/444776-Misterios-de-Knightmare/page4"
+          },
+          {
+            "ref_id": "https://forums.tibiabr.com/threads/444776-Misterios-de-Knightmare/page3"
+          },
+          {
+            "ref_id": "https://forums.tibiabr.com/threads/444776-Misterios-de-Knightmare"
+          },
+          {
+            "ref_id": "https://forums.tibiabr.com/threads/441817-Linguagem-469-e-Paradox-Tower-Mathemagics/page9"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "path_local_ignored": "data/private/round37/open02.json",
+      "sha256": "e1df4d6ad05d26b751cc026b2ccad5746de17ec71a6193b145d6ce38d3b20b7c",
+      "params": {
+        "open": [
+          {
+            "ref_id": "turn41search7"
+          },
+          {
+            "ref_id": "turn41search5"
+          },
+          {
+            "ref_id": "turn41search13"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "path_local_ignored": "data/private/round37/search03.json",
+      "sha256": "3b0eafb44010fb03ab37841514a806b09ad7dccf0ce24df0ce68beba23c5ea3a",
+      "params": {
+        "system2_search_query": [
+          {
+            "q": "\"345\" \"knowledge\" cipher"
+          },
+          {
+            "q": "\"345\" \"knowledge\" \"Elminster\""
+          },
+          {
+            "q": "\"90871\" \"Tibia\" \"translation\""
+          },
+          {
+            "q": "\"345\" \"Tibia\" \"translation\""
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "path_local_ignored": "data/private/round37/open03.json",
+      "sha256": "3200a17ac9a4fd715f930405a882ef9798c27eb291ae9770170ec33ba66ef385",
+      "params": {
+        "open": [
+          {
+            "ref_id": "https://www.reddit.com/r/TibiaMMO/comments/g3b9g8/469_bonelord_language_vocabulary/"
+          },
+          {
+            "ref_id": "https://www.tibiasecrets.com/article160"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "path_local_ignored": "data/private/round37/find01.json",
+      "sha256": "ebcc95c5aaac1e19976d1435d933e6c79f7913f3f1079cba617407cee0726e65",
+      "params": {
+        "find": [
+          {
+            "ref_id": "turn45view1",
+            "pattern": "wit"
+          },
+          {
+            "ref_id": "turn45view1",
+            "pattern": "fool"
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "https://forums.tibiabr.com/threads/444776-Misterios-de-Knightmare?p=6204333&viewfull=1"
+          }
+        ],
+        "response_length": "long"
+      }
+    },
+    {
+      "path_local_ignored": "data/private/round37/click01.json",
+      "sha256": "a6b458ce20df22a320d112f2ed6f18d11c2c0a119ad931d1899a9a6fa948c8d7",
+      "params": {
+        "click": [
+          {
+            "ref_id": "turn45view1",
+            "id": 12
+          }
+        ],
+        "response_length": "medium"
+      }
+    }
+  ],
+  "http": [
+    {
+      "id": "knight_page4",
+      "url": "https://forums.tibiabr.com/threads/444776-Misterios-de-Knightmare/page4",
+      "retrieved_at_utc": "2026-11-28T16:24:32.110796+00:00",
+      "status": null,
+      "final_url": "https://forums.tibiabr.com/threads/444776-Misterios-de-Knightmare/page4",
+      "content_type": null,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "<urlopen error [Errno 1] Operation not permitted>",
+      "body_local_ignored": "data/private/round37/http_knight_page4.body",
+      "capture_manifest": "data/round37_http.json"
+    },
+    {
+      "id": "knight_page3",
+      "url": "https://forums.tibiabr.com/threads/444776-Misterios-de-Knightmare/page3",
+      "retrieved_at_utc": "2026-11-28T16:24:32.124568+00:00",
+      "status": null,
+      "final_url": "https://forums.tibiabr.com/threads/444776-Misterios-de-Knightmare/page3",
+      "content_type": null,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "<urlopen error [Errno 1] Operation not permitted>",
+      "body_local_ignored": "data/private/round37/http_knight_page3.body",
+      "capture_manifest": "data/round37_http.json"
+    },
+    {
+      "id": "knight_root",
+      "url": "https://forums.tibiabr.com/threads/444776-Misterios-de-Knightmare",
+      "retrieved_at_utc": "2026-11-28T16:24:32.124985+00:00",
+      "status": null,
+      "final_url": "https://forums.tibiabr.com/threads/444776-Misterios-de-Knightmare",
+      "content_type": null,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "<urlopen error [Errno 1] Operation not permitted>",
+      "body_local_ignored": "data/private/round37/http_knight_root.body",
+      "capture_manifest": "data/round37_http.json"
+    },
+    {
+      "id": "wordpress_language",
+      "url": "https://linguagem469.wordpress.com/linguagem-469/",
+      "retrieved_at_utc": "2026-11-28T16:24:32.125453+00:00",
+      "status": null,
+      "final_url": "https://linguagem469.wordpress.com/linguagem-469/",
+      "content_type": null,
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "error": "<urlopen error [Errno 1] Operation not permitted>",
+      "body_local_ignored": "data/private/round37/http_wordpress_language.body",
+      "capture_manifest": "data/round37_http.json"
+    },
+    {
+      "id": "knight_page4",
+      "url": "https://forums.tibiabr.com/threads/444776-Misterios-de-Knightmare/page4",
+      "retrieved_at_utc": "2026-11-28T16:25:10.498590+00:00",
+      "status": 403,
+      "final_url": "https://forums.tibiabr.com/threads/444776-Misterios-de-Knightmare/page4",
+      "content_type": null,
+      "bytes": 17,
+      "sha256": "2938e9f1284180959e33ab1718d0793a72ff6e4cdb8108c34dcd14e69446de5c",
+      "error": "HTTP Error 403: Forbidden",
+      "body_local_ignored": "data/private/round37/http1_knight_page4.body",
+      "capture_manifest": "data/round37_http_retry.json"
+    },
+    {
+      "id": "knight_page3",
+      "url": "https://forums.tibiabr.com/threads/444776-Misterios-de-Knightmare/page3",
+      "retrieved_at_utc": "2026-11-28T16:25:10.674654+00:00",
+      "status": 403,
+      "final_url": "https://forums.tibiabr.com/threads/444776-Misterios-de-Knightmare/page3",
+      "content_type": null,
+      "bytes": 17,
+      "sha256": "2938e9f1284180959e33ab1718d0793a72ff6e4cdb8108c34dcd14e69446de5c",
+      "error": "HTTP Error 403: Forbidden",
+      "body_local_ignored": "data/private/round37/http1_knight_page3.body",
+      "capture_manifest": "data/round37_http_retry.json"
+    },
+    {
+      "id": "knight_root",
+      "url": "https://forums.tibiabr.com/threads/444776-Misterios-de-Knightmare",
+      "retrieved_at_utc": "2026-11-28T16:25:10.804886+00:00",
+      "status": 403,
+      "final_url": "https://forums.tibiabr.com/threads/444776-Misterios-de-Knightmare",
+      "content_type": null,
+      "bytes": 17,
+      "sha256": "2938e9f1284180959e33ab1718d0793a72ff6e4cdb8108c34dcd14e69446de5c",
+      "error": "HTTP Error 403: Forbidden",
+      "body_local_ignored": "data/private/round37/http1_knight_root.body",
+      "capture_manifest": "data/round37_http_retry.json"
+    },
+    {
+      "id": "wordpress_language",
+      "url": "https://linguagem469.wordpress.com/linguagem-469/",
+      "retrieved_at_utc": "2026-11-28T16:25:10.916701+00:00",
+      "status": 200,
+      "final_url": "https://linguagem469.wordpress.com/linguagem-469/",
+      "content_type": null,
+      "bytes": 149167,
+      "sha256": "5a21123e958cc36fad51a613d119e4420ff62eb3e8b532c69b2e6b79dc41be62",
+      "error": null,
+      "body_local_ignored": "data/private/round37/http1_wordpress_language.body",
+      "capture_manifest": "data/round37_http_retry.json"
+    },
+    {
+      "id": "article160",
+      "url": "https://www.tibiasecrets.com/article160",
+      "retrieved_at_utc": "2026-11-28T16:28:50.354714+00:00",
+      "status": 403,
+      "final_url": "https://www.tibiasecrets.com/article160",
+      "content_type": null,
+      "bytes": 17,
+      "sha256": "2938e9f1284180959e33ab1718d0793a72ff6e4cdb8108c34dcd14e69446de5c",
+      "error": "HTTP Error 403: Forbidden",
+      "body_local_ignored": "data/private/round37/http2_article160.body",
+      "capture_manifest": "data/round37_http_followup.json"
+    }
+  ],
+  "new_author_authenticated_anchor": false,
+  "closure": "Bounded search ended after 12 queries and targeted provenance checks; not a claim that all public sources are exhausted."
+}

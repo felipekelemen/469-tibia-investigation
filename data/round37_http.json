@@ -1,0 +1,50 @@
+[
+  {
+    "id": "knight_page4",
+    "url": "https://forums.tibiabr.com/threads/444776-Misterios-de-Knightmare/page4",
+    "retrieved_at_utc": "2026-11-28T16:24:32.110796+00:00",
+    "status": null,
+    "final_url": "https://forums.tibiabr.com/threads/444776-Misterios-de-Knightmare/page4",
+    "content_type": null,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "error": "<urlopen error [Errno 1] Operation not permitted>",
+    "body_local_ignored": "data/private/round37/http_knight_page4.body"
+  },
+  {
+    "id": "knight_page3",
+    "url": "https://forums.tibiabr.com/threads/444776-Misterios-de-Knightmare/page3",
+    "retrieved_at_utc": "2026-11-28T16:24:32.124568+00:00",
+    "status": null,
+    "final_url": "https://forums.tibiabr.com/threads/444776-Misterios-de-Knightmare/page3",
+    "content_type": null,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "error": "<urlopen error [Errno 1] Operation not permitted>",
+    "body_local_ignored": "data/private/round37/http_knight_page3.body"
+  },
+  {
+    "id": "knight_root",
+    "url": "https://forums.tibiabr.com/threads/444776-Misterios-de-Knightmare",
+    "retrieved_at_utc": "2026-11-28T16:24:32.124985+00:00",
+    "status": null,
+    "final_url": "https://forums.tibiabr.com/threads/444776-Misterios-de-Knightmare",
+    "content_type": null,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "error": "<urlopen error [Errno 1] Operation not permitted>",
+    "body_local_ignored": "data/private/round37/http_knight_root.body"
+  },
+  {
+    "id": "wordpress_language",
+    "url": "https://linguagem469.wordpress.com/linguagem-469/",
+    "retrieved_at_utc": "2026-11-28T16:24:32.125453+00:00",
+    "status": null,
+    "final_url": "https://linguagem469.wordpress.com/linguagem-469/",
+    "content_type": null,
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "error": "<urlopen error [Errno 1] Operation not permitted>",
+    "body_local_ignored": "data/private/round37/http_wordpress_language.body"
+  }
+]

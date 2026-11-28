@@ -1,0 +1,50 @@
+[
+  {
+    "id": "knight_page4",
+    "url": "https://forums.tibiabr.com/threads/444776-Misterios-de-Knightmare/page4",
+    "retrieved_at_utc": "2026-11-28T16:25:10.498590+00:00",
+    "status": 403,
+    "final_url": "https://forums.tibiabr.com/threads/444776-Misterios-de-Knightmare/page4",
+    "content_type": null,
+    "bytes": 17,
+    "sha256": "2938e9f1284180959e33ab1718d0793a72ff6e4cdb8108c34dcd14e69446de5c",
+    "error": "HTTP Error 403: Forbidden",
+    "body_local_ignored": "data/private/round37/http1_knight_page4.body"
+  },
+  {
+    "id": "knight_page3",
+    "url": "https://forums.tibiabr.com/threads/444776-Misterios-de-Knightmare/page3",
+    "retrieved_at_utc": "2026-11-28T16:25:10.674654+00:00",
+    "status": 403,
+    "final_url": "https://forums.tibiabr.com/threads/444776-Misterios-de-Knightmare/page3",
+    "content_type": null,
+    "bytes": 17,
+    "sha256": "2938e9f1284180959e33ab1718d0793a72ff6e4cdb8108c34dcd14e69446de5c",
+    "error": "HTTP Error 403: Forbidden",
+    "body_local_ignored": "data/private/round37/http1_knight_page3.body"
+  },
+  {
+    "id": "knight_root",
+    "url": "https://forums.tibiabr.com/threads/444776-Misterios-de-Knightmare",
+    "retrieved_at_utc": "2026-11-28T16:25:10.804886+00:00",
+    "status": 403,
+    "final_url": "https://forums.tibiabr.com/threads/444776-Misterios-de-Knightmare",
+    "content_type": null,
+    "bytes": 17,
+    "sha256": "2938e9f1284180959e33ab1718d0793a72ff6e4cdb8108c34dcd14e69446de5c",
+    "error": "HTTP Error 403: Forbidden",
+    "body_local_ignored": "data/private/round37/http1_knight_root.body"
+  },
+  {
+    "id": "wordpress_language",
+    "url": "https://linguagem469.wordpress.com/linguagem-469/",
+    "retrieved_at_utc": "2026-11-28T16:25:10.916701+00:00",
+    "status": 200,
+    "final_url": "https://linguagem469.wordpress.com/linguagem-469/",
+    "content_type": null,
+    "bytes": 149167,
+    "sha256": "5a21123e958cc36fad51a613d119e4420ff62eb3e8b532c69b2e6b79dc41be62",
+    "error": null,
+    "body_local_ignored": "data/private/round37/http1_wordpress_language.body"
+  }
+]

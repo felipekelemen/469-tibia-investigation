@@ -1,0 +1,43 @@
+{
+  "stage": "After numerical results, before public-only clean replay",
+  "jobs": [
+    {
+      "id": "prior_v3_closure",
+      "command": [
+        "python",
+        "scripts/check_mission_v3.py"
+      ]
+    },
+    {
+      "id": "prior_round36_publication",
+      "command": [
+        "python",
+        "scripts/check_round36_publication.py"
+      ]
+    },
+    {
+      "id": "round37_full",
+      "command": [
+        "python",
+        "scripts/run_round37.py",
+        "--full"
+      ]
+    },
+    {
+      "id": "tests",
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ]
+    }
+  ],
+  "timeout_seconds_per_job": 1800,
+  "max_address_space_per_process_bytes": 3221225472,
+  "concurrency": 1,
+  "scope": "Public-only file copy, no network. Repeat all three new conditional counts and finite expansion enumeration; prior results integrity audit. Same environment, no external reviewer."
+}

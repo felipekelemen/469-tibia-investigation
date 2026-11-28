@@ -1,0 +1,35 @@
+{
+  "round": 37,
+  "date_utc": "2026-11-28",
+  "baseline_commit": "fc2afa472442613b79870acb6616b505204cd0a4",
+  "basis": "R36identified345and90871as conditional information targets; no new evidence assumed.",
+  "new_question": "Can a narrowly targeted public provenance search authenticate either anchor or the complete Knightmare utterance, and does any retrieved claim survive independent model checks?",
+  "initial_queries": [
+    "\"90871\" \"translation\"",
+    "\"90871\" \"meaning\"",
+    "\"345\" \"Knightmare\" \"means\"",
+    "\"90871\" site:tibia.com",
+    "\"3478 67\" \"2012\" \"Knightmare\"",
+    "\"90871\" \"wit\"",
+    "\"345\" \"469\" \"fool\"",
+    "\"Knightmare\" \"469\" \"word boundaries\""
+  ],
+  "previous_literal_queries_inventoried": 83,
+  "queries_exactly_repeated_from_inventoried_logs": [],
+  "limits": {
+    "distinct_search_queries": 12,
+    "web_open_click_find_operations": 24,
+    "direct_HTTP_captures": 12,
+    "source_passes": 2,
+    "retry_per_transient_failure": 1
+  },
+  "selection": "Trace sources behind specific full/partial claims and the2012utterance before generic theories. Prefer original author/publisher; mirrors and wiki copies are not independent meanings. Search snippets are discovery only.",
+  "source_gates": {
+    "accepted_anchor": "Attributed original complete English correspondence tied to exact numeric context; no guessed word from lore or self-trained table",
+    "accepted_generation": "Authenticated original process specifically tied to messages; no classifier or later reconstruction",
+    "no_new_evidence": "Close bounded search, report missing evidence; do not fill another cipher sweep with arbitrary parameters"
+  },
+  "computational_checks": "If claims found, freeze literal claimed correspondence before checking. For explicit digit-to-unit claims, run exact morphism consistency; for word-code proposals, distinguish hardcoded semantic labels from independent transfer. No silent word insertion, changed digits or space repair. Existing R36partitions can test only their declared family.",
+  "publication": "Full tool captures/raw bodies stored locally ignored; public URLs,statuses,hashes,brief excerpts,tests and limitations. No communication to third parties.",
+  "mission_outcome_before_execution": "I_inconclusive"
+}

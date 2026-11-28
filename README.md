@@ -1,6 +1,6 @@
 # 469-tibia-investigation — investigação reproduzível
 
-**Estado: 36 rodadas registradas; resultado inconclusivo. Nenhuma tradução verificável encontrada.**
+**Estado: 37 rodadas registradas; resultado inconclusivo. Nenhuma tradução verificável encontrada.**
 Não afirmamos que o corpus é indecifrável nem que qualquer solução comunitária
 foi confirmada. O alvo é um algoritmo integral que generalize para textos inéditos.
 
@@ -9,8 +9,9 @@ Destino público: https://github.com/felipekelemen/469-tibia-investigation
 **Conclusão atual:** [dossiê por fonte e condições de reabertura](docs/mission_conclusion_v3.md),
 com [decisões computáveis](data/mission_conclusion_v3.json).
 O [plano v3](docs/mission_plan_v3.md) permanece como protocolo histórico.
-O ciclo v3 permanece encerrado; a [rodada 36](docs/round36.md) acrescenta um
-experimento exato sobre o valor de uma palavra autenticada, sem reabrir M1.
+O ciclo v3 permanece encerrado. A R36 contou o valor condicional de uma palavra
+autenticada; a [rodada 37](docs/round37.md) rastreia e testa associações publicadas,
+sem obter uma âncora autoral nem reabrir M1.
 O lote 24–30 foi executado, mas os objetivos científicos não foram todos atingidos
 e nem todas as buscas antigas foram completadas. As R31–33 acrescentaram fontes
 e contagem exata. O ciclo v3 adjudicou **seis etapas**, com limites
@@ -20,12 +21,22 @@ Prioridade: Avar Tar, Knightmare e Chayenne;3478 e Hellgate só reabrem com dado
 ou mecanismo novos. E1 e E2 foram executadas nas R34–35; E3–E5 não foram
 acionadas porque suas dependências não foram satisfeitas. E6 encerra o ciclo
 com reprodução e decisão I; isso não prova impossibilidade de tradução.
-[Progresso atual](data/plan_progress_round36.json),
+[Progresso atual](data/plan_progress_round37.json),
 [plano v2 histórico](docs/mission_plan_v2.md) e
 [formato de resultados e candidatas](docs/round_report_template_v2.md).
 
-**Publicado:** corpus normalizado, código, testes e resultados das 36 rodadas
+**Publicado:** corpus normalizado, código, testes e resultados das 37 rodadas
 disponíveis neste repositório. O acesso de escrita foi confirmado após nova reconexão.
+
+A [rodada 37](docs/round37.md) rastreou três associações de Knightmare em
+12 consultas. A imagem citada em 2012 para `345 → knowledge` não foi recuperada.
+Na família fixa de 1–3 letras por dígito, KNOWLEDGE e WIT deixam zero chaves;
+`345 → fool` deixa **3.976**, contra zero nos cinco embaralhamentos antigos.
+Essa comparação posterior não autentica significado. A tabela comunitária por
+pares produz literalmente `BE A TIV TAN BE * VF`; a leitura inglesa ajustada
+exige escolhas entre **6.469.632 sequências** nas regras relaxadas enumeradas.
+Nenhuma nova tradução validada. Reprodução: `make round37` / `make round37-full`.
+Replay em cópia pública concluído: **337 testes passaram**.
 
 A [rodada 36](docs/round36.md) particionou as 153.174.074 chaves de Knightmare
 por todos os significados lexicais de cada grupo. Conhecer somente um dos

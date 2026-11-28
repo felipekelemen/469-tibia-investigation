@@ -1,0 +1,25 @@
+{
+  "completed_through_round": 37,
+  "latest_report": "docs/round37.md",
+  "mission_outcome": "I_inconclusive",
+  "translation_validated": false,
+  "original_nontextual_process_authenticated": false,
+  "v3_cycle_remains_closed": true,
+  "v3_conclusion": "data/mission_conclusion_v3.json",
+  "supplemental_experiment": "Provenance and exact conditional checks of published Knightmare anchor claims",
+  "new_semantic_candidate": null,
+  "question_disposition": "Bounded public source search closed without authenticated anchors; three conditional counts and explicit pair-rule enumeration completed",
+  "new_hypotheses": [
+    "H132",
+    "H133",
+    "H134"
+  ],
+  "no_third_party_messages_sent": true,
+  "priorities_unchanged": {
+    "avar_tar": "No new authenticated gloss or fit",
+    "chayenne": "No new authenticated gloss or fit",
+    "3478": "No new evidence beyond prior conditional exclusions",
+    "hellgate_matrices": "Pending authentic new measurements or a distinct specified mechanism"
+  },
+  "next_action": "Reopen on recovered original image with provenance, authenticated numeric/plaintext material, a material error, or a distinct mechanism qualified before game fitting; no automatic repetition of failed sweeps"
+}

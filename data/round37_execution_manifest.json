@@ -1,0 +1,15 @@
+{
+  "stage": "Before the three forced-anchor computations and pair-rule enumeration",
+  "sha256": {
+    "data/round37_protocol.json": "7229bae8b1a0d41e539affc5d24a76483e7d1595e4e6bae921a01d7e88f8983f",
+    "data/round37_claims.json": "4a9469cbfd786b3104826d9bd55f537aa5a8331eb526809fd6445cd5b820a850",
+    "scripts/round37_experiment.py": "115815546d2cc83968ffeec0e862468d2ee058e071b1c6d6d311a116fcacfdbb",
+    "scripts/round33_count.cpp": "746810ab1e6faef48dda8eb9915956a8ca6aab5597608608614f97d71de13473",
+    "scripts/round36_experiment.py": "6d2f765d4fda17872118d7dcd968a81848c25706e0cef1b0078f5763d4ca4b39",
+    "scripts/unit_morphism_solver.py": "28ef1716a9e3213a8e1ac8321446323e66bba9affc40a488894425d0dfa1627e",
+    "scripts/unit_morphism_lexicon.py": "4e1bc4aef71d2b8d6146f00fe2f917d0934743ebb2e79ada737a2ce53c113e9d",
+    "results/round36/knightmare.json.gz": "591aad1f5c16325049f26c3ae8ed5648421dc0599d7f7738981222f5a7643136",
+    "data/cmudict_reference/cmudict.dict": "81917843c7f44ce2b094ac63873c2c7a4cf802040792c455ba3ca406891c3d22",
+    "data/cmudict_reference/cmudict.phones": "ffb588a5e55684723582c7256e1d2f9fadb130011392d9e59237c76e34c2cfd6"
+  }
+}

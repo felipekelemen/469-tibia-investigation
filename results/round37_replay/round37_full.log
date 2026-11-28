@@ -1,0 +1,14 @@
+{
+  "round": 37,
+  "search_queries": 12,
+  "web_page_operations": 13,
+  "http_attempts": 9,
+  "claims_counted": 3,
+  "previously_exposed_shuffle_controls": 5,
+  "article_expansion_enumeration_reproduced": true,
+  "conditional_counts_repeated_now": true,
+  "scientific_outputs_match": true,
+  "source_classifications": "Recorded judgments, not authenticated by hash verification",
+  "new_validated_translation": null,
+  "mission_outcome": "I_inconclusive"
+}

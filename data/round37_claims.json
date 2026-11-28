@@ -1,0 +1,124 @@
+{
+  "stage": "Frozen after source reading, before numerical claim checks",
+  "numeric_message": "3478 67 90871 97664 3466 0 345!",
+  "anchor_claims": [
+    {
+      "raw": "345",
+      "word": "KNOWLEDGE",
+      "provenance": "Indexed2012forum comment citing an unavailable image; no verified game meaning"
+    },
+    {
+      "raw": "345",
+      "word": "FOOL",
+      "provenance": "Article160 adjusted reading/community derived codebook,not CipSoft plaintext"
+    },
+    {
+      "raw": "90871",
+      "word": "WIT",
+      "provenance": "Article160 adjusted reading/community derived codebook,not CipSoft plaintext"
+    }
+  ],
+  "article160": {
+    "url": "https://www.tibiasecrets.com/article160",
+    "date_displayed": "2024-05-06",
+    "author_displayed": "Antonio Stradivarius",
+    "padding": "One leading0to each odd-length numeric group; even groups unchanged",
+    "relevant_pair_map": {
+      "34": "B",
+      "78": "E",
+      "67": "A",
+      "09": "T",
+      "08": "I",
+      "71": "V",
+      "76": "A",
+      "64": "N",
+      "66": "E",
+      "00": "*",
+      "03": "V",
+      "45": "F"
+    },
+    "reported_literal": "BE A TIV TAN BE * VF",
+    "adjusted_claim": "BE A WIT THAN BE A FOOL",
+    "expansions": {
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "I": [
+        "I",
+        "Y",
+        "EE"
+      ],
+      "N": [
+        "M",
+        "N"
+      ],
+      "T": [
+        "T",
+        "TH"
+      ],
+      "V": [
+        "V",
+        "U",
+        "W",
+        "OO",
+        "OOL",
+        "UE"
+      ],
+      "*": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G",
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M",
+        "N",
+        "O",
+        "P",
+        "Q",
+        "R",
+        "S",
+        "T",
+        "U",
+        "V",
+        "W",
+        "X",
+        "Y",
+        "Z"
+      ]
+    },
+    "tests": [
+      "Literal pair decoding against frozen relevant entries",
+      "Every ordered occurrence-specific expansion; exact target membership and count",
+      "Every permutation of base symbols per word with same expansion sets; exact target membership and count",
+      "A complete ordered global fixed-expansion rule is a subset of ordered local expansions; a local impossibility excludes it"
+    ],
+    "scope": "Adjustment counts describe conditional choice space under declared rules,not uniformly distributed cryptographic keys or semantic probabilities. Author explicitly permits anagrams,so failure of the ordered subcase does not refute the whole proposal. Passing the relaxed case is reconstruction,not independent validation."
+  },
+  "digit_morphism_tests": {
+    "family": "R33/R36one fixed1..3letter emission per observed digit,group=word",
+    "tests": [
+      "R36marginal count lookup for each claimed anchor",
+      "Fresh unchanged R33counter with each anchor forced; compare counts",
+      "All isolated1..3letter partitions for anchor; for345KNOWLEDGE expose forced units and lexical compatibility of3466",
+      "Independent positive-control known key and length-rejection regression tests"
+    ],
+    "no_external_ground_truth_assumed": true
+  },
+  "new_candidate_translation": null
+}

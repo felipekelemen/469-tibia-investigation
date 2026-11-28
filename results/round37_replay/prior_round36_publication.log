@@ -1,0 +1,10 @@
+{
+  "round": 36,
+  "mission_outcome": "I_inconclusive",
+  "public_audit_passed": true,
+  "tests_passed": 333,
+  "complete_censuses": 6,
+  "conditional_counts_reproduced": 22,
+  "editorial_metadata_correction_verified": true,
+  "new_validated_translation": null
+}

@@ -1,0 +1,228 @@
+{
+  "round": 37,
+  "cases": [
+    {
+      "id": "knightmare",
+      "kind": "real",
+      "groups": [
+        "3478",
+        "67",
+        "90871",
+        "97664",
+        "3466",
+        "0",
+        "345"
+      ],
+      "unconditioned_keys": 153174074,
+      "claims": [
+        {
+          "anchor_position": 6,
+          "control_raw": "345",
+          "word": "KNOWLEDGE",
+          "conditional_keys": 0,
+          "fraction_of_admissible_keys": 0.0
+        },
+        {
+          "anchor_position": 6,
+          "control_raw": "345",
+          "word": "FOOL",
+          "conditional_keys": 3976,
+          "fraction_of_admissible_keys": 2.59573953748857e-05
+        },
+        {
+          "anchor_position": 2,
+          "control_raw": "90871",
+          "word": "WIT",
+          "conditional_keys": 0,
+          "fraction_of_admissible_keys": 0.0
+        }
+      ]
+    },
+    {
+      "id": "knightmare_shuffle_0",
+      "kind": "within_word_shuffle",
+      "groups": [
+        "7483",
+        "76",
+        "70189",
+        "69476",
+        "4636",
+        "0",
+        "354"
+      ],
+      "unconditioned_keys": 793746,
+      "claims": [
+        {
+          "anchor_position": 6,
+          "control_raw": "354",
+          "word": "KNOWLEDGE",
+          "conditional_keys": 0,
+          "fraction_of_admissible_keys": 0.0
+        },
+        {
+          "anchor_position": 6,
+          "control_raw": "354",
+          "word": "FOOL",
+          "conditional_keys": 0,
+          "fraction_of_admissible_keys": 0.0
+        },
+        {
+          "anchor_position": 2,
+          "control_raw": "70189",
+          "word": "WIT",
+          "conditional_keys": 0,
+          "fraction_of_admissible_keys": 0.0
+        }
+      ]
+    },
+    {
+      "id": "knightmare_shuffle_1",
+      "kind": "within_word_shuffle",
+      "groups": [
+        "4873",
+        "67",
+        "78901",
+        "97646",
+        "4636",
+        "0",
+        "534"
+      ],
+      "unconditioned_keys": 1375193,
+      "claims": [
+        {
+          "anchor_position": 6,
+          "control_raw": "534",
+          "word": "KNOWLEDGE",
+          "conditional_keys": 0,
+          "fraction_of_admissible_keys": 0.0
+        },
+        {
+          "anchor_position": 6,
+          "control_raw": "534",
+          "word": "FOOL",
+          "conditional_keys": 0,
+          "fraction_of_admissible_keys": 0.0
+        },
+        {
+          "anchor_position": 2,
+          "control_raw": "78901",
+          "word": "WIT",
+          "conditional_keys": 0,
+          "fraction_of_admissible_keys": 0.0
+        }
+      ]
+    },
+    {
+      "id": "knightmare_shuffle_2",
+      "kind": "within_word_shuffle",
+      "groups": [
+        "8374",
+        "67",
+        "98701",
+        "79664",
+        "6463",
+        "0",
+        "453"
+      ],
+      "unconditioned_keys": 912659,
+      "claims": [
+        {
+          "anchor_position": 6,
+          "control_raw": "453",
+          "word": "KNOWLEDGE",
+          "conditional_keys": 0,
+          "fraction_of_admissible_keys": 0.0
+        },
+        {
+          "anchor_position": 6,
+          "control_raw": "453",
+          "word": "FOOL",
+          "conditional_keys": 0,
+          "fraction_of_admissible_keys": 0.0
+        },
+        {
+          "anchor_position": 2,
+          "control_raw": "98701",
+          "word": "WIT",
+          "conditional_keys": 0,
+          "fraction_of_admissible_keys": 0.0
+        }
+      ]
+    },
+    {
+      "id": "knightmare_shuffle_3",
+      "kind": "within_word_shuffle",
+      "groups": [
+        "8347",
+        "67",
+        "79801",
+        "66974",
+        "6346",
+        "0",
+        "543"
+      ],
+      "unconditioned_keys": 42591,
+      "claims": [
+        {
+          "anchor_position": 6,
+          "control_raw": "543",
+          "word": "KNOWLEDGE",
+          "conditional_keys": 0,
+          "fraction_of_admissible_keys": 0.0
+        },
+        {
+          "anchor_position": 6,
+          "control_raw": "543",
+          "word": "FOOL",
+          "conditional_keys": 0,
+          "fraction_of_admissible_keys": 0.0
+        },
+        {
+          "anchor_position": 2,
+          "control_raw": "79801",
+          "word": "WIT",
+          "conditional_keys": 0,
+          "fraction_of_admissible_keys": 0.0
+        }
+      ]
+    },
+    {
+      "id": "knightmare_shuffle_4",
+      "kind": "within_word_shuffle",
+      "groups": [
+        "7384",
+        "67",
+        "78901",
+        "76694",
+        "3466",
+        "0",
+        "354"
+      ],
+      "unconditioned_keys": 1045342,
+      "claims": [
+        {
+          "anchor_position": 6,
+          "control_raw": "354",
+          "word": "KNOWLEDGE",
+          "conditional_keys": 0,
+          "fraction_of_admissible_keys": 0.0
+        },
+        {
+          "anchor_position": 6,
+          "control_raw": "354",
+          "word": "FOOL",
+          "conditional_keys": 0,
+          "fraction_of_admissible_keys": 0.0
+        },
+        {
+          "anchor_position": 2,
+          "control_raw": "78901",
+          "word": "WIT",
+          "conditional_keys": 0,
+          "fraction_of_admissible_keys": 0.0
+        }
+      ]
+    }
+  ],
+  "scope": "Previously exposed fixed controls, selected before new conditioned counts; descriptive only. Fractions count uniformly weighted lexical keys, not probabilities of meaning. No new decoder or significance test."
+}

@@ -1,0 +1,80 @@
+{
+  "round": 37,
+  "review_type": "Human/contextual classification of the saved captures, distinct from arithmetic tests",
+  "sources": [
+    {
+      "id": "forum_knowledge",
+      "url": "https://forums.tibiabr.com/threads/444776-Misterios-de-Knightmare/page4",
+      "access": "indexed_excerpt_only_full_reads_failed",
+      "displayed_date": "22-01-2012 14:25, post40; timezone unknown",
+      "retrieval_date": "2026-11-28",
+      "attribution": "Pata do Leão quoting an image/example attributed to Elminster",
+      "short_quote": "345 representa a palavra = Knowledge",
+      "finding": "Community statement about an example image, not an authored Tibia gloss. Full context, image URL and image content not recovered. Repeated indexed URL variants are one lineage. Date displayed in current index is not a historical archive capture.",
+      "claim_status": "unverified_lead_no_semantic_anchor"
+    },
+    {
+      "id": "article160",
+      "url": "https://www.tibiasecrets.com/article160",
+      "access": "connector_page_read_direct_HTTP403",
+      "displayed_date": "2024-05-06",
+      "attribution": "Antonio Stradivarius, community contest article",
+      "finding": "Explicit distinction between pair-table output and adjusted reading. Anagrams, grouped letters and wildcard permitted. WIT/FOOL occur in adjusted result. Table and expansions extracted and compared against frozen claims. Already considered in R24; not a new candidate or independent confirmation.",
+      "claim_status": "community_reconstruction_no_external_plaintext"
+    },
+    {
+      "id": "article_original_forum_link",
+      "url": "https://www.tibia.com/forum/?action=thread&threadid=4957819",
+      "access": "connector_click_HTTP403",
+      "attribution": "Outbound original-post link in article160; page content not recovered",
+      "finding": "Official-domain forum URL alone does not establish author endorsement or independent plaintext.",
+      "claim_status": "unrecovered_provenance"
+    },
+    {
+      "id": "kimlage_final",
+      "url": "https://github.com/kimlage/tibia-469-cipher-casestudy/blob/4d726a8de7af1f2216bd48d9b86165e0c50616b6/docs/469_final_report.md",
+      "access": "local_pinned_upstream_file",
+      "commit": "4d726a8de7af1f2216bd48d9b86165e0c50616b6",
+      "local_path": "sources/kimlage/docs/469_final_report.md",
+      "finding": "Final report identifies seven Knightmare meanings as document reconstruction, and phrase checks as circular against its own output. It explicitly distinguishes community interpretation from CipSoft confirmation. Its universal nontranslation conclusion is not adopted here.",
+      "claim_status": "same_community_lineage_not_independent_anchor",
+      "sha256": "354dfc7a3d8e19caac89b34d8c08e646729424f6335266f63907659293141f07"
+    },
+    {
+      "id": "kimlage_frozen",
+      "url": "https://github.com/kimlage/tibia-469-cipher-casestudy/blob/4d726a8de7af1f2216bd48d9b86165e0c50616b6/docs/469_frozen_deliverable_2026-06-01.md",
+      "access": "local_pinned_upstream_file",
+      "commit": "4d726a8de7af1f2216bd48d9b86165e0c50616b6",
+      "local_path": "sources/kimlage/docs/469_frozen_deliverable_2026-06-01.md",
+      "finding": "Historical table lists meanings but the document itself warns about circularity and is superseded by final report. No new semantic attestation.",
+      "claim_status": "historical_superseded_community_reconstruction",
+      "sha256": "f0eb00254ad40d72156746972853c761c7e5db06e28eb0b355a1b75ec92b0551"
+    },
+    {
+      "id": "reddit_vocabulary",
+      "url": "https://www.reddit.com/r/TibiaMMO/comments/g3b9g8/469_bonelord_language_vocabulary/",
+      "access": "connector_page_read",
+      "attribution": "VaharamusGalke, community post; relative displayed date not treated as an absolute date",
+      "finding": "Lists345and90871as isolated groups without supplying meanings; points to known NPC/interview texts. No new word correspondence.",
+      "claim_status": "untranslated_inventory"
+    },
+    {
+      "id": "wordpress_language",
+      "url": "https://linguagem469.wordpress.com/linguagem-469/",
+      "access": "direct_HTTP200_after_initial_network_failure",
+      "finding": "Language discussion/reprint of known interview. No recovered image proving345meansKNOWLEDGE. Pattern image link is not established as the image quoted by the2012comment.",
+      "claim_status": "no_anchor_in_read_material"
+    },
+    {
+      "id": "mathemagics_page9",
+      "url": "https://forums.tibiabr.com/threads/441817-Linguagem-469-e-Paradox-Tower-Mathemagics/page9",
+      "access": "connector_page_read",
+      "finding": "Community discussion with matrices and copied interview material. No authenticated Knightmare word gloss or new physical Hellgate measurement.",
+      "claim_status": "context_only"
+    }
+  ],
+  "independent_author_authenticated_numeric_English_pairs": 0,
+  "accepted_new_translators": 0,
+  "new_original_nontextual_processes": 0,
+  "no_third_party_messages_sent": true
+}
