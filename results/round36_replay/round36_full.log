@@ -1,0 +1,26 @@
+Arithmetic qualification: 60 cases passed
+{"id": "knightmare", "kind": "real", "complete": true, "observed_digit_keys": 153174074, "probability_interpretation": "Uniform weighting of admissible keys only; not a posterior over intended meanings or words.", "witnesses_checked": 144171, "resources": {"wall_seconds": 4.099659123981837, "child_cpu_seconds": 3.9004830000000004}}
+{"id": "knightmare_shuffle_0", "kind": "within_word_shuffle", "complete": true, "observed_digit_keys": 793746, "probability_interpretation": "Uniform weighting of admissible keys only; not a posterior over intended meanings or words.", "witnesses_checked": 37053, "resources": {"wall_seconds": 3.2720853270147927, "child_cpu_seconds": 3.223486}}
+{"id": "knightmare_shuffle_1", "kind": "within_word_shuffle", "complete": true, "observed_digit_keys": 1375193, "probability_interpretation": "Uniform weighting of admissible keys only; not a posterior over intended meanings or words.", "witnesses_checked": 36710, "resources": {"wall_seconds": 2.369098371011205, "child_cpu_seconds": 2.3355700000000006}}
+{"id": "knightmare_shuffle_2", "kind": "within_word_shuffle", "complete": true, "observed_digit_keys": 912659, "probability_interpretation": "Uniform weighting of admissible keys only; not a posterior over intended meanings or words.", "witnesses_checked": 20019, "resources": {"wall_seconds": 1.9545041029923595, "child_cpu_seconds": 1.8943029999999994}}
+{"id": "knightmare_shuffle_3", "kind": "within_word_shuffle", "complete": true, "observed_digit_keys": 42591, "probability_interpretation": "Uniform weighting of admissible keys only; not a posterior over intended meanings or words.", "witnesses_checked": 5191, "resources": {"wall_seconds": 1.8561228940379806, "child_cpu_seconds": 1.8471839999999982}}
+{"id": "knightmare_shuffle_4", "kind": "within_word_shuffle", "complete": true, "observed_digit_keys": 1045342, "probability_interpretation": "Uniform weighting of admissible keys only; not a posterior over intended meanings or words.", "witnesses_checked": 23873, "resources": {"wall_seconds": 2.462175743014086, "child_cpu_seconds": 2.4301179999999984}}
+{
+  "round": 36,
+  "arithmetic_qualification_cases": 60,
+  "total_whole_keys_enumerated_in_qualification": 913050,
+  "complete_target_and_control_counts": 6,
+  "old_R33_counts_matched": 6,
+  "literal_key_witnesses_verified": 267017,
+  "independent_conditional_counts_matching": 22,
+  "unique_anchor_word_values_in_345": 131,
+  "unique_conditional_message_frames": 12,
+  "translation_validated": false,
+  "scope": "Conditional arithmetic and literal witness verification; lexical or conditional uniqueness is not semantic authentication.",
+  "replay": {
+    "all_60_arithmetic_cases_repeated": true,
+    "all_6_censuses_repeated": true,
+    "all_22_conditional_counts_repeated": true,
+    "scientific_outputs_identical": true
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "stage": "Before arithmetic qualification and main marginal calculation",
+  "sha256": {
+    "data/round36_protocol.json": "dadd9b36e892ef31aebdc0f510237ee3cca0d9ac27f1996dc435d1ddc5b519d6",
+    "data/round36_fixtures.json": "9d6be6accf73c777fa9d2b4931927709780e3237e081790fe9865774780ce338",
+    "scripts/round36_anchors.cpp": "d882bf97a91c9689036deca34f13108986dc228d8bc448accb03c756ca891ceb",
+    "scripts/round36_experiment.py": "6d2f765d4fda17872118d7dcd968a81848c25706e0cef1b0078f5763d4ca4b39",
+    "scripts/round33_count.cpp": "746810ab1e6faef48dda8eb9915956a8ca6aab5597608608614f97d71de13473",
+    "scripts/unit_morphism_lexicon.py": "4e1bc4aef71d2b8d6146f00fe2f917d0934743ebb2e79ada737a2ce53c113e9d"
+  }
+}

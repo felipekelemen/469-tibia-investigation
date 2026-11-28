@@ -1,0 +1,30 @@
+{
+  "completed_through_round": 36,
+  "latest_report": "docs/round36.md",
+  "mission_outcome": "I_inconclusive",
+  "translation_validated": false,
+  "original_nontextual_process_authenticated": false,
+  "v3_cycle_remains_closed": true,
+  "v3_conclusion": "data/mission_conclusion_v3.json",
+  "supplemental_experiment": "Exact sufficiency/value of one authenticated complete word in the fixed Knightmare model",
+  "new_semantic_candidate": null,
+  "question_disposition": "Completed exact partitions; one of131possible345meanings would identify the observed-digit key. No authenticated meaning obtained. No semantic validation.",
+  "new_hypotheses": [
+    "H130",
+    "H131"
+  ],
+  "priority_evidence": [
+    "Authenticated complete message and original mechanism",
+    "Authenticated345meaning, minimizing worst-case remaining keys within model",
+    "Authenticated90871meaning, maximizing average information under artificial uniform-key weights",
+    "Independent new messages with reserved meaning and digit2coverage"
+  ],
+  "no_third_party_messages_sent": true,
+  "priorities_unchanged": {
+    "avar_tar": "No new authenticated gloss; no new fit this round",
+    "chayenne": "No new authenticated gloss; no new fit this round",
+    "3478": "Contextual name retained; BEHOLDER/BONELORDcribs reconfirmed zero within frozen family",
+    "hellgate_matrices": "Suspended pending authentic new measurements or specified mechanism"
+  },
+  "next_action": "Await a scientific reopening trigger; evidence-request document prepared locally, not sent."
+}

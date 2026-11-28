@@ -1,0 +1,12 @@
+{
+  "stage": "Before qualification fixture generation or new marginal calculations",
+  "sha256": {
+    "data/round36_protocol.json": "dadd9b36e892ef31aebdc0f510237ee3cca0d9ac27f1996dc435d1ddc5b519d6",
+    "data/round33_fixtures.json": "afac8d4afb6dceb79b0061bd27b6da5095c2a519406147c3803f993432b700d9",
+    "scripts/round33_count.cpp": "746810ab1e6faef48dda8eb9915956a8ca6aab5597608608614f97d71de13473",
+    "scripts/round33_independent.cpp": "f74e73969418b12acff0c64e19db524078147ec7d5d73af8177a8b0ba8b0c3bf",
+    "scripts/unit_morphism_lexicon.py": "4e1bc4aef71d2b8d6146f00fe2f917d0934743ebb2e79ada737a2ce53c113e9d",
+    "data/cmudict_reference/cmudict.dict": "81917843c7f44ce2b094ac63873c2c7a4cf802040792c455ba3ca406891c3d22",
+    "data/cmudict_reference/cmudict.phones": "ffb588a5e55684723582c7256e1d2f9fadb130011392d9e59237c76e34c2cfd6"
+  }
+}

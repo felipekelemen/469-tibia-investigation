@@ -1,0 +1,38 @@
+{
+  "stage": "Post-result reproduction protocol, before clean replay",
+  "jobs": [
+    {
+      "id": "prior_v3_closure",
+      "command": [
+        "python",
+        "scripts/check_mission_v3.py"
+      ]
+    },
+    {
+      "id": "round36_full",
+      "command": [
+        "python",
+        "scripts/run_round36.py",
+        "--full",
+        "--output",
+        "/tmp/469-e6-round36-replay.json"
+      ]
+    },
+    {
+      "id": "tests",
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ]
+    }
+  ],
+  "timeout_seconds_per_job": 1800,
+  "max_address_space_per_process_bytes": 3221225472,
+  "concurrency": 1,
+  "scope": "Public-only snapshot on same runtime; all numeric outputs replayed except resource timing. No external peer review."
+}

@@ -1,0 +1,1402 @@
+[
+  {
+    "raw": "0",
+    "word": "A",
+    "expected": "18588412",
+    "result": {
+      "complete": true,
+      "count": "18588412",
+      "observed_mask": 1019,
+      "private_mask": 34,
+      "pair_visits": 2970695,
+      "peak_table_rows": 1762870,
+      "elimination_order": [
+        0,
+        6,
+        9,
+        7,
+        8,
+        3,
+        4
+      ],
+      "local_tables": [
+        {
+          "raw": "0",
+          "remaining_mask": 1,
+          "rows": 1
+        },
+        {
+          "raw": "67",
+          "remaining_mask": 192,
+          "rows": 75708
+        },
+        {
+          "raw": "345",
+          "remaining_mask": 24,
+          "rows": 170568
+        },
+        {
+          "raw": "3466",
+          "remaining_mask": 88,
+          "rows": 7534
+        },
+        {
+          "raw": "3478",
+          "remaining_mask": 408,
+          "rows": 1356268
+        },
+        {
+          "raw": "97664",
+          "remaining_mask": 720,
+          "rows": 21271
+        },
+        {
+          "raw": "90871",
+          "remaining_mask": 897,
+          "rows": 1762870
+        }
+      ],
+      "resources": {
+        "wall_seconds": 6.614557991968468,
+        "child_cpu_seconds": 6.606544000000003
+      }
+    },
+    "matches": true
+  },
+  {
+    "raw": "0",
+    "word": "GAT",
+    "expected": "12",
+    "result": {
+      "complete": true,
+      "count": "12",
+      "observed_mask": 1019,
+      "private_mask": 34,
+      "pair_visits": 503,
+      "peak_table_rows": 1762870,
+      "elimination_order": [
+        0,
+        9,
+        6,
+        7,
+        8,
+        3,
+        4
+      ],
+      "local_tables": [
+        {
+          "raw": "0",
+          "remaining_mask": 1,
+          "rows": 1
+        },
+        {
+          "raw": "67",
+          "remaining_mask": 192,
+          "rows": 75708
+        },
+        {
+          "raw": "345",
+          "remaining_mask": 24,
+          "rows": 170568
+        },
+        {
+          "raw": "3466",
+          "remaining_mask": 88,
+          "rows": 7534
+        },
+        {
+          "raw": "3478",
+          "remaining_mask": 408,
+          "rows": 1356268
+        },
+        {
+          "raw": "97664",
+          "remaining_mask": 720,
+          "rows": 21271
+        },
+        {
+          "raw": "90871",
+          "remaining_mask": 897,
+          "rows": 1762870
+        }
+      ],
+      "resources": {
+        "wall_seconds": 3.4171872330480255,
+        "child_cpu_seconds": 3.4018159999999975
+      }
+    },
+    "matches": true
+  },
+  {
+    "raw": "345",
+    "word": "ABA",
+    "expected": "41",
+    "result": {
+      "complete": true,
+      "count": "41",
+      "observed_mask": 1019,
+      "private_mask": 34,
+      "pair_visits": 10268739,
+      "peak_table_rows": 4480512,
+      "elimination_order": [
+        0,
+        6,
+        9,
+        7,
+        8,
+        3,
+        4
+      ],
+      "local_tables": [
+        {
+          "raw": "0",
+          "remaining_mask": 1,
+          "rows": 1829
+        },
+        {
+          "raw": "67",
+          "remaining_mask": 192,
+          "rows": 75708
+        },
+        {
+          "raw": "345",
+          "remaining_mask": 24,
+          "rows": 1
+        },
+        {
+          "raw": "3466",
+          "remaining_mask": 88,
+          "rows": 7534
+        },
+        {
+          "raw": "3478",
+          "remaining_mask": 408,
+          "rows": 1356268
+        },
+        {
+          "raw": "97664",
+          "remaining_mask": 720,
+          "rows": 21271
+        },
+        {
+          "raw": "90871",
+          "remaining_mask": 897,
+          "rows": 1762870
+        }
+      ],
+      "resources": {
+        "wall_seconds": 13.131650541967247,
+        "child_cpu_seconds": 13.124199999999998
+      }
+    },
+    "matches": true
+  },
+  {
+    "raw": "345",
+    "word": "ACHATZ",
+    "expected": "1",
+    "result": {
+      "complete": true,
+      "count": "1",
+      "observed_mask": 1019,
+      "private_mask": 34,
+      "pair_visits": 10268739,
+      "peak_table_rows": 4480512,
+      "elimination_order": [
+        0,
+        6,
+        9,
+        7,
+        8,
+        3,
+        4
+      ],
+      "local_tables": [
+        {
+          "raw": "0",
+          "remaining_mask": 1,
+          "rows": 1829
+        },
+        {
+          "raw": "67",
+          "remaining_mask": 192,
+          "rows": 75708
+        },
+        {
+          "raw": "345",
+          "remaining_mask": 24,
+          "rows": 7
+        },
+        {
+          "raw": "3466",
+          "remaining_mask": 88,
+          "rows": 7534
+        },
+        {
+          "raw": "3478",
+          "remaining_mask": 408,
+          "rows": 1356268
+        },
+        {
+          "raw": "97664",
+          "remaining_mask": 720,
+          "rows": 21271
+        },
+        {
+          "raw": "90871",
+          "remaining_mask": 897,
+          "rows": 1762870
+        }
+      ],
+      "resources": {
+        "wall_seconds": 13.126523844024632,
+        "child_cpu_seconds": 13.107888999999997
+      }
+    },
+    "matches": true
+  },
+  {
+    "raw": "345",
+    "word": "BEVIL",
+    "expected": "31838",
+    "result": {
+      "complete": true,
+      "count": "31838",
+      "observed_mask": 1019,
+      "private_mask": 34,
+      "pair_visits": 10268740,
+      "peak_table_rows": 4480512,
+      "elimination_order": [
+        0,
+        6,
+        9,
+        7,
+        8,
+        3,
+        4
+      ],
+      "local_tables": [
+        {
+          "raw": "0",
+          "remaining_mask": 1,
+          "rows": 1829
+        },
+        {
+          "raw": "67",
+          "remaining_mask": 192,
+          "rows": 75708
+        },
+        {
+          "raw": "345",
+          "remaining_mask": 24,
+          "rows": 6
+        },
+        {
+          "raw": "3466",
+          "remaining_mask": 88,
+          "rows": 7534
+        },
+        {
+          "raw": "3478",
+          "remaining_mask": 408,
+          "rows": 1356268
+        },
+        {
+          "raw": "97664",
+          "remaining_mask": 720,
+          "rows": 21271
+        },
+        {
+          "raw": "90871",
+          "remaining_mask": 897,
+          "rows": 1762870
+        }
+      ],
+      "resources": {
+        "wall_seconds": 13.113813949981704,
+        "child_cpu_seconds": 13.093215
+      }
+    },
+    "matches": true
+  },
+  {
+    "raw": "3466",
+    "word": "ABBOTT",
+    "expected": "32",
+    "result": {
+      "complete": true,
+      "count": "32",
+      "observed_mask": 1019,
+      "private_mask": 34,
+      "pair_visits": 718238,
+      "peak_table_rows": 1762870,
+      "elimination_order": [
+        0,
+        6,
+        9,
+        7,
+        8,
+        3,
+        4
+      ],
+      "local_tables": [
+        {
+          "raw": "0",
+          "remaining_mask": 1,
+          "rows": 1829
+        },
+        {
+          "raw": "67",
+          "remaining_mask": 192,
+          "rows": 75708
+        },
+        {
+          "raw": "345",
+          "remaining_mask": 24,
+          "rows": 170568
+        },
+        {
+          "raw": "3466",
+          "remaining_mask": 88,
+          "rows": 3
+        },
+        {
+          "raw": "3478",
+          "remaining_mask": 408,
+          "rows": 1356268
+        },
+        {
+          "raw": "97664",
+          "remaining_mask": 720,
+          "rows": 21271
+        },
+        {
+          "raw": "90871",
+          "remaining_mask": 897,
+          "rows": 1762870
+        }
+      ],
+      "resources": {
+        "wall_seconds": 3.8034860210027546,
+        "child_cpu_seconds": 3.7979310000000077
+      }
+    },
+    "matches": true
+  },
+  {
+    "raw": "3466",
+    "word": "BELL",
+    "expected": "3362502",
+    "result": {
+      "complete": true,
+      "count": "3362502",
+      "observed_mask": 1019,
+      "private_mask": 34,
+      "pair_visits": 731960,
+      "peak_table_rows": 1762870,
+      "elimination_order": [
+        0,
+        6,
+        9,
+        7,
+        8,
+        3,
+        4
+      ],
+      "local_tables": [
+        {
+          "raw": "0",
+          "remaining_mask": 1,
+          "rows": 1829
+        },
+        {
+          "raw": "67",
+          "remaining_mask": 192,
+          "rows": 75708
+        },
+        {
+          "raw": "345",
+          "remaining_mask": 24,
+          "rows": 170568
+        },
+        {
+          "raw": "3466",
+          "remaining_mask": 88,
+          "rows": 1
+        },
+        {
+          "raw": "3478",
+          "remaining_mask": 408,
+          "rows": 1356268
+        },
+        {
+          "raw": "97664",
+          "remaining_mask": 720,
+          "rows": 21271
+        },
+        {
+          "raw": "90871",
+          "remaining_mask": 897,
+          "rows": 1762870
+        }
+      ],
+      "resources": {
+        "wall_seconds": 3.7180518690147437,
+        "child_cpu_seconds": 3.712431000000009
+      }
+    },
+    "matches": true
+  },
+  {
+    "raw": "3466",
+    "word": "HAWASS",
+    "expected": "3",
+    "result": {
+      "complete": true,
+      "count": "3",
+      "observed_mask": 1019,
+      "private_mask": 34,
+      "pair_visits": 721266,
+      "peak_table_rows": 1762870,
+      "elimination_order": [
+        0,
+        6,
+        9,
+        7,
+        8,
+        3,
+        4
+      ],
+      "local_tables": [
+        {
+          "raw": "0",
+          "remaining_mask": 1,
+          "rows": 1829
+        },
+        {
+          "raw": "67",
+          "remaining_mask": 192,
+          "rows": 75708
+        },
+        {
+          "raw": "345",
+          "remaining_mask": 24,
+          "rows": 170568
+        },
+        {
+          "raw": "3466",
+          "remaining_mask": 88,
+          "rows": 3
+        },
+        {
+          "raw": "3478",
+          "remaining_mask": 408,
+          "rows": 1356268
+        },
+        {
+          "raw": "97664",
+          "remaining_mask": 720,
+          "rows": 21271
+        },
+        {
+          "raw": "90871",
+          "remaining_mask": 897,
+          "rows": 1762870
+        }
+      ],
+      "resources": {
+        "wall_seconds": 3.842784939042758,
+        "child_cpu_seconds": 3.834219999999994
+      }
+    },
+    "matches": true
+  },
+  {
+    "raw": "3478",
+    "word": "ABBA",
+    "expected": "85",
+    "result": {
+      "complete": true,
+      "count": "85",
+      "observed_mask": 1019,
+      "private_mask": 34,
+      "pair_visits": 1100892,
+      "peak_table_rows": 1762870,
+      "elimination_order": [
+        0,
+        6,
+        3,
+        4,
+        7,
+        8,
+        9
+      ],
+      "local_tables": [
+        {
+          "raw": "0",
+          "remaining_mask": 1,
+          "rows": 1829
+        },
+        {
+          "raw": "67",
+          "remaining_mask": 192,
+          "rows": 75708
+        },
+        {
+          "raw": "345",
+          "remaining_mask": 24,
+          "rows": 170568
+        },
+        {
+          "raw": "3466",
+          "remaining_mask": 88,
+          "rows": 7534
+        },
+        {
+          "raw": "3478",
+          "remaining_mask": 408,
+          "rows": 1
+        },
+        {
+          "raw": "97664",
+          "remaining_mask": 720,
+          "rows": 21271
+        },
+        {
+          "raw": "90871",
+          "remaining_mask": 897,
+          "rows": 1762870
+        }
+      ],
+      "resources": {
+        "wall_seconds": 2.9554500009980984,
+        "child_cpu_seconds": 2.9503679999999948
+      }
+    },
+    "matches": true
+  },
+  {
+    "raw": "3478",
+    "word": "BEHOLDER",
+    "expected": "0",
+    "result": {
+      "complete": true,
+      "count": "0",
+      "observed_mask": 1019,
+      "private_mask": 34,
+      "pair_visits": 1100889,
+      "peak_table_rows": 1762870,
+      "elimination_order": [
+        0,
+        6,
+        3
+      ],
+      "local_tables": [
+        {
+          "raw": "0",
+          "remaining_mask": 1,
+          "rows": 1829
+        },
+        {
+          "raw": "67",
+          "remaining_mask": 192,
+          "rows": 75708
+        },
+        {
+          "raw": "345",
+          "remaining_mask": 24,
+          "rows": 170568
+        },
+        {
+          "raw": "3466",
+          "remaining_mask": 88,
+          "rows": 7534
+        },
+        {
+          "raw": "3478",
+          "remaining_mask": 408,
+          "rows": 19
+        },
+        {
+          "raw": "97664",
+          "remaining_mask": 720,
+          "rows": 21271
+        },
+        {
+          "raw": "90871",
+          "remaining_mask": 897,
+          "rows": 1762870
+        }
+      ],
+      "resources": {
+        "wall_seconds": 2.8060976690030657,
+        "child_cpu_seconds": 2.8016059999999885
+      }
+    },
+    "matches": true
+  },
+  {
+    "raw": "3478",
+    "word": "BONELORD",
+    "expected": "0",
+    "result": {
+      "complete": true,
+      "count": "0",
+      "observed_mask": 1019,
+      "private_mask": 34,
+      "pair_visits": 1100889,
+      "peak_table_rows": 1762870,
+      "elimination_order": [
+        0,
+        6,
+        3
+      ],
+      "local_tables": [
+        {
+          "raw": "0",
+          "remaining_mask": 1,
+          "rows": 1829
+        },
+        {
+          "raw": "67",
+          "remaining_mask": 192,
+          "rows": 75708
+        },
+        {
+          "raw": "345",
+          "remaining_mask": 24,
+          "rows": 170568
+        },
+        {
+          "raw": "3466",
+          "remaining_mask": 88,
+          "rows": 7534
+        },
+        {
+          "raw": "3478",
+          "remaining_mask": 408,
+          "rows": 19
+        },
+        {
+          "raw": "97664",
+          "remaining_mask": 720,
+          "rows": 21271
+        },
+        {
+          "raw": "90871",
+          "remaining_mask": 897,
+          "rows": 1762870
+        }
+      ],
+      "resources": {
+        "wall_seconds": 2.6760102930129506,
+        "child_cpu_seconds": 2.66932500000001
+      }
+    },
+    "matches": true
+  },
+  {
+    "raw": "3478",
+    "word": "HAEN",
+    "expected": "1333521",
+    "result": {
+      "complete": true,
+      "count": "1333521",
+      "observed_mask": 1019,
+      "private_mask": 34,
+      "pair_visits": 1101201,
+      "peak_table_rows": 1762870,
+      "elimination_order": [
+        0,
+        6,
+        3,
+        4,
+        7,
+        8,
+        9
+      ],
+      "local_tables": [
+        {
+          "raw": "0",
+          "remaining_mask": 1,
+          "rows": 1829
+        },
+        {
+          "raw": "67",
+          "remaining_mask": 192,
+          "rows": 75708
+        },
+        {
+          "raw": "345",
+          "remaining_mask": 24,
+          "rows": 170568
+        },
+        {
+          "raw": "3466",
+          "remaining_mask": 88,
+          "rows": 7534
+        },
+        {
+          "raw": "3478",
+          "remaining_mask": 408,
+          "rows": 1
+        },
+        {
+          "raw": "97664",
+          "remaining_mask": 720,
+          "rows": 21271
+        },
+        {
+          "raw": "90871",
+          "remaining_mask": 897,
+          "rows": 1762870
+        }
+      ],
+      "resources": {
+        "wall_seconds": 2.8545072010019794,
+        "child_cpu_seconds": 2.8493379999999875
+      }
+    },
+    "matches": true
+  },
+  {
+    "raw": "3478",
+    "word": "HAWAIIS",
+    "expected": "3",
+    "result": {
+      "complete": true,
+      "count": "3",
+      "observed_mask": 1019,
+      "private_mask": 34,
+      "pair_visits": 1100916,
+      "peak_table_rows": 1762870,
+      "elimination_order": [
+        0,
+        6,
+        3,
+        4,
+        7,
+        8,
+        9
+      ],
+      "local_tables": [
+        {
+          "raw": "0",
+          "remaining_mask": 1,
+          "rows": 1829
+        },
+        {
+          "raw": "67",
+          "remaining_mask": 192,
+          "rows": 75708
+        },
+        {
+          "raw": "345",
+          "remaining_mask": 24,
+          "rows": 170568
+        },
+        {
+          "raw": "3466",
+          "remaining_mask": 88,
+          "rows": 7534
+        },
+        {
+          "raw": "3478",
+          "remaining_mask": 408,
+          "rows": 16
+        },
+        {
+          "raw": "97664",
+          "remaining_mask": 720,
+          "rows": 21271
+        },
+        {
+          "raw": "90871",
+          "remaining_mask": 897,
+          "rows": 1762870
+        }
+      ],
+      "resources": {
+        "wall_seconds": 2.6439070570049807,
+        "child_cpu_seconds": 2.6381100000000064
+      }
+    },
+    "matches": true
+  },
+  {
+    "raw": "67",
+    "word": "AL",
+    "expected": "2193",
+    "result": {
+      "complete": true,
+      "count": "2193",
+      "observed_mask": 1019,
+      "private_mask": 34,
+      "pair_visits": 715125,
+      "peak_table_rows": 1762870,
+      "elimination_order": [
+        0,
+        6,
+        9,
+        7,
+        8,
+        3,
+        4
+      ],
+      "local_tables": [
+        {
+          "raw": "0",
+          "remaining_mask": 1,
+          "rows": 1829
+        },
+        {
+          "raw": "67",
+          "remaining_mask": 192,
+          "rows": 1
+        },
+        {
+          "raw": "345",
+          "remaining_mask": 24,
+          "rows": 170568
+        },
+        {
+          "raw": "3466",
+          "remaining_mask": 88,
+          "rows": 7534
+        },
+        {
+          "raw": "3478",
+          "remaining_mask": 408,
+          "rows": 1356268
+        },
+        {
+          "raw": "97664",
+          "remaining_mask": 720,
+          "rows": 21271
+        },
+        {
+          "raw": "90871",
+          "remaining_mask": 897,
+          "rows": 1762870
+        }
+      ],
+      "resources": {
+        "wall_seconds": 3.673088082985487,
+        "child_cpu_seconds": 3.6603890000000017
+      }
+    },
+    "matches": true
+  },
+  {
+    "raw": "67",
+    "word": "LE",
+    "expected": "27311502",
+    "result": {
+      "complete": true,
+      "count": "27311502",
+      "observed_mask": 1019,
+      "private_mask": 34,
+      "pair_visits": 2442107,
+      "peak_table_rows": 1762870,
+      "elimination_order": [
+        0,
+        6,
+        9,
+        7,
+        8,
+        3,
+        4
+      ],
+      "local_tables": [
+        {
+          "raw": "0",
+          "remaining_mask": 1,
+          "rows": 1829
+        },
+        {
+          "raw": "67",
+          "remaining_mask": 192,
+          "rows": 1
+        },
+        {
+          "raw": "345",
+          "remaining_mask": 24,
+          "rows": 170568
+        },
+        {
+          "raw": "3466",
+          "remaining_mask": 88,
+          "rows": 7534
+        },
+        {
+          "raw": "3478",
+          "remaining_mask": 408,
+          "rows": 1356268
+        },
+        {
+          "raw": "97664",
+          "remaining_mask": 720,
+          "rows": 21271
+        },
+        {
+          "raw": "90871",
+          "remaining_mask": 897,
+          "rows": 1762870
+        }
+      ],
+      "resources": {
+        "wall_seconds": 4.991485104954336,
+        "child_cpu_seconds": 4.973306999999993
+      }
+    },
+    "matches": true
+  },
+  {
+    "raw": "67",
+    "word": "TRI",
+    "expected": "22",
+    "result": {
+      "complete": true,
+      "count": "22",
+      "observed_mask": 1019,
+      "private_mask": 34,
+      "pair_visits": 719543,
+      "peak_table_rows": 1762870,
+      "elimination_order": [
+        0,
+        6,
+        9,
+        7,
+        8,
+        3,
+        4
+      ],
+      "local_tables": [
+        {
+          "raw": "0",
+          "remaining_mask": 1,
+          "rows": 1829
+        },
+        {
+          "raw": "67",
+          "remaining_mask": 192,
+          "rows": 2
+        },
+        {
+          "raw": "345",
+          "remaining_mask": 24,
+          "rows": 170568
+        },
+        {
+          "raw": "3466",
+          "remaining_mask": 88,
+          "rows": 7534
+        },
+        {
+          "raw": "3478",
+          "remaining_mask": 408,
+          "rows": 1356268
+        },
+        {
+          "raw": "97664",
+          "remaining_mask": 720,
+          "rows": 21271
+        },
+        {
+          "raw": "90871",
+          "remaining_mask": 897,
+          "rows": 1762870
+        }
+      ],
+      "resources": {
+        "wall_seconds": 3.753394736966584,
+        "child_cpu_seconds": 3.744494000000011
+      }
+    },
+    "matches": true
+  },
+  {
+    "raw": "90871",
+    "word": "ABDALLAH",
+    "expected": "1128",
+    "result": {
+      "complete": true,
+      "count": "1128",
+      "observed_mask": 1019,
+      "private_mask": 34,
+      "pair_visits": 307,
+      "peak_table_rows": 1356268,
+      "elimination_order": [
+        0,
+        9,
+        6,
+        7,
+        8,
+        3,
+        4
+      ],
+      "local_tables": [
+        {
+          "raw": "0",
+          "remaining_mask": 1,
+          "rows": 1829
+        },
+        {
+          "raw": "67",
+          "remaining_mask": 192,
+          "rows": 75708
+        },
+        {
+          "raw": "345",
+          "remaining_mask": 24,
+          "rows": 170568
+        },
+        {
+          "raw": "3466",
+          "remaining_mask": 88,
+          "rows": 7534
+        },
+        {
+          "raw": "3478",
+          "remaining_mask": 408,
+          "rows": 1356268
+        },
+        {
+          "raw": "97664",
+          "remaining_mask": 720,
+          "rows": 21271
+        },
+        {
+          "raw": "90871",
+          "remaining_mask": 897,
+          "rows": 30
+        }
+      ],
+      "resources": {
+        "wall_seconds": 1.37950495199766,
+        "child_cpu_seconds": 1.3746789999999889
+      }
+    },
+    "matches": true
+  },
+  {
+    "raw": "90871",
+    "word": "GLAMOR",
+    "expected": "6",
+    "result": {
+      "complete": true,
+      "count": "6",
+      "observed_mask": 1019,
+      "private_mask": 34,
+      "pair_visits": 999,
+      "peak_table_rows": 1356268,
+      "elimination_order": [
+        0,
+        9,
+        6,
+        7,
+        8,
+        3,
+        4
+      ],
+      "local_tables": [
+        {
+          "raw": "0",
+          "remaining_mask": 1,
+          "rows": 1829
+        },
+        {
+          "raw": "67",
+          "remaining_mask": 192,
+          "rows": 75708
+        },
+        {
+          "raw": "345",
+          "remaining_mask": 24,
+          "rows": 170568
+        },
+        {
+          "raw": "3466",
+          "remaining_mask": 88,
+          "rows": 7534
+        },
+        {
+          "raw": "3478",
+          "remaining_mask": 408,
+          "rows": 1356268
+        },
+        {
+          "raw": "97664",
+          "remaining_mask": 720,
+          "rows": 21271
+        },
+        {
+          "raw": "90871",
+          "remaining_mask": 897,
+          "rows": 5
+        }
+      ],
+      "resources": {
+        "wall_seconds": 1.5546033550053835,
+        "child_cpu_seconds": 1.5386710000000035
+      }
+    },
+    "matches": true
+  },
+  {
+    "raw": "90871",
+    "word": "MARASEK",
+    "expected": "41047",
+    "result": {
+      "complete": true,
+      "count": "41047",
+      "observed_mask": 1019,
+      "private_mask": 34,
+      "pair_visits": 6139,
+      "peak_table_rows": 1356268,
+      "elimination_order": [
+        0,
+        9,
+        6,
+        7,
+        8,
+        3,
+        4
+      ],
+      "local_tables": [
+        {
+          "raw": "0",
+          "remaining_mask": 1,
+          "rows": 1829
+        },
+        {
+          "raw": "67",
+          "remaining_mask": 192,
+          "rows": 75708
+        },
+        {
+          "raw": "345",
+          "remaining_mask": 24,
+          "rows": 170568
+        },
+        {
+          "raw": "3466",
+          "remaining_mask": 88,
+          "rows": 7534
+        },
+        {
+          "raw": "3478",
+          "remaining_mask": 408,
+          "rows": 1356268
+        },
+        {
+          "raw": "97664",
+          "remaining_mask": 720,
+          "rows": 21271
+        },
+        {
+          "raw": "90871",
+          "remaining_mask": 897,
+          "rows": 15
+        }
+      ],
+      "resources": {
+        "wall_seconds": 1.441415804962162,
+        "child_cpu_seconds": 1.4329210000000128
+      }
+    },
+    "matches": true
+  },
+  {
+    "raw": "97664",
+    "word": "ABDALLA",
+    "expected": "2256",
+    "result": {
+      "complete": true,
+      "count": "2256",
+      "observed_mask": 1019,
+      "private_mask": 34,
+      "pair_visits": 715282,
+      "peak_table_rows": 1762870,
+      "elimination_order": [
+        0,
+        6,
+        9,
+        7,
+        8,
+        3,
+        4
+      ],
+      "local_tables": [
+        {
+          "raw": "0",
+          "remaining_mask": 1,
+          "rows": 1829
+        },
+        {
+          "raw": "67",
+          "remaining_mask": 192,
+          "rows": 75708
+        },
+        {
+          "raw": "345",
+          "remaining_mask": 24,
+          "rows": 170568
+        },
+        {
+          "raw": "3466",
+          "remaining_mask": 88,
+          "rows": 7534
+        },
+        {
+          "raw": "3478",
+          "remaining_mask": 408,
+          "rows": 1356268
+        },
+        {
+          "raw": "97664",
+          "remaining_mask": 720,
+          "rows": 3
+        },
+        {
+          "raw": "90871",
+          "remaining_mask": 897,
+          "rows": 1762870
+        }
+      ],
+      "resources": {
+        "wall_seconds": 3.8293234879965894,
+        "child_cpu_seconds": 3.824098999999995
+      }
+    },
+    "matches": true
+  },
+  {
+    "raw": "97664",
+    "word": "SELLE",
+    "expected": "2325482",
+    "result": {
+      "complete": true,
+      "count": "2325482",
+      "observed_mask": 1019,
+      "private_mask": 34,
+      "pair_visits": 830665,
+      "peak_table_rows": 1762870,
+      "elimination_order": [
+        0,
+        6,
+        9,
+        7,
+        8,
+        3,
+        4
+      ],
+      "local_tables": [
+        {
+          "raw": "0",
+          "remaining_mask": 1,
+          "rows": 1829
+        },
+        {
+          "raw": "67",
+          "remaining_mask": 192,
+          "rows": 75708
+        },
+        {
+          "raw": "345",
+          "remaining_mask": 24,
+          "rows": 170568
+        },
+        {
+          "raw": "3466",
+          "remaining_mask": 88,
+          "rows": 7534
+        },
+        {
+          "raw": "3478",
+          "remaining_mask": 408,
+          "rows": 1356268
+        },
+        {
+          "raw": "97664",
+          "remaining_mask": 720,
+          "rows": 1
+        },
+        {
+          "raw": "90871",
+          "remaining_mask": 897,
+          "rows": 1762870
+        }
+      ],
+      "resources": {
+        "wall_seconds": 3.771445360966027,
+        "child_cpu_seconds": 3.766621999999993
+      }
+    },
+    "matches": true
+  },
+  {
+    "raw": "97664",
+    "word": "SELLEN",
+    "expected": "3",
+    "result": {
+      "complete": true,
+      "count": "3",
+      "observed_mask": 1019,
+      "private_mask": 34,
+      "pair_visits": 715392,
+      "peak_table_rows": 1762870,
+      "elimination_order": [
+        0,
+        6,
+        9,
+        7,
+        8,
+        3,
+        4
+      ],
+      "local_tables": [
+        {
+          "raw": "0",
+          "remaining_mask": 1,
+          "rows": 1829
+        },
+        {
+          "raw": "67",
+          "remaining_mask": 192,
+          "rows": 75708
+        },
+        {
+          "raw": "345",
+          "remaining_mask": 24,
+          "rows": 170568
+        },
+        {
+          "raw": "3466",
+          "remaining_mask": 88,
+          "rows": 7534
+        },
+        {
+          "raw": "3478",
+          "remaining_mask": 408,
+          "rows": 1356268
+        },
+        {
+          "raw": "97664",
+          "remaining_mask": 720,
+          "rows": 1
+        },
+        {
+          "raw": "90871",
+          "remaining_mask": 897,
+          "rows": 1762870
+        }
+      ],
+      "resources": {
+        "wall_seconds": 3.796699778002221,
+        "child_cpu_seconds": 3.791486000000001
+      }
+    },
+    "matches": true
+  }
+]

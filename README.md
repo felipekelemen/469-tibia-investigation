@@ -1,6 +1,6 @@
 # 469-tibia-investigation — investigação reproduzível
 
-**Estado: 35 rodadas registradas; ciclo v3 encerrado com resultado inconclusivo. Nenhuma tradução verificável encontrada.**
+**Estado: 36 rodadas registradas; resultado inconclusivo. Nenhuma tradução verificável encontrada.**
 Não afirmamos que o corpus é indecifrável nem que qualquer solução comunitária
 foi confirmada. O alvo é um algoritmo integral que generalize para textos inéditos.
 
@@ -9,6 +9,8 @@ Destino público: https://github.com/felipekelemen/469-tibia-investigation
 **Conclusão atual:** [dossiê por fonte e condições de reabertura](docs/mission_conclusion_v3.md),
 com [decisões computáveis](data/mission_conclusion_v3.json).
 O [plano v3](docs/mission_plan_v3.md) permanece como protocolo histórico.
+O ciclo v3 permanece encerrado; a [rodada 36](docs/round36.md) acrescenta um
+experimento exato sobre o valor de uma palavra autenticada, sem reabrir M1.
 O lote 24–30 foi executado, mas os objetivos científicos não foram todos atingidos
 e nem todas as buscas antigas foram completadas. As R31–33 acrescentaram fontes
 e contagem exata. O ciclo v3 adjudicou **seis etapas**, com limites
@@ -18,12 +20,23 @@ Prioridade: Avar Tar, Knightmare e Chayenne;3478 e Hellgate só reabrem com dado
 ou mecanismo novos. E1 e E2 foram executadas nas R34–35; E3–E5 não foram
 acionadas porque suas dependências não foram satisfeitas. E6 encerra o ciclo
 com reprodução e decisão I; isso não prova impossibilidade de tradução.
-[Progresso atual](data/plan_progress_round35.json),
+[Progresso atual](data/plan_progress_round36.json),
 [plano v2 histórico](docs/mission_plan_v2.md) e
 [formato de resultados e candidatas](docs/round_report_template_v2.md).
 
-**Publicado:** corpus normalizado, código, testes e resultados das 35 rodadas
+**Publicado:** corpus normalizado, código, testes e resultados das 36 rodadas
 disponíveis neste repositório. O acesso de escrita foi confirmado após nova reconexão.
+
+A [rodada 36](docs/round36.md) particionou as 153.174.074 chaves de Knightmare
+por todos os significados lexicais de cada grupo. Conhecer somente um dos
+primeiros seis grupos nunca determina toda a fala nesse modelo. Para `345`,
+131 palavras condicionantes deixam chave única, mas suas saídas não fornecem
+uma frase inglesa coerente; unicidade condicional também aparece nos cinco
+embaralhamentos. Passaram 60 comparações por enumeração direta e 22 contagens
+independentes. O resultado prioriza `345` pelo pior caso e `90871` sob pesos
+uniformes artificiais, sem atribuir significado a nenhum deles.
+Reprodução: `make round36` / `make round36-full`.
+O replay integral em cópia pública limpa concordou e **333 testes passaram**.
 
 A [rodada 35](docs/round35.md) testou duas configurações de busca com pontuação
 de inglês: **0/30 trechos naturais recuperados em cada uma**, predominantemente

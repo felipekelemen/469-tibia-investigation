@@ -1,0 +1,12 @@
+{
+  "kind": "Editorial round-number correction in copied replay wrapper; not a repeated or changed experiment",
+  "artifact": "results/round36_clean_replay.json",
+  "original_round": 35,
+  "correct_round": 36,
+  "original_sha256": "6a4468c82ac36f76b8bd2fe0e46cfe25562c390a9b4b044b305131e54bc0f152",
+  "corrected_sha256": "971fe8126db971c1b66a6ed702dfddd58d0a1d5b761dafbb49022b480b8ee1b0",
+  "wrapper_original_sha256": "b5669b01dcfec5bc2e578983502f27af7e067ca93c12d1a745662a9239529922",
+  "wrapper_corrected_sha256": "8887cb2b7d6c9925fd0d69f89b56b7c897701bc1628b4710e63d0decd9f233b2",
+  "scientific_results_or_job_logs_changed": false,
+  "reconstruct_original": "Set only top-level round to35and serialize with json.dumps(indent=2)+newline; original digest must match. Snapshot lists wrapper hash used during the actual run."
+}

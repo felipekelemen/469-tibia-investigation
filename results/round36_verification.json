@@ -1,0 +1,14 @@
+{
+  "round": 36,
+  "snapshot_files": 938,
+  "clean_replay_jobs_passed": 3,
+  "tests_passed": 333,
+  "changed_or_removed_snapshot_files": [],
+  "all_60_arithmetic_cases_repeated": true,
+  "all_six_censuses_repeated": true,
+  "all_22_independent_counts_repeated": true,
+  "outputs_identical_excluding_timing": true,
+  "external_review": false,
+  "metadata_correction": "data/round36_replay_metadata_correction.json",
+  "replay_total_child_cpu_seconds": 164.81273099999999
+}

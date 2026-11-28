@@ -1,0 +1,19 @@
+{
+  "round": 36,
+  "arithmetic_qualification_cases": 60,
+  "total_whole_keys_enumerated_in_qualification": 913050,
+  "complete_target_and_control_counts": 6,
+  "old_R33_counts_matched": 6,
+  "literal_key_witnesses_verified": 267017,
+  "independent_conditional_counts_matching": 22,
+  "unique_anchor_word_values_in_345": 131,
+  "unique_conditional_message_frames": 12,
+  "translation_validated": false,
+  "scope": "Conditional arithmetic and literal witness verification; lexical or conditional uniqueness is not semantic authentication.",
+  "replay": {
+    "all_60_arithmetic_cases_repeated": true,
+    "all_6_censuses_repeated": true,
+    "all_22_conditional_counts_repeated": true,
+    "scientific_outputs_identical": true
+  }
+}

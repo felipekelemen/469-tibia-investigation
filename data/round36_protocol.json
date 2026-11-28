@@ -1,0 +1,35 @@
+{
+  "round": 36,
+  "date_utc": "2026-11-28",
+  "baseline_commit": "e53567dabd990e8a8fef919b130867b632620a0a",
+  "relation_to_v3": "Finite supplemental exact experiment, not reopening failed M1 or changing the closed v3 result. User requested continued investigation.",
+  "new_hypothesis": "Within the frozen Knightmare word-boundary fixed1..3letter model, one authenticated complete word meaning could identify the rest of the seven-word message or the observed-digit key. Compute every possible single-anchor partition rather than choose a convenient phrase.",
+  "model": "Unchanged R23/R33CMU including hypothetical BONELORD; no grammar/English scoring or semantic probabilities. Group boundaries provisionally equal word boundaries; nine observed digits,2unobserved.",
+  "algorithm": "Fixed-topology contraction with exact per-word marginal key counts and up to two distinct whole-message witnesses per anchor. Private5and(0,1)leaves handled by products; never enumerate all153174074keys.",
+  "outputs": [
+    "Counts for every anchor word in each of seven groups",
+    "Key uniqueness and whole-message uniqueness separately",
+    "Best,worst and key-uniform expected remaining counts; entropy labeled hypothetical counting measure,not posterior meaning probability",
+    "Two literal keys witnessing differing whole messages wherever ambiguity is claimed",
+    "Finite independent conditional counts via unchanged R33engine",
+    "Prioritized request for authenticated meanings,no messages sent"
+  ],
+  "qualification": {
+    "cases": 60,
+    "seed": 364693478,
+    "strata": "15planted unary variable-length,15random unary;15planted binary maximum-word-length5,15random binary. Exact brute-force whole-key counts/marginals/support compared with contraction. This verifies arithmetic,not language recovery.",
+    "all_cases_must_match": true
+  },
+  "targets": "Knightmare plus first5within-group shuffled controls already fixed in R33; same digit scopes/lengths. Controls already exposed; descriptive,no p-value or semantic significance claim. Uniform R33results remain historical,not rerun by this topology-specific engine.",
+  "independent_checks": "For each main group,first positive word lexicographically,minimum count word and maximum count word with lexical ties;deduplicate. Run unchanged R33counter with that word forced; also both BEHOLDER/BONELORD cribs. No cherry-picking by lore.",
+  "budgets": {
+    "per_fit_wall_seconds": 300,
+    "address_space_bytes": 3221225472,
+    "local_rows_per_relation": 3000000,
+    "core_visits": 20000000,
+    "total_wall_seconds": 3600,
+    "temporary_disk_bytes": 21474836480
+  },
+  "gate": "No claim of a usable anchor until exact count/witness checks pass. Capped jobs remain unknown. No candidate translation unless literal complete coherent English and independent validation; conditional lexical alternatives are not translations.",
+  "stop": "Finish this census and adjudicate. Do not tune the English score, enlarge lexicon or contact authors. This may specify the value of evidence without supplying it."
+}

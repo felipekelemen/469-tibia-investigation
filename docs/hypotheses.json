@@ -901,5 +901,19 @@
     "status": "not_established_cycle_closed_I_after_conditional_stage_disposition",
     "evidence": "E1sem evidência decisiva;E2reprovada;E3/E4/E5não acionadas por dependências ausentes;E6reprodução e dossiê por fonte. I não é impossibilidade universal ou ausência de utilidade no jogo.",
     "artifact": "data/mission_conclusion_v3.json"
+  },
+  {
+    "id": "H130",
+    "hypothesis": "Uma única palavra inglesa autenticada identifica a chave ou o restante da fala de Knightmare na família fixa1–3letras",
+    "status": "exact_conditional_partition_sufficiency_depends_on_anchor",
+    "evidence": "153174074chaves particionadas em72151células grupo/palavra. Nenhum significado dos primeiros6grupos determina toda a fala;345tem131células de chave/mensagem única entre23766. Até31838chaves restantes no pior caso de345;90871minimiza a média sob pesos uniformes artificiais.60oráculos pequenos e22contagens independentes concordam. Nenhuma âncora real foi obtida.",
+    "artifact": "results/round36/summary.json"
+  },
+  {
+    "id": "H131",
+    "hypothesis": "Unicidade lexical após escolher um significado hipotético é evidência suficiente de tradução de469",
+    "status": "not_supported_conditional_uniqueness_also_in_shuffled_controls",
+    "evidence": "Todos os5embaralhamentos fixados contêm células com mensagem única. As131células únicas deKnightmare agrupam-se em12prefixos de6palavras; inspeção literal não encontrou frase inglesa coerente.267017testemunhas verificadas. Controle descritivo, sem p-valor ou autenticação semântica.",
+    "artifact": "results/round36/unique_frames.json"
   }
 ]

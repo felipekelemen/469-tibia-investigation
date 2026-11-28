@@ -1,0 +1,23 @@
+{
+  "stage": "After complete initial experiment and manual inspection of12conditional frames; before full replay",
+  "sha256": {
+    "data/round36_protocol.json": "dadd9b36e892ef31aebdc0f510237ee3cca0d9ac27f1996dc435d1ddc5b519d6",
+    "data/round36_fixtures.json": "9d6be6accf73c777fa9d2b4931927709780e3237e081790fe9865774780ce338",
+    "data/round36_input_manifest.json": "edbd31dfe015a6f6eef7b9b6801190c97b6d8c354fa20f852b044fa3a6c510f7",
+    "data/round36_execution_manifest.json": "e3455157e8d16c2145eaf1892bde02232c390ddd6009f9046894950a137b8af4",
+    "scripts/round36_anchors.cpp": "d882bf97a91c9689036deca34f13108986dc228d8bc448accb03c756ca891ceb",
+    "scripts/round36_experiment.py": "6d2f765d4fda17872118d7dcd968a81848c25706e0cef1b0078f5763d4ca4b39",
+    "scripts/run_round36.py": "927c732c4f863495235e6d21b9a82bf3408fb3c8404621da7dd8366315c64ddb",
+    "tests/test_round36_anchors.py": "eb2cc5c4c02d5adf85c60482d5f38949d4e2ca310607c87efc79159fe5624018",
+    "results/round36/independent_checks.json": "a4ab8d708fd79bddeb09f2bb29b319483ab7ab926ecea342e8ea2721f100c28f",
+    "results/round36/knightmare.json.gz": "591aad1f5c16325049f26c3ae8ed5648421dc0599d7f7738981222f5a7643136",
+    "results/round36/knightmare_shuffle_0.json.gz": "4fd7e60bbb3b0149dae69d4882d94720ea47f75bab02160caf651aea583c1626",
+    "results/round36/knightmare_shuffle_1.json.gz": "56873913a0521b31320899e2cba5e5df84b0f097347c44cffd33597c704ecdc8",
+    "results/round36/knightmare_shuffle_2.json.gz": "a4533baf2e20a18ec6f80a1ece9bdc386bd3af07f3f0c14897f04ff13516af28",
+    "results/round36/knightmare_shuffle_3.json.gz": "1525fcb79e6c0d24bbfa3a58f15087d73d0a1e6d3348c59f74c3f39905757340",
+    "results/round36/knightmare_shuffle_4.json.gz": "0d55c921d06bf4fddd4d530f2b1a1b3e0be139211c52c3507a17ed1f57080375",
+    "results/round36/qualification.json": "17e5a2a7ca875e497cd7ae50f179629eb075cf73fe427ad9fad17e5f61fcacbc",
+    "results/round36/summary.json": "bb18db7a6e7aec2d3daa83d856d3eb741acc366c7b253b3caebcb618f077055b",
+    "results/round36/unique_frames.json": "ee811960c96ae0c5aca2d135700e43ade8b8047706f0b3504cb1357d33f76c17"
+  }
+}

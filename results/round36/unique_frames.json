@@ -1,0 +1,286 @@
+{
+  "round": 36,
+  "kind": "Post-result literal manual review, not an English classifier or semantic validation",
+  "unique_anchor_group": "345",
+  "unique_anchor_word_values": 131,
+  "distinct_six_word_prefixes": 12,
+  "frames": [
+    {
+      "first_six_words": [
+        "ACHMED",
+        "OM",
+        "STEEDMAN",
+        "SMOOCH",
+        "ACHOO",
+        "TE"
+      ],
+      "last_word_values": [
+        "ACHATZ",
+        "ACHE",
+        "ACHEBE",
+        "ACHED",
+        "ACHEE",
+        "ACHENE",
+        "ACHES",
+        "ACHEY",
+        "ACHMED",
+        "ACHOA",
+        "ACHOAS",
+        "ACHOO",
+        "ACHOR",
+        "ACHORD",
+        "ACHORN",
+        "ACHY"
+      ]
+    },
+    {
+      "first_six_words": [
+        "BOROUGH",
+        "FU",
+        "BERGHUIS",
+        "BUFFO",
+        "BOROFF",
+        "ER"
+      ],
+      "last_word_values": [
+        "BOROCCE",
+        "BOROFF",
+        "BOROIAN",
+        "BOROSKI",
+        "BOROUGH",
+        "BOROWY"
+      ]
+    },
+    {
+      "first_six_words": [
+        "CHREST",
+        "ER",
+        "FORESTRY",
+        "FREEH",
+        "CHEE",
+        "OR"
+      ],
+      "last_word_values": [
+        "CHA",
+        "CHE",
+        "CHI",
+        "CHLOE",
+        "CHO",
+        "CHRIS",
+        "CHU"
+      ]
+    },
+    {
+      "first_six_words": [
+        "DEEDRICK",
+        "ER",
+        "GIMMICKRY",
+        "GREED",
+        "DEEDEE",
+        "IMM"
+      ],
+      "last_word_values": [
+        "DEEDED",
+        "DEEDEE"
+      ]
+    },
+    {
+      "first_six_words": [
+        "ENTRINGER",
+        "EIN",
+        "MONGERING",
+        "MINEER",
+        "ENTREE",
+        "ON"
+      ],
+      "last_word_values": [
+        "ENTRAIL",
+        "ENTRANT",
+        "ENTRAP",
+        "ENTRE",
+        "ENTREE",
+        "ENTREES",
+        "ENTRIES",
+        "ENTROPY",
+        "ENTRUST",
+        "ENTRY"
+      ]
+    },
+    {
+      "first_six_words": [
+        "FERRARI",
+        "EAR",
+        "CAVIARS",
+        "CAREER",
+        "FERREE",
+        "AV"
+      ],
+      "last_word_values": [
+        "FERRALL",
+        "FERRAN",
+        "FERRAND",
+        "FERRANT",
+        "FERRAR",
+        "FERRARA",
+        "FERRARI",
+        "FERRARO",
+        "FERREE",
+        "FERREL",
+        "FERRELL",
+        "FERREN",
+        "FERRER",
+        "FERRERA",
+        "FERRERI",
+        "FERRERO",
+        "FERRET",
+        "FERRETS",
+        "FERRICK",
+        "FERRIE",
+        "FERRIED",
+        "FERRIER",
+        "FERRIES",
+        "FERRILL",
+        "FERRIN",
+        "FERRINI",
+        "FERRIS",
+        "FERRISS",
+        "FERRITE",
+        "FERRIZ",
+        "FERRON",
+        "FERRONE",
+        "FERROUS",
+        "FERRYS"
+      ]
+    },
+    {
+      "first_six_words": [
+        "HAWAIIS",
+        "SI",
+        "LOUISIANA",
+        "LISSA",
+        "HAWASS",
+        "OU"
+      ],
+      "last_word_values": [
+        "HAWAII",
+        "HAWAIIS",
+        "HAWASS"
+      ]
+    },
+    {
+      "first_six_words": [
+        "HIAASEN",
+        "TA",
+        "REISENAUER",
+        "REATTA",
+        "HIATT",
+        "I"
+      ],
+      "last_word_values": [
+        "HIATTS",
+        "HIATUS"
+      ]
+    },
+    {
+      "first_six_words": [
+        "MCGOUGH",
+        "FU",
+        "BERGHUIS",
+        "BUFFO",
+        "MCGOFF",
+        "ER"
+      ],
+      "last_word_values": [
+        "MCGOEY",
+        "MCGOFF",
+        "MCGOLS",
+        "MCGOUGH",
+        "MCGOWAN",
+        "MCGOWEN",
+        "MCGOWIN",
+        "MCGOWN"
+      ]
+    },
+    {
+      "first_six_words": [
+        "OVERSHOT",
+        "EH",
+        "CAROTHERS",
+        "CHEERS",
+        "OVERSEE",
+        "AR"
+      ],
+      "last_word_values": [
+        "OVERSAW",
+        "OVERSEA",
+        "OVERSEAS",
+        "OVERSEE",
+        "OVERSEEN",
+        "OVERSEER",
+        "OVERSEES",
+        "OVERSELL",
+        "OVERSHOT",
+        "OVERSIZE",
+        "OVERSOLD",
+        "OVERSON",
+        "OVERSTAY",
+        "OVERSTEP"
+      ]
+    },
+    {
+      "first_six_words": [
+        "PELLERIN",
+        "TRI",
+        "BROWNRIGG",
+        "BRITTLE",
+        "PELLETT",
+        "ROW"
+      ],
+      "last_word_values": [
+        "PELLER",
+        "PELLERIN",
+        "PELLET",
+        "PELLETED",
+        "PELLETS",
+        "PELLETT",
+        "PELLEU",
+        "PELLEY"
+      ]
+    },
+    {
+      "first_six_words": [
+        "RAISES",
+        "TSE",
+        "ROTISSERIE",
+        "ROSETTI",
+        "RAITT",
+        "TI"
+      ],
+      "last_word_values": [
+        "RAIBLE",
+        "RAICHE",
+        "RAIDED",
+        "RAIDER",
+        "RAIKES",
+        "RAILED",
+        "RAILEY",
+        "RAIMER",
+        "RAINED",
+        "RAINER",
+        "RAINES",
+        "RAINEY",
+        "RAINIE",
+        "RAISCH",
+        "RAISED",
+        "RAISER",
+        "RAISES",
+        "RAISIN",
+        "RAISON",
+        "RAISOR",
+        "RAISSA"
+      ]
+    }
+  ],
+  "assessment": "All12prefix frames were inspected literally. None supplies a coherent complete English sentence suitable for a Tibia translation candidate; no repair or name substitution applied. This is a manual judgment, not an automated proof of non-English.",
+  "new_semantic_candidate": null
+}
