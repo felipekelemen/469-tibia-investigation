@@ -1,0 +1,11 @@
+{
+  "reason": "Audit compared Python tuple rows to JSON list rows; normalize the recomputed object through JSON before equality. No experiment code, result or interpretation changed.",
+  "failed_command": "python scripts/run_round38.py",
+  "changed_file": "scripts/run_round38.py",
+  "old_line": "    assert report==load('results/round38/inspection.json')",
+  "new_line": "    assert json.loads(json.dumps(report))==load('results/round38/inspection.json')",
+  "before_sha256": "2f571349f0d6a62f866003cbe436dc4c2eb4bb0a561cd9e5ca3d83316ab6e9e4",
+  "after_sha256": "cb13e1de20239f14ac886920a0b8534eb85f3e3ad6278fac4e32c81763d08b7a",
+  "original_result_manifest": "data/round38_result_manifest_v1.json",
+  "original_manifest_sha256": "851e9ade9e08d23573cff34dfddd3181fc4250658ea52383a4207995cff00c7c"
+}

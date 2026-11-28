@@ -1,0 +1,10 @@
+Frozen model pairs: 88307
+{
+  "mission_outcome": "I_inconclusive",
+  "cycle_closed": true,
+  "stages_disposed": 6,
+  "sources_disposed": 5,
+  "clean_replay_jobs_passed": 5,
+  "tests_passed": 330,
+  "scope": "Consistency, integrity and numerical reproduction; source authenticity and semantic conclusions remain explicitly adjudicated judgments."
+}

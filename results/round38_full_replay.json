@@ -1,0 +1,19 @@
+{
+  "round": 38,
+  "arithmetic_qualification_cases": 70,
+  "complete_conditional_keys_verified": 3976,
+  "controls": 597,
+  "complete_controls": 561,
+  "limited_controls": 36,
+  "positive_complete_controls": 39,
+  "unanimous_fragment_obstructions": 2,
+  "mission_outcome": "I_inconclusive",
+  "new_validated_translation": null,
+  "replay": {
+    "all_70_arithmetic_cases_repeated": true,
+    "all_3976_real_keys_identical": true,
+    "all_597_controls_repeated": true,
+    "complete_and_limited_outcomes_identical": true,
+    "all_transfer_diagnostics_identical": true
+  }
+}

@@ -1,0 +1,2321 @@
+[
+  {
+    "id": "tiny_00",
+    "groups": [
+      "0",
+      "0110",
+      "211",
+      "002",
+      "022"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "A",
+    "lexicon": [
+      "A",
+      "AAAAA",
+      "AAAAAAA",
+      "AAAAAAAA",
+      "AAAAAAAAA",
+      "AAAAB",
+      "AAB",
+      "AABABB",
+      "AABBBB",
+      "ABAAAB",
+      "ABAAB",
+      "ABBAB",
+      "BAA",
+      "BAAB",
+      "BAABAB",
+      "BBAA",
+      "BBAB",
+      "BBBAA",
+      "BBBBAB"
+    ],
+    "true_key": {
+      "0": "A",
+      "1": "AAA",
+      "2": "AAA"
+    }
+  },
+  {
+    "id": "tiny_01",
+    "groups": [
+      "11",
+      "220",
+      "21",
+      "0221"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "BAAAA",
+    "lexicon": [
+      "AAAABB",
+      "AAABBA",
+      "AABA",
+      "AABABA",
+      "AABBB",
+      "ABAABA",
+      "ABABAB",
+      "BAAAA",
+      "BABAB",
+      "BABABA",
+      "BABABB",
+      "BBA",
+      "BBAABA",
+      "BBBB",
+      "BBBBA"
+    ],
+    "true_key": null
+  },
+  {
+    "id": "tiny_02",
+    "groups": [
+      "1",
+      "0"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "ABA",
+    "lexicon": [
+      "AAAA",
+      "AAABAB",
+      "AAABB",
+      "AABAA",
+      "AABAAA",
+      "AABBBA",
+      "AABBBB",
+      "ABA",
+      "ABABA",
+      "ABABBB",
+      "ABBAB",
+      "BAAAA",
+      "BABA",
+      "BABBBB",
+      "BB",
+      "BBAA",
+      "BBABBB"
+    ],
+    "true_key": {
+      "0": "BB",
+      "1": "ABA"
+    }
+  },
+  {
+    "id": "tiny_03",
+    "groups": [
+      "211",
+      "0211",
+      "2",
+      "20"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "BBBABA",
+    "lexicon": [
+      "AABA",
+      "AABAA",
+      "AABAAB",
+      "ABAAA",
+      "ABAAAB",
+      "ABAABB",
+      "ABABAA",
+      "ABBAAB",
+      "ABBABB",
+      "BAAAAB",
+      "BAABAA",
+      "BABBA",
+      "BBAABA",
+      "BBABAA",
+      "BBBAB",
+      "BBBABA"
+    ],
+    "true_key": null
+  },
+  {
+    "id": "tiny_04",
+    "groups": [
+      "2001",
+      "2",
+      "110"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "ABABBABBABAB",
+    "lexicon": [
+      "AAAA",
+      "AABAB",
+      "ABA",
+      "ABABB",
+      "ABABBABBABAB",
+      "ABBABA",
+      "ABBABB",
+      "ABBBB",
+      "BAAB",
+      "BAABAA",
+      "BABABB",
+      "BABBABBBA",
+      "BBA",
+      "BBAAA",
+      "BBAABA",
+      "BBBA",
+      "BBBAAA",
+      "BBBBBB"
+    ],
+    "true_key": {
+      "0": "BBA",
+      "1": "BAB",
+      "2": "ABA"
+    }
+  },
+  {
+    "id": "tiny_05",
+    "groups": [
+      "2220",
+      "200"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "BBBBB",
+    "lexicon": [
+      "AAAAAA",
+      "AABAAB",
+      "AABBBB",
+      "ABAAAB",
+      "ABAABB",
+      "ABABAB",
+      "ABBAAA",
+      "B",
+      "BAAAA",
+      "BAAABB",
+      "BABBBA",
+      "BABBBB",
+      "BBAABB",
+      "BBBAAA",
+      "BBBBB"
+    ],
+    "true_key": null
+  },
+  {
+    "id": "tiny_06",
+    "groups": [
+      "1",
+      "202"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "AAA",
+    "lexicon": [
+      "AA",
+      "AAA",
+      "AAAAAB",
+      "AAAABB",
+      "ABA",
+      "ABAAABABA",
+      "ABBA",
+      "ABBAAA",
+      "ABBBBA",
+      "BABA",
+      "BABAAA",
+      "BBAAB",
+      "BBAB",
+      "BBABAA",
+      "BBBA",
+      "BBBAA",
+      "BBBBBA"
+    ],
+    "true_key": {
+      "0": "AAB",
+      "1": "AAA",
+      "2": "ABA"
+    }
+  },
+  {
+    "id": "tiny_07",
+    "groups": [
+      "0",
+      "020",
+      "2011"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "AABA",
+    "lexicon": [
+      "AAABAA",
+      "AABA",
+      "AABAAA",
+      "AABAAB",
+      "AABABB",
+      "AB",
+      "ABABA",
+      "ABABBB",
+      "ABBBB",
+      "BAABB",
+      "BAB",
+      "BABBBB",
+      "BBAA",
+      "BBABA",
+      "BBBBAA",
+      "BBBBBA"
+    ],
+    "true_key": null
+  },
+  {
+    "id": "tiny_08",
+    "groups": [
+      "01",
+      "2",
+      "220",
+      "0000"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "BAAB",
+    "lexicon": [
+      "AA",
+      "AAABBB",
+      "AAB",
+      "AABAAA",
+      "AABAABB",
+      "AABABA",
+      "ABABAA",
+      "BAAAAA",
+      "BAAB",
+      "BABAAA",
+      "BABBAA",
+      "BABBBB",
+      "BBAA",
+      "BBAABA",
+      "BBABAA",
+      "BBBA",
+      "BBBAAA",
+      "BBBB"
+    ],
+    "true_key": {
+      "0": "B",
+      "1": "AAB",
+      "2": "AAB"
+    }
+  },
+  {
+    "id": "tiny_09",
+    "groups": [
+      "000",
+      "2",
+      "2222",
+      "1210"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "AAABB",
+    "lexicon": [
+      "AAABA",
+      "AAABB",
+      "AABB",
+      "ABAAA",
+      "ABABB",
+      "ABBAB",
+      "ABBABA",
+      "ABBABB",
+      "ABBBB",
+      "B",
+      "BAA",
+      "BAAAAA",
+      "BAABAB",
+      "BBA",
+      "BBAABA",
+      "BBBAB"
+    ],
+    "true_key": null
+  },
+  {
+    "id": "tiny_10",
+    "groups": [
+      "1",
+      "0221",
+      "2",
+      "22"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "BBB",
+    "lexicon": [
+      "A",
+      "AA",
+      "AAAAB",
+      "ABAAA",
+      "ABABB",
+      "ABBABA",
+      "ABBBBB",
+      "BA",
+      "BAA",
+      "BAAB",
+      "BABAA",
+      "BABAAA",
+      "BABABB",
+      "BABBB",
+      "BBAAAA",
+      "BBAABBB",
+      "BBABBB",
+      "BBB",
+      "BBBAAA"
+    ],
+    "true_key": {
+      "0": "BB",
+      "1": "BBB",
+      "2": "A"
+    }
+  },
+  {
+    "id": "tiny_11",
+    "groups": [
+      "200",
+      "120",
+      "000"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "BBAB",
+    "lexicon": [
+      "AAABA",
+      "AABA",
+      "ABA",
+      "ABAAB",
+      "ABABAB",
+      "ABABBB",
+      "BAAAA",
+      "BABAA",
+      "BABAAB",
+      "BABAB",
+      "BABBAB",
+      "BABBBA",
+      "BBAB",
+      "BBABA",
+      "BBABB",
+      "BBBBAB"
+    ],
+    "true_key": null
+  },
+  {
+    "id": "tiny_12",
+    "groups": [
+      "22",
+      "2",
+      "000",
+      "221"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "ABBABB",
+    "lexicon": [
+      "A",
+      "AABAAA",
+      "AABBBB",
+      "ABABB",
+      "ABB",
+      "ABBABA",
+      "ABBABB",
+      "ABBABBBB",
+      "ABBB",
+      "ABBBBA",
+      "BAAAB",
+      "BAAABA",
+      "BAAABB",
+      "BAABAB",
+      "BABBA",
+      "BBABBA",
+      "BBABBABBA",
+      "BBBAAB",
+      "BBBB"
+    ],
+    "true_key": {
+      "0": "BBA",
+      "1": "BB",
+      "2": "ABB"
+    }
+  },
+  {
+    "id": "tiny_13",
+    "groups": [
+      "1",
+      "002"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "B",
+    "lexicon": [
+      "AAAAA",
+      "AAAAAB",
+      "AAABA",
+      "AAABB",
+      "AABABB",
+      "AABBB",
+      "ABBAAA",
+      "ABBB",
+      "B",
+      "BAAA",
+      "BAAAA",
+      "BAABA",
+      "BAABB",
+      "BABA",
+      "BBBAB",
+      "BBBBBB"
+    ],
+    "true_key": null
+  },
+  {
+    "id": "tiny_14",
+    "groups": [
+      "21",
+      "001",
+      "0112",
+      "222"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "BBABA",
+    "lexicon": [
+      "AAAA",
+      "AAB",
+      "AABAAB",
+      "AABABA",
+      "AABBA",
+      "AABBAB",
+      "AABBB",
+      "ABAA",
+      "ABABBA",
+      "BAAB",
+      "BAABA",
+      "BB",
+      "BBAABA",
+      "BBABA",
+      "BBABABBA",
+      "BBABBABBA",
+      "BBB",
+      "BBBA",
+      "BBBAB"
+    ],
+    "true_key": {
+      "0": "B",
+      "1": "BA",
+      "2": "BBA"
+    }
+  },
+  {
+    "id": "tiny_15",
+    "groups": [
+      "0201",
+      "20",
+      "0021",
+      "11",
+      "21"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "ABAAAB",
+    "lexicon": [
+      "AABAAA",
+      "AABABA",
+      "AABBA",
+      "ABAAAB",
+      "ABBBA",
+      "BAAA",
+      "BAB",
+      "BABABA",
+      "BABBA",
+      "BABBBA",
+      "BBAAAA",
+      "BBABB",
+      "BBBAA",
+      "BBBBB",
+      "BBBBBA"
+    ],
+    "true_key": null
+  },
+  {
+    "id": "tiny_16",
+    "groups": [
+      "100",
+      "22"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "ABABABA",
+    "lexicon": [
+      "AABAAA",
+      "AABBB",
+      "AABBBA",
+      "ABABA",
+      "ABABABA",
+      "ABBAA",
+      "ABBAB",
+      "ABBABA",
+      "ABBABB",
+      "BA",
+      "BAAA",
+      "BAABBB",
+      "BABA",
+      "BABAAA",
+      "BABBA",
+      "BB",
+      "BBABBB"
+    ],
+    "true_key": {
+      "0": "BA",
+      "1": "ABA",
+      "2": "BA"
+    }
+  },
+  {
+    "id": "tiny_17",
+    "groups": [
+      "0",
+      "120",
+      "2"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "AAABBB",
+    "lexicon": [
+      "AAAAB",
+      "AAABBB",
+      "AABB",
+      "ABAA",
+      "ABBABB",
+      "ABBBAA",
+      "B",
+      "BAA",
+      "BAAABA",
+      "BAABAB",
+      "BABABB",
+      "BBAAAA",
+      "BBABA",
+      "BBABBB",
+      "BBBA",
+      "BBBAAA"
+    ],
+    "true_key": null
+  },
+  {
+    "id": "tiny_18",
+    "groups": [
+      "2",
+      "12",
+      "201"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "ABA",
+    "lexicon": [
+      "AAABAA",
+      "AAABB",
+      "AAB",
+      "AABA",
+      "AABAB",
+      "ABA",
+      "ABAAAAA",
+      "ABAB",
+      "ABABBB",
+      "ABBBBA",
+      "BAAB",
+      "BAABBB",
+      "BABBB",
+      "BBABAB",
+      "BBABBB",
+      "BBBAA",
+      "BBBBBA",
+      "BBBBBB"
+    ],
+    "true_key": {
+      "0": "AAA",
+      "1": "A",
+      "2": "ABA"
+    }
+  },
+  {
+    "id": "tiny_19",
+    "groups": [
+      "022",
+      "00",
+      "1",
+      "21"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "BBABB",
+    "lexicon": [
+      "AABBBB",
+      "ABABAB",
+      "ABBAB",
+      "BAAA",
+      "BAABBA",
+      "BABA",
+      "BABAAA",
+      "BABBAB",
+      "BBA",
+      "BBABAB",
+      "BBABB",
+      "BBBA",
+      "BBBABA",
+      "BBBB",
+      "BBBBA",
+      "BBBBAB"
+    ],
+    "true_key": null
+  },
+  {
+    "id": "tiny_20",
+    "groups": [
+      "21",
+      "1021"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "AAB",
+    "lexicon": [
+      "AAAAAA",
+      "AAABB",
+      "AAB",
+      "AABBBA",
+      "ABAA",
+      "ABABA",
+      "ABBAAB",
+      "ABBABB",
+      "ABBBAB",
+      "BAAAAAB",
+      "BAAB",
+      "BAABBA",
+      "BBA",
+      "BBAABB",
+      "BBABA",
+      "BBABAB",
+      "BBBAAB"
+    ],
+    "true_key": {
+      "0": "AAA",
+      "1": "B",
+      "2": "AA"
+    }
+  },
+  {
+    "id": "tiny_21",
+    "groups": [
+      "1220",
+      "110",
+      "0222",
+      "02"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "ABAAB",
+    "lexicon": [
+      "AAAABA",
+      "AAABAA",
+      "AAABBB",
+      "AABBA",
+      "ABAAAA",
+      "ABAAB",
+      "ABBABA",
+      "ABBBBA",
+      "BAAABB",
+      "BABBBA",
+      "BBABA",
+      "BBBAAA",
+      "BBBAB",
+      "BBBBAA",
+      "BBBBBA",
+      "BBBBBB"
+    ],
+    "true_key": null
+  },
+  {
+    "id": "tiny_22",
+    "groups": [
+      "212",
+      "12",
+      "2",
+      "1022"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "AAABABAAA",
+    "lexicon": [
+      "AAA",
+      "AAAAA",
+      "AAAAB",
+      "AAABABAAA",
+      "AABABB",
+      "AABBAA",
+      "AABBB",
+      "AABBBB",
+      "ABABA",
+      "ABBBAA",
+      "ABBBAB",
+      "ABBBBB",
+      "BABAAA",
+      "BABAAAAAAAA",
+      "BABBB",
+      "BBAAB",
+      "BBAABA",
+      "BBBA",
+      "BBBAB"
+    ],
+    "true_key": {
+      "0": "AA",
+      "1": "BAB",
+      "2": "AAA"
+    }
+  },
+  {
+    "id": "tiny_23",
+    "groups": [
+      "120",
+      "2",
+      "11"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "BBBAA",
+    "lexicon": [
+      "AAAAAB",
+      "AAABB",
+      "AABAAA",
+      "ABAAB",
+      "ABAABA",
+      "ABAB",
+      "ABABB",
+      "ABABBB",
+      "ABBAAA",
+      "BAA",
+      "BAAAB",
+      "BBAAB",
+      "BBABA",
+      "BBBAA",
+      "BBBABA",
+      "BBBBAB"
+    ],
+    "true_key": null
+  },
+  {
+    "id": "tiny_24",
+    "groups": [
+      "22",
+      "111"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "AAAAAA",
+    "lexicon": [
+      "AAAAAA",
+      "AAABBB",
+      "AABAAA",
+      "AABAAB",
+      "AABBAB",
+      "ABAAAB",
+      "ABAABB",
+      "ABABBB",
+      "ABBA",
+      "BAB",
+      "BABAAB",
+      "BABAB",
+      "BBABAB",
+      "BBB",
+      "BBBAAA",
+      "BBBAB",
+      "BBBBAB"
+    ],
+    "true_key": {
+      "1": "B",
+      "2": "AAA"
+    }
+  },
+  {
+    "id": "tiny_25",
+    "groups": [
+      "22",
+      "212",
+      "010",
+      "2",
+      "0010"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "AAABBA",
+    "lexicon": [
+      "AA",
+      "AAAA",
+      "AAABBA",
+      "ABAAB",
+      "ABAABA",
+      "ABABBA",
+      "ABBA",
+      "BAAAB",
+      "BAABA",
+      "BAB",
+      "BABBB",
+      "BBAA",
+      "BBAABB",
+      "BBABAA",
+      "BBBAAB",
+      "BBBBA"
+    ],
+    "true_key": null
+  },
+  {
+    "id": "tiny_26",
+    "groups": [
+      "11",
+      "1222",
+      "101",
+      "110",
+      "21"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "BBBB",
+    "lexicon": [
+      "AA",
+      "AAB",
+      "AABAAA",
+      "AABAAB",
+      "AABBA",
+      "AABBBA",
+      "ABA",
+      "ABAAA",
+      "ABAAAA",
+      "ABAAAB",
+      "ABABB",
+      "BAAABA",
+      "BAB",
+      "BABB",
+      "BBAAA",
+      "BBABAABAABA",
+      "BBBABBB",
+      "BBBB",
+      "BBBBB",
+      "BBBBBAB"
+    ],
+    "true_key": {
+      "0": "BAB",
+      "1": "BB",
+      "2": "ABA"
+    }
+  },
+  {
+    "id": "tiny_27",
+    "groups": [
+      "12",
+      "00"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "AABAAA",
+    "lexicon": [
+      "AAAAAA",
+      "AAABA",
+      "AABAAA",
+      "ABAAB",
+      "ABAABB",
+      "ABAB",
+      "ABABBA",
+      "BAAA",
+      "BAAAAB",
+      "BAABA",
+      "BABABB",
+      "BABBB",
+      "BABBBA",
+      "BBAA",
+      "BBBABA"
+    ],
+    "true_key": null
+  },
+  {
+    "id": "tiny_28",
+    "groups": [
+      "000",
+      "01",
+      "2"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "BABBABBAB",
+    "lexicon": [
+      "AAA",
+      "AAAAAA",
+      "AABBAA",
+      "ABAABB",
+      "ABABB",
+      "B",
+      "BA",
+      "BAAAA",
+      "BAABAB",
+      "BABABA",
+      "BABBA",
+      "BABBABBAB",
+      "BABBB",
+      "BBAAAA",
+      "BBABA",
+      "BBBA",
+      "BBBAB",
+      "BBBBAA"
+    ],
+    "true_key": {
+      "0": "BAB",
+      "1": "ABA",
+      "2": "AAA"
+    }
+  },
+  {
+    "id": "tiny_29",
+    "groups": [
+      "120",
+      "01",
+      "110"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "BAABAA",
+    "lexicon": [
+      "AAA",
+      "AAAAA",
+      "AAABA",
+      "AAABB",
+      "AAABBB",
+      "AAB",
+      "AABA",
+      "AABAAB",
+      "AABBBA",
+      "ABA",
+      "ABAAAB",
+      "BAA",
+      "BAAAB",
+      "BAABAA",
+      "BBA",
+      "BBAAAA"
+    ],
+    "true_key": null
+  },
+  {
+    "id": "tiny_30",
+    "groups": [
+      "22",
+      "112",
+      "000",
+      "211",
+      "12"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "AAAA",
+    "lexicon": [
+      "A",
+      "AAAA",
+      "AAAAAB",
+      "AAABA",
+      "AAABBB",
+      "AAB",
+      "AABAAB",
+      "AABABA",
+      "AABB",
+      "ABB",
+      "BAA",
+      "BAABAABAA",
+      "BAB",
+      "BABA",
+      "BABABA",
+      "BBAA",
+      "BBABA",
+      "BBBABB",
+      "BBBBAB"
+    ],
+    "true_key": {
+      "0": "BAA",
+      "1": "B",
+      "2": "AA"
+    }
+  },
+  {
+    "id": "tiny_31",
+    "groups": [
+      "11",
+      "1022",
+      "0121"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "BBAAB",
+    "lexicon": [
+      "AAA",
+      "AAAAB",
+      "AAABBB",
+      "AAB",
+      "AABBBA",
+      "ABAABB",
+      "ABBAA",
+      "ABBABB",
+      "ABBBBB",
+      "BAA",
+      "BABBBA",
+      "BBAAB",
+      "BBABBA",
+      "BBBA",
+      "BBBAAA",
+      "BBBBB"
+    ],
+    "true_key": null
+  },
+  {
+    "id": "tiny_32",
+    "groups": [
+      "122",
+      "1",
+      "02",
+      "1210"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "ABABBBB",
+    "lexicon": [
+      "A",
+      "AABAB",
+      "ABA",
+      "ABAABA",
+      "ABABBABAAB",
+      "ABABBBB",
+      "ABBA",
+      "ABBABB",
+      "ABBB",
+      "ABBBA",
+      "BAA",
+      "BAAA",
+      "BAAAA",
+      "BAB",
+      "BBAAAA",
+      "BBABAA",
+      "BBABBA",
+      "BBBAA",
+      "BBBBBB"
+    ],
+    "true_key": {
+      "0": "AB",
+      "1": "ABA",
+      "2": "BB"
+    }
+  },
+  {
+    "id": "tiny_33",
+    "groups": [
+      "1020",
+      "20",
+      "2",
+      "02",
+      "1"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "BAB",
+    "lexicon": [
+      "AAAA",
+      "AABABA",
+      "AABBBA",
+      "ABAB",
+      "ABABA",
+      "ABBBAA",
+      "BAAAAB",
+      "BAAABB",
+      "BAB",
+      "BABA",
+      "BBAAAA",
+      "BBAAAB",
+      "BBABAA",
+      "BBABBA",
+      "BBBB",
+      "BBBBA"
+    ],
+    "true_key": null
+  },
+  {
+    "id": "tiny_34",
+    "groups": [
+      "2",
+      "1",
+      "2210",
+      "101"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "AB",
+    "lexicon": [
+      "AAAABB",
+      "AABAAB",
+      "AB",
+      "ABA",
+      "ABAA",
+      "ABAAB",
+      "ABAABB",
+      "ABAB",
+      "ABABAB",
+      "ABABABABB",
+      "ABABBAB",
+      "ABBBAA",
+      "BAAABA",
+      "BAABAB",
+      "BABBAB",
+      "BBAAA",
+      "BBAAAA",
+      "BBABBB"
+    ],
+    "true_key": {
+      "0": "ABB",
+      "1": "AB",
+      "2": "AB"
+    }
+  },
+  {
+    "id": "tiny_35",
+    "groups": [
+      "1",
+      "1221"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "BBBBBB",
+    "lexicon": [
+      "AAABA",
+      "AAABBA",
+      "AAB",
+      "AABB",
+      "ABABA",
+      "ABABBA",
+      "ABBB",
+      "BA",
+      "BAAA",
+      "BABAAA",
+      "BABABA",
+      "BABBA",
+      "BABBAB",
+      "BABBBB",
+      "BBAABB",
+      "BBBBBB"
+    ],
+    "true_key": null
+  },
+  {
+    "id": "tiny_36",
+    "groups": [
+      "0000",
+      "2",
+      "2112",
+      "112"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "AABAABAABAAB",
+    "lexicon": [
+      "AAA",
+      "AAAAA",
+      "AAAAAA",
+      "AAAAB",
+      "AABAABAABAAB",
+      "AABABA",
+      "AABB",
+      "AABBBB",
+      "ABABAB",
+      "ABBABA",
+      "B",
+      "BAAAAB",
+      "BAAABB",
+      "BAABBB",
+      "BABAA",
+      "BABBB",
+      "BBA",
+      "BBAABB",
+      "BBABBB"
+    ],
+    "true_key": {
+      "0": "AAB",
+      "1": "AA",
+      "2": "B"
+    }
+  },
+  {
+    "id": "tiny_37",
+    "groups": [
+      "2021",
+      "1211",
+      "200",
+      "10",
+      "2"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "AAABB",
+    "lexicon": [
+      "AAA",
+      "AAAA",
+      "AAABB",
+      "AAABBA",
+      "AABAA",
+      "ABAABB",
+      "ABABAB",
+      "ABABBA",
+      "ABBAAB",
+      "ABBBB",
+      "BAAAA",
+      "BAABAB",
+      "BAABBA",
+      "BABAB",
+      "BB"
+    ],
+    "true_key": null
+  },
+  {
+    "id": "tiny_38",
+    "groups": [
+      "0201",
+      "0",
+      "1111"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "ABABABAA",
+    "lexicon": [
+      "AAAA",
+      "AAAABA",
+      "AAAABB",
+      "AAABBB",
+      "AABA",
+      "AABAAA",
+      "AABBBB",
+      "ABA",
+      "ABAB",
+      "ABABABAA",
+      "ABBBB",
+      "ABBBBB",
+      "BAABAA",
+      "BAB",
+      "BABBAB",
+      "BB",
+      "BBAB",
+      "BBBBAB"
+    ],
+    "true_key": {
+      "0": "ABA",
+      "1": "A",
+      "2": "B"
+    }
+  },
+  {
+    "id": "tiny_39",
+    "groups": [
+      "22",
+      "222",
+      "0",
+      "00",
+      "1112"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "AABAB",
+    "lexicon": [
+      "AAA",
+      "AAAAA",
+      "AAAAAA",
+      "AAB",
+      "AABAB",
+      "AABBAA",
+      "AABBAB",
+      "ABB",
+      "ABBAAA",
+      "ABBBBB",
+      "BAABBA",
+      "BABB",
+      "BBAABA",
+      "BBB",
+      "BBBAAA",
+      "BBBBAB"
+    ],
+    "true_key": null
+  },
+  {
+    "id": "tiny_40",
+    "groups": [
+      "110",
+      "1111",
+      "12",
+      "20"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "AAAAAAAAA",
+    "lexicon": [
+      "A",
+      "AAAAAAAAA",
+      "AAAAAAAAAAAA",
+      "AAAAAB",
+      "AAAABA",
+      "AAABAB",
+      "AABBAA",
+      "AABBBA",
+      "AABBBB",
+      "AB",
+      "ABABAA",
+      "B",
+      "BAAABA",
+      "BAABAB",
+      "BAABB",
+      "BABAAA",
+      "BBBAA",
+      "BBBAB",
+      "BBBBAA"
+    ],
+    "true_key": {
+      "0": "AAA",
+      "1": "AAA",
+      "2": "BAB"
+    }
+  },
+  {
+    "id": "tiny_41",
+    "groups": [
+      "1201",
+      "20"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "ABBABA",
+    "lexicon": [
+      "AAAAAA",
+      "AABAAA",
+      "AABBA",
+      "ABAAA",
+      "ABBABA",
+      "ABBABB",
+      "BAABAB",
+      "BAABBB",
+      "BABABB",
+      "BABBAA",
+      "BB",
+      "BBAABA",
+      "BBAABB",
+      "BBABA",
+      "BBABAA",
+      "BBBAAA"
+    ],
+    "true_key": null
+  },
+  {
+    "id": "tiny_42",
+    "groups": [
+      "00",
+      "12",
+      "21",
+      "1100"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "BB",
+    "lexicon": [
+      "AAAA",
+      "AABA",
+      "AABB",
+      "ABAA",
+      "ABAAAA",
+      "ABAAB",
+      "ABABB",
+      "ABABBB",
+      "BAAA",
+      "BAAB",
+      "BAABA",
+      "BABA",
+      "BABABB",
+      "BB",
+      "BBAAAB",
+      "BBAABB",
+      "BBAB",
+      "BBBAAB"
+    ],
+    "true_key": {
+      "0": "B",
+      "1": "A",
+      "2": "BAA"
+    }
+  },
+  {
+    "id": "tiny_43",
+    "groups": [
+      "00",
+      "01"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "BBA",
+    "lexicon": [
+      "AAA",
+      "AAAB",
+      "ABAB",
+      "ABB",
+      "ABBAAA",
+      "ABBAAB",
+      "ABBBA",
+      "ABBBAB",
+      "BAA",
+      "BAAABA",
+      "BAABA",
+      "BAABBB",
+      "BB",
+      "BBA",
+      "BBABAA",
+      "BBBB"
+    ],
+    "true_key": null
+  },
+  {
+    "id": "tiny_44",
+    "groups": [
+      "0220",
+      "22",
+      "0001",
+      "0"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "AAABAABAAA",
+    "lexicon": [
+      "AA",
+      "AAAAAAB",
+      "AAABAABAAA",
+      "AABAB",
+      "AABBB",
+      "ABAABA",
+      "ABBABB",
+      "B",
+      "BAAA",
+      "BAAAA",
+      "BAAAAA",
+      "BAABAB",
+      "BABBAA",
+      "BABBAB",
+      "BABBBA",
+      "BBA",
+      "BBAAAA",
+      "BBBBB"
+    ],
+    "true_key": {
+      "0": "AA",
+      "1": "B",
+      "2": "ABA"
+    }
+  },
+  {
+    "id": "tiny_45",
+    "groups": [
+      "2",
+      "021",
+      "2211",
+      "02",
+      "12"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "BABABA",
+    "lexicon": [
+      "AABABA",
+      "ABA",
+      "ABAABB",
+      "ABAB",
+      "ABABAB",
+      "ABBABA",
+      "ABBBB",
+      "BAABA",
+      "BAABAB",
+      "BAABB",
+      "BABA",
+      "BABABA",
+      "BABBBA",
+      "BBB",
+      "BBBA",
+      "BBBB"
+    ],
+    "true_key": null
+  },
+  {
+    "id": "tiny_46",
+    "groups": [
+      "120",
+      "1100"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "BAAABBB",
+    "lexicon": [
+      "AAA",
+      "AAAAA",
+      "AAB",
+      "AABABA",
+      "AABBBB",
+      "ABABAA",
+      "ABBAA",
+      "BAAABA",
+      "BAAABBB",
+      "BAABA",
+      "BAABAABBBB",
+      "BABAAA",
+      "BABABA",
+      "BABB",
+      "BBAAAA",
+      "BBBABA",
+      "BBBBB"
+    ],
+    "true_key": {
+      "0": "BB",
+      "1": "BAA",
+      "2": "AB"
+    }
+  },
+  {
+    "id": "tiny_47",
+    "groups": [
+      "0102",
+      "00",
+      "0211"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "BABAAA",
+    "lexicon": [
+      "AAAB",
+      "AABBBA",
+      "ABBAAA",
+      "ABBAAB",
+      "B",
+      "BAAAA",
+      "BAAABA",
+      "BAAB",
+      "BAB",
+      "BABAAA",
+      "BABBA",
+      "BABBB",
+      "BABBBB",
+      "BBAAAB",
+      "BBABAB",
+      "BBBAB"
+    ],
+    "true_key": null
+  },
+  {
+    "id": "tiny_48",
+    "groups": [
+      "021",
+      "1"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "AAAAAAA",
+    "lexicon": [
+      "AAA",
+      "AAAAAAA",
+      "AAAAAB",
+      "AABABB",
+      "AABBAA",
+      "ABA",
+      "ABAAA",
+      "ABAB",
+      "ABABBB",
+      "ABB",
+      "BABAAB",
+      "BABABA",
+      "BBAABA",
+      "BBABBB",
+      "BBB",
+      "BBBA",
+      "BBBBAA"
+    ],
+    "true_key": {
+      "0": "A",
+      "1": "AAA",
+      "2": "AAA"
+    }
+  },
+  {
+    "id": "tiny_49",
+    "groups": [
+      "1",
+      "11",
+      "01",
+      "0"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "ABAAAA",
+    "lexicon": [
+      "AA",
+      "AAAAAB",
+      "AAAABB",
+      "AABB",
+      "ABAAAA",
+      "ABABAB",
+      "ABABBB",
+      "BAB",
+      "BABA",
+      "BABBBA",
+      "BBA",
+      "BBAA",
+      "BBABBB",
+      "BBBA",
+      "BBBB",
+      "BBBBAB"
+    ],
+    "true_key": null
+  },
+  {
+    "id": "tiny_50",
+    "groups": [
+      "2022",
+      "21",
+      "10",
+      "0"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "BBBAABBBBBBB",
+    "lexicon": [
+      "AAA",
+      "AAABB",
+      "AAB",
+      "AABAAA",
+      "AABBA",
+      "AABBAA",
+      "ABAAB",
+      "ABABBA",
+      "ABBAAA",
+      "BA",
+      "BAA",
+      "BAAB",
+      "BABABB",
+      "BBA",
+      "BBABBA",
+      "BBBAAB",
+      "BBBAABBBBBBB",
+      "BBBB"
+    ],
+    "true_key": {
+      "0": "AAB",
+      "1": "B",
+      "2": "BBB"
+    }
+  },
+  {
+    "id": "tiny_51",
+    "groups": [
+      "0211",
+      "002",
+      "22"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "ABAAA",
+    "lexicon": [
+      "AA",
+      "AAABAA",
+      "AAB",
+      "AABB",
+      "ABAA",
+      "ABAAA",
+      "ABAABA",
+      "ABABAA",
+      "ABABBB",
+      "ABBBBA",
+      "BAABBB",
+      "BBA",
+      "BBAABA",
+      "BBAABB",
+      "BBBA",
+      "BBBBB"
+    ],
+    "true_key": null
+  },
+  {
+    "id": "tiny_52",
+    "groups": [
+      "1000",
+      "2011"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "BABAABAABA",
+    "lexicon": [
+      "A",
+      "AAAAA",
+      "AAB",
+      "AABB",
+      "AABBAB",
+      "AABBB",
+      "ABAABA",
+      "ABABAA",
+      "ABBA",
+      "ABBAAA",
+      "ABBBBB",
+      "BAAAA",
+      "BAAB",
+      "BAABB",
+      "BABAABAABA",
+      "BABABB",
+      "BBBBAB"
+    ],
+    "true_key": {
+      "0": "ABA",
+      "1": "B",
+      "2": "B"
+    }
+  },
+  {
+    "id": "tiny_53",
+    "groups": [
+      "22",
+      "01",
+      "12"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "BA",
+    "lexicon": [
+      "AA",
+      "AABAB",
+      "AABABB",
+      "AABBBB",
+      "ABAAAA",
+      "ABABBB",
+      "ABB",
+      "ABBAAA",
+      "ABBBB",
+      "BA",
+      "BAAAA",
+      "BAABBA",
+      "BAABBB",
+      "BBA",
+      "BBABA",
+      "BBBAAA"
+    ],
+    "true_key": null
+  },
+  {
+    "id": "tiny_54",
+    "groups": [
+      "1",
+      "20"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "BAB",
+    "lexicon": [
+      "AAAA",
+      "AABAB",
+      "ABAAB",
+      "ABAABA",
+      "ABABAA",
+      "ABBBAA",
+      "BAABAA",
+      "BAB",
+      "BABABB",
+      "BABB",
+      "BABBBA",
+      "BBAABA",
+      "BBABAB",
+      "BBABBA",
+      "BBABBB",
+      "BBBABB",
+      "BBBBB"
+    ],
+    "true_key": {
+      "0": "BBB",
+      "1": "BAB",
+      "2": "BBA"
+    }
+  },
+  {
+    "id": "tiny_55",
+    "groups": [
+      "2220",
+      "0"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "BABAB",
+    "lexicon": [
+      "A",
+      "AAAB",
+      "AABAAA",
+      "AABBBB",
+      "ABAABB",
+      "ABABBA",
+      "ABBBB",
+      "BA",
+      "BAAA",
+      "BAAABB",
+      "BAABAA",
+      "BABAAA",
+      "BABAB",
+      "BBAA",
+      "BBBABA",
+      "BBBBBA"
+    ],
+    "true_key": null
+  },
+  {
+    "id": "tiny_56",
+    "groups": [
+      "211",
+      "22",
+      "1001"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "BBBABBA",
+    "lexicon": [
+      "AAAB",
+      "AABAA",
+      "AABBA",
+      "AABBAB",
+      "ABAAB",
+      "ABAABA",
+      "ABB",
+      "BAAAA",
+      "BAAAAA",
+      "BAAAAB",
+      "BAAABA",
+      "BABA",
+      "BB",
+      "BBAAA",
+      "BBABAABAABBA",
+      "BBBAB",
+      "BBBABB",
+      "BBBABBA"
+    ],
+    "true_key": {
+      "0": "BAA",
+      "1": "BBA",
+      "2": "B"
+    }
+  },
+  {
+    "id": "tiny_57",
+    "groups": [
+      "10",
+      "1",
+      "200",
+      "02"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "ABABAA",
+    "lexicon": [
+      "A",
+      "AAAAAB",
+      "AABAA",
+      "AABABA",
+      "AABBBB",
+      "AB",
+      "ABABA",
+      "ABABAA",
+      "ABB",
+      "ABBA",
+      "ABBABB",
+      "BAA",
+      "BABAAA",
+      "BABBBA",
+      "BBABBB",
+      "BBB"
+    ],
+    "true_key": null
+  },
+  {
+    "id": "tiny_58",
+    "groups": [
+      "0",
+      "2102"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "BBA",
+    "lexicon": [
+      "AAAABBAA",
+      "AAABBB",
+      "AABAAA",
+      "AABB",
+      "AABBBB",
+      "ABAABB",
+      "ABAB",
+      "ABB",
+      "BAABAA",
+      "BAABBB",
+      "BABA",
+      "BABAB",
+      "BBA",
+      "BBBAAA",
+      "BBBABB",
+      "BBBBAA",
+      "BBBBBA"
+    ],
+    "true_key": {
+      "0": "BBA",
+      "1": "AAA",
+      "2": "A"
+    }
+  },
+  {
+    "id": "tiny_59",
+    "groups": [
+      "21",
+      "2001",
+      "00",
+      "012"
+    ],
+    "anchor_index": 0,
+    "anchor_word": "BAABAB",
+    "lexicon": [
+      "A",
+      "AAABB",
+      "AABAAA",
+      "AABBAB",
+      "AB",
+      "ABAB",
+      "ABBBA",
+      "BAAAB",
+      "BAABAB",
+      "BAABBB",
+      "BBAABA",
+      "BBABBB",
+      "BBBAAA",
+      "BBBAAB",
+      "BBBAB",
+      "BBBABB"
+    ],
+    "true_key": null
+  },
+  {
+    "id": "topology_00",
+    "groups": [
+      "3478",
+      "67",
+      "90871",
+      "97664",
+      "3466",
+      "0",
+      "345"
+    ],
+    "anchor_index": 6,
+    "anchor_word": "AAAAAA",
+    "lexicon": [
+      "AA",
+      "AAA",
+      "AAAA",
+      "AAAAA",
+      "AAAAAA",
+      "AAAAAAA",
+      "AAAAAAAA",
+      "AAAAAAAAA",
+      "AAAAAAAAAA",
+      "AAAAAAAAAAA",
+      "AAAAAAAAAAAA",
+      "AAAAAAAAAAAAA",
+      "AAAAAAAAAAAAAA"
+    ],
+    "true_key": {
+      "0": "AA",
+      "1": "A",
+      "3": "AA",
+      "4": "AAA",
+      "5": "A",
+      "6": "AA",
+      "7": "A",
+      "8": "AA",
+      "9": "A"
+    }
+  },
+  {
+    "id": "topology_01",
+    "groups": [
+      "3478",
+      "67",
+      "90871",
+      "97664",
+      "3466",
+      "0",
+      "345"
+    ],
+    "anchor_index": 6,
+    "anchor_word": "AAAAAAAA",
+    "lexicon": [
+      "A",
+      "AA",
+      "AAA",
+      "AAAA",
+      "AAAAA",
+      "AAAAAA",
+      "AAAAAAA",
+      "AAAAAAAA",
+      "AAAAAAAAA",
+      "AAAAAAAAAA",
+      "AAAAAAAAAAA",
+      "AAAAAAAAAAAA",
+      "AAAAAAAAAAAAAAA"
+    ],
+    "true_key": {
+      "0": "AAA",
+      "1": "AA",
+      "3": "AAA",
+      "4": "AAA",
+      "5": "AA",
+      "6": "A",
+      "7": "AA",
+      "8": "AA",
+      "9": "A"
+    }
+  },
+  {
+    "id": "topology_02",
+    "groups": [
+      "3478",
+      "67",
+      "90871",
+      "97664",
+      "3466",
+      "0",
+      "345"
+    ],
+    "anchor_index": 6,
+    "anchor_word": "AAAA",
+    "lexicon": [
+      "AAA",
+      "AAAA",
+      "AAAAA",
+      "AAAAAAA",
+      "AAAAAAAA",
+      "AAAAAAAAAAA",
+      "AAAAAAAAAAAA",
+      "AAAAAAAAAAAAA",
+      "AAAAAAAAAAAAAA"
+    ],
+    "true_key": {
+      "0": "AAA",
+      "1": "AA",
+      "3": "A",
+      "4": "AA",
+      "5": "A",
+      "6": "AA",
+      "7": "AAA",
+      "8": "AA",
+      "9": "AA"
+    }
+  },
+  {
+    "id": "topology_03",
+    "groups": [
+      "3478",
+      "67",
+      "90871",
+      "97664",
+      "3466",
+      "0",
+      "345"
+    ],
+    "anchor_index": 6,
+    "anchor_word": "AAAAAAA",
+    "lexicon": [
+      "A",
+      "AA",
+      "AAA",
+      "AAAA",
+      "AAAAA",
+      "AAAAAA",
+      "AAAAAAA",
+      "AAAAAAAAA",
+      "AAAAAAAAAA",
+      "AAAAAAAAAAA",
+      "AAAAAAAAAAAAA",
+      "AAAAAAAAAAAAAAA"
+    ],
+    "true_key": {
+      "0": "AAA",
+      "1": "A",
+      "3": "AA",
+      "4": "AA",
+      "5": "AAA",
+      "6": "AAA",
+      "7": "AA",
+      "8": "AAA",
+      "9": "A"
+    }
+  },
+  {
+    "id": "topology_04",
+    "groups": [
+      "3478",
+      "67",
+      "90871",
+      "97664",
+      "3466",
+      "0",
+      "345"
+    ],
+    "anchor_index": 6,
+    "anchor_word": "AAAAAAA",
+    "lexicon": [
+      "A",
+      "AA",
+      "AAA",
+      "AAAA",
+      "AAAAA",
+      "AAAAAA",
+      "AAAAAAA",
+      "AAAAAAAAA",
+      "AAAAAAAAAA",
+      "AAAAAAAAAAA",
+      "AAAAAAAAAAAA",
+      "AAAAAAAAAAAAAA",
+      "AAAAAAAAAAAAAAA"
+    ],
+    "true_key": {
+      "0": "AAA",
+      "1": "A",
+      "3": "AAA",
+      "4": "AA",
+      "5": "AA",
+      "6": "AAA",
+      "7": "AA",
+      "8": "AA",
+      "9": "AA"
+    }
+  },
+  {
+    "id": "topology_05",
+    "groups": [
+      "3478",
+      "67",
+      "90871",
+      "97664",
+      "3466",
+      "0",
+      "345"
+    ],
+    "anchor_index": 6,
+    "anchor_word": "AAAAA",
+    "lexicon": [
+      "A",
+      "AA",
+      "AAA",
+      "AAAA",
+      "AAAAA",
+      "AAAAAA",
+      "AAAAAAA",
+      "AAAAAAAAA",
+      "AAAAAAAAAA",
+      "AAAAAAAAAAAA",
+      "AAAAAAAAAAAAA",
+      "AAAAAAAAAAAAAA"
+    ],
+    "true_key": {
+      "0": "A",
+      "1": "A",
+      "3": "A",
+      "4": "A",
+      "5": "AAA",
+      "6": "A",
+      "7": "A",
+      "8": "AAA",
+      "9": "A"
+    }
+  },
+  {
+    "id": "topology_06",
+    "groups": [
+      "3478",
+      "67",
+      "90871",
+      "97664",
+      "3466",
+      "0",
+      "345"
+    ],
+    "anchor_index": 6,
+    "anchor_word": "AAAAAAA",
+    "lexicon": [
+      "A",
+      "AAA",
+      "AAAA",
+      "AAAAA",
+      "AAAAAAA",
+      "AAAAAAAA",
+      "AAAAAAAAAA",
+      "AAAAAAAAAAA",
+      "AAAAAAAAAAAAA",
+      "AAAAAAAAAAAAAA",
+      "AAAAAAAAAAAAAAA"
+    ],
+    "true_key": {
+      "0": "AAA",
+      "1": "AAA",
+      "3": "AAA",
+      "4": "AA",
+      "5": "AA",
+      "6": "A",
+      "7": "AAA",
+      "8": "AAA",
+      "9": "A"
+    }
+  },
+  {
+    "id": "topology_07",
+    "groups": [
+      "3478",
+      "67",
+      "90871",
+      "97664",
+      "3466",
+      "0",
+      "345"
+    ],
+    "anchor_index": 6,
+    "anchor_word": "AAAAAAA",
+    "lexicon": [
+      "A",
+      "AAA",
+      "AAAAA",
+      "AAAAAA",
+      "AAAAAAA",
+      "AAAAAAAA",
+      "AAAAAAAAAAAA",
+      "AAAAAAAAAAAAA",
+      "AAAAAAAAAAAAAA",
+      "AAAAAAAAAAAAAAA"
+    ],
+    "true_key": {
+      "0": "AAA",
+      "1": "AA",
+      "3": "AAA",
+      "4": "AAA",
+      "5": "A",
+      "6": "AAA",
+      "7": "AAA",
+      "8": "AAA",
+      "9": "A"
+    }
+  },
+  {
+    "id": "topology_08",
+    "groups": [
+      "3478",
+      "67",
+      "90871",
+      "97664",
+      "3466",
+      "0",
+      "345"
+    ],
+    "anchor_index": 6,
+    "anchor_word": "AAAAAA",
+    "lexicon": [
+      "A",
+      "AA",
+      "AAA",
+      "AAAA",
+      "AAAAAA",
+      "AAAAAAA",
+      "AAAAAAAA",
+      "AAAAAAAAA",
+      "AAAAAAAAAA",
+      "AAAAAAAAAAA",
+      "AAAAAAAAAAAAA",
+      "AAAAAAAAAAAAAA"
+    ],
+    "true_key": {
+      "0": "A",
+      "1": "AAA",
+      "3": "A",
+      "4": "AA",
+      "5": "AAA",
+      "6": "AA",
+      "7": "AA",
+      "8": "AAA",
+      "9": "AA"
+    }
+  },
+  {
+    "id": "topology_09",
+    "groups": [
+      "3478",
+      "67",
+      "90871",
+      "97664",
+      "3466",
+      "0",
+      "345"
+    ],
+    "anchor_index": 6,
+    "anchor_word": "AAAAAAA",
+    "lexicon": [
+      "AAA",
+      "AAAAA",
+      "AAAAAAA",
+      "AAAAAAAA",
+      "AAAAAAAAA",
+      "AAAAAAAAAA",
+      "AAAAAAAAAAA",
+      "AAAAAAAAAAAA",
+      "AAAAAAAAAAAAAAA"
+    ],
+    "true_key": {
+      "0": "AAA",
+      "1": "AAA",
+      "3": "A",
+      "4": "AAA",
+      "5": "AAA",
+      "6": "AAA",
+      "7": "AA",
+      "8": "AA",
+      "9": "A"
+    }
+  }
+]

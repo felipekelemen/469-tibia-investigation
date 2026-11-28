@@ -1,0 +1,67 @@
+{
+  "round": 38,
+  "date_utc": "2026-11-28",
+  "baseline": "f6a92353e7577112cd302375902f5d9842c13112",
+  "stage": "Before full anchored-key enumeration and new control outcomes",
+  "question": "Does the previously observed FOOL conditional fit survive broader controls, characterize a readable whole message, or yield unchanged cross-message predictions?",
+  "anchor": {
+    "raw": "345",
+    "word": "FOOL",
+    "status": "Community conjecture selected after seeing game text, not ground truth"
+  },
+  "family": "Unchanged R33/R36 fixed nonempty 1..3 uppercase letters per observed digit, shared across seven numeric groups; each group a word in the pinned CMU bank plus historical BONELORD",
+  "real_expected_count": 3976,
+  "new_solver": "Exact trie-backed enumeration with forced anchor, complete key set; qualify by independent whole-key enumeration and verify all real witnesses. No language score or key ranking.",
+  "controls": {
+    "seed": 384693478,
+    "per_family": 199,
+    "families": [
+      "within_all_groups",
+      "within_other_groups_anchor_fixed",
+      "pooled_other_digits_anchor_fixed"
+    ],
+    "sampling": "Seeded independent draws from declared permutations, retain duplicates and identity; no success-dependent rejection. Distinct groups shuffled consistently in first family. Pooled type keeps first six word lengths and their pooled digit multiset, last group345unchanged.",
+    "statistic": "Number of conditional lexical keys; report positives, complete/limited counts and >= real-count comparisons. Descriptive sensitivity only, no inferential p-value because anchor and question are post-selection.",
+    "all_earlier_controls_status": "Previously exposed, not fresh held-out evidence"
+  },
+  "qualification": {
+    "seed": 384690001,
+    "small_cases": 60,
+    "topology_cases": 10,
+    "digits_small": "012",
+    "unit_alphabet": "AB",
+    "minimum": 1,
+    "maximum": 3,
+    "all_counts_and_returned_keys_must_match_independent_brute_force": true
+  },
+  "transfer": {
+    "selection": "Every canonical_candidate in data/source_validation_inventory.json except Knightmare; preserve source grouping and duplicate-message identity",
+    "all_inputs_previously_exposed": true,
+    "key_rule": "Use all3976unchanged keys; no digit2completion, lore repair or best-key choice",
+    "modes": [
+      "Each numeric group is one lexical word",
+      "Each numeric group may be segmented into a sequence of lexical words, with supplied group boundaries retained"
+    ],
+    "semantic_validation": "No withheld English answers available. Lexical matches alone cannot validate translation; missing digits are unavailable, never rejection."
+  },
+  "word_attestation_sensitivity": {
+    "sources": [
+      "data/english_reference/alice.txt",
+      "data/benchmark_reference/frankenstein.txt",
+      "data/benchmark_reference/pride_prejudice.txt"
+    ],
+    "normalization": "Regex ASCII alphabetic runs uppercase on full pinned files, including headers; count forms occurring at least once. Same three sources as R35, used as a sensitivity subset only, no score/ranking.",
+    "scope": "Not a complete English lexicon or proper-name classifier; absence excludes only this restricted source subset."
+  },
+  "budgets": {
+    "per_fit_wall_seconds": 30,
+    "total_fit_wall_seconds": 900,
+    "address_space_bytes": 3221225472,
+    "max_states": 2000000,
+    "max_local_visits": 5000000,
+    "max_keys": 100000,
+    "concurrency": 1
+  },
+  "new_translation_candidate": null,
+  "mission_outcome_before_execution": "I_inconclusive"
+}

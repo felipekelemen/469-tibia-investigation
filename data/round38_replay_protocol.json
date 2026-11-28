@@ -1,0 +1,45 @@
+{
+  "stage": "After numerical results and tuple/list audit correction, before public-only replay",
+  "jobs": [
+    {
+      "id": "prior_v3_closure",
+      "command": [
+        "python",
+        "scripts/check_mission_v3.py"
+      ]
+    },
+    {
+      "id": "prior_round37_publication",
+      "command": [
+        "python",
+        "scripts/check_round37_publication.py"
+      ]
+    },
+    {
+      "id": "round38_full",
+      "command": [
+        "python",
+        "scripts/run_round38.py",
+        "--full",
+        "--output",
+        "results/round38_repeated.json"
+      ]
+    },
+    {
+      "id": "tests",
+      "command": [
+        "python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ]
+    }
+  ],
+  "timeout_seconds_per_job": 1800,
+  "max_address_space_per_process_bytes": 3221225472,
+  "concurrency": 1,
+  "scope": "Public-only file snapshot on the same runtime; no private captures, source clones or network. Repeat all new numeric fits with unchanged limits. Not external peer review."
+}

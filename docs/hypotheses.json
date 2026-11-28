@@ -936,5 +936,26 @@
     "status": "literal_output_reproduced_adjusted_reading_requires_occurrence_choices",
     "evidence": "Saída literal BE A TIV TAN BE * VF. Expansões com ordem preservada dão 22.464 sequências e não a leitura ajustada; permutações prévias dos símbolos dão 6.469.632 e a incluem. Artigo permite anagramas: falha ordenada não refuta proposta inteira; alcance da frase não é transferência independente.",
     "artifact": "results/round37_claim_checks.json"
+  },
+  {
+    "id": "H135",
+    "hypothesis": "As 3.976 chaves condicionadas por 345 → FOOL fornecem uma candidata inglesa consistente na família fixa",
+    "status": "complete_conditional_key_set_obtained_no_validated_translation",
+    "evidence": "3.976 chaves e sequências distintas; todas forçam 3=F, 4=O, 5=OL, 6=R/S. 3466 só produz FORR/FOSS. Zero chaves têm todas as palavras presentes nas três obras fixadas, sem pretender cobrir todo o inglês. 70 conjuntos de chaves sintéticos concordam com enumeração independente.",
+    "artifact": "results/round38/inspection.json"
+  },
+  {
+    "id": "H136",
+    "hypothesis": "A existência e a contagem de chaves sob a âncora FOOL distinguem a fala de números embaralhados",
+    "status": "not_sufficient_as_semantic_evidence_broader_controls_admit_keys",
+    "evidence": "597 controles: 561 completos, 36 limitados. 39 completos positivos e seis limitados já positivos. Uma redistribuição possui 4.268 chaves, acima das 3.976 reais. Comparação posterior, sem p-valor; controles limitados preservados como inconclusivos.",
+    "artifact": "results/round38/controls.json"
+  },
+  {
+    "id": "H137",
+    "hypothesis": "Alguma chave condicionada por FOOL se transfere inalterada a Avar Tar e Your True Colour sob a mesma regra lexical",
+    "status": "excluded_with_explicit_conditional_fragment_certificates",
+    "evidence": "Todas as chaves produzem 453 → OOLF em Avar e 34334 → FOFFO no quiz; nenhum resultado admite palavra ou segmentação no léxico fixado. Impedimentos independem de completar o dígito2. Chayenne permanece sem decodificação completa. Não refuta códigos de palavras ou modelos com anagramas.",
+    "artifact": "results/round38/deductions.json"
   }
 ]

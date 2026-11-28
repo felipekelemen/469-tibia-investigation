@@ -1,0 +1,83 @@
+70 independent arithmetic cases passed
+Real exact count: 3976 seconds: 0.19598754198523238
+Controls 25 / 597 seconds: 2.18
+Controls 50 / 597 seconds: 4.18
+Controls 75 / 597 seconds: 6.58
+Controls 100 / 597 seconds: 8.81
+Controls 125 / 597 seconds: 10.69
+Controls 150 / 597 seconds: 12.85
+Controls 175 / 597 seconds: 14.68
+Controls 200 / 597 seconds: 16.72
+Controls 225 / 597 seconds: 18.88
+Controls 250 / 597 seconds: 20.85
+Controls 275 / 597 seconds: 23.13
+Controls 300 / 597 seconds: 25.26
+Controls 325 / 597 seconds: 27.1
+Controls 350 / 597 seconds: 28.92
+Controls 375 / 597 seconds: 30.81
+Controls 400 / 597 seconds: 32.78
+Controls 425 / 597 seconds: 36.65
+Controls 450 / 597 seconds: 39.9
+Controls 475 / 597 seconds: 43.51
+Controls 500 / 597 seconds: 46.71
+Controls 525 / 597 seconds: 49.52
+Controls 550 / 597 seconds: 51.74
+Controls 575 / 597 seconds: 55.1
+{
+  "round": 38,
+  "qualification_cases": 70,
+  "real_keys": 3976,
+  "distinct_training_strings": 3976,
+  "all_words_reference_attested_keys": 0,
+  "controls": {
+    "within_all_groups": {
+      "cases": 199,
+      "complete": 196,
+      "limited": 3,
+      "positive_complete": 17,
+      "at_least_real_count_complete": 0,
+      "maximum_complete_count": 944,
+      "distinct_numeric_inputs": 199
+    },
+    "within_other_groups_anchor_fixed": {
+      "cases": 199,
+      "complete": 196,
+      "limited": 3,
+      "positive_complete": 18,
+      "at_least_real_count_complete": 0,
+      "maximum_complete_count": 506,
+      "distinct_numeric_inputs": 199
+    },
+    "pooled_other_digits_anchor_fixed": {
+      "cases": 199,
+      "complete": 169,
+      "limited": 30,
+      "positive_complete": 4,
+      "at_least_real_count_complete": 1,
+      "maximum_complete_count": 4268,
+      "distinct_numeric_inputs": 199
+    }
+  },
+  "control_fit_wall_seconds": 57.52415417332668,
+  "new_candidate_translation": null,
+  "mission_outcome": "I_inconclusive"
+}
+{
+  "round": 38,
+  "arithmetic_qualification_cases": 70,
+  "complete_conditional_keys_verified": 3976,
+  "controls": 597,
+  "complete_controls": 561,
+  "limited_controls": 36,
+  "positive_complete_controls": 39,
+  "unanimous_fragment_obstructions": 2,
+  "mission_outcome": "I_inconclusive",
+  "new_validated_translation": null,
+  "replay": {
+    "all_70_arithmetic_cases_repeated": true,
+    "all_3976_real_keys_identical": true,
+    "all_597_controls_repeated": true,
+    "complete_and_limited_outcomes_identical": true,
+    "all_transfer_diagnostics_identical": true
+  }
+}

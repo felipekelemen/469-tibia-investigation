@@ -1,0 +1,11 @@
+{
+  "stage": "Before arithmetic qualification, full real-key enumeration and 597 control fits",
+  "sha256": {
+    "scripts/round38_enumerate.cpp": "297379b644749e46833c3413f43a8112c958bafc69b48d26d06f6d45138e16c2",
+    "scripts/round38_experiment.py": "dc54ffcd2ba7495f317e7194c93b70ffbf7e19b1af6b7b9bcf8b2e620259ef69",
+    "tests/test_round38_enumeration.py": "bbd884f580f46a7918139a95f4a218134afccea1a68b95692e456f840a9c91f1",
+    "data/round38_protocol.json": "e9f3c665ec2a17d658cc0c556f5fa9417563fbd6a789bcfc7f083eeb44a537fb",
+    "data/round38_fixtures.json": "e13d381bd6f3509c0db3f68e0b65e41863fa3eef12665b75b3442dc73a17f9dc",
+    "data/round38_qualification_fixtures.json": "8a9e7e26ed66eacb8fbabe5c9d4adaf881fd36bcd62c49c604eb9844b60598a1"
+  }
+}

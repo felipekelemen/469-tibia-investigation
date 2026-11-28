@@ -1,0 +1,9 @@
+{
+  "round": 37,
+  "public_artifacts_verified": true,
+  "tests_passed": 337,
+  "public_snapshot_files": 977,
+  "fresh_conditional_counts_reproduced": 3,
+  "new_validated_translation": null,
+  "mission_outcome": "I_inconclusive"
+}

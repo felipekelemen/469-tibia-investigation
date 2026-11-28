@@ -1,0 +1,13 @@
+{
+  "stage": "After target enumeration, all597controlattempts and deterministic deductions; before public replay",
+  "sha256": {
+    "results/round38/controls.json": "d008da1fe311449b6711f10424893235035aa491821233ef91fc7acb8ce066a5",
+    "results/round38/deductions.json": "20eb3ef9ae4057daefde76f67718b25b19c7ce13a2341612d29034c7368839cd",
+    "results/round38/inspection.json": "e016bed63abeceee27f712d7e2a0023e0961e58de3924c1c1c305ac5d281cce8",
+    "results/round38/qualification.json": "fcd0083add5c36a28d85b1f54a863dc172eedac7cdbf6d994701a2ea60c97bf7",
+    "results/round38/real_keys.json.gz": "23eb8e7e51ec2ee118ea9f70bbd46bbfa8c39d581b8d5de0b532cbc936ae5f32",
+    "results/round38/summary.json": "dd5a4dcd1593285776d5d39e7d665e7160cc13ee6e1e71faf0a8f4093f126c6e",
+    "scripts/round38_diagnostics.py": "c08e40f3c58def7671dc783f70f557e92f0bfbaaf30882034e758aba368a3411",
+    "scripts/run_round38.py": "cb13e1de20239f14ac886920a0b8534eb85f3e3ad6278fac4e32c81763d08b7a"
+  }
+}

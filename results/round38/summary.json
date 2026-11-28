@@ -1,0 +1,39 @@
+{
+  "round": 38,
+  "qualification_cases": 70,
+  "real_keys": 3976,
+  "distinct_training_strings": 3976,
+  "all_words_reference_attested_keys": 0,
+  "controls": {
+    "within_all_groups": {
+      "cases": 199,
+      "complete": 196,
+      "limited": 3,
+      "positive_complete": 17,
+      "at_least_real_count_complete": 0,
+      "maximum_complete_count": 944,
+      "distinct_numeric_inputs": 199
+    },
+    "within_other_groups_anchor_fixed": {
+      "cases": 199,
+      "complete": 196,
+      "limited": 3,
+      "positive_complete": 18,
+      "at_least_real_count_complete": 0,
+      "maximum_complete_count": 506,
+      "distinct_numeric_inputs": 199
+    },
+    "pooled_other_digits_anchor_fixed": {
+      "cases": 199,
+      "complete": 169,
+      "limited": 30,
+      "positive_complete": 4,
+      "at_least_real_count_complete": 1,
+      "maximum_complete_count": 4268,
+      "distinct_numeric_inputs": 199
+    }
+  },
+  "control_fit_wall_seconds": 58.048934329417534,
+  "new_candidate_translation": null,
+  "mission_outcome": "I_inconclusive"
+}
